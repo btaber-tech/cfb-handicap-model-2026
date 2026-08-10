@@ -1,0 +1,16 @@
+# Secrets - never commit
+extracted_data/.cfbd_api_key
+
+# Source PDF is huge (243MB) and not needed - only the derived CSVs are used by the pipeline
+Athlon Sports College Football Preview 2026.pdf
+
+# Local Claude Code settings (machine-specific, not needed for the pipeline)
+.claude/
+
+# Windows junk
+desktop.ini
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,139 @@
+team,conference,conference_predicted_finish,national_forecast_rank,record_2025_overall,record_2025_conference,record_2025_conference_label,returning_starters_offense,returning_starters_defense,head_coach,hc_record_at_school,hc_years_at_school,hc_career_record,hc_career_years,offensive_coordinator,defensive_coordinator,location,stadium,stadium_capacity
+Boston College,ACC,16.0,83,2-10,1-7,ACC,1.0,3.0,Bill O'Brien,9-16,2,24-25,4,Bill,Ted Roof,"Chestnut Hill, Mass.",Alumni Stadium,44500.0
+Cal,ACC,10.0,47,7-6,4-4,ACC,,,Tosh Lupol,0-0,0,0-0,0,"Jordan Somerville, Ike Hilliard","Michael Hutchings, Da'Von Brown",,California Memorial Stadium,63000.0
+Clemson,ACC,4.0,27,7-6,4-4,ACC,4.0,3.0,Dabo Swinney,187-53,17+,187-53,17+,Chad Morris K,Tom Allen,"Clemson, S.C. P",Memorial Stadium,81500.0
+Duke,ACC,13.0,54,9-5,6-2,ACC,,,Manny Diaz,18-9,2,39-24,5,Jonathan Brewer Dec.,Jonathan Patke,"Durham, N.C.",Wallace Wade Stadium,35018.0
+Florida State,ACC,11.0,48,5-7,2-6,ACC,2.0,4.0,Mike Norvell,38-34,6,76-49,10,"Mike Norvell, Tim Harris Jr.",Tony White,"Tallahassee, Fla.",Doak Campbell Stadium,67277.0
+Georgia Tech,ACC,8.0,41,9-4,6-2,ACC,,,Brent Key,27-20,3+,27-20,3+,"George Godsey, a phe Chris Weinke",Jason Semore,"Atlanta, Ga.",Bobby Dodd Stadium,51913.0
+Louisville,ACC,3.0,23,9-4,4-4,ACC,3.0,9.0,Jeff Brohm,28-12,3,,,Brian Brohm K =,"Steve Ellis, Mark Ivey","Louisville, Ky. P",L&N Federal Credit Union Stadium,60800.0
+Miami (Fla.),ACC,1.0,7,13-3,6-2,ACC,,,Mario Cristobal,35-19,4,97-79,14+,Shannon Dawson,Corey Hetherman,"Coral Gables, Fla.",Hard Rock Stadium,64767.0
+North Carolina,ACC,14.0,56,4-8,2-6,ACC,2.0,3.0,Bill Belichick,4-8,1,4-8,1,Bobby Petrino,Steve Belichick,"Chapel Hill, N.C.",Kenan Stadium,50500.0
+NC State,ACC,9.0,46,8-5,4-4,ACC,3.0,2.0,Dave Doeren,95-70,13,,,Kurt Roper,DJ Eliot,"Raleigh, N.C.",Carter-Finley Stadium,56919.0
+Pitt,ACC,7.0,40,8-5,6-2,ACC,5.0,5.0,Pat Narduzzi,80-61,11,,,,,,Acrisure Stadium,68400.0
+SMU,ACC,2.0,22,9-4,6-2,ACC,,,Rhett Lashlee,38-16,4,38-16,4,"Garin Justice, D'Eriq ame *S-Arizona","Maurice Crum Jr, Rickey Hunley Jr.","Dallas, Texas",Gerald J. Ford Stadium,33200.0
+Stanford,ACC,17.0,84,4-8,3-5,ACC,5.0,5.0,Tavita Pritchard,0-0,0,0-0,0,Terry Heffernan,Kris Richard,"Palo Alto, Calif.",Stanford Stadium,50424.0
+Syracuse,ACC,15.0,71,3-9,1-7,ACC,,,Fran Brown,13-12,2,13-12,2,Jeff Nixon,"Vince Kehres, John Scott Jr.","Syracuse, NY.",JMA Wireless Dome,42784.0
+Virginia,ACC,6.0,39,11-3,7-1,ACC,3.0,5.0,Tony Elliott,22-26,4,22-26,4,Des Kitchings,John Rudzinski,"Charlottesville, Va.",Scott Stadium,61500.0
+Virginia Tech,ACC,5.0,30,3-9,2-6,ACC,,,James Franklin,0-0,0,128-60,14+,Ty Howle Nov.,Brent Pry,"Blacksburg, Va.",Lane Stadium,65632.0
+Wake Forest,ACC,12.0,53,9-4,4-4,ACC,2.0,8.0,Jake Dickert,3-4,1,,,,,,Allegacy Federal Credit Union Stadium,31500.0
+Army,American,4.0,74,7-6,4-4,AMERICAN,8.0,3.0,Jeff Monken,89-63,12,127-79,16,Cody Worley K,"Daryl Dixon, Scot Sloan","West Point, NY. P",Michie Stadium,30000.0
+Charlotte,American,14.0,127,1-11,0-8,AMERICAN,,,Tim Albin «,1-11,1,59-38,8,Todd Fitch,Nate Faanes,"Charlotte, N.C.",Jerry Richardson Stadium,15314.0
+East Carolina,American,5.0,75,9-4,6-2,AMERICAN,1.0,2.0,Blake Harrell,14-5,1+,14-5,1+,Jordan Davis,"Jordon Hankins, Roy Tesh","Greenville, N.C.",Dowdy-Ficklen Stadium,51000.0
+Florida Atlantic,American,9.0,96,4-8,3-5,AMERICAN,,,Zach Kittley,4-8,1,4-8,1,Zach Kittley,Brett Dewhurst,"Boca Raton, Fla.",Flagler Credit Union Stadium,30000.0
+Memphis,American,2.0,66,8-5,4-4,AMERICAN,1.0,0.0,Charles Huff,FirstSeason Dec.19 vs. NC State # | 73,,39-25,,"Kevin Decker, David Weeks",Lance Guidry,Memphis,Simmons Bank Liberty Stadium,50000.0
+Navy,American,1.0,60,11-2,7-1,AMERICAN,4.0,5.0,Brian Newberry,26-12,3,26-12,3,Drew Cronic SETUIBNING STARTERS IN BOLD,"Eric Lewis, Ricky Brown","Annapolis, Md.",Navy-Marine Corps Memorial Stadium,34000.0
+North Texas,American,11.0,109,12-2,7-1,AMERICAN,0.0,0.0,Neal Brown,0-0,0,72-51,10,Neal Brown,"Matt Powledge, Bradley Dale Peveto","Denton, Texas",DATCU Stadium,30100.0
+Rice,American,12.0,120,5-8,2-6,AMERICAN,,,Scott Abell,5-8,1,91-60,14,Vince Munch,Jon Kay,"Houston, Texas",Rice Stadium,47000.0
+South Florida,American,6.0,76,9-4,6-2,AMERICAN,2.0,1.0,Brian Hartline,0-0,0,0-0,0,Tim Beck P,Josh Aldridge,"Tampa, Fla.",Raymond James Stadium,69218.0
+Temple,American,8.0,90,5-7,3-5,AMERICAN,,,K.C. Keeler,5-7,1,276-119,,Tyler Walker,Brian L. Smith,"Philadelphia, Pa. «",Lincoln Financial Field,67594.0
+Tulane,American,7.0,79,11-3,7-1,AMERICAN,2.0,4.0,Will Hall,0-0,0,70-50,,Russ Callaway,"Tayler Polk, Nate Fuqua","New Orleans, La.",Yulman Stadium,30000.0
+Tulsa,American,10.0,108,4-8,1-7,AMERICAN,,,Tre Lamb,4-8,1,31-33,5+,"Kevin Bar- bay, Ty Darlington",Josh Reardon,"Tulsa, Okla",H.A. Chapman Stadium,30000.0
+UAB,American,13.0,121,4-8,2-6,AMERICAN,2.0,0.0,Alex Mortensen,2-4,1,2-4,1,Alex Mortensen,Todd Grantham,"Birmingham, Ala.",Protective Stadium,47100.0
+UTSA,American,3.0,73,7-6,4-4,AMERICAN,,,Jeff Traylor,53-26,6,53-26,6,Rick Bowie Dec.,Jess Loepp,"San Antonio, Texas",Alamodome,64000.0
+Arizona,Big 12,6.0,32,9-4,6-3,BIG 12,4.0,4.0,Brent Brennan,13-12,2,47-60,9,Seth Doege K,Danny Gonzales,"Tucson, Ariz. P",Casino Del Sol Stadium,50782.0
+Arizona State,Big 12,7.0,35,8-5,6-3,BIG 12,,,Kenny Dillingham,22-17,3,22-17,3,Marcus Arroyo aoa VS. Duke,Brian Ward,"Tempe, Ariz.",Mountain America Stadium,53599.0
+Baylor,Big 12,12.0,62,5-7,3-6,BIG 12,1.0,4.0,Dave Aranda,36-37,6,36-37,6,Jake Spavital,Joe Klanderman,"Waco, Texas",McLane Stadium,45140.0
+BYU,Big 12,2.0,16,12-2,8-1,BIG 12,,,Kalani Sitake,84-45,10,84-45,10,Aaron Roderick Dec.,Kelly Poppinga,"Provo, Utah",LaVell Edwards Stadium,62073.0
+Cincinnati,Big 12,13.0,63,7-6,5-4,BIG 12,3.0,1.0,Scott Satterfield,15-22,3,91-70,13,"Nic Cardwell, ae * NY : Pete Thomas","Nate Woody , Cortney Braswell","Cincinnati, Ohio",Nippert Stadium,38088.0
+Colorado,Big 12,14.0,64,3-9,1-8,BIG 12,4.0,0.0,Deion Sanders,16-21,3,43-27,6,Brennan Marion,Chris Marve,"Boulder, Colo",Folsom Field,50183.0
+Houston,Big 12,3.0,19,10-3,6-3,BIG 12,0.0,6.0,Willie Fritz,14-11,2,222-127,29,Slade Nagle Dec.,Austin Armstrong,"Houston, Texas",TDECU Stadium,39700.0
+Iowa State,Big 12,16.0,70,8-4,5-4,BIG 12,,,Jimmy Rogers,0-0,0,33-9,3,Tyler Roehl,Jesse Bobbit,"Ames, lowa «",Jack Trice Stadium,61500.0
+Kansas,Big 12,11.0,52,5-7,3-6,BIG 12,2.0,4.0,Lance Leipold,27-35,5,173-74,19,Andy Kotelnicki,D.K. McDonald,"Lawrence, Kan.",David Booth Kansas Memorial Stadium,52530.0
+Kansas State,Big 12,5.0,31,6-6,5-4,BIG 12,,,Collin Klein,0-0,0,0-0,0,Sean Gleeson,Jordan Peterson,"Manhattan, Kan.",Bill Snyder Family Football Stadium,50000.0
+Oklahoma State,Big 12,8.0,36,1-11,0-9,BIG 12,0.0,1.0,Eric Morris,0-0,0,46-34,7,Sean Brophy,Skyler Cassity,"Stillwater, Okla.",Boone Pickens Stadium,53885.0
+TCU,Big 12,9.0,37,9-4,5-4,BIG 12,,5.0,Sonny Dykes,36-17,4,107-80,15+,"Gordon Sammis, A.J. Ricker",Andy Avalos,"Fort Worth, Texas",Amon G. Carter Stadium,47000.0
+Texas Tech,Big 12,1.0,12,12-2,8-1,BIG 12,6.0,5.0,Joey McGuire,35-18,4,35-18,4,Mack Leftwich anh,"Shiel Wood, Rob Greene","Lubbock, Texas",Jones AT&T Stadium,60229.0
+UCF,Big 12,15.0,65,5-7,2-7,BIG 12,,,Scott Frost,24-14,3,40-45,7+,Steve Cooper,Alex Grinch,"Orlando, Fla. «",Acrisure Bounce House,44206.0
+Utah,Big 12,4.0,20,11-2,7-2,BIG 12,2.0,3.0,Morgan Scalley,1-0,,1-0,,Kevin McGiven,Colton Swan,"Salt Lake City, Utah",Rice-Eccles Stadium,51444.0
+West Virginia,Big 12,10.0,50,4-8,2-7,BIG 12,3.0,0.0,Rich Rodriguez,64-34,8,194-137,,P,Zac Alley,"Morgantown, Wa.",Mountaineer Field at Milan Puskar Stadium,60000.0
+Illinois,Big Ten,9.0,33,9-4,5-4,BIG TEN,3.0,4.0,Bret Bielema,37-26,5,134-84,17,Barry Lunney Jr. Dec.,,"Champaign-Urbana, Ill",Gies Memorial Stadium,60670.0
+Indiana,Big Ten,2.0,5,16-0,9-0,BIG TEN,,,Curt Cignetti,27-2,2,146-37,15,"Mike Shanahan, &Peach Bowl: CFB Playoff Semifinal | Tino Sunseri",Bryant Haines,"Blooming- $Miami: CFB Playoff National Championship | ton, Ind.",Memorial Stadium,53524.0
+Iowa,Big Ten,8.0,25,9-4,6-3,BIG TEN,3.0,3.0,Kirk Ferentz,213-128,27,225-149,30,Tim Lester Dec.,Phil Parker,"lowa City, lowa",Kinnick Stadium,69250.0
+Maryland,Big Ten,15.0,58,4-8,1-8,BIG TEN,6.0,8.0,Mike Locksley,37-49,7+,39-75,9+,DETURNING STARTERS IN BOLD « *,Ted Monachino,"College Park, Md.",SECU Stadium,46185.0
+Michigan,Big Ten,4.0,13,9-4,7-2,BIG TEN,6.0,3.0,Kyle Whittingham,0-0,0,177-88,21+,Jason Beck,Jay Hill,"Ann Arbor, Mich",Michigan Stadium,107601.0
+Michigan State,Big Ten,17.0,72,4-8,1-8,BIG TEN,,,Pat Fitzgerald,0-0,0,110-101,17,Nick Sheridan,"Joe Rossi, Max Bullough","East Lansing, Mich.",Spartan Stadium,75005.0
+Minnesota,Big Ten,11.0,42,8-5,5-4,BIG TEN,6.0,5.0,P.J. Fleck,66-44,9,96-66,13,Greg Har- baugh Jr.,Danny Collins,"Minneapolis, Minn.",Huntington Bank Stadium,50805.0
+Nebraska,Big Ten,10.0,38,7-6,4-5,BIG TEN,6.0,6.0,Matt Rhule,19-19,3,66-62,10,Dana OETIBNING STARTERS IN BOLD =,Rob Aurich,"Lincoln, Neb.",Memorial Stadium,85458.0
+Northwestern,Big Ten,14.0,57,7-6,4-5,BIG TEN,4.0,5.0,David Braun,19-19,3,19-19,3,Chip Kelly eee YS. Central Michigan aW,Tim McGarigle,"Evanston, Ill.",Ryan Field,35000.0
+Ohio State,Big Ten,1.0,1,12-2,9-0,BIG TEN,8.0,3.0,Ryan Day,82-12,7+,82-12,7+,"Arthur Smith, Keenan Bailey",Matt Patricia,"Columbus, Ohio",Ohio Stadium,102780.0
+Oregon,Big Ten,3.0,6,13-2,8-1,BIG TEN,7.0,8.0,Dan Lanning,48-8,4,48-8,4,Drew Mehringer,"Chris Hampton - Location Eugene, Ore.",,Autzen Stadium,54000.0
+Penn State,Big Ten,7.0,18,7-6,3-6,BIG TEN,,,Matt Campbell,0-0,0,107-70,14+,Taylor Mouser Dec.,D’Anton Lynn,"University Park, Pa.",Beaver Stadium,106304.0
+Purdue,Big Ten,18.0,85,2-10,0-9,BIG TEN,2.0,4.0,Barry Odom,2-10,1,46-43,7,Josh Henson,Kevin Kane,"West Lafayette, Ind.",Ross-Ade Stadium,61441.0
+Rutgers,Big Ten,16.0,69,5-7,2-7,BIG TEN,,,Greg Schiano,99-108,17,99-108,17,Kirk Ciarrocca,Travis Johansen,"New Brunswick, NJ.»",SHI Stadium,52454.0
+UCLA,Big Ten,12.0,43,3-9,3-6,BIG TEN,3.0,3.0,Bob Chesney,0-0,0,132-52,16,Dean Kennedy,Colin Hitschler,"Los Angeles, Calif.",Rose Bowl,89702.0
+USC,Big Ten,5.0,14,9-4,7-2,BIG TEN,,,Lincoln Riley,35-18,4,90-28,9,Luke Huard Dec.,Gary Patterson,"Los Angeles, Calif",Los Angeles Memorial Coliseum,77500.0
+Washington,Big Ten,6.0,17,9-4,5-4,BIG TEN,7.0,4.0,Jedd Fisch,15-11,2,32-33,5+,Jedd Fisch Detsi,Ryan Walters,"Seattle, Wash.",Husky Stadium,70083.0
+Wisconsin,Big Ten,13.0,55,4-8,2-7,BIG TEN,3.0,3.0,Luke Fickell,17-21,3+,80-46,10+,Jeff RETURNING STARTERS IN BOLD = *,Mike Tressel,"Madison, Wis.",Camp Randall Stadium,76057.0
+Delaware,CUSA,5.0,107,7-6,4-4,CUSA,7.0,5.0,Ryan Carty,33-17,4,33-17,4,Terence Archer Dec.” vs.Louisiana,,"Newark, Del.",Delaware Stadium,18500.0
+FIU,CUSA,6.0,112,7-6,5-3,CUSA,,,Willie Simmons,7-6,1,73-30,9,Nick Coleman Dec.,Jovan Dewitt,"University Park, Fla",Pitbull Stadium,20000.0
+Jacksonville State,CUSA,4.0,106,9-5,7-1,CUSA,3.0,5.0,Charles Kelly,9-5,1,9-5,1,Taylor Housewright Dec.,,"Jacksonville, Ala.",AmFirst Stadium,22500.0
+Kennesaw State,CUSA,3.0,105,10-4,7-1,CUSA,,,Jerry Mack,10-4,,,,,,,Fifth Third Stadium,10200.0
+Liberty,CUSA,2.0,91,4-8,3-5,CUSA,4.0,3.0,Jamey Chadwell,25-13,3,123-70,16,Newland Isaac,Shawn Quinn,"Lynchburg, Va. «",Williams Stadium,25000.0
+Middle Tennessee,CUSA,9.0,133,3-9,2-6,CUSA,,,Derek Mason,6-18,2,33-73,8+,Anthony Scelfo,Brian Stewart,"Murfreesboro, Tenn.",Floyd Stadium,27303.0
+Missouri State,CUSA,7.0,128,7-6,5-3,CUSA,2.0,4.0,Casey Woods,0-0,0,0-0,0,Mark Cala Dec.,,"Springfield, Mo.",Robert W. Plaster Stadium,17500.0
+New Mexico State,CUSA,8.0,129,4-8,2-6,CUSA,3.0,5.0,Tony Sanchez,7-17,2,27-57,7,David Yost,Joe Morris,"Las Cruces, N.M.",Aggie Memorial Stadium,28853.0
+Sam Houston,CUSA,10.0,137,2-10,1-7,CUSA,2.0,1.0,Phil Longo,2-10,1,9-24,3,Zack Patterson,Freddie Aughtry-Lindsay,"Huntsville, Texas",Elliott 7. Bowers Stadium,14000.0
+WKU,CUSA,1.0,89,9-4,6-2,CUSA,,,Tyson Helton,57-36,7,57-36,7,"Bodie Reeder, Joe Dec.",Davis Merritt,"Bowling Green, Ky.",Houchens Industries-L. 7. Smith Stadium,19250.0
+Notre Dame,Independent,,4,10-2,,,7.0,8.0,Marcus Freeman,43-12,4+,43-12,4+,Mike Denbrock,Chris Ash,"South Bend, Ind",Notre Dame Stadium,77622.0
+UConn,Independent,,103,9-4,,,,,Jason Candle,0-0,0,81-44,10+,Nunzio Campanile Dec.,,"Storrs, Conn.",Pratt & Whitney Stadium at Rentschler Field,36000.0
+Akron,MAC,9.0,125,5-7,4-4,MAC,4.0,2.0,Joe Moorhead,13-35,4,65-60,10,Joe Moorhead,Tim Tibesar,"Akron, Ohio «",InfoCision Stadium-Summa Field,30000.0
+Ball State,MAC,11.0,135,4-8,3-5,MAC,5.0,1.0,Mike Uremovich,4-8,1,60-64,11,Mike P,Jeff Knowles,"Muncie, Ind.",Scheumann Stadium,22500.0
+Bowling Green,MAC,7.0,122,4-8,2-6,MAC,1.0,2.0,Eddie George,4-8,1,28-30,5,Greg Nosal,Joe Bowden,"Bowling Green, Ohio","Doyt L, Perry Stadium",24000.0
+Buffalo,MAC,6.0,118,5-7,4-4,MAC,,,Pete Lembo,14-11,2,126-76,17,Tony Tokarz,Brian Dougherty,"Amherst, NY.",Broadview Stadium,25013.0
+Central Michigan,MAC,3.0,98,7-6,5-3,MAC,4.0,3.0,Matt Drinkall,7-6,1,49-23,6,Jim Chapin Dec.,Sean Cronin,"Mount Pleasant, Mich",Kelly/Shorts Stadium,35127.0
+Eastern Michigan,MAC,8.0,124,4-8,3-5,MAC,,,Chris Creighton,61-83,12,200-129,29,Mike Piatkowski,"Tate Omli, Kasey Teegardin","Ypsilanti, Mich. «",Rynearson Stadium,26188.0
+Kent State,MAC,10.0,126,5-7,4-4,MAC,6.0,3.0,Mark Carney,5-7,1,5-7,1,Clay Patterson,Cherokee Valeria,"Kent, Ohio",Dix Stadium,25319.0
+Miami (Ohio),MAC,1.0,86,7-7,6-2,MAC,,,Chuck Martin,72-74,12,146-81,18,Gus Ragland Vec.,,"Oxford, Ohio",Yager Stadium,24286.0
+Ohio,MAC,5.0,111,9-4,6-2,MAC,1.0,5.0,John Hauser,1-0,1,1-0,1,Scott Isphording,Kurt Mattix,"Athens, Ohio",Peden Stadium,24000.0
+Sacramento State,MAC,12.0,136,7-5,5-3,FCS BIG SKY,,,Alonzo Carter,0-0,0,0-0,0,"Eric Kiesau, Eric Scott","Adam Clark, Kenwick Thompson","Sacramento, Calif.",Hornet Stadium,21195.0
+Toledo,MAC,4.0,99,8-5,6-2,MAC,1.0,0.0,Mike Jacobs,0-0,0,94-23,10,Cris Reisert,Jahmal Brown,"Toledo, Ohio",Glass Bowl,26038.0
+UMass,MAC,13.0,138,0-12,0-8,MAC,,,Joe Harasymiak,0-12,1,20-27,4,Max Warner,Jared Keyte,"Amherst, Mass.",Warren McGuirk Alumni Stadium,17000.0
+Western Michigan,MAC,2.0,87,10-4,7-1,MAC,7.0,3.0,,,,,,,,,,
+Air Force,MWC,5.0,80,4-8,3-5,MWC,3.0,5.0,Troy Calhoun,139-97,19,139-97,19,Mike Thiessen,Steve Russ,"Colorado Springs, Colo.",Falcon Stadium,39441.0
+Hawai'i,MWC,3.0,77,9-4,5-3,MWC,4.0,3.0,Timmy Chang,22-29,4,22-29,4,Anthony Arceneaux P,Dennis Thurman,"Honolulu, Hawai'i OETIPNING STARTERS IN BOLD = *","Clarence T.C. Ching Athletics Complex (15, 194)",
+Nevada,MWC,7.0,113,3-9,2-6,MWC,3.0,2.0,Jeff Choate,6-19,2,34-41,6,Brett Bartolone,Kane loane,"Reno, Nev.",Mackay Stadium,27000.0
+New Mexico,MWC,2.0,61,9-4,6-2,MWC,7.0,5.0,Jason Eck,9-4,1,35-17,4,Luke Schleusner Dec.,Spence Nowinsky,"Albuquerque, N.M. P","(39,224) RETURNING STARTERS IN BOLD = *2026 TRANSFER",
+North Dakota State,MWC,4.0,78,12-1,8-0,MVFC,3.0,5.0,Tim Polasek,26-3,2,26-3,2,Dan Larson Dec.,Grant Olson,"Fargo, N.D.",Fargodome,18700.0
+Northern Illinois,MWC,10.0,134,3-9,2-6,MAC,,,Rob Harley,0-0,0,0-0,0,"Tony Petersen, Quinn Sanders",Rob Harley,"DeKalb, Ill. «",Huskie Stadium,28211.0
+San Jose State,MWC,8.0,116,3-9,2-6,MWC,2.0,0.0,Ken Niumatalolo,10-15,2,119-98,18,Craig Stutzmann,Bojay Filimoeatu,"San Jose, Calif.",CEFCU Stadium,18203.0
+UNLV,MWC,1.0,59,10-4,6-2,MWC,,,Dan Mullen,10-4,1,113-65,14,Corey Dennis,Paul Guenther,"Las Vegas, Nev.",Allegiant Stadium,65000.0
+UTEP,MWC,9.0,130,2-10,1-7,CUSA,0.0,4.0,Scotty Walden,5-19,2,39-39,8,"Joe Pappa- lardo, Lanear Sampson","Kyle Beyer, Kelvin Sigler «","El Paso, Texas",Sun Bowl,45971.0
+Wyoming,MWC,6.0,110,4-8,2-6,MWC,,,Jay Sawvel,7-17,2,7-17,2,Christian Taylor,Aaron Bohl,"Laramie, Wyo.",War Memorial Stadium,29811.0
+Boise State,Pac-12,1.0,24,9-5,6-2,MWC,7.0,4.0,Spencer Danielson,24-8,2+,24-8,2+,"Nate Potter, Zak Hill eb Be Ys. mashingion ;","Terence Brown, Erik Chinander",Boise,Albertsons Stadium,36387.0
+Colorado State,Pac-12,7.0,97,2-10,1-7,MWC,1.0,4.0,Jim L. Mora,0-0,0,73-53,10,Pryce Tracy RETURNING STARTERS IN BOLD = *,"Tyson Summers, Kenny McClendon","Fort Collins, Colo",Canvas Stadium,36500.0
+Fresno State,Pac-12,3.0,68,9-4,5-3,MWC,6.0,6.0,Matt Entz,9-4,1,69-15,6,Josh Davis,Nick Benedetto,"Fresno, Calif",Valley Children's Stadium,40727.0
+Oregon State,Pac-12,8.0,101,2-10,,,,,JaMarcus Shephard «,0-0,0,0-0,0,"Mitch Dahlen, Ryan Wallace","Mike Macintyre, Cort Dennison","Corvallis, Ore",Reser Stadium,35548.0
+San Diego State,Pac-12,2.0,67,9-4,6-2,MWC,7.0,3.0,Sean Lewis,12-13,2,36-44,7,Matt Johnson Dec.,Demetrius Sumler,"San Diego, Calif.",Snapdragon Stadium,35000.0
+Texas State,Pac-12,6.0,93,7-6,3-5,SUN BELT,,,GJ Kinne,23-16,3,an? Bice # Wo atetg 35-18 (4 years),,"Landon Keopple, Jordan Shoemak- oe ice : er","Will Windham, Matthew Gregg",San,UFCU Stadium,27149.0
+Utah State,Pac-12,5.0,92,6-7,4-4,MWC,4.0,5.0,Bronco Mendenhall,6-7,1,146-95,19,Robert Anae,Nick Howell,"Logan, Utah",Maverik Stadium,25513.0
+Washington State,Pac-12,4.0,88,7-6,,,,,Kirby Moore,0-0,0,0-0,0,Matt Miller,Trent Bray,"Pullman, Wash.",Martin Stadium,32952.0
+Alabama,SEC,7.0,15,11-4,7-1,SEC,1.0,4.0,Kalen DeBoer,20-8,2,124-20,11,Ryan Grubb,Kane Wommack,"Tuscaloosa, Ala",Bryant-Denny Stadium,100077.0
+Arkansas,SEC,16.0,51,2-10,0-8,SEC,,,Ryan Silverfield,0-0,0,50-25,6+,Tim Cramsey,"Ron Roberts, Deron Wilson","Fayetteville, Ark. «",Donald W. Reynolds Razorback Stadium,76212.0
+Auburn,SEC,12.0,34,5-7,1-7,SEC,1.0,1.0,Alex Golesh,0-0,0,23-15,3,"Kodi Burns, Joel Gordon","DJ Durkin, Tim Banks","Auburn, Ala.",Jordan-Hare Stadium,88043.0
+Florida,SEC,9.0,26,4-8,2-6,SEC,,,Jon Sumrall,0-0,0,43-12,4,Buster Faulkner,Brad White,"Gainesville, Fla.",Ben Hill Griffin Stadium,88548.0
+Georgia,SEC,1.0,2,12-2,7-1,SEC,6.0,8.0,Kirby Smart,117-21,10,117-21,10,Mike Bobo,Glenn Schumann,"Athens, Ga.",Sanford Stadium,93033.0
+Kentucky,SEC,15.0,49,5-7,2-6,SEC,1.0,3.0,Will Stein,0-0,0,0-0,0,Joe Sloan RETURNING STARTERS IN BOLD = *,Jay Bateman,"Lexington, Ky.",Kroger Field,61000.0
+LSU,SEC,5.0,10,7-6,3-5,SEC,3.0,3.0,Lane Kiffin,0-0,0,116-53,13+,"Charlie Weis Jr, K","Blake Baker, Chris Kiffin P","Baton Rouge, La.",Tiger Stadium,102321.0
+Mississippi State,SEC,13.0,44,5-8,1-7,SEC,,,Jeff Lebby,7-18,2,7-18,2,Philip Montgomery,"Zach Arnett, Matt Brock","Starkville, Miss.",Davis Wade Stadium,60311.0
+Missouri,SEC,11.0,29,8-5,4-4,SEC,6.0,0.0,Eliah Drinkwitz,46-29,6,58-30,7,Chip Lindsey Dec.,"Corey Batoon, Derek Nicholson",Colum,Faurot Field at Memorial Stadium,57321.0
+Oklahoma,SEC,3.0,8,10-3,6-2,SEC,,,Brent Venables,32-20,4,32-20,4,Ben Arbuckle,Brent Venables,"Norman, Okla.",Gaylord Family Oklahoma Memorial Stadium,80126.0
+Ole Miss,SEC,6.0,11,13-2,7-1,SEC,5.0,5.0,Pete Golding,2-1,1,2-1,1,"John David Baker, Cody","Bryan Brown, Marcus Woodson Quarterfinal &Fiesta Bowl: CFB Playoff Semifinal","Oxford, Miss.",Vaught-Hemingway Stadium,64038.0
+South Carolina,SEC,10.0,28,4-8,1-7,SEC,,,Shane Beamer,33-30,5,33-30,5,Kendal Briles L_,"Clayton White, Torrian Gray «","Columbia, S.C.",Williams-Brice Stadium,77559.0
+Tennessee,SEC,8.0,21,8-5,4-4,SEC,8.0,4.0,Josh Heupel,45-20,5,73-28,8,Joey Halzle Dec.,"Jim Knowles, Anthony Poindexter","Knoxville, Tenn.",Neyland Stadium,101915.0
+Texas,SEC,2.0,3,10-3,6-2,SEC,6.0,5.0,Steve Sarkisian,48-20,5,93-55,11+,Kyle Flood Dec.,"Will Muschamp, Johnny Nansen",Austin,Darrell K Royal-Texas Memorial Stadium,100119.0
+Texas A&M,SEC,4.0,9,11-2,7-1,SEC,4.0,5.0,Mike Elko,19-7,2,35-16,4,Holmon Wiggins,"Lyle Hemphill, Elijah Robinson",College,Kyle Field,102733.0
+Vanderbilt,SEC,14.0,45,10-3,6-2,SEC,,,Clark Lea,26-36,5,26-36,5,Tim Beck,Steve Gregory,"Nashville, Tenn.",FirstBank Stadium,35000.0
+Appalachian State,Sun Belt East,5.0,117,5-8,2-6,SBC,2.0,2.0,Dowell Loggains,5-8,1,5-8,1,Mike Anthony Dec.,DJ Smith «,"Boone, N.C.",Kidd Brewer Stadium,30000.0
+Coastal Carolina,Sun Belt East,6.0,119,6-7,5-3,SBC,,,Ryan Beard,0-0,0,19-16,3,Nick Petrino Dec.,,"Conway, S.C.",Brooks Stadium,21000.0
+Georgia Southern,Sun Belt East,4.0,102,7-6,4-4,SBC,1.0,4.0,Clay Helton,27-25,4,73-49,10+,Ryan Aplin,Mike Mutz,"Statesboro, Ga.",Allen E. Paulson Stadium,25000.0
+Georgia State,Sun Belt East,7.0,132,1-11,0-8,SBC,3.0,2.0,Dell McGee,5-20,2+,5-20,2+,Hue Jackson,"Cam Clark, John Haneline","Atlanta, Ga.",Center Pare Stadium,24333.0
+James Madison,Sun Belt East,1.0,82,12-2,8-0,SBC,1.0,2.0,Billy Napier,0-0,0,62-35,7+,Cam Aiken bee argon “,"Robert Bala, Josh Linam","Harrisonburg, Va.",Bridgeport Stadium,24877.0
+Marshall,Sun Belt East,3.0,95,5-7,3-5,SBC,,,Tony Gibson,5-7,1,5-7,1,Rod Smith,Brad Lambert,"Huntington, Wa.",Joan C. Edwards Stadium,30475.0
+Old Dominion,Sun Belt East,2.0,94,10-3,6-2,SBC,1.0,5.0,Ricky Rahne,30-33,5,30-33,5,Kody Cook,Blake Seiler,"Norfolk, Va.",S.B. Ballard Stadium,21944.0
+Arkansas State,Sun Belt West,2.0,100,7-6,5-3,SBC,,,Butch Jones,26-37,5,110-91,15+,Garrett Altman,Griff McCarley,"Jonesboro, Ark",Centennial Bank Stadium,30406.0
+Louisiana,Sun Belt West,4.0,114,6-7,5-3,SBC,8.0,2.0,Michael Desormeaux,29-25,4+,29-25,4+,Tim Leger Dec.,,"Lafayette, La.",Cajun Field,30000.0
+Louisiana Tech,Sun Belt West,3.0,104,8-5,5-3,CUSA,,,Sonny Cumbie,19-31,4,,,,,,Joe Aillet Stadium,28562.0
+South Alabama,Sun Belt West,5.0,115,4-8,3-5,SBC,2.0,3.0,Major Applewhite «,11-14,2,26-25,4+,Major Apple- white,"Todd Orland, Jason Washington","Mobile, Ala.",Hancock Whitney Stadium,25450.0
+Southern Miss,Sun Belt West,6.0,123,7-6,5-3,SBC,,,Blake Anderson,0-1,1,0-1,1,Kyle Cefalo ec.,Joe Bolden,"Hattiesburg, Miss.",M.M. Roberts Stadium,36000.0
+Troy,Sun Belt West,1.0,81,8-6,6-2,SBC,4.0,1.0,Gerad Parker,12-14,2,12-20,2+,Adam Austin,Dontae Wright,"Troy, Ala.",Veterans Memorial Stadium,30470.0
+ULM,Sun Belt West,7.0,131,3-9,1-7,SBC,,2.0,Bryant Vincent,8-16,2,15-22,3,Jesse Montalto,Troy Reffett,"Monroe, La.",Malone Stadium,27617.0

@@ -1,0 +1,2211 @@
+season,home,away,actual_total,proj_total,market_close,market_open
+2023,Notre Dame,Navy,45,47.25,50.5,49.75
+2023,New Mexico State,Massachusetts,71,40.95,44.5,43.5
+2023,San Diego State,Ohio,33,51.5,49.0,49.5
+2023,Vanderbilt,Hawai'i,63,59.25,54.75,55.25
+2023,USC,San José State,84,56.800000000000004,64.5,63.5
+2023,Louisiana Tech,Florida International,39,68.65,58.5,59.0
+2023,UCF,Kent State,62,57.45,54.0,58.75
+2023,UConn,NC State,38,38.9,48.0,49.0
+2023,Minnesota,Nebraska,23,41.6,43.0,46.75
+2023,Utah,Florida,35,61.85,44.5,49.5
+2023,Miami,Miami (OH),41,42.0,45.25,48.5
+2023,Michigan State,Central Michigan,38,56.4,45.5,50.75
+2023,Georgia Tech,Louisville,73,47.2,49.5,51.75
+2023,Hawai'i,Stanford,61,57.5,55.0,58.5
+2023,Michigan,East Carolina,33,52.900000000000006,52.0,51.75
+2023,TCU,Colorado,87,66.25,63.0,59.0
+2023,Liberty,Bowling Green,58,56.95,49.0,50.75
+2023,Boston College,Northern Illinois,51,61.3,50.5,52.0
+2023,Kentucky,Ball State,58,39.599999999999994,48.75,48.5
+2023,Iowa,Utah State,38,42.5,43.5,43.5
+2023,Tennessee,Virginia,62,55.24999999999999,56.0,57.5
+2023,SMU,Louisiana Tech,52,78.35,66.25,65.5
+2023,Purdue,Fresno State,74,52.75,47.0,51.5
+2023,Oklahoma,Arkansas State,73,64.75,58.0,61.0
+2023,Temple,Akron,45,50.05,55.0,54.5
+2023,Indiana,Ohio State,26,63.65,59.5,59.75
+2023,Wisconsin,Buffalo,55,51.400000000000006,54.0,54.5
+2023,Auburn,Massachusetts,73,52.2,52.0,52.5
+2023,Washington,Boise State,75,54.650000000000006,59.0,58.5
+2023,Texas,Rice,47,56.85,59.0,59.0
+2023,Western Kentucky,South Florida,65,72.9,71.0,70.5
+2023,North Texas,California,79,57.25,54.0,57.0
+2023,USC,Nevada,80,63.300000000000004,63.5,64.75
+2023,Texas A&M,New Mexico,62,39.95,48.75,49.0
+2023,Baylor,Texas State,73,55.3,58.75,57.75
+2023,Colorado State,Washington State,74,39.3,54.75,56.0
+2023,Houston,UTSA,31,76.05,60.0,60.25
+2023,UL Monroe,Army,30,56.05,47.25,48.0
+2023,Penn State,West Virginia,53,60.64999999999999,48.0,53.5
+2023,Alabama,Middle Tennessee,63,57.99999999999999,51.75,54.5
+2023,Wyoming,Texas Tech,68,55.05,50.5,52.75
+2023,North Carolina,South Carolina,48,68.95,63.5,62.5
+2023,Illinois,Toledo,58,39.85,45.5,47.75
+2023,Tulane,South Alabama,54,47.95,51.5,55.0
+2023,Virginia Tech,Old Dominion,53,41.25,48.0,49.5
+2023,UCLA,Coastal Carolina,40,69.55000000000001,66.5,64.75
+2023,Rutgers,Northwestern,31,43.6,39.5,40.25
+2023,San José State,Oregon State,59,45.849999999999994,55.75,54.75
+2023,Florida State,LSU,69,53.5,56.5,56.0
+2023,Duke,Clemson,35,53.75,55.5,56.25
+2023,Kansas,Illinois,57,51.35,57.5,55.5
+2023,Wake Forest,Vanderbilt,56,70.89999999999999,56.5,58.0
+2023,NC State,Notre Dame,69,43.8,49.5,50.5
+2023,Virginia,James Madison,71,47.75,40.0,42.25
+2023,Georgia,Ball State,48,43.50000000000001,52.5,52.75
+2023,Virginia Tech,Purdue,41,45.150000000000006,49.0,49.5
+2023,Baylor,Utah,33,59.150000000000006,45.5,51.0
+2023,Colorado,Nebraska,50,60.05,56.5,58.5
+2023,Kansas State,Troy,55,40.5,50.0,50.25
+2023,Massachusetts,Miami (OH),69,37.3,44.0,45.75
+2023,UTSA,Texas State,33,59.4,66.5,63.75
+2023,Northwestern,UTEP,45,49.550000000000004,40.0,38.75
+2023,Tulane,Ole Miss,57,57.1,64.0,62.5
+2023,Michigan,UNLV,42,50.25,57.5,57.75
+2023,Miami,Texas A&M,81,47.65,50.5,49.5
+2023,Iowa State,Iowa,33,24.7,35.5,36.25
+2023,Syracuse,Western Michigan,55,45.3,56.5,54.5
+2023,East Carolina,Marshall,44,43.65,43.5,45.0
+2023,Arkansas,Kent State,34,64.05,57.5,58.75
+2023,Washington,Tulsa,53,68.95,66.5,65.0
+2023,North Carolina,App State,74,69.7,58.0,59.75
+2023,Florida Atlantic,Ohio,27,60.8,61.5,60.25
+2023,Oklahoma,SMU,39,73.7,68.5,69.5
+2023,Liberty,New Mexico State,50,43.75,54.5,55.0
+2023,Old Dominion,Louisiana,69,44.1,51.0,50.25
+2023,Georgia Southern,UAB,84,62.8,63.0,60.5
+2023,Florida International,North Texas,85,63.05,51.5,52.25
+2023,Pittsburgh,Cincinnati,48,50.599999999999994,44.5,46.75
+2023,Missouri,Middle Tennessee,42,51.6,47.5,49.25
+2023,Arkansas State,Memphis,40,65.5,57.5,58.0
+2023,Georgia State,UConn,49,57.05,54.5,54.25
+2023,Rice,Houston,84,70.10000000000001,51.0,52.75
+2023,Alabama,Texas,58,55.4,53.5,56.0
+2023,Texas Tech,Oregon,68,70.2,69.0,67.0
+2023,Boise State,UCF,34,47.0,58.5,58.5
+2023,San Diego State,UCLA,45,56.00000000000001,49.0,48.75
+2023,Rutgers,Temple,43,43.25,43.5,45.5
+2023,Maryland,Charlotte,58,60.6,50.0,50.5
+2023,Minnesota,Eastern Michigan,31,44.25,48.0,47.75
+2023,Washington State,Wisconsin,53,42.3,58.0,56.75
+2023,Mississippi State,Arizona,55,66.85,60.0,59.25
+2023,Florida State,Southern Miss,79,48.2,54.0,52.75
+2023,California,Auburn,24,54.8,55.5,57.0
+2023,Arizona State,Oklahoma State,42,65.85000000000001,53.5,54.25
+2023,USC,Stanford,66,66.35000000000001,70.0,70.5
+2023,Memphis,Navy,52,55.7,46.75,47.0
+2023,Maryland,Virginia,56,49.3,48.25,50.0
+2023,UTSA,Army,66,60.9,41.75,46.5
+2023,Air Force,Utah State,60,46.25,45.5,47.0
+2023,Boston College,Florida State,60,54.699999999999996,47.75,56.5
+2023,Indiana,Louisville,35,56.3,50.5,54.0
+2023,Wisconsin,Georgia Southern,49,58.7,65.5,63.0
+2023,Old Dominion,Wake Forest,51,62.349999999999994,60.5,59.5
+2023,Missouri,Kansas State,57,48.2,48.5,46.0
+2023,Mississippi State,LSU,55,53.400000000000006,54.0,54.5
+2023,Illinois,Penn State,43,38.3,47.5,48.0
+2023,Ohio,Iowa State,17,47.550000000000004,41.75,44.5
+2023,Buffalo,Liberty,82,54.75,54.0,56.5
+2023,Eastern Michigan,Massachusetts,36,50.15,49.75,53.0
+2023,Notre Dame,Central Michigan,58,51.55,51.25,55.0
+2023,App State,East Carolina,71,61.449999999999996,48.25,50.5
+2023,Tulsa,Oklahoma,83,69.25,58.75,59.5
+2023,North Carolina,Minnesota,44,54.400000000000006,51.5,49.0
+2023,Oregon State,San Diego State,35,43.599999999999994,48.5,47.5
+2023,Duke,Northwestern,52,49.85,48.0,46.5
+2023,Georgia,South Carolina,38,51.050000000000004,54.0,55.0
+2023,UConn,Florida International,41,51.4,43.5,46.5
+2023,South Florida,Alabama,20,70.75,60.75,61.5
+2023,Rutgers,Virginia Tech,51,38.95,37.5,39.5
+2023,Iowa,Western Michigan,51,29.799999999999997,43.25,43.5
+2023,Texas A&M,UL Monroe,50,52.1,53.5,53.5
+2023,Southern Miss,Tulane,24,46.45,47.5,52.5
+2023,Ohio State,Western Kentucky,73,61.1,64.75,64.0
+2023,Michigan State,Washington,48,64.15,57.25,58.0
+2023,Charlotte,Georgia State,66,67.6,52.0,55.5
+2023,Troy,James Madison,30,41.9,46.25,49.5
+2023,Oklahoma State,South Alabama,40,54.85,49.25,47.5
+2023,UAB,Louisiana,62,46.5,59.5,58.0
+2023,Toledo,San José State,38,47.15,56.5,57.0
+2023,UNLV,Vanderbilt,77,59.1,56.75,57.0
+2023,Florida,Tennessee,45,69.5,56.5,57.5
+2023,Louisiana Tech,North Texas,77,71.0,66.5,68.5
+2023,Cincinnati,Miami (OH),55,37.2,44.25,47.5
+2023,Nebraska,Northern Illinois,46,59.75,42.75,46.0
+2023,West Virginia,Pittsburgh,23,64.15,47.75,50.0
+2023,Arkansas,BYU,69,66.85,47.75,52.0
+2023,Ole Miss,Georgia Tech,71,55.4,61.5,63.0
+2023,Kentucky,Akron,38,44.150000000000006,48.5,50.5
+2023,Michigan,Bowling Green,37,55.0,53.5,51.0
+2023,Purdue,Syracuse,55,53.05,56.5,57.0
+2023,Houston,TCU,49,71.85,64.0,62.0
+2023,Oregon,Hawai'i,65,63.3,67.75,68.0
+2023,New Mexico,New Mexico State,44,37.95,52.25,51.0
+2023,Texas,Wyoming,41,47.4,48.5,49.0
+2023,Clemson,Florida Atlantic,62,54.099999999999994,51.5,52.5
+2023,Colorado,Colorado State,78,52.9,63.25,59.5
+2023,Nevada,Kansas,55,65.15,58.0,60.5
+2023,Arizona State,Fresno State,29,58.85,48.0,51.5
+2023,Arizona,UTEP,41,66.10000000000001,57.25,55.5
+2023,Coastal Carolina,Georgia State,47,67.65,62.5,61.75
+2023,Purdue,Wisconsin,55,48.4,54.0,53.75
+2023,Virginia,NC State,45,38.15,47.5,47.25
+2023,San Diego State,Boise State,65,39.400000000000006,46.5,45.25
+2023,San José State,Air Force,65,34.650000000000006,45.5,47.0
+2023,Texas A&M,Auburn,37,51.25,51.0,52.25
+2023,Syracuse,Army,45,51.0,50.5,50.75
+2023,Clemson,Florida State,55,54.3,55.0,55.0
+2023,Northern Illinois,Tulsa,36,69.80000000000001,54.5,53.5
+2023,Michigan,Rutgers,38,43.6,44.0,44.5
+2023,Troy,Western Kentucky,51,45.15,57.0,58.0
+2023,TCU,SMU,51,71.80000000000001,63.0,64.0
+2023,Vanderbilt,Kentucky,73,48.199999999999996,50.0,50.75
+2023,Cincinnati,Oklahoma,26,55.5,57.5,59.25
+2023,Marshall,Virginia Tech,41,31.7,41.5,41.25
+2023,Toledo,Western Michigan,80,46.05,52.5,54.5
+2023,Ball State,Georgia Southern,43,60.35,61.0,59.5
+2023,Michigan State,Maryland,40,59.8,52.5,52.75
+2023,Temple,Miami,48,49.1,46.5,51.5
+2023,Illinois,Florida Atlantic,40,40.45,45.5,47.25
+2023,Oregon,Colorado,48,70.2,70.0,71.5
+2023,Utah,UCLA,21,65.2,51.0,51.0
+2023,Kansas,BYU,65,72.85,54.5,55.5
+2023,Alabama,Ole Miss,34,59.8,55.5,55.0
+2023,Bowling Green,Ohio,45,65.6,45.0,45.5
+2023,Louisville,Boston College,84,50.15,53.5,54.75
+2023,UConn,Duke,48,48.099999999999994,45.0,46.25
+2023,Nebraska,Louisiana Tech,42,63.85,45.0,48.0
+2023,West Virginia,Texas Tech,33,69.9,54.5,55.0
+2023,Massachusetts,New Mexico,65,40.9,48.5,49.5
+2023,Iowa State,Oklahoma State,61,46.9,36.0,36.75
+2023,Tennessee,UTSA,59,70.9,59.0,57.5
+2023,South Florida,Rice,71,72.2,57.5,56.5
+2023,South Alabama,Central Michigan,64,47.7,47.5,51.0
+2023,Florida International,Liberty,44,55.1,53.5,53.25
+2023,Wake Forest,Georgia Tech,46,63.4,58.5,60.25
+2023,LSU,Arkansas,65,58.2,55.0,56.0
+2023,Washington State,Oregon State,73,46.4,58.5,55.75
+2023,Middle Tennessee,Colorado State,54,47.849999999999994,50.0,53.0
+2023,Stanford,Arizona,41,69.25,60.0,59.25
+2023,Texas State,Nevada,59,50.3,59.5,60.75
+2023,Florida,Charlotte,29,66.15,48.5,50.25
+2023,Arkansas State,Southern Miss,81,51.699999999999996,46.5,48.75
+2023,Wyoming,App State,41,51.9,45.0,43.75
+2023,South Carolina,Mississippi State,67,58.099999999999994,47.0,50.0
+2023,Missouri,Memphis,61,56.55,52.0,52.25
+2023,Baylor,Texas,44,58.7,49.5,52.0
+2023,Indiana,Akron,56,60.85,46.0,45.75
+2023,Notre Dame,Ohio State,31,56.35,55.5,54.0
+2023,Georgia,UAB,70,45.95,56.0,53.75
+2023,Northwestern,Minnesota,71,38.85,39.5,38.5
+2023,Penn State,Iowa,31,35.8,38.5,41.0
+2023,Louisiana,Buffalo,83,51.0,57.5,58.75
+2023,Kansas State,UCF,75,51.75,52.5,55.0
+2023,Pittsburgh,North Carolina,65,67.1,49.5,50.0
+2023,Utah State,James Madison,83,59.4,52.5,53.0
+2023,UTEP,UNLV,73,54.2,49.5,49.75
+2023,Fresno State,Kent State,63,57.5,47.5,50.75
+2023,Arizona State,USC,70,69.55000000000001,62.0,61.75
+2023,Washington,California,91,57.9,55.5,61.75
+2023,Hawai'i,New Mexico State,37,46.599999999999994,55.0,58.5
+2023,Tulsa,Temple,74,58.05,55.0,54.5
+2023,Western Kentucky,Middle Tennessee,41,60.15,60.0,59.75
+2023,NC State,Louisville,23,40.9,55.5,55.5
+2023,Oregon State,Utah,28,52.8,44.5,45.5
+2023,UTEP,Louisiana Tech,34,65.05,50.5,52.75
+2023,BYU,Cincinnati,62,56.4,48.0,50.0
+2023,Colorado,USC,89,70.94999999999999,74.5,73.5
+2023,UConn,Utah State,67,53.0,51.0,51.0
+2023,Northwestern,Penn State,54,48.05,46.0,46.0
+2023,Tulane,UAB,58,51.349999999999994,58.5,57.0
+2023,James Madison,South Alabama,54,49.550000000000004,49.5,52.0
+2023,Kentucky,Florida,47,51.1,45.0,46.0
+2023,Akron,Buffalo,23,57.6,55.5,55.75
+2023,Minnesota,Louisiana,59,37.05,48.5,47.25
+2023,Syracuse,Clemson,45,52.75,53.0,52.5
+2023,Arkansas,Texas A&M,56,53.3,54.0,55.5
+2023,Central Michigan,Eastern Michigan,49,53.8,47.5,47.75
+2023,Boston College,Virginia,51,47.4,52.5,55.5
+2023,Kent State,Miami (OH),26,47.1,49.5,50.5
+2023,California,Arizona State,45,57.650000000000006,47.5,49.75
+2023,Auburn,Georgia,47,50.7,45.5,47.0
+2023,Georgia Tech,Bowling Green,65,56.35,51.5,53.5
+2023,Texas Tech,Houston,77,74.6,51.5,53.75
+2023,Western Michigan,Ball State,66,42.3,50.5,52.75
+2023,Toledo,Northern Illinois,68,61.0,48.0,50.0
+2023,Massachusetts,Arkansas State,80,53.05,55.0,55.5
+2023,Marshall,Old Dominion,76,36.65,47.0,46.5
+2023,UCF,Baylor,71,57.550000000000004,56.0,55.5
+2023,Nebraska,Michigan,52,48.35,39.5,40.5
+2023,Texas,Kansas,54,65.15,61.0,62.0
+2023,Maryland,Indiana,61,62.25,50.0,50.25
+2023,Purdue,Illinois,63,40.05,53.5,53.5
+2023,Navy,South Florida,74,63.5,54.5,53.75
+2023,Vanderbilt,Missouri,59,53.8,54.5,56.5
+2023,Memphis,Boise State,67,55.7,59.5,60.0
+2023,Wyoming,New Mexico,61,39.5,41.0,41.5
+2023,UNLV,Hawai'i,64,55.050000000000004,59.0,60.0
+2023,Ole Miss,LSU,104,57.150000000000006,67.0,63.5
+2023,Stanford,Oregon,48,65.6,61.0,61.0
+2023,Southern Miss,Texas State,86,44.05,60.5,61.5
+2023,Georgia Southern,Coastal Carolina,66,68.95,64.5,62.0
+2023,Oklahoma,Iowa State,70,47.8,48.5,48.5
+2023,Rice,East Carolina,41,60.1,47.0,49.75
+2023,Georgia State,Troy,35,50.45,51.0,52.0
+2023,SMU,Charlotte,50,71.65,53.5,56.5
+2023,Tennessee,South Carolina,61,65.55,63.0,62.5
+2023,Iowa,Michigan State,42,41.35,36.5,36.25
+2023,Duke,Notre Dame,35,53.0,52.5,51.5
+2023,Air Force,San Diego State,59,32.400000000000006,43.5,43.25
+2023,Virginia Tech,Pittsburgh,59,46.9,40.0,41.75
+2023,TCU,West Virginia,45,67.15,52.0,51.0
+2023,UL Monroe,App State,81,62.45,51.0,53.25
+2023,Mississippi State,Alabama,57,56.05,46.5,48.5
+2023,Arizona,Washington,55,72.7,67.0,68.5
+2023,Fresno State,Nevada,36,52.6,51.5,53.25
+2023,New Mexico State,Florida International,51,49.349999999999994,49.5,50.0
+2023,Louisiana Tech,Western Kentucky,63,69.0,59.0,59.0
+2023,Oklahoma State,Kansas State,50,58.8,54.0,54.75
+2023,Illinois,Nebraska,27,38.6,42.0,44.25
+2023,Army,Boston College,51,52.05,47.0,51.0
+2023,Massachusetts,Toledo,65,48.75,55.5,59.5
+2023,Mississippi State,Western Michigan,69,46.75,55.0,56.0
+2023,Texas,Oklahoma,64,60.5,61.5,60.0
+2023,Missouri,LSU,88,48.05,63.5,63.5
+2023,Ohio State,Maryland,54,59.4,57.0,55.0
+2023,Wisconsin,Rutgers,37,42.2,44.0,46.5
+2023,Buffalo,Central Michigan,50,55.6,52.0,57.0
+2023,Temple,UTSA,83,58.400000000000006,56.0,56.0
+2023,NC State,Marshall,89,31.4,44.0,45.5
+2023,UCLA,Washington State,42,58.800000000000004,60.0,60.0
+2023,Iowa,Purdue,34,37.55,38.5,41.25
+2023,Navy,North Texas,51,54.0,60.5,61.5
+2023,Miami (OH),Bowling Green,27,47.550000000000004,43.0,48.0
+2023,Akron,Northern Illinois,69,61.8,42.5,44.5
+2023,Ohio,Kent State,59,65.15,45.5,45.5
+2023,Louisiana,Texas State,64,44.45,67.5,67.0
+2023,Eastern Michigan,Ball State,34,51.25,43.5,42.5
+2023,Texas A&M,Alabama,46,49.55,45.5,49.5
+2023,North Carolina,Syracuse,47,64.4,59.0,58.0
+2023,Florida State,Virginia Tech,56,45.75,52.5,52.75
+2023,Clemson,Wake Forest,29,65.94999999999999,53.0,51.5
+2023,Kansas,UCF,73,64.0,64.5,62.0
+2023,Florida,Vanderbilt,52,66.2,51.0,53.5
+2023,UAB,South Florida,91,67.7,68.5,67.0
+2023,Troy,Arkansas State,40,45.55,52.0,52.0
+2023,Rice,UConn,69,51.05,47.5,49.5
+2023,Florida Atlantic,Tulsa,37,63.0,54.5,55.0
+2023,Arizona State,Colorado,51,67.6,58.5,59.0
+2023,Southern Miss,Old Dominion,30,43.7,56.5,57.5
+2023,UL Monroe,South Alabama,62,53.199999999999996,51.0,51.5
+2023,Georgia,Kentucky,64,37.0,47.0,47.5
+2023,Minnesota,Michigan,62,38.85,46.0,46.0
+2023,Ole Miss,Arkansas,47,63.55,62.0,62.5
+2023,Louisville,Notre Dame,53,49.0,54.0,51.5
+2023,Miami,Georgia Tech,43,50.8,57.0,59.0
+2023,Utah State,Colorado State,68,50.349999999999994,62.0,64.0
+2023,Iowa State,TCU,41,45.9,52.5,50.25
+2023,Baylor,Texas Tech,53,66.35,59.5,58.25
+2023,Boise State,San José State,62,41.650000000000006,57.5,57.5
+2023,Wyoming,Fresno State,43,46.3,43.0,46.0
+2023,California,Oregon State,92,50.05,51.0,51.75
+2023,USC,Arizona,84,75.80000000000001,69.5,71.5
+2023,Middle Tennessee,Louisiana Tech,54,67.75,54.0,54.5
+2023,App State,Coastal Carolina,51,63.0,59.0,63.0
+2023,Florida International,UTEP,41,57.099999999999994,43.0,44.0
+2023,Houston,West Virginia,80,75.5,49.5,52.5
+2023,East Carolina,SMU,41,70.15,49.0,50.5
+2023,Memphis,Tulane,52,60.25,55.0,56.5
+2023,Utah State,Fresno State,69,57.699999999999996,56.0,61.0
+2023,Colorado,Stanford,89,64.4,59.0,59.0
+2023,Cincinnati,Iowa State,40,36.0,42.5,49.0
+2023,Alabama,Arkansas,45,60.85,45.5,48.5
+2023,James Madison,Georgia Southern,54,64.75,59.5,58.5
+2023,North Texas,Temple,59,55.150000000000006,68.0,70.5
+2023,Michigan,Indiana,59,56.05,45.5,49.5
+2023,Purdue,Ohio State,48,57.4,53.0,51.75
+2023,Florida State,Syracuse,44,53.65,53.0,56.5
+2023,Rutgers,Michigan State,51,51.599999999999994,39.5,41.25
+2023,Vanderbilt,Georgia,57,52.099999999999994,55.0,57.0
+2023,Eastern Michigan,Kent State,42,59.95,40.0,44.25
+2023,Charlotte,Navy,14,52.900000000000006,44.5,45.0
+2023,Ball State,Toledo,19,49.849999999999994,48.0,52.0
+2023,Utah,California,48,51.849999999999994,43.0,45.0
+2023,Buffalo,Bowling Green,38,62.199999999999996,44.5,48.75
+2023,Army,Troy,19,39.4,42.0,43.75
+2023,Maryland,Illinois,51,42.05,52.0,52.25
+2023,Western Michigan,Miami (OH),55,34.599999999999994,45.0,53.25
+2023,Oklahoma State,Kansas,71,71.05,54.0,58.0
+2023,TCU,BYU,55,66.3,52.5,52.0
+2023,Penn State,Massachusetts,63,47.2,55.0,58.0
+2023,South Carolina,Florida,80,65.15,50.0,53.5
+2023,Central Michigan,Akron,27,53.2,44.0,48.0
+2023,South Florida,Florida Atlantic,70,69.6,61.0,59.5
+2023,Tennessee,Texas A&M,33,55.95,54.5,56.5
+2023,Washington,Oregon,69,69.05000000000001,67.0,67.5
+2023,Virginia Tech,Wake Forest,43,57.4,48.5,48.75
+2023,Northern Illinois,Ohio,36,67.6,45.0,46.75
+2023,Wisconsin,Iowa,21,31.95,33.5,37.25
+2023,Nevada,UNLV,72,54.3,51.5,56.0
+2023,New Mexico,San José State,76,39.3,55.0,57.5
+2023,Pittsburgh,Louisville,59,51.8,45.0,47.5
+2023,Georgia State,Marshall,65,49.55,53.5,57.0
+2023,Texas Tech,Kansas State,59,60.550000000000004,57.5,56.0
+2023,Texas State,UL Monroe,41,54.55,64.5,62.0
+2023,LSU,Auburn,66,56.150000000000006,60.0,63.5
+2023,Air Force,Wyoming,61,34.85,42.0,44.5
+2023,Washington State,Arizona,50,60.25,56.5,60.75
+2023,Notre Dame,USC,68,62.4,61.0,62.5
+2023,Kentucky,Missouri,59,38.7,50.5,53.25
+2023,North Carolina,Miami,72,65.0,57.0,56.0
+2023,Oregon State,UCLA,60,63.400000000000006,53.5,53.25
+2023,Duke,NC State,27,44.9,42.5,48.0
+2023,UTSA,UAB,61,61.449999999999996,67.0,64.5
+2023,Colorado State,Boise State,61,39.7,60.0,62.25
+2023,Hawai'i,San Diego State,75,45.7,52.0,52.25
+2023,Liberty,Middle Tennessee,77,54.2,56.5,55.5
+2023,South Alabama,Southern Miss,58,42.7,51.0,52.5
+2023,UTEP,New Mexico State,35,45.75,49.0,48.75
+2023,Tulsa,Rice,52,65.6,56.5,57.25
+2023,Marshall,James Madison,29,41.0,49.25,51.0
+2023,Temple,SMU,55,62.5,53.0,55.75
+2023,Navy,Air Force,23,35.6,34.0,37.25
+2023,Arkansas,Mississippi State,10,59.8,46.0,49.5
+2023,UAB,Memphis,66,59.9,62.0,62.5
+2023,Ohio,Western Michigan,37,52.650000000000006,52.0,52.25
+2023,Cincinnati,Baylor,61,53.7,50.5,51.0
+2023,Ohio State,Penn State,32,55.65,46.5,45.5
+2023,Indiana,Rutgers,45,54.05,39.5,41.0
+2023,Oklahoma,UCF,60,59.349999999999994,67.5,64.25
+2023,Georgia Tech,Boston College,61,51.25,57.0,57.75
+2023,Georgia Southern,UL Monroe,66,68.4,60.5,59.25
+2023,Bowling Green,Akron,55,59.8,37.0,40.5
+2023,East Carolina,Charlotte,17,61.7,39.5,41.0
+2023,West Virginia,Oklahoma State,82,68.14999999999999,48.5,50.25
+2023,Nebraska,Northwestern,26,48.35,40.0,42.5
+2023,Northern Illinois,Eastern Michigan,33,62.4,43.5,45.25
+2023,Kent State,Buffalo,30,61.75,44.0,45.75
+2023,Alabama,Tennessee,54,63.5,47.5,49.0
+2023,Iowa,Minnesota,22,26.6,30.5,32.25
+2023,Tulane,North Texas,63,58.55,63.5,62.75
+2023,Oregon,Washington State,62,56.599999999999994,60.5,62.5
+2023,UConn,South Florida,45,63.25,57.0,55.5
+2023,Missouri,South Carolina,46,52.75,57.5,59.25
+2023,Illinois,Wisconsin,46,34.45,41.0,42.25
+2023,Ball State,Central Michigan,41,48.650000000000006,42.0,42.25
+2023,Wake Forest,Pittsburgh,38,68.0,45.0,47.5
+2023,Houston,Texas,55,66.95,60.5,61.25
+2023,Miami (OH),Toledo,38,42.15,46.5,48.75
+2023,New Mexico,Hawai'i,63,46.55,60.0,59.5
+2023,Florida Atlantic,UTSA,46,63.349999999999994,58.5,59.0
+2023,North Carolina,Virginia,58,58.65,58.0,56.5
+2023,BYU,Texas Tech,41,69.05,50.0,51.25
+2023,Old Dominion,App State,49,54.45,56.0,54.0
+2023,Arkansas State,Coastal Carolina,44,62.75,59.5,60.25
+2023,UNLV,Colorado State,48,45.849999999999994,60.0,62.5
+2023,San José State,Utah State,63,52.3,65.0,65.75
+2023,Auburn,Ole Miss,49,61.49999999999999,55.5,57.0
+2023,Kansas State,TCU,44,57.8,60.0,58.5
+2023,Florida State,Duke,58,54.65,49.0,48.75
+2023,Michigan State,Michigan,49,53.6,46.5,47.5
+2023,LSU,Army,62,50.85,60.0,58.25
+2023,USC,Utah,66,63.75,52.0,56.0
+2023,Louisiana,Georgia State,37,57.0,62.0,60.25
+2023,Miami,Clemson,48,53.349999999999994,45.0,49.0
+2023,San Diego State,Nevada,6,44.95,48.5,48.5
+2023,Stanford,UCLA,49,67.80000000000001,52.0,54.75
+2023,Washington,Arizona State,22,66.45,60.0,58.75
+2023,Louisiana Tech,New Mexico State,51,57.3,55.0,51.5
+2023,Western Kentucky,Liberty,71,55.45,61.5,60.5
+2023,Virginia Tech,Syracuse,48,44.2,47.0,47.0
+2023,Georgia Southern,Georgia State,71,73.3,63.0,62.0
+2023,Charlotte,Florida Atlantic,54,59.0,45.0,41.5
+2023,Kansas State,Houston,41,66.15,60.5,60.25
+2023,Penn State,Indiana,57,58.5,45.0,44.5
+2023,Wake Forest,Florida State,57,66.85,53.0,53.0
+2023,UCF,West Virginia,69,61.099999999999994,59.0,59.5
+2023,Army,Massachusetts,35,46.9,49.0,48.0
+2023,Kansas,Oklahoma,71,71.94999999999999,66.5,66.0
+2023,SMU,Tulsa,79,75.65,55.0,57.0
+2023,Northwestern,Maryland,60,51.8,48.5,48.75
+2023,Boston College,UConn,35,48.15,49.0,52.5
+2023,Texas A&M,South Carolina,47,51.599999999999994,51.5,54.5
+2023,Eastern Michigan,Western Michigan,66,47.449999999999996,49.5,44.5
+2023,NC State,Clemson,41,44.55,44.5,43.5
+2023,North Texas,Memphis,87,67.1,69.5,67.5
+2023,Texas,BYU,41,61.400000000000006,49.5,50.5
+2023,Louisville,Duke,23,50.1,47.0,47.0
+2023,Florida,Georgia,63,55.0,50.0,49.0
+2023,Minnesota,Michigan State,39,46.85,41.0,40.5
+2023,Baylor,Iowa State,48,46.0,47.0,47.0
+2023,Auburn,Mississippi State,40,57.75,40.0,43.25
+2023,Nebraska,Purdue,45,52.55,39.5,41.75
+2023,App State,Southern Miss,86,51.95,55.5,55.5
+2023,Miami,Virginia,55,46.949999999999996,48.0,50.0
+2023,UTSA,East Carolina,68,66.05,48.0,46.0
+2023,Utah,Oregon,41,63.0,47.5,49.0
+2023,Notre Dame,Pittsburgh,65,54.7,45.5,46.5
+2023,Ohio,Miami (OH),46,48.75,39.0,40.0
+2023,Rice,Tulane,58,55.85,55.0,54.75
+2023,California,USC,99,61.0,67.5,67.25
+2023,South Alabama,Louisiana,53,43.099999999999994,55.0,52.25
+2023,UL Monroe,Arkansas State,58,62.2,55.5,58.25
+2023,Boise State,Wyoming,39,41.849999999999994,48.5,49.5
+2023,Coastal Carolina,Marshall,40,45.2,47.0,48.0
+2023,Colorado State,Air Force,43,32.7,47.5,49.75
+2023,Kentucky,Tennessee,60,51.5,50.5,51.5
+2023,Texas State,Troy,44,37.9,53.5,52.5
+2023,Stanford,Washington,75,63.25,62.0,59.5
+2023,Ole Miss,Vanderbilt,40,62.89999999999999,63.0,63.5
+2023,Wisconsin,Ohio State,34,51.8,48.0,44.0
+2023,UCLA,Colorado,44,72.4,60.5,64.0
+2023,Georgia Tech,North Carolina,88,62.5,65.0,63.5
+2023,Oklahoma State,Cincinnati,58,54.6,53.0,54.25
+2023,James Madison,Old Dominion,57,50.55,48.0,49.0
+2023,Arizona State,Washington State,65,54.0,49.0,51.5
+2023,Arizona,Oregon State,51,64.85,57.5,57.0
+2023,Fresno State,UNLV,55,53.2,56.0,58.5
+2023,Nevada,New Mexico,58,45.8,49.5,50.75
+2023,Hawai'i,San José State,35,47.95,57.0,61.0
+2023,Central Michigan,Northern Illinois,68,59.8,48.0,45.5
+2023,Toledo,Buffalo,44,56.8,47.25,52.5
+2023,Bowling Green,Ball State,45,55.25,39.5,39.5
+2023,Akron,Kent State,58,59.349999999999994,39.75,39.0
+2023,Texas Tech,TCU,63,66.25,59.5,59.25
+2023,Duke,Wake Forest,45,66.3,41.0,45.25
+2023,Troy,South Alabama,38,36.55,43.5,46.5
+2023,Syracuse,Boston College,27,53.14999999999999,47.5,51.25
+2023,Wyoming,Colorado State,39,38.95,43.5,43.5
+2023,Texas,Kansas State,63,52.9,49.25,51.5
+2023,Rutgers,Ohio State,51,51.199999999999996,42.5,43.5
+2023,Florida,Arkansas,75,66.85,49.5,48.75
+2023,Indiana,Wisconsin,34,54.65,45.0,44.0
+2023,Clemson,Notre Dame,54,52.65,44.5,46.0
+2023,Tennessee,UConn,62,55.99999999999999,55.5,53.0
+2023,Michigan State,Nebraska,37,56.35,34.5,35.0
+2023,Ole Miss,Texas A&M,73,52.25,52.5,53.5
+2023,Virginia,Georgia Tech,62,44.45,56.0,54.5
+2023,Utah,Arizona State,58,60.4,39.0,41.5
+2023,Temple,Navy,50,43.75,46.0,41.5
+2023,Air Force,Army,26,39.25,32.0,35.0
+2023,UAB,Florida Atlantic,87,52.9,59.5,60.0
+2023,Memphis,South Florida,109,76.6,68.5,67.0
+2023,North Texas,UTSA,66,68.65,71.0,70.0
+2023,Arkansas State,Louisiana,54,52.1,59.5,60.5
+2023,Northwestern,Iowa,17,33.35,31.0,31.0
+2023,Pittsburgh,Florida State,31,56.349999999999994,50.0,51.5
+2023,Georgia State,James Madison,56,63.45,53.0,55.0
+2023,Oklahoma State,Oklahoma,51,66.39999999999999,62.5,62.0
+2023,Old Dominion,Coastal Carolina,52,54.75,51.5,53.0
+2023,Louisville,Virginia Tech,37,41.2,48.5,48.5
+2023,East Carolina,Tulane,23,55.95,44.5,48.0
+2023,Georgia,Missouri,51,42.6,55.5,56.0
+2023,Baylor,Houston,49,71.95,58.5,57.5
+2023,Maryland,Penn State,66,54.25,50.5,50.0
+2023,Minnesota,Illinois,53,29.1,44.0,42.5
+2023,Cincinnati,UCF,54,47.550000000000004,60.0,59.0
+2023,Nevada,Hawai'i,41,54.449999999999996,50.0,50.5
+2023,Tulsa,Charlotte,59,67.2,47.5,49.0
+2023,Southern Miss,UL Monroe,31,51.699999999999996,56.5,55.0
+2023,Vanderbilt,Auburn,46,61.9,49.5,49.0
+2023,Texas State,Georgia Southern,69,60.75,68.75,71.0
+2023,Oregon,California,82,60.25,61.5,59.0
+2023,New Mexico,UNLV,70,46.400000000000006,58.0,61.5
+2023,Liberty,Louisiana Tech,86,63.05,59.0,57.0
+2023,App State,Marshall,40,44.9,57.5,55.5
+2023,New Mexico State,Middle Tennessee,20,48.45,55.5,56.5
+2023,Iowa State,Kansas,49,52.45,53.5,54.0
+2023,West Virginia,BYU,44,69.94999999999999,48.5,51.0
+2023,San Diego State,Utah State,56,50.05,56.5,56.0
+2023,Mississippi State,Kentucky,27,44.05,44.5,46.0
+2023,USC,Washington,94,69.8,76.0,76.5
+2023,Rice,SMU,67,70.05000000000001,59.0,58.5
+2023,Michigan,Purdue,54,49.8,54.0,48.5
+2023,Alabama,LSU,70,54.45,60.5,60.0
+2023,NC State,Miami,26,44.5,44.0,45.5
+2023,UTEP,Western Kentucky,34,57.45,54.0,54.5
+2023,Washington State,Stanford,17,50.8,58.0,61.0
+2023,Fresno State,Boise State,67,47.05,54.5,55.0
+2023,Colorado,Oregon State,45,60.0,60.5,59.0
+2023,Arizona,UCLA,37,77.25,49.5,53.5
+2023,Northern Illinois,Ball State,37,57.25,43.0,43.0
+2023,Western Michigan,Central Michigan,66,44.85,57.5,55.75
+2023,Buffalo,Ohio,30,63.4,45.0,44.25
+2023,Miami (OH),Akron,19,42.95,37.5,42.75
+2023,Kent State,Bowling Green,68,63.95,41.5,41.0
+2023,Toledo,Eastern Michigan,72,55.0,45.5,46.75
+2023,Louisiana,Southern Miss,65,41.599999999999994,52.5,53.5
+2023,Louisville,Virginia,55,43.349999999999994,49.5,51.5
+2023,SMU,North Texas,66,72.75,67.5,67.75
+2023,UNLV,Wyoming,48,48.0,48.25,51.5
+2023,Penn State,Michigan,39,48.05,44.5,43.5
+2023,South Florida,Temple,50,64.65,69.5,66.5
+2023,Nebraska,Maryland,23,54.55,42.0,45.5
+2023,Illinois,Indiana,93,46.3,43.5,43.25
+2023,Kentucky,Alabama,70,45.099999999999994,46.25,49.0
+2023,Kansas,Texas Tech,29,72.8,61.5,60.75
+2023,Boston College,Virginia Tech,70,45.25,48.5,49.75
+2023,Clemson,Georgia Tech,63,50.85,55.0,55.25
+2023,South Carolina,Vanderbilt,53,62.25,53.5,58.0
+2023,Tulane,Tulsa,46,61.45,52.75,53.5
+2023,Liberty,Old Dominion,48,47.85,58.5,58.0
+2023,Wake Forest,NC State,32,57.099999999999994,43.0,45.0
+2023,Charlotte,Memphis,82,66.0,51.5,53.0
+2023,James Madison,UConn,50,48.5,47.5,49.0
+2023,Colorado,Arizona,65,73.85,55.5,55.5
+2023,UL Monroe,Troy,59,45.55,46.75,45.5
+2023,Georgia State,App State,56,67.35,62.5,60.0
+2023,Kansas State,Baylor,84,57.9,55.5,55.25
+2023,Utah State,Nevada,65,58.8,54.25,56.0
+2023,Navy,UAB,37,46.8,52.0,54.0
+2023,Western Kentucky,New Mexico State,67,49.7,54.5,57.5
+2023,Syracuse,Pittsburgh,41,54.8,37.75,37.5
+2023,UCF,Oklahoma State,48,58.45,64.0,64.0
+2023,Coastal Carolina,Texas State,54,55.1,55.5,60.5
+2023,Washington,Utah,63,60.65,49.0,54.5
+2023,Purdue,Minnesota,79,43.05,48.5,46.0
+2023,Wisconsin,Northwestern,34,44.2,43.5,42.5
+2023,Florida State,Miami,47,54.25,50.5,50.0
+2023,Middle Tennessee,Florida International,46,59.8,51.0,52.5
+2023,Missouri,Tennessee,43,57.099999999999994,58.75,58.5
+2023,Iowa,Rutgers,22,31.35,27.5,29.25
+2023,Arkansas,Auburn,58,62.55,47.0,50.75
+2023,California,Washington State,81,45.45,59.0,58.75
+2023,Florida Atlantic,East Carolina,29,57.5,44.75,45.5
+2023,South Alabama,Arkansas State,35,53.199999999999996,55.0,55.0
+2023,Oregon State,Stanford,79,55.4,52.5,54.25
+2023,Oklahoma,West Virginia,79,69.05,59.5,58.25
+2023,Marshall,Georgia Southern,71,50.849999999999994,56.5,56.5
+2023,Colorado State,San Diego State,41,36.5,46.5,47.5
+2023,Georgia,Ole Miss,69,51.7,58.75,58.5
+2023,Houston,Cincinnati,38,61.95,53.75,55.5
+2023,LSU,Florida,87,60.45,68.0,63.0
+2023,UTSA,Rice,48,65.94999999999999,54.25,60.0
+2023,Ohio State,Michigan State,41,61.199999999999996,48.25,46.5
+2023,Texas A&M,Mississippi State,61,48.5,40.5,44.5
+2023,TCU,Texas,55,58.599999999999994,56.25,53.0
+2023,North Carolina,Duke,92,65.4,53.0,50.5
+2023,UCLA,Arizona State,24,71.0,45.5,47.5
+2023,Boise State,New Mexico,56,40.25,59.0,60.5
+2023,BYU,Iowa State,58,48.7,41.5,42.75
+2023,Oregon,USC,63,72.15,78.0,74.0
+2023,San José State,Fresno State,60,46.1,51.5,56.0
+2023,Hawai'i,Air Force,40,41.900000000000006,47.5,49.5
+2023,Eastern Michigan,Akron,57,55.8,39.5,39.0
+2023,Northern Illinois,Western Michigan,24,53.45,55.5,55.5
+2023,Bowling Green,Toledo,63,59.0,49.5,52.0
+2023,Miami (OH),Buffalo,33,45.35,37.0,41.5
+2023,Ohio,Central Michigan,54,59.0,48.5,46.0
+2023,Pittsburgh,Boston College,40,55.849999999999994,46.75,47.25
+2023,UTSA,South Florida,70,78.15,66.5,67.0
+2023,Washington State,Colorado,70,55.4,59.5,64.0
+2023,Indiana,Michigan State,45,64.05,47.0,46.75
+2023,Maryland,Michigan,55,51.8,50.5,50.5
+2023,Memphis,SMU,72,74.44999999999999,64.5,67.25
+2023,Northwestern,Purdue,38,49.8,47.5,48.0
+2023,Ole Miss,UL Monroe,38,62.349999999999994,60.5,61.75
+2023,Penn State,Rutgers,33,46.05,40.0,43.25
+2023,Florida Atlantic,Tulane,32,53.25,47.0,48.25
+2023,Navy,East Carolina,10,51.4,30.5,33.0
+2023,BYU,Oklahoma,55,68.19999999999999,58.5,57.25
+2023,Miami,Louisville,69,49.7,46.5,47.0
+2023,Mississippi State,Southern Miss,61,48.1,47.5,46.75
+2023,Army,Coastal Carolina,49,56.6,40.5,44.5
+2023,Liberty,Massachusetts,74,46.7,63.5,62.5
+2023,James Madison,App State,49,58.8,56.25,55.75
+2023,Wyoming,Hawai'i,51,48.15,45.0,45.0
+2023,Middle Tennessee,UTEP,64,56.2,48.5,48.25
+2023,Ball State,Kent State,37,54.8,42.0,41.75
+2023,Charlotte,Rice,35,61.6,46.5,47.25
+2023,West Virginia,Cincinnati,63,57.25,52.5,55.25
+2023,Arizona,Utah,60,66.65,45.5,45.25
+2023,Virginia,Duke,57,47.349999999999994,47.0,47.75
+2023,Colorado State,Nevada,50,45.25,45.5,47.5
+2023,UAB,Temple,58,47.95,61.5,64.75
+2023,Arkansas State,Texas State,108,54.55,59.5,59.25
+2023,Tulsa,North Texas,63,68.30000000000001,69.5,67.25
+2023,Notre Dame,Wake Forest,52,65.19999999999999,47.5,47.25
+2023,Iowa,Illinois,28,23.6,33.5,31.0
+2023,USC,UCLA,58,74.35,62.5,65.5
+2023,Virginia Tech,NC State,63,36.0,41.0,44.75
+2023,TCU,Baylor,59,63.6,61.5,58.5
+2023,Tennessee,Georgia,48,55.400000000000006,59.0,59.5
+2023,Clemson,North Carolina,51,65.05000000000001,59.5,58.5
+2023,Air Force,UNLV,58,41.75,46.5,46.75
+2023,Troy,Louisiana,55,35.45,47.5,47.25
+2023,Arizona State,Oregon,62,68.8,53.5,54.25
+2023,Houston,Oklahoma State,73,72.85000000000001,57.5,59.25
+2023,Auburn,New Mexico State,41,49.25,48.5,48.5
+2023,Ohio State,Minnesota,40,46.45,51.5,49.0
+2023,Texas Tech,UCF,47,60.2,59.5,59.75
+2023,South Alabama,Marshall,28,35.65,45.0,50.75
+2023,Georgia Southern,Old Dominion,37,60.39999999999999,61.5,61.25
+2023,Stanford,California,42,54.45,53.5,57.75
+2023,Utah State,Boise State,55,53.25,63.5,64.25
+2023,Kansas,Kansas State,58,64.35,59.5,55.5
+2023,Arkansas,Florida International,64,62.65,49.5,51.75
+2023,Missouri,Florida,64,56.7,56.5,58.5
+2023,South Carolina,Kentucky,31,47.15,52.5,54.5
+2023,Wisconsin,Nebraska,41,46.95,36.5,37.25
+2023,Oregon State,Washington,42,58.85,62.5,64.0
+2023,Georgia Tech,Syracuse,53,50.2,51.5,52.75
+2023,LSU,Georgia State,70,61.900000000000006,73.5,72.0
+2023,Iowa State,Texas,42,41.0,44.5,48.0
+2023,Fresno State,New Mexico,42,44.7,58.5,56.75
+2023,San José State,San Diego State,37,38.45,48.5,50.25
+2023,Western Michigan,Bowling Green,44,51.45,51.5,54.25
+2023,Buffalo,Eastern Michigan,35,58.2,38.0,39.25
+2023,Mississippi State,Ole Miss,24,58.75,55.0,56.0
+2023,Central Michigan,Toledo,49,52.400000000000006,54.5,55.5
+2023,Temple,Memphis,66,56.849999999999994,64.25,65.0
+2023,Akron,Ohio,39,61.0,41.75,41.0
+2023,Oklahoma,TCU,114,65.4,66.0,63.0
+2023,Nebraska,Iowa,23,36.1,25.75,27.5
+2023,Boston College,Miami,65,53.75,50.25,48.5
+2023,New Mexico,Utah State,85,50.9,58.5,62.0
+2023,Tulane,UTSA,45,61.8,52.5,52.0
+2023,Arkansas,Missouri,62,54.449999999999996,53.5,55.0
+2023,Boise State,Air Force,46,35.6,44.75,46.0
+2023,Texas,Texas Tech,64,61.349999999999994,53.5,53.5
+2023,Michigan State,Penn State,42,56.05,42.5,43.0
+2023,Oregon,Oregon State,38,61.199999999999996,61.25,62.5
+2023,Michigan,Ohio State,54,53.2,47.0,46.5
+2023,Ball State,Miami (OH),32,38.400000000000006,34.25,36.0
+2023,Kent State,Northern Illinois,64,65.95,44.75,44.5
+2023,Massachusetts,UConn,49,43.0,50.75,50.5
+2023,UCF,Houston,40,65.80000000000001,61.25,60.5
+2023,Louisville,Kentucky,69,39.599999999999994,47.5,51.0
+2023,Purdue,Indiana,66,60.25,55.5,50.0
+2023,LSU,Texas A&M,72,46.900000000000006,67.75,66.0
+2023,Duke,Pittsburgh,49,55.8,40.75,42.5
+2023,SMU,Navy,73,61.35,46.0,45.5
+2023,Southern Miss,Troy,52,35.05,48.5,48.0
+2023,Rice,Florida Atlantic,45,57.4,46.75,48.5
+2023,East Carolina,Tulsa,56,65.7,44.25,44.5
+2023,Syracuse,Wake Forest,66,65.3,43.5,44.0
+2023,North Texas,UAB,87,58.2,73.0,73.5
+2023,Old Dominion,Georgia State,49,59.099999999999994,50.0,54.5
+2023,Louisiana,UL Monroe,73,52.1,53.25,52.0
+2023,Utah,Colorado,40,61.8,43.5,52.5
+2023,Florida International,Western Kentucky,69,61.05,54.25,55.0
+2023,UNLV,San José State,68,47.800000000000004,58.25,58.0
+2023,UTEP,Liberty,70,51.5,54.5,59.0
+2023,Tennessee,Vanderbilt,72,66.6,57.25,56.5
+2023,Arizona State,Arizona,82,72.45,49.25,51.0
+2023,Rutgers,Maryland,66,49.8,45.5,45.5
+2023,Minnesota,Wisconsin,42,37.45,44.0,42.0
+2023,Virginia,Virginia Tech,72,38.45,53.0,52.75
+2023,Illinois,Northwestern,88,35.85,46.75,47.0
+2023,App State,Georgia Southern,82,68.64999999999999,63.0,63.0
+2023,Auburn,Alabama,51,58.8,48.0,49.0
+2023,Coastal Carolina,James Madison,70,59.10000000000001,50.5,50.5
+2023,Marshall,Arkansas State,56,44.650000000000006,52.5,54.0
+2023,Oklahoma State,BYU,74,67.3,55.0,57.0
+2023,Washington,Washington State,45,54.25,65.5,68.25
+2023,Baylor,West Virginia,65,67.25,54.0,57.0
+2023,Stanford,Notre Dame,79,55.85,50.0,52.0
+2023,Texas State,South Alabama,96,45.55,56.75,58.0
+2023,Florida,Florida State,39,62.15,48.5,51.0
+2023,Georgia Tech,Georgia,54,44.6,59.5,60.0
+2023,South Carolina,Clemson,23,57.3,48.25,52.0
+2023,South Florida,Charlotte,62,73.80000000000001,56.75,56.5
+2023,Cincinnati,Kansas,65,60.150000000000006,59.25,58.0
+2023,Kansas State,Iowa State,77,40.2,46.25,48.0
+2023,NC State,North Carolina,59,56.2,55.5,55.0
+2023,Nevada,Wyoming,48,47.4,41.75,41.5
+2023,San Diego State,Fresno State,51,43.85,47.25,46.0
+2023,UCLA,California,40,62.449999999999996,51.0,52.0
+2023,Hawai'i,Colorado State,51,46.0,53.75,54.5
+2023,Liberty,New Mexico State,84,43.75,58.0,53.75
+2023,Washington,Oregon,65,69.05000000000001,65.5,67.0
+2023,Texas,Oklahoma State,70,59.6,56.5,54.25
+2023,Toledo,Miami (OH),37,42.15,43.5,46.25
+2023,UNLV,Boise State,64,48.75,62.0,58.5
+2023,Alabama,Georgia,51,49.0,53.5,56.0
+2023,Tulane,SMU,40,65.9,47.5,51.5
+2023,Troy,App State,72,45.8,52.5,51.5
+2023,Iowa,Michigan,26,33.35,35.5,35.0
+2023,Florida State,Louisville,22,50.65,45.5,52.25
+2023,Army,Navy,28,46.25,28.0,31.0
+2024,Georgia Tech,Florida State,45,54.55,54.5,56.5
+2024,Nevada,SMU,53,54.349999999999994,55.5,57.25
+2024,Minnesota,North Carolina,36,51.65,52.5,50.75
+2024,Jacksonville State,Coastal Carolina,82,52.75,54.5,56.75
+2024,Michigan State,Florida Atlantic,26,43.699999999999996,45.0,46.75
+2024,Oklahoma,Temple,54,58.75,57.5,59.25
+2024,Wisconsin,Western Michigan,42,44.300000000000004,56.5,56.5
+2024,Stanford,TCU,61,57.35,58.5,59.75
+2024,West Virginia,Penn State,46,49.650000000000006,48.5,51.0
+2024,Vanderbilt,Virginia Tech,61,55.35,49.0,53.75
+2024,Maryland,UConn,57,46.95,45.5,47.5
+2024,Pittsburgh,Kent State,79,44.15,54.5,53.75
+2024,Georgia,Clemson,37,51.0,49.0,48.25
+2024,Florida,Miami,58,55.45,54.5,54.5
+2024,Texas,Colorado State,52,55.449999999999996,62.5,59.5
+2024,Syracuse,Ohio,60,42.45,45.5,47.25
+2024,Massachusetts,Eastern Michigan,42,48.400000000000006,50.5,49.0
+2024,Ohio State,Akron,58,39.95,56.0,58.25
+2024,Nebraska,UTEP,47,39.2,48.75,48.75
+2024,Northwestern,Miami (OH),19,36.6,40.5,42.75
+2024,Indiana,Florida International,38,49.2,51.0,51.0
+2024,Georgia Southern,Boise State,101,64.1,57.5,57.0
+2024,South Carolina,Old Dominion,42,54.1,49.5,54.75
+2024,South Alabama,North Texas,90,65.4,61.5,64.5
+2024,Alabama,Western Kentucky,63,55.6,60.0,60.25
+2024,Troy,Nevada,54,51.2,44.5,46.0
+2024,Houston,UNLV,34,61.30000000000001,55.5,55.25
+2024,Rice,Sam Houston,48,52.599999999999994,49.0,49.0
+2024,Texas A&M,Notre Dame,36,53.15,46.5,46.75
+2024,Michigan,Fresno State,40,50.3,46.5,47.75
+2024,Hawai'i,UCLA,29,51.550000000000004,52.0,55.25
+2024,Kentucky,Southern Miss,31,56.85,50.0,51.0
+2024,Charlotte,James Madison,37,53.75,49.25,51.0
+2024,Georgia Tech,Georgia State,47,60.0,56.25,57.25
+2024,Arizona,New Mexico,100,60.05,60.0,54.25
+2024,Arizona State,Wyoming,55,49.849999999999994,47.5,47.5
+2024,LSU,USC,47,72.85,67.0,63.0
+2024,Florida State,Boston College,41,50.2,51.5,50.0
+2024,SMU,BYU,33,56.35,56.0,54.5
+2024,Northwestern,Duke,46,41.9,37.5,38.75
+2024,Florida Atlantic,Army,31,44.3,42.5,44.5
+2024,Michigan,Texas,43,50.4,42.0,44.0
+2024,Oklahoma State,Arkansas,70,57.400000000000006,61.0,60.5
+2024,Syracuse,Georgia Tech,59,53.4,60.5,58.5
+2024,Cincinnati,Pittsburgh,55,47.45,62.5,59.5
+2024,Memphis,Troy,55,60.85,56.5,56.0
+2024,Tulane,Kansas State,61,55.8,47.5,48.5
+2024,Rutgers,Akron,66,40.15,41.75,40.25
+2024,Penn State,Bowling Green,61,46.05,51.5,49.0
+2024,Notre Dame,Northern Illinois,30,47.75,46.5,46.0
+2024,Iowa,Iowa State,39,34.800000000000004,36.0,35.75
+2024,Maryland,Michigan State,51,42.8,44.5,43.5
+2024,Navy,Temple,49,49.3,43.5,44.0
+2024,Washington,Eastern Michigan,39,52.4,48.5,47.5
+2024,Louisville,Jacksonville State,63,51.55,56.5,58.0
+2024,North Carolina,Charlotte,58,55.7,47.5,48.0
+2024,Auburn,California,35,52.9,52.5,53.5
+2024,Toledo,Massachusetts,61,52.1,51.0,50.5
+2024,Utah,Baylor,35,51.599999999999994,54.0,53.5
+2024,Kentucky,South Carolina,37,53.8,41.5,45.5
+2024,Texas State,UTSA,59,61.8,59.0,60.5
+2024,Ole Miss,Middle Tennessee,55,53.5,61.5,62.5
+2024,Virginia Tech,Marshall,45,53.35,52.5,47.5
+2024,Florida International,Central Michigan,68,51.2,51.5,51.5
+2024,Old Dominion,East Carolina,34,48.95,54.0,51.0
+2024,Ohio,South Alabama,47,46.6,55.5,54.5
+2024,UCF,Sam Houston,59,50.150000000000006,54.0,58.0
+2024,Wake Forest,Virginia,61,49.9,55.5,54.5
+2024,Alabama,South Florida,58,57.65,64.5,63.5
+2024,Nevada,Georgia Southern,37,59.45,56.5,55.0
+2024,UL Monroe,UAB,38,60.800000000000004,55.0,54.5
+2024,Illinois,Kansas,40,53.7,58.5,55.5
+2024,Arkansas State,Tulsa,52,57.099999999999994,65.5,64.5
+2024,Missouri,Buffalo,38,49.65,52.0,51.5
+2024,Air Force,San José State,24,52.05,44.5,46.5
+2024,Nebraska,Colorado,38,46.75,55.5,57.5
+2024,Ohio State,Western Michigan,56,45.800000000000004,54.5,54.0
+2024,NC State,Tennessee,61,49.65,60.5,60.25
+2024,Oklahoma,Houston,28,59.45,49.5,52.5
+2024,Clemson,App State,86,56.25,53.0,51.5
+2024,Oregon,Boise State,71,62.050000000000004,60.5,61.5
+2024,Washington State,Texas Tech,53,56.35,65.5,65.5
+2024,New Mexico State,Liberty,54,55.8,54.0,57.0
+2024,San Diego State,Oregon State,21,52.550000000000004,54.0,56.0
+2024,Arizona State,Mississippi State,53,49.849999999999994,58.5,58.5
+2024,USC,Utah State,48,71.65,63.0,61.5
+2024,Texas State,Arizona State,59,57.55,58.5,58.5
+2024,Kansas,UNLV,43,63.25000000000001,57.5,57.0
+2024,Kansas State,Arizona,38,60.55,61.0,58.5
+2024,Illinois,Central Michigan,39,48.25,50.0,52.0
+2024,Wisconsin,Alabama,52,44.349999999999994,47.5,50.0
+2024,Florida State,Memphis,32,60.75,54.5,52.5
+2024,NC State,Louisiana Tech,50,51.65,48.0,51.5
+2024,Texas Tech,North Texas,87,64.25,70.5,68.5
+2024,Miami (OH),Cincinnati,43,42.9,47.5,45.5
+2024,Michigan,Arkansas State,46,51.2,47.5,45.5
+2024,Tulsa,Oklahoma State,55,57.75,62.5,62.5
+2024,South Carolina,LSU,69,61.7,48.5,51.0
+2024,Missouri,Boston College,48,52.15,52.0,54.0
+2024,Buffalo,Massachusetts,37,50.9,45.5,45.0
+2024,Temple,Coastal Carolina,48,55.6,52.0,51.5
+2024,Oregon State,Oregon,63,59.35,50.0,50.5
+2024,Washington,Washington State,43,61.699999999999996,54.5,56.5
+2024,Purdue,Notre Dame,73,50.95,47.0,45.25
+2024,Oklahoma,Tulane,53,56.0,49.0,49.5
+2024,Florida,Texas A&M,53,55.2,45.5,46.5
+2024,Miami,Ball State,62,46.35,55.5,54.5
+2024,Pittsburgh,West Virginia,72,50.7,61.5,60.5
+2024,Minnesota,Nevada,27,46.35,44.0,43.5
+2024,Iowa,Troy,59,36.95,39.0,39.0
+2024,East Carolina,App State,40,53.85,58.5,58.5
+2024,Arkansas,UAB,64,60.7,60.5,58.5
+2024,Utah State,Utah,59,56.65,43.5,46.5
+2024,Liberty,UTEP,38,55.7,57.5,57.5
+2024,Florida Atlantic,Florida International,58,49.650000000000006,44.5,43.5
+2024,Old Dominion,Virginia Tech,54,52.6,47.5,49.5
+2024,Duke,UConn,47,47.4,46.5,47.5
+2024,Wake Forest,Ole Miss,46,51.3,65.5,63.5
+2024,Georgia State,Vanderbilt,68,60.7,45.5,46.0
+2024,Eastern Michigan,Jacksonville State,71,45.25,53.5,49.0
+2024,Southern Miss,South Florida,73,61.4,58.5,57.5
+2024,Texas,UTSA,63,57.8,56.5,53.5
+2024,Middle Tennessee,Western Kentucky,70,55.150000000000006,54.0,54.5
+2024,Sam Houston,Hawai'i,44,49.95,48.5,50.5
+2024,Colorado State,Colorado,37,58.95,58.5,58.0
+2024,TCU,UCF,69,57.150000000000006,61.5,62.5
+2024,UCLA,Indiana,55,47.4,46.5,47.5
+2024,Kentucky,Georgia,25,53.75,45.0,45.5
+2024,Mississippi State,Toledo,58,48.4,57.5,58.0
+2024,Baylor,Air Force,34,51.8,41.0,43.5
+2024,Auburn,New Mexico,64,53.1,58.5,60.0
+2024,Tennessee,Kent State,71,48.55,62.5,62.5
+2024,Virginia,Maryland,40,49.3,55.5,55.0
+2024,Houston,Rice,40,59.1,44.0,44.0
+2024,Wyoming,BYU,48,52.6,39.5,39.5
+2024,California,San Diego State,41,54.449999999999996,48.5,50.0
+2024,Fresno State,New Mexico State,48,52.95,48.5,48.5
+2024,App State,South Alabama,62,60.4,62.5,64.0
+2024,Syracuse,Stanford,50,52.1,56.5,58.5
+2024,Nebraska,Illinois,55,37.6,42.0,43.25
+2024,Washington State,San José State,106,58.0,55.5,55.5
+2024,Indiana,Charlotte,66,48.0,50.5,49.5
+2024,Cincinnati,Houston,34,53.7,47.5,48.5
+2024,North Carolina,James Madison,120,60.25,48.5,47.5
+2024,Mississippi State,Florida,73,53.35,58.0,57.25
+2024,West Virginia,Kansas,60,58.900000000000006,56.0,57.5
+2024,Clemson,NC State,94,46.75,44.0,48.25
+2024,Army,Rice,51,50.65,43.5,42.5
+2024,Louisiana,Tulane,74,58.2,53.5,54.75
+2024,Ohio State,Marshall,63,47.599999999999994,55.5,51.0
+2024,Kentucky,Ohio,47,45.2,42.0,42.0
+2024,Central Michigan,Ball State,71,44.85,50.5,52.75
+2024,Coastal Carolina,Virginia,67,53.75,52.0,54.75
+2024,Iowa State,Arkansas State,59,52.55,52.0,51.5
+2024,Temple,Utah State,74,61.800000000000004,53.5,52.25
+2024,Jacksonville State,Southern Miss,51,55.3,59.5,61.5
+2024,Auburn,Arkansas,38,50.7,53.5,58.25
+2024,Michigan,USC,51,59.95,44.0,46.5
+2024,Virginia Tech,Rutgers,49,45.25,44.75,45.75
+2024,LSU,UCLA,51,58.8,56.5,56.5
+2024,Northern Illinois,Buffalo,43,43.65,42.5,44.75
+2024,Louisville,Georgia Tech,50,55.45,56.0,57.5
+2024,Penn State,Kent State,56,43.1,57.5,54.5
+2024,Notre Dame,Miami (OH),31,44.6,44.0,43.75
+2024,Texas Tech,Arizona State,52,52.2,58.5,60.5
+2024,Navy,Memphis,100,56.55,47.0,50.5
+2024,Oklahoma State,Utah,41,53.0,53.5,51.5
+2024,Middle Tennessee,Duke,62,49.15,51.0,54.0
+2024,Missouri,Vanderbilt,57,57.2,52.0,53.0
+2024,SMU,TCU,108,57.95,58.5,57.5
+2024,Colorado State,UTEP,44,51.4,49.0,50.5
+2024,Liberty,East Carolina,59,53.00000000000001,54.5,52.5
+2024,South Florida,Miami,65,58.35,64.5,65.25
+2024,Washington,Northwestern,29,51.0,42.5,42.75
+2024,Florida State,California,23,54.95,44.5,44.75
+2024,Louisiana Tech,Tulsa,43,56.85,56.5,57.5
+2024,UConn,Florida Atlantic,62,47.849999999999994,45.5,46.5
+2024,North Texas,Wyoming,61,61.9,55.0,56.0
+2024,Western Kentucky,Toledo,47,53.0,60.5,58.75
+2024,Sam Houston,New Mexico State,42,46.95,44.5,43.5
+2024,Texas A&M,Bowling Green,46,51.099999999999994,50.5,52.5
+2024,South Carolina,Akron,57,47.2,41.5,46.5
+2024,Oklahoma,Tennessee,40,57.6,57.0,57.75
+2024,Minnesota,Iowa,45,32.1,34.5,36.25
+2024,Ole Miss,Georgia Southern,65,61.4,68.5,65.5
+2024,Texas,UL Monroe,54,56.05,53.5,52.5
+2024,Colorado,Baylor,69,60.55,52.5,54.25
+2024,Boston College,Michigan State,42,44.75,45.5,45.75
+2024,Oregon State,Purdue,59,52.2,50.5,50.5
+2024,New Mexico,Fresno State,59,58.25,61.0,61.5
+2024,BYU,Kansas State,47,58.150000000000006,49.5,47.5
+2024,Temple,Army,56,48.65,47.0,46.0
+2024,Miami,Virginia Tech,72,52.3,55.5,55.5
+2024,Rutgers,Washington,39,52.35,45.0,45.5
+2024,UConn,Buffalo,50,46.4,44.5,45.5
+2024,Boston College,Western Kentucky,41,54.3,48.0,55.0
+2024,Indiana,Maryland,70,46.35,49.5,55.25
+2024,Tulane,South Florida,55,56.9,60.5,63.75
+2024,Michigan,Minnesota,51,42.45,34.5,38.75
+2024,NC State,Northern Illinois,41,43.85,46.5,47.0
+2024,Kansas State,Oklahoma State,62,60.3,58.0,55.25
+2024,Purdue,Nebraska,38,39.2,47.0,49.0
+2024,Ole Miss,Kentucky,37,54.65,51.5,53.0
+2024,UAB,Navy,59,54.349999999999994,56.5,56.5
+2024,Baylor,BYU,62,56.35,46.5,45.25
+2024,James Madison,Ball State,70,48.6,56.5,56.75
+2024,Sam Houston,Texas State,79,54.9,55.0,55.5
+2024,UNLV,Fresno State,73,60.8,50.5,51.0
+2024,UCF,Colorado,69,59.75,60.5,63.5
+2024,Kansas,TCU,65,60.25,58.5,59.5
+2024,Notre Dame,Louisville,55,52.699999999999996,45.0,48.0
+2024,Kent State,Eastern Michigan,85,41.4,46.0,48.25
+2024,Texas A&M,Arkansas,38,54.1,50.5,52.5
+2024,Wake Forest,Louisiana,79,56.3,59.5,60.5
+2024,Marshall,Western Michigan,47,54.1,53.5,54.0
+2024,Central Michigan,San Diego State,43,50.2,47.5,53.75
+2024,Ohio,Akron,40,38.6,46.0,46.75
+2024,Auburn,Oklahoma,48,53.8,43.0,46.25
+2024,Georgia State,Georgia Southern,59,64.4,57.0,57.75
+2024,USC,Wisconsin,59,56.2,50.0,51.25
+2024,Miami (OH),Massachusetts,43,46.6,44.5,46.75
+2024,East Carolina,UTSA,50,51.050000000000004,53.5,54.0
+2024,Duke,North Carolina,41,54.5,55.5,56.0
+2024,Texas,Mississippi State,48,53.3,58.5,61.75
+2024,Bowling Green,Old Dominion,57,51.65,51.5,50.25
+2024,Florida International,Louisiana Tech,27,54.85,49.0,51.75
+2024,Clemson,Stanford,54,52.099999999999994,58.0,57.75
+2024,North Texas,Tulsa,72,64.89999999999999,65.5,68.25
+2024,Troy,UL Monroe,22,52.95,46.0,45.5
+2024,Houston,Iowa State,20,52.150000000000006,43.0,43.25
+2024,Rice,Charlotte,41,54.8,48.0,47.0
+2024,Alabama,Georgia,75,53.05,50.0,49.5
+2024,Memphis,Middle Tennessee,31,61.199999999999996,61.5,61.5
+2024,Penn State,Illinois,28,44.45,48.5,47.5
+2024,Michigan State,Ohio State,45,39.5,48.5,49.0
+2024,LSU,South Alabama,52,63.099999999999994,64.5,66.25
+2024,Wyoming,Air Force,50,48.05,33.5,35.5
+2024,SMU,Florida State,58,53.85,46.5,47.5
+2024,New Mexico State,New Mexico,90,54.4,54.0,57.5
+2024,Texas Tech,Cincinnati,85,51.95,60.0,58.0
+2024,Boise State,Washington State,69,59.650000000000006,66.0,65.0
+2024,Utah,Arizona,33,53.25,47.0,50.75
+2024,UCLA,Oregon,47,55.599999999999994,54.0,55.5
+2024,Troy,Texas State,55,57.9,56.0,57.75
+2024,UTEP,Sam Houston,62,46.85,49.5,49.75
+2024,TCU,Houston,49,58.300000000000004,52.0,49.75
+2024,UNLV,Syracuse,85,56.550000000000004,55.5,57.75
+2024,Oregon,Michigan State,41,51.45,53.0,52.5
+2024,Texas A&M,Missouri,51,53.9,47.5,49.5
+2024,Penn State,UCLA,38,45.6,47.5,45.25
+2024,Air Force,Navy,41,44.349999999999994,37.0,36.25
+2024,Wisconsin,Purdue,58,42.599999999999994,44.5,46.75
+2024,Northern Illinois,Massachusetts,54,49.75,41.0,45.75
+2024,NC State,Wake Forest,64,46.15,52.5,55.0
+2024,North Carolina,Pittsburgh,58,53.75,62.5,64.5
+2024,Louisville,SMU,61,54.75,55.0,57.5
+2024,Virginia,Boston College,38,51.25,52.5,50.25
+2024,Tulsa,Army,56,48.25,50.5,50.5
+2024,UAB,Tulane,91,58.699999999999996,52.0,55.25
+2024,Ball State,Western Michigan,87,45.60000000000001,57.5,56.5
+2024,Akron,Bowling Green,47,44.75,48.5,51.25
+2024,Toledo,Miami (OH),50,41.7,43.5,43.75
+2024,Marshall,App State,89,60.05,56.5,58.25
+2024,Georgia,Auburn,44,50.099999999999994,50.0,52.25
+2024,South Carolina,Ole Miss,30,54.65,53.0,51.5
+2024,Northwestern,Indiana,65,41.900000000000006,40.5,42.5
+2024,Ohio State,Iowa,42,31.2,46.0,44.5
+2024,UConn,Temple,49,52.2,49.0,50.25
+2024,Stanford,Virginia Tech,38,53.35,49.5,53.5
+2024,Charlotte,East Carolina,79,46.35,47.5,46.75
+2024,Oklahoma State,West Virginia,52,58.0,64.5,65.5
+2024,Nebraska,Rutgers,21,34.599999999999994,40.0,43.75
+2024,Vanderbilt,Alabama,75,56.15,53.5,54.75
+2024,Oregon State,Colorado State,70,54.7,47.0,47.5
+2024,Boise State,Utah State,92,64.05000000000001,66.5,65.5
+2024,Southern Miss,Louisiana,36,62.7,57.5,57.5
+2024,UL Monroe,James Madison,40,56.699999999999996,48.0,48.75
+2024,Florida State,Clemson,42,49.45,47.0,47.25
+2024,Arkansas State,South Alabama,34,57.599999999999994,62.5,62.25
+2024,Coastal Carolina,Old Dominion,82,54.6,51.5,55.25
+2024,San José State,Nevada,66,54.599999999999994,51.5,48.25
+2024,Minnesota,USC,41,58.6,45.5,52.25
+2024,Washington,Michigan,44,54.4,39.5,40.75
+2024,Arkansas,Tennessee,33,54.5,57.5,59.75
+2024,Iowa State,Baylor,64,51.8,45.0,46.5
+2024,Florida,UCF,37,56.3,62.0,59.75
+2024,San Diego State,Hawai'i,51,52.349999999999994,47.5,47.25
+2024,Georgia Tech,Duke,38,52.650000000000006,52.5,54.0
+2024,Arizona State,Kansas,66,55.9,50.0,50.5
+2024,California,Miami,77,56.55,54.0,55.25
+2024,Arizona,Texas Tech,50,57.35,63.5,62.5
+2024,Liberty,Florida International,55,57.050000000000004,55.5,54.75
+2024,Jacksonville State,New Mexico State,67,49.900000000000006,58.5,58.0
+2024,James Madison,Coastal Carolina,46,56.55,59.0,58.5
+2024,Western Kentucky,UTEP,61,53.85,55.5,55.5
+2024,Louisiana Tech,Middle Tennessee,69,54.8,47.5,48.25
+2024,Maryland,Northwestern,47,41.45,45.0,45.5
+2024,Utah State,UNLV,84,66.0,67.0,64.5
+2024,Arizona State,Utah,46,48.099999999999994,46.5,45.75
+2024,North Carolina,Georgia Tech,75,60.35,60.5,57.0
+2024,Iowa,Washington,56,44.05,41.5,41.0
+2024,Alabama,South Carolina,52,53.099999999999994,50.0,50.5
+2024,Army,UAB,54,53.7,55.5,55.5
+2024,Buffalo,Toledo,45,46.0,44.5,44.25
+2024,Massachusetts,Missouri,48,55.75,53.5,53.5
+2024,Rutgers,Wisconsin,49,38.0,43.5,39.75
+2024,Kent State,Ball State,72,40.95,58.0,58.75
+2024,Wake Forest,Clemson,63,47.7,63.0,60.75
+2024,Eastern Michigan,Miami (OH),52,38.0,45.5,44.25
+2024,Wyoming,San Diego State,51,49.6,43.0,42.5
+2024,Bowling Green,Northern Illinois,24,45.7,46.5,47.5
+2024,Notre Dame,Stanford,56,54.449999999999996,45.5,45.75
+2024,Oklahoma,Texas,37,59.05,49.0,56.0
+2024,Colorado State,San José State,55,55.75,55.5,55.25
+2024,Georgia State,Old Dominion,35,57.95,53.5,54.5
+2024,USC,Penn State,63,59.65,52.0,47.5
+2024,UCF,Cincinnati,32,52.55,58.0,58.5
+2024,Illinois,Purdue,99,47.300000000000004,47.0,50.5
+2024,Western Michigan,Akron,58,46.45,48.5,53.5
+2024,Virginia,Louisville,44,52.55,54.0,55.5
+2024,South Florida,Memphis,24,66.89999999999999,61.0,59.5
+2024,Pittsburgh,California,32,52.3,57.5,59.25
+2024,Central Michigan,Ohio,52,43.7,50.5,48.0
+2024,BYU,Arizona,60,58.0,48.5,49.5
+2024,Georgia,Mississippi State,72,51.650000000000006,53.5,53.75
+2024,UL Monroe,Southern Miss,59,57.5,41.0,41.25
+2024,Fresno State,Washington State,42,57.599999999999994,60.5,61.5
+2024,Tennessee,Florida,40,55.599999999999994,55.5,54.25
+2024,Florida Atlantic,North Texas,78,60.949999999999996,58.5,59.75
+2024,Rice,UTSA,56,59.5,51.0,47.5
+2024,Texas State,Arkansas State,50,61.8,66.0,63.25
+2024,New Mexico,Air Force,89,53.1,56.0,54.5
+2024,Oregon,Ohio State,63,51.25,54.5,52.5
+2024,Louisiana,App State,58,64.85,64.0,64.75
+2024,LSU,Ole Miss,55,62.55,64.5,64.25
+2024,Nevada,Oregon State,79,53.55,47.0,48.5
+2024,Kentucky,Vanderbilt,33,56.85,44.5,45.5
+2024,NC State,Syracuse,41,46.75,51.5,54.5
+2024,West Virginia,Iowa State,44,51.3,54.0,51.25
+2024,Georgia Southern,Marshall,47,61.599999999999994,58.0,61.25
+2024,UCLA,Minnesota,38,44.55,39.0,40.25
+2024,Colorado,Kansas State,59,62.35,55.0,56.5
+2024,Hawai'i,Boise State,35,58.0,60.0,61.0
+2024,South Alabama,Troy,34,53.7,53.0,56.5
+2024,New Mexico State,Louisiana Tech,63,53.6,48.5,48.25
+2024,Sam Houston,Western Kentucky,45,51.8,55.0,55.5
+2024,UTEP,Florida International,51,50.25,47.0,49.5
+2024,Marshall,Georgia State,55,58.7,51.5,53.5
+2024,Virginia Tech,Boston College,63,50.3,47.5,49.5
+2024,Duke,Florida State,39,48.7,43.0,42.5
+2024,Purdue,Oregon,35,56.05,61.0,58.0
+2024,BYU,Oklahoma State,73,57.75,53.0,55.5
+2024,Nevada,Fresno State,45,54.2,50.0,51.25
+2024,Coastal Carolina,Louisiana,58,60.15,57.0,56.0
+2024,Clemson,Virginia,79,50.5,57.5,57.5
+2024,Rutgers,UCLA,67,43.849999999999994,42.5,40.75
+2024,Indiana,Nebraska,63,38.15,48.0,51.5
+2024,UConn,Wake Forest,43,47.55,55.5,57.75
+2024,Northwestern,Wisconsin,26,36.650000000000006,42.5,41.5
+2024,Army,East Carolina,73,42.2,54.5,51.5
+2024,Cincinnati,Arizona State,38,49.85,51.0,53.5
+2024,Missouri,Auburn,38,50.5,49.5,51.5
+2024,Louisville,Miami,97,53.1,61.0,60.75
+2024,Oklahoma,South Carolina,44,57.449999999999996,40.5,41.0
+2024,Eastern Michigan,Central Michigan,72,45.3,52.5,54.5
+2024,Temple,Tulsa,30,56.0,51.5,52.25
+2024,Illinois,Michigan,28,44.75,44.0,43.75
+2024,Navy,Charlotte,68,45.7,57.5,56.25
+2024,Tennessee,Alabama,41,53.25,57.5,55.75
+2024,California,NC State,47,52.25,46.0,46.5
+2024,Tulane,Rice,34,55.65,53.0,53.5
+2024,Washington State,Hawai'i,52,56.75,55.5,55.5
+2024,Buffalo,Western Michigan,89,48.55,49.5,49.5
+2024,Northern Illinois,Toledo,19,44.85,42.5,45.5
+2024,South Florida,UAB,60,64.7,55.5,57.75
+2024,Old Dominion,Texas State,38,59.7,60.0,62.5
+2024,Bowling Green,Kent State,33,45.949999999999996,54.5,56.25
+2024,UTSA,Florida Atlantic,62,53.150000000000006,52.5,55.5
+2024,Miami (OH),Ohio,50,36.400000000000006,43.5,43.75
+2024,Georgia Tech,Notre Dame,44,55.75,49.5,50.25
+2024,Kansas,Houston,56,59.75000000000001,45.5,46.75
+2024,Georgia Southern,James Madison,42,62.8,58.5,59.5
+2024,Texas Tech,Baylor,94,55.7,56.0,57.5
+2024,Utah State,New Mexico,95,63.45,78.5,78.25
+2024,Arizona,Colorado,41,62.199999999999996,57.5,55.75
+2024,Maryland,USC,57,61.0,56.0,56.75
+2024,San José State,Wyoming,38,53.6,53.0,49.75
+2024,Mississippi State,Texas A&M,58,51.45,55.5,55.5
+2024,Vanderbilt,Ball State,38,49.400000000000006,57.5,58.5
+2024,Arkansas,LSU,44,62.25,57.0,57.25
+2024,Southern Miss,Arkansas State,72,59.25,56.5,53.5
+2024,Memphis,North Texas,96,72.55,67.5,66.5
+2024,Iowa State,UCF,73,51.0,49.5,48.0
+2024,Michigan State,Iowa,52,31.4,39.5,41.5
+2024,West Virginia,Kansas State,63,58.4,56.0,54.5
+2024,Texas,Georgia,45,55.35,57.0,56.5
+2024,Florida,Kentucky,68,55.45,42.5,42.5
+2024,Stanford,SMU,50,56.5,52.5,55.5
+2024,Air Force,Colorado State,34,50.2,44.0,46.75
+2024,Oregon State,UNLV,58,60.150000000000006,61.5,60.75
+2024,Utah,TCU,20,52.45,51.5,51.75
+2024,Florida International,Sam Houston,17,48.2,47.0,45.75
+2024,Louisiana Tech,UTEP,24,53.5,49.0,50.0
+2024,Jacksonville State,Middle Tennessee,62,51.099999999999994,64.5,63.5
+2024,Old Dominion,Georgia Southern,66,60.85,51.5,54.25
+2024,Pittsburgh,Syracuse,54,46.800000000000004,62.5,60.75
+2024,Boston College,Louisville,58,51.1,54.0,53.75
+2024,UNLV,Boise State,53,62.85,64.0,65.5
+2024,USC,Rutgers,62,57.9,56.25,55.25
+2024,Indiana,Washington,48,55.9,54.0,52.75
+2024,Ole Miss,Oklahoma,40,58.3,50.0,48.25
+2024,North Texas,Tulane,82,62.55,70.5,65.5
+2024,Ohio,Buffalo,63,40.7,46.5,46.25
+2024,Memphis,Charlotte,61,60.05,56.0,57.25
+2024,Virginia Tech,Georgia Tech,27,54.650000000000006,52.0,52.25
+2024,Ohio State,Nebraska,38,34.4,48.5,48.75
+2024,Virginia,North Carolina,55,57.449999999999996,58.5,60.0
+2024,Navy,Notre Dame,65,47.6,50.5,52.0
+2024,Mississippi State,Arkansas,83,52.25,55.0,57.75
+2024,App State,Georgia State,59,62.849999999999994,59.0,62.75
+2024,Miami (OH),Central Michigan,53,43.5,48.5,46.75
+2024,East Carolina,Temple,90,49.95,48.5,48.75
+2024,UConn,Rice,27,54.2,47.0,46.75
+2024,UCF,BYU,61,55.55,53.5,54.5
+2024,Baylor,Oklahoma State,66,58.5,64.5,64.75
+2024,Stanford,Wake Forest,51,51.5,53.0,55.5
+2024,Iowa,Northwestern,54,30.049999999999997,38.0,37.75
+2024,TCU,Texas Tech,69,56.550000000000004,66.0,67.5
+2024,Tulsa,UTSA,91,57.1,52.5,55.5
+2024,Toledo,Bowling Green,67,48.05,48.0,48.25
+2024,James Madison,Southern Miss,47,59.1,54.0,54.5
+2024,Akron,Eastern Michigan,46,40.2,50.5,51.75
+2024,Ball State,Northern Illinois,48,40.7,47.5,48.5
+2024,Western Michigan,Kent State,73,47.650000000000006,61.0,59.25
+2024,Minnesota,Maryland,71,43.5,45.0,46.0
+2024,Oregon,Illinois,47,54.449999999999996,54.0,54.0
+2024,Alabama,Missouri,34,53.45,51.5,56.25
+2024,California,Oregon State,51,57.400000000000006,51.0,48.75
+2024,Vanderbilt,Texas,51,58.449999999999996,51.0,53.25
+2024,Colorado State,New Mexico,23,56.8,61.5,65.25
+2024,South Alabama,UL Monroe,63,55.849999999999994,45.0,47.0
+2024,Miami,Florida State,50,52.2,55.0,54.5
+2024,Wyoming,Utah State,52,58.400000000000006,56.5,56.25
+2024,Arkansas State,Troy,65,54.7,50.0,52.0
+2024,Arizona,West Virginia,57,58.25,51.5,54.75
+2024,Houston,Utah,31,51.95,36.0,37.75
+2024,Michigan,Michigan State,41,41.75,39.0,40.5
+2024,Wisconsin,Penn State,41,39.75,47.0,47.5
+2024,Texas A&M,LSU,61,61.45,54.5,54.0
+2024,Kentucky,Auburn,34,50.15,43.5,43.0
+2024,Duke,SMU,55,51.95,49.5,48.75
+2024,Fresno State,San José State,43,57.2,55.0,54.5
+2024,Kansas State,Kansas,56,61.2,56.0,55.25
+2024,Colorado,Cincinnati,57,56.800000000000004,57.0,57.0
+2024,San Diego State,Washington State,55,54.0,56.5,56.25
+2024,Hawai'i,Nevada,47,53.35,42.0,47.5
+2024,Florida International,New Mexico State,47,50.35,43.5,45.25
+2024,Texas State,Louisiana,40,65.25,60.5,59.25
+2024,Sam Houston,Louisiana Tech,12,51.45,45.5,45.5
+2024,Liberty,Jacksonville State,52,56.6,64.0,63.5
+2024,Charlotte,Tulane,37,50.05,55.0,55.5
+2024,UConn,Georgia State,61,54.75,48.0,48.5
+2024,Florida Atlantic,South Florida,65,55.3,48.0,53.5
+2024,Boise State,San Diego State,80,55.25,55.5,57.25
+2024,NC State,Stanford,87,50.55,46.5,47.5
+2024,Arkansas,Ole Miss,94,55.2,54.0,55.25
+2024,Akron,Buffalo,71,42.7,48.0,47.75
+2024,UTSA,Memphis,80,64.75,61.5,60.5
+2024,Miami,Duke,84,50.300000000000004,55.5,54.5
+2024,Illinois,Minnesota,42,43.400000000000006,47.0,45.5
+2024,Purdue,Northwestern,46,42.95,44.5,46.75
+2024,Penn State,Ohio State,33,41.25,47.5,47.25
+2024,Eastern Michigan,Toledo,57,43.5,54.5,52.5
+2024,Syracuse,Virginia Tech,69,49.55,53.5,53.75
+2024,Army,Air Force,23,43.7,38.5,41.0
+2024,Auburn,Vanderbilt,24,53.2,48.0,48.25
+2024,UAB,Tulsa,80,61.05,57.5,58.25
+2024,App State,Old Dominion,48,59.3,58.0,60.5
+2024,Florida State,North Carolina,46,56.400000000000006,50.5,49.75
+2024,Michigan State,Indiana,57,43.25,53.5,50.75
+2024,Marshall,UL Monroe,51,55.5,48.0,47.25
+2024,UCF,Arizona,68,57.95,55.0,54.75
+2024,Nebraska,UCLA,47,38.75,38.5,40.75
+2024,Houston,Kansas State,43,59.25,45.5,46.25
+2024,UTEP,Middle Tennessee,33,50.2,48.5,51.5
+2024,Michigan,Oregon,55,53.5,45.5,44.75
+2024,Georgia,Florida,54,55.4,52.5,52.25
+2024,Iowa State,Texas Tech,45,50.4,55.5,57.5
+2024,Oklahoma State,Arizona State,63,55.0,57.0,56.75
+2024,New Mexico,Wyoming,94,54.650000000000006,60.5,60.0
+2024,Rice,Navy,34,51.3,49.0,51.5
+2024,Troy,Coastal Carolina,62,52.8,51.5,52.5
+2024,Mississippi State,Massachusetts,65,53.300000000000004,59.0,58.5
+2024,Fresno State,Hawai'i,41,55.949999999999996,45.5,48.5
+2024,Iowa,Wisconsin,52,29.7,40.5,42.5
+2024,South Alabama,Georgia Southern,64,61.949999999999996,60.0,61.25
+2024,South Carolina,Texas A&M,64,53.55,43.5,46.25
+2024,Clemson,Louisville,54,50.35,62.5,61.5
+2024,Washington,USC,47,70.55,55.0,55.5
+2024,Tennessee,Kentucky,46,53.949999999999996,45.5,45.5
+2024,Baylor,TCU,71,57.949999999999996,64.0,64.75
+2024,SMU,Pittsburgh,73,51.2,55.5,59.25
+2024,Nevada,Colorado State,59,52.75,45.5,44.75
+2024,Central Michigan,Bowling Green,36,49.85,48.5,48.5
+2024,Ball State,Miami (OH),48,37.55,48.0,49.75
+2024,Kent State,Ohio,41,39.8,53.0,52.25
+2024,Western Michigan,Northern Illinois,70,47.4,52.0,52.5
+2024,East Carolina,Florida Atlantic,63,45.6,58.5,55.5
+2024,Coastal Carolina,App State,62,59.5,62.5,62.75
+2024,Wake Forest,California,82,53.2,55.0,53.75
+2024,UCLA,Iowa,37,35.550000000000004,45.0,44.5
+2024,Memphis,Rice,47,65.65,50.5,52.5
+2024,San Diego State,New Mexico,37,54.650000000000006,65.0,67.75
+2024,Rutgers,Minnesota,45,40.400000000000006,44.5,46.75
+2024,Georgia Tech,Miami,51,56.15,65.0,63.75
+2024,Boston College,Syracuse,68,49.05,52.0,53.5
+2024,Cincinnati,West Virginia,55,52.85,54.5,57.5
+2024,UL Monroe,Texas State,55,60.05,50.0,48.5
+2024,South Florida,Navy,35,52.55,58.5,56.5
+2024,Ohio State,Purdue,45,44.1,55.5,53.75
+2024,Texas,Florida,66,57.05,48.5,47.5
+2024,Middle Tennessee,Liberty,54,57.0,55.0,54.25
+2024,UAB,UConn,54,57.25,54.0,56.5
+2024,Southern Miss,Marshall,40,57.9,53.5,55.5
+2024,Indiana,Michigan,35,45.3,47.5,48.75
+2024,James Madison,Georgia State,45,59.900000000000006,53.5,54.25
+2024,Ole Miss,Georgia,38,54.6,55.0,54.75
+2024,NC State,Duke,48,46.0,51.5,50.25
+2024,Virginia Tech,Clemson,38,49.55,54.5,53.25
+2024,Oregon State,San José State,37,56.550000000000004,58.5,56.0
+2024,Kansas,Iowa State,81,54.1,52.5,50.5
+2024,North Texas,Army,17,57.55,68.0,63.25
+2024,Texas Tech,Colorado,68,59.15,62.0,62.75
+2024,Tulane,Temple,58,53.65,50.5,49.25
+2024,Vanderbilt,South Carolina,35,56.85,45.0,45.75
+2024,Louisiana Tech,Jacksonville State,81,54.4,55.5,55.75
+2024,Louisiana,Arkansas State,74,62.05,60.0,60.5
+2024,New Mexico State,Western Kentucky,69,53.95,53.5,51.5
+2024,Arizona State,UCF,66,52.8,55.5,56.25
+2024,TCU,Oklahoma State,51,59.349999999999994,68.5,66.75
+2024,Tennessee,Mississippi State,47,51.849999999999994,61.5,61.25
+2024,Oregon,Maryland,57,54.55,58.0,57.5
+2024,LSU,Alabama,55,61.0,58.5,58.5
+2024,Notre Dame,Florida State,55,51.8,44.0,42.5
+2024,Missouri,Oklahoma,53,57.8,42.0,42.5
+2024,Boise State,Nevada,49,56.25,61.5,60.75
+2024,Penn State,Washington,41,54.1,48.0,45.75
+2024,Pittsburgh,Virginia,43,49.0,57.5,57.5
+2024,Hawai'i,UNLV,56,59.95,50.5,50.5
+2024,Air Force,Fresno State,64,51.65,40.5,41.25
+2024,Utah,BYU,43,50.85,40.5,41.5
+2024,Washington State,Utah State,77,62.8,68.5,69.5
+2024,Toledo,Central Michigan,47,49.0,52.0,50.0
+2024,Bowling Green,Western Michigan,44,50.6,57.5,57.0
+2024,Buffalo,Ball State,99,41.85,55.5,53.5
+2024,Northern Illinois,Akron,45,41.550000000000004,43.5,46.75
+2024,Miami (OH),Kent State,41,39.599999999999994,47.5,45.75
+2024,Ohio,Eastern Michigan,45,38.2,51.5,49.25
+2024,Tulsa,East Carolina,69,49.55,63.5,61.25
+2024,UTSA,North Texas,75,66.4,72.5,72.5
+2024,Colorado State,Wyoming,34,51.75,47.0,48.25
+2024,Washington,UCLA,50,56.5,47.0,47.0
+2024,Arizona,Houston,30,59.1,46.5,44.75
+2024,Pittsburgh,Clemson,44,46.8,52.0,54.25
+2024,Massachusetts,Liberty,69,59.75,52.5,53.25
+2024,Arkansas,Texas,30,55.95,57.5,57.5
+2024,Northwestern,Ohio State,38,38.15,44.5,44.75
+2024,Colorado,Utah,73,55.05,43.5,47.5
+2024,Navy,Tulane,35,46.55,49.0,54.0
+2024,Western Kentucky,Louisiana Tech,19,58.45,52.5,52.75
+2024,Auburn,UL Monroe,62,50.8,46.0,45.5
+2024,Marshall,Coastal Carolina,50,55.349999999999994,57.0,55.75
+2024,Jacksonville State,Florida International,65,51.150000000000006,58.5,57.75
+2024,Temple,Florida Atlantic,33,52.05,50.5,49.75
+2024,Illinois,Michigan State,54,42.7,47.5,47.25
+2024,California,Syracuse,58,53.8,57.5,55.75
+2024,Utah State,Hawai'i,65,61.150000000000006,62.0,59.75
+2024,Air Force,Oregon State,28,51.0,44.5,44.75
+2024,Charlotte,South Florida,83,56.05,53.5,52.75
+2024,Stanford,Louisville,73,54.15,57.5,58.0
+2024,Florida,LSU,43,63.349999999999994,56.5,55.25
+2024,SMU,Boston College,66,53.45,54.0,53.75
+2024,Purdue,Penn State,59,46.05,51.5,50.25
+2024,Notre Dame,Virginia,49,52.85,51.0,50.5
+2024,West Virginia,Baylor,84,56.599999999999994,60.0,58.5
+2024,USC,Nebraska,48,52.8,50.5,50.25
+2024,Old Dominion,James Madison,67,56.35,50.5,52.25
+2024,Georgia Southern,Troy,48,59.050000000000004,53.5,54.25
+2024,South Carolina,Missouri,64,54.150000000000006,42.5,44.5
+2024,Georgia State,Arkansas State,47,60.05,59.5,58.5
+2024,Maryland,Rutgers,48,42.8,54.5,50.75
+2024,Kansas State,Arizona State,38,55.4,51.5,50.0
+2024,Texas State,Southern Miss,61,62.449999999999996,56.5,55.75
+2024,Louisiana,South Alabama,46,61.05,60.0,58.5
+2024,San José State,Boise State,63,59.25,62.0,61.25
+2024,Wisconsin,Oregon,29,49.75,49.5,52.5
+2024,Georgia,Tennessee,48,53.9,47.0,48.25
+2024,Texas A&M,New Mexico State,41,51.2,54.5,55.5
+2024,North Carolina,Wake Forest,55,54.65,64.5,64.0
+2024,Memphis,UAB,71,68.7,62.0,62.5
+2024,Iowa State,Cincinnati,51,48.050000000000004,52.5,53.5
+2024,New Mexico,Washington State,73,59.05,72.0,72.25
+2024,BYU,Kansas,30,58.650000000000006,55.5,55.5
+2024,UNLV,San Diego State,61,57.2,55.0,54.5
+2024,Kent State,Akron,55,41.8,49.0,49.25
+2024,Central Michigan,Western Michigan,30,51.55,56.0,56.25
+2024,Miami (OH),Northern Illinois,29,39.35,43.0,41.5
+2024,Toledo,Ohio,31,41.900000000000006,45.5,46.25
+2024,Eastern Michigan,Buffalo,57,42.3,53.5,53.75
+2024,Georgia Tech,NC State,59,51.849999999999994,51.0,52.5
+2024,UTSA,Temple,78,57.5,56.0,55.75
+2024,Michigan State,Purdue,41,44.3,49.0,48.5
+2024,San José State,UNLV,43,61.2,59.5,62.5
+2024,Florida,Ole Miss,41,56.3,57.5,55.25
+2024,Rutgers,Illinois,69,42.7,47.75,48.25
+2024,Maryland,Iowa,42,34.5,40.5,46.5
+2024,Ohio State,Indiana,53,43.050000000000004,52.5,52.5
+2024,Syracuse,UConn,55,48.150000000000006,53.5,54.5
+2024,Boston College,North Carolina,62,56.0,50.5,56.5
+2024,Miami,Wake Forest,56,50.449999999999996,67.0,64.5
+2024,Jacksonville State,Sam Houston,32,47.75,57.5,55.75
+2024,Virginia,SMU,40,54.9,54.5,58.25
+2024,Georgia,Massachusetts,80,55.35,55.5,56.25
+2024,Liberty,Western Kentucky,59,60.650000000000006,55.5,57.0
+2024,Tennessee,UTEP,56,51.5,54.0,53.25
+2024,Ball State,Bowling Green,51,43.9,54.5,57.0
+2024,UAB,Rice,54,63.449999999999996,52.25,51.25
+2024,Middle Tennessee,New Mexico State,57,50.3,53.5,51.0
+2024,App State,James Madison,54,61.25,57.5,60.5
+2024,Arkansas State,UL Monroe,49,56.849999999999994,51.5,52.5
+2024,TCU,Arizona,77,59.599999999999994,60.0,59.0
+2024,Florida Atlantic,Charlotte,66,48.45,49.5,48.25
+2024,Southern Miss,South Alabama,49,58.25,54.0,55.25
+2024,South Florida,Tulsa,93,59.25,60.0,60.25
+2024,Utah State,San Diego State,61,58.4,60.0,62.25
+2024,North Texas,East Carolina,68,58.849999999999994,73.5,73.25
+2024,Michigan,Northwestern,56,40.4,35.0,37.75
+2024,California,Stanford,45,57.599999999999994,53.5,55.5
+2024,Texas,Kentucky,45,55.4,47.0,47.25
+2024,Kansas,Colorado,58,62.85,59.5,59.5
+2024,Coastal Carolina,Georgia Southern,32,61.05,59.5,56.75
+2024,West Virginia,UCF,52,55.800000000000004,60.5,64.25
+2024,Arizona State,BYU,51,52.85,48.5,48.25
+2024,Nebraska,Wisconsin,69,32.9,40.5,42.5
+2024,Minnesota,Penn State,51,42.150000000000006,45.0,45.25
+2024,Oklahoma State,Texas Tech,104,57.1,63.5,68.25
+2024,Louisville,Pittsburgh,46,48.85,57.5,57.5
+2024,Arkansas,Louisiana Tech,49,56.5,48.5,50.25
+2024,Mississippi State,Missouri,59,52.05,57.5,57.0
+2024,Louisiana,Troy,81,58.15,51.5,53.25
+2024,Wyoming,Boise State,30,55.25,54.0,57.5
+2024,Notre Dame,Army,63,46.949999999999996,44.5,44.5
+2024,Oregon State,Washington State,79,56.95,56.5,56.5
+2024,Houston,Baylor,30,57.45,51.0,50.5
+2024,Texas State,Georgia State,96,63.25,59.5,57.75
+2024,Utah,Iowa State,59,46.3,42.5,42.5
+2024,Oklahoma,Alabama,27,56.75,46.5,47.5
+2024,Auburn,Texas A&M,84,49.900000000000006,47.0,46.5
+2024,Old Dominion,Marshall,77,55.150000000000006,51.5,51.5
+2024,LSU,Vanderbilt,41,64.75,52.5,54.5
+2024,Duke,Virginia Tech,59,48.8,45.5,47.25
+2024,Kansas State,Cincinnati,56,55.150000000000006,54.5,52.75
+2024,UCLA,USC,32,62.05,52.5,51.5
+2024,Fresno State,Colorado State,50,55.349999999999994,43.5,46.5
+2024,Nevada,Air Force,41,49.05,44.5,44.5
+2024,Akron,Toledo,35,43.900000000000006,49.5,48.75
+2024,Buffalo,Kent State,50,43.9,50.5,49.25
+2024,Tulane,Memphis,58,60.9,54.5,56.0
+2024,East Carolina,Navy,54,42.85,54.0,56.0
+2024,Boise State,Oregon State,52,58.2,58.0,56.0
+2024,Wisconsin,Minnesota,31,38.7,40.5,43.5
+2024,Bowling Green,Miami (OH),40,42.55,38.5,42.5
+2024,Ohio,Ball State,63,37.75,51.5,52.75
+2024,Colorado,Oklahoma State,52,61.949999999999996,66.5,64.5
+2024,Ole Miss,Mississippi State,40,52.55,63.5,62.0
+2024,Colorado State,Utah State,79,60.55,57.0,60.5
+2024,South Alabama,Texas State,83,60.800000000000004,61.0,61.5
+2024,Sam Houston,Liberty,38,53.65,47.5,47.5
+2024,San José State,Stanford,65,56.75,54.5,55.75
+2024,Iowa,Nebraska,23,26.3,41.5,39.5
+2024,Georgia,Georgia Tech,86,56.099999999999994,49.0,54.5
+2024,UCF,Utah,42,50.8,46.5,49.25
+2024,Texas Tech,West Virginia,67,55.2,62.5,64.5
+2024,Wake Forest,Duke,40,46.95,53.0,54.0
+2024,Ohio State,Michigan,23,41.55,41.5,43.25
+2024,Vanderbilt,Tennessee,59,56.99999999999999,47.0,48.5
+2024,Clemson,South Carolina,31,51.050000000000004,49.0,49.25
+2024,Massachusetts,UConn,89,52.5,49.5,50.25
+2024,Temple,North Texas,41,65.3,63.5,64.5
+2024,Army,UTSA,53,49.75,53.0,54.5
+2024,Northwestern,Illinois,66,41.35,43.5,44.25
+2024,Baylor,Kansas,62,59.400000000000006,62.0,61.5
+2024,Kentucky,Louisville,55,53.1,49.5,48.5
+2024,UL Monroe,Louisiana,60,60.300000000000004,50.0,48.5
+2024,Western Michigan,Eastern Michigan,44,46.050000000000004,55.5,57.5
+2024,Troy,Southern Miss,72,55.349999999999994,49.0,48.5
+2024,Georgia State,Coastal Carolina,75,58.15,53.0,55.5
+2024,Florida International,Middle Tennessee,59,51.55,51.0,51.75
+2024,Rice,South Florida,63,61.65,54.0,53.25
+2024,Boston College,Pittsburgh,57,47.550000000000004,50.5,48.5
+2024,Arkansas State,Old Dominion,72,56.5,58.5,58.5
+2024,USC,Notre Dame,84,64.55,52.5,51.25
+2024,Michigan State,Rutgers,55,39.7,46.5,48.25
+2024,UCLA,Fresno State,33,52.4,46.5,46.5
+2024,Arizona,Arizona State,56,55.24999999999999,53.5,53.5
+2024,SMU,California,44,58.2,54.5,56.75
+2024,Syracuse,Miami,80,51.05,67.5,67.25
+2024,Missouri,Arkansas,49,54.7,51.0,54.5
+2024,Tulsa,Florida Atlantic,79,51.65,57.5,57.25
+2024,Northern Illinois,Central Michigan,40,46.65,40.0,45.25
+2024,Charlotte,UAB,56,57.85,60.0,58.0
+2024,Penn State,Maryland,51,44.55,50.5,50.5
+2024,Alabama,Auburn,42,49.45,51.0,52.25
+2024,North Carolina,NC State,65,53.699999999999996,54.5,55.5
+2024,New Mexico State,UTEP,77,49.0,51.5,51.5
+2024,Western Kentucky,Jacksonville State,36,54.75,62.5,60.5
+2024,Georgia Southern,App State,49,65.75,60.5,62.25
+2024,Cincinnati,TCU,33,54.2,58.5,58.25
+2024,Washington State,Wyoming,29,54.0,55.0,58.5
+2024,Florida State,Florida,42,53.85,46.0,45.5
+2024,LSU,Oklahoma,54,65.35,48.0,47.25
+2024,Indiana,Purdue,66,47.85,56.5,56.5
+2024,Oregon,Washington,70,64.1,50.5,50.5
+2024,Iowa State,Kansas State,50,53.6,51.5,52.25
+2024,Texas A&M,Texas,24,55.15,50.0,48.5
+2024,UNLV,Nevada,52,58.2,54.5,55.25
+2024,Virginia Tech,Virginia,54,51.75,44.5,48.5
+2024,James Madison,Marshall,68,57.099999999999994,52.0,52.5
+2024,BYU,Houston,48,56.7,40.5,41.25
+2024,San Diego State,Air Force,51,48.05,43.5,43.5
+2024,Hawai'i,New Mexico,68,57.400000000000006,61.5,61.25
+2024,Jacksonville State,Western Kentucky,64,54.75,58.5,58.75
+2024,Boise State,UNLV,28,62.85,57.5,58.5
+2024,Army,Tulane,49,45.9,46.5,47.5
+2024,Arizona State,Iowa State,64,48.3,51.0,50.5
+2024,Miami (OH),Ohio,41,36.400000000000006,44.0,44.5
+2024,Texas,Georgia,41,55.35,51.0,48.75
+2024,Louisiana,Marshall,34,60.7,57.5,56.5
+2024,SMU,Clemson,65,52.7,56.5,55.25
+2024,Oregon,Penn State,82,53.2,51.5,49.5
+2024,Army,Navy,44,41.55,39.0,40.5
+2025,Kansas State,Iowa State,45,52.2,51.0,49.5
+2025,Kansas,Fresno State,38,55.8,50.5,51.5
+2025,Western Kentucky,Sam Houston,65,45.5,60.5,61.5
+2025,Hawai'i,Stanford,43,54.7,50.5,53.5
+2025,South Florida,Boise State,41,61.199999999999996,62.0,63.5
+2025,Rutgers,Ohio,65,51.2,52.0,46.5
+2025,NC State,East Carolina,41,57.3,61.0,58.5
+2025,UCF,Jacksonville State,27,55.95,52.5,53.5
+2025,Akron,Wyoming,10,48.7,48.0,49.5
+2025,Minnesota,Buffalo,33,48.3,43.0,45.5
+2025,Cincinnati,Nebraska,37,44.75,50.5,52.5
+2025,Wisconsin,Miami (OH),17,44.6,41.0,40.5
+2025,Wake Forest,Kennesaw State,19,51.45,51.5,51.5
+2025,Charlotte,App State,45,59.9,51.25,53.5
+2025,Michigan State,Western Michigan,29,51.4,50.0,49.5
+2025,Baylor,Auburn,62,52.699999999999996,56.5,57.5
+2025,Colorado,Georgia Tech,47,57.9,50.5,55.5
+2025,Sam Houston,UNLV,59,50.0,60.5,58.5
+2025,San José State,Central Michigan,30,54.099999999999994,51.5,50.5
+2025,Maryland,Florida Atlantic,46,51.650000000000006,59.5,57.5
+2025,Southern Miss,Mississippi State,51,55.25,59.5,59.5
+2025,Ohio State,Texas,21,48.05,46.5,49.5
+2025,Tulane,Northwestern,26,50.900000000000006,46.0,47.5
+2025,Tennessee,Syracuse,71,55.95,51.5,53.5
+2025,Purdue,Ball State,31,57.45,48.5,50.5
+2025,Kentucky,Toledo,40,48.099999999999994,48.5,48.5
+2025,Indiana,Old Dominion,41,54.199999999999996,53.5,54.5
+2025,Massachusetts,Temple,52,57.949999999999996,48.5,51.5
+2025,Penn State,Nevada,57,52.900000000000006,54.5,58.5
+2025,Georgia,Marshall,52,54.349999999999994,51.5,55.5
+2025,Florida State,Alabama,48,48.95,47.0,50.5
+2025,Virginia,Coastal Carolina,55,55.949999999999996,55.0,57.5
+2025,Texas A&M,UTSA,66,58.2,58.5,56.5
+2025,Utah State,UTEP,44,59.2,58.5,59.5
+2025,Clemson,LSU,27,57.39999999999999,55.5,57.5
+2025,Michigan,New Mexico,51,53.65,49.5,52.5
+2025,Ole Miss,Georgia State,70,54.0,61.5,62.5
+2025,Texas State,Eastern Michigan,79,58.7,56.5,58.5
+2025,Louisiana,Rice,26,55.099999999999994,48.5,49.5
+2025,Fresno State,Georgia Southern,56,54.650000000000006,51.5,54.5
+2025,Oregon State,California,49,54.55,48.5,51.5
+2025,Arizona,Hawai'i,46,52.15,55.5,55.5
+2025,Washington,Colorado State,59,51.55,52.0,52.5
+2025,UCLA,Utah,53,42.7,49.0,50.5
+2025,South Carolina,Virginia Tech,35,50.9,51.5,47.5
+2025,Miami,Notre Dame,51,60.60000000000001,50.5,53.5
+2025,North Carolina,TCU,62,57.6,55.0,59.5
+2025,Louisville,James Madison,42,56.599999999999994,56.75,57.5
+2025,Maryland,Northern Illinois,29,46.0,44.5,48.5
+2025,Indiana,Kennesaw State,65,48.349999999999994,51.5,50.75
+2025,SMU,Baylor,93,59.5,65.5,62.75
+2025,Pittsburgh,Central Michigan,62,53.8,48.5,53.25
+2025,Texas Tech,Kent State,76,60.349999999999994,59.75,60.5
+2025,Iowa State,Iowa,29,45.650000000000006,43.25,43.75
+2025,Jacksonville State,Liberty,58,55.95,50.5,51.75
+2025,Syracuse,UConn,47,58.65,57.5,59.25
+2025,Duke,Illinois,64,48.949999999999996,49.25,49.75
+2025,NC State,Virginia,66,54.7,52.75,55.0
+2025,Penn State,Florida International,34,51.2,53.5,54.5
+2025,Texas,San José State,45,51.800000000000004,52.5,51.25
+2025,Texas A&M,Utah State,66,61.55,57.5,56.0
+2025,Kentucky,Ole Miss,53,47.5,51.5,52.0
+2025,Oregon,Oklahoma State,72,59.1,55.5,58.5
+2025,Clemson,Troy,43,55.25,51.5,51.5
+2025,Rutgers,Miami (OH),62,48.85,45.5,48.25
+2025,Western Michigan,North Texas,63,65.5,56.25,60.25
+2025,Navy,UAB,62,58.9,58.75,59.0
+2025,UTSA,Texas State,79,63.2,64.5,65.5
+2025,Oregon State,Fresno State,63,55.75,45.0,48.5
+2025,Missouri,Kansas,73,55.65,50.25,53.0
+2025,Cincinnati,Bowling Green,54,51.7,46.5,48.0
+2025,Ohio,West Virginia,27,55.45,58.5,59.0
+2025,Wisconsin,Middle Tennessee,52,46.9,45.0,46.5
+2025,Florida,South Florida,34,57.3,58.25,54.75
+2025,Arkansas,Arkansas State,70,56.449999999999996,61.75,64.0
+2025,Kansas State,Army,45,53.1,48.5,47.75
+2025,South Alabama,Tulane,64,58.4,51.5,51.5
+2025,Toledo,Western Kentucky,66,49.5,57.0,59.0
+2025,Georgia State,Memphis,54,61.65,57.5,54.25
+2025,Charlotte,North Carolina,23,58.4,49.5,48.5
+2025,Rice,Houston,44,46.75,38.5,41.0
+2025,Michigan State,Boston College,82,47.400000000000006,45.5,48.0
+2025,USC,Georgia Southern,79,58.1,62.0,64.25
+2025,LSU,Louisiana Tech,30,50.349999999999994,49.5,52.5
+2025,Virginia Tech,Vanderbilt,64,53.65,45.5,47.5
+2025,Nebraska,Akron,68,44.6,47.5,47.75
+2025,Auburn,Ball State,45,53.89999999999999,52.5,55.0
+2025,Mississippi State,Arizona State,44,55.0,58.5,59.25
+2025,Oklahoma,Michigan,37,41.45,44.5,47.5
+2025,Alabama,UL Monroe,73,50.95,50.25,50.75
+2025,UNLV,UCLA,53,50.900000000000006,54.5,56.0
+2025,New Mexico State,Tulsa,35,58.699999999999996,53.0,53.0
+2025,BYU,Stanford,30,54.65,44.0,47.75
+2025,Washington State,San Diego State,49,57.449999999999996,46.5,45.25
+2025,Hawai'i,Sam Houston,57,46.85,48.0,49.25
+2025,Wake Forest,NC State,58,57.0,52.5,55.0
+2025,Houston,Colorado,56,49.7,45.5,43.5
+2025,Arizona,Kansas State,40,53.4,55.5,54.5
+2025,UCLA,New Mexico,45,56.35,52.5,52.75
+2025,Temple,Oklahoma,45,49.4,51.0,51.5
+2025,Northwestern,Oregon,48,49.449999999999996,50.5,51.5
+2025,Michigan,Central Michigan,66,45.599999999999994,42.5,42.0
+2025,Alabama,Wisconsin,52,47.650000000000006,45.5,46.75
+2025,Troy,Memphis,35,59.550000000000004,51.5,51.0
+2025,Kent State,Buffalo,59,55.99999999999999,48.5,48.75
+2025,Georgia Tech,Clemson,45,57.65,51.0,55.5
+2025,Auburn,South Alabama,46,51.25,56.0,53.5
+2025,Missouri,Louisiana,62,55.85,47.5,49.25
+2025,Texas Tech,Oregon State,59,61.550000000000004,61.5,60.5
+2025,West Virginia,Pittsburgh,55,57.7,55.0,57.75
+2025,Tennessee,Georgia,85,49.7,50.5,50.5
+2025,North Texas,Washington State,69,67.7,57.5,58.25
+2025,Purdue,USC,50,56.2,59.5,58.25
+2025,Arkansas State,Iowa State,40,55.4,55.5,55.0
+2025,Texas,UTEP,37,47.650000000000006,52.5,51.0
+2025,Miami,South Florida,61,65.69999999999999,56.5,54.5
+2025,Bowling Green,Liberty,36,53.8,51.5,51.5
+2025,Nevada,Middle Tennessee,27,53.1,49.5,45.5
+2025,Florida International,Florida Atlantic,66,52.35,56.5,55.75
+2025,Southern Miss,App State,60,57.3,56.5,52.5
+2025,Virginia Tech,Old Dominion,71,55.349999999999994,50.5,51.0
+2025,Ohio State,Ohio,46,49.9,49.5,53.5
+2025,Illinois,Western Michigan,38,55.3,50.5,51.5
+2025,Georgia Southern,Jacksonville State,75,56.85,58.5,55.5
+2025,Ole Miss,Arkansas,76,51.35,60.5,62.0
+2025,LSU,Florida,30,55.099999999999994,47.5,54.5
+2025,Iowa,Massachusetts,54,50.55,44.5,44.5
+2025,Notre Dame,Texas A&M,81,52.650000000000006,49.5,49.5
+2025,Louisiana Tech,New Mexico State,63,49.05,42.5,42.5
+2025,Coastal Carolina,East Carolina,38,58.55,57.5,55.5
+2025,Kentucky,Eastern Michigan,71,50.099999999999994,49.5,47.5
+2025,South Carolina,Vanderbilt,38,50.85,48.5,47.5
+2025,Tulsa,Navy,65,57.699999999999996,52.5,53.75
+2025,Tulane,Duke,61,54.0,52.5,52.5
+2025,Wyoming,Utah,37,43.95,47.5,47.75
+2025,UAB,Akron,59,57.1,59.0,53.0
+2025,Utah State,Air Force,79,57.9,51.5,51.5
+2025,Arizona State,Texas State,49,57.95,61.5,59.0
+2025,California,Minnesota,41,45.65,40.5,43.75
+2025,Stanford,Boston College,50,55.599999999999994,44.5,44.0
+2025,Charlotte,Rice,45,54.95,42.0,44.5
+2025,Oklahoma State,Tulsa,31,61.3,54.5,56.0
+2025,Rutgers,Iowa,66,45.8,46.5,46.0
+2025,Army,North Texas,83,61.55,50.5,52.75
+2025,Clemson,Syracuse,55,60.5,53.5,54.75
+2025,Wisconsin,Maryland,37,46.6,44.5,43.5
+2025,Utah,Texas Tech,44,52.550000000000004,58.5,55.5
+2025,TCU,SMU,59,58.35,63.5,63.25
+2025,Memphis,Arkansas,63,59.0,59.5,62.5
+2025,Louisville,Bowling Green,57,56.7,50.5,52.25
+2025,Miami (OH),UNLV,79,51.8,49.5,48.5
+2025,Tennessee,UAB,80,55.55,68.5,67.75
+2025,Oregon,Oregon State,48,57.95,58.5,56.5
+2025,Oklahoma,Auburn,41,44.7,47.5,49.5
+2025,Eastern Michigan,Louisiana,65,57.05,51.5,51.75
+2025,UConn,Ball State,56,57.349999999999994,53.5,52.5
+2025,UCF,North Carolina,43,56.3,46.5,50.25
+2025,Liberty,James Madison,44,53.699999999999996,46.5,49.0
+2025,Buffalo,Troy,38,54.9,43.5,43.0
+2025,Florida State,Kent State,76,50.9,56.5,55.75
+2025,Nebraska,Michigan,57,39.050000000000004,47.5,44.5
+2025,Notre Dame,Purdue,86,52.75,51.5,52.5
+2025,Western Michigan,Toledo,27,55.75,48.5,52.0
+2025,Ole Miss,Tulane,55,54.800000000000004,61.5,61.0
+2025,Duke,NC State,78,52.2,57.5,59.0
+2025,Mississippi State,Northern Illinois,48,49.150000000000006,48.5,49.25
+2025,Georgia Tech,Temple,69,57.050000000000004,52.5,53.5
+2025,Kennesaw State,Arkansas State,49,52.550000000000004,58.0,54.5
+2025,Kansas,West Virginia,51,59.349999999999994,54.5,54.75
+2025,South Alabama,Coastal Carolina,58,57.849999999999994,51.5,51.5
+2025,Missouri,South Carolina,49,50.25,48.5,46.0
+2025,Middle Tennessee,Marshall,70,53.75,46.5,46.75
+2025,Air Force,Boise State,86,52.4,51.5,51.5
+2025,Western Kentucky,Nevada,47,51.7,54.5,54.5
+2025,East Carolina,BYU,47,54.5,49.5,49.0
+2025,Washington State,Washington,83,57.400000000000006,52.0,53.5
+2025,Vanderbilt,Georgia State,91,56.0,53.5,53.25
+2025,Louisiana Tech,Southern Miss,50,48.0,51.5,51.5
+2025,Baylor,Arizona State,51,56.5,60.5,59.0
+2025,Miami,Florida,33,60.1,51.5,54.0
+2025,Indiana,Illinois,73,50.65,51.0,52.5
+2025,Virginia,Stanford,68,55.75,48.5,48.75
+2025,Texas,Sam Houston,55,45.1,51.5,51.5
+2025,UTEP,UL Monroe,56,48.650000000000006,47.0,47.0
+2025,Colorado State,UTSA,33,58.6,58.5,58.25
+2025,Colorado,Wyoming,57,51.949999999999996,45.5,43.75
+2025,San Diego State,California,34,50.05,47.0,48.5
+2025,USC,Michigan State,76,50.85,55.5,56.0
+2025,Hawai'i,Fresno State,44,51.8,47.5,47.5
+2025,East Carolina,Army,34,55.5,52.5,52.5
+2025,Virginia,Florida State,84,49.2,60.5,54.5
+2025,Arizona State,TCU,51,55.35,54.5,55.5
+2025,Oregon State,Houston,51,50.7,48.5,48.5
+2025,Arkansas,Notre Dame,69,52.9,63.5,61.5
+2025,Minnesota,Rutgers,59,46.150000000000006,51.5,51.5
+2025,Pittsburgh,Louisville,61,58.1,53.5,56.0
+2025,North Texas,South Alabama,58,63.55,63.5,63.25
+2025,Kansas State,UCF,54,54.099999999999994,48.5,49.0
+2025,Ohio,Bowling Green,55,51.95,49.5,50.75
+2025,Illinois,USC,66,54.75,62.5,57.5
+2025,Syracuse,Duke,41,56.349999999999994,59.5,58.75
+2025,Wake Forest,Georgia Tech,59,58.300000000000004,53.5,53.75
+2025,Kansas,Cincinnati,71,54.75,56.0,55.0
+2025,Vanderbilt,Utah State,90,62.05,57.5,59.5
+2025,Central Michigan,Eastern Michigan,37,53.4,55.5,54.25
+2025,James Madison,Georgia Southern,45,54.599999999999994,54.5,53.75
+2025,UL Monroe,Arkansas State,44,54.6,55.5,56.5
+2025,Oklahoma State,Baylor,72,60.4,58.5,59.5
+2025,Northwestern,UCLA,31,43.2,46.0,45.75
+2025,Navy,Rice,34,52.4,45.5,45.5
+2025,Washington,Ohio State,30,49.2,52.5,50.5
+2025,Toledo,Akron,48,50.55,50.0,48.0
+2025,Buffalo,UConn,37,54.099999999999994,51.5,51.5
+2025,West Virginia,Utah,62,50.3,46.5,50.0
+2025,Boston College,California,52,51.5,54.5,51.75
+2025,Northern Illinois,San Diego State,9,45.7,42.0,42.75
+2025,Iowa,Indiana,35,45.849999999999994,47.5,49.25
+2025,Texas A&M,Auburn,26,49.15,51.5,49.0
+2025,Ole Miss,LSU,43,54.05,58.0,56.0
+2025,Tulsa,Tulane,45,60.74999999999999,52.5,54.25
+2025,Air Force,Hawai'i,79,48.099999999999994,52.5,53.75
+2025,New Mexico,New Mexico State,58,62.0,53.5,54.5
+2025,Mississippi State,Tennessee,75,51.95,63.5,62.5
+2025,Kennesaw State,Middle Tennessee,40,48.15,54.5,51.75
+2025,Old Dominion,Liberty,28,55.9,53.5,51.75
+2025,NC State,Virginia Tech,44,55.05,57.5,57.75
+2025,Florida Atlantic,Memphis,81,58.900000000000006,62.5,61.5
+2025,Iowa State,Arizona,53,52.199999999999996,48.5,49.5
+2025,Southern Miss,Jacksonville State,67,55.45,55.5,57.25
+2025,Stanford,San José State,59,57.35,49.5,49.5
+2025,Colorado State,Washington State,23,59.25,48.5,50.5
+2025,Missouri,Massachusetts,48,56.6,57.0,55.25
+2025,Penn State,Oregon,54,53.849999999999994,53.0,52.5
+2025,Boise State,App State,61,60.150000000000006,59.5,60.0
+2025,Georgia,Alabama,45,52.349999999999994,53.5,53.0
+2025,South Carolina,Kentucky,48,46.75,46.5,47.25
+2025,Louisiana,Marshall,105,57.900000000000006,48.0,46.5
+2025,UTEP,Louisiana Tech,41,45.05,48.0,48.5
+2025,Colorado,BYU,45,53.8,48.5,47.5
+2025,New Mexico State,Sam Houston,47,49.35,52.5,52.25
+2025,South Florida,Charlotte,80,60.949999999999996,54.5,55.0
+2025,San José State,New Mexico,63,62.15,58.5,56.5
+2025,San Diego State,Colorado State,69,51.599999999999994,40.5,38.75
+2025,BYU,West Virginia,62,55.300000000000004,46.5,48.75
+2025,UAB,Army,44,58.349999999999994,55.5,58.0
+2025,Cincinnati,Iowa State,68,50.8,55.5,51.5
+2025,North Carolina,Clemson,48,57.05,47.5,47.5
+2025,Purdue,Illinois,70,51.349999999999994,54.5,55.0
+2025,Baylor,Kansas State,69,56.55,60.0,61.5
+2025,Michigan,Wisconsin,34,41.0,42.5,41.5
+2025,Pittsburgh,Boston College,55,54.15,54.5,56.0
+2025,Georgia,Kentucky,49,48.8,49.0,49.5
+2025,Ball State,Ohio,34,56.6,52.5,51.5
+2025,Navy,Air Force,65,49.6,51.0,49.0
+2025,Temple,UTSA,48,59.449999999999996,58.5,58.5
+2025,Virginia Tech,Wake Forest,53,55.650000000000006,51.5,50.5
+2025,Massachusetts,Western Michigan,24,60.75,46.5,46.5
+2025,Arizona,Oklahoma State,54,57.25,56.5,56.0
+2025,Northern Illinois,Miami (OH),39,44.0,38.5,39.0
+2025,Notre Dame,Boise State,35,56.099999999999994,63.5,59.0
+2025,Louisville,Virginia,57,56.8,60.0,62.0
+2025,Buffalo,Eastern Michigan,61,55.2,53.5,48.5
+2025,App State,Oregon State,50,59.800000000000004,53.5,54.75
+2025,UConn,Florida International,61,52.2,52.0,54.5
+2025,SMU,Syracuse,49,62.0,56.5,58.5
+2025,Florida,Texas,50,49.55,42.5,48.75
+2025,Alabama,Vanderbilt,44,53.05,57.5,54.0
+2025,Northwestern,UL Monroe,49,45.6,43.5,40.5
+2025,Maryland,Washington,44,50.050000000000004,52.5,53.0
+2025,Akron,Central Michigan,50,51.15,47.5,45.0
+2025,UCLA,Penn State,79,47.599999999999994,48.0,49.75
+2025,Georgia State,James Madison,21,55.5,52.5,53.75
+2025,Oklahoma,Kent State,44,50.05,53.5,53.5
+2025,Arkansas State,Texas State,61,61.2,63.5,64.5
+2025,Nebraska,Michigan State,65,40.5,48.5,53.5
+2025,Old Dominion,Coastal Carolina,54,57.949999999999996,53.5,55.25
+2025,Wyoming,UNLV,48,52.150000000000006,51.0,52.75
+2025,Troy,South Alabama,55,55.5,46.5,47.0
+2025,Rice,Florida Atlantic,48,51.900000000000006,55.0,52.5
+2025,Houston,Texas Tech,46,53.45,51.5,50.25
+2025,UCF,Kansas,47,56.85,53.5,55.5
+2025,Ohio State,Minnesota,45,44.849999999999994,42.5,44.5
+2025,Florida State,Miami,50,56.95,54.5,53.5
+2025,Texas A&M,Mississippi State,40,54.650000000000006,57.5,58.25
+2025,TCU,Colorado,56,57.099999999999994,57.0,58.75
+2025,Memphis,Tulsa,52,63.2,54.5,56.0
+2025,Fresno State,Nevada,37,53.95,45.5,44.25
+2025,California,Duke,66,49.15,54.5,56.25
+2025,UTEP,Liberty,27,51.35,46.5,46.75
+2025,Kennesaw State,Louisiana Tech,42,43.75,46.5,45.5
+2025,Tulane,East Carolina,45,59.099999999999994,53.5,54.0
+2025,Georgia Southern,Southern Miss,73,55.2,60.0,60.0
+2025,Sam Houston,Jacksonville State,56,49.95,53.5,55.5
+2025,North Texas,South Florida,99,66.6,68.5,66.0
+2025,Colorado State,Fresno State,70,53.05,47.5,45.5
+2025,Washington,Rutgers,57,50.5,62.5,59.0
+2025,Cincinnati,UCF,31,52.7,55.5,56.0
+2025,James Madison,Louisiana,38,55.95,45.0,46.5
+2025,Oklahoma State,Houston,56,51.849999999999994,47.5,47.0
+2025,Michigan State,UCLA,51,43.35,51.5,55.5
+2025,Army,Charlotte,31,55.9,45.5,47.0
+2025,Florida State,Pittsburgh,65,50.5,57.0,58.25
+2025,SMU,Stanford,44,58.900000000000006,55.5,56.5
+2025,Bowling Green,Toledo,51,51.800000000000004,45.5,49.5
+2025,Akron,Miami (OH),27,48.349999999999994,47.5,45.5
+2025,Illinois,Ohio State,50,49.3,51.5,50.5
+2025,Missouri,Alabama,51,52.45,50.5,53.5
+2025,Ole Miss,Washington State,45,57.35000000000001,58.5,59.25
+2025,Eastern Michigan,Northern Illinois,26,48.2,48.5,49.0
+2025,Kent State,Massachusetts,48,58.599999999999994,49.5,48.75
+2025,Oregon State,Wake Forest,53,58.2,47.5,52.5
+2025,UNLV,Air Force,99,51.25,65.5,68.5
+2025,Maryland,Nebraska,65,44.650000000000006,47.5,47.75
+2025,Oregon,Indiana,50,54.25,51.5,55.0
+2025,Kansas State,TCU,69,55.4,54.5,57.5
+2025,Colorado,Iowa State,41,53.9,52.5,52.5
+2025,Notre Dame,NC State,43,54.55,59.5,62.5
+2025,Georgia Tech,Virginia Tech,55,56.35,55.5,55.5
+2025,Marshall,Old Dominion,72,56.75,57.5,55.25
+2025,Western Michigan,Ball State,42,61.4,43.0,43.25
+2025,Texas,Oklahoma,29,45.550000000000004,44.5,49.5
+2025,Georgia State,App State,61,59.599999999999994,55.5,55.75
+2025,Penn State,Northwestern,43,46.2,46.5,48.5
+2025,Temple,Navy,63,54.5,52.5,53.0
+2025,Tennessee,Arkansas,65,50.150000000000006,68.5,69.5
+2025,Florida Atlantic,UAB,86,58.4,66.0,69.5
+2025,Coastal Carolina,UL Monroe,31,54.15,46.5,44.0
+2025,Wyoming,San José State,63,51.650000000000006,49.5,49.5
+2025,Wisconsin,Iowa,37,41.55,37.5,37.5
+2025,Texas A&M,Florida,51,52.15,48.0,46.25
+2025,Minnesota,Purdue,47,46.900000000000006,49.5,52.0
+2025,UTSA,Rice,74,57.349999999999994,48.5,49.5
+2025,Boston College,Clemson,51,54.5,54.5,54.5
+2025,Texas Tech,Kansas,59,61.6,58.5,60.5
+2025,Auburn,Georgia,30,48.949999999999996,46.5,48.5
+2025,USC,Michigan,44,49.400000000000006,58.0,56.0
+2025,LSU,South Carolina,30,53.3,44.5,44.5
+2025,Arizona,BYU,60,52.1,46.5,48.0
+2025,Texas State,Troy,89,58.400000000000006,53.5,54.0
+2025,Boise State,New Mexico,66,63.8,58.5,60.0
+2025,Utah,Arizona State,52,47.05,44.5,49.0
+2025,Nevada,San Diego State,54,52.5,42.5,42.0
+2025,Hawai'i,Utah State,70,60.7,57.5,58.5
+2025,Liberty,New Mexico State,57,55.35,48.5,47.5
+2025,South Alabama,Arkansas State,29,58.3,57.5,59.5
+2025,Western Kentucky,Florida International,31,50.0,55.5,56.5
+2025,Sam Houston,UTEP,52,45.35,46.5,47.5
+2025,East Carolina,Tulsa,68,59.849999999999994,54.5,53.5
+2025,Miami,Louisville,45,64.55,49.5,54.0
+2025,Minnesota,Nebraska,30,39.95,47.5,47.75
+2025,Utah State,San José State,55,63.35,63.5,58.75
+2025,California,North Carolina,39,54.05,46.5,47.0
+2025,Houston,Arizona,59,48.0,47.5,46.75
+2025,Miami (OH),Eastern Michigan,74,50.6,47.5,48.0
+2025,Tulane,Army,41,56.4,44.5,46.5
+2025,Boston College,UConn,61,52.65,58.5,56.0
+2025,TCU,Baylor,78,58.55,66.5,66.5
+2025,Bowling Green,Central Michigan,33,52.4,43.5,43.5
+2025,Vanderbilt,LSU,55,56.05,48.5,49.0
+2025,Michigan,Washington,31,44.45,50.5,49.25
+2025,Duke,Georgia Tech,45,53.5,60.5,60.75
+2025,South Carolina,Oklahoma,33,45.900000000000006,43.0,42.5
+2025,UCF,West Virginia,58,57.300000000000004,46.5,49.0
+2025,Toledo,Kent State,55,53.599999999999994,48.5,52.5
+2025,Massachusetts,Buffalo,49,58.199999999999996,47.5,45.0
+2025,UL Monroe,Troy,51,51.8,45.5,46.5
+2025,Northwestern,Purdue,19,47.3,47.0,48.5
+2025,Arkansas,Texas A&M,87,52.85,57.5,61.75
+2025,Georgia,Ole Miss,78,50.9,56.5,53.75
+2025,Ohio,Northern Illinois,69,46.349999999999994,41.5,43.5
+2025,North Texas,UTSA,72,67.05,64.0,67.5
+2025,Air Force,Wyoming,45,46.2,56.5,58.5
+2025,Ball State,Akron,70,56.2,44.0,43.5
+2025,Indiana,Michigan State,51,46.75,49.5,53.0
+2025,Clemson,SMU,59,57.8,49.5,54.75
+2025,James Madison,Old Dominion,90,54.8,47.5,47.5
+2025,Wisconsin,Ohio State,34,45.75,41.5,41.25
+2025,Boise State,UNLV,87,58.349999999999994,61.0,63.0
+2025,Marshall,Texas State,77,59.55,65.5,64.75
+2025,Charlotte,Temple,63,57.05,47.5,47.0
+2025,App State,Coastal Carolina,82,59.849999999999994,48.0,49.5
+2025,UAB,Memphis,55,64.4,59.5,64.5
+2025,Arizona State,Texas Tech,48,58.8,52.5,49.5
+2025,Florida,Mississippi State,44,54.2,51.0,52.5
+2025,Louisiana,Southern Miss,32,56.550000000000004,54.5,54.0
+2025,Virginia,Washington State,42,59.05,56.5,57.0
+2025,Rutgers,Oregon,66,54.199999999999996,62.0,58.75
+2025,Iowa,Penn State,49,45.45,41.5,42.0
+2025,Kentucky,Texas,29,46.4,45.5,43.5
+2025,Colorado State,Hawai'i,50,52.15,53.5,54.0
+2025,UCLA,Maryland,37,47.5,52.5,52.5
+2025,Georgia Southern,Georgia State,65,57.5,58.5,57.75
+2025,Syracuse,Pittsburgh,43,60.15,54.5,56.75
+2025,South Florida,Florida Atlantic,61,57.900000000000006,72.5,73.75
+2025,Notre Dame,USC,58,56.150000000000006,60.5,57.5
+2025,Alabama,Tennessee,57,49.85,60.5,57.0
+2025,Auburn,Missouri,40,49.05,43.5,44.5
+2025,BYU,Utah,45,45.800000000000004,49.5,47.5
+2025,Oklahoma State,Cincinnati,66,55.849999999999994,57.5,57.75
+2025,New Mexico,Nevada,46,61.650000000000006,49.5,48.5
+2025,Stanford,Florida State,33,51.95,55.5,54.5
+2025,Florida International,Kennesaw State,71,48.55,48.5,48.5
+2025,Louisiana Tech,Western Kentucky,55,45.2,49.5,50.25
+2025,Georgia State,South Alabama,69,57.599999999999994,54.0,54.5
+2025,Charlotte,North Texas,74,64.65,60.5,58.75
+2025,Virginia Tech,California,76,52.0,50.5,49.5
+2025,Nevada,Boise State,27,57.35,50.5,52.0
+2025,Kent State,Bowling Green,45,54.6,47.5,50.75
+2025,Georgia Tech,Syracuse,57,61.849999999999994,52.5,54.75
+2025,Indiana,UCLA,62,48.0,53.5,54.5
+2025,Memphis,South Florida,65,63.9,58.5,67.0
+2025,Oklahoma,Ole Miss,60,46.65,52.5,51.0
+2025,Wake Forest,SMU,25,58.45,52.5,55.0
+2025,Eastern Michigan,Ohio,49,52.95,60.5,59.25
+2025,North Carolina,Virginia,33,55.4,50.5,52.25
+2025,Purdue,Rutgers,51,52.05,60.5,58.5
+2025,Old Dominion,App State,45,58.9,62.5,60.25
+2025,Kansas,Kansas State,59,56.15,55.5,54.25
+2025,Nebraska,Northwestern,49,40.35,44.5,43.75
+2025,Arkansas,Auburn,57,49.4,56.0,57.0
+2025,Buffalo,Akron,40,52.95,48.5,47.5
+2025,Rice,UConn,71,51.75,48.5,48.5
+2025,New Mexico,Utah State,47,69.30000000000001,61.0,62.5
+2025,Iowa,Minnesota,44,40.650000000000006,39.5,38.5
+2025,Fresno State,San Diego State,23,51.25,46.0,48.5
+2025,Navy,Florida Atlantic,74,53.400000000000006,63.5,62.75
+2025,Washington,Illinois,67,49.8,54.5,56.0
+2025,Pittsburgh,NC State,87,56.0,52.5,57.0
+2025,Central Michigan,Massachusetts,51,56.4,46.5,46.75
+2025,Miami (OH),Western Michigan,43,53.55,40.5,41.5
+2025,Vanderbilt,Missouri,27,53.0,52.5,52.5
+2025,Iowa State,BYU,68,50.900000000000006,49.0,48.75
+2025,Southern Miss,UL Monroe,70,51.599999999999994,48.5,49.5
+2025,South Carolina,Alabama,51,50.3,47.5,46.75
+2025,Northern Illinois,Ball State,28,51.85,42.0,41.5
+2025,Tulsa,Temple,75,58.3,52.5,53.5
+2025,Washington State,Toledo,35,57.95,44.5,50.75
+2025,Cincinnati,Baylor,61,55.15,68.5,66.5
+2025,Texas Tech,Oklahoma State,42,62.7,56.5,56.75
+2025,Mississippi State,Texas,83,52.05,48.5,45.75
+2025,West Virginia,TCU,40,58.6,55.5,56.25
+2025,Troy,Louisiana,58,56.75,47.5,50.75
+2025,Miami,Stanford,49,63.50000000000001,45.5,48.5
+2025,Arkansas State,Georgia Southern,58,58.2,59.5,62.5
+2025,Oregon,Wisconsin,28,49.949999999999996,45.0,44.75
+2025,LSU,Texas A&M,74,55.55,50.5,51.0
+2025,Louisville,Boston College,62,56.650000000000006,54.5,55.5
+2025,Wyoming,Colorado State,28,50.25,46.5,46.0
+2025,Michigan State,Michigan,51,40.650000000000006,47.5,47.75
+2025,Kentucky,Tennessee,90,46.3,55.0,53.0
+2025,Arizona State,Houston,40,47.95,47.0,47.5
+2025,Utah,Colorado,60,48.8,50.0,53.25
+2025,Kennesaw State,UTEP,53,46.6,53.0,49.75
+2025,Texas State,James Madison,72,57.599999999999994,55.5,59.0
+2025,Middle Tennessee,Jacksonville State,45,54.05,54.0,54.0
+2025,UTSA,Tulane,74,61.900000000000006,54.5,55.5
+2025,Coastal Carolina,Marshall,71,57.7,55.5,54.75
+2025,Rice,Memphis,52,57.9,48.5,52.0
+2025,Syracuse,North Carolina,37,61.25,45.5,47.25
+2025,Louisiana Tech,Sam Houston,69,42.5,48.0,49.75
+2025,Clemson,Duke,91,52.15,55.0,54.75
+2025,SMU,Miami,46,63.900000000000006,50.5,50.5
+2025,UConn,UAB,57,58.25,61.5,64.25
+2025,Baylor,UCF,33,57.25,58.5,60.5
+2025,Air Force,Army,37,49.05,48.5,49.5
+2025,Bowling Green,Buffalo,31,54.199999999999996,44.5,43.5
+2025,Houston,West Virginia,80,51.2,48.5,49.5
+2025,North Texas,Navy,48,62.099999999999994,68.5,63.75
+2025,Ohio State,Penn State,52,49.650000000000006,45.5,47.0
+2025,Illinois,Rutgers,48,50.599999999999994,63.5,63.0
+2025,Texas,Vanderbilt,65,50.5,48.5,45.5
+2025,Iowa State,Arizona State,43,52.15,48.5,50.5
+2025,Temple,East Carolina,59,56.65,58.5,57.5
+2025,Virginia Tech,Louisville,44,57.150000000000006,52.5,53.75
+2025,UNLV,New Mexico,75,62.65,61.5,62.25
+2025,UL Monroe,Old Dominion,37,53.2,55.5,53.5
+2025,Maryland,Indiana,65,50.900000000000006,50.5,51.5
+2025,Florida,Georgia,44,51.95,50.5,51.0
+2025,Boston College,Notre Dame,35,52.7,55.5,57.5
+2025,South Alabama,Louisiana,53,58.05,52.5,54.75
+2025,Stanford,Pittsburgh,55,57.050000000000004,51.5,52.0
+2025,Western Kentucky,New Mexico State,51,52.050000000000004,53.5,54.0
+2025,Minnesota,Michigan State,43,41.55,44.5,44.0
+2025,Boise State,Fresno State,37,56.099999999999994,47.5,51.25
+2025,Kansas State,Texas Tech,63,58.849999999999994,51.5,56.5
+2025,California,Virginia,52,51.65,52.5,54.25
+2025,Western Michigan,Central Michigan,45,56.35,43.5,41.5
+2025,Kansas,Oklahoma State,59,60.0,54.5,56.75
+2025,Arkansas,Mississippi State,73,54.9,66.5,68.0
+2025,Ole Miss,South Carolina,44,48.85,55.5,54.0
+2025,Colorado,Arizona,69,55.099999999999994,52.5,53.0
+2025,Michigan,Purdue,37,46.0,48.5,51.0
+2025,San Diego State,Wyoming,31,48.45,42.0,42.0
+2025,Tennessee,Oklahoma,60,45.45,55.5,56.25
+2025,NC State,Georgia Tech,84,57.7,58.5,57.5
+2025,Oregon State,Washington State,17,61.95,47.5,49.5
+2025,Nebraska,USC,38,49.25,59.5,58.25
+2025,Florida State,Wake Forest,49,51.5,50.5,52.25
+2025,Auburn,Kentucky,13,45.55,44.5,47.0
+2025,Troy,Arkansas State,33,57.0,52.5,54.75
+2025,Utah,Cincinnati,59,45.7,57.5,56.75
+2025,San José State,Hawai'i,83,53.55,55.5,56.25
+2025,Akron,Massachusetts,54,55.55,51.5,48.75
+2025,Ohio,Miami (OH),44,48.75,50.5,50.0
+2025,Ball State,Kent State,30,59.25,48.5,46.0
+2025,Toledo,Northern Illinois,45,46.2,42.0,42.0
+2025,South Florida,UTSA,78,63.349999999999994,66.5,68.0
+2025,App State,Georgia Southern,48,58.7,61.5,62.5
+2025,UCF,Houston,57,48.7,47.5,48.0
+2025,USC,Northwestern,55,50.7,54.5,51.5
+2025,Memphis,Tulane,70,62.45,53.5,56.5
+2025,Army,Temple,27,53.95,45.5,47.0
+2025,Penn State,Indiana,51,51.0,50.5,51.5
+2025,West Virginia,Colorado,51,58.3,51.5,55.0
+2025,Mississippi State,Georgia,62,54.45,56.5,57.5
+2025,Boston College,SMU,58,56.0,54.5,53.25
+2025,Texas Tech,BYU,36,57.55,50.25,53.0
+2025,Marshall,James Madison,58,54.55,53.5,55.5
+2025,Arkansas State,Southern Miss,48,56.8,54.5,59.5
+2025,Purdue,Ohio State,44,50.75,49.5,48.5
+2025,Eastern Michigan,Bowling Green,48,53.8,49.5,51.5
+2025,Rice,UAB,41,57.4,51.5,54.0
+2025,Rutgers,Maryland,55,50.85,56.5,59.0
+2025,Middle Tennessee,Florida International,86,51.4,50.5,52.0
+2025,UTEP,Jacksonville State,57,52.5,46.5,49.25
+2025,Florida Atlantic,Tulsa,61,57.199999999999996,60.5,65.5
+2025,East Carolina,Charlotte,70,58.599999999999994,56.5,55.5
+2025,Missouri,Texas A&M,55,52.5,48.5,49.5
+2025,Iowa,Oregon,34,48.699999999999996,41.5,43.5
+2025,Miami,Syracuse,48,66.6,46.5,46.5
+2025,UConn,Duke,71,50.3,63.0,66.5
+2025,Arizona,Kansas,44,56.15,56.5,56.5
+2025,TCU,Iowa State,37,54.2,58.5,57.5
+2025,New Mexico State,Kennesaw State,45,50.6,52.5,54.0
+2025,Coastal Carolina,Georgia State,67,58.65,56.5,56.5
+2025,Vanderbilt,Auburn,83,49.65,46.5,45.5
+2025,Wisconsin,Washington,23,46.25,44.5,45.5
+2025,North Carolina,Stanford,35,58.15,41.5,43.0
+2025,Louisiana,Texas State,81,60.95,63.5,64.5
+2025,San José State,Air Force,42,50.75,67.5,66.0
+2025,Louisville,California,55,55.45,49.0,50.0
+2025,Clemson,Florida State,34,50.85,56.5,55.5
+2025,Virginia,Wake Forest,25,55.3,48.5,49.0
+2025,Utah State,Nevada,65,62.85,52.5,53.0
+2025,Notre Dame,Navy,59,53.3,54.5,56.5
+2025,Kentucky,Florida,45,48.55,44.5,45.0
+2025,Alabama,LSU,29,55.5,49.5,52.0
+2025,UCLA,Nebraska,49,41.75,45.5,43.75
+2025,Colorado State,UNLV,52,55.3,61.0,61.5
+2025,Oregon State,Sam Houston,38,50.800000000000004,52.5,51.5
+2025,Hawai'i,San Diego State,44,50.35,48.0,51.0
+2025,Akron,Kent State,77,53.35,49.5,47.5
+2025,Western Michigan,Ohio,30,55.9,47.0,47.5
+2025,Central Michigan,Buffalo,57,53.8,44.5,43.5
+2025,Massachusetts,Northern Illinois,48,51.2,43.5,42.75
+2025,Miami (OH),Toledo,27,48.6,44.5,44.5
+2025,Old Dominion,Troy,33,55.6,53.5,53.25
+2025,Louisville,Clemson,39,58.45,50.5,60.5
+2025,Oregon,Minnesota,55,49.05,46.0,45.0
+2025,Cincinnati,Arizona,54,52.0,56.5,56.5
+2025,Pittsburgh,Notre Dame,52,54.150000000000006,55.0,56.5
+2025,UConn,Air Force,42,48.95,64.5,63.5
+2025,Oklahoma State,Kansas State,20,57.25,50.5,54.5
+2025,Northwestern,Michigan,46,40.5,42.0,40.5
+2025,Navy,South Florida,79,58.4,62.5,64.0
+2025,Ball State,Eastern Michigan,33,58.449999999999996,48.5,50.0
+2025,Charlotte,UTSA,35,61.400000000000006,57.5,60.75
+2025,Indiana,Wisconsin,38,47.099999999999994,43.5,44.0
+2025,Texas A&M,South Carolina,61,50.35,49.5,48.25
+2025,LSU,Arkansas,45,55.8,58.5,55.5
+2025,Arizona State,West Virginia,48,56.55,46.5,47.5
+2025,Tulsa,Oregon State,45,60.150000000000006,50.5,50.5
+2025,UAB,North Texas,77,67.1,69.0,69.5
+2025,Georgia State,Marshall,48,57.45,59.5,63.0
+2025,New Mexico,Colorado State,37,60.75,53.5,53.5
+2025,Illinois,Maryland,30,50.150000000000006,51.5,53.5
+2025,James Madison,App State,68,56.699999999999996,53.5,53.75
+2025,Texas Tech,UCF,57,59.55,48.5,47.5
+2025,Duke,Virginia,51,50.5,60.0,59.0
+2025,Boston College,Georgia Tech,70,55.849999999999994,61.5,57.75
+2025,USC,Iowa,47,49.95,48.5,49.5
+2025,Michigan State,Penn State,38,46.35,49.0,49.5
+2025,Alabama,Oklahoma,44,48.1,45.5,56.5
+2025,Western Kentucky,Middle Tennessee,68,49.599999999999994,51.5,56.25
+2025,Nevada,San José State,65,55.7,49.5,52.5
+2025,UL Monroe,South Alabama,40,53.099999999999994,49.5,51.5
+2025,Southern Miss,Texas State,55,58.199999999999996,65.5,64.75
+2025,Miami,NC State,48,62.45,54.5,55.25
+2025,East Carolina,Memphis,58,61.550000000000004,57.0,60.5
+2025,Tulane,Florida Atlantic,59,56.45,60.5,63.0
+2025,Tennessee,New Mexico State,51,51.550000000000004,60.0,61.5
+2025,Wake Forest,North Carolina,40,57.7,37.5,39.0
+2025,Florida International,Liberty,61,53.3,51.5,54.0
+2025,Georgia Southern,Coastal Carolina,85,57.75,59.5,57.75
+2025,UNLV,Utah State,55,63.85,68.5,70.5
+2025,Baylor,Utah,83,50.25,60.5,60.5
+2025,Washington,Purdue,62,51.25,51.5,53.75
+2025,Ole Miss,Florida,58,50.650000000000006,53.5,52.75
+2025,Ohio State,UCLA,58,46.65,46.5,48.5
+2025,Florida State,Virginia Tech,48,49.55,55.0,54.5
+2025,Georgia,Texas,45,49.8,50.5,49.5
+2025,Missouri,Mississippi State,76,54.550000000000004,50.5,51.5
+2025,Jacksonville State,Kennesaw State,61,51.2,56.0,51.5
+2025,Washington State,Louisiana Tech,31,53.65,43.5,47.25
+2025,BYU,TCU,57,54.1,51.5,52.0
+2025,San Diego State,Boise State,24,54.650000000000006,41.5,42.0
+2025,Fresno State,Wyoming,27,49.900000000000006,40.5,39.5
+2025,Ohio,Massachusetts,56,55.95,53.5,51.25
+2025,Northern Illinois,Western Michigan,54,51.15,39.5,38.5
+2025,Bowling Green,Akron,35,51.55,47.5,47.25
+2025,Kent State,Central Michigan,44,54.2,50.5,47.0
+2025,Buffalo,Miami (OH),57,51.0,38.5,39.5
+2025,Arkansas State,Louisiana,64,59.550000000000004,54.5,54.0
+2025,NC State,Florida State,32,50.900000000000006,58.5,61.5
+2025,UNLV,Hawai'i,48,54.05,64.5,64.5
+2025,Ohio State,Rutgers,51,50.0,54.5,55.75
+2025,Army,Tulsa,51,57.150000000000006,43.5,46.5
+2025,Oklahoma,Missouri,23,48.05,42.5,48.5
+2025,Virginia Tech,Miami,51,61.099999999999994,49.0,49.0
+2025,Iowa State,Kansas,52,54.949999999999996,55.5,55.25
+2025,Northwestern,Minnesota,73,41.400000000000006,41.0,41.0
+2025,SMU,Louisville,44,59.95,49.5,53.25
+2025,Georgia,Charlotte,38,55.6,53.5,54.75
+2025,James Madison,Washington State,44,58.849999999999994,44.5,43.0
+2025,Arizona,Baylor,58,56.55,61.5,62.75
+2025,Georgia Southern,Old Dominion,55,56.8,62.0,62.75
+2025,Toledo,Ball State,47,56.45,45.5,47.75
+2025,Wyoming,Nevada,20,51.15,39.5,41.5
+2025,App State,Marshall,50,58.65,56.5,54.0
+2025,Louisiana Tech,Liberty,62,48.5,45.5,45.25
+2025,UAB,South Florida,66,63.4,68.5,69.25
+2025,Middle Tennessee,Sam Houston,48,46.9,53.5,53.75
+2025,UTEP,New Mexico State,65,51.9,44.5,45.25
+2025,Florida Atlantic,UConn,93,52.75,64.0,67.5
+2025,Notre Dame,Syracuse,77,58.7,51.0,51.5
+2025,Texas,Arkansas,89,50.25,58.0,56.5
+2025,South Alabama,Southern Miss,77,55.3,53.5,56.0
+2025,Vanderbilt,Kentucky,62,49.5,53.5,53.0
+2025,Iowa,Michigan State,37,41.2,43.0,42.5
+2025,UTSA,East Carolina,82,61.0,62.5,61.75
+2025,Florida International,Jacksonville State,48,54.45,56.0,56.0
+2025,Oregon,USC,69,58.35,59.5,57.75
+2025,North Carolina,Duke,57,52.9,50.5,51.75
+2025,Temple,Tulane,50,57.55,54.5,54.75
+2025,UCF,Oklahoma State,31,57.95,47.5,48.0
+2025,Utah,Kansas State,98,47.1,52.5,53.5
+2025,Maryland,Michigan,65,44.8,46.5,45.5
+2025,Troy,Georgia State,50,56.3,51.0,51.25
+2025,Houston,TCU,31,50.0,55.5,54.75
+2025,South Carolina,Coastal Carolina,58,53.5,50.0,53.25
+2025,Texas State,UL Monroe,45,56.0,59.5,55.75
+2025,Penn State,Nebraska,47,44.75,45.5,44.0
+2025,Boise State,Colorado State,70,56.45,45.5,45.5
+2025,Air Force,New Mexico,23,56.7,53.5,58.25
+2025,Georgia Tech,Pittsburgh,70,57.300000000000004,61.5,61.75
+2025,Rice,North Texas,80,60.599999999999994,57.0,55.0
+2025,Stanford,California,41,54.4,47.5,50.0
+2025,Florida,Tennessee,42,49.45,57.5,57.5
+2025,Wisconsin,Illinois,37,46.349999999999994,42.0,41.75
+2025,LSU,Western Kentucky,23,53.349999999999994,52.5,51.0
+2025,Cincinnati,BYU,40,50.7,56.5,53.75
+2025,Colorado,Arizona State,59,55.05,47.5,48.75
+2025,UCLA,Washington,62,47.150000000000006,51.5,52.0
+2025,San Diego State,San José State,28,53.0,51.5,49.5
+2025,Fresno State,Utah State,45,61.6,50.5,51.0
+2025,Massachusetts,Bowling Green,59,56.800000000000004,44.5,45.0
+2025,Eastern Michigan,Western Michigan,52,57.75,49.5,46.0
+2025,Memphis,Navy,45,59.400000000000006,57.5,58.5
+2025,Buffalo,Ohio,57,53.349999999999994,44.5,47.5
+2025,Kansas,Utah,52,49.849999999999994,60.5,59.5
+2025,Mississippi State,Ole Miss,57,53.150000000000006,62.5,61.5
+2025,Northern Illinois,Kent State,66,49.0,44.5,44.75
+2025,Nebraska,Iowa,56,39.6,38.5,42.0
+2025,Colorado State,Air Force,63,49.35,47.5,49.5
+2025,Georgia Tech,Georgia,25,55.599999999999994,59.5,56.5
+2025,New Mexico,San Diego State,40,58.95,41.5,41.5
+2025,North Texas,Temple,77,62.699999999999996,65.5,65.5
+2025,Utah State,Boise State,49,65.0,54.5,55.5
+2025,Texas,Texas A&M,44,50.0,54.5,51.5
+2025,Purdue,Indiana,59,52.099999999999994,54.5,53.5
+2025,Arizona State,Arizona,30,53.349999999999994,48.5,49.25
+2025,Louisville,Kentucky,41,53.0,45.5,47.5
+2025,Oklahoma State,Iowa State,33,56.05,46.5,49.5
+2025,Kansas State,Colorado,38,55.099999999999994,49.5,51.5
+2025,Baylor,Houston,55,51.15,57.0,61.0
+2025,Pittsburgh,Miami,45,62.05,49.0,51.5
+2025,Miami (OH),Ball State,69,54.25,40.5,42.0
+2025,Florida Atlantic,East Carolina,45,55.55,66.5,67.0
+2025,Central Michigan,Toledo,24,51.4,46.5,44.5
+2025,West Virginia,Texas Tech,49,62.050000000000004,53.5,53.0
+2025,Michigan,Ohio State,36,43.95,43.0,47.5
+2025,South Carolina,Clemson,42,52.2,45.5,50.0
+2025,BYU,UCF,62,52.8,46.5,48.0
+2025,Sam Houston,Florida International,72,47.3,50.5,51.5
+2025,Marshall,Georgia Southern,43,56.55,62.5,61.25
+2025,Old Dominion,Georgia State,37,57.699999999999996,58.5,59.0
+2025,Jacksonville State,Western Kentucky,71,52.650000000000006,56.5,55.0
+2025,App State,Arkansas State,59,60.300000000000004,54.5,56.5
+2025,New Mexico State,Middle Tennessee,55,53.449999999999996,52.0,54.5
+2025,Louisiana,UL Monroe,57,54.35,47.5,48.5
+2025,Texas State,South Alabama,75,59.7,62.5,63.5
+2025,Tulsa,UAB,55,62.699999999999996,56.5,60.0
+2025,Syracuse,Boston College,46,58.7,54.0,53.25
+2025,Minnesota,Wisconsin,24,41.900000000000006,38.5,38.0
+2025,Rutgers,Penn State,76,50.95,55.5,55.5
+2025,UTSA,Army,51,58.3,50.5,52.0
+2025,Washington,Oregon,40,53.4,51.5,52.5
+2025,Arkansas,Missouri,48,52.75,54.5,58.0
+2025,Duke,Wake Forest,81,52.8,53.5,54.75
+2025,TCU,Cincinnati,68,54.0,58.5,58.25
+2025,Oklahoma,LSU,30,51.099999999999994,36.5,38.5
+2025,Liberty,Kennesaw State,90,50.05,55.5,54.5
+2025,Southern Miss,Troy,46,54.0,50.5,50.0
+2025,Tennessee,Vanderbilt,69,50.400000000000006,66.5,64.5
+2025,Coastal Carolina,James Madison,69,55.75,54.5,53.5
+2025,Florida,Florida State,61,48.55,49.0,51.0
+2025,Washington State,Oregon State,40,61.95,42.5,43.5
+2025,Virginia,Virginia Tech,34,53.349999999999994,52.5,52.5
+2025,Michigan State,Maryland,66,46.25,49.5,48.0
+2025,South Florida,Rice,55,56.9,57.5,59.5
+2025,NC State,North Carolina,61,57.1,49.0,50.5
+2025,Auburn,Alabama,47,49.1,48.5,50.0
+2025,USC,UCLA,39,52.1,59.0,61.0
+2025,Illinois,Northwestern,33,45.849999999999994,44.5,47.5
+2025,Tulane,Charlotte,27,59.5,52.5,52.5
+2025,California,SMU,73,54.8,53.5,53.75
+2025,Nevada,UNLV,59,56.2,52.5,53.0
+2025,San José State,Fresno State,55,54.45,45.5,47.0
+2025,Stanford,Notre Dame,69,55.6,49.5,52.0
+2025,Hawai'i,Wyoming,34,49.0,44.5,44.5
+2025,James Madison,Troy,45,53.4,47.5,47.5
+2025,Jacksonville State,Kennesaw State,34,51.2,62.5,58.5
+2025,Boise State,UNLV,59,58.349999999999994,59.5,57.5
+2025,Tulane,North Texas,55,65.15,66.5,66.5
+2025,Texas Tech,BYU,41,57.55,50.5,50.5
+2025,Western Michigan,Miami (OH),36,53.55,44.25,43.5
+2025,Alabama,Georgia,35,52.349999999999994,48.5,47.5
+2025,Virginia,Duke,47,50.5,58.5,57.5
+2025,Ohio State,Indiana,23,50.05,45.75,48.5
+2025,Navy,Army,33,53.35,37.75,38.5

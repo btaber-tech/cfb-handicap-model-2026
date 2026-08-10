@@ -1,0 +1,1721 @@
+﻿team,game_number,date_raw,opponent_raw,opponent_matched,home_away,match_confidence
+Air Force,1,Sept. 5,Sept.5 Duquesne,,home,0.0
+Air Force,2,Sept. 12,Sept.12 North Dakota State,North Dakota State,home,1.0
+Air Force,3,Sept. 26,Sept.26 at Nevada,Nevada,away,1.0
+Air Force,4,Oct. 3,Oct.3 = Navy,Navy,home,0.8
+Air Force,5,Oct. 10,<Oct.10 = at Northern Illinois -,Northern Illinois,away,0.85
+Air Force,6,Oct. 17,Oct.17 = UNLV,UNLV,home,0.8
+Air Force,7,Oct. 24,Oct.24 at Wyoming,Wyoming,away,1.0
+Air Force,8,Oct. 37,Oct.37 UConn,UConn,home,1.0
+Air Force,9,,Nov? atArmy,,away,0.0
+Air Force,10,Nov. 14,Nov.14 San Jose State,San Jose State,home,1.0
+Air Force,11,Nov. 21,Nov21 UTEP,UTEP,home,1.0
+Air Force,12,Nov. 28,Nov.28 atNew Mexico,New Mexico,away,0.91
+Akron,1,Sept. 3,at Wake Forest,Wake Forest,away,1.0
+Akron,2,Sept. 12,Robert Morris,,home,
+Akron,3,Sept. 19,at Minnesota,Minnesota,away,1.0
+Akron,4,Sept. 26,UNLV,UNLV,home,1.0
+Akron,5,Oct. 3,at Central Michigan,Central Michigan,away,1.0
+Akron,6,Oct. 10,Eastern Michigan,Eastern Michigan,home,1.0
+Akron,7,Oct. 17,at Miami (Ohio),Miami (Ohio),away,1.0
+Akron,8,Oct. 24,at Kent State,Kent State,away,1.0
+Akron,9,Nov. 3,Ohio,Ohio,home,1.0
+Akron,10,Nov. 10,Western Michigan,Western Michigan,home,1.0
+Akron,11,Nov. 18,at UMass,UMass,away,1.0
+Akron,12,Nov. 27,Buffalo,Buffalo,home,1.0
+Alabama,1,Sept. 5,Sept.5 =©East Carolina,East Carolina,home,0.93
+Alabama,2,Sept. 12,Sept12 at Kentucky,Kentucky,away,1.0
+Alabama,3,Sept. 19,Sept.19 Florida State,Florida State,home,1.0
+Alabama,4,Sept. 20,Sep 20 South fal,,home,0.7
+Alabama,5,Oct. 3,Oct.3 at Mississippi State,Mississippi State,away,1.0
+Alabama,6,,ey ee,,home,0.0
+Alabama,7,,a ee,,home,0.0
+Alabama,8,,yo,,home,0.0
+Alabama,9,Nov. 14,Nov.14 at Vanderbilt,Vanderbilt,away,1.0
+Alabama,10,,Chattanooga,,home,0.0
+Alabama,11,,nay,Navy,home,0.86
+Alabama,12,,Noy 98) Auburn,,home,0.6
+Appalachian State,1,Sept. 5,Sept.5 Maine,,home,0.57
+Appalachian State,2,,Sept.l2 at East Caroline,,away,0.71
+Appalachian State,3,Sept. 19,sept. 19 Charlotte,Charlotte,home,1.0
+Appalachian State,4,Sept. 26,sept. 26 at NC State,NC State,away,1.0
+Appalachian State,5,,get19 Old Dominion,Old Dominion,home,0.8
+Appalachian State,6,Oct. 16,Oct.16 atCoastal Carolina,Coastal Carolina,away,0.94
+Appalachian State,7,,Madison,,home,0.7
+Appalachian State,8,Oct. 22,Oct.22 James,,home,0.56
+Appalachian State,9,Oct. 31,Oct.31 at Georgia Southern,Georgia Southern,away,1.0
+Appalachian State,10,Nov. 7,Nov.7 Georgia State,Georgia State,home,1.0
+Appalachian State,11,Nov. 14,Nov.14 at Marshall,Marshall,away,1.0
+Appalachian State,12,Nov. 21,Nov. 21 ULM,ULM,home,1.0
+Appalachian State,13,Nov. 28,Nov.28 atSouth Alabama,South Alabama,away,0.93
+Arizona,1,Sept. 5,Sept.5 Northern Arizona,,home,0.67
+Arizona,2,,Sept.l2 at BYU,,away,0.0
+Arizona,3,,SeBLIS. Northern Mino's _),,home,0.62
+Arizona,4,,eis) at Washington St,Washington State,away,0.76
+Arizona,5,,Cincinnati,Cincinnati,home,1.0
+Arizona,6,Oct. 10,Oct.10 at West Virginia Te,West Virginia,away,0.9
+Arizona,7,,%Uet.24 lowa state,,home,0.67
+Arizona,8,,Nov? TCU,,home,0.0
+Arizona,9,Nov. 14,Nov.14 Utah,Utah,home,1.0
+Arizona,10,Nov. 2,Nov.2l atKansas State,Kansas State,away,0.86
+Arizona,11,Nov. 28,Nov.28 Arizona state,Arizona State,home,1.0
+Arizona,12,,ae,,home,0.0
+Arizona State,1,,"win column, though",,home,0.0
+Arizona State,2,,2026 SCHEDULE,,home,0.0
+Arizona State,3,Sept. 5,Sept.5 Morgan State,Georgia State,home,0.8
+Arizona State,4,,%ePL!2 at lexas A&M,,away,0.58
+Arizona State,5,Sept. 19,sept. 19 vs. Kansas #,Kansas,neutral,1.0
+Arizona State,6,Oct. 10,Oct.10 Hawai’,Hawai'i,home,0.77
+Arizona State,7,Oct. 17,Oct.17 atTexas Tech,Texas Tech,away,0.91
+Arizona State,8,Oct. 24,Oct.24 Kansas State,Kansas State,home,1.0
+Arizona State,9,,Uct. JI at BYU,,away,0.0
+Arizona State,10,,a vara,,home,0.0
+Arizona State,11,,Md OOO du,,home,0.0
+Arizona State,12,Nov. 28,Nov.28 atArizona,Arizona,away,0.88
+Arizona State,13,,"#London, England",,home,0.0
+Arkansas,1,Sept. 5,North Alabama,South Alabama,home,1.0
+Arkansas,2,Sept. 12,at Utah,Utah,away,1.0
+Arkansas,3,Sept. 19,Georgia,Georgia,home,1.0
+Arkansas,4,Sept. 26,Tulsa,Tulsa,home,1.0
+Arkansas,5,Oct. 3,at Texas A&M,Texas A&M,away,1.0
+Arkansas,6,Oct. 10,Tennessee,Tennessee,home,1.0
+Arkansas,7,Oct. 17,at Vanderbilt,Vanderbilt,away,1.0
+Arkansas,8,Oct. 31,Missouri,Missouri,home,1.0
+Arkansas,9,Nov. 7,at Auburn,Auburn,away,1.0
+Arkansas,10,Nov. 14,South Carolina,South Carolina,home,1.0
+Arkansas,11,Nov. 21,at Texas,Texas,away,1.0
+Arkansas,12,Nov. 28,LSU,LSU,home,1.0
+Arkansas State,1,,of former quarterback,,home,0.0
+Arkansas State,2,,in the past two,,home,0.0
+Arkansas State,3,,consecutive bowl,,home,0.0
+Arkansas State,4,,to Raynor and rebuilding,,home,0.0
+Arkansas State,5,,2026 SCHEDULE,,home,0.0
+Arkansas State,6,Sept. 5,Sept.5 atMemphis,Memphis,away,0.88
+Arkansas State,7,Sept. 12,Sept.12 West Georgia,,home,0.74
+Arkansas State,8,,Sept. | 19 at TCU,,away,0.0
+Arkansas State,9,,tas,,home,0.57
+Arkansas State,10,,Qet3 atLouisiana,,away,0.72
+Arkansas State,11,Oct. 8,Oct.8 South Alabama,South Alabama,home,1.0
+Arkansas State,12,,I? Miss,,home,0.67
+Arkansas State,13,,OCL atSouthern,,away,0.67
+Army,1,Sept. 5,Bryant,,home,
+Army,2,Sept. 12,South Florida,South Florida,home,1.0
+Army,3,Sept. 26,at Temple,Temple,away,1.0
+Army,4,Oct. 3,at Louisiana Tech,Louisiana Tech,away,1.0
+Army,5,Oct. 10,Tulane,Tulane,home,1.0
+Army,6,Oct. 17,Florida Atlantic,Florida Atlantic,home,1.0
+Army,7,Oct. 23,at Tulsa,Tulsa,away,1.0
+Army,8,Oct. 31,at Memphis,Memphis,away,1.0
+Army,9,Nov. 7,Air Force,Air Force,home,1.0
+Army,10,Nov. 21,East Carolina,East Carolina,home,1.0
+Army,11,Nov. 28,at Rice,Rice,away,1.0
+Army,12,Dec. 12,vs. Navy #,Navy,neutral,1.0
+Auburn,1,Sept. 5,Sept.5 vs. Baylor #,Baylor,neutral,1.0
+Auburn,2,Sept. 12,Sept.12 Southern Miss,Southern Miss,home,1.0
+Auburn,3,,Sept. Florida,South Florida,home,0.8
+Auburn,4,Sept. 26,Sept.26 Vanderbilt,Vanderbilt,home,1.0
+Auburn,5,Oct. 3,Uct.3 at Tennessee,Tennessee,away,1.0
+Auburn,6,,Sct? at Georgia,,away,0.74
+Auburn,7,,Oct-24 LSU,,home,0.0
+Auburn,8,Oct. 31,Oct.31 atOle Miss,Ole Miss,away,0.89
+Auburn,9,,a Mec,,home,0.0
+Auburn,10,,i meee aa,,home,0.0
+Auburn,11,Nov. 21,Nov. 21 Samford,Stanford,home,0.8
+Auburn,12,Nov. 28,Nov.28 at Alabama,Alabama,away,1.0
+Auburn,13,,#Atlanta,,home,0.57
+BYU,1,Sept. 5,Sept.5 Utah Tech,,home,0.74
+BYU,2,,Sept.l2 Arizona,,home,0.64
+BYU,3,,a — State,,home,0.74
+BYU,4,Oct. 10,Uct.10 lowa state,Iowa State,home,0.9
+BYU,5,,Qet17 NotreDame,,home,0.72
+BYU,6,Oct. 24,Oct.24 atUCr,,away,0.0
+BYU,7,Oct. 31,Oct.31 Arizona State,Arizona State,home,1.0
+BYU,8,,NOWF atUtan,,away,0.0
+BYU,9,Nov. 14,Nov.14 Baylor J,Baylor,home,0.86
+BYU,10,Nov. 21,Nov.21 at Kansas,Kansas,away,1.0
+BYU,11,Nov. 28,Nov.28 Cincinnati,Cincinnati,home,1.0
+BYU,12,,= EAM INFORMATION,,home,0.0
+Ball State,1,Sept. 5,Sept.5 at Ohio State,Ohio State,away,1.0
+Ball State,2,Sept. 12,Sept.12 Stony Brook,,home,0.0
+Ball State,3,Sept. 19,Sept.19 atLiberty,Liberty,away,0.88
+Ball State,4,Sept. 26,Sept.26 at hentotate,,away,0.74
+Ball State,5,,ee Toledo,Toledo,home,0.8
+Ball State,6,Oct. 10,Oct10 atNorthwestern,Northwestern,away,0.92
+Ball State,7,Oct. 17,Oct.17 atBowling | Green,Bowling Green,away,0.93
+Ball State,8,Oct. 24,Uct.24 Sacramento state,Sacramento State,home,1.0
+Ball State,9,Nov. 4,Nov.4 atUMass,UMass,away,0.83
+Ball State,10,,Novll Buttalo,,home,0.0
+Ball State,11,Nov. 17,Nov.17 atOhio,Ohio,away,0.8
+Ball State,12,Nov. 28,Nov.28 Central Michigan,Central Michigan,home,1.0
+Baylor,1,Sept. 5,sept.5 vs. Auburn #,Auburn,neutral,1.0
+Baylor,2,Sept. 12,sept. 12 Prairie View A&M,,home,0.0
+Baylor,3,Sept. 19,sept. 19 Louisiana Tech,Louisiana Tech,home,1.0
+Baylor,4,Sept. 26,sept. 26 Colorado,Colorado,home,1.0
+Baylor,5,Oct. 3,Oct.3 atArizona State,Arizona State,away,0.93
+Baylor,6,,oe,,home,0.0
+Baylor,7,Oct. 24,Oct.24 atKansas,Kansas,away,0.86
+Baylor,8,Oct. 31,Uct.31 at UCT,,away,0.67
+Baylor,9,Nov. 7,Nov.7 lowa State,Iowa State,home,0.9
+Baylor,10,,wovga atayy,,home,0.0
+Baylor,11,,Texas,Texas,home,1.0
+Baylor,12,Nov. 21,Nov.21 Tech,,home,0.57
+Baylor,13,Nov. 28,Nov.28 at Houston,Houston,away,1.0
+Baylor,14,,#Atlanta,,home,0.57
+Boise State,1,Sept. 5,at Oregon,Oregon,away,1.0
+Boise State,2,Sept. 12,Memphis,Memphis,home,1.0
+Boise State,3,Sept. 19,South Dakota,,home,
+Boise State,4,Sept. 26,at Western Michigan,Western Michigan,away,1.0
+Boise State,5,Oct. 3,Utah State,Utah State,home,1.0
+Boise State,6,Oct. 10,at Fresno State,Fresno State,away,1.0
+Boise State,7,Oct. 24,at Washington State,Washington State,away,1.0
+Boise State,8,Oct. 31,Texas State,Texas State,home,1.0
+Boise State,9,Nov. 7,at Colorado State,Colorado State,away,1.0
+Boise State,10,Nov. 14,Oregon State,Oregon State,home,1.0
+Boise State,11,Nov. 21,San Diego State,San Diego State,home,1.0
+Boise State,12,Nov. 28,at Utah State #,Utah State,away,1.0
+Boston College,1,Sept. 5,sept.5 = at Cincinnati,Cincinnati,away,0.91
+Boston College,2,Sept. 11,sept. 11 Rutgers,Rutgers,home,1.0
+Boston College,3,Sept. 26,Sept.26 Virginia Tech,Virginia Tech,home,1.0
+Boston College,4,Oct. 3,Oct.3 = at SMU,SMU,away,0.75
+Boston College,5,,Oct.l/ Pitt,,home,0.0
+Boston College,6,Oct. 24,Oct.24 atGeorgia Tech,Georgia Tech,away,0.92
+Boston College,7,Oct. 31,Oct.31 at Duke,Duke,away,1.0
+Boston College,8,Nov. 7,Nov.7 Florida State,Florida State,home,1.0
+Boston College,9,Nov. 14,Nov.14 atNotre Dame,Notre Dame,away,0.91
+Boston College,10,Nov. 21,Nov21 Syracuse,Syracuse,home,1.0
+Boston College,11,Nov. 28,Nov28 at Miami (Fla.),Miami (Fla.),away,0.92
+Bowling Green,1,Sept. 5,Tarleton State,Oregon State,home,1.0
+Bowling Green,2,Sept. 12,at Nebraska,Nebraska,away,1.0
+Bowling Green,3,Sept. 19,at Iowa State,Iowa State,away,1.0
+Bowling Green,4,Sept. 26,South Florida,South Florida,home,1.0
+Bowling Green,5,Oct. 3,at Miami (Ohio),Miami (Ohio),away,1.0
+Bowling Green,6,Oct. 10,Sacramento State,Sacramento State,home,1.0
+Bowling Green,7,Oct. 17,Ball State,Ball State,home,1.0
+Bowling Green,8,Oct. 24,at Buffalo,Buffalo,away,1.0
+Bowling Green,9,Oct. 31,at Western Michigan,Western Michigan,away,1.0
+Bowling Green,10,Nov. 10,Kent State,Kent State,home,1.0
+Bowling Green,11,Nov. 18,at Toledo,Toledo,away,1.0
+Bowling Green,12,Nov. 28,UMass,UMass,home,1.0
+Buffalo,1,Sept. 3,UAlbany,,home,
+Buffalo,2,Sept. 12,at FIU,FIU,away,1.0
+Buffalo,3,Sept. 19,at Penn State,Penn State,away,1.0
+Buffalo,4,Sept. 26,Robert Morris,,home,
+Buffalo,5,Oct. 3,Western Michigan,Western Michigan,home,1.0
+Buffalo,6,Oct. 10,at Toledo,Toledo,away,1.0
+Buffalo,7,Oct. 17,UMass,UMass,home,1.0
+Buffalo,8,Oct. 24,Bowling Green,Bowling Green,home,1.0
+Buffalo,9,Nov. 3,at Miami (Ohio),Miami (Ohio),away,1.0
+Buffalo,10,Nov. 11,at Ball State,Ball State,away,1.0
+Buffalo,11,Nov. 18,Central Michigan,Central Michigan,home,1.0
+Buffalo,12,Nov. 27,at Akron,Akron,away,1.0
+Cal,1,Sept. 5,Sept. 5 UCLA,UCLA,home,1.0
+Cal,2,,cept. 12 atsyracuse,,home,0.0
+Cal,3,Sept. 19,sept. 19 Wagner,,home,0.0
+Cal,4,,"Sept, 29 Clemson",,home,0.64
+Cal,5,,7 } vinin,,home,0.0
+Cal,6,,te seas,,home,0.44
+Cal,7,Oct. 17,Oct. 17 Wake Forest,Wake Forest,home,1.0
+Cal,8,Oct. 24,Oct 24 at SMU,SMU,away,1.0
+Cal,9,,pt at we state,,away,0.67
+Cal,10,Nov. 14,Nov. 14 atVirginia,Virginia,away,0.89
+Cal,11,,Nov. = 21 Stanford,,home,0.64
+Cal,12,,28 Pitt,,home,0.73
+Central Michigan,1,Sept. 5,at New Mexico,New Mexico,away,1.0
+Central Michigan,2,Sept. 12,Colgate,,home,
+Central Michigan,3,Sept. 19,Wyoming,Wyoming,home,1.0
+Central Michigan,4,Sept. 26,at Miami (Fla.),Miami (Fla.),away,1.0
+Central Michigan,5,Oct. 3,Akron,Akron,home,1.0
+Central Michigan,6,Oct. 10,at Ohio,Ohio,away,1.0
+Central Michigan,7,Oct. 17,Western Michigan,Western Michigan,home,1.0
+Central Michigan,8,Oct. 24,Miami (Ohio),Miami (Ohio),home,1.0
+Central Michigan,9,Nov. 4,Eastern Michigan #,Eastern Michigan,home,1.0
+Central Michigan,10,Nov. 11,Sacramento State,Sacramento State,home,1.0
+Central Michigan,11,Nov. 18,at Buffalo,Buffalo,away,1.0
+Central Michigan,12,Nov. 28,at Ball State,Ball State,away,1.0
+Charlotte,1,Sept. 5,Sept5 The Citadel,,home,0.0
+Charlotte,2,Sept. 12,Sept.12 atOle Miss,Ole Miss,away,0.89
+Charlotte,3,Sept. 19,Sept.19 atApp state,Utah State,away,0.76
+Charlotte,4,Sept. 26,Sept.26 Louisiana @j,Louisiana,home,0.86
+Charlotte,5,Oct. 3,Oct.3 Memphis,Memphis,home,1.0
+Charlotte,6,,Dott at North Texas,North Texas,away,0.81
+Charlotte,7,,I?,,home,0.0
+Charlotte,8,,Oct at Temple,Temple,away,0.75
+Charlotte,9,Oct. 30,Oct 30 Tulane,Tulane,home,1.0
+Charlotte,10,Nov. 7,Nov7 at UAB,UAB,away,1.0
+Charlotte,11,,14,,home,0.0
+Charlotte,12,,Noy Fast Caroline,,home,0.73
+Charlotte,13,Nov. 21,~“Nov.21 = at Tulsa,,away,0.67
+Charlotte,14,Nov. 28,Nov.28 = Navy,Navy,home,0.8
+Cincinnati,1,Sept. 5,sept.5 Boston College,Boston College,home,1.0
+Cincinnati,2,Sept. 12,Sept. 12 Western Carolina,East Carolina,home,0.83
+Cincinnati,3,Sept. 19,sept. 19 Miami (Ohio) #,Miami (Ohio),home,1.0
+Cincinnati,4,Sept. 26,sept. 26 Kansas State,Kansas State,home,1.0
+Cincinnati,5,Oct. 3,Oct.3 atArizona,Arizona,away,0.88
+Cincinnati,6,Oct. 17,Oct.17 at West Virginia,West Virginia,away,1.0
+Cincinnati,7,Oct. 24,Oct.24 Texas Tech,Texas Tech,home,1.0
+Cincinnati,8,Oct. 31,Oct.31 Utah,Utah,home,1.0
+Cincinnati,9,Nov. 7,Nov.7 atHouston,Houston,away,0.88
+Cincinnati,10,,i ; slewig,,home,0.0
+Cincinnati,11,,Noy,,home,0.57
+Cincinnati,12,,98 at BY,,away,0.0
+Cincinnati,13,,#TOL Stadium,,home,0.0
+Clemson,1,Sept. 5,sSept.5 = at LSU,,away,0.6
+Clemson,2,,—_ ae “ne,,home,0.0
+Clemson,3,,ae ept. orth Carolina,North Carolina,home,0.76
+Clemson,4,,ia ra,,home,0.0
+Clemson,5,,Qet.3 Miami a (Fla.),,home,0.69
+Clemson,6,Oct. 17,Oct.17 Charleston Southern,,home,0.57
+Clemson,7,,QUcl24 Virginia Tech,Virginia Tech,home,0.79
+Clemson,8,Oct. 31,Oct.31 at Florida State,Florida State,away,1.0
+Clemson,9,,7 at Syracuse,Syracuse,away,0.89
+Clemson,10,Nov. 14,Nov.14 Georgia Tech,Georgia Tech,home,1.0
+Clemson,11,Nov. 21,Nov21 atDuke,Duke,away,0.8
+Clemson,12,Nov. 28,Nov.28 south Carolina,South Carolina,home,1.0
+Clemson,13,,HeadCoach: Dabo Swinney - Record,,home,0.0
+Coastal Carolina,1,Sept. 5,Sept.5 at West Virginia,West Virginia,away,1.0
+Coastal Carolina,2,,Sept|2 Fordham,,home,0.59
+Coastal Carolina,3,,an - —,,home,0.0
+Coastal Carolina,4,,24,,home,0.0
+Coastal Carolina,5,,ept. Liberty,Liberty,home,0.78
+Coastal Carolina,6,,Qot.3 Georgia Souther,Georgia Southern,home,0.81
+Coastal Carolina,7,Oct. 10,Oct.10 atMarshall,Marshall,away,0.89
+Coastal Carolina,8,Oct. 16,Oct. 16 Appalachian State,Appalachian State,home,1.0
+Coastal Carolina,9,,Oot 31 atGeorgia State,,away,0.74
+Coastal Carolina,10,,a7 Aid nominign,,home,0.59
+Coastal Carolina,11,,Noy.14 Arkansas State,Arkansas State,home,0.8
+Coastal Carolina,12,Nov. 21,Nov.21 atLouisiana,Louisiana,away,0.9
+Coastal Carolina,13,Nov. 28,Nov.28 atJames Madison,James Madison,away,0.93
+Colorado,1,,group comes,,home,0.0
+Colorado,2,,some momentum,,home,0.0
+Colorado,3,,2026 SCH inked,,home,0.0
+Colorado,4,,== : ets,,home,0.0
+Colorado,5,,oe eer otate,,home,0.61
+Colorado,6,Sept. 9,Sept 9 at Horinwestern,Northwestern,away,0.75
+Colorado,7,,ees at Baylor,Baylor,away,0.75
+Colorado,8,,ee exas lech,,home,0.73
+Colorado,9,,iov.7,,home,0.0
+Colorado,10,,at Arizona State,Arizona State,away,1.0
+Colorado,11,,~Nov.l4 Houston,,home,0.64
+Colorado,12,Nov. 21,Nov.21 at Cincinnati,Cincinnati,away,1.0
+Colorado,13,Nov. 28,Nov.28 UCT,,home,0.67
+Colorado State,1,Sept. 5,sept.5 Wyoming,Wyoming,home,1.0
+Colorado State,2,Sept. 12,Sept.12 Southern Utah,,home,0.69
+Colorado State,3,,septs BYU,,home,0.0
+Colorado State,4,,vepl2b atUIsn,,away,0.0
+Colorado State,5,,UclJ3 Oregon state,Oregon State,home,0.8
+Colorado State,6,,Uctl” at lexas otate,,away,0.71
+Colorado State,7,,Det.24 San Diego | state,San Diego State,home,0.81
+Colorado State,8,,Vets atUtah state,,away,0.74
+Colorado State,9,,St,,home,0.0
+Colorado State,10,,ov.14 at Washington,Washington,away,0.77
+Colorado State,11,,NORAE atrresno state,,home,0.69
+Colorado State,12,,Texas,Texas,home,1.0
+Colorado State,13,Nov. 28,Nov.28 State #,NC State,home,0.77
+Colorado State,14,,#Projected Flex Opponent,,home,0.0
+Delaware,1,Sept. 3,Sept.3 Merrimack,,home,0.0
+Delaware,2,Sept. 12,Sept.12 at Vanderbilt,Vanderbilt,away,1.0
+Delaware,3,,SePLIS CoastalCarotina,,home,0.74
+Delaware,4,Sept. 2,sept. 2b at Virginia,Virginia,away,0.89
+Delaware,5,Oct. 2,Uct. 2 Liberty,Liberty,home,1.0
+Delaware,6,Oct. 13,Oct.13 at Middle Tenn,Middle Tennessee,away,0.81
+Delaware,7,Oct. 20,Oct.20 Missouri State,Missouri State,home,1.0
+Delaware,8,Oct. 2,Uct.2/. at WKU,WKU,away,0.75
+Delaware,9,,Nov./ atKennesaw State,Kennesaw State,away,0.78
+Delaware,10,Nov. 14,Nov.14 FLU,,home,0.67
+Delaware,11,Nov. 21,Nov.21 atNew Mexico State,New Mexico State,away,0.94
+Delaware,12,Nov. 28,Nov. 28 Jacksonville State,Jacksonville State,home,1.0
+Duke,1,Sept. 5,Sept.5 Tulane,Tulane,home,1.0
+Duke,2,,(Sepa at litinas,,away,0.0
+Duke,3,,"— ——""",,home,0.0
+Duke,4,,"ept, o illiam & Mar",,home,0.0
+Duke,5,Oct. 10,Oct.10 atGeorgia “ES lech,,away,0.73
+Duke,6,,17,,home,0.0
+Duke,7,,pet North Carolina,North Carolina,home,0.88
+Duke,8,,Qet.24 at Virginia,West Virginia,away,0.79
+Duke,9,Oct. 31,~Oct.31 Boston College,Boston College,home,0.93
+Duke,10,,Nov.’ atNC State,,away,0.67
+Duke,11,,Novl4 at Miami (Fla,,away,0.71
+Duke,12,Nov. 2,Nov.2l_ Clemson,Clemson,home,0.82
+Duke,13,Nov. 28,Nov.28 at Wake Forest,Wake Forest,away,1.0
+Duke,14,,Be,,home,0.0
+East Carolina,1,Sept. 5,«Sept.5 atAlabama,Alabama,away,0.78
+East Carolina,2,Sept. 12,sept. 12 Appalachian State,Appalachian State,home,1.0
+East Carolina,3,,eo = ept.19 a ominion ci,,home,0.0
+East Carolina,4,,o6 NC Central,,home,0.0
+East Carolina,5,,etn Rice,,home,0.67
+East Carolina,6,Oct. 15,Oct.15 atUAB,UAB,away,0.75
+East Carolina,7,Oct. 22,Oct.22 atMemphis,Memphis,away,0.88
+East Carolina,8,Oct. 31,Oct.31 Temple,Temple,home,1.0
+East Carolina,9,Nov. 6,Nov.6 South Florida,South Florida,home,1.0
+East Carolina,10,Nov. 14,Nov.14 atCharlotte,Charlotte,away,0.9
+East Carolina,11,Nov. 21,Nov. 21 atArmy,Army,away,0.8
+East Carolina,12,Nov. 28,Nov.28 Horida Atlantic,Florida Atlantic,home,0.9
+East Carolina,13,,Me,,home,0.0
+Eastern Michigan,1,,Sacramento state,Sacramento State,home,1.0
+Eastern Michigan,2,Sept. 4,sept.4 San Jose State,San Jose State,home,1.0
+Eastern Michigan,3,,Sept. l2 atMichiganstate,,away,0.7
+Eastern Michigan,4,,ee at Wisconsin,Wisconsin,away,0.86
+Eastern Michigan,5,Sept. 26,SePt.26 Lindenwood,,home,0.0
+Eastern Michigan,6,,Cone ALU Mass,,home,0.56
+Eastern Michigan,7,,a a,,home,0.0
+Eastern Michigan,8,,Be Central Michigand,Central Michigan,home,0.89
+Eastern Michigan,9,,yy at W. Michigan,Michigan,away,0.76
+Eastern Michigan,10,,Noy 24 Kent State,,home,0.74
+Eastern Michigan,11,,#etroit,,home,0.0
+FIU,1,Sept. 5,Sept.5 atSouth Florida,South Florida,away,0.93
+FIU,2,,Sept l2 Buttalo,,home,0.0
+FIU,3,,“Pe ¥ atFlorida Atlantic,Florida Atlantic,away,0.8
+FIU,4,Sept. 26,Sept. 26 Long Island,,home,0.0
+FIU,5,,Qet.7 New Mexico State,New Mexico State,home,0.84
+FIU,6,Oct. 13,~Oct.13 = atJacksonville | State,Jacksonville State,away,0.86
+FIU,7,Oct. 20,Oct.20 Middle Tennessee,Middle Tennessee,home,1.0
+FIU,8,Oct. 31,Oct.31 at Liberty,Liberty,away,1.0
+FIU,9,,Be Missouri State,Missouri State,home,0.9
+FIU,10,,Noyi4 atDelaware,,away,0.67
+FIU,11,Nov. 2,Nov.2l atKennesawstate,Kennesaw State,away,0.84
+FIU,12,Nov. 28,Nov. 28 Sam Houston,Sam Houston,home,1.0
+Florida,1,Sept. 5,Sept.5 Florida Atlantic,Florida Atlantic,home,1.0
+Florida,2,Sept. 12,Sept.12 Campbell,,home,0.0
+Florida,3,,Sept. at Auburn,,away,0.71
+Florida,4,Sept. 26,Sept. 26 Ole Miss,Ole Miss,home,1.0
+Florida,5,Oct. 3,Oct.3 atMissour,Missouri,away,0.82
+Florida,6,Oct. 10,Oct.10 South Caroline,South Carolina,home,0.93
+Florida,7,Oct. 17,Oct.17 atTexas,Texas,away,0.83
+Florida,8,Oct. 3,Oct.3l vs. Georgia #,Georgia,neutral,0.88
+Florida,9,,Nov? Oklahoma,Oklahoma,home,0.76
+Florida,10,,Nov.l4 atKentucky,,away,0.64
+Florida,11,Nov. 21,“Nov.21 = Vanderbilt,Vanderbilt,home,0.83
+Florida,12,Nov. 28,Nov.28 atFlorida State,Florida State,away,0.93
+Florida,13,,#Atlanta,,home,0.57
+Florida Atlantic,1,Sept. 5,Sept.5 atHlorida,Florida,away,0.75
+Florida Atlantic,2,Sept. 12,Sept.12 Navy,Navy,home,1.0
+Florida Atlantic,3,Sept. 19,Sept.19 FIU,FIU,home,1.0
+Florida Atlantic,4,Sept. 26,Sept.26 at ULM,ULM,away,1.0
+Florida Atlantic,5,Oct. 5,Uct.5 Texas Southern,,home,0.73
+Florida Atlantic,6,Oct. 17,Oct.17 atArmy,Army,away,0.8
+Florida Atlantic,7,Oct. 24,“Oct.24 Rice,Rice,home,0.8
+Florida Atlantic,8,Oct. 29,Oct.29 at North Texas,North Texas,away,1.0
+Florida Atlantic,9,,Novo UTSA,,home,0.62
+Florida Atlantic,10,,Nov.l4 atlulsa,,home,0.0
+Florida Atlantic,11,Nov. 21,Nov.21 South Florida,South Florida,home,1.0
+Florida Atlantic,12,Nov. 28,Nov.28 atEast Carolina,East Carolina,away,0.93
+Florida State,1,Aug. 29,New Mexico State,New Mexico State,home,1.0
+Florida State,2,Sept. 7,SMU,SMU,home,1.0
+Florida State,3,Sept. 19,at Alabama,Alabama,away,1.0
+Florida State,4,Sept. 26,Central Arkansas,,home,
+Florida State,5,Oct. 3,Virginia,Virginia,home,1.0
+Florida State,6,Oct. 9,at Louisville,Louisville,away,1.0
+Florida State,7,Oct. 17,at Miami (Fla.),Miami (Fla.),away,1.0
+Florida State,8,Oct. 31,Clemson,Clemson,home,1.0
+Florida State,9,Nov. 7,at Boston College,Boston College,away,1.0
+Florida State,10,Nov. 13,at Pitt,Pitt,away,1.0
+Florida State,11,Nov. 21,NC State,NC State,home,1.0
+Florida State,12,Nov. 27,Florida,Florida,home,1.0
+Fresno State,1,Sept. 5,at USC,USC,away,1.0
+Fresno State,2,Sept. 12,Sacramento State,Sacramento State,home,1.0
+Fresno State,3,Sept. 19,at San Jose State,San Jose State,away,1.0
+Fresno State,4,Sept. 26,Rice,Rice,home,1.0
+Fresno State,5,Oct. 3,at Washington State,Washington State,away,1.0
+Fresno State,6,Oct. 10,Boise State,Boise State,home,1.0
+Fresno State,7,Oct. 17,at San Diego State,San Diego State,away,1.0
+Fresno State,8,Oct. 31,Oregon State,Oregon State,home,1.0
+Fresno State,9,Nov. 7,at Utah State,Utah State,away,1.0
+Fresno State,10,Nov. 14,at Texas State,Texas State,away,1.0
+Fresno State,11,Nov. 21,Colorado State,Colorado State,home,1.0
+Fresno State,12,Nov. 28,San Diego State #,San Diego State,home,1.0
+Georgia,1,Sept. 5,sept.5 Tennessee state,Tennessee,home,0.75
+Georgia,2,Sept. 12,Sept.12 WesternKentucky,,home,0.7
+Georgia,3,,%ePt!9 at Arkansas,,away,0.73
+Georgia,4,,eee Ontanome,,home,0.0
+Georgia,5,,act Vanderbilt,Vanderbilt,home,0.83
+Georgia,6,,ig,,home,0.0
+Georgia,7,,get at Alabama,Alabama,away,0.78
+Georgia,8,Oct. 17,Oct.17 = Auburn,Auburn,home,0.86
+Georgia,9,Oct. 3,Oct.3] vs. Florida #,Florida,neutral,0.88
+Georgia,10,,Nov? at Ole Miss,Ole Miss,away,0.76
+Georgia,11,,NowlH Missour!,,home,0.64
+Georgia,12,Nov. 21,Nov. 21 atSouth Carolina,South Carolina,away,0.93
+Georgia,13,Nov. 28,Nov.28 Georgia Tech,Georgia Tech,home,1.0
+Georgia,14,,eMtlanta,,home,0.0
+Georgia Southern,1,Sept. 5,Sept.5 Charleston South,,home,0.48
+Georgia Southern,2,,ee el,,home,0.0
+Georgia Southern,3,,ept.19 at Jacksonville,,away,0.65
+Georgia Southern,4,,St,,home,0.0
+Georgia Southern,5,,ee Mouston,,home,0.71
+Georgia Southern,6,Oct. 3,Oct.3 atCoastal Caroline,Coastal Carolina,away,0.88
+Georgia Southern,7,Oct. 10,Oct.10 James Madison,James Madison,home,1.0
+Georgia Southern,8,,OctlS at Old Dominion,Old Dominion,away,0.8
+Georgia Southern,9,Oct. 31,Oct.31 AppalachianState,Appalachian State,home,0.97
+Georgia Southern,10,Nov. 7,Nov.7 Marshall,Marshall,home,1.0
+Georgia Southern,11,Nov. 14,Nov.14 atGeorgia State,Georgia State,away,0.93
+Georgia Southern,12,Nov. 2,Nov2l at lroy,,away,0.6
+Georgia Southern,13,Nov. 28,Nov.28 Louisiana Tech,Louisiana Tech,home,1.0
+Georgia State,1,Sept. 5,North Carolina A&T,North Carolina,home,1.0
+Georgia State,2,Sept. 12,at Kennesaw State,Kennesaw State,away,1.0
+Georgia State,3,Sept. 19,at UCF,UCF,away,1.0
+Georgia State,4,Sept. 26,Northern Illinois,Northern Illinois,home,1.0
+Georgia State,5,Oct. 3,Old Dominion,Old Dominion,home,1.0
+Georgia State,6,Oct. 17,at James Madison,James Madison,away,1.0
+Georgia State,7,Oct. 24,at Arkansas State,Arkansas State,away,1.0
+Georgia State,8,Oct. 31,Coastal Carolina,Coastal Carolina,home,1.0
+Georgia State,9,Nov. 7,at Appalachian State,Appalachian State,away,1.0
+Georgia State,10,Nov. 14,Georgia Southern,Georgia Southern,home,1.0
+Georgia State,11,Nov. 21,at Marshall,Marshall,away,1.0
+Georgia State,12,Nov. 28,Louisiana,Louisiana,home,1.0
+Georgia Tech,1,Sept. 3,Colorado,Colorado,home,1.0
+Georgia Tech,2,Sept. 12,Tennessee,Tennessee,home,1.0
+Georgia Tech,3,Sept. 19,Mercer,,home,
+Georgia Tech,4,Sept. 26,at Stanford,Stanford,away,1.0
+Georgia Tech,5,Oct. 10,Duke,Duke,home,1.0
+Georgia Tech,6,Oct. 17,at Virginia Tech,Virginia Tech,away,1.0
+Georgia Tech,7,Oct. 24,Boston College,Boston College,home,1.0
+Georgia Tech,8,Oct. 31,at Pitt,Pitt,away,1.0
+Georgia Tech,9,Nov. 7,Louisville,Louisville,home,1.0
+Georgia Tech,10,Nov. 14,at Clemson,Clemson,away,1.0
+Georgia Tech,11,Nov. 21,Wake Forest,Wake Forest,home,1.0
+Georgia Tech,12,Nov. 28,at Georgia,Georgia,away,1.0
+Hawai'i,1,Aug. 29,Aug.29 atStanford,Stanford,away,0.89
+Hawai'i,2,Sept. 5,Sept.5 UNLV,UNLV,home,1.0
+Hawai'i,3,Sept. 12,Sept. 12 New Mexico State,New Mexico State,home,1.0
+Hawai'i,4,,sept co at Wyoming,,away,0.64
+Hawai'i,5,,Apt 3 San Insd State,,home,0.65
+Hawai'i,6,,sor Jon | Mea,,home,0.0
+Hawai'i,7,,act 24 at Northern Ilingig,,away,0.7
+Hawai'i,8,,Nov? at TEP,,away,0.0
+Hawai'i,9,Nov. 14,Nov.14 North DakotaState,North Dakota State,home,0.97
+Hawai'i,10,Nov. 21,Nov.21 atNevada,Nevada,away,0.86
+Hawai'i,11,Nov. 28,Nov.28 sacramento State,Sacramento State,home,1.0
+Hawai'i,12,,§=TEAM INFORMATION,,home,0.0
+Houston,1,,sept.o Oregon state,Oregon State,home,0.77
+Houston,2,,ee eae,,home,0.0
+Houston,3,,= ept.19 at Texas Tec 7,,away,0.6
+Houston,4,,as 26 at Georgia J Southern,Georgia Southern,away,0.8
+Houston,5,Oct. 3,Uct. 3 Ubt,,home,0.57
+Houston,6,Oct. 10,Uct.10 atKansas State,Kansas State,away,0.92
+Houston,7,Oct. 1,Oct.1/ Oklahoma State,Oklahoma State,home,0.93
+Houston,8,,Aet.94 at Utah,,away,0.0
+Houston,9,,Ge Cincinnati,Cincinnati,home,0.87
+Houston,10,Nov. 14,Nov.14 atColorado,Colorado,away,0.89
+Houston,11,Nov. 2,Nov.2l at West Virginia,West Virginia,away,0.93
+Houston,12,,Hea Baylor,Baylor,home,0.75
+Houston,13,,EAM INFORMATION,,home,0.0
+Illinois,1,Sept. 5,UAB,UAB,home,1.0
+Illinois,2,Sept. 12,Duke,Duke,home,1.0
+Illinois,3,Sept. 19,Southern Illinois,Northern Illinois,home,1.0
+Illinois,4,Sept. 26,at Ohio State,Ohio State,away,1.0
+Illinois,5,Oct. 3,Purdue,Purdue,home,1.0
+Illinois,6,Oct. 10,at Michigan State,Michigan State,away,1.0
+Illinois,7,Oct. 24,Oregon,Oregon,home,1.0
+Illinois,8,Oct. 31,at Maryland,Maryland,away,1.0
+Illinois,9,Nov. 7,Nebraska,Nebraska,home,1.0
+Illinois,10,Nov. 14,at UCLA,UCLA,away,1.0
+Illinois,11,Nov. 21,Iowa,Iowa,home,1.0
+Illinois,12,Nov. 28,at Northwestern,Northwestern,away,1.0
+Indiana,1,Sept. 5,Sept.5 North Texas,North Texas,home,1.0
+Indiana,2,Sept. 12,Sept.12 Howard,,home,0.6
+Indiana,3,,sept. IS WRU,,home,0.0
+Indiana,4,Sept. 26,Sept. 26 Northwestern,Northwestern,home,1.0
+Indiana,5,Oct. 3,Uct.3 atRutgers,Rutgers,away,0.88
+Indiana,6,Oct. 10,Oct.10 atNebraska,Nebraska,away,0.89
+Indiana,7,,"CChI? Ohio , state",Ohio State,home,0.77
+Indiana,8,,Yet 24 a lenge ahi,,home,0.0
+Indiana,9,Oct. 31,Oct.31 Minnesota,Minnesota,home,1.0
+Indiana,10,Nov. 4,Nov4 USC,USC,home,1.0
+Indiana,11,Nov. 21,Nov.21 at Washington,Washington,away,1.0
+Indiana,12,Nov. 28,Nov.28 Purdue,Purdue,home,1.0
+Indiana,13,,Ba,,home,0.0
+Iowa,1,Sept. 5,sept.5 Northern Illinois,Northern Illinois,home,1.0
+Iowa,2,Sept. 12,Sept 12 lowa state,Iowa State,home,0.9
+Iowa,3,,pep. IS North ern [owe,,home,0.0
+Iowa,4,,"Sept, 26 at Michigan",,away,0.69
+Iowa,5,,Ort hin State,Ohio State,home,0.78
+Iowa,6,Oct. 10,Oct.10 at Washington,Washington,away,1.0
+Iowa,7,,Uet24 at Minnesota,Minnesota,away,0.75
+Iowa,8,Oct. 31,Oct.31 Wisconsin,Wisconsin,home,1.0
+Iowa,9,Nov. 7,Nov.7 at Northwestern,Northwestern,away,1.0
+Iowa,10,Nov. 14,Nov.14 Purdue,Purdue,home,1.0
+Iowa,11,Nov. 21,Nov.21 atillinois,Illinois,home,0.89
+Iowa,12,,Nower Nebraska,,home,0.73
+Iowa,13,,Be,,home,0.0
+Iowa State,1,Sept. 5,sept.5 Southeast Missouri,,home,0.71
+Iowa State,2,Sept. 12,sept. 12 atlowa,,home,0.6
+Iowa State,3,Sept. 19,sept.19 Bowling Green,Bowling Green,home,1.0
+Iowa State,4,Sept. 26,Sept. 26 Utah,Utah,home,1.0
+Iowa State,5,Oct. 3,Oct.3 West Virginia,West Virginia,home,1.0
+Iowa State,6,Oct. 10,Oct.10 atBYU,BYU,away,0.75
+Iowa State,7,Oct. 24,Oct.24 atArizona,Arizona,away,0.88
+Iowa State,8,Oct. 31,Oct.31 Oklahoma State,Oklahoma State,home,1.0
+Iowa State,9,,Nov.’ at Baylor,,away,0.67
+Iowa State,10,Nov. 14,Nov.14 Cincinnati,Cincinnati,home,1.0
+Iowa State,11,Nov. 21,Nov.21 atUC,,away,0.57
+Iowa State,12,Nov. 28,Nov.28 Kansas state,Kansas State,home,1.0
+Jacksonville State,1,Aug. 29,Aug.29 atNorth DakotaSt,North Dakota State,away,0.82
+Jacksonville State,2,,Sept.o Eastern Kentucky,,home,0.0
+Jacksonville State,3,,SPL 42 at Ohio,,away,0.0
+Jacksonville State,4,,PEI Georgia Souther,Georgia Southern,home,0.86
+Jacksonville State,5,Sept. 26,sept. 26 Middle Tennessee,Middle Tennessee,home,1.0
+Jacksonville State,6,,Uct./ at Kennesaw State,Kennesaw State,away,0.82
+Jacksonville State,7,,Aet.13 FI,,home,0.0
+Jacksonville State,8,Oct. 28,Oct.28 atNewMexicoState,New Mexico State,away,0.88
+Jacksonville State,9,,Nov? Sam Houston,Sam Houston,home,0.81
+Jacksonville State,10,,> _,,home,0.0
+Jacksonville State,11,,seal =: Ls,,home,0.0
+Jacksonville State,12,Nov. 28,Nov.28 at Delaware,Delaware,away,1.0
+Jacksonville State,13,,Bue,,home,0.57
+James Madison,1,Sept. 5,sept.5 Liberty,Liberty,home,1.0
+James Madison,2,Sept. 12,sept.12 Wagner,,home,0.0
+James Madison,3,,= - oan ep,,home,0.0
+James Madison,4,,ept.26 4 ominion,,home,0.57
+James Madison,5,Oct. 3,Oct.3 Marshall,Marshall,home,1.0
+James Madison,6,,pet at Georgia Southern,Georgia Southern,away,0.89
+James Madison,7,,Oct? Georgia State,Georgia State,home,0.84
+James Madison,8,,State |”,,home,0.67
+James Madison,9,Oct. 22,Oct.22 atAppalachian,,away,0.73
+James Madison,10,Oct. 29,Oct29 Troy,Troy,home,1.0
+James Madison,11,,ess,,home,0.0
+James Madison,12,,ee Coastal Carciins,,home,0.74
+James Madison,13,,BRDU,,home,0.57
+Kansas,1,Sept. 4,Sept.4 Long Island,,home,0.0
+Kansas,2,Sept. 12,Sept.12 Missour,Missouri,home,0.93
+Kansas,3,,_ re tate#,,home,0.67
+Kansas,4,,ct. iddle Tennessee,Middle Tennessee,home,0.88
+Kansas,5,,at,,,0.0
+Kansas,6,,act. UCL 10 at Utah Uta,,away,0.0
+Kansas,7,,Kansas,Kansas,home,1.0
+Kansas,8,Oct. 17,Oct.17 at State,NC State,away,0.77
+Kansas,9,,Gct.24 Baylor,,home,0.63
+Kansas,10,,— —,,home,0.0
+Kansas,11,Nov. 14,Nov. 14 at West Virginia _,West Virginia,away,0.93
+Kansas,12,Nov. 21,Nov.21 BYU,BYU,home,1.0
+Kansas,13,,yee at (Kahoma State,Oklahoma State,away,0.77
+Kansas,14,,"#London, England",,home,0.0
+Kansas State,1,Sept. 5,Sept.5 Nicholls,,home,0.0
+Kansas State,2,Sept. 12,Sept.12 Washington State,Washington State,home,1.0
+Kansas State,3,Sept. 19,Sept.19 Tulane,Tulane,home,1.0
+Kansas State,4,,eee 2tbincinnal incinnati,,home,0.0
+Kansas State,5,,act? Kansas,,home,0.71
+Kansas State,6,Oct. 24,Oct.24 atArizona State,Arizona State,away,0.93
+Kansas State,7,,pet 97 at olaradn,,away,0.0
+Kansas State,8,,Nov./ Oklahoma State,Oklahoma State,home,0.82
+Kansas State,9,Nov. 14,Nov.14 at ICu,,away,0.0
+Kansas State,10,Nov. 21,Nov.21. Arizong,Arizona,home,0.86
+Kansas State,11,Nov. 28,Nov.28 atlowa State,Iowa State,home,0.82
+Kennesaw State,1,Sept. 3,Sept.3 West Georgia,,home,0.74
+Kennesaw State,2,,Sept l2 Georgia state,Georgia State,home,0.76
+Kennesaw State,3,,Be at Tennessee,Tennessee,away,0.86
+Kennesaw State,4,Sept. 26,Sept. 26 at Arkansas State,Arkansas State,away,1.0
+Kennesaw State,5,,i coat,,home,0.0
+Kennesaw State,6,,pray at miccouri State,,away,0.73
+Kennesaw State,7,,Qet.21 Liberty,,home,0.67
+Kennesaw State,8,Oct. 28,Oct.28 atMiddleTennessee,Middle Tennessee,away,0.91
+Kennesaw State,9,,Nov? Delaware,Delaware,home,0.76
+Kennesaw State,10,,Now14 atSam Houston,,away,0.73
+Kennesaw State,11,Nov. 21,Nov.21 FI,FIU,home,0.8
+Kennesaw State,12,,28 at WKL,,away,0.0
+Kennesaw State,13,,Be,,home,0.0
+Kent State,1,Sept. 5,sept.5 at South Carolina,South Carolina,away,1.0
+Kent State,2,Sept. 12,sept. 12 Wofford,,home,0.0
+Kent State,3,Sept. 19,sept. 19 at Ohio State,Ohio State,away,1.0
+Kent State,4,Sept. 26,Sept. 26 Ball State,Ball State,home,1.0
+Kent State,5,Oct. 3,Oct.3 Ohio,Ohio,home,1.0
+Kent State,6,Oct. 10,Oct.10 atW. Michigan,Michigan,away,0.8
+Kent State,7,Oct. 17,Oct.17 atSouth Florida,South Florida,away,0.93
+Kent State,8,Oct. 24,Oct.24 Akron,Akron,home,1.0
+Kent State,9,Oct. 30,Uct.30 atsacramento st,Sacramento State,home,0.84
+Kent State,10,Nov. 10,Nov.10 at Bowling Green,Bowling Green,away,1.0
+Kent State,11,Nov. 17,Nov.17 Miami (Ohio),Miami (Ohio),home,1.0
+Kent State,12,Nov. 24,Nov. 24 atEastern Michigan,Eastern Michigan,away,0.94
+Kentucky,1,,sept.o Youngstown State,,home,0.62
+Kentucky,2,Sept. 12,Sept. 12 Alabama,Alabama,home,1.0
+Kentucky,3,Sept. 19,Sept.19 at Texas A&M,Texas A&M,away,0.89
+Kentucky,4,Sept. 26,Sept. 26 Sout Alanamg,South Alabama,home,0.8
+Kentucky,5,Oct. 3,«<Oct.3 = at South Carolina,South Carolina,away,0.85
+Kentucky,6,Oct. 10,Oct.10 LSU,LSU,home,1.0
+Kentucky,7,Oct. 17,Oct.17 at Oklahoma,Oklahoma,away,1.0
+Kentucky,8,Oct. 24,Oct.24 Vanderbilt,Vanderbilt,home,1.0
+Kentucky,9,Nov. 7,Nov.7 atTennessee,Tennessee,away,0.9
+Kentucky,10,Nov. 14,Nov.14 Florida,Florida,home,1.0
+Kentucky,11,Nov. 21,«“Nov.21 at Missour,Missouri,away,0.78
+Kentucky,12,Nov. 28,~Nov.28 Louisville,Louisville,home,0.91
+LSU,1,Sept. 5,Sept.5 Clemson,Clemson,home,1.0
+LSU,2,Sept. 12,sept. 12 Louisiana Tech,Louisiana Tech,home,1.0
+LSU,3,Sept. 19,sept. 19 at Ole Miss,Ole Miss,away,1.0
+LSU,4,Sept. 26,sept. 26 Texas A&M,Texas A&M,home,0.89
+LSU,5,Oct. 3,Uct.3 McNeese,,home,0.0
+LSU,6,Oct. 10,Oct.10 atKentucky,Kentucky,away,0.89
+LSU,7,Oct. 17,Oct.17 Mississippi State,Mississippi State,home,1.0
+LSU,8,Oct. 24,Oct.24 atAuburn,Auburn,away,0.86
+LSU,9,,Nov.’ Alabama,,home,0.7
+LSU,10,Nov. 14,Nov.14 ‘Texas,Texas,home,0.91
+LSU,11,Nov. 21,Nov.21 at lennessee,Tennessee,away,0.89
+LSU,12,Nov. 28,Nov28 atArkansas,Arkansas,away,0.89
+Liberty,1,Sept. 5,Sept.5 atJames Madison,James Madison,away,0.93
+Liberty,2,Sept. 12,Sept.12 Gardner-Webb,,home,0.0
+Liberty,3,Sept. 19,Sept.19 Ball State,Ball State,home,1.0
+Liberty,4,Sept. 24,Sept.24 at Coastal Carolina,Coastal Carolina,away,1.0
+Liberty,5,Oct. 2,Oct.2 atDelaware,Delaware,away,0.89
+Liberty,6,Oct. 8,Oct.8 Sam Houston,Sam Houston,home,1.0
+Liberty,7,Oct. 21,Oct.21 atKennesaw State,Kennesaw State,away,0.93
+Liberty,8,Oct. 31,Oct.31 FIU,FIU,home,1.0
+Liberty,9,Nov. 7,Nov.7 atNewMexicoSt,New Mexico,away,0.78
+Liberty,10,,Nov.l4 Middle Tennessee,Middle Tennessee,home,0.82
+Liberty,11,Nov. 21,Nov.21 WKU,WKU,home,1.0
+Liberty,12,Nov. 28,Nov.28 at Missouri State,Missouri State,away,1.0
+Louisiana,1,Sept. 5,Sept.5 = Lamar,,home,0.0
+Louisiana,2,,septl2 atUst,,away,0.0
+Louisiana,3,,Sept. _ 19 UAB,,home,0.0
+Louisiana,4,,de i charlvit,,home,0.0
+Louisiana,5,,get Arkansas State,Arkansas State,home,0.88
+Louisiana,6,Oct. 10,Oct.10 atLouisiana 7 Tech,Louisiana Tech,away,0.88
+Louisiana,7,Oct. 17,Oct.17 Troy,Troy,home,1.0
+Louisiana,8,Oct. 24,Oct.24 atSouthern Miss,Southern Miss,away,0.93
+Louisiana,9,Nov. 7,Nov.7 South Alabama,South Alabama,home,1.0
+Louisiana,10,,Nov.l2 atULM,,away,0.0
+Louisiana,11,Nov. 2,Nov.2l Coastal Carolina,Coastal Carolina,home,0.94
+Louisiana,12,Nov. 28,Nov.28 at Georgia State,Georgia State,away,1.0
+Louisiana,13,,eT,,home,0.0
+Louisiana Tech,1,Sept. 5,Sept.5 Northwestern State,Northwestern,home,0.8
+Louisiana Tech,2,,«Sept. l2 at Lou,,away,0.0
+Louisiana Tech,3,,“Ps ™ —,,home,0.0
+Louisiana Tech,4,,a9,,home,0.0
+Louisiana Tech,5,,got Iovisiana,,home,0.64
+Louisiana Tech,6,,Ochi at ULM,,away,0.0
+Louisiana Tech,7,,sat Sandia,,home,0.0
+Louisiana Tech,8,Nov. 7,Nov.7 at Troy,Troy,away,1.0
+Louisiana Tech,9,Nov. 14,Nov.14 Southern Miss,Southern Miss,home,1.0
+Louisiana Tech,10,Nov. 21,Nov.21 Arkansas State,Arkansas State,home,1.0
+Louisiana Tech,11,,Now28 atGeorgia Southern,Georgia Southern,away,0.8
+Louisville,1,Sept. 6,vs. Ole Miss #,Ole Miss,neutral,1.0
+Louisville,2,Sept. 11,Villanova,,home,
+Louisville,3,Sept. 19,SMU,SMU,home,1.0
+Louisville,4,Sept. 26,Wake Forest,Wake Forest,home,1.0
+Louisville,5,Oct. 3,at NC State,NC State,away,1.0
+Louisville,6,Oct. 9,Florida State,Florida State,home,1.0
+Louisville,7,Oct. 17,at Syracuse,Syracuse,away,1.0
+Louisville,8,Oct. 31,Stanford,Stanford,home,1.0
+Louisville,9,Nov. 7,at Georgia Tech,Georgia Tech,away,1.0
+Louisville,10,Nov. 14,at North Carolina,North Carolina,away,1.0
+Louisville,11,Nov. 21,Pitt,Pitt,home,1.0
+Louisville,12,Nov. 28,at Kentucky,Kentucky,away,1.0
+Marshall,1,Sept. 5,Sept.5 atPenn State,Penn State,away,0.91
+Marshall,2,Sept. 12,Sept.12 Middle Tennessee,Middle Tennessee,home,1.0
+Marshall,3,Sept. 19,Sept.19 atMissoun State,Missouri State,away,0.83
+Marshall,4,Sept. 26,Sept. 26 isi,,home,0.0
+Marshall,5,Oct. 3,Oct.3 atJames Madison,James Madison,away,0.93
+Marshall,6,Oct. 10,Oct.10 Coastal Carolina,Coastal Carolina,home,1.0
+Marshall,7,Oct. 20,Oct.20 South Alabama,South Alabama,home,1.0
+Marshall,8,Oct. 31,Oct.31 atOld Dominion,Old Dominion,away,0.92
+Marshall,9,Nov. 7,Nov.7 atGeorgiaSouthern,Georgia Southern,away,0.91
+Marshall,10,,Nov.l4 Appalachian State,Appalachian State,home,0.83
+Marshall,11,Nov. 21,Nov.21 Georgia State,Georgia State,home,1.0
+Marshall,12,Nov. 28,Nov.28 atULM,ULM,away,0.75
+Maryland,1,Sept. 5,sept.5 Hampton,,home,0.57
+Maryland,2,Sept. 12,sept.12 at UConn,UConn,away,1.0
+Maryland,3,Sept. 19,Sept.19 Virginia Tech,Virginia Tech,home,1.0
+Maryland,4,,oept.26 UCLA,,home,0.0
+Maryland,5,Oct. 3,Oct.3 atNebraska,Nebraska,away,0.89
+Maryland,6,Oct. 10,Oct.10 atOhio State,Ohio State,away,0.91
+Maryland,7,Oct. 17,Oct.17 Rutgers,Rutgers,home,1.0
+Maryland,8,Oct. 31,Oct. 31 Illinois,Illinois,home,1.0
+Maryland,9,,Nov./ atPurdue,,away,0.6
+Maryland,10,Nov. 14,Nov.14 Wisconsin,Wisconsin,home,1.0
+Maryland,11,Nov. 21,Nov.21 atUSC,USC,away,0.75
+Maryland,12,Nov. 28,Nov.28 Penn State,Penn State,home,1.0
+Memphis,1,Aug. 29,Aug.29 atUNLV,UNLV,away,0.8
+Memphis,2,,SPL 9 Arkansas State,Arkansas State,home,0.82
+Memphis,3,,Sept. OP 12 at Boise State,,away,0.67
+Memphis,4,Sept. 19,sept. 19 lennessee-Martin oe,,home,0.57
+Memphis,5,Oct. 3,Oct.3 atCharlotte,Charlotte,away,0.9
+Memphis,6,Oct. 10,Uct.10 UAB,UAB,home,1.0
+Memphis,7,,ee atlulane,,home,0.71
+Memphis,8,,Caroling,,home,0.67
+Memphis,9,,Act.22 Fast,,home,0.0
+Memphis,10,,get Army,,home,0.67
+Memphis,11,Nov. 12,Nov.12 atSouth Florida,South Florida,away,0.93
+Memphis,12,Nov. 2,Nov2l atNavy,,away,0.67
+Memphis,13,,Saal lemple,,home,0.59
+Memphis,14,,Bee!,,home,0.0
+Miami (Fla.),1,Sept. 4,Sept.4 atStanford,Stanford,away,0.89
+Miami (Fla.),2,,Florida,Florida,home,1.0
+Miami (Fla.),3,,Sent.10 A&M,,home,0.0
+Miami (Fla.),4,Sept. 18,Sept.18 at Wake Forest,Wake Forest,away,1.0
+Miami (Fla.),5,Sept. 26,Sept.26 Central Michigan,Central Michigan,home,1.0
+Miami (Fla.),6,Oct. 3,Uct3 — atClemson,Clemson,away,0.78
+Miami (Fla.),7,,Ochi? Florida state,Florida State,home,0.81
+Miami (Fla.),8,Oct. 24,Oct.24 Pitt,Pitt,home,1.0
+Miami (Fla.),9,Oct. 31,Oct.31 at North Carolina,North Carolina,away,1.0
+Miami (Fla.),10,,Nov? at Notre Dame,Notre Dame,away,0.8
+Miami (Fla.),11,,ewe Duke,,home,0.67
+Miami (Fla.),12,Nov. 20,Nov.20 Virginia Tech,Virginia Tech,home,1.0
+Miami (Fla.),13,Nov. 28,Nov.28 Boston College,Boston College,home,1.0
+Miami (Ohio),1,Sept. 5,Sept.5 = at Pitt,Pitt,away,0.8
+Miami (Ohio),2,Sept. 12,Sept. 12 Holy Cross,,home,0.0
+Miami (Ohio),3,,SePLIS at Cincinnati #,,away,0.74
+Miami (Ohio),4,,ep £0 won,,home,0.0
+Miami (Ohio),5,Oct. 3,Oct.3 Bowling Green,Bowling Green,home,1.0
+Miami (Ohio),6,,iq,,home,0.0
+Miami (Ohio),7,,get attMass,,home,0.0
+Miami (Ohio),8,Oct. 17,Oct.17 Akron,Akron,home,1.0
+Miami (Ohio),9,Oct. 24,Oct.24 atCentral Michigan,Central Michigan,away,0.94
+Miami (Ohio),10,,ea —,,home,0.0
+Miami (Ohio),11,Nov. 17,Nov.17 at Kent State,Kent State,away,1.0
+Miami (Ohio),12,Nov. 24,Nov.24 at W. Michigan,Michigan,away,0.89
+Miami (Ohio),13,,#TQL Stadium,,home,0.0
+Michigan,1,,might be the ceiling,,home,0.0
+Michigan,2,,2026 SCHEDULE,,home,0.0
+Michigan,3,Sept. 5,sept.5 Western Michigan,Western Michigan,home,1.0
+Michigan,4,Sept. 12,Sept. 12 Oklahoma,Oklahoma,home,1.0
+Michigan,5,Sept. 19,sept. 19 UTEP,UTEP,home,1.0
+Michigan,6,Sept. 26,sept. 26 lowa,Iowa,home,0.75
+Michigan,7,Oct. 3,Uct. 3 at Minnesota,Minnesota,away,1.0
+Michigan,8,Oct. 1,Uct.1/ Penn State,Penn State,home,0.91
+Michigan,9,Oct. 24,Oct.24 Indiana,Indiana,home,1.0
+Michigan,10,Oct. 31,Uct.31 at Rutgers,Rutgers,away,1.0
+Michigan,11,,Nov.’ Michigan State,Michigan State,home,0.82
+Michigan,12,Nov. 14,Nov.14 atOregon,Oregon,away,0.86
+Michigan,13,Nov. 21,Nov. 21 UCLA,UCLA,home,1.0
+Michigan,14,Nov. 28,Nov. 28 atOhio State,Ohio State,away,0.91
+Michigan State,1,Sept. 5,Sept.5 Toledo,Toledo,home,1.0
+Michigan State,2,Sept. 12,Sept.12 Eastern Michigan,Eastern Michigan,home,1.0
+Michigan State,3,,Sept.l9 atNotre Dame,,away,0.67
+Michigan State,4,Sept. 26,Sept. 26 Nebrasné,Nebraska,home,0.75
+Michigan State,5,,et isconsin,Wisconsin,home,0.8
+Michigan State,6,,a inal,,home,0.0
+Michigan State,7,Oct. 17,~Oct.17 =Northwestern,Northwestern,home,0.89
+Michigan State,8,Oct. 24,Oct.24 at UCLA,UCLA,away,1.0
+Michigan State,9,,Nov? at Michigan,Michigan,away,0.76
+Michigan State,10,,Nov.l4 Washington,,home,0.74
+Michigan State,11,Nov. 21,Nov.21 Oregon,Oregon,home,1.0
+Michigan State,12,Nov. 28,Nov.28 atRutgers,Rutgers,away,0.88
+Middle Tennessee,1,Sept. 5,Sept.5 =©Murray State,,home,0.64
+Middle Tennessee,2,Sept. 12,Sept.12 at Marshall,Marshall,away,1.0
+Middle Tennessee,3,Sept. 19,Sept19 Nevada,Nevada,home,1.0
+Middle Tennessee,4,Sept. 26,Sept.26 atJacksonville State,Jacksonville State,away,0.95
+Middle Tennessee,5,Oct. 3,OUct.3 atKansas,Kansas,away,0.75
+Middle Tennessee,6,Oct. 13,Oct.13 Delaware,Delaware,home,1.0
+Middle Tennessee,7,Oct. 20,Oct.20 at FIU,FIU,away,1.0
+Middle Tennessee,8,Oct. 28,Oct.28 Kennesaw State,Kennesaw State,home,1.0
+Middle Tennessee,9,Nov. 7,Nov.7 WKU,WKU,home,1.0
+Middle Tennessee,10,,Nov.l4 atLiberty,,away,0.61
+Middle Tennessee,11,Nov. 2,~Nov.2] 9 atSam Houston,Sam Houston,away,0.76
+Middle Tennessee,12,Nov. 28,Nov.28 New Mexico State,New Mexico State,home,1.0
+Minnesota,1,Sept. 3,Sept.3 Eastern Illinois,Northern Illinois,home,0.79
+Minnesota,2,Sept. 12,Sept.12 Mississippi State,Mississippi State,home,1.0
+Minnesota,3,Sept. 19,Sept.19 Akron,Akron,home,1.0
+Minnesota,4,Sept. 26,sept. 26 at Washington,Washington,away,1.0
+Minnesota,5,Oct. 3,Oct.3 Michigan,Michigan,home,1.0
+Minnesota,6,,10,,home,0.0
+Minnesota,7,,Act. at Purdue,Purdue,away,0.75
+Minnesota,8,Oct. 24,Uct.24 lowa,Iowa,home,0.75
+Minnesota,9,,31,,home,0.0
+Minnesota,10,,net. ct. at at Indiana Ind,,away,0.56
+Minnesota,11,,or,,home,0.0
+Minnesota,12,,Nowl4 atPenn state,,away,0.71
+Minnesota,13,Nov. 21,Nov. 21 Northwestern,Northwestern,home,1.0
+Minnesota,14,Nov. 28,Nov.28 at Wisconsin,Wisconsin,away,1.0
+Mississippi State,1,Sept. 5,Sept.5 ULM,ULM,home,1.0
+Mississippi State,2,Sept. 12,Sept. 12 at Minnesota,Minnesota,away,1.0
+Mississippi State,3,Sept. 19,Sept. 19 at South Carolina,South Carolina,away,1.0
+Mississippi State,4,Sept. 26,Sept. 26 Missour,Missouri,home,0.93
+Mississippi State,5,,sc 7 a,,home,0.0
+Mississippi State,6,,Net. 24 Oklahoma,,home,0.7
+Mississippi State,7,,Ort. 31 at Texas,North Texas,away,0.78
+Mississippi State,8,Nov. 7,Nov.7 Vanderhilt,Vanderbilt,home,0.9
+Mississippi State,9,Nov. 14,Nov.14 Auburn,Auburn,home,1.0
+Mississippi State,10,Nov. 21,Nov.21 Tennessee Tech,Tennessee,home,0.78
+Mississippi State,11,Nov. 28,Nov.28 atOle Miss,Ole Miss,away,0.89
+Mississippi State,12,,~=TEAM INFORMATION,,home,0.0
+Missouri,1,Sept. 5,Arkansas-Pine Bluff,,home,
+Missouri,2,Sept. 12,at Kansas,Kansas,away,1.0
+Missouri,3,Sept. 19,Troy,Troy,home,1.0
+Missouri,4,Sept. 26,at Mississippi State,Mississippi State,away,1.0
+Missouri,5,Oct. 3,Florida,Florida,home,1.0
+Missouri,6,Oct. 10,Texas A&M,Texas A&M,home,1.0
+Missouri,7,Oct. 17,at Ole Miss,Ole Miss,away,1.0
+Missouri,8,Oct. 31,Arkansas,Arkansas,home,1.0
+Missouri,9,Nov. 7,Texas,Texas,home,1.0
+Missouri,10,Nov. 14,at Georgia,Georgia,away,1.0
+Missouri,11,Nov. 21,Kentucky,Kentucky,home,1.0
+Missouri,12,Nov. 28,Oklahoma,Oklahoma,home,1.0
+Missouri State,1,Sept. 5,Sept.5 at Texas A&M,Texas A&M,away,0.89
+Missouri State,2,,Septl2 Lindenwood,,home,0.0
+Missouri State,3,,ee i te,,home,0.0
+Missouri State,4,,EWE,,home,0.0
+Missouri State,5,,ee Kennesaw ota,Kennesaw State,home,0.76
+Missouri State,6,,a ann,,home,0.0
+Missouri State,7,,ie al —,,home,0.0
+Missouri State,8,Nov. 14,Nov.14 New Mexico State,New Mexico State,home,1.0
+Missouri State,9,Nov. 21,Nov.21 atJacksonville State,Jacksonville State,away,0.95
+Missouri State,10,Nov. 28,Nov.28 Liberty,Liberty,home,1.0
+Missouri State,11,,Begs yas,,home,0.0
+NC State,1,Aug. 29,Aug.29_ vs. Virginia #,Virginia,neutral,0.89
+NC State,2,,— a,,home,0.0
+NC State,3,,ept.19 at Vanderbilt,,away,0.74
+NC State,4,,26,,home,0.0
+NC State,5,,sept. Appalachian State,Appalachian State,home,0.87
+NC State,6,,Ge iouieville,,home,0.7
+NC State,7,Oct. 10,Oct.10 Wake Forest,Wake Forest,home,1.0
+NC State,8,Oct. 24,Oct.24 at Stanford,Stanford,away,1.0
+NC State,9,,wey ty,,home,0.0
+NC State,10,,Re,,home,0.67
+NC State,11,,Nov.l4 syracuse,,home,0.7
+NC State,12,Nov. 2,Nov2l atFlorida State,Florida State,away,0.87
+NC State,13,Nov. 28,Nov.28 atNorthCaroling,North Carolina,away,0.83
+NC State,14,,"#Rio de Janeiro, Brazil",,home,0.0
+Navy,1,Sept. 5,Towson,,home,
+Navy,2,Sept. 12,at Florida Atlantic,Florida Atlantic,away,1.0
+Navy,3,Sept. 25,at UAB,UAB,away,1.0
+Navy,4,Oct. 3,at Air Force,Air Force,away,1.0
+Navy,5,Oct. 10,Tulsa,Tulsa,home,1.0
+Navy,6,Oct. 17,at UTSA,UTSA,away,1.0
+Navy,7,Oct. 24,North Texas,North Texas,home,1.0
+Navy,8,Oct. 31,vs. Notre Dame #,Notre Dame,neutral,1.0
+Navy,9,Nov. 7,Temple,Temple,home,1.0
+Navy,10,Nov. 21,Memphis,Memphis,home,1.0
+Navy,11,Nov. 28,at Charlotte,Charlotte,away,1.0
+Navy,12,Dec. 12,vs. Army %,Army,neutral,1.0
+Nebraska,1,,2026 SCHEDULE,,home,0.0
+Nebraska,2,Sept. 5,Sept.5 Ohio,Ohio,home,1.0
+Nebraska,3,Sept. 12,Sept.12 Bowling Green,Bowling Green,home,1.0
+Nebraska,4,Sept. 19,sept.19 North Dakota,North Dakota State,home,0.8
+Nebraska,5,Sept. 26,Sept. 26 at Michigan - state,Michigan State,away,0.93
+Nebraska,6,,ees Maryland,Maryland,home,0.8
+Nebraska,7,,Ect lO Indiane,,home,0.57
+Nebraska,8,,Uct.l/ at Oregon,,away,0.63
+Nebraska,9,Oct. 31,«<Oct.31 Washington,Washington,home,0.87
+Nebraska,10,Nov. 7,Nov.7 — atlllinois,,home,0.7
+Nebraska,11,Nov. 14,Nov.14 at Rutgers,Rutgers,away,1.0
+Nebraska,12,,MII nic state,,home,0.74
+Nevada,1,,sept. WKU,,home,0.0
+Nevada,2,Sept. 12,Sept.12 Montana State,,home,0.72
+Nevada,3,Sept. 19,Sept.19 at Middle Tenn,Middle Tennessee,away,0.81
+Nevada,4,Sept. 26,Sept.26 Air Force,Air Force,home,1.0
+Nevada,5,Oct. 10,~Oct.10 = =atUTEP,,away,0.0
+Nevada,6,Oct. 17,Oct.17 at North Dakota St,North Dakota State,away,0.91
+Nevada,7,Oct. 24,Oct.24 SanJoséState,San Jose State,home,0.85
+Nevada,8,Oct. 31,Oct.31 at UCLA,UCLA,away,1.0
+Nevada,9,Nov. 7,Nov.7 New Mexico,New Mexico,home,1.0
+Nevada,10,Nov. 14,Nov.14 atNorthernillinois,Northern Illinois,away,0.91
+Nevada,11,Nov. 21,Nov.21 Hawai,Hawai'i,home,0.83
+Nevada,12,Nov. 28,Nov.28 = at UNLV,UNLV,away,0.8
+New Mexico,1,Sept. 5,Sept.5 =©Central Michigan,Central Michigan,home,0.94
+New Mexico,2,Sept. 12,Sept 12 Mercyhurst,,home,0.0
+New Mexico,3,,DePLIS atOklahoma,,away,0.64
+New Mexico,4,Sept. 26,sept. 26 at New Mexico st,New Mexico,away,0.87
+New Mexico,5,,get rep,,home,0.0
+New Mexico,6,Oct. 17,Oct.17 atHawai’,,away,0.67
+New Mexico,7,Oct. 24,Oct. 24 North Dakota State,North Dakota State,home,1.0
+New Mexico,8,Oct. 3,Uct3l at San José State,San Jose State,away,0.87
+New Mexico,9,Nov. 7,Nov.7 atNevada,Nevada,away,0.86
+New Mexico,10,Nov. 14,Nov.14 UNLV,UNLV,home,1.0
+New Mexico,11,Nov. 21,Nov.21 atWyoming,Wyoming,away,0.88
+New Mexico,12,,Nov.do AirForce,,home,0.67
+New Mexico,13,,BW etal!,,home,0.0
+New Mexico State,1,,six wins is there if the,,home,0.0
+New Mexico State,2,,plays,,home,0.0
+New Mexico State,3,,2026 SCHEDULE,,home,0.0
+New Mexico State,4,Aug. 29,Aug.29 at Florida State,Florida State,away,1.0
+New Mexico State,5,,Mercynurst,,home,0.0
+New Mexico State,6,,ee at Hawa,,away,0.57
+New Mexico State,7,Sept. 26,«Sept.26 New Mexico,New Mexico,home,0.91
+New Mexico State,8,,ee ate,,home,0.62
+New Mexico State,9,Oct. 21,Oct.21 atSam peste,,away,0.0
+New Mexico State,10,Oct. 28,Oct. 28 ESE State,,home,0.71
+New Mexico State,11,,Nov/ sail,,home,0.0
+New Mexico State,12,Nov. 14,Nov.14 at Missouri | State,Missouri State,away,1.0
+New Mexico State,13,Nov. 21,Nov.21 Delaware,Delaware,home,1.0
+New Mexico State,14,Nov. 28,Nov.28 atMiddle lennessee,Middle Tennessee,away,0.88
+North Carolina,1,Aug. 29,vs. TCU #,TCU,neutral,1.0
+North Carolina,2,Sept. 12,East Tennessee St.,,home,
+North Carolina,3,Sept. 19,at Clemson,Clemson,away,1.0
+North Carolina,4,Oct. 3,Notre Dame,Notre Dame,home,1.0
+North Carolina,5,Oct. 10,at Pitt,Pitt,away,1.0
+North Carolina,6,Oct. 17,at Duke,Duke,away,1.0
+North Carolina,7,Oct. 24,Syracuse,Syracuse,home,1.0
+North Carolina,8,Oct. 31,Miami (Fla.),Miami (Fla.),home,1.0
+North Carolina,9,Nov. 7,at UConn,UConn,away,1.0
+North Carolina,10,Nov. 14,Louisville,Louisville,home,1.0
+North Carolina,11,Nov. 21,at Virginia,Virginia,away,1.0
+North Carolina,12,Nov. 28,NC State,NC State,home,1.0
+North Dakota State,1,Aug. 29,Aug.29 Jacksonville State,Jacksonville State,home,1.0
+North Dakota State,2,,a foveal,,home,0.0
+North Dakota State,3,,ept.12 atAirForce,,away,0.62
+North Dakota State,4,,19 St,,home,0.0
+North Dakota State,5,,Sent. at Sacramento,,away,0.65
+North Dakota State,6,Oct. 3,Oct.3 Wyoming,Wyoming,home,1.0
+North Dakota State,7,Oct. 10,Oct.10 at UNIV,UNLV,away,0.75
+North Dakota State,8,,Nevada,Nevada,home,1.0
+North Dakota State,9,Oct. 24,Uct.24 at New Mexico,New Mexico,away,1.0
+North Dakota State,10,,bb,,home,0.0
+North Dakota State,11,,Novl4 athawalt _,,home,0.0
+North Dakota State,12,Nov. 21,Nov. 21 Northern Illinois,Northern Illinois,home,1.0
+North Dakota State,13,Nov. 28,Nov.28 atSanJoséState,San Jose State,away,0.79
+North Dakota State,14,,§6TEAM INFORMATION,,home,0.0
+North Texas,1,Sept. 5,Sept.5 atIndiana,Indiana,away,0.88
+North Texas,2,,SePL 2 UNLV,,home,0.0
+North Texas,3,,S8PLIS atlexasstate,,home,0.0
+North Texas,4,,= : — alla!,,home,0.0
+North Texas,5,,ip,,home,0.0
+North Texas,6,,get charlotte,Charlotte,home,0.82
+North Texas,7,Oct. 24,Oct.24 at Navy,Navy,away,1.0
+North Texas,8,Oct. 29,Oct.29 Florida Atlantic,Florida Atlantic,home,1.0
+North Texas,9,,Nov? Rice,,home,0.62
+North Texas,10,,Novl4 atUlsA,,away,0.0
+North Texas,11,,Now2l at Tulane,,away,0.67
+North Texas,12,,a“,,home,0.0
+North Texas,13,,a a,,home,0.0
+Northern Illinois,1,Sept. 5,Sept.5 atlowa,,home,0.6
+Northern Illinois,2,Sept. 12,Sept.12 Illinois State,,home,0.73
+Northern Illinois,3,Sept. 19,Sept.19 atArizona,Arizona,away,0.88
+Northern Illinois,4,Sept. 26,Sept. 26 aL Georg state,Georgia State,home,0.81
+Northern Illinois,5,,= AirForce,Air Force,home,0.84
+Northern Illinois,6,Oct. 17,Oct.17 atWyoming,Wyoming,away,0.88
+Northern Illinois,7,Oct. 24,Oct.24 Hawai’,Hawai'i,home,0.77
+Northern Illinois,8,Oct. 31,<Oct.31) = at UNLV,,away,0.62
+Northern Illinois,9,Nov. 7,Nov.7 atSan Jose State,San Jose State,away,0.93
+Northern Illinois,10,,Nov.l4 Nevada,,home,0.63
+Northern Illinois,11,Nov. 2,Nov.2l atNorthDakotaSt,,away,0.74
+Northern Illinois,12,Nov. 28,«“Nov.28 UTEP,,home,0.73
+Northwestern,1,Sept. 5,Sept.5 South DakotaState,North Dakota State,home,0.86
+Northwestern,2,,SepLl9 Colorado,,home,0.7
+Northwestern,3,,a aes,,home,0.0
+Northwestern,4,,Ball,,home,0.6
+Northwestern,5,Oct. 10,Oct.10 State,NC State,home,0.77
+Northwestern,6,Oct. 17,Oct.17 atMichigan State,Michigan State,away,0.93
+Northwestern,7,Oct. 24,Uct.24 hutgers,Rutgers,home,0.86
+Northwestern,8,Oct. 31,Oct.31 at Oregon,Oregon,away,1.0
+Northwestern,9,Nov. 7,Nov.7 lowe,,home,0.0
+Northwestern,10,,14,,home,0.0
+Northwestern,11,,Nov. at Ohio State,Ohio State,away,0.83
+Northwestern,12,Nov. 21,Nov.21 at Minnesota,Minnesota,away,1.0
+Northwestern,13,Nov. 28,Nov.28 Illinois,Illinois,home,1.0
+Northwestern,14,,§6TEANM INFORMATION,,home,0.0
+Notre Dame,1,Sept. 6,vs. Wisconsin #,Wisconsin,neutral,1.0
+Notre Dame,2,Sept. 12,Rice,Rice,home,1.0
+Notre Dame,3,Sept. 19,Michigan State,Michigan State,home,1.0
+Notre Dame,4,Sept. 26,at Purdue,Purdue,away,1.0
+Notre Dame,5,Oct. 3,at North Carolina,North Carolina,away,1.0
+Notre Dame,6,Oct. 10,Stanford,Stanford,home,1.0
+Notre Dame,7,Oct. 17,at BYU,BYU,away,1.0
+Notre Dame,8,Oct. 31,vs. Navy %,Navy,neutral,1.0
+Notre Dame,9,Nov. 7,Miami (Fla.),Miami (Fla.),home,1.0
+Notre Dame,10,Nov. 14,Boston College,Boston College,home,1.0
+Notre Dame,11,Nov. 21,SMU,SMU,home,1.0
+Notre Dame,12,Nov. 28,at Syracuse,Syracuse,away,1.0
+Ohio,1,Sept. 5,Sept.5 at Nebraska,Nebraska,away,1.0
+Ohio,2,Sept. 12,Sept. 12 Jacksonville State,Jacksonville State,home,1.0
+Ohio,3,Sept. 19,Sept. 19 at South Alabama,South Alabama,away,1.0
+Ohio,4,Sept. 26,Sept. 26 Stonehill,,home,0.0
+Ohio,5,Oct. 3,Uct.3 atKentState,Kent State,away,0.86
+Ohio,6,Oct. 10,Oct.10 Central Michigan,Central Michigan,home,1.0
+Ohio,7,Oct. 1,Uct.1/ atSacramento st,Sacramento State,away,0.79
+Ohio,8,Oct. 24,Oct.24 Eastern Michigan,Eastern Michigan,home,1.0
+Ohio,9,Nov. 3,Nov.3 atAkron,Akron,away,0.83
+Ohio,10,Nov. 10,Nov.10 atMiami (Ohio),Miami (Ohio),away,0.92
+Ohio,11,Nov. 17,Nov.17 Ball State,Ball State,home,1.0
+Ohio,12,Nov. 2,Nov.2/ Toledo,Toledo,home,0.86
+Ohio,13,,BE Ao,,home,0.0
+Ohio State,1,Sept. 5,Sept.5 Ball State,Ball State,home,1.0
+Ohio State,2,,Sept.l2 atlexas,,home,0.0
+Ohio State,3,,Sept lS Kent state,,home,0.71
+Ohio State,4,Sept. 26,SePt26 IMinols,,home,0.67
+Ohio State,5,,ly,,home,0.0
+Ohio State,6,Oct. 10,Oct.10 Maryland,Maryland,home,1.0
+Ohio State,7,Oct. 17,Oct.17 atIndiana 3,Indiana,away,0.78
+Ohio State,8,,Act 31 at USC,,away,0.0
+Ohio State,9,,ay Oregon,Oregon,home,0.8
+Ohio State,10,Nov. 14,Nov.14 Northwestern,Northwestern,home,1.0
+Ohio State,11,Nov. 21,Nov.21 atNebraska,Nebraska,away,0.89
+Ohio State,12,Nov. 28,Nov.28 = Michigan,Michigan,home,0.89
+Oklahoma,1,Sept. 5,UTEP,UTEP,home,1.0
+Oklahoma,2,Sept. 12,at Michigan,Michigan,away,1.0
+Oklahoma,3,Sept. 19,New Mexico,New Mexico,home,1.0
+Oklahoma,4,Sept. 26,at Georgia,Georgia,away,1.0
+Oklahoma,5,Oct. 10,vs. Texas #,Texas,neutral,1.0
+Oklahoma,6,Oct. 17,Kentucky,Kentucky,home,1.0
+Oklahoma,7,Oct. 24,at Mississippi State,Mississippi State,away,1.0
+Oklahoma,8,Oct. 31,South Carolina,South Carolina,home,1.0
+Oklahoma,9,Nov. 7,at Florida,Florida,away,1.0
+Oklahoma,10,Nov. 14,Ole Miss,Ole Miss,home,1.0
+Oklahoma,11,Nov. 21,Texas A&M,Texas A&M,home,1.0
+Oklahoma,12,Nov. 28,at Missouri,Missouri,away,1.0
+Oklahoma State,1,Sept. 5,at Tulsa,Tulsa,away,1.0
+Oklahoma State,2,Sept. 12,Oregon,Oregon,home,1.0
+Oklahoma State,3,Sept. 19,Murray State,,home,
+Oklahoma State,4,Sept. 26,at West Virginia,West Virginia,away,1.0
+Oklahoma State,5,Oct. 10,UCF,UCF,home,1.0
+Oklahoma State,6,Oct. 17,at Houston,Houston,away,1.0
+Oklahoma State,7,Oct. 24,Colorado,Colorado,home,1.0
+Oklahoma State,8,Oct. 31,at Iowa State,Iowa State,away,1.0
+Oklahoma State,9,Nov. 7,at Kansas State,Kansas State,away,1.0
+Oklahoma State,10,Nov. 14,Texas Tech,Texas Tech,home,1.0
+Oklahoma State,11,Nov. 21,at Arizona State,Arizona State,away,1.0
+Oklahoma State,12,Nov. 28,Kansas,Kansas,home,1.0
+Old Dominion,1,Sept. 5,Sept.5 =©Norfolk State,,home,0.61
+Old Dominion,2,Sept. 12,sept. 12 at Virginia Tech,Virginia Tech,away,1.0
+Old Dominion,3,Sept. 19,Sept. 19 Fast Carolina,East Carolina,home,0.92
+Old Dominion,4,Sept. 26,Sept. 26 James Madison,James Madison,home,1.0
+Old Dominion,5,Oct. 3,Oct.3 at Georgia State,Georgia State,away,1.0
+Old Dominion,6,Oct. 10,Oct.10 atAppalachian State,Appalachian State,away,0.94
+Old Dominion,7,,Oct-15 Georgia Southem,,home,0.74
+Old Dominion,8,Oct. 24,Oct.24 atLouisiana lech,Louisiana Tech,away,0.87
+Old Dominion,9,Oct. 31,Oct.31 Marshall,Marshall,home,1.0
+Old Dominion,10,,Nov? atCoastalCarolina,Coastal Carolina,away,0.79
+Old Dominion,11,Nov. 21,Nov. 21 atUConn,UConn,away,0.83
+Old Dominion,12,Nov. 28,Nov.28 Southern Miss,Southern Miss,home,1.0
+Old Dominion,13,,§=6TEAM INFORMATION,,home,0.0
+Ole Miss,1,Sept. 6,vs. Louisville #,Louisville,neutral,1.0
+Ole Miss,2,Sept. 12,Charlotte,Charlotte,home,1.0
+Ole Miss,3,Sept. 19,LSU,LSU,home,1.0
+Ole Miss,4,Sept. 26,at Florida,Florida,away,1.0
+Ole Miss,5,Oct. 10,at Vanderbilt,Vanderbilt,away,1.0
+Ole Miss,6,Oct. 17,Missouri,Missouri,home,1.0
+Ole Miss,7,Oct. 24,at Texas,Texas,away,1.0
+Ole Miss,8,Oct. 31,Auburn,Auburn,home,1.0
+Ole Miss,9,Nov. 7,Georgia,Georgia,home,1.0
+Ole Miss,10,Nov. 14,at Oklahoma,Oklahoma,away,1.0
+Ole Miss,11,Nov. 21,Wofford,,home,
+Ole Miss,12,Nov. 28,Mississippi State,Mississippi State,home,1.0
+Oregon,1,Sept. 5,Sept.5 Boise State,Boise State,home,1.0
+Oregon,2,Sept. 12,Sept.12 atOklahoma State,Oklahoma State,away,0.93
+Oregon,3,Sept. 19,Sept.19 Portland State,,home,0.71
+Oregon,4,Sept. 26,Sept.26 atUSC,USC,away,0.75
+Oregon,5,Oct. 10,Oct.10 UCLA,UCLA,home,1.0
+Oregon,6,Oct. 17,Oct.17 Nebraska,Nebraska,home,1.0
+Oregon,7,Oct. 24,Oct.24 atillinois,Illinois,home,0.89
+Oregon,8,Oct. 31,Oct.31 Northwestern,Northwestern,home,1.0
+Oregon,9,,atOhio,Ohio,away,1.0
+Oregon,10,,Now? State,Iowa State,home,0.8
+Oregon,11,,Nowl4 Michigan,,home,0.73
+Oregon,12,Nov. 2,Nov.2l atMichigan State,Michigan State,away,0.88
+Oregon,13,Nov. 28,Nov.28 Washington,Washington,home,1.0
+Oregon State,1,Sept. 5,Sept.5 atHouston,Houston,away,0.88
+Oregon State,2,Sept. 2,Sept.2 Texas Tech,Texas Tech,home,1.0
+Oregon State,3,Sept. 13,Sept.13 Montana,,home,0.57
+Oregon State,4,,Septab at UItr,,away,0.0
+Oregon State,5,,Ott.3 — atColorado State,,away,0.74
+Oregon State,6,,al eyo atte,,home,0.62
+Oregon State,7,,Ot Washington state),Washington State,home,0.89
+Oregon State,8,Oct. 31,Oct. 31 at Fresno State,Fresno State,away,1.0
+Oregon State,9,Nov. 7,Nov.7 Texas State,Texas State,home,1.0
+Oregon State,10,Nov. 14,Nov.14 at Boise State,Boise State,away,1.0
+Oregon State,11,Nov. 21,Nov.21 Utah State,Utah State,home,1.0
+Oregon State,12,,St,,home,0.0
+Oregon State,13,Nov. 28,Nov.28 at Washington,Washington,away,1.0
+Oregon State,14,,#Projected Flex Opponent,,home,0.0
+Penn State,1,Sept. 5,Sept.5 Marshall,Marshall,home,1.0
+Penn State,2,Sept. 12,Sept.12 atTemple,Temple,away,0.86
+Penn State,3,,"Sept, 19 Buffalo",,home,0.64
+Penn State,4,Sept. 26,sept. 26 Wisconsin,Wisconsin,home,1.0
+Penn State,5,,eee *t Northwestern,Northwestern,home,0.8
+Penn State,6,,a a,,home,0.0
+Penn State,7,,ct.17 at Michigan,,away,0.73
+Penn State,8,,lou? at Washington,Washington,away,0.8
+Penn State,9,Nov. 14,Nov.14 Minnesota,Minnesota,home,1.0
+Penn State,10,Nov. 2,Nov.2t Rutgers,Rutgers,home,0.88
+Penn State,11,,Now28 at Maryland,,away,0.73
+Penn State,12,,ee,,home,0.0
+Pitt,1,Sept. 5,Sept.5 Miami (Ohio),Miami (Ohio),home,1.0
+Pitt,2,,SePL12 Ul,,home,0.0
+Pitt,3,,Sept. = 1/ Syracuse an,,home,0.55
+Pitt,4,,of,,home,0.0
+Pitt,5,Oct. 2,Oct.2 at Virginia Tech,Virginia Tech,away,1.0
+Pitt,6,Oct. 10,Oct.10 North Carolina,North Carolina,home,1.0
+Pitt,7,Oct. 1,Oct.1/ at Boston College,Boston College,away,0.93
+Pitt,8,Oct. 24,Oct.24 at Miami (Fla.),Miami (Fla.),away,0.92
+Pitt,9,Oct. 31,Oct.31 Georgia Tech,Georgia Tech,home,1.0
+Pitt,10,Nov. 13,Nov.13 Florida State,Florida State,home,1.0
+Pitt,11,Nov. 21,Nov.21 atLouisville,Louisville,away,0.91
+Pitt,12,Nov. 28,Nov.28 atCal,Cal,away,0.75
+Purdue,1,Sept. 5,Indiana State,,home,
+Purdue,2,Sept. 12,Wake Forest,Wake Forest,home,1.0
+Purdue,3,Sept. 19,at UCLA,UCLA,away,1.0
+Purdue,4,Sept. 26,Notre Dame,Notre Dame,home,1.0
+Purdue,5,Oct. 3,at Illinois,Illinois,away,1.0
+Purdue,6,Oct. 10,Minnesota,Minnesota,home,1.0
+Purdue,7,Oct. 17,Washington,Washington,home,1.0
+Purdue,8,Oct. 31,at Penn State,Penn State,away,1.0
+Purdue,9,Nov. 7,Maryland,Maryland,home,1.0
+Purdue,10,Nov. 14,at Iowa,Iowa,away,1.0
+Purdue,11,Nov. 21,Wisconsin,Wisconsin,home,1.0
+Purdue,12,Nov. 28,at Indiana,Indiana,away,1.0
+Rice,1,Sept. 5,Sept.5 Houston Christian,,home,0.58
+Rice,2,Sept. 12,Sept. 12 at Notre Dame,Notre Dame,away,1.0
+Rice,3,Sept. 19,Sept. 19 Western Michigan,Western Michigan,home,1.0
+Rice,4,Sept. 26,Sept.26 at Fresno State,Fresno State,away,1.0
+Rice,5,,a rsa,,home,0.62
+Rice,6,,Net.10 at Fast Carolina,East Carolina,away,0.79
+Rice,7,,ee Tulsa,Tulsa,home,0.77
+Rice,8,Oct. 24,Oct.24 atFloridaAtlantic,Florida Atlantic,away,0.91
+Rice,9,,Nov./ at North Texas,North Texas,away,0.79
+Rice,10,,femme TUtane,,home,0.0
+Rice,11,,Nov.l3 at Temple,,away,0.63
+Rice,12,Nov. 28,Nov.28 Army,Army,home,1.0
+Rutgers,1,Sept. 3,sept.3 UMass,UMass,home,1.0
+Rutgers,2,Sept. 1,Sept.1l at Boston College,Boston College,away,0.93
+Rutgers,3,Sept. 19,Sept.19 USC,USC,home,1.0
+Rutgers,4,Sept. 26,Sept.26 Howard,,home,0.6
+Rutgers,5,Oct. 3,Oct.3 Indiana,Indiana,home,1.0
+Rutgers,6,Oct. 17,Oct.17 at Maryland,Maryland,away,1.0
+Rutgers,7,Oct. 24,Oct.24 at Northwestern,Northwestern,away,1.0
+Rutgers,8,Oct. 31,Oct.31 Michigan,Michigan,home,1.0
+Rutgers,9,,Nov? at Wisconsin,Wisconsin,away,0.78
+Rutgers,10,Nov. 14,Nov.14 Nebraska,Nebraska,home,1.0
+Rutgers,11,Nov. 21,Nov.21 atPenn State,Penn State,away,0.91
+Rutgers,12,Nov. 28,Nov.28 Michigan State,Michigan State,home,1.0
+SMU,1,,Sept./ at Florida State,Florida State,away,0.79
+SMU,2,,Sept.l2 UC Davis,,home,0.0
+SMU,3,,sine ne,,home,0.0
+SMU,4,,i Se aes,,home,0.44
+SMU,5,,eee veston Covege,,home,0.65
+SMU,6,Oct. 17,Oct.17 Virginia,Virginia,home,1.0
+SMU,7,,Net 24 Cal,,home,0.0
+SMU,8,,si a la,,home,0.0
+SMU,9,Nov. 7,Nov.7 Virginia Tech,Virginia Tech,home,1.0
+SMU,10,,Wov.14 Wake Forest,Wake Forest,home,0.76
+SMU,11,Nov. 21,Nov.21 atNotre Dame,Notre Dame,away,0.91
+SMU,12,Nov. 28,Nov.28 atStanford,Stanford,away,0.89
+Sacramento State,1,Aug. 29,Aug.29 at Eastern Michigan,Eastern Michigan,away,1.0
+Sacramento State,2,Sept. 5,Ssept.5 Miss. Valley St,,home,0.0
+Sacramento State,3,,Septl2 attresno state,,home,0.67
+Sacramento State,4,Sept. 19,Sept.19 North Dakota State,North Dakota State,home,1.0
+Sacramento State,5,Sept. 26,Sept. 26 UMass,UMass,home,1.0
+Sacramento State,6,Oct. 10,Oct.10 atBowling Green,Bowling Green,away,0.93
+Sacramento State,7,,Oct? Ohio,,home,0.62
+Sacramento State,8,Oct. 24,Oct.24 at Ball State,Ball State,away,1.0
+Sacramento State,9,Oct. 30,Oct.30 KentState,Kent State,home,0.95
+Sacramento State,10,Nov. 4,Nov.4 Toledo,Toledo,home,1.0
+Sacramento State,11,,Nov.ll atCentral Michigan,Central Michigan,away,0.78
+Sacramento State,12,Nov. 28,~Nov.28 = atHawatt,,away,0.0
+Sam Houston,1,Sept. 9,sept. 9 at Troy,Troy,away,1.0
+Sam Houston,2,Sept. 12,Sept.12 Tulsa,Tulsa,home,1.0
+Sam Houston,3,Sept. 19,Sept.19 Nicholls,,home,0.0
+Sam Houston,4,Sept. 26,Sept. 26 at Texas Teen,Texas Tech,away,0.8
+Sam Houston,5,Oct. 8,Oct.8 — atLiberty,Liberty,away,0.78
+Sam Houston,6,Oct. 14,Oct.14 WKU,WKU,home,1.0
+Sam Houston,7,Oct. 21,Oct.21 NewMexicoState,New Mexico State,home,0.93
+Sam Houston,8,Oct. 27,Oct.27 atMissouri State,Missouri State,away,0.93
+Sam Houston,9,Nov. 7,Nov.7 atJacksonvilleState,Jacksonville State,away,0.92
+Sam Houston,10,Nov. 14,Nov.14 Kennesaw State,Kennesaw State,home,1.0
+Sam Houston,11,Nov. 21,Nov21 MiddleTennessee,Middle Tennessee,home,0.97
+Sam Houston,12,Nov. 28,Nov.28 at FIU,FIU,away,1.0
+San Diego State,1,Sept. 5,Portland State,,home,
+San Diego State,2,Sept. 12,at UCLA,UCLA,away,1.0
+San Diego State,3,Sept. 19,James Madison,James Madison,home,1.0
+San Diego State,4,Sept. 26,at Toledo,Toledo,away,1.0
+San Diego State,5,Oct. 3,Texas State,Texas State,home,1.0
+San Diego State,6,Oct. 10,at Oregon State,Oregon State,away,1.0
+San Diego State,7,Oct. 17,Fresno State,Fresno State,home,1.0
+San Diego State,8,Oct. 24,at Colorado State,Colorado State,away,1.0
+San Diego State,9,Oct. 31,Washington State,Washington State,home,1.0
+San Diego State,10,Nov. 14,Utah State,Utah State,home,1.0
+San Diego State,11,Nov. 21,at Boise State,Boise State,away,1.0
+San Diego State,12,Nov. 28,at Fresno State #,Fresno State,away,1.0
+San Jose State,1,Aug. 29,Aug.29 atUSC,USC,away,0.75
+San Jose State,2,Sept. 4,Sept.4 atEastern Michigan,Eastern Michigan,away,0.94
+San Jose State,3,,_ at,,away,0.0
+San Jose State,4,,pl,,home,0.0
+San Jose State,5,Oct. 3,Uct.3 athawal,,home,0.0
+San Jose State,6,Oct. 10,Oct.10 Wyoming,Wyoming,home,1.0
+San Jose State,7,,eta at UTEP,,away,0.67
+San Jose State,8,Oct. 24,Uct.24 at Nevada,Nevada,away,1.0
+San Jose State,9,,ee al) New Mexico,,home,0.74
+San Jose State,10,,Northern,Northwestern,home,0.8
+San Jose State,11,,Nov? Illinois,Illinois,home,0.76
+San Jose State,12,,Nova atAir Force,,away,0.72
+San Jose State,13,Nov. 21,Nov21 UNL,UNLV,home,0.86
+San Jose State,14,Nov. 28,Nov.28 North Dakota State,North Dakota State,home,1.0
+South Alabama,1,Sept. 5,sept.5 SELouisiana,Louisiana,home,0.9
+South Alabama,2,Sept. 12,Sept. 12 at Tulane,Tulane,away,1.0
+South Alabama,3,Sept. 26,Sept.26 at Kentucky,Kentucky,away,1.0
+South Alabama,4,Oct. 3,Oct.3 ULM,ULM,home,1.0
+South Alabama,5,Oct. 8,Oct.8 atArkansas State,Arkansas State,away,0.93
+South Alabama,6,Oct. 20,Oct.20 at Marshall,Marshall,away,1.0
+South Alabama,7,Oct. 31,Oct.31 Louisiana Tech,Louisiana Tech,home,1.0
+South Alabama,8,Nov. 7,Nov.7 at Louisiana,Louisiana,away,1.0
+South Alabama,9,Nov. 14,Nov.14 Troy,Troy,home,1.0
+South Alabama,10,Nov. 2,Nov2l atSouthern Miss,Southern Miss,away,0.87
+South Alabama,11,Nov. 28,Nov.28 Appalachian State,Appalachian State,home,1.0
+South Carolina,1,Sept. 5,Kent State,Kent State,home,1.0
+South Carolina,2,Sept. 12,Towson,,home,
+South Carolina,3,Sept. 19,Mississippi State,Mississippi State,home,1.0
+South Carolina,4,Sept. 26,at Alabama,Alabama,away,1.0
+South Carolina,5,Oct. 3,Kentucky,Kentucky,home,1.0
+South Carolina,6,Oct. 10,at Florida,Florida,away,1.0
+South Carolina,7,Oct. 24,Tennessee,Tennessee,home,1.0
+South Carolina,8,Oct. 31,at Oklahoma,Oklahoma,away,1.0
+South Carolina,9,Nov. 7,Texas A&M,Texas A&M,home,1.0
+South Carolina,10,Nov. 14,at Arkansas,Arkansas,away,1.0
+South Carolina,11,Nov. 21,Georgia,Georgia,home,1.0
+South Carolina,12,Nov. 28,at Clemson,Clemson,away,1.0
+South Florida,1,Sept. 5,FIU,FIU,home,1.0
+South Florida,2,Sept. 12,at Army,Army,away,1.0
+South Florida,3,Sept. 19,Delaware State,,home,
+South Florida,4,Sept. 26,at Bowling Green,Bowling Green,away,1.0
+South Florida,5,Oct. 3,Temple,Temple,home,1.0
+South Florida,6,Oct. 8,at UTSA,UTSA,away,1.0
+South Florida,7,Oct. 17,Kent State,Kent State,home,1.0
+South Florida,8,Oct. 31,UAB,UAB,home,1.0
+South Florida,9,Nov. 6,at East Carolina,East Carolina,away,1.0
+South Florida,10,Nov. 12,Memphis,Memphis,home,1.0
+South Florida,11,Nov. 21,at Florida Atlantic,Florida Atlantic,away,1.0
+South Florida,12,Nov. 27,Tulane,Tulane,home,1.0
+Southern Miss,1,Sept. 5,Sept.5 Alcorn State,,home,0.72
+Southern Miss,2,,Sept l2 atAuburn,,away,0.0
+Southern Miss,3,,Ea,,home,0.0
+Southern Miss,4,,Sept. te 26 at Tulane,,away,0.0
+Southern Miss,5,,= : hiro,,home,0.0
+Southern Miss,6,Oct. 24,Oct.24 Louisiana,Louisiana,home,1.0
+Southern Miss,7,Oct. 31,Oct.31 atULM,ULM,away,0.75
+Southern Miss,8,Nov. 5,Nov.5 James Madison,James Madison,home,1.0
+Southern Miss,9,Nov. 14,Nov.14 atLouisiana Tech,Louisiana Tech,away,0.93
+Southern Miss,10,Nov. 21,Nov.21 South Alabama,South Alabama,home,1.0
+Southern Miss,11,Nov. 28,Nov.28 atOld Dominion,Old Dominion,away,0.92
+Stanford,1,Aug. 29,~Aug.29 Hawait,,home,0.67
+Stanford,2,Sept. 4,Sept.4 Miami (Fla.),Miami (Fla.),home,0.92
+Stanford,3,Sept. 19,Sept.19 atDuke,Duke,away,0.8
+Stanford,4,Sept. 26,Sept.26 Georgia Tech,Georgia Tech,home,1.0
+Stanford,5,Oct. 3,Oct.3 at Wake Forest,Wake Forest,away,1.0
+Stanford,6,Oct. 10,Oct.10 atNotre Dame,Notre Dame,away,0.91
+Stanford,7,,Oct.l7 Elon,,home,0.0
+Stanford,8,Oct. 24,Oct.24 NCState,NC State,home,0.93
+Stanford,9,Oct. 31,Oct.31 at Louisville,Louisville,away,1.0
+Stanford,10,,Novl4 atVirginia Tech,Virginia Tech,away,0.76
+Stanford,11,Nov. 21,Nov21 atCal,Cal,away,0.75
+Stanford,12,Nov. 28,Nov.28 SMU,SMU,home,1.0
+Syracuse,1,,sepLo New Hampshire,,home,0.0
+Syracuse,2,,sept. l/ at Pitt,,away,0.0
+Syracuse,3,,Oct Sat Ulonn,,home,0.0
+Syracuse,4,,UctIU atVirginta,,away,0.62
+Syracuse,5,Oct. 17,Oct.17 Louisville,Louisville,home,1.0
+Syracuse,6,Oct. 24,Oct.24 atNorth Carolina,North Carolina,away,0.93
+Syracuse,7,Oct. 31,Oct.31 SMU,SMU,home,1.0
+Syracuse,8,,Now? Clemson,,home,0.74
+Syracuse,9,Nov. 14,Nov.14 atNC State,NC State,away,0.89
+Syracuse,10,Nov. 21,Nov.21 atBostonCollege,Boston College,away,0.9
+Syracuse,11,Nov. 28,Nov.28 Notre Dame,Notre Dame,home,1.0
+TCU,1,Aug. 29,vs. North Carolina #,North Carolina,neutral,1.0
+TCU,2,Sept. 12,Grambling State,,home,
+TCU,3,Sept. 19,Arkansas State,Arkansas State,home,1.0
+TCU,4,Sept. 26,at UCF,UCF,away,1.0
+TCU,5,Oct. 3,BYU,BYU,home,1.0
+TCU,6,Oct. 17,at Baylor,Baylor,away,1.0
+TCU,7,Oct. 24,West Virginia,West Virginia,home,1.0
+TCU,8,Oct. 31,Kansas,Kansas,home,1.0
+TCU,9,Nov. 7,at Arizona,Arizona,away,1.0
+TCU,10,Nov. 14,Kansas State,Kansas State,home,1.0
+TCU,11,Nov. 21,Utah,Utah,home,1.0
+TCU,12,Nov. 28,at Texas Tech,Texas Tech,away,1.0
+Temple,1,Sept. 5,Sept.5 Rhode Island,,home,0.0
+Temple,2,,Penn,,home,0.57
+Temple,3,Sept. 12,Sept.12 State,NC State,home,0.77
+Temple,4,Sept. 19,Sept.19 at Toledo,Toledo,away,1.0
+Temple,5,Sept. 26,Sept.26 Army,Army,home,1.0
+Temple,6,Oct. 3,Oct.3 atSouth Florida,South Florida,away,0.93
+Temple,7,,qg,,home,0.0
+Temple,8,,get Ueonn,,home,0.57
+Temple,9,Oct. 17,Oct17 Charlotte,Charlotte,home,1.0
+Temple,10,Oct. 31,Oct.31 atEastCarolina,East Carolina,away,0.89
+Temple,11,Nov. 7,Nov.7 ~~ atNavy,,away,0.62
+Temple,12,Nov. 14,Nov.14 = UAB,UAB,home,0.75
+Temple,13,Nov. 28,Nov.28 atMemphis,Memphis,away,0.88
+Tennessee,1,Sept. 5,Furman,,home,
+Tennessee,2,Sept. 12,at Georgia Tech,Georgia Tech,away,1.0
+Tennessee,3,Sept. 19,Kennesaw State,Kennesaw State,home,1.0
+Tennessee,4,Sept. 26,Texas,Texas,home,1.0
+Tennessee,5,Oct. 3,Auburn,Auburn,home,1.0
+Tennessee,6,Oct. 10,at Arkansas,Arkansas,away,1.0
+Tennessee,7,Oct. 17,Alabama,Alabama,home,1.0
+Tennessee,8,Oct. 24,at South Carolina,South Carolina,away,1.0
+Tennessee,9,Nov. 7,Kentucky,Kentucky,home,1.0
+Tennessee,10,Nov. 14,at Texas A&M,Texas A&M,away,1.0
+Tennessee,11,Nov. 21,LSU,LSU,home,1.0
+Tennessee,12,Nov. 28,at Vanderbilt,Vanderbilt,away,1.0
+Texas,1,,oept.o Texas State,Texas State,home,0.76
+Texas,2,,Septl2 Ohio State,,home,0.74
+Texas,3,,ae sonnesces,,home,0.57
+Texas,4,Oct. 10,oct10 vs Oklahoma #,Oklahoma,neutral,1.0
+Texas,5,Oct. 17,Oct.17 Florida,Florida,home,1.0
+Texas,6,Oct. 24,Oct.24 Ole Miss,Ole Miss,home,1.0
+Texas,7,,Mississippi,Mississippi State,home,0.79
+Texas,8,Oct. 31,Oct. 31 State,NC State,home,0.77
+Texas,9,,Nov. at Missoun,,away,0.63
+Texas,10,,ne v onen,,home,0.0
+Texas,11,,Noy.97,,home,0.0
+Texas,12,,at Texas ARN,Texas A&M,away,0.78
+Texas,13,,#Nallac,,home,0.0
+Texas,14,,TEAM INEORMATION,,home,0.0
+Texas A&M,1,Sept. 5,Missouri State,Missouri State,home,1.0
+Texas A&M,2,Sept. 12,Arizona State,Arizona State,home,1.0
+Texas A&M,3,Sept. 19,Kentucky,Kentucky,home,1.0
+Texas A&M,4,Sept. 26,at LSU,LSU,away,1.0
+Texas A&M,5,Oct. 3,Arkansas,Arkansas,home,1.0
+Texas A&M,6,Oct. 10,at Missouri,Missouri,away,1.0
+Texas A&M,7,Oct. 17,The Citadel,,home,
+Texas A&M,8,Oct. 24,at Alabama,Alabama,away,1.0
+Texas A&M,9,Nov. 7,at South Carolina,South Carolina,away,1.0
+Texas A&M,10,Nov. 14,Tennessee,Tennessee,home,1.0
+Texas A&M,11,Nov. 21,at Oklahoma,Oklahoma,away,1.0
+Texas A&M,12,Nov. 27,Texas,Texas,home,1.0
+Texas State,1,Sept. 5,Sept.5 atTexas,Texas,away,0.83
+Texas State,2,,oeptl2 UTSA,,home,0.0
+Texas State,3,Sept. 19,Sept. 19 North Texas,North Texas,home,1.0
+Texas State,4,,26,,home,0.0
+Texas State,5,,Sept. Incarnate Word,,home,0.0
+Texas State,6,Oct. 3,Oct.3 atSan Diego State,San Diego State,away,0.94
+Texas State,7,,Uet.l7 Colorado State,Colorado State,home,0.8
+Texas State,8,Oct. 24,Oct.24 Utah State,Utah State,home,1.0
+Texas State,9,Oct. 31,Oct.31 at Boise State,Boise State,away,1.0
+Texas State,10,,Nov./ atOregon state,Oregon State,away,0.75
+Texas State,11,Nov. 14,Nov.14 Fresno state,Fresno State,home,1.0
+Texas State,12,,ieee Washington State,Washington State,home,0.86
+Texas State,13,Nov. 28,Nov.28 atColoradoState#,Colorado State,away,0.9
+Texas State,14,,#Projected Flex Opponent,,home,0.0
+Texas Tech,1,Sept. 5,Abilene Christian,,home,
+Texas Tech,2,Sept. 12,at Oregon State,Oregon State,away,1.0
+Texas Tech,3,Sept. 19,Houston,Houston,home,1.0
+Texas Tech,4,Sept. 26,Sam Houston,Sam Houston,home,1.0
+Texas Tech,5,Oct. 3,at Colorado,Colorado,away,1.0
+Texas Tech,6,Oct. 17,Arizona State,Arizona State,home,1.0
+Texas Tech,7,Oct. 24,at Cincinnati,Cincinnati,away,1.0
+Texas Tech,8,Oct. 31,Arizona,Arizona,home,1.0
+Texas Tech,9,Nov. 7,West Virginia,West Virginia,home,1.0
+Texas Tech,10,Nov. 14,at Oklahoma State,Oklahoma State,away,1.0
+Texas Tech,11,Nov. 21,at Baylor,Baylor,away,1.0
+Texas Tech,12,Nov. 28,TCU,TCU,home,1.0
+Toledo,1,Sept. 5,sept.5 at Michigan State,Michigan State,away,1.0
+Toledo,2,Sept. 12,sept. 12 Central Conn. St,,home,0.65
+Toledo,3,Sept. 19,sept. 19 Temple,Temple,home,1.0
+Toledo,4,Sept. 26,Sept. 26 San Diego State,San Diego State,home,1.0
+Toledo,5,,Qet.3 at Ball State,Ball State,away,0.77
+Toledo,6,Oct. 10,Oct.10 Buffalo,Buffalo,home,1.0
+Toledo,7,Oct. 17,Oct.17 atEastern Michigan,Eastern Michigan,away,0.94
+Toledo,8,Oct. 24,Oct.24 Western Michigan,Western Michigan,home,1.0
+Toledo,9,Nov. 4,Nov.4 atSacramento St,Sacramento State,away,0.84
+Toledo,10,Nov. 1,Nov. 1] UMass,UMass,home,0.83
+Toledo,11,Nov. 18,Nov.18 Bowling Green,Bowling Green,home,1.0
+Toledo,12,,Nowe? atOhio,,away,0.0
+Toledo,13,,Be,,home,0.0
+Troy,1,Sept. 9,Sept.9 Sam Houston,Sam Houston,home,1.0
+Troy,2,,Septl2 Alabama state,,home,0.61
+Troy,3,Sept. 19,Sept. 19 at Missouri,Missouri,away,1.0
+Troy,4,Sept. 26,sept. 26 at Utah State,Utah State,away,1.0
+Troy,5,,Art.6 Southern Miss,Southern Miss,home,0.81
+Troy,6,Oct. 17,Oct.17 atLouisiana,Louisiana,away,0.9
+Troy,7,Oct. 24,Oct.24 ULM,ULM,home,1.0
+Troy,8,Oct. 23,Oct.23 atJames Madison,James Madison,away,0.93
+Troy,9,,Nov./ Louisiana Tech,Louisiana Tech,home,0.82
+Troy,10,Nov. 14,Nov.14 atSouth Alabama,South Alabama,away,0.93
+Troy,11,Nov. 21,Nov.21 Georgia Southern,Georgia Southern,home,1.0
+Troy,12,,"Nov,28 atArkansas State",Arkansas State,away,0.76
+Troy,13,,GPS WN ey ay,,home,0.0
+Tulane,1,Sept. 5,Sept.5 atDuke,Duke,away,0.8
+Tulane,2,,Sept.l2 South Alabama,South Alabama,home,0.76
+Tulane,3,,Sept IS at Kansas state,Kansas State,away,0.75
+Tulane,4,,ee Southern Miss,Southern Miss,home,0.9
+Tulane,5,,mn at my,,away,0.0
+Tulane,6,Oct. 16,Oct.16 Memphis,Memphis,home,1.0
+Tulane,7,,94,,home,0.0
+Tulane,8,,prt TSA,,home,0.0
+Tulane,9,,Qet.30 atCharlotte,,away,0.67
+Tulane,10,,Nov./ — Tulsa,,home,0.56
+Tulane,11,,Novl4 atRice,,away,0.0
+Tulane,12,,Now2t North texas,North Texas,home,0.79
+Tulane,13,Nov. 2,Nov.2/ at South Florida,South Florida,away,0.93
+Tulane,14,,Be,,home,0.0
+Tulsa,1,Sept. 5,Sept.5 Oklahoma State,Oklahoma State,home,1.0
+Tulsa,2,Sept. 12,sept. 12 atSam Houston,Sam Houston,away,0.92
+Tulsa,3,,Sept.l3 cast lexas A&M,,home,0.0
+Tulsa,4,Sept. 26,Sept.26 atArkansas,Arkansas,away,0.89
+Tulsa,5,Oct. 1,Oct.1 North Texas,North Texas,home,1.0
+Tulsa,6,Oct. 10,«<Oct.10 = at Navy,,away,0.62
+Tulsa,7,,Oct? atRice,,away,0.0
+Tulsa,8,Oct. 23,Oct.23 Army,Army,home,1.0
+Tulsa,9,Nov. 7,Nov.7 atTulane,Tulane,away,0.86
+Tulsa,10,Nov. 14,~Nov.14 ‘Florida Atlantic,Florida Atlantic,home,0.91
+Tulsa,11,Nov. 21,Nov.21 Charlotte,Charlotte,home,1.0
+Tulsa,12,Nov. 28,Nov.28 atUTSA,UTSA,away,0.8
+UAB,1,Sept. 5,sept.5 at illinois,Illinois,away,1.0
+UAB,2,Sept. 12,sept.12 ULM,ULM,home,1.0
+UAB,3,Sept. 19,Sept. 19 atLouisiana,Louisiana,away,0.9
+UAB,4,Sept. 25,«Sept.25 Navy,Navy,home,0.8
+UAB,5,Oct. 3,Oct.3 = Samford,,home,0.71
+UAB,6,Oct. 10,Oct.10 atMemphis,Memphis,away,0.88
+UAB,7,Oct. 15,Oct. 15 East Carolina,East Carolina,home,1.0
+UAB,8,Oct. 31,Oct.31 at South Floride,South Florida,away,0.92
+UAB,9,Nov. 7,Nov.7 — Charlotte,Charlotte,home,0.9
+UAB,10,Nov. 14,Nov.14 atTemple,Temple,away,0.86
+UAB,11,Nov. 21,Nov.21 UTSA,UTSA,home,1.0
+UAB,12,Nov. 28,Nov.28 atNorth Texas,North Texas,away,0.92
+UCF,1,Sept. 3,Bethune-Cookman,,home,
+UCF,2,Sept. 12,at Pitt,Pitt,away,1.0
+UCF,3,Sept. 19,Georgia State,Georgia State,home,1.0
+UCF,4,Sept. 26,TCU,TCU,home,1.0
+UCF,5,Oct. 3,at Houston,Houston,away,1.0
+UCF,6,Oct. 10,at Oklahoma State,Oklahoma State,away,1.0
+UCF,7,Oct. 24,BYU,BYU,home,1.0
+UCF,8,Oct. 31,Baylor,Baylor,home,1.0
+UCF,9,Nov. 7,at Kansas,Kansas,away,1.0
+UCF,10,Nov. 14,Arizona State,Arizona State,home,1.0
+UCF,11,Nov. 21,Iowa State,Iowa State,home,1.0
+UCF,12,Nov. 28,at Colorado,Colorado,away,1.0
+UCLA,1,Sept. 5,Sept.5 atCal,Cal,away,0.75
+UCLA,2,Sept. 12,Sept.12 San Diego State,San Diego State,home,1.0
+UCLA,3,Sept. 19,‘Sept.19 Purdue,Purdue,home,0.86
+UCLA,4,Sept. 26,Sept.26 at Maryland,Maryland,away,1.0
+UCLA,5,Oct. 10,Oct.10 atOregon,Oregon,away,0.86
+UCLA,6,Oct. 17,Oct.17 Wisconsin 3 3,Wisconsin,home,0.82
+UCLA,7,Oct. 24,Oct.24 Michigan State,Michigan State,home,1.0
+UCLA,8,Oct. 31,Oct.31 Nevada,Nevada,home,1.0
+UCLA,9,,Nov./ atMinnesota,,away,0.69
+UCLA,10,Nov. 14,Nov.14 — Illinois,Illinois,home,0.89
+UCLA,11,Nov. 21,Nov. 21 at Michigan,Michigan,away,1.0
+UCLA,12,Nov. 28,Nov. 28 USC,USC,home,1.0
+UConn,1,Sept. 5,Sept.5 Lafayette,,home,0.0
+UConn,2,Sept. 12,sept.12 Maryland,Maryland,home,1.0
+UConn,3,Sept. 19,Sept. 19 at Southern Miss,Southern Miss,away,1.0
+UConn,4,Sept. 26,Sept. 26 at Miami (Ohio),Miami (Ohio),away,1.0
+UConn,5,,Oet.3 Syracuse,,home,0.73
+UConn,6,Oct. 10,Oct.10 attemple,Temple,home,0.86
+UConn,7,,ee OMASS,,home,0.0
+UConn,8,Oct. 31,Oct.31 at Air Force,Air Force,away,1.0
+UConn,9,,yz ath Parating,,home,0.0
+UConn,10,Nov. 14,Nov.14 James Madison,James Madison,home,1.0
+UConn,11,Nov. 21,Nov.21 Old Dominion,Old Dominion,home,1.0
+UConn,12,,NOWAB al iiyoming,,home,0.58
+ULM,1,Sept. 5,Sept.5 atMississippi State,Mississippi State,away,0.94
+ULM,2,Sept. 12,Sept.12 atUAB,UAB,away,0.75
+ULM,3,Sept. 19,Sept.19 SE Louisiana,Louisiana,home,0.86
+ULM,4,Sept. 26,Sept.26 Florida Atlantic,Florida Atlantic,home,1.0
+ULM,5,Oct. 3,Oct.3 atSouth Alabama,South Alabama,away,0.93
+ULM,6,Oct. 17,Oct.17 Louisiana Tech,Louisiana Tech,home,1.0
+ULM,7,Oct. 24,“Oct. 24 ~~ at Troy,,away,0.62
+ULM,8,Oct. 31,Oct.31 Southern Miss,Southern Miss,home,1.0
+ULM,9,Nov. 7,Nov.7 at ArkansasState,Arkansas State,away,0.96
+ULM,10,Nov. 12,Nov.12 Louisiana,Louisiana,home,1.0
+ULM,11,Nov. 21,Nov.21 atAppalachian State,Appalachian State,away,0.94
+ULM,12,Nov. 28,Nov.28 Marshall,Marshall,home,1.0
+UMass,1,Sept. 3,sept.3 at Rutgers,Rutgers,away,1.0
+UMass,2,Sept. 12,Sept.12 Sacred Heart,,home,0.0
+UMass,3,Sept. 19,Sept. 19 Stonehill,,home,0.0
+UMass,4,Sept. 26,Sept. 26 alsanvamenia ot,,home,0.0
+UMass,5,Oct. 3,Oct.3 Sa ICON at,,away,0.0
+UMass,6,Oct. 10,“Oct.10 Miami (Ohio),Miami (Ohio),home,0.92
+UMass,7,,Oct? at Buffalo,,away,0.74
+UMass,8,Oct. 24,Oct.24 atUConn,UConn,away,0.83
+UMass,9,,— Ball,,home,0.0
+UMass,10,Nov. 4,Nov.4 State,NC State,home,0.77
+UMass,11,,Nov.ll at Toledo,,away,0.63
+UMass,12,Nov. 18,Nov.18 = Akron,Akron,home,0.83
+UMass,13,Nov. 28,Nov.28 at Bowling Green,Bowling Green,away,1.0
+UNLV,1,Aug. 29,Aug.29 Memphis,Memphis,home,1.0
+UNLV,2,,Sept.s athawal!,,home,0.0
+UNLV,3,Sept. 2,Sept 2 at North Texas,North Texas,away,1.0
+UNLV,4,,—— —,,home,0.0
+UNLV,5,,Qet.10 North Dakota State,North Dakota State,home,0.84
+UNLV,6,Oct. 17,Oct17— atAir Force,Air Force,away,0.82
+UNLV,7,Oct. 31,Oct.31 Northern Illinois,Northern Illinois,home,1.0
+UNLV,8,,Nov.? Wyoming,,home,0.7
+UNLV,9,,Nowl4 atNew Mexico,,away,0.71
+UNLV,10,,NOW2l atsanJosestate,,home,0.71
+UNLV,11,Nov. 28,Nov.28 Nevada,Nevada,home,1.0
+UNLV,12,,Be,,home,0.0
+USC,1,,San,,home,0.0
+USC,2,Aug. 29,Aug.29 José State,Boise State,home,0.76
+USC,3,Sept. 5,Sept.5 Fresno State,Fresno State,home,1.0
+USC,4,Sept. 12,Sept. 12 Louisiana,Louisiana,home,1.0
+USC,5,Sept. 13,Sept. 13 at Rutgers,Rutgers,away,1.0
+USC,6,Sept. 26,Sept 26 Oregon,Oregon,home,1.0
+USC,7,Oct. 3,Oct.3 Washington,Washington,home,1.0
+USC,8,,7 : Weccrc,,home,0.0
+USC,9,,fe,,home,0.0
+USC,10,,Om Ohio State,Ohio State,home,0.87
+USC,11,,eet,,home,0.0
+USC,12,,atindtane,,home,0.0
+USC,13,Nov. 21,Nov.21 Maryland,Maryland,home,1.0
+USC,14,Nov. 28,Nov.28 at UCLA,UCLA,away,1.0
+UTEP,1,Sept. 5,at Oklahoma,Oklahoma,away,1.0
+UTEP,2,Sept. 12,Texas Southern,,home,
+UTEP,3,Sept. 19,at Michigan,Michigan,away,1.0
+UTEP,4,Sept. 26,Oregon State,Oregon State,home,1.0
+UTEP,5,Oct. 3,at New Mexico,New Mexico,away,1.0
+UTEP,6,Oct. 10,Nevada,Nevada,home,1.0
+UTEP,7,Oct. 17,San Jose State,San Jose State,home,1.0
+UTEP,8,Oct. 31,at North Dakota State,North Dakota State,away,1.0
+UTEP,9,Nov. 7,Hawai'i,Hawai'i,home,1.0
+UTEP,10,Nov. 14,Wyoming,Wyoming,home,1.0
+UTEP,11,Nov. 21,at Air Force,Air Force,away,1.0
+UTEP,12,Nov. 28,at Northern Illinois,Northern Illinois,away,1.0
+UTSA,1,Sept. 5,Sept.5 UTRGV,,home,0.0
+UTSA,2,,Sepll2 at lexas State,,away,0.69
+UTSA,3,,Man,,home,0.0
+UTSA,4,,set,,home,0.0
+UTSA,5,,get3 atRice,,away,0.57
+UTSA,6,Oct. 8,Oct.8 South Florida,South Florida,home,1.0
+UTSA,7,,Oct? Navy,,home,0.62
+UTSA,8,Oct. 24,Oct.24 atTulane,Tulane,away,0.86
+UTSA,9,Nov. 5,Nov.5 at Florida Atlantic,Florida Atlantic,away,1.0
+UTSA,10,Nov. 14,Nov.14 North Texas,North Texas,home,1.0
+UTSA,11,,Nov.dl atUAb,,away,0.0
+UTSA,12,,Se Tulsa,Tulsa,home,0.77
+UTSA,13,,BR,,home,0.0
+Utah,1,Sept. 3,Sept3 Idaho,,home,0.0
+Utah,2,Sept. 12,Sept.12 Arkansas,Arkansas,home,1.0
+Utah,3,Sept. 19,Sept.19 Utah State,Utah State,home,1.0
+Utah,4,,Sent. 26 at lowa State,,away,0.65
+Utah,5,,pei parca,,home,0.0
+Utah,6,Oct. 17,Oct.17 atColorado,Colorado,away,0.89
+Utah,7,,net 94 Houstor,,home,0.57
+Utah,8,Oct. 31,Oct31 at Cincinnat acinnati,,away,0.71
+Utah,9,,Nov./ BYU,,home,0.0
+Utah,10,,Nov.l4 atArizona,,away,0.61
+Utah,11,Nov. 28,Nov.28 West Virginia,West Virginia,home,1.0
+Utah State,1,Sept. 5,Sept.5 Idaho State,Utah State,home,0.76
+Utah State,2,,Sept t2 at Washington,,away,0.71
+Utah State,3,,ee at Utal,,away,0.0
+Utah State,4,Sept. 26,sept. 26 Troy,Troy,home,1.0
+Utah State,5,,Ot3 at Boise State,Boise State,away,0.85
+Utah State,6,Oct. 10,Oct.10 Washington State,Washington State,home,1.0
+Utah State,7,Oct. 24,Oct.24 at Texas State,Texas State,away,1.0
+Utah State,8,Oct. 31,Oct.31 Colorado State,Colorado State,home,1.0
+Utah State,9,,eee esto SE,,home,0.0
+Utah State,10,,Nov.l4 — atoan Diego state,,home,0.68
+Utah State,11,Nov. 21,Nov.21 at Oregon State,Oregon State,away,1.0
+Utah State,12,,"Nov, 28 Boise State #",Boise State,home,0.76
+Utah State,13,,#Projected Flex Opponent,,home,0.0
+Utah State,14,,§TEAM INFORMATION,,home,0.0
+Vanderbilt,1,Sept. 5,Austin Peay,,home,
+Vanderbilt,2,Sept. 12,Delaware,Delaware,home,1.0
+Vanderbilt,3,Sept. 19,NC State,NC State,home,1.0
+Vanderbilt,4,Sept. 26,at Auburn,Auburn,away,1.0
+Vanderbilt,5,Oct. 3,at Georgia,Georgia,away,1.0
+Vanderbilt,6,Oct. 10,Ole Miss,Ole Miss,home,1.0
+Vanderbilt,7,Oct. 17,Arkansas,Arkansas,home,1.0
+Vanderbilt,8,Oct. 24,at Kentucky,Kentucky,away,1.0
+Vanderbilt,9,Nov. 7,at Mississippi State,Mississippi State,away,1.0
+Vanderbilt,10,Nov. 14,Alabama,Alabama,home,1.0
+Vanderbilt,11,Nov. 21,at Florida,Florida,away,1.0
+Vanderbilt,12,Nov. 28,Tennessee,Tennessee,home,1.0
+Virginia,1,Aug. 29,Aug.29 vs. NC State #,NC State,neutral,1.0
+Virginia,2,,Septl2 Norfolk State,,home,0.0
+Virginia,3,,SPE VS. Mestlirginia’®,,neutral,0.65
+Virginia,4,Sept. 26,sept. 26 Delaware,Delaware,home,1.0
+Virginia,5,,get at Florida State,Florida State,away,0.87
+Virginia,6,Oct. 10,Oct.10 Syracuse,Syracuse,home,1.0
+Virginia,7,,Oct.l/ atSMU,,away,0.0
+Virginia,8,,Ucl24 Duke,,home,0.57
+Virginia,9,Oct. 31,Oct.31 - at E Wake ae Forest,Wake Forest,away,0.76
+Virginia,10,,if,,home,0.0
+Virginia,11,Nov. 21,Nov.21 North Carolina,North Carolina,home,1.0
+Virginia,12,Nov. 28,Nov.28 at Virginia Tech,Virginia Tech,away,1.0
+Virginia,13,,"%Charlotte, NC #Rio de Janeiro, Brazil",,home,0.0
+Virginia Tech,1,Sept. 5,VMI,,home,
+Virginia Tech,2,Sept. 12,Old Dominion,Old Dominion,home,1.0
+Virginia Tech,3,Sept. 19,at Maryland,Maryland,away,1.0
+Virginia Tech,4,Sept. 26,at Boston College,Boston College,away,1.0
+Virginia Tech,5,Oct. 2,Pitt,Pitt,home,1.0
+Virginia Tech,6,Oct. 10,at Cal,Cal,away,1.0
+Virginia Tech,7,Oct. 17,Georgia Tech,Georgia Tech,home,1.0
+Virginia Tech,8,Oct. 24,at Clemson,Clemson,away,1.0
+Virginia Tech,9,Nov. 7,at SMU,SMU,away,1.0
+Virginia Tech,10,Nov. 14,Stanford,Stanford,home,1.0
+Virginia Tech,11,Nov. 20,at Miami (Fla.),Miami (Fla.),away,1.0
+Virginia Tech,12,Nov. 28,Virginia,Virginia,home,1.0
+WKU,1,Sept. 5,at Nevada,Nevada,away,1.0
+WKU,2,Sept. 12,at Georgia,Georgia,away,1.0
+WKU,3,Sept. 19,Indiana,Indiana,home,1.0
+WKU,4,Sept. 26,Mercyhurst,,home,
+WKU,5,Oct. 1,at New Mexico State,New Mexico State,away,1.0
+WKU,6,Oct. 8,Missouri State,Missouri State,home,1.0
+WKU,7,Oct. 14,at Sam Houston,Sam Houston,away,1.0
+WKU,8,Oct. 27,Delaware,Delaware,home,1.0
+WKU,9,Nov. 7,at Middle Tennessee,Middle Tennessee,away,1.0
+WKU,10,Nov. 14,Jacksonville State,Jacksonville State,home,1.0
+WKU,11,Nov. 21,at Liberty,Liberty,away,1.0
+WKU,12,Nov. 28,Kennesaw State,Kennesaw State,home,1.0
+Wake Forest,1,Sept. 3,Akron,Akron,home,1.0
+Wake Forest,2,Sept. 12,at Purdue,Purdue,away,1.0
+Wake Forest,3,Sept. 18,Miami (Fla.),Miami (Fla.),home,1.0
+Wake Forest,4,Sept. 26,at Louisville,Louisville,away,1.0
+Wake Forest,5,Oct. 3,Stanford,Stanford,home,1.0
+Wake Forest,6,Oct. 10,at NC State,NC State,away,1.0
+Wake Forest,7,Oct. 17,at Cal,Cal,away,1.0
+Wake Forest,8,Oct. 31,Virginia,Virginia,home,1.0
+Wake Forest,9,Nov. 7,Merrimack,,home,
+Wake Forest,10,Nov. 14,at SMU,SMU,away,1.0
+Wake Forest,11,Nov. 21,at Georgia Tech,Georgia Tech,away,1.0
+Wake Forest,12,Nov. 28,Duke,Duke,home,1.0
+Washington,1,Sept. 5,Washington State,Washington State,home,1.0
+Washington,2,Sept. 12,Utah State,Utah State,home,1.0
+Washington,3,Sept. 19,E. Washington,Washington,home,1.0
+Washington,4,Sept. 26,Minnesota,Minnesota,home,1.0
+Washington,5,Oct. 3,at USC,USC,away,1.0
+Washington,6,Oct. 10,Iowa,Iowa,home,1.0
+Washington,7,Oct. 17,at Purdue,Purdue,away,1.0
+Washington,8,Oct. 31,at Nebraska,Nebraska,away,1.0
+Washington,9,Nov. 7,Penn State,Penn State,home,1.0
+Washington,10,Nov. 14,at Michigan State,Michigan State,away,1.0
+Washington,11,Nov. 21,Indiana,Indiana,home,1.0
+Washington,12,Nov. 28,at Oregon,Oregon,away,1.0
+Washington State,1,Sept. 5,at Washington,Washington,away,1.0
+Washington State,2,Sept. 12,at Kansas State,Kansas State,away,1.0
+Washington State,3,Sept. 19,Duquesne,,home,
+Washington State,4,Sept. 26,Arizona,Arizona,home,1.0
+Washington State,5,Oct. 3,Fresno State,Fresno State,home,1.0
+Washington State,6,Oct. 10,at Utah State,Utah State,away,1.0
+Washington State,7,Oct. 17,at Oregon State,Oregon State,away,1.0
+Washington State,8,Oct. 24,Boise State,Boise State,home,1.0
+Washington State,9,Oct. 31,at San Diego State,San Diego State,away,1.0
+Washington State,10,Nov. 14,Colorado State,Colorado State,home,1.0
+Washington State,11,Nov. 21,at Texas State,Texas State,away,1.0
+Washington State,12,Nov. 28,Oregon State #,Oregon State,home,1.0
+West Virginia,1,Sept. 5,Sept.5 Coastal Carolina,Coastal Carolina,home,1.0
+West Virginia,2,,sept l2 Tennessee-Martin,,home,0.55
+West Virginia,3,,aaa VS. Virginia &,Virginia,neutral,0.8
+West Virginia,4,,_ ae —,,home,0.0
+West Virginia,5,,a ene,,home,0.0
+West Virginia,6,,ee,,home,0.0
+West Virginia,7,Oct. 17,Oct.17 Cincinnati,Cincinnati,home,1.0
+West Virginia,8,Oct. 24,Uct.24 at ICU,,away,0.67
+West Virginia,9,,ee at Texas Teck,Texas Tech,away,0.78
+West Virginia,10,,ata Kansas,Kansas,home,0.75
+West Virginia,11,,ay o7 Houstan,,home,0.67
+West Virginia,12,,og at ttah,,away,0.0
+West Virginia,13,,"#Charlotte, NC",Charlotte,home,0.86
+West Virginia,14,,(8,,home,0.0
+Western Michigan,1,Sept. 5,Sept.5 at Michigan,Michigan,away,1.0
+Western Michigan,2,Sept. 12,sept. 12 Monmouth,,home,0.0
+Western Michigan,3,Sept. 19,Sept.19 at Rice,Rice,away,1.0
+Western Michigan,4,Sept. 26,Sept. 26 Boise State,Boise State,home,1.0
+Western Michigan,5,Oct. 3,Oct.3 at Buffalo,Buffalo,away,1.0
+Western Michigan,6,Oct. 10,Uct.10 KentState,Kent State,home,0.95
+Western Michigan,7,Oct. 17,Oct.17 atCentral Michigan,Central Michigan,away,0.94
+Western Michigan,8,Oct. 24,Oct.24 at Toledo,Toledo,away,1.0
+Western Michigan,9,Oct. 31,Oct.31 Bowling Green,Bowling Green,home,1.0
+Western Michigan,10,Nov. 10,Nov.10 atAkron,Akron,away,0.83
+Western Michigan,11,Nov. 17,Nov.17 Eastern Michigan,Eastern Michigan,home,1.0
+Western Michigan,12,Nov. 24,Nov. 24 Miami (Chio),Miami (Ohio),home,0.92
+Wisconsin,1,Sept. 6,vs. Notre Dame #,Notre Dame,neutral,1.0
+Wisconsin,2,Sept. 12,Western Illinois,Northern Illinois,home,1.0
+Wisconsin,3,Sept. 19,Eastern Michigan,Eastern Michigan,home,1.0
+Wisconsin,4,Sept. 26,at Penn State,Penn State,away,1.0
+Wisconsin,5,Oct. 3,Michigan State,Michigan State,home,1.0
+Wisconsin,6,Oct. 17,at UCLA,UCLA,away,1.0
+Wisconsin,7,Oct. 24,USC,USC,home,1.0
+Wisconsin,8,Oct. 31,at Iowa,Iowa,away,1.0
+Wisconsin,9,Nov. 7,Rutgers,Rutgers,home,1.0
+Wisconsin,10,Nov. 14,at Maryland,Maryland,away,1.0
+Wisconsin,11,Nov. 21,at Purdue,Purdue,away,1.0
+Wisconsin,12,Nov. 28,Minnesota,Minnesota,home,1.0
+Wyoming,1,Sept. 5,sept.5 at Colorado State,Colorado State,away,1.0
+Wyoming,2,Sept. 12,Sept. 12 Northern Colorado,,home,0.59
+Wyoming,3,Sept. 19,sept.19 atCentral Michigan,Central Michigan,away,0.94
+Wyoming,4,Sept. 26,Sept. 26 Hawall,,home,0.62
+Wyoming,5,Oct. 3,Oct.3 atNorth Dakota St,North Dakota State,away,0.86
+Wyoming,6,Oct. 10,Oct.10 C at atSan San Jose Jose Stat State,,away,0.61
+Wyoming,7,Oct. 17,Oct.17 Northern Illinois,Northern Illinois,home,1.0
+Wyoming,8,Oct. 24,Oct.24 Airforce,Air Force,home,0.94
+Wyoming,9,Nov. 7,Nov.7 at UNLV,UNLV,away,1.0
+Wyoming,10,Nov. 14,Nov.14 atUTEP,UTEP,away,0.8
+Wyoming,11,Nov. 21,Nov.21 New Mexico,New Mexico,home,1.0
+Wyoming,12,Nov. 28,Nov.28 UConn,UConn,home,1.0

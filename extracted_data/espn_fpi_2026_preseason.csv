@@ -1,0 +1,139 @@
+rank,team,fpi
+1,Ohio State,28.7
+2,Texas,26.9
+3,Notre Dame,25.9
+4,Oregon,25.3
+5,Georgia,24.8
+6,Indiana,23.1
+7,Miami (Fla.),21.8
+8,Alabama,20.1
+9,LSU,20.0
+10,Texas Tech,20.0
+11,Texas A&M,20.0
+12,Oklahoma,17.8
+13,USC,17.0
+14,Ole Miss,16.0
+15,Michigan,15.9
+16,Tennessee,15.1
+17,Penn State,13.7
+18,Florida,13.6
+19,Clemson,13.4
+20,BYU,13.1
+21,Missouri,12.2
+22,Auburn,12.0
+23,South Carolina,11.7
+24,SMU,11.1
+25,Iowa,10.6
+26,Washington,9.9
+27,Louisville,9.5
+28,Florida State,9.3
+29,Vanderbilt,9.0
+30,Nebraska,8.8
+31,Utah,8.5
+32,Virginia,7.9
+33,Virginia Tech,7.4
+34,Arizona,7.2
+35,Houston,7.1
+36,Pitt,6.6
+37,Baylor,6.5
+38,TCU,6.4
+39,Illinois,6.3
+40,Kentucky,5.4
+41,Kansas State,5.1
+42,North Carolina,4.9
+43,Wisconsin,4.8
+44,Arizona State,4.8
+45,Colorado,4.5
+46,Cincinnati,4.4
+47,Arkansas,4.4
+48,Georgia Tech,4.2
+49,Mississippi State,4.1
+50,Boise State,4.0
+51,NC State,3.7
+52,Duke,3.5
+53,Wake Forest,3.4
+54,Oklahoma State,3.3
+55,Kansas,2.8
+56,Tulane,2.3
+57,UCF,2.1
+58,UNLV,1.8
+59,San Diego State,1.4
+60,Northwestern,1.4
+61,Maryland,1.0
+62,Cal,0.9
+63,Minnesota,0.6
+64,UCLA,0.5
+65,Michigan State,0.3
+66,West Virginia,0.2
+67,Rutgers,-0.2
+68,East Carolina,-0.6
+69,Navy,-0.7
+70,Syracuse,-0.8
+71,Purdue,-0.9
+72,Iowa State,-0.9
+73,South Florida,-0.9
+74,Memphis,-1.9
+75,James Madison,-2.0
+76,Hawai'i,-2.4
+77,Fresno State,-2.5
+78,Boston College,-2.7
+79,Toledo,-3.0
+80,Stanford,-3.3
+81,New Mexico,-3.5
+82,Western Michigan,-4.0
+83,Washington State,-4.1
+84,Texas State,-4.3
+85,Old Dominion,-4.4
+86,WKU,-4.9
+87,Southern Miss,-5.1
+88,UTSA,-5.3
+89,Army,-5.6
+90,North Texas,-6.4
+91,Delaware,-6.6
+92,Utah State,-6.7
+93,Air Force,-6.8
+94,Miami (Ohio),-7.0
+95,Troy,-7.4
+96,Liberty,-7.7
+97,Ohio,-8.0
+98,Oregon State,-8.1
+99,Louisiana,-8.3
+100,North Dakota State,-8.3
+101,Jacksonville State,-8.5
+102,Temple,-8.6
+103,Georgia Southern,-8.7
+104,Marshall,-8.8
+105,Tulsa,-9.0
+106,Kennesaw State,-9.0
+107,Arkansas State,-9.2
+108,Louisiana Tech,-9.6
+109,Appalachian State,-9.8
+110,Missouri State,-10.3
+111,Sacramento State,-10.4
+112,South Alabama,-10.5
+113,Buffalo,-10.8
+114,UConn,-11.2
+115,Florida Atlantic,-11.3
+116,Nevada,-11.9
+117,Coastal Carolina,-12.1
+118,Colorado State,-12.4
+119,FIU,-12.6
+120,Central Michigan,-12.8
+121,Wyoming,-13.1
+122,Rice,-13.4
+123,Bowling Green,-13.7
+124,San Jose State,-14.3
+125,Northern Illinois,-14.5
+126,Charlotte,-14.6
+127,Georgia State,-15.2
+128,UAB,-15.5
+129,New Mexico State,-15.7
+130,Middle Tennessee,-16.1
+131,Eastern Michigan,-16.3
+132,UTEP,-16.6
+133,Akron,-16.9
+134,Ball State,-17.3
+135,Kent State,-17.9
+136,Sam Houston,-18.4
+137,UMass,-18.8
+138,ULM,-19.3

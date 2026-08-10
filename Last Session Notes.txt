@@ -1,0 +1,14 @@
+All set — data sources are saved, aligned, and documented. Here's where things stand:
+
+Saved to extracted_data/:
+- sp_plus_2026_preseason.csv — SP+ overall/off/def/ST, all 138 teams
+- espn_fpi_2026_preseason.csv — FPI, all 138 teams (standing in for Phil Steele)
+- Both verified to join cleanly with your Athlon team/schedule data on team name
+
+Saved to memory (so this survives across sessions): the data-source inventory, the weighting philosophy I recommended, and — separately — the OCR failure modes I found/fixed and the "check the prior session's temp scratchpad before assuming work is lost" trick, in case you ever re-run this pipeline for a future year's magazine.
+
+Whenever you've got the CollegeFootballData.com API key, paste it here and I'll pull 2024–2025 team-level advanced stats (success rate, EPA/play, havoc, returning production, recruiting, SP+ history, betting lines) and run the correlation analysis — testing which metrics from year N actually predict ATS/win performance in year N+1, so the weightings I gave you aren't just priors from general knowledge but something backtested against your own two seasons of data.
+
+✻ Worked for 8m 14s
+
+※ recap: Building your 2026 CFB handicap model: Athlon, SP+, and FPI data are loaded for all 138 teams. Next step is pulling 2024-2025 stats once you paste your CollegeFootballData.com API key, so I can test which metrics actually predict outcomes.

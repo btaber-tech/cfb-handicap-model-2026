@@ -1,0 +1,158 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Boston College            page= 52 status=ok              games=11
+Cal                       page= 53 status=ok              games=12
+Clemson                   page= 54 status=ok              games=13
+Duke                      page= 55 status=ok              games=14
+Florida State             page= 56 status=ok              games=27
+Georgia Tech              page= 57 status=ok              games=17
+Louisville                page= 58 status=ok              games=3
+Miami (Fla.)              page= 59 status=ok              games=13
+North Carolina            page= 60 status=no_header_found games=0
+NC State                  page= 61 status=ok              games=14
+Pitt                      page= 62 status=ok              games=12
+SMU                       page= 63 status=ok              games=12
+Stanford                  page= 64 status=ok              games=12
+Syracuse                  page= 65 status=ok              games=11
+Virginia                  page= 66 status=ok              games=13
+Virginia Tech             page= 67 status=no_header_found games=0
+Wake Forest               page= 68 status=no_header_found games=0
+Army                      page= 72 status=ok              games=15
+Charlotte                 page= 73 status=ok              games=14
+East Carolina             page= 74 status=ok              games=13
+Florida Atlantic          page= 75 status=ok              games=12
+Memphis                   page= 76 status=ok              games=14
+Navy                      page= 77 status=ok              games=18
+North Texas               page= 78 status=ok              games=13
+Rice                      page= 79 status=ok              games=12
+South Florida             page= 80 status=ok              games=10
+Temple                    page= 81 status=ok              games=13
+Tulane                    page= 82 status=ok              games=14
+Tulsa                     page= 83 status=ok              games=12
+UAB                       page= 84 status=ok              games=12
+UTSA                      page= 85 status=ok              games=13
+Arizona                   page= 88 status=ok              games=12
+Arizona State             page= 89 status=ok              games=13
+Baylor                    page= 90 status=ok              games=14
+BYU                       page= 91 status=ok              games=12
+Cincinnati                page= 92 status=ok              games=13
+Colorado                  page= 93 status=ok              games=13
+Houston                   page= 94 status=ok              games=13
+Iowa State                page= 95 status=ok              games=12
+Kansas                    page= 96 status=ok              games=14
+Kansas State              page= 97 status=ok              games=11
+Oklahoma State            page= 98 status=no_header_found games=0
+TCU                       page= 99 status=ok              games=16
+Texas Tech                page=100 status=ok              games=24
+UCF                       page=101 status=no_header_found games=0
+Utah                      page=102 status=ok              games=11
+West Virginia             page=103 status=ok              games=14
+Illinois                  page=106 status=ok              games=17
+Indiana                   page=107 status=ok              games=13
+Iowa                      page=108 status=ok              games=13
+Maryland                  page=109 status=ok              games=12
+Michigan                  page=110 status=ok              games=14
+Michigan State            page=111 status=ok              games=12
+Minnesota                 page=112 status=ok              games=14
+Nebraska                  page=113 status=ok              games=12
+Northwestern              page=114 status=ok              games=14
+Ohio State                page=115 status=ok              games=12
+Oregon                    page=116 status=ok              games=13
+Penn State                page=117 status=ok              games=12
+Purdue                    page=118 status=no_header_found games=0
+Rutgers                   page=119 status=ok              games=12
+UCLA                      page=120 status=ok              games=12
+USC                       page=121 status=ok              games=14
+Washington                page=122 status=ok              games=17
+Wisconsin                 page=123 status=ok              games=19
+Delaware                  page=126 status=ok              games=12
+FIU                       page=127 status=ok              games=12
+Jacksonville State        page=128 status=ok              games=13
+Kennesaw State            page=129 status=ok              games=13
+Liberty                   page=130 status=ok              games=12
+Middle Tennessee          page=131 status=ok              games=12
+Missouri State            page=132 status=ok              games=11
+New Mexico State          page=133 status=ok              games=14
+Sam Houston               page=134 status=ok              games=12
+WKU                       page=135 status=ok              games=16
+Notre Dame                page=136 status=ok              games=17
+UConn                     page=137 status=ok              games=12
+Akron                     page=140 status=ok              games=16
+Ball State                page=141 status=ok              games=12
+Bowling Green             page=142 status=no_header_found games=0
+Buffalo                   page=143 status=no_header_found games=0
+Central Michigan          page=144 status=ok              games=15
+Eastern Michigan          page=145 status=ok              games=11
+Kent State                page=146 status=ok              games=12
+Miami (Ohio)              page=147 status=ok              games=13
+Ohio                      page=148 status=ok              games=13
+Sacramento State          page=149 status=ok              games=12
+Toledo                    page=150 status=ok              games=13
+UMass                     page=151 status=ok              games=13
+Western Michigan          page=152 status=ok              games=12
+Air Force                 page=156 status=ok              games=12
+Hawai'i                   page=157 status=ok              games=12
+Nevada                    page=158 status=ok              games=12
+New Mexico                page=159 status=ok              games=13
+North Dakota State        page=160 status=ok              games=14
+Northern Illinois         page=161 status=ok              games=12
+San Jose State            page=162 status=ok              games=14
+UNLV                      page=163 status=ok              games=12
+UTEP                      page=164 status=no_header_found games=0
+Wyoming                   page=165 status=ok              games=12
+Boise State               page=168 status=ok              games=3
+Colorado State            page=169 status=ok              games=14
+Fresno State              page=170 status=no_header_found games=0
+Oregon State              page=171 status=ok              games=14
+San Diego State           page=172 status=ok              games=10
+Texas State               page=173 status=ok              games=14
+Utah State                page=174 status=ok              games=14
+Washington State          page=175 status=ok              games=10
+Alabama                   page=178 status=ok              games=12
+Arkansas                  page=179 status=ok              games=15
+Auburn                    page=180 status=ok              games=13
+Florida                   page=181 status=ok              games=13
+Georgia                   page=182 status=ok              games=14
+Kentucky                  page=183 status=ok              games=12
+LSU                       page=184 status=ok              games=12
+Mississippi State         page=185 status=ok              games=12
+Missouri                  page=186 status=no_header_found games=0
+Oklahoma                  page=187 status=ok              games=15
+Ole Miss                  page=188 status=ok              games=19
+South Carolina            page=189 status=ok              games=23
+Tennessee                 page=190 status=no_header_found games=0
+Texas                     page=191 status=ok              games=14
+Texas A&M                 page=192 status=ok              games=10
+Vanderbilt                page=193 status=no_header_found games=0
+Appalachian State         page=196 status=ok              games=13
+Coastal Carolina          page=197 status=ok              games=13
+Georgia Southern          page=198 status=ok              games=13
+Georgia State             page=199 status=ok              games=15
+James Madison             page=200 status=ok              games=13
+Marshall                  page=201 status=ok              games=12
+Old Dominion              page=202 status=ok              games=13
+Arkansas State            page=203 status=ok              games=13
+Louisiana                 page=204 status=ok              games=13
+Louisiana Tech            page=205 status=ok              games=11
+South Alabama             page=206 status=ok              games=11
+Southern Miss             page=207 status=ok              games=11
+Troy                      page=208 status=ok              games=13
+ULM                       page=209 status=ok              games=12
+
+Wrote 1643 schedule rows to C:\Users\BenTa\AppData\Local\Temp\claude\C--Users-BenTa-OneDrive-Desktop-College-Football\90fc890e-e241-4c6c-a2e5-d4eca96abaec\scratchpad\athlon_2026_schedules.csv
+
+Teams with issues (status!=ok or <8 games found): 15
+  Louisville: ok, 3 games
+  North Carolina: no_header_found, 0 games
+  Virginia Tech: no_header_found, 0 games
+  Wake Forest: no_header_found, 0 games
+  Oklahoma State: no_header_found, 0 games
+  UCF: no_header_found, 0 games
+  Purdue: no_header_found, 0 games
+  Bowling Green: no_header_found, 0 games
+  Buffalo: no_header_found, 0 games
+  UTEP: no_header_found, 0 games
+  Boise State: ok, 3 games
+  Fresno State: no_header_found, 0 games
+  Missouri: no_header_found, 0 games
+  Tennessee: no_header_found, 0 games
+  Vanderbilt: no_header_found, 0 games
