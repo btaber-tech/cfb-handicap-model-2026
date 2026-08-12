@@ -13,6 +13,7 @@ import datetime
 import json
 import os
 import subprocess
+import urllib.parse
 
 import requests
 
@@ -40,15 +41,15 @@ def cfbd_get(endpoint, params=None, api_key=None):
         resp.raise_for_status()
         return resp.json()
     except requests.exceptions.SSLError:
-        query = "&".join(f"{k}={v}" for k, v in (params or {}).items() if v is not None)
+        query = urllib.parse.urlencode({k: v for k, v in (params or {}).items() if v is not None})
         full_url = url + (f"?{query}" if query else "")
         result = subprocess.run(
             ["curl", "--ssl-no-revoke", "-s",
              "-H", f"Authorization: Bearer {api_key}",
              "-H", "accept: application/json", full_url],
-            capture_output=True, text=True, check=True,
+            capture_output=True, check=True,
         )
-        return json.loads(result.stdout)
+        return json.loads(result.stdout.decode("utf-8"))
 
 
 def cfbd_get_save(endpoint, out_path, params=None, api_key=None):
