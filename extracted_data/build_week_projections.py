@@ -191,6 +191,7 @@ def main():
             flagged_team, flagged_value = away, away_disagreement
 
         rows.append({
+            "game_id": g["id"],
             "date": date,
             "away": away, "home": home, "neutral": neutral,
             "model_pick": pick, "model_margin": round(pick_margin, 1),
