@@ -11,6 +11,9 @@ Athlon Sports College Football Preview 2026.pdf
 desktop.ini
 Thumbs.db
 
+# Local scheduled-task log (machine-specific, not project data)
+extracted_data/capture_line_snapshots.log
+
 # Python
 __pycache__/
 *.pyc
