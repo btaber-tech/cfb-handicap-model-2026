@@ -60,6 +60,8 @@ h1 { font-family: var(--font-display); font-size: 2.15rem; font-weight: 700; mar
 .diff-flat { color: var(--text-muted); }
 .rlm-flag { margin-top: 0.9rem; padding: 0.6rem 0.7rem; background: var(--rust-soft); border-radius: 6px; font-size: 0.8rem; color: var(--text); }
 .rlm-flag strong { color: var(--rust); }
+.low-conf { color: var(--text-muted); font-weight: 400; }
+.our-move { margin-top: 0.5rem; font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
 footer.notes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.82rem; }
 footer.notes p { margin: 0 0 0.7rem; }
 footer.notes code { font-family: var(--font-mono); background: var(--surface-2); padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; }
@@ -73,12 +75,12 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
     <p class="eyebrow">2026 CFB Handicap Model &middot; Generated August 16, 2026</p>
     <h1>Reverse Line Movement Watch</h1>
     <p class="subhead">Real sportsbook % of bets and % of money for every Week 1 game with public betting
-    data posted so far, cross-checked against our own polled spread history to flag actual reverse line
+    data posted so far, checked against the line's own open-to-consensus move to flag actual reverse line
     movement &mdash; not just a bets/money split sitting there, but the line demonstrably moving
     <em>against</em> the majority of tickets.</p>
     <div class="stat-row">
       <div class="stat"><span class="n">8</span><span class="l">Games with data</span></div>
-      <div class="stat"><span class="n">1</span><span class="l">RLM flags</span></div>
+      <div class="stat"><span class="n">4</span><span class="l">RLM flags</span></div>
     </div>
   </header>
 
@@ -86,11 +88,13 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
     <strong>Coverage is thin right now, on purpose.</strong> Sportsbooks post real bet/money percentages
     game by game as betting volume builds, and only 8 of the week's games have any posted
     yet &mdash; this will fill in as kickoff (Aug 29) approaches. <strong>Every game here is checked for
-    RLM</strong> by comparing the majority ticket-count side (bets%) against real spread movement pulled
-    from our own 6-hourly line snapshots (not VegasInsider's own open/consensus figures, which blend
-    multiple books and aren't a clean single-book time series). A flag only fires when the line actually
-    moved against the crowd &mdash; most games here haven't moved at all yet, so most show no flag simply
-    because there's nothing to be reverse yet.
+    RLM</strong> by comparing the majority ticket-count side (bets%) against the line's own open&rarr;
+    consensus move (the figures VegasInsider captures in the same snapshot as the bet percentages, so
+    they're properly time-aligned). Some flags are marked lower-confidence when 85%+ of bets sit on one
+    side &mdash; those blowout games likely have too little real money in play for classic bet-pressure
+    theory to explain the move; it's probably a power-rating update instead. Where our own separately-
+    polled snapshots (<code>line_snapshots_2026.csv</code>) overlap, they're shown too, clearly labeled
+    as a different, narrower time window &mdash; not the trigger for any flag.
   </div>
 
   <section class="games">
@@ -123,9 +127,9 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-pos">+23</span></div>
             </div></div>
-          
+          <div class="our-move">Separately, our own polled snapshots (narrower window) show: Bovada -1.0</div>
         </div>
-        <div class="pb-card">
+        <div class="pb-card rlm">
           <div class="pb-matchup">San Jose State <span class="at">@</span> USC</div>
           <div class="pb-line">Open USC -35.5 o57.5 N/A &rarr; Consensus USC -38.5 o60.5 N/A</div>
           <div class="pb-teams">
@@ -153,7 +157,7 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-pos">+29</span></div>
             </div></div>
-          
+          <div class="rlm-flag">&#9888; Reverse line movement: consensus spread moved -3.0 pts toward <strong>USC</strong> (open USC -35.5 o57.5 N/A &rarr; consensus USC -38.5 o60.5 N/A), the side with the <em>minority</em> of bets &mdash; against the crowd. <span class="low-conf">(low confidence &mdash; near-unanimous bets, likely a power-rating move rather than bet pressure)</span></div>
         </div>
         <div class="pb-card">
           <div class="pb-matchup">NC State <span class="at">@</span> Virginia</div>
@@ -185,7 +189,7 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
             </div></div>
           
         </div>
-        <div class="pb-card">
+        <div class="pb-card rlm">
           <div class="pb-matchup">Jacksonville State <span class="at">@</span> North Dakota State</div>
           <div class="pb-line">Open NDSU -10 o48.5 -325 &rarr; Consensus NDSU -7 o47.5 -270</div>
           <div class="pb-teams">
@@ -213,7 +217,7 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-neg">-28</span></div>
             </div></div>
-          
+          <div class="rlm-flag">&#9888; Reverse line movement: consensus spread moved +3.0 pts toward <strong>Jacksonville State</strong> (open NDSU -10 o48.5 -325 &rarr; consensus NDSU -7 o47.5 -270), the side with the <em>minority</em> of bets &mdash; against the crowd.</div>
         </div>
         <div class="pb-card">
           <div class="pb-matchup">Sacramento State <span class="at">@</span> Eastern Michigan</div>
@@ -245,7 +249,7 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
             </div></div>
           
         </div>
-        <div class="pb-card">
+        <div class="pb-card rlm">
           <div class="pb-matchup">New Mexico State <span class="at">@</span> Florida State</div>
           <div class="pb-line">Open FSU -28.5 o53.5 -10000 &rarr; Consensus FSU -31.5 o52.5 -8000</div>
           <div class="pb-teams">
@@ -273,9 +277,9 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-pos">+12</span></div>
             </div></div>
-          
+          <div class="rlm-flag">&#9888; Reverse line movement: consensus spread moved -3.0 pts toward <strong>Florida State</strong> (open FSU -28.5 o53.5 -10000 &rarr; consensus FSU -31.5 o52.5 -8000), the side with the <em>minority</em> of bets &mdash; against the crowd. <span class="low-conf">(low confidence &mdash; near-unanimous bets, likely a power-rating move rather than bet pressure)</span></div>
         </div>
-        <div class="pb-card rlm">
+        <div class="pb-card">
           <div class="pb-matchup">Hawai&#x27;i <span class="at">@</span> Stanford</div>
           <div class="pb-line">Open STAN -3 o50.5 -175 &rarr; Consensus STAN -5.5 o49.5 -218</div>
           <div class="pb-teams">
@@ -303,9 +307,9 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-neg">-42</span></div>
             </div></div>
-          <div class="rlm-flag">&#9888; Reverse line movement: Bovada's spread moved +0.5 pts toward <strong>Hawai&#x27;i</strong>, the side with the <em>minority</em> of bets &mdash; against the crowd, with the money.</div>
+          <div class="our-move">Separately, our own polled snapshots (narrower window) show: Bovada +0.5</div>
         </div>
-        <div class="pb-card">
+        <div class="pb-card rlm">
           <div class="pb-matchup">Memphis <span class="at">@</span> UNLV</div>
           <div class="pb-line">Open UNLV -3 o60.5 -175 &rarr; Consensus UNLV -6 o57.5 -225</div>
           <div class="pb-teams">
@@ -333,7 +337,7 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
               </div>
               <div class="pb-diff-line">money &minus; bets: <span class="diff diff-neg">-7</span></div>
             </div></div>
-          
+          <div class="rlm-flag">&#9888; Reverse line movement: consensus spread moved -3.0 pts toward <strong>UNLV</strong> (open UNLV -3 o60.5 -175 &rarr; consensus UNLV -6 o57.5 -225), the side with the <em>minority</em> of bets &mdash; against the crowd.</div>
         </div>
     </div>
   </section>
