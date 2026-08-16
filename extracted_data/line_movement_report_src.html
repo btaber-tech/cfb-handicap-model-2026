@@ -1,0 +1,260 @@
+<title>Week 1 Line Watch</title>
+<meta name="description" content="How far Week 1 2026 college football spreads and totals have moved since first tracked, book by book.">
+
+<style>
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12140f; --surface: #191c15; --surface-2: #20241b; --border: #33382c;
+    --text: #edeee6; --text-muted: #9aa090; --accent: #5da682; --accent-soft: #1f2f26;
+    --gold: #d1ab52; --gold-soft: #2b2617; --rust: #d98f78;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12140f; --surface: #191c15; --surface-2: #20241b; --border: #33382c;
+  --text: #edeee6; --text-muted: #9aa090; --accent: #5da682; --accent-soft: #1f2f26;
+  --gold: #d1ab52; --gold-soft: #2b2617; --rust: #d98f78;
+}
+:root {
+  --bg: #f5f4ef; --surface: #ffffff; --surface-2: #edece4; --border: #dcd8ca;
+  --text: #1a1e19; --text-muted: #656a5e; --accent: #2f6b4f; --accent-soft: #e3ede7;
+  --gold: #9c7a23; --gold-soft: #f2ead2; --rust: #8a4a3a;
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0 0 4rem; line-height: 1.45; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
+header.masthead { border-bottom: 1px solid var(--border); padding: 2.75rem 0 1.75rem; margin-bottom: 2rem; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.6rem; }
+h1 { font-family: var(--font-display); font-size: 2.15rem; font-weight: 700; margin: 0 0 0.5rem; text-wrap: balance; letter-spacing: -0.01em; }
+.subhead { color: var(--text-muted); font-size: 0.98rem; max-width: 66ch; margin: 0; }
+.subhead em { color: var(--text); font-style: normal; }
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.75rem 0 0; }
+.stat { background: var(--surface); padding: 0.9rem 1.1rem; }
+.stat .n { font-family: var(--font-mono); font-size: 1.5rem; font-weight: 600; font-variant-numeric: tabular-nums; display: block; }
+.stat .l { color: var(--text-muted); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.callout { background: var(--accent-soft); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.92rem; color: var(--text); margin: 0 0 2.5rem; }
+.callout strong { color: var(--accent); }
+section.movers h2 { font-family: var(--font-display); font-size: 1.3rem; margin: 0 0 1.1rem; }
+.mover-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
+.mover-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1rem 1rem; }
+.mover-head { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; margin-bottom: 0.5rem; }
+.mover-teams { font-weight: 600; font-size: 0.9rem; }
+.at { color: var(--text-muted); font-weight: 400; font-size: 0.85em; }
+.mover-book { font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); border: 1px solid var(--border); border-radius: 3px; padding: 0.1rem 0.35rem; white-space: nowrap; }
+.mover-body { display: flex; align-items: center; gap: 0.8rem; }
+.spark { width: 110px; height: 44px; flex-shrink: 0; }
+.spark-line { stroke: var(--accent); stroke-width: 2; }
+.spark-dot { fill: var(--border); }
+.spark-dot-start { fill: var(--text-muted); }
+.spark-dot-end { fill: var(--accent); }
+.mover-figures { font-family: var(--font-mono); font-size: 0.82rem; }
+.mover-line { font-variant-numeric: tabular-nums; }
+.mover-from { color: var(--text-muted); }
+.mover-arrow { color: var(--text-muted); margin: 0 0.15rem; }
+.mover-to { font-weight: 700; }
+.mover-move { font-size: 0.72rem; margin-top: 0.2rem; font-weight: 600; }
+.dir-home { color: var(--accent); }
+.dir-away { color: var(--gold); }
+.dir-flat { color: var(--text-muted); }
+.ou-chip { display: inline-block; margin-top: 0.35rem; font-size: 0.66rem; color: var(--text-muted); background: var(--surface-2); border-radius: 3px; padding: 0.1rem 0.3rem; }
+footer.notes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.82rem; }
+footer.notes p { margin: 0 0 0.7rem; }
+footer.notes code { font-family: var(--font-mono); background: var(--surface-2); padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; }
+@media (max-width: 480px) {
+  .mover-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">2026 CFB Handicap Model &middot; Generated August 16, 2026</p>
+    <h1>Week 1 Line Watch</h1>
+    <p class="subhead">Tracking every Week 1 spread and total across 16 snapshots since
+    Aug 12, polled every ~6 hours from Bovada and DraftKings via CollegeFootballData.com
+    (CFBD only exposes each book's <em>current</em> line, not history &mdash; this dataset is built forward,
+    snapshot by snapshot, for free).</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">51</span><span class="l">Games tracked</span></div>
+      <div class="stat"><span class="n">16</span><span class="l">Snapshots</span></div>
+      <div class="stat"><span class="n">3</span><span class="l">Days of history</span></div>
+      <div class="stat"><span class="n">9</span><span class="l">Lines that moved</span></div>
+    </div>
+  </header>
+
+  <div class="callout">
+    <strong>The market is essentially frozen right now.</strong> Of 102 tracked spread/book pairs,
+    only 9 (9%) have moved at all since the first snapshot &mdash; and every move
+    so far is a single half- or full-point nudge that then held steady, not a run. Moneylines haven't
+    moved on a single tracked game (0 of 53 pairs), and totals
+    have moved on just one. That's expected roughly 1.7 weeks before kickoff &mdash; this is real
+    signal, not a broken pipeline: preseason books post a line and let it sit until injury/depth-chart
+    news or real market pressure builds closer to game day. The 9 movers below are the entire
+    story so far.
+  </div>
+
+  <section class="movers">
+    <h2>Every line that's actually moved</h2>
+    <div class="mover-grid">
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">North Carolina <span class="at">@</span> TCU</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -7.5 to -8.5"><path d="M 7.0 7.0 L 22.1 7.0 L 37.1 7.0 L 52.2 7.0 L 67.3 7.0 L 82.3 7.0 L 97.4 7.0 L 112.5 7.0 L 127.5 7.0 L 142.6 7.0 L 157.7 41.0 L 172.7 41.0 L 187.8 41.0 L 202.9 41.0 L 217.9 41.0 L 233.0 41.0" class="spark-line" fill="none"/><circle cx="157.7" cy="41.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="7.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="41.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-7.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-8.5</span></div>
+              <div class="mover-move dir-home">-1.0 pts &middot; toward TCU</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Tulane <span class="at">@</span> Duke</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -9.5 to -8.5"><path d="M 7.0 41.0 L 22.1 24.0 L 37.1 24.0 L 52.2 24.0 L 67.3 24.0 L 82.3 24.0 L 97.4 24.0 L 112.5 24.0 L 127.5 41.0 L 142.6 41.0 L 157.7 7.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="22.1" cy="24.0" r="2.6" class="spark-dot"/><circle cx="127.5" cy="41.0" r="2.6" class="spark-dot"/><circle cx="157.7" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-9.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-8.5</span></div>
+              <div class="mover-move dir-away">+1.0 pts &middot; toward Tulane</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Oklahoma State <span class="at">@</span> Tulsa</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from +13.5 to +14.0"><path d="M 7.0 41.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 7.0 L 142.6 7.0 L 157.7 7.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="127.5" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">+13.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">+14.0</span></div>
+              <div class="mover-move dir-away">+0.5 pts &middot; toward Oklahoma State</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Hawai&#x27;i <span class="at">@</span> Stanford</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -5.5 to -5.0"><path d="M 7.0 41.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 41.0 L 142.6 41.0 L 157.7 41.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="172.7" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-5.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-5.0</span></div>
+              <div class="mover-move dir-away">+0.5 pts &middot; toward Hawai&#x27;i</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Miami (OH) <span class="at">@</span> Pittsburgh</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -16.5 to -16.0"><path d="M 7.0 41.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 41.0 L 142.6 41.0 L 157.7 7.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="157.7" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-16.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-16.0</span></div>
+              <div class="mover-move dir-away">+0.5 pts &middot; toward Miami (OH)</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Wyoming <span class="at">@</span> Colorado State</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -4.0 to -3.5"><path d="M 7.0 41.0 L 22.1 7.0 L 37.1 7.0 L 52.2 7.0 L 67.3 7.0 L 82.3 7.0 L 97.4 7.0 L 112.5 7.0 L 127.5 7.0 L 142.6 7.0 L 157.7 7.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="22.1" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-4.0</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-3.5</span></div>
+              <div class="mover-move dir-away">+0.5 pts &middot; toward Wyoming</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Arkansas State <span class="at">@</span> Memphis</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -10.0 to -9.5"><path d="M 7.0 41.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 7.0 L 142.6 7.0 L 157.7 7.0 L 172.7 7.0 L 187.8 7.0 L 202.9 7.0 L 217.9 7.0 L 233.0 7.0" class="spark-line" fill="none"/><circle cx="127.5" cy="7.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="7.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-10.0</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-9.5</span></div>
+              <div class="mover-move dir-away">+0.5 pts &middot; toward Arkansas State</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Western Kentucky <span class="at">@</span> Nevada</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from +3.0 to +2.5"><path d="M 7.0 7.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 41.0 L 142.6 41.0 L 157.7 41.0 L 172.7 41.0 L 187.8 41.0 L 202.9 41.0 L 217.9 41.0 L 233.0 41.0" class="spark-line" fill="none"/><circle cx="22.1" cy="41.0" r="2.6" class="spark-dot"/><circle cx="7.0" cy="7.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="41.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">+3.0</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">+2.5</span></div>
+              <div class="mover-move dir-home">-0.5 pts &middot; toward Nevada</div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mover-card">
+          <div class="mover-head">
+            <div class="mover-teams">Liberty <span class="at">@</span> James Madison</div>
+            <span class="mover-book">Bovada</span>
+          </div>
+          <div class="mover-body">
+            <svg viewBox="0 0 240 48" class="spark" preserveAspectRatio="none" role="img" aria-label="spread from -6.5 to -6.5"><path d="M 7.0 41.0 L 22.1 41.0 L 37.1 41.0 L 52.2 41.0 L 67.3 41.0 L 82.3 41.0 L 97.4 41.0 L 112.5 41.0 L 127.5 41.0 L 142.6 41.0 L 157.7 41.0 L 172.7 41.0 L 187.8 41.0 L 202.9 41.0 L 217.9 41.0 L 233.0 41.0" class="spark-line" fill="none"/><circle cx="7.0" cy="41.0" r="2.4" class="spark-dot-start"/><circle cx="233.0" cy="41.0" r="3.4" class="spark-dot-end"/></svg>
+            <div class="mover-figures">
+              <div class="mover-line"><span class="mover-from">-6.5</span>
+                <span class="mover-arrow">&rarr;</span>
+                <span class="mover-to">-6.5</span></div>
+              <div class="mover-move dir-flat">flat pts &middot; total only</div>
+              <span class="ou-chip">O/U 51.5&rarr;52.5</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="notes">
+    <p><strong>Why this exists:</strong> CollegeFootballData.com's <code>/lines</code> endpoint only
+    returns each book's current number, with a single "open" value and no intraday history. A local
+    Scheduled Task polls it every 6 hours and appends timestamped rows to
+    <code>line_snapshots_2026.csv</code>, turning a snapshot-only API into a real movement history for
+    free. This page reads that growing file directly.</p>
+    <p><strong>What this isn't (yet):</strong> a CLV or steam-detection signal. That analysis needs many
+    more weeks of data, ideally spanning open-to-close for each game once injury news and real betting
+    volume start moving lines &mdash; nothing here has been backtested for a betting edge. Revisit as
+    the dataset grows through the season.</p>
+    <p>Data: CollegeFootballData.com <code>/lines</code> (Bovada, DraftKings), polled locally every 6
+    hours since 2026-08-12.</p>
+  </footer>
+</div>
