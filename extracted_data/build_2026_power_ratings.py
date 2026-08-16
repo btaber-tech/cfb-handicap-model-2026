@@ -40,6 +40,39 @@ ATHLON_TO_CFBD = {
     "ULM": "UL Monroe",
 }
 
+# Phil Steele's team-name spelling (as literally printed in his Power Poll)
+# -> Athlon's spelling, which is what `team` ends up as in the output file
+# (see step 3: `final` is built off the Athlon table, so its `team` column
+# is Athlon-spelled even though CFBD stats get joined in underneath it).
+# Most of Steele's abbreviations are a plain "X St" -> "X State" swap,
+# handled generically below; these are the exceptions.
+STEELE_TO_ATHLON = {
+    "Mississippi": "Ole Miss",
+    "Mississippi St": "Mississippi State",
+    "Miami (FL)": "Miami (Fla.)",
+    "Miami (OH)": "Miami (Ohio)",
+    "Pittsburgh": "Pitt",
+    "Connecticut": "UConn",
+    "California": "Cal",
+    "Western Kentucky": "WKU",
+    "Massachusetts": "UMass",
+    "Sam Houston St": "Sam Houston",
+    "Hawaii": "Hawai'i",
+    "San Jose St": "San Jose State",
+}
+
+
+def steele_join_key(name, athlon_teams):
+    if name in STEELE_TO_ATHLON:
+        return STEELE_TO_ATHLON[name]
+    if name in athlon_teams:
+        return name
+    if name.endswith(" St"):
+        candidate = name[:-3] + " State"
+        if candidate in athlon_teams:
+            return candidate
+    return None
+
 # ---------------------------------------------------------------------------
 # 1. Refit the margin-prediction model on 2022-2025 transitions, dropping
 #    incoming_talent (unavailable for 2026).
@@ -101,36 +134,69 @@ athlon = pd.read_csv("athlon_2026_teams.csv")[["team", "conference", "national_f
                                                 "returning_starters_offense", "returning_starters_defense"]]
 athlon["_join_key"] = athlon["team"].replace(ATHLON_TO_CFBD)
 
+# Phil Steele's Power Poll (1-138, his blended talent rating across 9
+# internal rating systems — see phil_steele_2026_README.md). Converted to
+# a point-scale score (steele_power_poll_score = 139 - rank, so higher is
+# better like every other source) before z-scoring, same treatment as
+# the other three quantitative inputs.
+steele = pd.read_csv("phil_steele_2026_power_poll.csv")
+athlon_teams = set(athlon["team"])
+# Steele's join key targets Athlon's spelling directly (the `team` column
+# in `final`, below) — NOT `athlon["_join_key"]` above, which is a
+# different translation (Athlon -> CFBD spelling) for a different merge.
+steele["_steele_join_key"] = steele["team"].apply(lambda t: steele_join_key(t, athlon_teams))
+unmatched = steele[steele["_steele_join_key"].isna()]
+if len(unmatched):
+    print(f"\nWARNING: {len(unmatched)} Steele Power Poll teams failed to join: {unmatched.team.tolist()}")
+steele["steele_power_poll_score"] = 139 - steele["steele_power_poll_rank"]
+
 final = athlon.merge(model_input[["team", "model_proj_margin_2026"] + predictors].rename(columns={"team": "_join_key"}), on="_join_key", how="left") \
     .merge(sp, on="team", how="left") \
-    .merge(fpi, on="team", how="left")
+    .merge(fpi, on="team", how="left") \
+    .merge(steele[["_steele_join_key", "steele_power_poll_rank", "steele_power_poll_score"]],
+           left_on="team", right_on="_steele_join_key", how="left")
 
-for col, label in [("model_proj_margin_2026", "bottom-up model"), ("sp_plus", "SP+ preseason"), ("fpi", "FPI preseason")]:
+for col, label in [("model_proj_margin_2026", "bottom-up model"), ("sp_plus", "SP+ preseason"),
+                    ("fpi", "FPI preseason"), ("steele_power_poll_score", "Phil Steele Power Poll")]:
     n_missing = final[col].isna().sum()
     if n_missing:
         print(f"\n{n_missing} teams missing {label}: {final[final[col].isna()].team.tolist()}")
 
 # ---------------------------------------------------------------------------
-# 4. Blended composite: z-score the three quantitative sources, average
+# 4. Blended composite: z-score the four quantitative sources, average.
+#
+# Phil Steele's Power Poll is included here as a full quantitative source
+# (equal 25% weight alongside the bottom-up model, SP+, and FPI) rather
+# than as a comparison-only column, at the user's request that Steele's
+# opinion carry more weight than Athlon's — Athlon's national_forecast_rank
+# stays comparison-only (0% weight, same as before) since it's a predicted-
+# finish rank, not a talent rating, and per the backtest findings
+# (cfb-backtest-findings-2026) preseason qualitative reads should generally
+# be a manual overlay rather than blended numerically. Steele's Power Poll
+# gets the exception because it's explicitly a talent/strength composite
+# (his own blend of 9 rating systems) — functionally the same kind of
+# input as SP+/FPI, not a predicted-record opinion piece.
 # ---------------------------------------------------------------------------
-for col in ["model_proj_margin_2026", "sp_plus", "fpi"]:
+for col in ["model_proj_margin_2026", "sp_plus", "fpi", "steele_power_poll_score"]:
     final[f"z_{col}"] = (final[col] - final[col].mean()) / final[col].std()
 
-final["blended_score"] = final[["z_model_proj_margin_2026", "z_sp_plus", "z_fpi"]].mean(axis=1, skipna=True)
+z_cols = ["z_model_proj_margin_2026", "z_sp_plus", "z_fpi", "z_steele_power_poll_score"]
+final["blended_score"] = final[z_cols].mean(axis=1, skipna=True)
 final["blended_rank"] = final["blended_score"].rank(ascending=False, method="min").astype("Int64")
 
-# Spread across the 3 sources (disagreement flag): std of the 3 z-scores per team
-final["source_disagreement"] = final[["z_model_proj_margin_2026", "z_sp_plus", "z_fpi"]].std(axis=1)
+# Spread across the 4 sources (disagreement flag): std of the 4 z-scores per team
+final["source_disagreement"] = final[z_cols].std(axis=1)
 
 final = final.sort_values("blended_score", ascending=False)
 out_cols = ["blended_rank", "team", "conference", "blended_score", "source_disagreement",
-            "model_proj_margin_2026", "sp_plus", "fpi", "national_forecast_rank",
-            "record_2025_overall", "head_coach", "returning_starters_offense",
-            "returning_starters_defense", "incoming_recruit_points", "incoming_ret_percentPPA"]
+            "model_proj_margin_2026", "sp_plus", "fpi", "steele_power_poll_rank",
+            "national_forecast_rank", "record_2025_overall", "head_coach",
+            "returning_starters_offense", "returning_starters_defense",
+            "incoming_recruit_points", "incoming_ret_percentPPA"]
 final[out_cols].to_csv("cfb_2026_power_ratings.csv", index=False)
 
 print(f"\nSaved cfb_2026_power_ratings.csv — {len(final)} teams")
 print("\n=== Top 15 ===")
 print(final[out_cols].head(15).to_string(index=False))
 print("\n=== Biggest 3-source disagreements (worth a manual/Athlon-qualitative look) ===")
-print(final.sort_values("source_disagreement", ascending=False)[["team", "blended_rank", "model_proj_margin_2026", "sp_plus", "fpi", "source_disagreement"]].head(10).to_string(index=False))
+print(final.sort_values("source_disagreement", ascending=False)[["team", "blended_rank", "model_proj_margin_2026", "sp_plus", "fpi", "steele_power_poll_rank", "source_disagreement"]].head(10).to_string(index=False))

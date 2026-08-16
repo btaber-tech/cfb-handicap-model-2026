@@ -12,8 +12,17 @@ Usage:
 
 For each FBS-vs-FBS game:
   - model_margin = avg of available point-scale ratings diffs (SP+, FPI,
-    bottom-up model_proj_margin_2026), home minus away, plus a home-field
-    adjustment.
+    bottom-up model_proj_margin_2026, Phil Steele's Power Poll rescaled to
+    points -- see STEELE_POINT_SCALE below), home minus away, plus a
+    home-field adjustment. Steele's Power Poll was added at the user's
+    request that his opinion carry more weight than Athlon's (which has
+    no numeric weight here or in cfb_2026_power_ratings.csv -- comparison
+    column only). This 4th-source addition is NOT separately backtested
+    (the ~76% SU accuracy figure in cfb-backtest-findings-2026 was
+    measured on the 3-source SP+/FPI/bottom-up version); it's a reasonable
+    extension since Steele's Power Poll is itself a talent composite like
+    SP+/FPI, not an opinion piece, but treat post-integration accuracy as
+    unverified until re-backtested.
   - win prob from a normal CDF on that margin with sigma=SIGMA.
   - market_margin, if a line exists yet, shown for reference only -- per
     the backtest (cfb-backtest-findings-2026), model-vs-spread gaps are
@@ -105,9 +114,16 @@ def main():
     pr = pd.read_csv("cfb_2026_power_ratings.csv")
     sp_split = pd.read_csv("sp_plus_2026_preseason.csv")[["team", "off_sp_plus", "def_sp_plus"]]
     pr = pr.merge(sp_split, on="team", how="left")
+    # Phil Steele's Power Poll (1-138 ordinal rank) -> a point-scale value
+    # comparable to sp_plus/fpi/model_proj_margin_2026: z-score it across
+    # all 138 teams, then rescale by SP+'s own std dev (see comment on
+    # STEELE_POINT_SCALE note in the module docstring).
+    steele_score = 139 - pr["steele_power_poll_rank"]
+    steele_z = (steele_score - steele_score.mean()) / steele_score.std()
+    pr["steele_margin"] = steele_z * pr["sp_plus"].std()
     pr_lookup = pr.set_index("team")[
-        ["sp_plus", "fpi", "model_proj_margin_2026", "blended_rank", "off_sp_plus", "def_sp_plus",
-         "source_disagreement"]
+        ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin", "blended_rank",
+         "off_sp_plus", "def_sp_plus", "source_disagreement"]
     ].to_dict("index")
     DISAGREEMENT_FLAG_THRESHOLD = pr["source_disagreement"].quantile(0.90)
 
@@ -142,7 +158,7 @@ def main():
             continue
 
         diffs = []
-        for col in ["sp_plus", "fpi", "model_proj_margin_2026"]:
+        for col in ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]:
             if pd.notna(hr[col]) and pd.notna(ar[col]):
                 diffs.append(hr[col] - ar[col])
         avg_diff = sum(diffs) / len(diffs) if diffs else float("nan")

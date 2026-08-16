@@ -1,16 +1,16 @@
 # 2026 Power Ratings — `cfb_2026_power_ratings.csv`
 
-138 FBS teams, one row each. Built from three independent sources rather
+138 FBS teams, one row each. Built from four independent sources rather
 than one black-box number, on purpose — agreement across sources is the
-confidence signal, disagreement is where manual/Athlon qualitative
-judgment (coaching change, portal churn, injuries) should override the
-math.
+confidence signal, disagreement is where manual/qualitative judgment
+(coaching change, portal churn, injuries) should override the math.
 
 ## Columns
 
-- **blended_rank / blended_score** — average of the three z-scored
-  quantitative sources below. This is the main sort/rank column.
-- **source_disagreement** — std. dev. of the three z-scores for that team.
+- **blended_rank / blended_score** — average of the **four** z-scored
+  quantitative sources below (equal 25% weight each). This is the main
+  sort/rank column.
+- **source_disagreement** — std. dev. of the four z-scores for that team.
   High = the sources disagree a lot; worth a manual look before trusting
   the blend (list of the 10 biggest included in the build script's
   output).
@@ -23,8 +23,22 @@ math.
 - **sp_plus / fpi** — the top-down composites pulled earlier (Bill
   Connelly's SP+, ESPN FPI), both already sophisticated preseason models
   in their own right.
-- **national_forecast_rank** — Athlon's qualitative preseason rank, for
-  comparison against the quantitative blend.
+- **steele_power_poll_rank** — Phil Steele's 2026 "Power Poll" (1-138),
+  his own blend of 9 internal talent-rating systems, extracted from his
+  purchased 2026 CFB Preview magazine (see
+  `phil_steele_2026_README.md`/[[phil-steele-2026-extraction]]). Included
+  in the blend (converted to a 139-rank point score, then z-scored, same
+  as the other three) **at the user's explicit request that Phil Steele's
+  opinion carry more weight than Athlon's** in the model. Unlike Athlon's
+  rank below, this earns a real numeric weight because it's a talent/
+  strength composite functionally equivalent to SP+/FPI, not a predicted-
+  finish opinion piece.
+- **national_forecast_rank** — Athlon's qualitative preseason rank.
+  **Comparison-only, 0% weight in the blend** (unchanged from before) —
+  it's Athlon's predicted-*finish* rank, not a talent rating, and per
+  the backtest findings preseason opinion pieces are meant as a manual
+  overlay, not blended numerically. This is the deliberate asymmetry that
+  makes Steele more influential than Athlon in the model.
 - Context columns: conference, 2025 record, head coach, returning starters
   (offense/defense counts from Athlon), incoming recruiting points,
   incoming returning-production %.
@@ -71,5 +85,5 @@ strength**, not for beating closing spreads on its own. Practical use:
 - Don't treat "my rating vs. the spread" as a standing bet signal — the
   backtest showed that doesn't clear the vig by itself.
 
-Script: `build_2026_power_ratings.py`. Re-run any time the Athlon/SP+/FPI
-source files are refreshed.
+Script: `build_2026_power_ratings.py`. Re-run any time the Athlon/SP+/FPI/
+Steele source files are refreshed.
