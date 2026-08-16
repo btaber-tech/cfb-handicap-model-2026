@@ -75,6 +75,7 @@ section.week { margin-bottom: 3rem; }
 .matchup { font-size: 0.95rem; font-weight: 500; }
 .at { color: var(--text-muted); font-weight: 400; font-size: 0.85em; }
 .flag { color: var(--gold); font-size: 0.7em; cursor: help; margin-left: 0.1em; }
+.home-tag { color: var(--accent); font-size: 0.68em; font-weight: 700; font-family: var(--font-mono); vertical-align: 0.15em; margin-left: 0.25em; }
 .ranks { font-size: 0.76rem; color: var(--text-muted); margin-top: 0.15rem; }
 .rank { font-family: var(--font-mono); }
 .pick-name { font-weight: 600; font-size: 0.92rem; }
@@ -116,8 +117,10 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
 """
 
 CALLOUT = """
-    <strong>Reading this:</strong> "Win prob" and margin come from blending SP+, ESPN FPI, and this
-    project's bottom-up 2026 model, plus a home-field adjustment. The backtest found these inputs
+    <strong>Reading this:</strong> "Win prob" and margin come from blending SP+, ESPN FPI, this
+    project's bottom-up 2026 model, and Phil Steele's Power Poll, plus a home-field adjustment.
+    The home team is marked <span class="home-tag" style="margin-left:0">HOME</span> (neutral-site
+    games have no marker, since neither side is truly home). The backtest found these inputs
     predict <strong>straight-up wins and margins well</strong> but have <strong>no demonstrated edge against the
     closing spread</strong> (r&lt;0.08 on cover rate across 4 separate tests). <strong>Totals are shown too, but
     trust them less</strong> &mdash; a separate backtest found game totals are far noisier than margins for
@@ -128,19 +131,22 @@ CALLOUT = """
     3+ raw points for near-even lines where a percentage stops being meaningful. Either way it's a
     "look closer" flag, not a bet signal by itself (no backtested edge tracks with gap size). A
     <span class="flag">&#9888;</span> next to a team means SP+/FPI/the
-    bottom-up model unusually disagree on that team (top 10% of all 138 teams) &mdash; hover for the
+    bottom-up model/Steele unusually disagree on that team (top 10% of all 138 teams) &mdash; hover for the
     number, and treat that game's projection as softer than usual.
 """
 
 FOOTER = """
-    <p>Model: <code>margin = avg(SP+, FPI, bottom-up 2026 model) + tiered home-field advantage</code>,
-    win probability from a normal CDF (&sigma;=18.4). HFA/sigma recalibrated against 2,210 FBS games
+    <p>Model: <code>margin = avg(SP+, FPI, bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage</code>,
+    win probability from a normal CDF (&sigma;=18.4). Steele's Power Poll (his own blend of 9 talent-rating
+    systems) is rescaled from an ordinal 1-138 rank to a point scale comparable to SP+/FPI before averaging in
+    -- included at equal weight to the other three sources, deliberately weighted above Athlon's national rank
+    (comparison-only, not blended in). HFA/sigma recalibrated against 2,210 FBS games
     (2023-2025): +2.9 at a true home site, +1.8 at a "neutral" site (most still favor one side),
     +6.0 for altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah,
     Wyoming). Totals are a calibrated SP+ offense/defense matchup average -- weak signal (R&sup2;&asymp;0.03),
     shown as context only.</p>
     <p>Data: CollegeFootballData.com (games/lines/SP+/FPI/recruiting/returning production),
-    ESPN FPI, this project's bottom-up 2026 power ratings.</p>
+    ESPN FPI, Phil Steele's 2026 CFB Preview, this project's bottom-up 2026 power ratings.</p>
 """
 
 
@@ -188,11 +194,17 @@ def build_game_row(row):
         flags[dteam] = dval
 
     def name_with_flag(team):
+        name = esc(team)
         if team in flags:
             title = (f"SP+/FPI/bottom-up model disagree unusually widely on {esc(team)} "
                      f"({flags[team]:.2f} spread of z-scores) &mdash; worth a manual/qualitative look")
-            return f'{esc(team)}<sup class="flag" title="{title}">&#9888;</sup>'
-        return esc(team)
+            name += f'<sup class="flag" title="{title}">&#9888;</sup>'
+        # Explicit home-team marker, on top of the "away @ home" / "home vs
+        # away" word-order convention already in matchup_sep -- not
+        # everyone reads that as a home/away signal at a glance.
+        if not neutral and team == home:
+            name += '<span class="home-tag" title="Home team">HOME</span>'
+        return name
 
     matchup = f'{name_with_flag(left)} <span class="at">{matchup_sep}</span> {name_with_flag(right)}'
 
