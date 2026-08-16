@@ -3,11 +3,13 @@ Season win-total projection engine.
 
 For every FBS team, projects a probability for EACH game on its full
 regular-season schedule (reusing the same blended-margin + tiered-HFA +
-normal-CDF formula as build_week_projections.py), then combines those
-per-game probabilities into a full win-count distribution via the exact
-Poisson-binomial pmf (independent, non-identical Bernoulli trials -- this
-is the textbook way to turn a list of game-by-game win probabilities into
-a season win total distribution, not just a mean).
+normal-CDF formula as build_week_projections.py -- 4 point-scale sources:
+SP+, FPI, the bottom-up model, and Phil Steele's Power Poll rescaled to
+points, equal-weighted), then combines those per-game probabilities into
+a full win-count distribution via the exact Poisson-binomial pmf
+(independent, non-identical Bernoulli trials -- this is the textbook way
+to turn a list of game-by-game win probabilities into a season win total
+distribution, not just a mean).
 
 Conventions matched to how sportsbooks post win-total futures: regular
 season only (excludes conference championship games and bowls), FCS/lower-
@@ -34,6 +36,7 @@ import os
 import pandas as pd
 
 from cfbd_fetch import cfbd_get_save
+from market_win_totals import LINES_2026, MARKET_TO_INTERNAL
 
 CFBD_TO_ATHLON = {
     "California": "Cal",
@@ -46,6 +49,7 @@ CFBD_TO_ATHLON = {
     "San José State": "San Jose State",
     "App State": "Appalachian State",
     "UL Monroe": "ULM",
+    "Hawaii": "Hawai'i",
 }
 
 HFA_BASE = 2.9
@@ -53,7 +57,7 @@ HFA_NEUTRAL = 1.8
 HFA_ALTITUDE = 6.0
 ALTITUDE_TEAMS = {"Air Force", "BYU", "Colorado", "Colorado State", "New Mexico", "Utah", "Wyoming"}
 SIGMA = 18.4
-FCS_PROXY_RATING = -28.7  # see module docstring; applied on the sp_plus/fpi/model_proj_margin_2026 scales alike
+FCS_PROXY_RATING = -28.7  # see module docstring; applied on the sp_plus/fpi/model_proj_margin_2026/steele_margin scales alike
 
 
 def norm_cdf(x):
@@ -102,8 +106,15 @@ def main():
     games = json.load(open(games_path, encoding="utf-8"))
 
     pr = pd.read_csv("cfb_2026_power_ratings.csv")
+    # Phil Steele's Power Poll (1-138 ordinal rank) -> a point-scale value
+    # comparable to sp_plus/fpi/model_proj_margin_2026, same treatment as
+    # build_week_projections.py: z-score across all 138 teams, rescale by
+    # SP+'s own std dev.
+    steele_score = 139 - pr["steele_power_poll_rank"]
+    steele_z = (steele_score - steele_score.mean()) / steele_score.std()
+    pr["steele_margin"] = steele_z * pr["sp_plus"].std()
     pr_lookup = pr.set_index("team")[
-        ["sp_plus", "fpi", "model_proj_margin_2026"]
+        ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]
     ].to_dict("index")
     conf_lookup = pr.set_index("team")["conference"].to_dict()
     rank_lookup = pr.set_index("team")["blended_rank"].to_dict()
@@ -118,7 +129,8 @@ def main():
             if r is None:
                 return None
             return r
-        return {"sp_plus": FCS_PROXY_RATING, "fpi": FCS_PROXY_RATING, "model_proj_margin_2026": FCS_PROXY_RATING}
+        return {"sp_plus": FCS_PROXY_RATING, "fpi": FCS_PROXY_RATING,
+                "model_proj_margin_2026": FCS_PROXY_RATING, "steele_margin": FCS_PROXY_RATING}
 
     # Per-team list of (opponent, is_home, is_neutral, win_prob_for_this_team)
     team_games = {t: [] for t in pr["team"]}
@@ -141,7 +153,7 @@ def main():
             continue
 
         diffs = []
-        for col in ["sp_plus", "fpi", "model_proj_margin_2026"]:
+        for col in ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]:
             if pd.notna(hr[col]) and pd.notna(ar[col]):
                 diffs.append(hr[col] - ar[col])
         if not diffs:
@@ -208,6 +220,31 @@ def main():
         })
 
     df = pd.DataFrame(rows).sort_values("expected_wins", ascending=False)
+
+    # Merge in web-sourced DraftKings/consensus preseason win-total lines
+    # (market_win_totals.py) for the artifact's market-comparison columns.
+    # Only defined for 2026 currently; other years silently get NaN, same
+    # as build_win_totals_edge_test.py's historical backtest handling.
+    if year == 2026:
+        lines = LINES_2026
+
+        def lookup(team):
+            if team in lines:
+                return lines[team]
+            for market_name, internal_name in MARKET_TO_INTERNAL.items():
+                if internal_name == team and market_name in lines:
+                    return lines[market_name]
+            # Market names generally follow CFBD's spelling, not Athlon's
+            # (e.g. "Miami" not "Miami (Fla.)") -- reuse the same alias
+            # map used throughout this pipeline, in reverse.
+            for cfbd_name, athlon_name in CFBD_TO_ATHLON.items():
+                if athlon_name == team and cfbd_name in lines:
+                    return lines[cfbd_name]
+            return None
+
+        df["market_line"] = df["team"].apply(lookup)
+        df["model_gap"] = df["expected_wins"] - df["market_line"]
+
     out_path = f"season_win_totals_{year}.csv"
     df.to_csv(out_path, index=False)
     print(f"\n{len(df)} teams projected, saved to {out_path}")
