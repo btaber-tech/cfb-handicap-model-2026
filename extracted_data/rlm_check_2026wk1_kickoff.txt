@@ -1,0 +1,56 @@
+REVERSE LINE MOVEMENT CHECK — Week 1, kickoff day (2026-08-29)
+Captured live from VegasInsider.com (user's logged-in Chrome session),
+matched against 47 of our 51 Week 1 FBS-vs-FBS model games (4 games not
+yet posted trends on VI at capture time).
+
+METHOD: for each game, compare VegasInsider's own OPEN -> CONSENSUS
+spread move against the bets% ticket majority. Real RLM = the line moving
+AGAINST the side the majority of bettors are on. Games with a near-
+unanimous (85%+) bets split are marked low-confidence — on 25+ point
+blowouts, the line more likely moves on power-rating/model updates than
+retail bet pressure. This mirrors the methodology in
+build_public_betting_report.py / cfb-handicap-model-2026 memory.
+
+Of 47 matched games: 8 had no line movement at all since open, 21 showed
+RLM by the raw definition, 13 of those at normal confidence (bet split
+tighter than 85/15) and 8 at low confidence (85%+ blowout splits).
+
+Compared to the 2026-08-16 check (4 flags total), the sharp jump in flag
+count is expected, not a bug — that check was ~13 days before kickoff
+with a mostly-frozen market (per line_movement report); today's check is
+same-day/next-day for the earliest games, when real money and injury/
+depth-chart news move lines the most.
+
+=== NORMAL-CONFIDENCE RLM FLAGS (13) ===
+Format: matchup | kickoff (ET-ish, site timezone) | open->consensus home-perspective spread (neg=home favored) | bets% split | majority side
+
+NC State @ Virginia | 8/30 5:30AM | -3 -> -4 | H43%/A57% | line moved toward Virginia (home) despite majority on NC State
+Jacksonville State @ North Dakota State | 8/30 7:30AM | -10 -> -6.5 | H58%/A42% | line moved toward Jacksonville State (away) despite majority on NDSU
+Akron @ Wake Forest | 9/4 9:00AM | -22.5 -> -24.5 | H27%/A73% | line moved toward Wake Forest despite majority on Akron
+Colorado @ Georgia Tech | 9/4 10:00AM | -7 -> -6.5 | H66%/A34% | line moved toward Colorado despite majority on Georgia Tech
+Oregon State @ Houston | 9/6 2:00AM | -18.5 -> -20.5 | H28%/A72% | line moved toward Houston despite majority on Oregon State
+East Carolina @ Alabama | 9/6 2:00AM | -25.5 -> -28.5 | H21%/A79% | line moved toward Alabama despite majority on East Carolina
+Marshall @ Penn State | 9/6 5:30AM | -23.5 -> -24.5 | H32%/A68% | line moved toward Penn State despite majority on Marshall
+Coastal Carolina @ West Virginia | 9/6 2:00AM | -17.5 -> -21.5 | H17%/A83% | line moved toward West Virginia despite majority on Coastal Carolina
+Arkansas State @ Memphis | 9/6 9:00AM | -10.5 -> -8.5 | H71%/A29% | line moved toward Arkansas State despite majority on Memphis
+Boston College @ Cincinnati | 9/6 5:30AM | -9.5 -> -7.5 | H63%/A37% | line moved toward Boston College despite majority on Cincinnati
+Toledo @ Michigan State | 9/5 10:00AM | -10.5 -> -10 | H62%/A38% | line moved toward Toledo despite majority on Michigan State
+Oklahoma State @ Tulsa | 9/6 5:45AM | +11.5 -> +14 | H52%/A48% | near pick'em, line moved toward Tulsa (home) despite ~even/home-leaning bets
+Louisville @ Ole Miss | 9/7 9:30AM | -7 -> -6.5 | H84%/A16% | line moved toward Louisville despite heavy majority on Ole Miss
+
+=== LOW-CONFIDENCE (85%+ blowout, movement likely power-rating driven not RLM) ===
+San José State @ USC | -35.5 -> -38.5 | H14%/A86%
+New Mexico State @ Florida State | -28.5 -> -31.5 | H6%/A94%
+UAB @ Illinois | -27.5 -> -28.5 | H5%/A95%
+Ball State @ Ohio State | -49.5 -> -50.5 | H3%/A97%
+UTEP @ Oklahoma | -40.5 -> -41.5 | H5%/A95%
+Missouri State @ Texas A&M | -38.5 -> -41.5 | H1%/A99%
+Kent State @ South Carolina | -33.5 -> -36.5 | H2%/A98%
+Northern Illinois @ Iowa | -29.5 -> -31.5 | H1%/A99%
+
+CAVEATS: not backtested for a betting edge (per cfb-backtest-findings-2026,
+CFBD-only data found no ATS signal; this VegasInsider layer is the one
+unexplored angle, still just descriptive). Bets% is ticket-count majority,
+not money%, per the established methodology (money% shown in the raw
+capture but not used as the RLM trigger). Treat as "look closer" context,
+same as the model-vs-market gap flags in the weekly slate.
