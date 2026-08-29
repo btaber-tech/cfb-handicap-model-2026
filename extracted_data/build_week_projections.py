@@ -145,7 +145,11 @@ def main():
         date = g["startDate"][:10]
 
         if not (home_fbs and away_fbs):
-            fbs_side = home if home_fbs else (away if away_fbs else None)
+            if not (home_fbs or away_fbs):
+                # Neither side is FBS (e.g. two D-II/D-III teams) -- not a "buy
+                # game" for any FBS team, just noise for this model. Skip.
+                continue
+            fbs_side = home if home_fbs else away
             other_side = away if home_fbs else home
             fbs_vs_other.append({"date": date, "fbs_team": fbs_side, "opponent": other_side,
                                   "home_away": "home" if home_fbs else "away"})

@@ -1,103 +1,202 @@
 game_id,provider,home,away,start_date,spread_first,spread_last,spread_move,ou_first,ou_last,ou_move,ml_move,n_snapshots
-401856634,Bovada,Alabama,East Carolina,2026-09-05T16:00:00.000Z,-28.5,-28.5,0.0,54.0,54.0,0.0,0.0,25
-401856634,DraftKings,Alabama,East Carolina,2026-09-05T16:00:00.000Z,-25.5,-25.5,0.0,,,,,25
-401856636,Bovada,Auburn,Baylor,2026-09-05T19:30:00.000Z,-7.0,-7.0,0.0,59.0,59.0,0.0,0.0,25
-401856636,DraftKings,Auburn,Baylor,2026-09-05T19:30:00.000Z,-6.5,-6.5,0.0,59.5,59.5,0.0,0.0,25
-401856637,Bovada,Florida,Florida Atlantic,2026-09-05T23:45:00.000Z,-26.5,-26.5,0.0,58.5,58.5,0.0,0.0,25
-401856637,DraftKings,Florida,Florida Atlantic,2026-09-05T23:45:00.000Z,-25.5,-25.5,0.0,,,,,25
-401856660,Bovada,LSU,Clemson,2026-09-05T23:30:00.000Z,-9.5,-9.5,0.0,50.5,50.5,0.0,0.0,25
-401856660,DraftKings,LSU,Clemson,2026-09-05T23:30:00.000Z,-10.5,-10.5,0.0,50.5,50.5,0.0,0.0,25
-401856661,Bovada,Ole Miss,Louisville,2026-09-06T23:30:00.000Z,-6.5,-6.5,0.0,55.5,55.5,0.0,0.0,25
-401856661,DraftKings,Ole Miss,Louisville,2026-09-06T23:30:00.000Z,-6.5,-6.5,0.0,55.5,55.5,0.0,0.0,25
-401856662,Bovada,Mississippi State,UL Monroe,2026-09-05T23:30:00.000Z,-28.5,-28.5,0.0,55.5,55.5,0.0,0.0,25
-401856662,DraftKings,Mississippi State,UL Monroe,2026-09-05T23:30:00.000Z,-28.5,-28.5,0.0,,,,,25
-401856664,Bovada,Oklahoma,UTEP,2026-09-05T00:00:00.000Z,-40.5,-40.5,0.0,50.5,50.5,0.0,,25
-401856664,DraftKings,Oklahoma,UTEP,2026-09-05T00:00:00.000Z,-40.5,-40.5,0.0,,,,,25
-401856665,Bovada,South Carolina,Kent State,2026-09-05T16:45:00.000Z,-36.5,-36.5,0.0,53.0,53.0,0.0,0.0,25
-401856665,DraftKings,South Carolina,Kent State,2026-09-05T16:45:00.000Z,-34.5,-34.5,0.0,,,,,25
-401856667,Bovada,Texas,Texas State,2026-09-05T19:30:00.000Z,-30.5,-30.5,0.0,60.0,60.0,0.0,0.0,25
-401856667,DraftKings,Texas,Texas State,2026-09-05T19:30:00.000Z,-30.5,-30.5,0.0,,,,,25
-401856668,Bovada,Texas A&M,Missouri State,2026-09-05T23:00:00.000Z,-39.5,-40.5,-1.0,52.5,52.5,0.0,,25
-401856668,DraftKings,Texas A&M,Missouri State,2026-09-05T23:00:00.000Z,-38.5,-38.5,0.0,,,,,25
-401856766,Bovada,TCU,North Carolina,2026-08-29T16:00:00.000Z,-7.5,-8.5,-1.0,47.5,47.5,0.0,0.0,25
-401856766,DraftKings,TCU,North Carolina,2026-08-29T16:00:00.000Z,-6.5,-6.5,0.0,49.5,49.5,0.0,0.0,25
-401856772,Bovada,Tulsa,Oklahoma State,2026-09-05T19:45:00.000Z,13.5,14.0,0.5,61.0,61.0,0.0,0.0,25
-401856772,DraftKings,Tulsa,Oklahoma State,2026-09-05T19:45:00.000Z,11.5,11.5,0.0,,,,,25
-401856776,Bovada,Georgia Tech,Colorado,2026-09-04T00:00:00.000Z,-7.0,-7.0,0.0,51.0,51.0,0.0,0.0,25
-401856776,DraftKings,Georgia Tech,Colorado,2026-09-04T00:00:00.000Z,-7.0,-7.0,0.0,,,,,25
-401856777,Bovada,Cincinnati,Boston College,2026-09-05T19:30:00.000Z,-7.5,-7.5,0.0,54.5,54.0,-0.5,0.0,25
-401856777,DraftKings,Cincinnati,Boston College,2026-09-05T19:30:00.000Z,-9.5,-9.5,0.0,,,,,25
-401856778,Bovada,Houston,Oregon State,2026-09-05T16:00:00.000Z,-20.0,-20.0,0.0,51.0,51.0,0.0,0.0,25
-401856778,DraftKings,Houston,Oregon State,2026-09-05T16:00:00.000Z,-18.5,-18.5,0.0,,,,,25
-401856780,Bovada,West Virginia,Coastal Carolina,2026-09-05T16:00:00.000Z,-21.5,-21.5,0.0,58.0,58.0,0.0,0.0,25
-401856780,DraftKings,West Virginia,Coastal Carolina,2026-09-05T16:00:00.000Z,-17.5,-17.5,0.0,,,,,25
-401858201,Bovada,Stanford,Hawai'i,2026-08-29T23:00:00.000Z,-5.5,-5.5,0.0,49.5,49.5,0.0,0.0,25
-401858201,DraftKings,Stanford,Hawai'i,2026-08-29T23:00:00.000Z,-3.0,-3.0,0.0,,,,,25
-401858202,Bovada,Virginia,NC State,2026-08-29T19:30:00.000Z,-5.5,-6.0,-0.5,53.0,53.5,0.5,0.0,25
-401858202,DraftKings,Virginia,NC State,2026-08-29T19:30:00.000Z,-3.0,-3.0,0.0,53.5,53.5,0.0,0.0,25
-401858204,Bovada,Wake Forest,Akron,2026-09-03T23:00:00.000Z,-22.5,-23.5,-1.0,49.5,50.0,0.5,0.0,25
-401858204,DraftKings,Wake Forest,Akron,2026-09-03T23:00:00.000Z,-22.5,-22.5,0.0,,,,,25
-401858206,Bovada,Stanford,Miami,2026-09-05T01:00:00.000Z,23.5,24.5,1.0,49.5,48.5,-1.0,0.0,25
-401858206,DraftKings,Stanford,Miami,2026-09-05T01:00:00.000Z,21.5,21.5,0.0,,,,,25
-401858207,Bovada,Pittsburgh,Miami (OH),2026-09-05T16:00:00.000Z,-16.5,-16.0,0.5,50.5,50.5,0.0,0.0,25
-401858207,DraftKings,Pittsburgh,Miami (OH),2026-09-05T16:00:00.000Z,-16.5,-16.5,0.0,,,,,25
-401858209,Bovada,Duke,Tulane,2026-09-05T19:30:00.000Z,-9.5,-8.5,1.0,52.0,52.0,0.0,0.0,25
-401858209,DraftKings,Duke,Tulane,2026-09-05T19:30:00.000Z,-8.5,-8.5,0.0,,,,,25
-401858210,Bovada,California,UCLA,2026-09-06T02:30:00.000Z,1.5,1.5,0.0,54.5,54.5,0.0,0.0,25
-401858210,DraftKings,California,UCLA,2026-09-06T02:30:00.000Z,-1.5,-1.5,0.0,53.5,53.5,0.0,,25
-401858212,Bovada,Florida State,SMU,2026-09-07T23:30:00.000Z,2.5,2.5,0.0,53.5,53.5,0.0,0.0,25
-401858212,DraftKings,Florida State,SMU,2026-09-07T23:30:00.000Z,2.5,2.5,0.0,52.5,52.5,0.0,0.0,25
-401858423,Bovada,Rutgers,Massachusetts,2026-09-03T22:00:00.000Z,-30.5,-30.5,0.0,54.5,54.5,0.0,,25
-401858423,DraftKings,Rutgers,Massachusetts,2026-09-03T22:00:00.000Z,-30.5,-30.5,0.0,,,,,25
-401858424,Bovada,Illinois,UAB,2026-09-04T01:00:00.000Z,-27.5,-28.5,-1.0,57.0,57.0,0.0,0.0,25
-401858424,DraftKings,Illinois,UAB,2026-09-04T01:00:00.000Z,-27.5,-27.5,0.0,,,,,25
-401858425,Bovada,Indiana,North Texas,2026-09-05T16:00:00.000Z,-41.0,-41.0,0.0,55.5,55.5,0.0,,25
-401858425,DraftKings,Indiana,North Texas,2026-09-05T16:00:00.000Z,-40.5,-40.5,0.0,,,,,25
-401858426,Bovada,Iowa,Northern Illinois,2026-09-05T20:15:00.000Z,-31.0,-31.0,0.0,45.5,45.5,0.0,0.0,25
-401858426,DraftKings,Iowa,Northern Illinois,2026-09-05T20:15:00.000Z,-29.5,-29.5,0.0,,,,,25
-401858428,Bovada,Michigan,Western Michigan,2026-09-05T23:30:00.000Z,-26.5,-27.5,-1.0,47.5,47.5,0.0,0.0,25
-401858428,DraftKings,Michigan,Western Michigan,2026-09-05T23:30:00.000Z,-26.5,-26.5,0.0,,,,,25
-401858429,Bovada,Michigan State,Toledo,2026-09-05T00:00:00.000Z,-10.5,-10.5,0.0,49.5,49.5,0.0,0.0,25
-401858429,DraftKings,Michigan State,Toledo,2026-09-05T00:00:00.000Z,-10.5,-10.5,0.0,,,,,25
-401858430,Bovada,Nebraska,Ohio,2026-09-05T16:00:00.000Z,-24.0,-24.0,0.0,47.5,47.5,0.0,0.0,25
-401858430,DraftKings,Nebraska,Ohio,2026-09-05T16:00:00.000Z,-23.5,-23.5,0.0,,,,,25
-401858432,Bovada,Ohio State,Ball State,2026-09-05T16:30:00.000Z,-51.0,-51.0,0.0,56.5,56.5,0.0,,25
-401858432,DraftKings,Ohio State,Ball State,2026-09-05T16:30:00.000Z,-49.5,-49.5,0.0,,,,,25
-401858433,Bovada,Oregon,Boise State,2026-09-05T19:30:00.000Z,-24.5,-24.5,0.0,52.0,52.0,0.0,0.0,25
-401858433,DraftKings,Oregon,Boise State,2026-09-05T19:30:00.000Z,-24.5,-24.5,0.0,,,,,25
-401858434,Bovada,Penn State,Marshall,2026-09-05T19:30:00.000Z,-24.5,-24.0,0.5,54.5,54.5,0.0,0.0,25
-401858434,DraftKings,Penn State,Marshall,2026-09-05T19:30:00.000Z,-23.5,-23.5,0.0,,,,,25
-401858436,Bovada,USC,Fresno State,2026-09-05T01:00:00.000Z,-22.5,-22.5,0.0,51.5,51.5,0.0,0.0,25
-401858436,DraftKings,USC,Fresno State,2026-09-05T01:00:00.000Z,-23.5,-23.5,0.0,,,,,25
-401858437,Bovada,Washington,Washington State,2026-09-06T20:00:00.000Z,-23.0,-23.0,0.0,50.5,50.5,0.0,0.0,25
-401858437,DraftKings,Washington,Washington State,2026-09-06T20:00:00.000Z,-21.5,-21.5,0.0,,,,,25
-401858438,Bovada,Notre Dame,Wisconsin,2026-09-06T23:30:00.000Z,-20.5,-20.5,0.0,47.5,47.5,0.0,0.0,25
-401858438,DraftKings,Notre Dame,Wisconsin,2026-09-06T23:30:00.000Z,-20.5,-20.5,0.0,47.5,47.5,0.0,0.0,25
-401860878,Bovada,Colorado State,Wyoming,2026-09-05T22:00:00.000Z,-4.0,-3.5,0.5,48.0,48.0,0.0,0.0,25
-401860878,DraftKings,Colorado State,Wyoming,2026-09-05T22:00:00.000Z,-4.0,-4.0,0.0,,,,,25
-401862693,Bovada,UNLV,Memphis,2026-08-30T02:00:00.000Z,-5.5,-5.5,0.0,57.5,57.5,0.0,0.0,25
-401862693,DraftKings,UNLV,Memphis,2026-08-30T02:00:00.000Z,-3.0,-3.0,0.0,,,,,25
-401862695,Bovada,Memphis,Arkansas State,2026-09-05T23:00:00.000Z,-10.0,-9.5,0.5,55.5,55.5,0.0,0.0,25
-401862695,DraftKings,Memphis,Arkansas State,2026-09-05T23:00:00.000Z,-10.5,-10.5,0.0,,,,,25
-401862699,Bovada,South Florida,Florida International,2026-09-05T23:00:00.000Z,-12.5,-12.5,0.0,55.0,55.0,0.0,0.0,25
-401862699,DraftKings,South Florida,Florida International,2026-09-05T23:00:00.000Z,-12.5,-12.5,0.0,,,,,25
-401864432,Bovada,Nevada,Western Kentucky,2026-09-06T02:30:00.000Z,3.0,2.5,-0.5,53.0,53.0,0.0,0.0,25
-401864432,DraftKings,Nevada,Western Kentucky,2026-09-06T02:30:00.000Z,4.0,4.0,0.0,,,,,25
-401864494,Bovada,USC,San José State,2026-08-29T19:00:00.000Z,-38.0,-38.0,0.0,59.5,59.5,0.0,0.0,25
-401864494,DraftKings,USC,San José State,2026-08-29T19:00:00.000Z,-35.5,-35.5,0.0,,,,,25
-401864495,Bovada,Eastern Michigan,San José State,2026-09-04T22:30:00.000Z,-4.5,-4.5,0.0,53.5,53.5,0.0,0.0,25
-401864495,DraftKings,Eastern Michigan,San José State,2026-09-04T22:30:00.000Z,-3.5,-3.5,0.0,,,,,25
-401864497,Bovada,Hawai'i,UNLV,2026-09-06T02:00:00.000Z,2.5,2.5,0.0,58.5,58.5,0.0,0.0,25
-401864497,DraftKings,Hawai'i,UNLV,2026-09-06T02:00:00.000Z,1.5,1.5,0.0,,,,,25
-401864498,Bovada,New Mexico,Central Michigan,2026-09-06T02:00:00.000Z,-13.0,-12.5,0.5,49.0,49.0,0.0,0.0,25
-401864498,DraftKings,New Mexico,Central Michigan,2026-09-06T02:00:00.000Z,-12.5,-12.5,0.0,,,,,25
-401864570,Bovada,Florida State,New Mexico State,2026-08-29T23:00:00.000Z,-31.0,-31.0,0.0,53.0,53.0,0.0,0.0,25
-401864570,DraftKings,Florida State,New Mexico State,2026-08-29T23:00:00.000Z,-29.5,-29.5,0.0,,,,,25
-401864577,Bovada,North Dakota State,Jacksonville State,2026-08-29T21:30:00.000Z,-7.0,-7.0,0.0,47.5,48.0,0.5,0.0,25
-401864577,DraftKings,North Dakota State,Jacksonville State,2026-08-29T21:30:00.000Z,-10.0,-10.0,0.0,,,,,25
-401866408,Bovada,Eastern Michigan,Sacramento State,2026-08-29T22:30:00.000Z,-8.5,-9.5,-1.0,52.5,52.5,0.0,0.0,25
-401866408,DraftKings,Eastern Michigan,Sacramento State,2026-08-29T22:30:00.000Z,-8.5,-8.5,0.0,,,,,25
-401869960,Bovada,James Madison,Liberty,2026-09-05T16:00:00.000Z,-6.5,-6.5,0.0,51.5,53.0,1.5,0.0,25
-401869960,DraftKings,James Madison,Liberty,2026-09-05T16:00:00.000Z,-6.0,-6.0,0.0,,,,,25
-401870763,Bovada,Troy,Sam Houston,2026-09-05T23:00:00.000Z,-16.0,-16.5,-0.5,51.5,51.5,0.0,0.0,25
-401870763,DraftKings,Troy,Sam Houston,2026-09-05T23:00:00.000Z,-16.5,-16.5,0.0,,,,,25
+401856634,Bovada,Alabama,East Carolina,2026-09-05T16:00:00.000Z,-28.5,-28.5,0.0,54.0,54.0,0.0,0.0,49
+401856634,DraftKings,Alabama,East Carolina,2026-09-05T16:00:00.000Z,-25.5,-28.5,-3.0,,53.5,,,49
+401856635,DraftKings,Arkansas,North Alabama,2026-09-05T20:15:00.000Z,-40.5,-40.5,0.0,63.5,63.5,0.0,,23
+401856636,Bovada,Auburn,Baylor,2026-09-05T19:30:00.000Z,-7.0,-7.0,0.0,59.0,59.0,0.0,0.0,49
+401856636,DraftKings,Auburn,Baylor,2026-09-05T19:30:00.000Z,-6.5,-7.0,-0.5,59.5,59.5,0.0,-13.0,49
+401856637,Bovada,Florida,Florida Atlantic,2026-09-05T23:45:00.000Z,-26.5,-26.5,0.0,58.5,59.5,1.0,0.0,49
+401856637,DraftKings,Florida,Florida Atlantic,2026-09-05T23:45:00.000Z,-25.5,-27.5,-2.0,,59.5,,,49
+401856658,DraftKings,Georgia,Tennessee State,2026-09-05T19:00:00.000Z,-46.5,-47.5,-1.0,56.5,55.5,-1.0,,23
+401856659,DraftKings,Kentucky,Youngstown State,2026-09-05T17:00:00.000Z,-23.5,-23.5,0.0,62.5,62.5,0.0,-800.0,23
+401856660,Bovada,LSU,Clemson,2026-09-05T23:30:00.000Z,-9.5,-10.5,-1.0,50.5,51.0,0.5,0.0,49
+401856660,DraftKings,LSU,Clemson,2026-09-05T23:30:00.000Z,-10.5,-10.5,0.0,50.5,51.5,1.0,75.0,49
+401856661,Bovada,Ole Miss,Louisville,2026-09-06T23:30:00.000Z,-6.5,-6.5,0.0,55.5,55.5,0.0,0.0,49
+401856661,DraftKings,Ole Miss,Louisville,2026-09-06T23:30:00.000Z,-6.5,-6.5,0.0,55.5,55.5,0.0,20.0,49
+401856662,Bovada,Mississippi State,UL Monroe,2026-09-05T23:30:00.000Z,-28.5,-28.5,0.0,55.5,55.5,0.0,0.0,49
+401856662,DraftKings,Mississippi State,UL Monroe,2026-09-05T23:30:00.000Z,-28.5,-28.5,0.0,,56.5,,,49
+401856663,DraftKings,Missouri,Arkansas-Pine Bluff,2026-09-04T00:00:00.000Z,-54.5,-54.5,0.0,60.5,60.5,0.0,,23
+401856664,Bovada,Oklahoma,UTEP,2026-09-05T00:00:00.000Z,-40.5,-40.5,0.0,50.5,50.5,0.0,,49
+401856664,DraftKings,Oklahoma,UTEP,2026-09-05T00:00:00.000Z,-40.5,-41.5,-1.0,,50.5,,,49
+401856665,Bovada,South Carolina,Kent State,2026-09-05T16:45:00.000Z,-36.5,-36.5,0.0,53.0,53.0,0.0,0.0,49
+401856665,DraftKings,South Carolina,Kent State,2026-09-05T16:45:00.000Z,-34.5,-36.5,-2.0,,53.5,,,49
+401856666,DraftKings,Tennessee,Furman,2026-09-05T19:30:00.000Z,-46.5,-46.5,0.0,66.5,66.5,0.0,,23
+401856667,Bovada,Texas,Texas State,2026-09-05T19:30:00.000Z,-30.5,-30.5,0.0,60.0,60.0,0.0,0.0,49
+401856667,DraftKings,Texas,Texas State,2026-09-05T19:30:00.000Z,-30.5,-30.5,0.0,,59.5,,,49
+401856668,Bovada,Texas A&M,Missouri State,2026-09-05T23:00:00.000Z,-39.5,-40.5,-1.0,52.5,52.5,0.0,,49
+401856668,DraftKings,Texas A&M,Missouri State,2026-09-05T23:00:00.000Z,-38.5,-41.5,-3.0,,52.5,,,49
+401856669,DraftKings,Vanderbilt,Austin Peay,2026-09-05T23:00:00.000Z,-30.5,-30.5,0.0,61.5,61.5,0.0,-50000.0,23
+401856766,Bovada,TCU,North Carolina,2026-08-29T16:00:00.000Z,-7.5,-9.0,-1.5,47.5,46.0,-1.5,0.0,49
+401856766,DraftKings,TCU,North Carolina,2026-08-29T16:00:00.000Z,-6.5,-8.5,-2.0,49.5,45.5,-4.0,-90.0,49
+401856767,DraftKings,UCF,Bethune-Cookman,2026-09-03T23:00:00.000Z,-41.5,-42.5,-1.0,,59.5,,,23
+401856768,DraftKings,Utah,Idaho,2026-09-04T01:00:00.000Z,-32.5,-33.5,-1.0,56.5,56.5,0.0,30000.0,23
+401856769,DraftKings,Kansas,Long Island University,2026-09-05T00:00:00.000Z,-38.5,-38.5,0.0,53.5,53.5,0.0,,23
+401856770,DraftKings,Texas Tech,Abilene Christian,2026-09-05T23:00:00.000Z,-42.5,-42.5,0.0,59.5,59.5,0.0,,23
+401856771,DraftKings,Kansas State,Nicholls,2026-09-05T23:00:00.000Z,-40.5,-40.5,0.0,55.5,55.5,0.0,,23
+401856772,Bovada,Tulsa,Oklahoma State,2026-09-05T19:45:00.000Z,13.5,14.0,0.5,61.0,60.5,-0.5,0.0,49
+401856772,DraftKings,Tulsa,Oklahoma State,2026-09-05T19:45:00.000Z,11.5,14.0,2.5,,60.5,,,49
+401856773,DraftKings,Arizona,Northern Arizona,2026-09-06T01:30:00.000Z,-31.5,-31.5,0.0,56.5,56.5,0.0,0.0,23
+401856774,DraftKings,Arizona State,Morgan State,2026-09-06T01:00:00.000Z,-41.5,-41.5,0.0,52.5,52.5,0.0,,23
+401856775,DraftKings,BYU,Utah Tech,2026-09-06T00:00:00.000Z,-47.5,-47.5,0.0,54.5,54.5,0.0,,23
+401856776,Bovada,Georgia Tech,Colorado,2026-09-04T00:00:00.000Z,-7.0,-6.5,0.5,51.0,51.0,0.0,0.0,49
+401856776,DraftKings,Georgia Tech,Colorado,2026-09-04T00:00:00.000Z,-7.0,-6.5,0.5,,50.5,,,49
+401856777,Bovada,Cincinnati,Boston College,2026-09-05T19:30:00.000Z,-7.5,-7.5,0.0,54.5,52.0,-2.5,0.0,49
+401856777,DraftKings,Cincinnati,Boston College,2026-09-05T19:30:00.000Z,-9.5,-7.5,2.0,,51.5,,,49
+401856778,Bovada,Houston,Oregon State,2026-09-05T16:00:00.000Z,-20.0,-21.0,-1.0,51.0,51.5,0.5,0.0,49
+401856778,DraftKings,Houston,Oregon State,2026-09-05T16:00:00.000Z,-18.5,-20.5,-2.0,,51.5,,,49
+401856779,DraftKings,Iowa State,Southeast Missouri State,2026-09-05T17:00:00.000Z,-29.5,-29.5,0.0,53.5,53.5,0.0,-10000.0,23
+401856780,Bovada,West Virginia,Coastal Carolina,2026-09-05T16:00:00.000Z,-21.5,-21.5,0.0,58.0,56.0,-2.0,0.0,49
+401856780,DraftKings,West Virginia,Coastal Carolina,2026-09-05T16:00:00.000Z,-17.5,-21.5,-4.0,,56.5,,,49
+401858201,Bovada,Stanford,Hawai'i,2026-08-29T23:00:00.000Z,-5.5,-4.0,1.5,49.5,48.5,-1.0,0.0,49
+401858201,DraftKings,Stanford,Hawai'i,2026-08-29T23:00:00.000Z,-3.0,-4.0,-1.0,,48.5,,,49
+401858202,Bovada,Virginia,NC State,2026-08-29T19:30:00.000Z,-5.5,-4.0,1.5,53.0,51.5,-1.5,0.0,49
+401858202,DraftKings,Virginia,NC State,2026-08-29T19:30:00.000Z,-3.0,-4.0,-1.0,53.5,51.5,-2.0,-45.0,49
+401858204,Bovada,Wake Forest,Akron,2026-09-03T23:00:00.000Z,-22.5,-24.0,-1.5,49.5,48.5,-1.0,0.0,49
+401858204,DraftKings,Wake Forest,Akron,2026-09-03T23:00:00.000Z,-22.5,-24.5,-2.0,,48.5,,,49
+401858206,Bovada,Stanford,Miami,2026-09-05T01:00:00.000Z,23.5,23.5,0.0,49.5,47.5,-2.0,0.0,49
+401858206,DraftKings,Stanford,Miami,2026-09-05T01:00:00.000Z,21.5,23.5,2.0,,47.5,,,49
+401858207,Bovada,Pittsburgh,Miami (OH),2026-09-05T16:00:00.000Z,-16.5,-16.0,0.5,50.5,49.5,-1.0,0.0,49
+401858207,DraftKings,Pittsburgh,Miami (OH),2026-09-05T16:00:00.000Z,-16.5,-16.5,0.0,,49.5,,,49
+401858208,DraftKings,Syracuse,New Hampshire,2026-09-05T16:00:00.000Z,-32.5,-32.5,0.0,55.5,55.5,0.0,0.0,23
+401858209,Bovada,Duke,Tulane,2026-09-05T19:30:00.000Z,-9.5,-8.5,1.0,52.0,51.0,-1.0,0.0,49
+401858209,DraftKings,Duke,Tulane,2026-09-05T19:30:00.000Z,-8.5,-9.5,-1.0,,50.5,,,49
+401858210,Bovada,California,UCLA,2026-09-06T02:30:00.000Z,1.5,2.0,0.5,54.5,54.0,-0.5,0.0,49
+401858210,DraftKings,California,UCLA,2026-09-06T02:30:00.000Z,-1.5,1.5,3.0,53.5,53.5,0.0,,49
+401858211,DraftKings,Virginia Tech,VMI,2026-09-05T23:30:00.000Z,-50.5,-50.5,0.0,57.5,57.5,0.0,,23
+401858212,Bovada,Florida State,SMU,2026-09-07T23:30:00.000Z,2.5,2.0,-0.5,53.5,53.0,-0.5,0.0,49
+401858212,DraftKings,Florida State,SMU,2026-09-07T23:30:00.000Z,2.5,2.5,0.0,52.5,52.5,0.0,10.0,49
+401858422,DraftKings,Minnesota,Eastern Illinois,2026-09-04T00:00:00.000Z,-43.5,-43.5,0.0,,51.5,,,23
+401858423,Bovada,Rutgers,Massachusetts,2026-09-03T22:00:00.000Z,-30.5,-29.0,1.5,54.5,53.0,-1.5,,49
+401858423,DraftKings,Rutgers,Massachusetts,2026-09-03T22:00:00.000Z,-30.5,-29.5,1.0,,52.5,,,49
+401858424,Bovada,Illinois,UAB,2026-09-04T01:00:00.000Z,-27.5,-28.5,-1.0,57.0,57.0,0.0,0.0,49
+401858424,DraftKings,Illinois,UAB,2026-09-04T01:00:00.000Z,-27.5,-28.5,-1.0,,56.5,,,49
+401858425,Bovada,Indiana,North Texas,2026-09-05T16:00:00.000Z,-41.0,-41.0,0.0,55.5,55.5,0.0,,49
+401858425,DraftKings,Indiana,North Texas,2026-09-05T16:00:00.000Z,-40.5,-40.5,0.0,,55.5,,,49
+401858426,Bovada,Iowa,Northern Illinois,2026-09-05T20:15:00.000Z,-31.0,-32.0,-1.0,45.5,45.5,0.0,0.0,49
+401858426,DraftKings,Iowa,Northern Illinois,2026-09-05T20:15:00.000Z,-29.5,-31.5,-2.0,,45.5,,,49
+401858427,DraftKings,Maryland,Hampton,2026-09-06T00:00:00.000Z,-45.5,-45.5,0.0,56.5,56.5,0.0,,23
+401858428,Bovada,Michigan,Western Michigan,2026-09-05T23:30:00.000Z,-26.5,-27.5,-1.0,47.5,47.5,0.0,0.0,49
+401858428,DraftKings,Michigan,Western Michigan,2026-09-05T23:30:00.000Z,-26.5,-27.5,-1.0,,47.5,,,49
+401858429,Bovada,Michigan State,Toledo,2026-09-05T00:00:00.000Z,-10.5,-10.0,0.5,49.5,49.5,0.0,0.0,49
+401858429,DraftKings,Michigan State,Toledo,2026-09-05T00:00:00.000Z,-10.5,-10.0,0.5,,49.5,,,49
+401858430,Bovada,Nebraska,Ohio,2026-09-05T16:00:00.000Z,-24.0,-24.0,0.0,47.5,47.5,0.0,0.0,49
+401858430,DraftKings,Nebraska,Ohio,2026-09-05T16:00:00.000Z,-23.5,-23.5,0.0,,47.5,,,49
+401858431,DraftKings,Northwestern,South Dakota State,2026-09-06T00:00:00.000Z,-12.5,-12.5,0.0,46.5,46.5,0.0,-50.0,23
+401858432,Bovada,Ohio State,Ball State,2026-09-05T16:30:00.000Z,-51.0,-51.0,0.0,56.5,56.5,0.0,,49
+401858432,DraftKings,Ohio State,Ball State,2026-09-05T16:30:00.000Z,-49.5,-50.5,-1.0,,56.5,,,49
+401858433,Bovada,Oregon,Boise State,2026-09-05T19:30:00.000Z,-24.5,-24.5,0.0,52.0,52.0,0.0,0.0,49
+401858433,DraftKings,Oregon,Boise State,2026-09-05T19:30:00.000Z,-24.5,-24.5,0.0,,51.5,,,49
+401858434,Bovada,Penn State,Marshall,2026-09-05T19:30:00.000Z,-24.5,-24.5,0.0,54.5,54.5,0.0,0.0,49
+401858434,DraftKings,Penn State,Marshall,2026-09-05T19:30:00.000Z,-23.5,-24.5,-1.0,,54.5,,,49
+401858435,DraftKings,Purdue,Indiana State,2026-09-04T23:00:00.000Z,-34.5,-35.5,-1.0,56.5,56.5,0.0,,23
+401858436,Bovada,USC,Fresno State,2026-09-05T01:00:00.000Z,-22.5,-23.5,-1.0,51.5,51.5,0.0,0.0,49
+401858436,DraftKings,USC,Fresno State,2026-09-05T01:00:00.000Z,-23.5,-23.5,0.0,,51.5,,,49
+401858437,Bovada,Washington,Washington State,2026-09-06T20:00:00.000Z,-23.0,-23.5,-0.5,50.5,51.0,0.5,0.0,49
+401858437,DraftKings,Washington,Washington State,2026-09-06T20:00:00.000Z,-21.5,-23.5,-2.0,,50.5,,,49
+401858438,Bovada,Notre Dame,Wisconsin,2026-09-06T23:30:00.000Z,-20.5,-20.5,0.0,47.5,47.5,0.0,0.0,49
+401858438,DraftKings,Notre Dame,Wisconsin,2026-09-06T23:30:00.000Z,-20.5,-20.5,0.0,47.5,47.5,0.0,0.0,49
+401860878,Bovada,Colorado State,Wyoming,2026-09-05T22:00:00.000Z,-4.0,-3.5,0.5,48.0,47.5,-0.5,0.0,49
+401860878,DraftKings,Colorado State,Wyoming,2026-09-05T22:00:00.000Z,-4.0,-3.5,0.5,,47.5,,,49
+401860879,DraftKings,San Diego State,Portland State,2026-09-06T01:30:00.000Z,-38.5,-40.5,-2.0,57.5,57.5,0.0,,23
+401860880,DraftKings,Utah State,Idaho State,2026-09-05T23:00:00.000Z,-11.5,-12.5,-1.0,64.5,63.5,-1.0,-15.0,23
+401861962,DraftKings,UConn,Lafayette,2026-09-05T16:00:00.000Z,-19.5,-19.5,0.0,58.5,58.5,0.0,100.0,23
+401862693,Bovada,UNLV,Memphis,2026-08-30T02:00:00.000Z,-5.5,-4.0,1.5,57.5,56.5,-1.0,0.0,49
+401862693,DraftKings,UNLV,Memphis,2026-08-30T02:00:00.000Z,-3.0,-4.0,-1.0,,56.5,,,49
+401862694,DraftKings,Charlotte,The Citadel,2026-09-05T19:30:00.000Z,-15.5,-15.5,0.0,46.5,46.5,0.0,-300.0,23
+401862695,Bovada,Memphis,Arkansas State,2026-09-05T23:00:00.000Z,-10.0,-8.5,1.5,55.5,55.5,0.0,0.0,49
+401862695,DraftKings,Memphis,Arkansas State,2026-09-05T23:00:00.000Z,-10.5,-8.5,2.0,,55.5,,,49
+401862696,DraftKings,Navy,Towson,2026-09-05T19:30:00.000Z,-30.5,-30.5,0.0,53.5,53.5,0.0,30000.0,23
+401862697,DraftKings,Rice,Houston Christian,2026-09-05T23:00:00.000Z,-24.5,-24.5,0.0,47.5,47.5,0.0,0.0,23
+401862698,DraftKings,Temple,Rhode Island,2026-09-05T18:00:00.000Z,-10.0,-10.5,-0.5,51.5,51.5,0.0,-80.0,23
+401862699,Bovada,South Florida,Florida International,2026-09-05T23:00:00.000Z,-12.5,-13.0,-0.5,55.0,54.0,-1.0,0.0,49
+401862699,DraftKings,South Florida,Florida International,2026-09-05T23:00:00.000Z,-12.5,-13.5,-1.0,,53.5,,,49
+401862700,DraftKings,UTSA,UT Rio Grande Valley,2026-09-05T19:30:00.000Z,-28.5,-28.5,0.0,59.5,59.5,0.0,0.0,23
+401862701,DraftKings,Army,Bryant,2026-09-05T16:00:00.000Z,-36.5,-36.5,0.0,,51.5,,,23
+401864424,DraftKings,Delaware,Merrimack,2026-09-03T23:00:00.000Z,-28.5,-28.5,0.0,55.5,55.5,0.0,-10000.0,23
+401864425,DraftKings,Kennesaw State,West Georgia,2026-09-03T23:00:00.000Z,-22.5,-22.5,0.0,51.5,51.5,0.0,0.0,23
+401864432,Bovada,Nevada,Western Kentucky,2026-09-06T02:30:00.000Z,3.0,2.5,-0.5,53.0,53.0,0.0,0.0,49
+401864432,DraftKings,Nevada,Western Kentucky,2026-09-06T02:30:00.000Z,4.0,2.5,-1.5,,52.5,,,49
+401864494,Bovada,USC,San José State,2026-08-29T19:00:00.000Z,-38.0,-38.5,-0.5,59.5,61.5,2.0,0.0,49
+401864494,DraftKings,USC,San José State,2026-08-29T19:00:00.000Z,-35.5,-38.5,-3.0,,61.5,,,49
+401864495,Bovada,Eastern Michigan,San José State,2026-09-04T22:30:00.000Z,-4.5,-4.5,0.0,53.5,53.5,0.0,0.0,49
+401864495,DraftKings,Eastern Michigan,San José State,2026-09-04T22:30:00.000Z,-3.5,-4.5,-1.0,,53.5,,,49
+401864496,DraftKings,Air Force,Duquesne,2026-09-05T17:00:00.000Z,-30.5,-30.5,0.0,58.5,58.5,0.0,-90000.0,23
+401864497,Bovada,Hawai'i,UNLV,2026-09-06T02:00:00.000Z,2.5,3.0,0.5,58.5,58.5,0.0,0.0,49
+401864497,DraftKings,Hawai'i,UNLV,2026-09-06T02:00:00.000Z,1.5,3.0,1.5,,58.5,,,49
+401864498,Bovada,New Mexico,Central Michigan,2026-09-06T02:00:00.000Z,-13.0,-10.0,3.0,49.0,47.0,-2.0,0.0,49
+401864498,DraftKings,New Mexico,Central Michigan,2026-09-06T02:00:00.000Z,-12.5,-10.5,2.0,,46.5,,,49
+401864499,DraftKings,North Dakota State,Fordham,2026-09-05T19:30:00.000Z,-39.5,-39.5,0.0,57.5,57.5,0.0,,23
+401864570,Bovada,Florida State,New Mexico State,2026-08-29T23:00:00.000Z,-31.0,-31.0,0.0,53.0,53.5,0.5,0.0,49
+401864570,DraftKings,Florida State,New Mexico State,2026-08-29T23:00:00.000Z,-29.5,-31.5,-2.0,,53.5,,,49
+401864577,Bovada,North Dakota State,Jacksonville State,2026-08-29T21:30:00.000Z,-7.0,-6.5,0.5,47.5,46.5,-1.0,0.0,49
+401864577,DraftKings,North Dakota State,Jacksonville State,2026-08-29T21:30:00.000Z,-10.0,-6.5,3.5,,46.5,,,49
+401866408,Bovada,Eastern Michigan,Sacramento State,2026-08-29T22:30:00.000Z,-8.5,-9.0,-0.5,52.5,53.5,1.0,0.0,49
+401866408,DraftKings,Eastern Michigan,Sacramento State,2026-08-29T22:30:00.000Z,-8.5,-9.5,-1.0,,53.5,,,49
+401866409,DraftKings,Buffalo,UAlbany,2026-09-03T23:00:00.000Z,-24.5,-24.5,0.0,48.5,48.5,0.0,3000.0,23
+401866410,DraftKings,Bowling Green,Tarleton State,2026-09-05T16:00:00.000Z,-2.5,-2.5,0.0,47.5,47.5,0.0,0.0,23
+401866411,DraftKings,Sacramento State,Mississippi Valley State,2026-09-06T02:00:00.000Z,-35.5,-35.5,0.0,56.5,56.5,0.0,,23
+401866532,Draft Kings,Towson,Maine,2026-08-27T22:00:00.000Z,-2.5,-2.5,0.0,46.5,46.5,0.0,,3
+401866615,Draft Kings,Delaware State,Stony Brook,2026-08-27T22:00:00.000Z,4.5,4.5,0.0,50.5,50.5,0.0,,3
+401866616,Draft Kings,UAlbany,New Hampshire,2026-08-28T23:00:00.000Z,10.0,10.0,0.0,46.5,46.5,0.0,,2
+401866616,DraftKings,UAlbany,New Hampshire,2026-08-28T23:00:00.000Z,11.5,10.0,-1.5,45.5,46.5,1.0,-99.0,3
+401866617,Draft Kings,Merrimack,Rhode Island,2026-08-28T22:00:00.000Z,21.0,21.0,0.0,47.5,47.5,0.0,,2
+401866617,DraftKings,Merrimack,Rhode Island,2026-08-28T22:00:00.000Z,20.5,20.5,0.0,53.5,47.5,-6.0,170.0,3
+401866618,DraftKings,North Carolina A&T,Morgan State,2026-08-29T22:00:00.000Z,8.5,8.5,0.0,50.5,50.5,0.0,0.0,3
+401866619,DraftKings,Stonehill,Bryant,2026-08-29T22:00:00.000Z,4.5,4.5,0.0,44.5,44.5,0.0,0.0,3
+401866620,DraftKings,East Tennessee State,Campbell,2026-08-29T21:30:00.000Z,-7.0,-7.0,0.0,55.5,55.5,0.0,0.0,3
+401866621,DraftKings,Tennessee Tech,Monmouth,2026-08-29T23:00:00.000Z,-8.5,-8.5,0.0,58.5,58.5,0.0,0.0,3
+401866623,DraftKings,Georgia State,North Carolina A&T,2026-09-04T23:00:00.000Z,-28.5,-28.5,0.0,63.5,63.5,0.0,500.0,23
+401866627,DraftKings,App State,Maine,2026-09-05T19:30:00.000Z,-17.5,-18.5,-1.0,53.5,53.5,0.0,550.0,23
+401867855,DraftKings,Indiana State,Southeast Missouri State,2026-08-29T22:00:00.000Z,-2.5,-2.5,0.0,52.5,52.5,0.0,0.0,3
+401867865,Draft Kings,Murray State,Eastern Illinois,2026-08-27T23:00:00.000Z,-4.5,-4.5,0.0,49.5,49.5,0.0,,3
+401867866,DraftKings,Middle Tennessee,Murray State,2026-09-05T23:00:00.000Z,-20.5,-20.5,0.0,59.5,59.5,0.0,150.0,23
+401867874,Draft Kings,North Dakota,Long Island University,2026-08-28T00:00:00.000Z,-27.5,-27.5,0.0,44.5,44.5,0.0,,3
+401867882,DraftKings,South Dakota,Central Connecticut,2026-08-29T18:00:00.000Z,-22.5,-23.5,-1.0,53.5,51.5,-2.0,-2100.0,3
+401867894,Draft Kings,Youngstown State,Mercyhurst,2026-08-27T22:00:00.000Z,-30.5,-30.5,0.0,57.5,57.5,0.0,,3
+401867916,DraftKings,Wagner,Robert Morris,2026-08-29T16:00:00.000Z,-5.5,-5.5,0.0,39.5,39.5,0.0,0.0,3
+401867935,DraftKings,Howard,Alabama A&M,2026-08-29T23:30:00.000Z,-2.5,-2.5,0.0,46.5,46.5,0.0,0.0,3
+401867973,DraftKings,Old Dominion,Norfolk State,2026-09-05T22:00:00.000Z,-41.5,-41.5,0.0,55.5,55.5,0.0,,23
+401867977,DraftKings,Texas Southern,North Carolina Central,2026-08-29T23:00:00.000Z,11.5,11.5,0.0,51.5,51.5,0.0,0.0,3
+401867988,DraftKings,Richmond,Bucknell,2026-08-29T22:00:00.000Z,-10.5,-10.5,0.0,49.5,49.5,0.0,0.0,3
+401868007,Draft Kings,Fordham,Colgate,2026-08-28T22:00:00.000Z,8.5,8.5,0.0,55.5,55.5,0.0,,2
+401868007,DraftKings,Fordham,Colgate,2026-08-28T22:00:00.000Z,10.0,8.5,-1.5,50.5,55.5,5.0,-54.0,3
+401868022,DraftKings,Holy Cross,Lehigh,2026-08-29T19:30:00.000Z,14.0,14.0,0.0,47.5,47.5,0.0,0.0,3
+401868040,Draft Kings,Villanova,William & Mary,2026-08-28T22:00:00.000Z,-12.5,-12.5,0.0,47.5,47.5,0.0,,2
+401868040,DraftKings,Villanova,William & Mary,2026-08-28T22:00:00.000Z,-11.5,-12.5,-1.0,50.5,47.5,-3.0,-101.0,3
+401868049,DraftKings,Lamar,Abilene Christian,2026-08-29T23:00:00.000Z,7.5,7.5,0.0,49.5,49.5,0.0,0.0,3
+401868060,Draft Kings,Austin Peay,Gardner-Webb,2026-08-27T23:00:00.000Z,-14.5,-14.5,0.0,59.5,59.5,0.0,,3
+401868070,Draft Kings,UT Martin,Central Arkansas,2026-08-27T23:30:00.000Z,-3.0,-3.0,0.0,50.5,50.5,0.0,,3
+401868073,Draft Kings,Cal Poly,Idaho,2026-08-29T02:00:00.000Z,5.5,5.5,0.0,53.5,53.5,0.0,,1
+401868073,DraftKings,Cal Poly,Idaho,2026-08-29T02:00:00.000Z,3.5,5.5,2.0,55.5,53.5,-2.0,40.0,3
+401868084,DraftKings,Northern Arizona,Eastern Washington,2026-08-29T21:00:00.000Z,-3.0,-4.0,-1.0,56.5,55.5,-1.0,-40.0,3
+401868101,DraftKings,Idaho State,VMI,2026-08-29T22:00:00.000Z,-34.5,-34.5,0.0,60.5,57.5,-3.0,,3
+401868110,DraftKings,Montana,Southern Utah,2026-08-30T01:00:00.000Z,-16.5,-15.5,1.0,58.5,58.5,0.0,-100.0,3
+401868118,DraftKings,Utah Tech,Montana State,2026-08-30T02:00:00.000Z,31.5,31.5,0.0,56.5,56.5,0.0,,3
+401868129,Draft Kings,Northern Colorado,Weber State,2026-08-29T01:00:00.000Z,-3.0,-3.0,0.0,50.5,50.5,0.0,,1
+401868129,DraftKings,Northern Colorado,Weber State,2026-08-29T01:00:00.000Z,-3.5,-3.0,0.5,49.5,50.5,1.0,7.0,3
+401868139,DraftKings,Western Carolina,Eastern Kentucky,2026-08-29T23:00:00.000Z,-4.5,-4.5,0.0,50.5,50.5,0.0,0.0,3
+401868140,DraftKings,Jacksonville State,Eastern Kentucky,2026-09-05T23:00:00.000Z,-19.5,-19.5,0.0,52.5,52.5,0.0,-300.0,23
+401868149,DraftKings,North Alabama,Samford,2026-08-29T23:00:00.000Z,-7.5,-7.5,0.0,55.5,55.5,0.0,0.0,3
+401868154,DraftKings,Portland State,UC Davis,2026-08-29T19:00:00.000Z,24.5,24.5,0.0,62.5,62.5,0.0,0.0,3
+401868169,Draft Kings,Lindenwood,Charleston Southern,2026-08-27T23:00:00.000Z,-7.5,-7.5,0.0,45.5,45.5,0.0,,3
+401868170,DraftKings,Georgia Southern,Charleston Southern,2026-09-05T23:00:00.000Z,-25.5,-25.5,0.0,51.5,51.5,0.0,2000.0,23
+401868235,DraftKings,Tarleton State,Prairie View A&M,2026-08-30T01:00:00.000Z,-21.5,-21.5,0.0,54.5,54.5,0.0,0.0,3
+401868240,Draft Kings,West Georgia,Chattanooga,2026-08-27T23:00:00.000Z,3.5,3.5,0.0,50.5,50.5,0.0,,3
+401868261,Draft Kings,New Haven,Marist,2026-08-28T22:00:00.000Z,-2.5,-2.5,0.0,46.5,46.5,0.0,,2
+401868261,DraftKings,New Haven,Marist,2026-08-28T22:00:00.000Z,1.5,-2.5,-4.0,44.5,46.5,2.0,-36.0,3
+401868305,DraftKings,McNeese,Stephen F. Austin,2026-08-29T23:00:00.000Z,13.5,13.5,0.0,49.5,49.5,0.0,0.0,3
+401868315,Draft Kings,SE Louisiana,Houston Christian,2026-08-27T23:00:00.000Z,-24.5,-24.5,0.0,51.5,51.5,0.0,,3
+401868316,DraftKings,South Alabama,SE Louisiana,2026-09-05T23:00:00.000Z,-12.5,-12.5,0.0,52.5,52.5,0.0,-100.0,23
+401868324,DraftKings,Alabama State,Southern,2026-08-29T19:00:00.000Z,-19.5,-19.5,0.0,56.5,56.5,0.0,0.0,3
+401868356,DraftKings,Southern Miss,Alcorn State,2026-09-05T21:00:00.000Z,-21.0,-21.0,0.0,50.5,50.5,0.0,0.0,23
+401868394,DraftKings,Wofford,The Citadel,2026-08-29T22:00:00.000Z,-8.5,-8.5,0.0,45.5,45.5,0.0,0.0,3
+401868962,Draft Kings,Nicholls,Mississippi Valley State,2026-08-27T23:00:00.000Z,-28.5,-28.5,0.0,51.5,51.5,0.0,,3
+401869129,DraftKings,Louisiana Tech,Northwestern State,2026-09-05T23:30:00.000Z,-41.5,-41.5,0.0,52.5,52.5,0.0,,23
+401869142,DraftKings,Louisiana,Lamar,2026-09-06T00:00:00.000Z,-18.5,-20.5,-2.0,48.5,48.5,0.0,1100.0,23
+401869960,Bovada,James Madison,Liberty,2026-09-05T16:00:00.000Z,-6.5,-6.5,0.0,51.5,53.0,1.5,0.0,49
+401869960,DraftKings,James Madison,Liberty,2026-09-05T16:00:00.000Z,-6.0,-6.5,-0.5,,52.5,,,49
+401870763,Bovada,Troy,Sam Houston,2026-09-05T23:00:00.000Z,-16.0,-17.0,-1.0,51.5,53.0,1.5,0.0,49
+401870763,DraftKings,Troy,Sam Houston,2026-09-05T23:00:00.000Z,-16.5,-16.5,0.0,,53.5,,,49
+401870790,DraftKings,New Mexico State,Mercyhurst,2026-09-06T01:00:00.000Z,-24.5,-24.5,0.0,50.5,50.5,0.0,0.0,7
+401872615,DraftKings,South Dakota State,Stetson,2026-08-29T23:00:00.000Z,-47.5,-47.5,0.0,56.5,56.5,0.0,,3
+401874035,Draft Kings,West Florida,Southern Illinois,2026-08-27T23:00:00.000Z,19.5,19.5,0.0,55.5,55.5,0.0,,3
+401874042,DraftKings,Mercer,East Texas A&M,2026-08-29T23:00:00.000Z,-23.5,-23.5,0.0,60.5,60.5,0.0,0.0,3
