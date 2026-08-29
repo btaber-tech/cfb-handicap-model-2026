@@ -1,0 +1,4 @@
+year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,actual_margin,away_pts,home_pts,correct_pick,margin_error,market_home_margin,ats_result,model_side_covered,model_total,market_total,actual_total,total_error_model,ou_result_model
+2026,1,401864494,2026-08-29,San José State,USC,USC,39.0,USC,16,26,42,True,23.0,38.5,away_covered,False,53.7,61.5,68,14.3,over
+2026,1,401856766,2026-08-29,North Carolina,TCU,TCU,7.7,North Carolina,-5,15,10,False,12.7,8.5,away_covered,False,51.5,46.0,25,26.5,under
+2026,1,401858202,2026-08-29,NC State,Virginia,Virginia,5.6,Virginia,26,8,34,True,20.4,4.0,home_covered,True,52.2,51.5,42,10.2,under
