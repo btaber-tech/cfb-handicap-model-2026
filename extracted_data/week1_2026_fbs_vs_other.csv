@@ -1,161 +1,49 @@
 date,fbs_team,opponent,home_away
-2026-08-27,,Morehead State,away
-2026-08-27,,Youngstown State,away
-2026-08-27,,Towson,away
-2026-08-27,,Delaware State,away
-2026-08-27,,Austin Peay,away
-2026-08-27,,Western Illinois,away
-2026-08-27,,Lindenwood,away
-2026-08-27,,Elon,away
-2026-08-27,,Murray State,away
-2026-08-27,,Presbyterian,away
-2026-08-27,,West Georgia,away
-2026-08-27,,Davidson,away
-2026-08-27,,West Florida,away
-2026-08-27,,Nicholls,away
-2026-08-27,,SE Louisiana,away
-2026-08-27,,St. Thomas (MN),away
-2026-08-27,,Drake,away
-2026-08-27,,UT Martin,away
-2026-08-28,,Northwestern State,away
-2026-08-28,,North Dakota,away
-2026-08-28,,Merrimack,away
-2026-08-28,,New Haven,away
-2026-08-28,,Villanova,away
-2026-08-28,,UAlbany,away
-2026-08-29,,Cal Poly,away
-2026-08-29,,Chicago State,away
-2026-08-29,,Wagner,away
-2026-08-29,,Lamar,away
-2026-08-29,,Dayton,away
-2026-08-29,,Butler,away
-2026-08-29,,Valparaiso,away
-2026-08-29,,South Dakota,away
-2026-08-29,,Alabama State,away
-2026-08-29,,Portland State,away
-2026-08-29,,Holy Cross,away
-2026-08-29,,Northern Arizona,away
-2026-08-29,,East Tennessee State,away
-2026-08-29,,Fordham,away
-2026-08-29,,Idaho State,away
-2026-08-29,,Wofford,away
-2026-08-29,,Indiana State,away
-2026-08-29,,South Carolina State,away
-2026-08-29,,Norfolk State,away
-2026-08-29,,Richmond,away
-2026-08-29,,Hampton,away
-2026-08-29,,North Carolina A&T,away
-2026-08-29,,Stonehill,away
-2026-08-29,,Grambling,away
-2026-08-29,,Alcorn State,away
-2026-08-29,,Illinois State,away
-2026-08-29,,Mercer,away
-2026-08-29,,South Dakota State,away
-2026-08-29,,Florida A&M,away
-2026-08-29,,Arkansas-Pine Bluff,away
-2026-08-29,,Furman,away
-2026-08-29,,McNeese,away
-2026-08-29,,North Alabama,away
-2026-08-29,,Western Carolina,away
-2026-08-29,,Georgetown,away
-2026-08-29,,Texas Southern,away
-2026-08-29,,Tennessee Tech,away
-2026-08-29,,Howard,away
-2026-08-30,,UT Rio Grande Valley,away
-2026-08-30,,Tennessee State,away
-2026-08-30,,Montana,away
-2026-08-30,,Tarleton State,away
-2026-08-30,,Northern Colorado,away
-2026-08-30,,Utah Tech,away
-2026-09-03,,Morehead State,away
-2026-09-03,,Samford,away
-2026-09-03,Buffalo,UAlbany,home
 2026-09-03,Kennesaw State,West Georgia,home
-2026-09-03,,Stony Brook,away
-2026-09-03,,Beloit,away
-2026-09-03,Delaware,Merrimack,home
 2026-09-03,UCF,Bethune-Cookman,home
-2026-09-04,Missouri,Arkansas-Pine Bluff,home
+2026-09-03,Delaware,Merrimack,home
+2026-09-03,Buffalo,UAlbany,home
 2026-09-04,Minnesota,Eastern Illinois,home
+2026-09-04,Missouri,Arkansas-Pine Bluff,home
 2026-09-04,Utah,Idaho,home
-2026-09-04,Purdue,Indiana State,home
-2026-09-04,,Marist,away
 2026-09-04,Georgia State,North Carolina A&T,home
+2026-09-04,Purdue,Indiana State,home
 2026-09-05,Kansas,Long Island University,home
-2026-09-05,,New Haven,away
-2026-09-05,,Wagner,away
-2026-09-05,,Howard,away
-2026-09-05,,Stetson,away
-2026-09-05,,East Tennessee State,away
-2026-09-05,Bowling Green,Tarleton State,home
-2026-09-05,UConn,Lafayette,home
 2026-09-05,Syracuse,New Hampshire,home
+2026-09-05,UConn,Lafayette,home
+2026-09-05,Bowling Green,Tarleton State,home
 2026-09-05,Army,Bryant,home
-2026-09-05,,Georgetown,away
-2026-09-05,,Kean,away
 2026-09-05,Air Force,Duquesne,home
-2026-09-05,Kentucky,Youngstown State,home
 2026-09-05,Iowa State,Southeast Missouri State,home
-2026-09-05,,Colgate,away
-2026-09-05,,Puget Sound,away
-2026-09-05,,Wofford,away
+2026-09-05,Kentucky,Youngstown State,home
 2026-09-05,Temple,Rhode Island,home
-2026-09-05,,Monmouth,away
 2026-09-05,Georgia,Tennessee State,home
-2026-09-05,,Montana,away
-2026-09-05,Navy,Towson,home
-2026-09-05,,Campbell,away
-2026-09-05,App State,Maine,home
-2026-09-05,North Dakota State,Fordham,home
-2026-09-05,UTSA,UT Rio Grande Valley,home
 2026-09-05,Charlotte,The Citadel,home
+2026-09-05,North Dakota State,Fordham,home
+2026-09-05,App State,Maine,home
 2026-09-05,Tennessee,Furman,home
-2026-09-05,,North Dakota,away
+2026-09-05,Navy,Towson,home
+2026-09-05,UTSA,UT Rio Grande Valley,home
 2026-09-05,Arkansas,North Alabama,home
 2026-09-05,Southern Miss,Alcorn State,home
-2026-09-05,,Mercer,away
-2026-09-05,,William & Mary,away
-2026-09-05,,Bucknell,away
-2026-09-05,,North Carolina Central,away
-2026-09-05,,Robert Morris,away
-2026-09-05,,Chattanooga,away
 2026-09-05,Old Dominion,Norfolk State,home
-2026-09-05,,Davidson,away
-2026-09-05,,Alabama State,away
-2026-09-05,Jacksonville State,Eastern Kentucky,home
 2026-09-05,South Alabama,SE Louisiana,home
-2026-09-05,Georgia Southern,Charleston Southern,home
-2026-09-05,Middle Tennessee,Murray State,home
-2026-09-05,Utah State,Idaho State,home
 2026-09-05,Rice,Houston Christian,home
-2026-09-05,Kansas State,Nicholls,home
+2026-09-05,Jacksonville State,Eastern Kentucky,home
+2026-09-05,Georgia Southern,Charleston Southern,home
 2026-09-05,Vanderbilt,Austin Peay,home
-2026-09-05,,UT Martin,away
-2026-09-05,,Western Illinois,away
-2026-09-05,,Central Arkansas,away
-2026-09-05,,Eastern Washington,away
-2026-09-05,,Alabama A&M,away
-2026-09-05,,Grambling,away
-2026-09-05,,Jackson State,away
-2026-09-05,,Southern,away
-2026-09-05,,McNeese,away
 2026-09-05,Texas Tech,Abilene Christian,home
-2026-09-05,Virginia Tech,VMI,home
+2026-09-05,Utah State,Idaho State,home
+2026-09-05,Middle Tennessee,Murray State,home
+2026-09-05,Kansas State,Nicholls,home
 2026-09-05,Louisiana Tech,Northwestern State,home
-2026-09-06,Northwestern,South Dakota State,home
+2026-09-05,Virginia Tech,VMI,home
 2026-09-06,Louisiana,Lamar,home
-2026-09-06,,Northern Colorado,away
-2026-09-06,,Cal Poly,away
 2026-09-06,BYU,Utah Tech,home
-2026-09-06,,Southern Utah,away
-2026-09-06,,Stephen F. Austin,away
 2026-09-06,Maryland,Hampton,home
-2026-09-06,,Montana State,away
+2026-09-06,Northwestern,South Dakota State,home
 2026-09-06,New Mexico State,Mercyhurst,home
 2026-09-06,Arizona State,Morgan State,home
 2026-09-06,Arizona,Northern Arizona,home
 2026-09-06,San Diego State,Portland State,home
 2026-09-06,Sacramento State,Mississippi Valley State,home
-2026-09-06,,San Diego,away
-2026-09-06,,Prairie View A&M,away
-2026-09-06,,Florida A&M,away

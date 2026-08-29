@@ -80,9 +80,16 @@ lines_by_id = {g["id"]: g.get("lines", []) for g in lines_raw}
 pr = pd.read_csv("cfb_2026_power_ratings.csv")
 sp_split = pd.read_csv("sp_plus_2026_preseason.csv")[["team", "off_sp_plus", "def_sp_plus"]]
 pr = pr.merge(sp_split, on="team", how="left")
+# model_proj_margin_2026_scaled / steele_margin_scaled: point-scale versions
+# of the bottom-up model and Steele's Power Poll (rescaled in
+# build_2026_power_ratings.py via z-score * sp_plus's std). Use those, not
+# the raw model_proj_margin_2026 column -- its native scale runs at
+# roughly half sp_plus/fpi's std dev, which silently compresses every
+# blended margin toward zero if averaged in unscaled (2026-08-20 fix, see
+# win_totals_README.md).
 pr_lookup = pr.set_index("team")[
-    ["sp_plus", "fpi", "model_proj_margin_2026", "blended_rank", "off_sp_plus", "def_sp_plus",
-     "source_disagreement"]
+    ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled", "blended_rank",
+     "off_sp_plus", "def_sp_plus", "source_disagreement"]
 ].to_dict("index")
 # Adjustment #4: flag games where a team's SP+/FPI/bottom-up sources disagree a
 # lot (90th-percentile+ of source_disagreement across all 138 teams) instead of
@@ -106,7 +113,11 @@ for g in games:
     date = g["startDate"][:10]
 
     if not (home_fbs and away_fbs):
-        fbs_side = home if home_fbs else (away if away_fbs else None)
+        if not (home_fbs or away_fbs):
+            # Neither side is FBS (e.g. two D-II/D-III teams) -- not a "buy
+            # game" for any FBS team, just noise for this model. Skip.
+            continue
+        fbs_side = home if home_fbs else away
         other_side = away if home_fbs else home
         fbs_vs_other.append({"date": date, "fbs_team": fbs_side, "opponent": other_side,
                               "home_away": "home" if home_fbs else "away"})
@@ -122,7 +133,7 @@ for g in games:
         continue
 
     diffs = []
-    for col in ["sp_plus", "fpi", "model_proj_margin_2026"]:
+    for col in ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled"]:
         if pd.notna(hr[col]) and pd.notna(ar[col]):
             diffs.append(hr[col] - ar[col])
     avg_diff = sum(diffs) / len(diffs) if diffs else float("nan")

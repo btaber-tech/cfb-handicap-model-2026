@@ -77,12 +77,39 @@ immediately — worth tracking for real starting with the actual 2026 season
 (where the live 3-source engine, sharper than this backtest's single-source
 proxy, will be doing the projecting), not worth betting meaningfully on yet.
 
+## Fix (2026-08-20): bottom-up model was compressing the blend
+
+The blend averages 4 point-scale sources (SP+, FPI, this project's own
+bottom-up model, Steele's Power Poll). Steele's rank was already being
+z-scored and rescaled onto SP+'s point scale before blending — the
+bottom-up model wasn't. Its native output scale runs at roughly half
+SP+/FPI's std dev (13.25 and 11.37 vs. 6.29) even though it agrees with
+them closely on *who's* good (correlates 0.73-0.79) — it's just far more
+timid in points. Averaged in unscaled, that quietly pulled every blended
+margin toward zero: good teams got dragged down, bad teams got dragged
+up, and over a 12-game season that compounded into a visibly
+too-compressed win-total spread — model_gap correlated **-0.73** with the
+market line (the better the market rated a team, the more the model
+claimed *below* the market, and vice versa for bad teams).
+
+Fix: rescale the bottom-up model column the same way Steele's already is
+(z-score across teams, multiply by SP+'s own std) before blending —
+`model_proj_margin_2026_scaled` in `cfb_2026_power_ratings.csv`. Result:
+correlation roughly halved to **-0.42**, and the season win-total spread
+widened from a std dev of 1.46 to 1.69 wins (closer to the market's own
+spread). Applied to both this script and the weekly game-projection
+engine (`build_week_projections.py`); `build_week1_projections.py` (the
+one-off record of the opening-slate run) also picked up the 4th source
+(Steele) it was missing relative to its own published footer text, plus
+the same rescale.
+
 ## 2026 output
 `season_win_totals_2026.csv`, sorted by `model_gap` (model minus market).
-Biggest overs (model likes the over): Southern Miss (+1.9), Vanderbilt
-(+1.3), Iowa State (+1.2). Biggest unders (model likes the under): UCLA
-(-1.4), Notre Dame (-1.3), Houston/Oklahoma State/Texas (-1.2). North Dakota
-State has no market line yet (new FBS member, not yet posted by books).
+Biggest overs (model likes the over): Vanderbilt (+1.5), Southern Miss
+(+1.4), Rutgers/Louisiana Tech (+1.1). Biggest unders (model likes the
+under): Oklahoma State (-1.9), UCLA (-1.3), Florida/Texas (-1.2). North
+Dakota State has no market line yet (new FBS member, not yet posted by
+books). Numbers reflect the 2026-08-20 bottom-up-model rescale above.
 
 ## Files
 - `build_season_win_totals.py` — live 2026 projection engine

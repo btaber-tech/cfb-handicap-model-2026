@@ -187,9 +187,34 @@ final["blended_rank"] = final["blended_score"].rank(ascending=False, method="min
 # Spread across the 4 sources (disagreement flag): std of the 4 z-scores per team
 final["source_disagreement"] = final[z_cols].std(axis=1)
 
+# ---------------------------------------------------------------------------
+# 4b. Point-scale versions of each source for the *margin* engines
+# (build_week_projections.py / build_season_win_totals.py), which average
+# raw point diffs rather than z-scores. sp_plus/fpi are already on
+# comparable "points vs. average FBS opponent" scales (std ~11-13) and
+# steele_power_poll_score already gets z-rescaled to sp_plus's std above
+# for the ranking blend. model_proj_margin_2026, though, is the bottom-up
+# regression's own native output scale, which happens to run much
+# narrower (std ~6 vs ~11-13) -- it agrees with the others on *who's*
+# good (correlates 0.73-0.79) but says so far more timidly in points.
+# Averaged in unscaled, that quietly drags every blended margin toward
+# zero -- good teams get pulled down, bad teams get pulled up -- which
+# compounds into a visibly too-compressed season win-total distribution
+# (2026-08-20: confirmed empirically, model-gap-vs-market correlation
+# was -0.73, roughly halved to -0.42 by this fix). Rescale it the same
+# way steele_power_poll_score already is: z-score across teams, then
+# multiply back out by sp_plus's own std so it lands on the same point
+# scale as the other three sources before any margin engine averages it.
+# steele_margin_scaled is exported too so the margin engines don't have
+# to redo that half of the rescale themselves.
+# ---------------------------------------------------------------------------
+final["model_proj_margin_2026_scaled"] = final["z_model_proj_margin_2026"] * final["sp_plus"].std()
+final["steele_margin_scaled"] = final["z_steele_power_poll_score"] * final["sp_plus"].std()
+
 final = final.sort_values("blended_score", ascending=False)
 out_cols = ["blended_rank", "team", "conference", "blended_score", "source_disagreement",
-            "model_proj_margin_2026", "sp_plus", "fpi", "steele_power_poll_rank",
+            "model_proj_margin_2026", "model_proj_margin_2026_scaled", "sp_plus", "fpi",
+            "steele_power_poll_rank", "steele_margin_scaled",
             "national_forecast_rank", "record_2025_overall", "head_coach",
             "returning_starters_offense", "returning_starters_defense",
             "incoming_recruit_points", "incoming_ret_percentPPA"]

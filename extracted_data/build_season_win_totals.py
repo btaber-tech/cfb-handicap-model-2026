@@ -57,7 +57,7 @@ HFA_NEUTRAL = 1.8
 HFA_ALTITUDE = 6.0
 ALTITUDE_TEAMS = {"Air Force", "BYU", "Colorado", "Colorado State", "New Mexico", "Utah", "Wyoming"}
 SIGMA = 18.4
-FCS_PROXY_RATING = -28.7  # see module docstring; applied on the sp_plus/fpi/model_proj_margin_2026/steele_margin scales alike
+FCS_PROXY_RATING = -28.7  # see module docstring; applied on the sp_plus/fpi/model_proj_margin_2026_scaled/steele_margin_scaled scales alike
 
 
 def norm_cdf(x):
@@ -106,15 +106,18 @@ def main():
     games = json.load(open(games_path, encoding="utf-8"))
 
     pr = pd.read_csv("cfb_2026_power_ratings.csv")
-    # Phil Steele's Power Poll (1-138 ordinal rank) -> a point-scale value
-    # comparable to sp_plus/fpi/model_proj_margin_2026, same treatment as
-    # build_week_projections.py: z-score across all 138 teams, rescale by
-    # SP+'s own std dev.
-    steele_score = 139 - pr["steele_power_poll_rank"]
-    steele_z = (steele_score - steele_score.mean()) / steele_score.std()
-    pr["steele_margin"] = steele_z * pr["sp_plus"].std()
+    # model_proj_margin_2026_scaled / steele_margin_scaled: point-scale
+    # versions of the bottom-up model and Steele's Power Poll (rescaled in
+    # build_2026_power_ratings.py via z-score * sp_plus's std, same
+    # treatment as build_week_projections.py). Use those, NOT the raw
+    # model_proj_margin_2026 column -- its native scale runs at roughly
+    # half sp_plus/fpi's std dev, which silently compressed every blended
+    # margin toward zero when averaged in unscaled (2026-08-20: this is
+    # what was producing the too-compressed season win-total spread --
+    # model-gap-vs-market correlation was -0.73, roughly halved to -0.42
+    # by this fix -- see win_totals_README.md).
     pr_lookup = pr.set_index("team")[
-        ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]
+        ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled"]
     ].to_dict("index")
     conf_lookup = pr.set_index("team")["conference"].to_dict()
     rank_lookup = pr.set_index("team")["blended_rank"].to_dict()
@@ -130,7 +133,7 @@ def main():
                 return None
             return r
         return {"sp_plus": FCS_PROXY_RATING, "fpi": FCS_PROXY_RATING,
-                "model_proj_margin_2026": FCS_PROXY_RATING, "steele_margin": FCS_PROXY_RATING}
+                "model_proj_margin_2026_scaled": FCS_PROXY_RATING, "steele_margin_scaled": FCS_PROXY_RATING}
 
     # Per-team list of (opponent, is_home, is_neutral, win_prob_for_this_team)
     team_games = {t: [] for t in pr["team"]}
@@ -153,7 +156,7 @@ def main():
             continue
 
         diffs = []
-        for col in ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]:
+        for col in ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled"]:
             if pd.notna(hr[col]) and pd.notna(ar[col]):
                 diffs.append(hr[col] - ar[col])
         if not diffs:

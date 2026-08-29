@@ -1,0 +1,77 @@
+2026 CONFERENCE CHAMPION PICKS — SUMMARY & RATIONALE
+Generated 2026-08-20 from the CFB handicap model (cfb_2026_power_ratings.csv,
+season_win_totals_2026.csv, athlon_2026_schedules.csv) using a 20K-trial
+Monte Carlo sim of each conference's real 2026 schedule (margin formula:
+avg(SP+, FPI, Steele Power Poll, bottom-up model) + HFA, sigma=18.4).
+NOTE: this conference-title sim is new/ad-hoc and NOT backtested — treat
+probabilities as directional estimates, not calibrated numbers. The
+underlying game-level model IS backtested (~76% SU accuracy), but win
+totals/ATS/futures have no proven edge (see cfb-backtest-findings-2026).
+
+====================================================================
+PICK 1 (BOLD): FLORIDA STATE — ACC CHAMPION
+====================================================================
+Odds checked: $36 (~2.7-2.8% implied, decimal 36.0 or American +3600)
+Model sim probability: ~4.0%
+Edge: model prob > implied prob -> possible value at that price
+
+Rationale:
+- Athlon (consensus preview) picks FSU 11th of 17 in the ACC, #48
+  nationally -- public perception still anchored on the 2025 5-7
+  collapse.
+- Model blend has FSU #4 in the ACC / #28 nationally -- SP+ +8.8,
+  FPI +9.3, Steele Power Poll #25 nationally. All quant sources
+  independently see a real team, not just Athlon being harsh.
+- Recruiting talent (251.5 incoming_recruit_points) is actually
+  HIGHER than SMU (225.8) and Clemson (243.3), the two teams ranked
+  ahead of FSU in the ACC pecking order -- the roster talent never
+  left, only the record cratered.
+- Season win-totals model: 7.16 expected wins vs 6.5 market line
+  (+0.66 gap) -- model likes them above the market on wins too.
+- Path: Miami is the clear top dog (47.2% in the sim) but SMU (17.9%)
+  and Clemson (9.7%) aren't miles clear of FSU -- jumping two
+  playoff-caliber-ish but shakier teams is plausible, not a moonshot.
+
+Caveats:
+- FSU is flagged with real source_disagreement in the model.
+- Sim treats ratings as fixed points (no uncertainty band), ignores
+  real ACC tiebreaker rules and injury/depth attrition.
+- New DC (Tony White) needs to gel -- unproven in this system yet.
+
+====================================================================
+PICK 2 (LESS BOLD): INDIANA — BIG TEN CHAMPION
+====================================================================
+Odds: not checked against a live line -- likely priced far behind
+Ohio State/Oregon (probably +1000 to +2000 / ~5-9% implied) given
+the "2024 was a fluke schedule" narrative that's still lingering.
+Model sim probability: 17.8% (Ohio State 37.3%, Oregon 28.5%,
+Indiana 17.8%, everyone else single digits)
+
+Rationale:
+- Indiana isn't a mystery team -- they went 16-0 last year under
+  Curt Cignetti, a real CFP-caliber roster, not a one-off.
+- Model has Indiana #4 overall nationally (blended_rank), ahead of
+  USC, Penn State, Alabama, and every other Big Ten team besides
+  Ohio State and Oregon. SP+ +24.5, FPI +23.1, both elite.
+- Steele's independent Power Poll also has them #6 nationally --
+  all four sources agree, not a single-source outlier.
+- The value case: public/market narrative likely still discounts a
+  repeat as unsustainable, so futures odds are probably priced well
+  below the model's 17.8% share of a stacked 3-team-contender field.
+- Less bold than FSU because this isn't "buy the disaster year," it's
+  "the market hasn't updated on a team that already proved it."
+
+Caveats:
+- Ohio State and Oregon are both genuinely elite too -- this is "real
+  live #3 in a 3-team league," not "the field is overrated."
+- Check the actual current Big Ten futures board before sizing --
+  if Indiana is already priced short (sub +1000), the edge shrinks
+  fast.
+
+====================================================================
+BOTTOM LINE
+====================================================================
+Both picks come from the same validated power-rating inputs but an
+unvalidated conference-title simulation layered on top for this
+specific ask. Useful as directional value signals worth checking
+against real sportsbook lines, not standalone high-conviction bets.

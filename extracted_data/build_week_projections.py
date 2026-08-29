@@ -114,15 +114,18 @@ def main():
     pr = pd.read_csv("cfb_2026_power_ratings.csv")
     sp_split = pd.read_csv("sp_plus_2026_preseason.csv")[["team", "off_sp_plus", "def_sp_plus"]]
     pr = pr.merge(sp_split, on="team", how="left")
-    # Phil Steele's Power Poll (1-138 ordinal rank) -> a point-scale value
-    # comparable to sp_plus/fpi/model_proj_margin_2026: z-score it across
-    # all 138 teams, then rescale by SP+'s own std dev (see comment on
-    # STEELE_POINT_SCALE note in the module docstring).
-    steele_score = 139 - pr["steele_power_poll_rank"]
-    steele_z = (steele_score - steele_score.mean()) / steele_score.std()
-    pr["steele_margin"] = steele_z * pr["sp_plus"].std()
+    # model_proj_margin_2026_scaled / steele_margin_scaled: point-scale
+    # versions of the bottom-up model and Steele's Power Poll, already
+    # rescaled (z-score * sp_plus's std) in build_2026_power_ratings.py so
+    # they're comparable to sp_plus/fpi before averaging. Use those, NOT
+    # the raw model_proj_margin_2026 column -- its native scale runs at
+    # roughly half sp_plus/fpi's std dev (agrees on who's good, just says
+    # so far more timidly in points), which silently compresses every
+    # blended margin toward zero if averaged in unscaled (2026-08-20: this
+    # is what was producing the too-compressed season win-total spread --
+    # see win_totals_README.md).
     pr_lookup = pr.set_index("team")[
-        ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin", "blended_rank",
+        ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled", "blended_rank",
          "off_sp_plus", "def_sp_plus", "source_disagreement"]
     ].to_dict("index")
     DISAGREEMENT_FLAG_THRESHOLD = pr["source_disagreement"].quantile(0.90)
@@ -158,7 +161,7 @@ def main():
             continue
 
         diffs = []
-        for col in ["sp_plus", "fpi", "model_proj_margin_2026", "steele_margin"]:
+        for col in ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled"]:
             if pd.notna(hr[col]) and pd.notna(ar[col]):
                 diffs.append(hr[col] - ar[col])
         avg_diff = sum(diffs) / len(diffs) if diffs else float("nan")

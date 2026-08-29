@@ -1,46 +1,53 @@
 {
-  "captured_at": "2026-08-16",
-  "source": "vegasinsider.com/college-football/matchups (logged in, free account)",
+  "captured_at": "2026-08-20",
   "games": [
     {
-      "away": {"team": "North Carolina", "rot": 305, "bets_spread": 37, "bets_total": 88, "bets_ml": 8, "money_spread": 14, "money_total": 75, "money_ml": 19},
-      "home": {"team": "TCU", "rot": 306, "bets_spread": 63, "bets_total": 12, "bets_ml": 92, "money_spread": 86, "money_total": 25, "money_ml": 81},
-      "open": "TCU -6.5 o49.5 -249", "consensus": "TCU -7.5 o47.5 -325"
+      "away": {"team": "North Carolina", "rot": 305, "bets_spread": 35, "bets_total": 87, "bets_ml": 7, "money_spread": 14, "money_total": 64, "money_ml": 18},
+      "home": {"team": "TCU", "rot": 306, "bets_spread": 65, "bets_total": 13, "bets_ml": 93, "money_spread": 86, "money_total": 36, "money_ml": 82},
+      "open": "TCU -6.5 o49.5 -249",
+      "consensus": "TCU -7.5 o47.5 -325"
     },
     {
-      "away": {"team": "San Jose State", "rot": 313, "bets_spread": 95, "bets_total": 8, "bets_ml": 6, "money_spread": 66, "money_total": 39, "money_ml": 99},
-      "home": {"team": "USC", "rot": 314, "bets_spread": 5, "bets_total": 92, "bets_ml": 94, "money_spread": 34, "money_total": 61, "money_ml": 1},
-      "open": "USC -35.5 o57.5 N/A", "consensus": "USC -38.5 o60.5 N/A"
+      "away": {"team": "San Jose State", "rot": 313, "bets_spread": 94, "bets_total": 8, "bets_ml": 4, "money_spread": 59, "money_total": 38, "money_ml": 99},
+      "home": {"team": "USC", "rot": 314, "bets_spread": 6, "bets_total": 92, "bets_ml": 96, "money_spread": 41, "money_total": 62, "money_ml": 1},
+      "open": "USC -35.5 o57.5 N/A",
+      "consensus": "USC -38.5 o60.5 N/A"
     },
     {
-      "away": {"team": "NC State", "rot": 317, "bets_spread": 48, "bets_total": 55, "bets_ml": 11, "money_spread": 59, "money_total": 61, "money_ml": 42},
-      "home": {"team": "Virginia", "rot": 318, "bets_spread": 52, "bets_total": 45, "bets_ml": 89, "money_spread": 41, "money_total": 39, "money_ml": 58},
-      "open": "UVA -3 o53.5 -160", "consensus": "UVA -5.5 o53.5 -218"
+      "away": {"team": "NC State", "rot": 317, "bets_spread": 45, "bets_total": 54, "bets_ml": 8, "money_spread": 60, "money_total": 60, "money_ml": 39},
+      "home": {"team": "Virginia", "rot": 318, "bets_spread": 55, "bets_total": 46, "bets_ml": 92, "money_spread": 40, "money_total": 40, "money_ml": 61},
+      "open": "UVA -3 o53.5 -160",
+      "consensus": "UVA -5.5 o53.5 -218"
     },
     {
-      "away": {"team": "Jacksonville State", "rot": 319, "bets_spread": 48, "bets_total": 51, "bets_ml": 4, "money_spread": 76, "money_total": 54, "money_ml": 19},
-      "home": {"team": "North Dakota State", "rot": 320, "bets_spread": 52, "bets_total": 49, "bets_ml": 96, "money_spread": 24, "money_total": 46, "money_ml": 81},
-      "open": "NDSU -10 o48.5 -325", "consensus": "NDSU -7 o47.5 -270"
+      "away": {"team": "Jacksonville State", "rot": 319, "bets_spread": 43, "bets_total": 48, "bets_ml": 3, "money_spread": 69, "money_total": 51, "money_ml": 17},
+      "home": {"team": "North Dakota State", "rot": 320, "bets_spread": 57, "bets_total": 52, "bets_ml": 97, "money_spread": 31, "money_total": 49, "money_ml": 83},
+      "open": "NDSU -10 o48.5 -325",
+      "consensus": "NDSU -6.5 o47.5 -270"
     },
     {
-      "away": {"team": "Sacramento State", "rot": 309, "bets_spread": 40, "bets_total": 20, "bets_ml": 5, "money_spread": 50, "money_total": 22, "money_ml": 14},
-      "home": {"team": "Eastern Michigan", "rot": 310, "bets_spread": 60, "bets_total": 80, "bets_ml": 95, "money_spread": 50, "money_total": 78, "money_ml": 86},
-      "open": "EMU -8.5 o52.5 -325", "consensus": "EMU -8.5 o52.5 -310"
+      "away": {"team": "Sacramento State", "rot": 309, "bets_spread": 35, "bets_total": 20, "bets_ml": 3, "money_spread": 67, "money_total": 22, "money_ml": 10},
+      "home": {"team": "Eastern Michigan", "rot": 310, "bets_spread": 65, "bets_total": 80, "bets_ml": 97, "money_spread": 33, "money_total": 78, "money_ml": 90},
+      "open": "EMU -8.5 o52.5 -325",
+      "consensus": "EMU -8.5 o52.5 -345"
     },
     {
-      "away": {"team": "New Mexico State", "rot": 307, "bets_spread": 98, "bets_total": 22, "bets_ml": 5, "money_spread": 86, "money_total": 37, "money_ml": 22},
-      "home": {"team": "Florida State", "rot": 308, "bets_spread": 2, "bets_total": 78, "bets_ml": 95, "money_spread": 14, "money_total": 63, "money_ml": 78},
-      "open": "FSU -28.5 o53.5 -10000", "consensus": "FSU -31.5 o52.5 -8000"
+      "away": {"team": "New Mexico State", "rot": 307, "bets_spread": 97, "bets_total": 21, "bets_ml": 3, "money_spread": 84, "money_total": 37, "money_ml": 22},
+      "home": {"team": "Florida State", "rot": 308, "bets_spread": 3, "bets_total": 79, "bets_ml": 97, "money_spread": 16, "money_total": 63, "money_ml": 78},
+      "open": "FSU -28.5 o53.5 -10000",
+      "consensus": "FSU -31.5 o53.5 -6500"
     },
     {
-      "away": {"team": "Hawai'i", "rot": 311, "bets_spread": 40, "bets_total": 44, "bets_ml": 10, "money_spread": 82, "money_total": 44, "money_ml": 54},
-      "home": {"team": "Stanford", "rot": 312, "bets_spread": 60, "bets_total": 56, "bets_ml": 90, "money_spread": 18, "money_total": 56, "money_ml": 46},
-      "open": "STAN -3 o50.5 -175", "consensus": "STAN -5.5 o49.5 -218"
+      "away": {"team": "Hawai'i", "rot": 311, "bets_spread": 35, "bets_total": 42, "bets_ml": 6, "money_spread": 72, "money_total": 44, "money_ml": 44},
+      "home": {"team": "Stanford", "rot": 312, "bets_spread": 65, "bets_total": 58, "bets_ml": 94, "money_spread": 28, "money_total": 56, "money_ml": 56},
+      "open": "STAN -3 o50.5 -175",
+      "consensus": "STAN -5.5 o49.5 -225"
     },
     {
-      "away": {"team": "Memphis", "rot": 315, "bets_spread": 59, "bets_total": 16, "bets_ml": 9, "money_spread": 66, "money_total": 21, "money_ml": 41},
-      "home": {"team": "UNLV", "rot": 316, "bets_spread": 41, "bets_total": 84, "bets_ml": 91, "money_spread": 34, "money_total": 79, "money_ml": 59},
-      "open": "UNLV -3 o60.5 -175", "consensus": "UNLV -6 o57.5 -225"
+      "away": {"team": "Memphis", "rot": 315, "bets_spread": 52, "bets_total": 16, "bets_ml": 6, "money_spread": 67, "money_total": 19, "money_ml": 33},
+      "home": {"team": "UNLV", "rot": 316, "bets_spread": 48, "bets_total": 84, "bets_ml": 94, "money_spread": 33, "money_total": 81, "money_ml": 67},
+      "open": "UNLV -3 o60.5 -175",
+      "consensus": "UNLV -6 o57.5 -225"
     }
   ]
 }
