@@ -1,4 +1,9 @@
 year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,actual_margin,away_pts,home_pts,correct_pick,margin_error,market_home_margin,ats_result,model_side_covered,model_total,market_total,actual_total,total_error_model,ou_result_model
 2026,1,401864494,2026-08-29,San José State,USC,USC,39.0,USC,16,26,42,True,23.0,38.5,away_covered,False,53.7,61.5,68,14.3,over
+2026,1,401864570,2026-08-29,New Mexico State,Florida State,Florida State,29.8,Florida State,17,17,34,True,12.8,31.0,away_covered,False,51.9,53.5,51,0.9,under
+2026,1,401866408,2026-08-29,Sacramento State,Eastern Michigan,Eastern Michigan,8.5,Eastern Michigan,11,17,28,True,2.5,9.0,home_covered,True,52.4,53.5,45,7.4,under
 2026,1,401856766,2026-08-29,North Carolina,TCU,TCU,7.7,North Carolina,-5,15,10,False,12.7,8.5,away_covered,False,51.5,46.0,25,26.5,under
 2026,1,401858202,2026-08-29,NC State,Virginia,Virginia,5.6,Virginia,26,8,34,True,20.4,4.0,home_covered,True,52.2,51.5,42,10.2,under
+2026,1,401864577,2026-08-29,Jacksonville State,North Dakota State,North Dakota State,4.3,North Dakota State,26,7,33,True,21.7,6.5,home_covered,True,53.1,46.5,40,13.1,under
+2026,1,401858201,2026-08-29,Hawai'i,Stanford,Stanford,1.4,Stanford,10,27,37,True,8.6,4.0,home_covered,True,52.1,48.5,64,11.9,over
+2026,1,401862693,2026-08-30,Memphis,UNLV,UNLV,4.9,Memphis,-6,27,21,False,10.9,4.0,away_covered,False,55.2,56.5,48,7.2,under
