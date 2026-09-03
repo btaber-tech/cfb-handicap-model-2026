@@ -1,52 +1,52 @@
-game_id,date,away,home,neutral,model_pick,model_margin,home_win_prob,home_blended_rank,away_blended_rank,market_home_margin,market_note,model_vs_market_gap,model_total,market_total,total_gap,disagreement_team,disagreement_value
-401864494,2026-08-29,San José State,USC,False,USC,39.0,0.983,10,128,38.5,"2 book(s), median -38.5",0.5,53.7,61.5,-7.8,,
-401864570,2026-08-29,New Mexico State,Florida State,False,Florida State,29.8,0.947,28,125,31.0,"2 book(s), median -31.0",-1.2,51.9,53.5,-1.6,,
-401866408,2026-08-29,Sacramento State,Eastern Michigan,False,Eastern Michigan,8.5,0.677,116,130,9.0,"2 book(s), median -9.0",-0.5,52.4,53.5,-1.1,,
-401856766,2026-08-29,North Carolina,TCU,True,TCU,7.7,0.662,37,59,8.5,"2 book(s), median -8.5",-0.8,51.5,46.0,5.5,,
-401858202,2026-08-29,NC State,Virginia,False,Virginia,5.6,0.619,36,44,4.0,"2 book(s), median -4.0",1.6,52.2,51.5,0.7,,
-401864577,2026-08-29,Jacksonville State,North Dakota State,False,North Dakota State,4.3,0.592,98,96,6.5,"2 book(s), median -6.5",-2.2,53.1,46.5,6.6,,
-401858201,2026-08-29,Hawai'i,Stanford,False,Stanford,1.4,0.531,87,81,4.0,"2 book(s), median -4.0",-2.6,52.1,48.5,3.6,,
-401862693,2026-08-30,Memphis,UNLV,False,UNLV,4.9,0.605,64,75,4.0,"2 book(s), median -4.0",0.9,55.2,56.5,-1.3,,
-401858423,2026-09-03,Massachusetts,Rutgers,False,Rutgers,33.5,0.965,58,138,29.0,"2 book(s), median -29.0",4.5,53.4,53.0,0.4,Massachusetts,0.8
-401858204,2026-09-03,Akron,Wake Forest,False,Wake Forest,20.9,0.872,48,121,24.0,"2 book(s), median -24.0",-3.1,49.7,48.5,1.2,,
-401858424,2026-09-04,UAB,Illinois,False,Illinois,27.0,0.929,35,127,28.5,"2 book(s), median -28.5",-1.5,54.1,57.0,-2.9,,
-401856776,2026-09-04,Colorado,Georgia Tech,False,Georgia Tech,10.2,0.711,40,74,6.5,"2 book(s), median -6.5",3.7,52.4,51.0,1.4,Colorado,0.68
-401864495,2026-09-04,San José State,Eastern Michigan,False,Eastern Michigan,8.8,0.684,116,128,4.5,"2 book(s), median -4.5",4.3,52.3,53.5,-1.2,,
-401858432,2026-09-05,Ball State,Ohio State,False,Ohio State,53.7,0.998,1,135,50.5,"2 book(s), median -50.5",3.2,51.4,56.5,-5.1,,
-401856664,2026-09-05,UTEP,Oklahoma,False,Oklahoma,39.0,0.983,12,129,40.5,"2 book(s), median -40.5",-1.5,50.9,50.5,0.4,,
-401856668,2026-09-05,Missouri State,Texas A&M,False,Texas A&M,38.2,0.981,9,122,40.5,"2 book(s), median -40.5",-2.3,52.8,52.5,0.3,,
-401856665,2026-09-05,Kent State,South Carolina,False,South Carolina,33.2,0.964,25,131,36.5,"2 book(s), median -36.5",-3.3,51.7,53.5,-1.8,,
-401858426,2026-09-05,Northern Illinois,Iowa,False,Iowa,33.0,0.964,20,126,31.5,"2 book(s), median -31.5",1.5,50.4,45.5,4.9,,
-401858425,2026-09-05,North Texas,Indiana,False,Indiana,32.0,0.959,4,89,40.5,"2 book(s), median -40.5",-8.5,53.6,55.5,-1.9,North Texas,0.65
-401856662,2026-09-05,UL Monroe,Mississippi State,False,Mississippi State,27.1,0.93,47,134,28.5,"2 book(s), median -28.5",-1.4,53.5,56.5,-3.0,,
-401856667,2026-09-05,Texas State,Texas,False,Texas,25.4,0.916,7,67,30.5,"2 book(s), median -30.5",-5.1,55.9,60.0,-4.1,,
-401856778,2026-09-05,Oregon State,Houston,False,Houston,23.2,0.896,32,108,20.5,"2 book(s), median -20.5",2.7,52.0,51.5,0.5,,
-401858433,2026-09-05,Boise State,Oregon,False,Oregon,22.9,0.893,2,38,24.5,"2 book(s), median -24.5",-1.6,52.9,52.0,0.9,,
-401858206,2026-09-05,Miami,Stanford,False,Miami,22.6,0.11,87,8,-23.5,"2 book(s), median +23.5",0.9,50.7,47.5,3.2,,
-401856637,2026-09-05,Florida Atlantic,Florida,False,Florida,21.6,0.88,26,99,26.5,"2 book(s), median -26.5",-4.9,53.3,59.5,-6.2,,
-401856634,2026-09-05,East Carolina,Alabama,False,Alabama,21.4,0.877,11,69,28.5,"2 book(s), median -28.5",-7.1,50.6,54.0,-3.4,,
-401858434,2026-09-05,Marshall,Penn State,False,Penn State,20.7,0.87,21,88,24.5,"2 book(s), median -24.5",-3.8,54.8,54.5,0.3,,
-401858436,2026-09-05,Fresno State,USC,False,USC,20.5,0.867,10,63,23.5,"2 book(s), median -23.5",-3.0,52.1,51.5,0.6,,
-401858428,2026-09-05,Western Michigan,Michigan,False,Michigan,20.1,0.862,14,71,27.5,"2 book(s), median -27.5",-7.4,50.5,47.5,3.0,,
-401858430,2026-09-05,Ohio,Nebraska,False,Nebraska,18.7,0.845,34,102,23.5,"2 book(s), median -23.5",-4.8,49.8,47.5,2.3,Ohio,0.58
-401870763,2026-09-05,Sam Houston,Troy,False,Troy,17.8,0.834,100,136,16.5,"2 book(s), median -16.5",1.3,53.2,53.5,-0.3,,
-401858207,2026-09-05,Miami (OH),Pittsburgh,False,Pittsburgh,16.9,0.82,33,92,16.0,"2 book(s), median -16.0",0.9,51.0,49.5,1.5,,
-401856780,2026-09-05,Coastal Carolina,West Virginia,False,West Virginia,16.4,0.814,76,124,21.5,"2 book(s), median -21.5",-5.1,53.2,56.5,-3.3,,
-401862699,2026-09-05,Florida International,South Florida,False,South Florida,15.2,0.796,65,115,13.0,"2 book(s), median -13.0",2.2,54.5,54.0,0.5,,
-401869960,2026-09-05,Liberty,James Madison,False,James Madison,11.3,0.731,56,95,6.5,"2 book(s), median -6.5",4.8,53.5,53.0,0.5,,
-401862695,2026-09-05,Arkansas State,Memphis,False,Memphis,10.5,0.716,75,105,8.5,"2 book(s), median -8.5",2.0,54.5,55.5,-1.0,,
-401856777,2026-09-05,Boston College,Cincinnati,False,Cincinnati,10.2,0.71,60,94,7.5,"2 book(s), median -7.5",2.7,53.2,52.0,1.2,,
-401858209,2026-09-05,Tulane,Duke,False,Duke,8.2,0.671,46,73,8.5,"2 book(s), median -8.5",-0.3,53.8,51.0,2.8,,
-401856636,2026-09-05,Baylor,Auburn,True,Auburn,7.2,0.653,30,42,7.0,"2 book(s), median -7.0",0.2,53.0,59.5,-6.5,,
-401860878,2026-09-05,Wyoming,Colorado State,False,Colorado State,6.2,0.631,112,113,3.5,"2 book(s), median -3.5",2.7,49.2,47.5,1.7,,
-401856660,2026-09-05,Clemson,LSU,False,LSU,5.8,0.624,17,24,10.5,"2 book(s), median -10.5",-4.7,50.1,51.5,-1.4,LSU,0.62
-401858429,2026-09-05,Toledo,Michigan State,False,Michigan State,3.9,0.585,72,79,10.0,"2 book(s), median -10.0",-6.1,51.2,49.5,1.7,Toledo,0.87
-401856772,2026-09-05,Oklahoma State,Tulsa,False,Oklahoma State,1.3,0.471,101,80,-14.0,"2 book(s), median +14.0",12.7,53.4,60.5,-7.1,Oklahoma State,1.14
-401858438,2026-09-06,Wisconsin,Notre Dame,True,Notre Dame,25.6,0.918,3,53,20.5,"2 book(s), median -20.5",5.1,50.5,47.5,3.0,Wisconsin,0.81
-401858437,2026-09-06,Washington State,Washington,False,Washington,21.9,0.883,18,83,23.5,"2 book(s), median -23.5",-1.6,50.7,51.0,-0.3,,
-401864498,2026-09-06,Central Michigan,New Mexico,False,New Mexico,17.5,0.83,68,114,10.0,"2 book(s), median -10.0",7.5,51.5,47.0,4.5,,
-401856661,2026-09-06,Louisville,Ole Miss,True,Ole Miss,9.8,0.703,13,31,6.5,"2 book(s), median -6.5",3.3,52.7,55.5,-2.8,,
-401864432,2026-09-06,Western Kentucky,Nevada,False,Western Kentucky,7.0,0.353,119,82,-2.5,"2 book(s), median +2.5",-4.5,52.4,53.0,-0.6,Western Kentucky,0.59
-401858210,2026-09-06,UCLA,California,False,California,2.1,0.544,66,62,-2.0,"2 book(s), median +2.0",4.1,53.1,54.0,-0.9,UCLA,0.88
-401864497,2026-09-06,UNLV,Hawai'i,False,UNLV,0.9,0.48,81,64,-3.0,"2 book(s), median +3.0",2.1,54.6,58.5,-3.9,,
-401858212,2026-09-07,SMU,Florida State,False,Florida State,1.1,0.525,28,22,-2.5,"2 book(s), median +2.5",3.6,52.3,53.0,-0.7,,
+date,away,home,neutral,model_pick,model_margin,home_win_prob,home_blended_rank,away_blended_rank,market_home_margin,market_note,model_vs_market_gap,model_total,market_total,total_gap,disagreement_team,disagreement_value
+2026-08-29,San José State,USC,False,USC,39.0,0.983,10,128,37.5,"3 book(s), median -37.5",1.5,53.7,61.5,-7.8,,
+2026-08-29,New Mexico State,Florida State,False,Florida State,29.8,0.947,28,125,31.0,"3 book(s), median -31.0",-1.2,51.9,53.5,-1.6,,
+2026-08-29,Sacramento State,Eastern Michigan,False,Eastern Michigan,8.5,0.677,116,130,9.0,"3 book(s), median -9.0",-0.5,52.4,52.5,-0.1,,
+2026-08-29,North Carolina,TCU,True,TCU,7.7,0.662,37,59,7.5,"3 book(s), median -7.5",0.2,51.5,46.5,5.0,,
+2026-08-29,NC State,Virginia,False,Virginia,5.6,0.619,36,44,4.0,"3 book(s), median -4.0",1.6,52.2,50.5,1.7,,
+2026-08-29,Jacksonville State,North Dakota State,False,North Dakota State,4.3,0.592,98,96,6.5,"3 book(s), median -6.5",-2.2,53.1,46.5,6.6,,
+2026-08-29,Hawai'i,Stanford,False,Stanford,1.4,0.531,87,81,4.5,"3 book(s), median -4.5",-3.1,52.1,48.5,3.6,,
+2026-08-30,Memphis,UNLV,False,UNLV,4.9,0.605,64,75,4.5,"3 book(s), median -4.5",0.4,55.2,55.5,-0.3,,
+2026-09-03,Massachusetts,Rutgers,False,Rutgers,33.5,0.965,58,138,28.5,"2 book(s), median -28.5",5.0,53.4,51.5,1.9,Massachusetts,0.8
+2026-09-03,Akron,Wake Forest,False,Wake Forest,20.9,0.872,48,121,23.5,"2 book(s), median -23.5",-2.6,49.7,48.5,1.2,,
+2026-09-04,UAB,Illinois,False,Illinois,27.0,0.929,35,127,27.5,"2 book(s), median -27.5",-0.5,54.1,54.5,-0.4,,
+2026-09-04,Colorado,Georgia Tech,False,Georgia Tech,10.2,0.711,40,74,6.5,"2 book(s), median -6.5",3.7,52.4,51.0,1.4,Colorado,0.68
+2026-09-04,San José State,Eastern Michigan,False,Eastern Michigan,8.8,0.684,116,128,3.0,"2 book(s), median -3.0",5.8,52.3,56.5,-4.2,,
+2026-09-05,Ball State,Ohio State,False,Ohio State,53.7,0.998,1,135,50.5,"2 book(s), median -50.5",3.2,51.4,56.5,-5.1,,
+2026-09-05,UTEP,Oklahoma,False,Oklahoma,39.0,0.983,12,129,41.5,"2 book(s), median -41.5",-2.5,50.9,51.5,-0.6,,
+2026-09-05,Missouri State,Texas A&M,False,Texas A&M,38.2,0.981,9,122,40.5,"2 book(s), median -40.5",-2.3,52.8,53.5,-0.7,,
+2026-09-05,Kent State,South Carolina,False,South Carolina,33.2,0.964,25,131,35.5,"2 book(s), median -35.5",-2.3,51.7,54.5,-2.8,,
+2026-09-05,Northern Illinois,Iowa,False,Iowa,33.0,0.964,20,126,31.0,"2 book(s), median -31.0",2.0,50.4,44.5,5.9,,
+2026-09-05,North Texas,Indiana,False,Indiana,32.0,0.959,4,89,39.5,"2 book(s), median -39.5",-7.5,53.6,55.5,-1.9,North Texas,0.65
+2026-09-05,UL Monroe,Mississippi State,False,Mississippi State,27.1,0.93,47,134,28.5,"2 book(s), median -28.5",-1.4,53.5,55.0,-1.5,,
+2026-09-05,Texas State,Texas,False,Texas,25.4,0.916,7,67,29.5,"2 book(s), median -29.5",-4.1,55.9,60.0,-4.1,,
+2026-09-05,Oregon State,Houston,False,Houston,23.2,0.896,32,108,20.5,"2 book(s), median -20.5",2.7,52.0,49.5,2.5,,
+2026-09-05,Boise State,Oregon,False,Oregon,22.9,0.893,2,38,24.0,"2 book(s), median -24.0",-1.1,52.9,51.5,1.4,,
+2026-09-05,Miami,Stanford,False,Miami,22.6,0.11,87,8,-24.5,"2 book(s), median +24.5",1.9,50.7,48.5,2.2,,
+2026-09-05,Florida Atlantic,Florida,False,Florida,21.6,0.88,26,99,26.5,"2 book(s), median -26.5",-4.9,53.3,59.5,-6.2,,
+2026-09-05,East Carolina,Alabama,False,Alabama,21.4,0.877,11,69,27.5,"2 book(s), median -27.5",-6.1,50.6,52.5,-1.9,,
+2026-09-05,Marshall,Penn State,False,Penn State,20.7,0.87,21,88,24.0,"2 book(s), median -24.0",-3.3,54.8,52.5,2.3,,
+2026-09-05,Fresno State,USC,False,USC,20.5,0.867,10,63,21.5,"2 book(s), median -21.5",-1.0,52.1,52.0,0.1,,
+2026-09-05,Western Michigan,Michigan,False,Michigan,20.1,0.862,14,71,27.5,"2 book(s), median -27.5",-7.4,50.5,48.5,2.0,,
+2026-09-05,Ohio,Nebraska,False,Nebraska,18.7,0.845,34,102,23.5,"2 book(s), median -23.5",-4.8,49.8,46.0,3.8,Ohio,0.58
+2026-09-05,Sam Houston,Troy,False,Troy,17.8,0.834,100,136,16.5,"2 book(s), median -16.5",1.3,53.2,54.0,-0.8,,
+2026-09-05,Miami (OH),Pittsburgh,False,Pittsburgh,16.9,0.82,33,92,16.5,"2 book(s), median -16.5",0.4,51.0,48.5,2.5,,
+2026-09-05,Coastal Carolina,West Virginia,False,West Virginia,16.4,0.814,76,124,21.0,"2 book(s), median -21.0",-4.6,53.2,56.5,-3.3,,
+2026-09-05,Florida International,South Florida,False,South Florida,15.2,0.796,65,115,14.0,"2 book(s), median -14.0",1.2,54.5,52.5,2.0,,
+2026-09-05,Liberty,James Madison,False,James Madison,11.3,0.731,56,95,6.5,"2 book(s), median -6.5",4.8,53.5,50.5,3.0,,
+2026-09-05,Arkansas State,Memphis,False,Memphis,10.5,0.716,75,105,10.5,"2 book(s), median -10.5",0.0,54.5,52.5,2.0,,
+2026-09-05,Boston College,Cincinnati,False,Cincinnati,10.2,0.71,60,94,7.0,"2 book(s), median -7.0",3.2,53.2,49.5,3.7,,
+2026-09-05,Tulane,Duke,False,Duke,8.2,0.671,46,73,7.5,"2 book(s), median -7.5",0.7,53.8,51.5,2.3,,
+2026-09-05,Baylor,Auburn,True,Auburn,7.2,0.653,30,42,7.0,"2 book(s), median -7.0",0.2,53.0,59.0,-6.0,,
+2026-09-05,Wyoming,Colorado State,False,Colorado State,6.2,0.631,112,113,3.0,"2 book(s), median -3.0",3.2,49.2,46.5,2.7,,
+2026-09-05,Clemson,LSU,False,LSU,5.8,0.624,17,24,10.0,"2 book(s), median -10.0",-4.2,50.1,50.5,-0.4,LSU,0.62
+2026-09-05,Toledo,Michigan State,False,Michigan State,3.9,0.585,72,79,9.5,"2 book(s), median -9.5",-5.6,51.2,47.5,3.7,Toledo,0.87
+2026-09-05,Oklahoma State,Tulsa,False,Oklahoma State,1.3,0.471,101,80,-13.5,"2 book(s), median +13.5",12.2,53.4,59.5,-6.1,Oklahoma State,1.14
+2026-09-06,Wisconsin,Notre Dame,True,Notre Dame,25.6,0.918,3,53,20.0,"2 book(s), median -20.0",5.6,50.5,47.5,3.0,Wisconsin,0.81
+2026-09-06,Washington State,Washington,False,Washington,21.9,0.883,18,83,23.0,"2 book(s), median -23.0",-1.1,50.7,51.0,-0.3,,
+2026-09-06,Central Michigan,New Mexico,False,New Mexico,17.5,0.83,68,114,10.0,"2 book(s), median -10.0",7.5,51.5,46.5,5.0,,
+2026-09-06,Louisville,Ole Miss,True,Ole Miss,9.8,0.703,13,31,7.0,"2 book(s), median -7.0",2.8,52.7,55.5,-2.8,,
+2026-09-06,Western Kentucky,Nevada,False,Western Kentucky,7.0,0.353,119,82,-2.5,"2 book(s), median +2.5",-4.5,52.4,52.5,-0.1,Western Kentucky,0.59
+2026-09-06,UCLA,California,False,California,2.1,0.544,66,62,-2.0,"2 book(s), median +2.0",4.1,53.1,54.0,-0.9,UCLA,0.88
+2026-09-06,UNLV,Hawai'i,False,UNLV,0.9,0.48,81,64,-3.0,"2 book(s), median +3.0",2.1,54.6,56.5,-1.9,,
+2026-09-07,SMU,Florida State,False,Florida State,1.1,0.525,28,22,-3.0,"2 book(s), median +3.0",4.1,52.3,53.0,-0.7,,
