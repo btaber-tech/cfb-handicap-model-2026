@@ -57,6 +57,38 @@ ABBREV_HINTS = {
     "STAN": "Stanford", "UVA": "Virginia", "NDSU": "North Dakota State",
     "EMU": "Eastern Michigan", "FSU": "Florida State", "UNLV": "UNLV",
     "TCU": "TCU", "USC": "USC", "SJSU": "San Jose State",
+    # Expanded 2026-09-03 to cover the full Week 1 slate (98 games) once
+    # VegasInsider unlocked it beyond the original 8-game free sample.
+    # Verified unambiguous against every open/consensus line in that capture.
+    "AFA": "Air Force", "APP": "Appalachian State", "APSU": "Austin Peay",
+    "ARI": "Arizona", "ARK": "Arkansas", "ARMY": "Army", "ASU": "Arizona State",
+    "AUB": "Auburn", "BAMA": "Alabama", "BGSU": "Bowling Green",
+    "BUFF": "Buffalo", "BYU": "BYU", "CAL": "California", "CHA": "Charlotte",
+    "CIN": "Cincinnati", "CSU": "Colorado State", "DEL": "Delaware",
+    "DUKE": "Duke", "FLA": "Florida", "GASO": "Georgia Southern",
+    "GAST": "Georgia State", "GT": "Georgia Tech", "HOU": "Houston",
+    "IDHO": "Idaho", "ILL": "Illinois", "IOWA": "Iowa", "ISU": "Iowa State",
+    "IU": "Indiana", "JMU": "James Madison", "JVST": "Jacksonville State",
+    "KENN": "Kennesaw State", "KSU": "Kansas State", "KU": "Kansas",
+    "LSU": "LSU", "LT": "Louisiana Tech", "MEM": "Memphis",
+    "MIA": "Miami (FL)", "MICH": "Michigan", "MINN": "Minnesota",
+    "MISS": "Ole Miss", "MIZ": "Missouri", "MSST": "Mississippi State",
+    "MSU": "Michigan State", "MTSU": "Middle Tennessee", "NAVY": "Navy",
+    "ND": "Notre Dame", "NEB": "Nebraska", "NH": "New Hampshire",
+    "NMSU": "New Mexico State", "NW": "Northwestern", "ODU": "Old Dominion",
+    "OKST": "Oklahoma State", "ORE": "Oregon", "OSU": "Ohio State",
+    "OU": "Oklahoma", "PITT": "Pittsburgh", "PSU": "Penn State",
+    "PUR": "Purdue", "RICE": "Rice", "RUT": "Rutgers",
+    "SAC": "Sacramento State", "SC": "South Carolina", "SDSU": "San Diego State",
+    "SYR": "Syracuse", "TA&M": "Texas A&M", "TEM": "Temple",
+    "TENN": "Tennessee", "TEX": "Texas", "TROY": "Troy", "TTU": "Texas Tech",
+    "UCF": "UCF", "UCLA": "UCLA", "UCONN": "UConn", "UGA": "Georgia",
+    "UK": "Kentucky", "UL": "Louisiana", "UMD": "Maryland",
+    "UNM": "New Mexico", "USA": "South Alabama", "USF": "South Florida",
+    "USM": "Southern Miss", "USU": "Utah State", "UTAH": "Utah",
+    "UTSA": "UTSA", "VAN": "Vanderbilt", "VT": "Virginia Tech",
+    "WASH": "Washington", "WF": "Wake Forest", "WKU": "Western Kentucky",
+    "WVU": "West Virginia",
 }
 
 
@@ -81,9 +113,18 @@ def esc(s):
 
 
 def diff_badge(money, bets):
+    if money is None or bets is None:
+        return '<span class="diff diff-flat">N/A</span>'
     d = money - bets
     cls = "diff-pos" if d > 0 else ("diff-neg" if d < 0 else "diff-flat")
     return f'<span class="diff {cls}">{d:+d}</span>'
+
+
+def pct_or_na(v):
+    """Some VegasInsider rows are missing a bets%/money% cell (too little
+    volume tracked yet) -- render those as a 0-width bar and 'N/A' rather
+    than crashing or printing 'None%'."""
+    return (v, f"{v}%") if v is not None else (0, "N/A")
 
 
 def build_game_card(g, movement_by_pair):
@@ -95,7 +136,8 @@ def build_game_card(g, movement_by_pair):
     cons_spread = parse_home_spread(g["consensus"], home["team"], away["team"])
 
     rlm = None
-    if open_spread is not None and cons_spread is not None:
+    has_bets_spread_pct = home["bets_spread"] is not None and away["bets_spread"] is not None
+    if open_spread is not None and cons_spread is not None and has_bets_spread_pct:
         move = cons_spread - open_spread
         if abs(move) >= 0.01:
             # move<0 => line moved toward HOME; move>0 => moved toward AWAY
@@ -108,16 +150,18 @@ def build_game_card(g, movement_by_pair):
 
     def team_row(t, other, is_home):
         bd = diff_badge(t["money_spread"], t["bets_spread"])
+        bets_w, bets_txt = pct_or_na(t["bets_spread"])
+        money_w, money_txt = pct_or_na(t["money_spread"])
         return f"""
             <div class="pb-team">
               <div class="pb-team-name">{esc(t['team'])}{' <span class="home-tag" title="Home team">HOME</span>' if is_home else ''}</div>
               <div class="pb-bars">
                 <div class="pb-bar-row"><span class="pb-bar-label">Bets</span>
-                  <div class="pb-bar-track"><div class="pb-bar-fill pb-bar-bets" style="width:{t['bets_spread']}%"></div></div>
-                  <span class="pb-bar-pct">{t['bets_spread']}%</span></div>
+                  <div class="pb-bar-track"><div class="pb-bar-fill pb-bar-bets" style="width:{bets_w}%"></div></div>
+                  <span class="pb-bar-pct">{bets_txt}</span></div>
                 <div class="pb-bar-row"><span class="pb-bar-label">Money</span>
-                  <div class="pb-bar-track"><div class="pb-bar-fill pb-bar-money" style="width:{t['money_spread']}%"></div></div>
-                  <span class="pb-bar-pct">{t['money_spread']}%</span></div>
+                  <div class="pb-bar-track"><div class="pb-bar-fill pb-bar-money" style="width:{money_w}%"></div></div>
+                  <span class="pb-bar-pct">{money_txt}</span></div>
               </div>
               <div class="pb-diff-line">money &minus; bets: {bd}</div>
             </div>"""

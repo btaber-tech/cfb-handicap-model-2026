@@ -1,53 +1,2161 @@
 {
-  "captured_at": "2026-08-20",
+  "captured_at": "2026-09-03",
   "games": [
     {
-      "away": {"team": "North Carolina", "rot": 305, "bets_spread": 35, "bets_total": 87, "bets_ml": 7, "money_spread": 14, "money_total": 64, "money_ml": 18},
-      "home": {"team": "TCU", "rot": 306, "bets_spread": 65, "bets_total": 13, "bets_ml": 93, "money_spread": 86, "money_total": 36, "money_ml": 82},
+      "away": {
+        "team": "UMass",
+        "bets_spread": 91,
+        "bets_total": 21,
+        "bets_ml": 6,
+        "money_spread": 89,
+        "money_total": 23,
+        "money_ml": 53
+      },
+      "home": {
+        "team": "Rutgers",
+        "bets_spread": 9,
+        "bets_total": 79,
+        "bets_ml": 94,
+        "money_spread": 11,
+        "money_total": 77,
+        "money_ml": 47
+      },
+      "open": "RUT -30.5 o55.5 -10000",
+      "consensus": "RUT -28.5 o51.5 -8000"
+    },
+    {
+      "away": {
+        "team": "Akron",
+        "bets_spread": 59,
+        "bets_total": 57,
+        "bets_ml": 4,
+        "money_spread": 23,
+        "money_total": 49,
+        "money_ml": 10
+      },
+      "home": {
+        "team": "Wake Forest",
+        "bets_spread": 41,
+        "bets_total": 43,
+        "bets_ml": 96,
+        "money_spread": 77,
+        "money_total": 51,
+        "money_ml": 90
+      },
+      "open": "WF -22.5 o49.5 -2400",
+      "consensus": "WF -24.5 o48.5 -3200"
+    },
+    {
+      "away": {
+        "team": "Merrimack",
+        "bets_spread": 95,
+        "bets_total": 20,
+        "bets_ml": 5,
+        "money_spread": 85,
+        "money_total": 26,
+        "money_ml": 18
+      },
+      "home": {
+        "team": "Delaware",
+        "bets_spread": 5,
+        "bets_total": 80,
+        "bets_ml": 95,
+        "money_spread": 15,
+        "money_total": 74,
+        "money_ml": 82
+      },
+      "open": "DEL -27.5 o55.5 -8000",
+      "consensus": "DEL -28.5 o55.5 -20000"
+    },
+    {
+      "away": {
+        "team": "West Georgia",
+        "bets_spread": 90,
+        "bets_total": 50,
+        "bets_ml": 6,
+        "money_spread": 89,
+        "money_total": 64,
+        "money_ml": 41
+      },
+      "home": {
+        "team": "Kennesaw State",
+        "bets_spread": 10,
+        "bets_total": 50,
+        "bets_ml": 94,
+        "money_spread": 11,
+        "money_total": 36,
+        "money_ml": 59
+      },
+      "open": "KENN -21.5 o51.5 -2800",
+      "consensus": "KENN -22.5 o50.5 -3600"
+    },
+    {
+      "away": {
+        "team": "Bethune-Cookman",
+        "bets_spread": 92,
+        "bets_total": 15,
+        "bets_ml": 14,
+        "money_spread": 64,
+        "money_total": 32,
+        "money_ml": 77
+      },
+      "home": {
+        "team": "UCF",
+        "bets_spread": 8,
+        "bets_total": 85,
+        "bets_ml": 86,
+        "money_spread": 36,
+        "money_total": 68,
+        "money_ml": 23
+      },
+      "open": "UCF -41.5 o59.5 N/A",
+      "consensus": "UCF -42.5 o58.5 N/A"
+    },
+    {
+      "away": {
+        "team": "University at Albany",
+        "bets_spread": 90,
+        "bets_total": 65,
+        "bets_ml": 5,
+        "money_spread": 87,
+        "money_total": 71,
+        "money_ml": 24
+      },
+      "home": {
+        "team": "Buffalo",
+        "bets_spread": 10,
+        "bets_total": 35,
+        "bets_ml": 95,
+        "money_spread": 13,
+        "money_total": 29,
+        "money_ml": 76
+      },
+      "open": "BUFF -24.5 o48.5 -8000",
+      "consensus": "BUFF -18.5 o48.5 -1200"
+    },
+    {
+      "away": {
+        "team": "Colorado",
+        "bets_spread": 35,
+        "bets_total": 38,
+        "bets_ml": 11,
+        "money_spread": 33,
+        "money_total": 51,
+        "money_ml": 61
+      },
+      "home": {
+        "team": "Georgia Tech",
+        "bets_spread": 65,
+        "bets_total": 62,
+        "bets_ml": 89,
+        "money_spread": 67,
+        "money_total": 49,
+        "money_ml": 39
+      },
+      "open": "GT -7 o51.5 -290",
+      "consensus": "GT -6.5 o51.5 -238"
+    },
+    {
+      "away": {
+        "team": "Eastern Illinois",
+        "bets_spread": 67,
+        "bets_total": 52,
+        "bets_ml": 17,
+        "money_spread": 53,
+        "money_total": 77,
+        "money_ml": 85
+      },
+      "home": {
+        "team": "Minnesota",
+        "bets_spread": 33,
+        "bets_total": 48,
+        "bets_ml": 83,
+        "money_spread": 47,
+        "money_total": 23,
+        "money_ml": 15
+      },
+      "open": "MINN -43.5 o51.5 N/A",
+      "consensus": "MINN -42.5 o51.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Arkansas-Pine Bluff",
+        "bets_spread": 71,
+        "bets_total": 68,
+        "bets_ml": 12,
+        "money_spread": 61,
+        "money_total": 72,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Missouri",
+        "bets_spread": 29,
+        "bets_total": 32,
+        "bets_ml": 88,
+        "money_spread": 39,
+        "money_total": 28,
+        "money_ml": 100
+      },
+      "open": "MIZ -54.5 o60.5 N/A",
+      "consensus": "MIZ -54.5 o61.5 N/A"
+    },
+    {
+      "away": {
+        "team": "UAB",
+        "bets_spread": 89,
+        "bets_total": 19,
+        "bets_ml": 4,
+        "money_spread": 85,
+        "money_total": 16,
+        "money_ml": 25
+      },
+      "home": {
+        "team": "Illinois",
+        "bets_spread": 11,
+        "bets_total": 81,
+        "bets_ml": 96,
+        "money_spread": 15,
+        "money_total": 84,
+        "money_ml": 75
+      },
+      "open": "ILL -27.5 o56.5 -6500",
+      "consensus": "ILL -27.5 o54.5 -4500"
+    },
+    {
+      "away": {
+        "team": "Idaho",
+        "bets_spread": 81,
+        "bets_total": 12,
+        "bets_ml": 6,
+        "money_spread": 35,
+        "money_total": 64,
+        "money_ml": 45
+      },
+      "home": {
+        "team": "Utah",
+        "bets_spread": 19,
+        "bets_total": 88,
+        "bets_ml": 94,
+        "money_spread": 65,
+        "money_total": 36,
+        "money_ml": 55
+      },
+      "open": "IDHO -56.5 o56.5 -112",
+      "consensus": "UTAH -35.5 o57.5 -20000"
+    },
+    {
+      "away": {
+        "team": "San Jose State",
+        "bets_spread": 70,
+        "bets_total": 16,
+        "bets_ml": 18,
+        "money_spread": 80,
+        "money_total": 31,
+        "money_ml": 38
+      },
+      "home": {
+        "team": "Eastern Michigan",
+        "bets_spread": 30,
+        "bets_total": 84,
+        "bets_ml": 82,
+        "money_spread": 20,
+        "money_total": 69,
+        "money_ml": 62
+      },
+      "open": "EMU -3.5 o53.5 -162",
+      "consensus": "EMU -3 o56.5 -142"
+    },
+    {
+      "away": {
+        "team": "North Carolina A&T",
+        "bets_spread": 98,
+        "bets_total": 6,
+        "bets_ml": 4,
+        "money_spread": 93,
+        "money_total": 7,
+        "money_ml": 7
+      },
+      "home": {
+        "team": "Georgia State",
+        "bets_spread": 2,
+        "bets_total": 94,
+        "bets_ml": 96,
+        "money_spread": 7,
+        "money_total": 93,
+        "money_ml": 93
+      },
+      "open": "GAST -28.5 o63.5 -4500",
+      "consensus": "GAST -28.5 o62.5 -8000"
+    },
+    {
+      "away": {
+        "team": "Indiana State",
+        "bets_spread": 98,
+        "bets_total": 6,
+        "bets_ml": 4,
+        "money_spread": 85,
+        "money_total": 8,
+        "money_ml": 40
+      },
+      "home": {
+        "team": "Purdue",
+        "bets_spread": 2,
+        "bets_total": 94,
+        "bets_ml": 96,
+        "money_spread": 15,
+        "money_total": 92,
+        "money_ml": 60
+      },
+      "open": "PUR -33.5 o56.5 N/A",
+      "consensus": "PUR -35.5 o56.5 -9000"
+    },
+    {
+      "away": {
+        "team": "Toledo",
+        "bets_spread": 33,
+        "bets_total": 46,
+        "bets_ml": 3,
+        "money_spread": 37,
+        "money_total": 46,
+        "money_ml": 9
+      },
+      "home": {
+        "team": "Michigan State",
+        "bets_spread": 67,
+        "bets_total": 54,
+        "bets_ml": 97,
+        "money_spread": 63,
+        "money_total": 54,
+        "money_ml": 91
+      },
+      "open": "MSU -10.5 o49.5 -395",
+      "consensus": "MSU -10 o46.5 -410"
+    },
+    {
+      "away": {
+        "team": "UTEP",
+        "bets_spread": 92,
+        "bets_total": 34,
+        "bets_ml": 5,
+        "money_spread": 67,
+        "money_total": 75,
+        "money_ml": 76
+      },
+      "home": {
+        "team": "Oklahoma",
+        "bets_spread": 8,
+        "bets_total": 66,
+        "bets_ml": 95,
+        "money_spread": 33,
+        "money_total": 25,
+        "money_ml": 24
+      },
+      "open": "OU -40.5 o50.5 N/A",
+      "consensus": "OU -40.5 o51.5 N/A"
+    },
+    {
+      "away": {
+        "team": "LIU",
+        "bets_spread": 75,
+        "bets_total": 31,
+        "bets_ml": 6,
+        "money_spread": 47,
+        "money_total": 40,
+        "money_ml": 47
+      },
+      "home": {
+        "team": "Kansas",
+        "bets_spread": 25,
+        "bets_total": 69,
+        "bets_ml": 94,
+        "money_spread": 53,
+        "money_total": 60,
+        "money_ml": 53
+      },
+      "open": "KU -38.5 o53.5 N/A",
+      "consensus": "KU -41.5 o53.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Fresno State",
+        "bets_spread": 45,
+        "bets_total": 34,
+        "bets_ml": 2,
+        "money_spread": 41,
+        "money_total": 65,
+        "money_ml": 2
+      },
+      "home": {
+        "team": "USC",
+        "bets_spread": 55,
+        "bets_total": 66,
+        "bets_ml": 98,
+        "money_spread": 59,
+        "money_total": 35,
+        "money_ml": 98
+      },
+      "open": "USC -23.5 o51.5 -2800",
+      "consensus": "USC -22.5 o51.5 -2100"
+    },
+    {
+      "away": {
+        "team": "Miami (FL)",
+        "bets_spread": 57,
+        "bets_total": 50,
+        "bets_ml": 96,
+        "money_spread": 77,
+        "money_total": 68,
+        "money_ml": 92
+      },
+      "home": {
+        "team": "Stanford",
+        "bets_spread": 43,
+        "bets_total": 50,
+        "bets_ml": 4,
+        "money_spread": 23,
+        "money_total": 32,
+        "money_ml": 8
+      },
+      "open": "MIA -21.5 o48.5 -2100",
+      "consensus": "MIA -24.5 o48.5 -3200"
+    },
+    {
+      "away": {
+        "team": "Coastal Carolina",
+        "bets_spread": 90,
+        "bets_total": 3,
+        "bets_ml": 1,
+        "money_spread": 79,
+        "money_total": 5,
+        "money_ml": 6
+      },
+      "home": {
+        "team": "West Virginia",
+        "bets_spread": 10,
+        "bets_total": 97,
+        "bets_ml": 99,
+        "money_spread": 21,
+        "money_total": 95,
+        "money_ml": 94
+      },
+      "open": "WVU -17.5 o57.5 -1600",
+      "consensus": "WVU -21 o56.5 -1650"
+    },
+    {
+      "away": {
+        "team": "Liberty",
+        "bets_spread": 36,
+        "bets_total": 23,
+        "bets_ml": 6,
+        "money_spread": 45,
+        "money_total": 34,
+        "money_ml": 15
+      },
+      "home": {
+        "team": "James Madison",
+        "bets_spread": 64,
+        "bets_total": 77,
+        "bets_ml": 94,
+        "money_spread": 55,
+        "money_total": 66,
+        "money_ml": 85
+      },
+      "open": "JMU -6 o50.5 -250",
+      "consensus": "JMU -6 o50.5 -225"
+    },
+    {
+      "away": {
+        "team": "North Texas",
+        "bets_spread": 97,
+        "bets_total": 8,
+        "bets_ml": 4,
+        "money_spread": 79,
+        "money_total": 41,
+        "money_ml": 62
+      },
+      "home": {
+        "team": "Indiana",
+        "bets_spread": 3,
+        "bets_total": 92,
+        "bets_ml": 96,
+        "money_spread": 21,
+        "money_total": 59,
+        "money_ml": 38
+      },
+      "open": "IU -40.5 o55.5 N/A",
+      "consensus": "IU -40.5 o55.5 N/A"
+    },
+    {
+      "away": {
+        "team": "East Carolina",
+        "bets_spread": 77,
+        "bets_total": 13,
+        "bets_ml": 2,
+        "money_spread": 50,
+        "money_total": 22,
+        "money_ml": 14
+      },
+      "home": {
+        "team": "Alabama",
+        "bets_spread": 23,
+        "bets_total": 87,
+        "bets_ml": 98,
+        "money_spread": 50,
+        "money_total": 78,
+        "money_ml": 86
+      },
+      "open": "BAMA -25.5 o54.5 -4000",
+      "consensus": "BAMA -28.5 o52.5 -8000"
+    },
+    {
+      "away": {
+        "team": "Ohio",
+        "bets_spread": 93,
+        "bets_total": 43,
+        "bets_ml": 1,
+        "money_spread": 63,
+        "money_total": 26,
+        "money_ml": 4
+      },
+      "home": {
+        "team": "Nebraska",
+        "bets_spread": 7,
+        "bets_total": 57,
+        "bets_ml": 99,
+        "money_spread": 37,
+        "money_total": 74,
+        "money_ml": 96
+      },
+      "open": "NEB -23.5 o47.5 -2800",
+      "consensus": "NEB -23.5 o46.5 -2800"
+    },
+    {
+      "away": {
+        "team": "Oregon State",
+        "bets_spread": 70,
+        "bets_total": 29,
+        "bets_ml": 3,
+        "money_spread": 46,
+        "money_total": 41,
+        "money_ml": 6
+      },
+      "home": {
+        "team": "Houston",
+        "bets_spread": 30,
+        "bets_total": 71,
+        "bets_ml": 97,
+        "money_spread": 54,
+        "money_total": 59,
+        "money_ml": 94
+      },
+      "open": "HOU -18.5 o50.5 -1200",
+      "consensus": "HOU -20.5 o49.5 -1650"
+    },
+    {
+      "away": {
+        "team": "New Hampshire",
+        "bets_spread": 98,
+        "bets_total": 4,
+        "bets_ml": 1,
+        "money_spread": 89,
+        "money_total": 11,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Syracuse",
+        "bets_spread": 2,
+        "bets_total": 96,
+        "bets_ml": 99,
+        "money_spread": 11,
+        "money_total": 89,
+        "money_ml": 100
+      },
+      "open": "NH -55.5 N/A -110",
+      "consensus": "SYR -33.5 o55.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Lafayette",
+        "bets_spread": 42,
+        "bets_total": 2,
+        "bets_ml": 2,
+        "money_spread": 21,
+        "money_total": 14,
+        "money_ml": 1
+      },
+      "home": {
+        "team": "UConn",
+        "bets_spread": 58,
+        "bets_total": 98,
+        "bets_ml": 98,
+        "money_spread": 79,
+        "money_total": 86,
+        "money_ml": 99
+      },
+      "open": "UCONN -18.5 o58.5 -1100",
+      "consensus": "UCONN -19.5 o52.5 -1350"
+    },
+    {
+      "away": {
+        "team": "Tarleton State",
+        "bets_spread": 34,
+        "bets_total": 45,
+        "bets_ml": 21,
+        "money_spread": 40,
+        "money_total": 40,
+        "money_ml": 30
+      },
+      "home": {
+        "team": "Bowling Green",
+        "bets_spread": 66,
+        "bets_total": 55,
+        "bets_ml": 79,
+        "money_spread": 60,
+        "money_total": 60,
+        "money_ml": 70
+      },
+      "open": "BGSU -1.5 o47.5 -125",
+      "consensus": "BGSU -2.5 o48.5 -135"
+    },
+    {
+      "away": {
+        "team": "Bryant",
+        "bets_spread": 98,
+        "bets_total": 23,
+        "bets_ml": 5,
+        "money_spread": 49,
+        "money_total": 4,
+        "money_ml": 50
+      },
+      "home": {
+        "team": "Army",
+        "bets_spread": 2,
+        "bets_total": 77,
+        "bets_ml": 95,
+        "money_spread": 51,
+        "money_total": 96,
+        "money_ml": 50
+      },
+      "open": "ARMY -36.5 o51.5 N/A",
+      "consensus": "ARMY -36.5 o51.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Miami (OH)",
+        "bets_spread": 43,
+        "bets_total": 20,
+        "bets_ml": 2,
+        "money_spread": 43,
+        "money_total": 13,
+        "money_ml": 6
+      },
+      "home": {
+        "team": "Pittsburgh",
+        "bets_spread": 57,
+        "bets_total": 80,
+        "bets_ml": 98,
+        "money_spread": 57,
+        "money_total": 87,
+        "money_ml": 94
+      },
+      "open": "PITT -16.5 o50.5 -750",
+      "consensus": "PITT -16.5 o47.5 -800"
+    },
+    {
+      "away": {
+        "team": "Ball State",
+        "bets_spread": 96,
+        "bets_total": 7,
+        "bets_ml": 4,
+        "money_spread": 58,
+        "money_total": 38,
+        "money_ml": 96
+      },
+      "home": {
+        "team": "Ohio State",
+        "bets_spread": 4,
+        "bets_total": 93,
+        "bets_ml": 96,
+        "money_spread": 42,
+        "money_total": 62,
+        "money_ml": 4
+      },
+      "open": "OSU -49.5 o56.5 N/A",
+      "consensus": "OSU -50.5 o56.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Kent State",
+        "bets_spread": 98,
+        "bets_total": 5,
+        "bets_ml": 4,
+        "money_spread": 68,
+        "money_total": 48,
+        "money_ml": 26
+      },
+      "home": {
+        "team": "South Carolina",
+        "bets_spread": 2,
+        "bets_total": 95,
+        "bets_ml": 96,
+        "money_spread": 32,
+        "money_total": 52,
+        "money_ml": 74
+      },
+      "open": "SC -33.5 o52.5 -20000",
+      "consensus": "SC -35.5 o54.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Youngstown State",
+        "bets_spread": 85,
+        "bets_total": 2,
+        "bets_ml": 1,
+        "money_spread": 82,
+        "money_total": 4,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Kentucky",
+        "bets_spread": 15,
+        "bets_total": 98,
+        "bets_ml": 99,
+        "money_spread": 18,
+        "money_total": 96,
+        "money_ml": 100
+      },
+      "open": "UK -23.5 o62.5 -3200",
+      "consensus": "UK -22.5 o62.5 -3600"
+    },
+    {
+      "away": {
+        "team": "Southeast Missouri State",
+        "bets_spread": 98,
+        "bets_total": 22,
+        "bets_ml": 1,
+        "money_spread": 85,
+        "money_total": 37,
+        "money_ml": 11
+      },
+      "home": {
+        "team": "Iowa State",
+        "bets_spread": 2,
+        "bets_total": 78,
+        "bets_ml": 99,
+        "money_spread": 15,
+        "money_total": 63,
+        "money_ml": 89
+      },
+      "open": "ISU -29.5 o54.5 -10000",
+      "consensus": "ISU -29.5 o53.5 -20000"
+    },
+    {
+      "away": {
+        "team": "Duquesne",
+        "bets_spread": 98,
+        "bets_total": 6,
+        "bets_ml": 2,
+        "money_spread": 58,
+        "money_total": 12,
+        "money_ml": 1
+      },
+      "home": {
+        "team": "Air Force",
+        "bets_spread": 2,
+        "bets_total": 94,
+        "bets_ml": 98,
+        "money_spread": 42,
+        "money_total": 88,
+        "money_ml": 99
+      },
+      "open": "AFA -28.5 o58.5 -9000",
+      "consensus": "AFA -28.5 o58.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Rhode Island",
+        "bets_spread": 38,
+        "bets_total": 27,
+        "bets_ml": 2,
+        "money_spread": 11,
+        "money_total": 17,
+        "money_ml": 4
+      },
+      "home": {
+        "team": "Temple",
+        "bets_spread": 62,
+        "bets_total": 73,
+        "bets_ml": 98,
+        "money_spread": 89,
+        "money_total": 83,
+        "money_ml": 96
+      },
+      "open": "TEM -10 o51.5 -470",
+      "consensus": "TEM -14.5 o51.5 -750"
+    },
+    {
+      "away": {
+        "team": "Tennessee State",
+        "bets_spread": 60,
+        "bets_total": 39,
+        "bets_ml": 4,
+        "money_spread": 38,
+        "money_total": 46,
+        "money_ml": 20
+      },
+      "home": {
+        "team": "Georgia",
+        "bets_spread": 40,
+        "bets_total": 61,
+        "bets_ml": 96,
+        "money_spread": 62,
+        "money_total": 54,
+        "money_ml": 80
+      },
+      "open": "UGA -44.5 o56.5 N/A",
+      "consensus": "UGA -46.5 o56.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Boston College",
+        "bets_spread": 39,
+        "bets_total": 14,
+        "bets_ml": 3,
+        "money_spread": 65,
+        "money_total": 14,
+        "money_ml": 12
+      },
+      "home": {
+        "team": "Cincinnati",
+        "bets_spread": 61,
+        "bets_total": 86,
+        "bets_ml": 97,
+        "money_spread": 35,
+        "money_total": 86,
+        "money_ml": 88
+      },
+      "open": "CIN -9.5 o54.5 -265",
+      "consensus": "CIN -7.5 o50.5 -305"
+    },
+    {
+      "away": {
+        "team": "Marshall",
+        "bets_spread": 64,
+        "bets_total": 6,
+        "bets_ml": 1,
+        "money_spread": 50,
+        "money_total": 12,
+        "money_ml": 11
+      },
+      "home": {
+        "team": "Penn State",
+        "bets_spread": 36,
+        "bets_total": 94,
+        "bets_ml": 99,
+        "money_spread": 50,
+        "money_total": 88,
+        "money_ml": 89
+      },
+      "open": "PSU -23.5 o54.5 -2400",
+      "consensus": "PSU -24.5 o52.5 -2800"
+    },
+    {
+      "away": {
+        "team": "Tulane",
+        "bets_spread": 47,
+        "bets_total": 20,
+        "bets_ml": 6,
+        "money_spread": 37,
+        "money_total": 24,
+        "money_ml": 13
+      },
+      "home": {
+        "team": "Duke",
+        "bets_spread": 53,
+        "bets_total": 80,
+        "bets_ml": 94,
+        "money_spread": 63,
+        "money_total": 76,
+        "money_ml": 87
+      },
+      "open": "DUKE -8.5 o53.5 -455",
+      "consensus": "DUKE -7.5 o50.5 -340"
+    },
+    {
+      "away": {
+        "team": "Texas State",
+        "bets_spread": 92,
+        "bets_total": 3,
+        "bets_ml": 2,
+        "money_spread": 45,
+        "money_total": 23,
+        "money_ml": 3
+      },
+      "home": {
+        "team": "Texas",
+        "bets_spread": 8,
+        "bets_total": 97,
+        "bets_ml": 98,
+        "money_spread": 55,
+        "money_total": 77,
+        "money_ml": 97
+      },
+      "open": "N/A o59.5 N/A",
+      "consensus": "TEX -30.5 o59.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Boise State",
+        "bets_spread": 67,
+        "bets_total": 14,
+        "bets_ml": 2,
+        "money_spread": 41,
+        "money_total": 35,
+        "money_ml": 14
+      },
+      "home": {
+        "team": "Oregon",
+        "bets_spread": 33,
+        "bets_total": 86,
+        "bets_ml": 98,
+        "money_spread": 59,
+        "money_total": 65,
+        "money_ml": 86
+      },
+      "open": "ORE -24.5 o52.5 -3600",
+      "consensus": "ORE -24.5 o51.5 -2400"
+    },
+    {
+      "away": {
+        "team": "Baylor",
+        "bets_spread": 37,
+        "bets_total": 35,
+        "bets_ml": 7,
+        "money_spread": 31,
+        "money_total": 35,
+        "money_ml": 22
+      },
+      "home": {
+        "team": "Auburn",
+        "bets_spread": 63,
+        "bets_total": 65,
+        "bets_ml": 93,
+        "money_spread": 69,
+        "money_total": 65,
+        "money_ml": 78
+      },
+      "open": "AUB -6.5 o59.5 -269",
+      "consensus": "AUB -7.5 o58.5 -298"
+    },
+    {
+      "away": {
+        "team": "Fordham",
+        "bets_spread": 84,
+        "bets_total": 5,
+        "bets_ml": 3,
+        "money_spread": 42,
+        "money_total": 3,
+        "money_ml": 4
+      },
+      "home": {
+        "team": "North Dakota State",
+        "bets_spread": 16,
+        "bets_total": 95,
+        "bets_ml": 97,
+        "money_spread": 58,
+        "money_total": 97,
+        "money_ml": 96
+      },
+      "open": "NDSU -39.5 o57.5 N/A",
+      "consensus": "NDSU -41.5 o56.5 -20000"
+    },
+    {
+      "away": {
+        "team": "The Citadel",
+        "bets_spread": 65,
+        "bets_total": 46,
+        "bets_ml": 1,
+        "money_spread": 65,
+        "money_total": 37,
+        "money_ml": 1
+      },
+      "home": {
+        "team": "Charlotte",
+        "bets_spread": 35,
+        "bets_total": 54,
+        "bets_ml": 99,
+        "money_spread": 35,
+        "money_total": 63,
+        "money_ml": 99
+      },
+      "open": "CHA -10.5 o46.5 -535",
+      "consensus": "CHA -20.5 o46.5 -1650"
+    },
+    {
+      "away": {
+        "team": "UT Rio Grande Valley",
+        "bets_spread": 98,
+        "bets_total": 2,
+        "bets_ml": 2,
+        "money_spread": 54,
+        "money_total": 7,
+        "money_ml": 68
+      },
+      "home": {
+        "team": "UTSA",
+        "bets_spread": 2,
+        "bets_total": 98,
+        "bets_ml": 98,
+        "money_spread": 46,
+        "money_total": 93,
+        "money_ml": 32
+      },
+      "open": "UTSA -28.5 o59.5 -9000",
+      "consensus": "UTSA -28.5 o59.5 -9000"
+    },
+    {
+      "away": {
+        "team": "Maine",
+        "bets_spread": 53,
+        "bets_total": 27,
+        "bets_ml": 1,
+        "money_spread": 22,
+        "money_total": 8,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Appalachian State",
+        "bets_spread": 47,
+        "bets_total": 73,
+        "bets_ml": 99,
+        "money_spread": 78,
+        "money_total": 92,
+        "money_ml": 100
+      },
+      "open": "APP -17.5 o53.5 -1350",
+      "consensus": "APP -19.5 o53.5 -1100"
+    },
+    {
+      "away": {
+        "team": "Towson",
+        "bets_spread": 99,
+        "bets_total": 24,
+        "bets_ml": 2,
+        "money_spread": 95,
+        "money_total": 2,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Navy",
+        "bets_spread": 1,
+        "bets_total": 76,
+        "bets_ml": 98,
+        "money_spread": 5,
+        "money_total": 98,
+        "money_ml": 100
+      },
+      "open": "NAVY -30.5 o53.5 -20000",
+      "consensus": "NAVY -30.5 o49.5 -20000"
+    },
+    {
+      "away": {
+        "team": "Furman",
+        "bets_spread": 93,
+        "bets_total": 8,
+        "bets_ml": 3,
+        "money_spread": 62,
+        "money_total": 26,
+        "money_ml": 26
+      },
+      "home": {
+        "team": "Tennessee",
+        "bets_spread": 7,
+        "bets_total": 92,
+        "bets_ml": 97,
+        "money_spread": 38,
+        "money_total": 74,
+        "money_ml": 74
+      },
+      "open": "TENN -46.5 o66.5 N/A",
+      "consensus": "TENN -46.5 o66.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Oklahoma State",
+        "bets_spread": 60,
+        "bets_total": 3,
+        "bets_ml": 98,
+        "money_spread": 73,
+        "money_total": 7,
+        "money_ml": 98
+      },
+      "home": {
+        "team": "Tulsa",
+        "bets_spread": 40,
+        "bets_total": 97,
+        "bets_ml": 2,
+        "money_spread": 27,
+        "money_total": 93,
+        "money_ml": 2
+      },
+      "open": "OKST -11.5 o61.5 -520",
+      "consensus": "OKST -13.5 o59.5 -575"
+    },
+    {
+      "away": {
+        "team": "Northern Illinois",
+        "bets_spread": 99,
+        "bets_total": 60,
+        "bets_ml": 3,
+        "money_spread": 84,
+        "money_total": 56,
+        "money_ml": 20
+      },
+      "home": {
+        "team": "Iowa",
+        "bets_spread": 1,
+        "bets_total": 40,
+        "bets_ml": 97,
+        "money_spread": 16,
+        "money_total": 44,
+        "money_ml": 80
+      },
+      "open": "IOWA -29.5 o43.5 -9000",
+      "consensus": "IOWA -31.5 o44.5 -9000"
+    },
+    {
+      "away": {
+        "team": "North Alabama",
+        "bets_spread": 98,
+        "bets_total": 2,
+        "bets_ml": null,
+        "money_spread": 53,
+        "money_total": 22,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Arkansas",
+        "bets_spread": 2,
+        "bets_total": 98,
+        "bets_ml": null,
+        "money_spread": 47,
+        "money_total": 78,
+        "money_ml": null
+      },
+      "open": "ARK -40.5 o63.5 N/A",
+      "consensus": "ARK -40.5 o63.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Alcorn State",
+        "bets_spread": 75,
+        "bets_total": 13,
+        "bets_ml": null,
+        "money_spread": 60,
+        "money_total": 28,
+        "money_ml": 2
+      },
+      "home": {
+        "team": "Southern Miss",
+        "bets_spread": 25,
+        "bets_total": 87,
+        "bets_ml": 100,
+        "money_spread": 40,
+        "money_total": 72,
+        "money_ml": 98
+      },
+      "open": "USM -21 o50.5 -2800",
+      "consensus": "USM -20.5 o50.5 -1200"
+    },
+    {
+      "away": {
+        "team": "Wyoming",
+        "bets_spread": 28,
+        "bets_total": 36,
+        "bets_ml": 8,
+        "money_spread": 66,
+        "money_total": 24,
+        "money_ml": 29
+      },
+      "home": {
+        "team": "Colorado State",
+        "bets_spread": 72,
+        "bets_total": 64,
+        "bets_ml": 92,
+        "money_spread": 34,
+        "money_total": 76,
+        "money_ml": 71
+      },
+      "open": "CSU -4 o47.5 -180",
+      "consensus": "CSU -3 o46.5 -162"
+    },
+    {
+      "away": {
+        "team": "Norfolk State",
+        "bets_spread": 100,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 90,
+        "money_total": null,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Old Dominion",
+        "bets_spread": null,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 10,
+        "money_total": null,
+        "money_ml": null
+      },
+      "open": "ODU -41.5 o55.5 N/A",
+      "consensus": "ODU -40.5 o52.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Florida International",
+        "bets_spread": 31,
+        "bets_total": 7,
+        "bets_ml": 2,
+        "money_spread": 21,
+        "money_total": 9,
+        "money_ml": 2
+      },
+      "home": {
+        "team": "South Florida",
+        "bets_spread": 69,
+        "bets_total": 93,
+        "bets_ml": 98,
+        "money_spread": 79,
+        "money_total": 91,
+        "money_ml": 98
+      },
+      "open": "USF -12.5 o54.5 -440",
+      "consensus": "USF -14.5 o52.5 -650"
+    },
+    {
+      "away": {
+        "team": "Missouri State",
+        "bets_spread": 98,
+        "bets_total": 9,
+        "bets_ml": 5,
+        "money_spread": 74,
+        "money_total": 33,
+        "money_ml": 27
+      },
+      "home": {
+        "team": "Texas A&M",
+        "bets_spread": 2,
+        "bets_total": 91,
+        "bets_ml": 95,
+        "money_spread": 26,
+        "money_total": 67,
+        "money_ml": 73
+      },
+      "open": "TA&M -38.5 o52.5 N/A",
+      "consensus": "TA&M -40.5 o53.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Sam Houston",
+        "bets_spread": 81,
+        "bets_total": 16,
+        "bets_ml": 1,
+        "money_spread": 91,
+        "money_total": 31,
+        "money_ml": 1
+      },
+      "home": {
+        "team": "Troy",
+        "bets_spread": 19,
+        "bets_total": 84,
+        "bets_ml": 99,
+        "money_spread": 9,
+        "money_total": 69,
+        "money_ml": 99
+      },
+      "open": "TROY -17.5 o50.5 -1200",
+      "consensus": "TROY -16.5 o54.5 -900"
+    },
+    {
+      "away": {
+        "team": "Arkansas State",
+        "bets_spread": 29,
+        "bets_total": 7,
+        "bets_ml": 2,
+        "money_spread": 50,
+        "money_total": 13,
+        "money_ml": 5
+      },
+      "home": {
+        "team": "Memphis",
+        "bets_spread": 71,
+        "bets_total": 93,
+        "bets_ml": 98,
+        "money_spread": 50,
+        "money_total": 87,
+        "money_ml": 95
+      },
+      "open": "MEM -10.5 o55.5 -425",
+      "consensus": "MEM -11.5 o52.5 -470"
+    },
+    {
+      "away": {
+        "team": "Charleston Southern",
+        "bets_spread": 92,
+        "bets_total": 34,
+        "bets_ml": null,
+        "money_spread": 61,
+        "money_total": 41,
+        "money_ml": 24
+      },
+      "home": {
+        "team": "Georgia Southern",
+        "bets_spread": 8,
+        "bets_total": 66,
+        "bets_ml": 100,
+        "money_spread": 39,
+        "money_total": 59,
+        "money_ml": 76
+      },
+      "open": "GASO -25.5 o51.5 -8000",
+      "consensus": "GASO -25.5 o51.5 -4500"
+    },
+    {
+      "away": {
+        "team": "Murray State",
+        "bets_spread": 80,
+        "bets_total": 1,
+        "bets_ml": null,
+        "money_spread": 86,
+        "money_total": null,
+        "money_ml": 21
+      },
+      "home": {
+        "team": "Middle Tennessee",
+        "bets_spread": 20,
+        "bets_total": 99,
+        "bets_ml": 100,
+        "money_spread": 14,
+        "money_total": 100,
+        "money_ml": 79
+      },
+      "open": "MTSU -20.5 o59.5 -1800",
+      "consensus": "MTSU -20.5 o59.5 -2100"
+    },
+    {
+      "away": {
+        "team": "Southeastern Louisiana",
+        "bets_spread": null,
+        "bets_total": 18,
+        "bets_ml": 1,
+        "money_spread": null,
+        "money_total": 14,
+        "money_ml": null
+      },
+      "home": {
+        "team": "South Alabama",
+        "bets_spread": null,
+        "bets_total": 82,
+        "bets_ml": 99,
+        "money_spread": null,
+        "money_total": 86,
+        "money_ml": 100
+      },
+      "open": "USA -12.5 o52.5 -485",
+      "consensus": "USA -12.5 o52.5 -600"
+    },
+    {
+      "away": {
+        "team": "Austin Peay",
+        "bets_spread": 98,
+        "bets_total": 3,
+        "bets_ml": 1,
+        "money_spread": 90,
+        "money_total": 3,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Vanderbilt",
+        "bets_spread": 2,
+        "bets_total": 97,
+        "bets_ml": 99,
+        "money_spread": 10,
+        "money_total": 97,
+        "money_ml": 100
+      },
+      "open": "APSU -61.5 o61.5 -112",
+      "consensus": "VAN -29.5 o60.5 -4500"
+    },
+    {
+      "away": {
+        "team": "Nicholls State",
+        "bets_spread": 99,
+        "bets_total": 38,
+        "bets_ml": null,
+        "money_spread": 86,
+        "money_total": 77,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Kansas State",
+        "bets_spread": 1,
+        "bets_total": 62,
+        "bets_ml": null,
+        "money_spread": 14,
+        "money_total": 23,
+        "money_ml": null
+      },
+      "open": "KSU -40.5 o55.5 N/A",
+      "consensus": "KSU -40.5 o54.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Abilene Christian",
+        "bets_spread": 79,
+        "bets_total": 9,
+        "bets_ml": null,
+        "money_spread": 56,
+        "money_total": 71,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Texas Tech",
+        "bets_spread": 21,
+        "bets_total": 91,
+        "bets_ml": null,
+        "money_spread": 44,
+        "money_total": 29,
+        "money_ml": null
+      },
+      "open": "TTU -42.5 o59.5 N/A",
+      "consensus": "TTU -42.5 o59.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Eastern Kentucky",
+        "bets_spread": 61,
+        "bets_total": 9,
+        "bets_ml": null,
+        "money_spread": 36,
+        "money_total": 7,
+        "money_ml": 3
+      },
+      "home": {
+        "team": "Jacksonville State",
+        "bets_spread": 39,
+        "bets_total": 91,
+        "bets_ml": 100,
+        "money_spread": 64,
+        "money_total": 93,
+        "money_ml": 97
+      },
+      "open": "JVST -19.5 o52.5 -1800",
+      "consensus": "JVST -20.5 o54.5 -2100"
+    },
+    {
+      "away": {
+        "team": "Houston Christian",
+        "bets_spread": 68,
+        "bets_total": 50,
+        "bets_ml": null,
+        "money_spread": 40,
+        "money_total": 25,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Rice",
+        "bets_spread": 32,
+        "bets_total": 50,
+        "bets_ml": 100,
+        "money_spread": 60,
+        "money_total": 75,
+        "money_ml": 100
+      },
+      "open": "RICE -23.5 o47.5 -5000",
+      "consensus": "RICE -22.5 o47.5 -2100"
+    },
+    {
+      "away": {
+        "team": "Idaho State",
+        "bets_spread": 31,
+        "bets_total": 1,
+        "bets_ml": 1,
+        "money_spread": 30,
+        "money_total": 1,
+        "money_ml": 3
+      },
+      "home": {
+        "team": "Utah State",
+        "bets_spread": 69,
+        "bets_total": 99,
+        "bets_ml": 99,
+        "money_spread": 70,
+        "money_total": 99,
+        "money_ml": 97
+      },
+      "open": "USU -11.5 o64.5 -535",
+      "consensus": "USU -14 o62.5 -535"
+    },
+    {
+      "away": {
+        "team": "Western Michigan",
+        "bets_spread": 95,
+        "bets_total": 52,
+        "bets_ml": null,
+        "money_spread": 88,
+        "money_total": 67,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Michigan",
+        "bets_spread": 5,
+        "bets_total": 48,
+        "bets_ml": 100,
+        "money_spread": 12,
+        "money_total": 33,
+        "money_ml": 100
+      },
+      "open": "N/A o47.5 N/A",
+      "consensus": "MICH -28.5 o49.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Louisiana-Monroe",
+        "bets_spread": 98,
+        "bets_total": 7,
+        "bets_ml": 1,
+        "money_spread": 76,
+        "money_total": 17,
+        "money_ml": 3
+      },
+      "home": {
+        "team": "Mississippi State",
+        "bets_spread": 2,
+        "bets_total": 93,
+        "bets_ml": 99,
+        "money_spread": 24,
+        "money_total": 83,
+        "money_ml": 97
+      },
+      "open": "MSST -28.5 o55.5 -6500",
+      "consensus": "MSST -28.5 o54.5 -4000"
+    },
+    {
+      "away": {
+        "team": "Clemson",
+        "bets_spread": 50,
+        "bets_total": 84,
+        "bets_ml": 4,
+        "money_spread": 49,
+        "money_total": 84,
+        "money_ml": 11
+      },
+      "home": {
+        "team": "LSU",
+        "bets_spread": 50,
+        "bets_total": 16,
+        "bets_ml": 96,
+        "money_spread": 51,
+        "money_total": 16,
+        "money_ml": 89
+      },
+      "open": "LSU -10.5 o50.5 -453",
+      "consensus": "LSU -10 o50.5 -375"
+    },
+    {
+      "away": {
+        "team": "VMI",
+        "bets_spread": 88,
+        "bets_total": 2,
+        "bets_ml": null,
+        "money_spread": 29,
+        "money_total": 33,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Virginia Tech",
+        "bets_spread": 12,
+        "bets_total": 98,
+        "bets_ml": null,
+        "money_spread": 71,
+        "money_total": 67,
+        "money_ml": null
+      },
+      "open": "VT -50.5 o57.5 N/A",
+      "consensus": "VT -55.5 o61.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Northwestern State",
+        "bets_spread": 96,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 74,
+        "money_total": null,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Louisiana Tech",
+        "bets_spread": 4,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 26,
+        "money_total": null,
+        "money_ml": null
+      },
+      "open": "LT -41.5 o52.5 N/A",
+      "consensus": "LT -44.5 o55.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Florida Atlantic",
+        "bets_spread": 73,
+        "bets_total": 2,
+        "bets_ml": 1,
+        "money_spread": 51,
+        "money_total": 50,
+        "money_ml": 4
+      },
+      "home": {
+        "team": "Florida",
+        "bets_spread": 27,
+        "bets_total": 98,
+        "bets_ml": 99,
+        "money_spread": 49,
+        "money_total": 50,
+        "money_ml": 96
+      },
+      "open": "N/A o56.5 N/A",
+      "consensus": "FLA -26.5 o59.5 -3000"
+    },
+    {
+      "away": {
+        "team": "Hampton",
+        "bets_spread": 96,
+        "bets_total": 36,
+        "bets_ml": null,
+        "money_spread": 79,
+        "money_total": 55,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Maryland",
+        "bets_spread": 4,
+        "bets_total": 64,
+        "bets_ml": null,
+        "money_spread": 21,
+        "money_total": 45,
+        "money_ml": null
+      },
+      "open": "UMD -45.5 o56.5 N/A",
+      "consensus": "UMD -45.5 o56.5 N/A"
+    },
+    {
+      "away": {
+        "team": "South Dakota State",
+        "bets_spread": 45,
+        "bets_total": 59,
+        "bets_ml": 1,
+        "money_spread": 49,
+        "money_total": 70,
+        "money_ml": 5
+      },
+      "home": {
+        "team": "Northwestern",
+        "bets_spread": 55,
+        "bets_total": 41,
+        "bets_ml": 99,
+        "money_spread": 51,
+        "money_total": 30,
+        "money_ml": 95
+      },
+      "open": "NW -11.5 o46.5 -575",
+      "consensus": "NW -13.5 o46.5 -625"
+    },
+    {
+      "away": {
+        "team": "Utah Tech",
+        "bets_spread": 89,
+        "bets_total": 19,
+        "bets_ml": null,
+        "money_spread": 48,
+        "money_total": 65,
+        "money_ml": null
+      },
+      "home": {
+        "team": "BYU",
+        "bets_spread": 11,
+        "bets_total": 81,
+        "bets_ml": null,
+        "money_spread": 52,
+        "money_total": 35,
+        "money_ml": null
+      },
+      "open": "BYU -47.5 o54.5 N/A",
+      "consensus": "BYU -51.5 o61.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Lamar",
+        "bets_spread": null,
+        "bets_total": 9,
+        "bets_ml": 1,
+        "money_spread": null,
+        "money_total": 1,
+        "money_ml": 14
+      },
+      "home": {
+        "team": "Louisiana",
+        "bets_spread": null,
+        "bets_total": 91,
+        "bets_ml": 99,
+        "money_spread": null,
+        "money_total": 99,
+        "money_ml": 86
+      },
+      "open": "UL -18.5 o48.5 -2100",
+      "consensus": "UL -20.5 o48.5 -1200"
+    },
+    {
+      "away": {
+        "team": "Mercyhurst",
+        "bets_spread": 68,
+        "bets_total": 33,
+        "bets_ml": null,
+        "money_spread": 36,
+        "money_total": 32,
+        "money_ml": null
+      },
+      "home": {
+        "team": "New Mexico State",
+        "bets_spread": 32,
+        "bets_total": 67,
+        "bets_ml": 100,
+        "money_spread": 64,
+        "money_total": 68,
+        "money_ml": 100
+      },
+      "open": "NMSU -24.5 o50.5 -4500",
+      "consensus": "NMSU -28.5 o52.5 -8000"
+    },
+    {
+      "away": {
+        "team": "Northern Arizona",
+        "bets_spread": 97,
+        "bets_total": 2,
+        "bets_ml": 1,
+        "money_spread": 86,
+        "money_total": 10,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Arizona",
+        "bets_spread": 3,
+        "bets_total": 98,
+        "bets_ml": 99,
+        "money_spread": 14,
+        "money_total": 90,
+        "money_ml": 100
+      },
+      "open": "N/A o56.5 N/A",
+      "consensus": "ARI -31.5 o58.5 -10000"
+    },
+    {
+      "away": {
+        "team": "Portland State",
+        "bets_spread": 99,
+        "bets_total": 4,
+        "bets_ml": null,
+        "money_spread": 96,
+        "money_total": 11,
+        "money_ml": null
+      },
+      "home": {
+        "team": "San Diego State",
+        "bets_spread": 1,
+        "bets_total": 96,
+        "bets_ml": null,
+        "money_spread": 4,
+        "money_total": 89,
+        "money_ml": null
+      },
+      "open": "SDSU -38.5 o57.5 N/A",
+      "consensus": "SDSU -40.5 o61.5 -20000"
+    },
+    {
+      "away": {
+        "team": "Central Michigan",
+        "bets_spread": 45,
+        "bets_total": 34,
+        "bets_ml": 2,
+        "money_spread": 57,
+        "money_total": 15,
+        "money_ml": 9
+      },
+      "home": {
+        "team": "New Mexico",
+        "bets_spread": 55,
+        "bets_total": 66,
+        "bets_ml": 98,
+        "money_spread": 43,
+        "money_total": 85,
+        "money_ml": 91
+      },
+      "open": "UNM -12.5 o49.5 -485",
+      "consensus": "UNM -10.5 o46.5 -470"
+    },
+    {
+      "away": {
+        "team": "UNLV",
+        "bets_spread": 73,
+        "bets_total": 2,
+        "bets_ml": 83,
+        "money_spread": 76,
+        "money_total": 4,
+        "money_ml": 76
+      },
+      "home": {
+        "team": "Hawai'i",
+        "bets_spread": 27,
+        "bets_total": 98,
+        "bets_ml": 17,
+        "money_spread": 24,
+        "money_total": 96,
+        "money_ml": 24
+      },
+      "open": "UNLV -1.5 o57.5 -125",
+      "consensus": "UNLV -3 o56.5 -155"
+    },
+    {
+      "away": {
+        "team": "Morgan State",
+        "bets_spread": 97,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 48,
+        "money_total": null,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Arizona State",
+        "bets_spread": 3,
+        "bets_total": null,
+        "bets_ml": null,
+        "money_spread": 52,
+        "money_total": null,
+        "money_ml": null
+      },
+      "open": "ASU -41.5 o52.5 N/A",
+      "consensus": "ASU -43.5 o52.5 N/A"
+    },
+    {
+      "away": {
+        "team": "Mississippi Valley State",
+        "bets_spread": 1,
+        "bets_total": 14,
+        "bets_ml": null,
+        "money_spread": 28,
+        "money_total": 6,
+        "money_ml": null
+      },
+      "home": {
+        "team": "Sacramento State",
+        "bets_spread": null,
+        "bets_total": 86,
+        "bets_ml": null,
+        "money_spread": null,
+        "money_total": 94,
+        "money_ml": null
+      },
+      "open": "SAC -35.5 o57.5 N/A",
+      "consensus": "SAC -37.5 o56.5 N/A"
+    },
+    {
+      "away": {
+        "team": "UCLA",
+        "bets_spread": 60,
+        "bets_total": 64,
+        "bets_ml": 39,
+        "money_spread": 43,
+        "money_total": 69,
+        "money_ml": 61
+      },
+      "home": {
+        "team": "California",
+        "bets_spread": 40,
+        "bets_total": 36,
+        "bets_ml": 61,
+        "money_spread": 57,
+        "money_total": 31,
+        "money_ml": 39
+      },
+      "open": "CAL -1.5 o53.5 -115",
+      "consensus": "UCLA -1.5 o53.5 -122"
+    },
+    {
+      "away": {
+        "team": "Western Kentucky",
+        "bets_spread": 83,
+        "bets_total": 7,
+        "bets_ml": 82,
+        "money_spread": 59,
+        "money_total": 4,
+        "money_ml": 53
+      },
+      "home": {
+        "team": "Nevada",
+        "bets_spread": 17,
+        "bets_total": 93,
+        "bets_ml": 18,
+        "money_spread": 41,
+        "money_total": 96,
+        "money_ml": 47
+      },
+      "open": "WKU -4.5 o53.5 -142",
+      "consensus": "WKU -1.5 o52.5 -115"
+    },
+    {
+      "away": {
+        "team": "Washington State",
+        "bets_spread": 88,
+        "bets_total": 35,
+        "bets_ml": 2,
+        "money_spread": 77,
+        "money_total": 89,
+        "money_ml": 54
+      },
+      "home": {
+        "team": "Washington",
+        "bets_spread": 12,
+        "bets_total": 65,
+        "bets_ml": 98,
+        "money_spread": 23,
+        "money_total": 11,
+        "money_ml": 46
+      },
+      "open": "N/A o50.5 N/A",
+      "consensus": "WASH -22.5 o50.5 -2000"
+    },
+    {
+      "away": {
+        "team": "Wisconsin",
+        "bets_spread": 53,
+        "bets_total": 95,
+        "bets_ml": 3,
+        "money_spread": 42,
+        "money_total": 93,
+        "money_ml": 43
+      },
+      "home": {
+        "team": "Notre Dame",
+        "bets_spread": 47,
+        "bets_total": 5,
+        "bets_ml": 97,
+        "money_spread": 58,
+        "money_total": 7,
+        "money_ml": 57
+      },
+      "open": "ND -20.5 o47.5 -2400",
+      "consensus": "ND -20.5 o47.5 -1800"
+    },
+    {
+      "away": {
+        "team": "Louisville",
+        "bets_spread": 19,
+        "bets_total": 72,
+        "bets_ml": 4,
+        "money_spread": 12,
+        "money_total": 81,
+        "money_ml": 2
+      },
+      "home": {
+        "team": "Ole Miss",
+        "bets_spread": 81,
+        "bets_total": 28,
+        "bets_ml": 96,
+        "money_spread": 88,
+        "money_total": 19,
+        "money_ml": 98
+      },
+      "open": "MISS -7 o53.5 -297",
+      "consensus": "MISS -6.5 o55.5 -270"
+    },
+    {
+      "away": {
+        "team": "North Carolina",
+        "bets_spread": 47,
+        "bets_total": 80,
+        "bets_ml": 6,
+        "money_spread": 54,
+        "money_total": 13,
+        "money_ml": 37
+      },
+      "home": {
+        "team": "TCU",
+        "bets_spread": 53,
+        "bets_total": 20,
+        "bets_ml": 94,
+        "money_spread": 46,
+        "money_total": 87,
+        "money_ml": 63
+      },
       "open": "TCU -6.5 o49.5 -249",
-      "consensus": "TCU -7.5 o47.5 -325"
+      "consensus": "TCU -7.5 o46.5 -305"
     },
     {
-      "away": {"team": "San Jose State", "rot": 313, "bets_spread": 94, "bets_total": 8, "bets_ml": 4, "money_spread": 59, "money_total": 38, "money_ml": 99},
-      "home": {"team": "USC", "rot": 314, "bets_spread": 6, "bets_total": 92, "bets_ml": 96, "money_spread": 41, "money_total": 62, "money_ml": 1},
-      "open": "USC -35.5 o57.5 N/A",
-      "consensus": "USC -38.5 o60.5 N/A"
+      "away": {
+        "team": "San Jose State",
+        "bets_spread": 75,
+        "bets_total": 14,
+        "bets_ml": 4,
+        "money_spread": 23,
+        "money_total": 66,
+        "money_ml": 2
+      },
+      "home": {
+        "team": "USC",
+        "bets_spread": 25,
+        "bets_total": 86,
+        "bets_ml": 96,
+        "money_spread": 77,
+        "money_total": 34,
+        "money_ml": 98
+      },
+      "open": "USC -35.5 o57.5 -20000",
+      "consensus": "USC -37.5 o61.5 N/A"
     },
     {
-      "away": {"team": "NC State", "rot": 317, "bets_spread": 45, "bets_total": 54, "bets_ml": 8, "money_spread": 60, "money_total": 60, "money_ml": 39},
-      "home": {"team": "Virginia", "rot": 318, "bets_spread": 55, "bets_total": 46, "bets_ml": 92, "money_spread": 40, "money_total": 40, "money_ml": 61},
+      "away": {
+        "team": "NC State",
+        "bets_spread": 65,
+        "bets_total": 47,
+        "bets_ml": 13,
+        "money_spread": 79,
+        "money_total": 44,
+        "money_ml": 42
+      },
+      "home": {
+        "team": "Virginia",
+        "bets_spread": 35,
+        "bets_total": 53,
+        "bets_ml": 87,
+        "money_spread": 21,
+        "money_total": 56,
+        "money_ml": 58
+      },
       "open": "UVA -3 o53.5 -160",
-      "consensus": "UVA -5.5 o53.5 -218"
+      "consensus": "UVA -4 o50.5 -175"
     },
     {
-      "away": {"team": "Jacksonville State", "rot": 319, "bets_spread": 43, "bets_total": 48, "bets_ml": 3, "money_spread": 69, "money_total": 51, "money_ml": 17},
-      "home": {"team": "North Dakota State", "rot": 320, "bets_spread": 57, "bets_total": 52, "bets_ml": 97, "money_spread": 31, "money_total": 49, "money_ml": 83},
+      "away": {
+        "team": "Jacksonville State",
+        "bets_spread": 44,
+        "bets_total": 50,
+        "bets_ml": 3,
+        "money_spread": 48,
+        "money_total": 45,
+        "money_ml": 12
+      },
+      "home": {
+        "team": "North Dakota State",
+        "bets_spread": 56,
+        "bets_total": 50,
+        "bets_ml": 97,
+        "money_spread": 52,
+        "money_total": 55,
+        "money_ml": 88
+      },
       "open": "NDSU -10 o48.5 -325",
-      "consensus": "NDSU -6.5 o47.5 -270"
+      "consensus": "NDSU -6.5 o46.5 -285"
     },
     {
-      "away": {"team": "Sacramento State", "rot": 309, "bets_spread": 35, "bets_total": 20, "bets_ml": 3, "money_spread": 67, "money_total": 22, "money_ml": 10},
-      "home": {"team": "Eastern Michigan", "rot": 310, "bets_spread": 65, "bets_total": 80, "bets_ml": 97, "money_spread": 33, "money_total": 78, "money_ml": 90},
+      "away": {
+        "team": "Sacramento State",
+        "bets_spread": 31,
+        "bets_total": 17,
+        "bets_ml": 2,
+        "money_spread": 28,
+        "money_total": 41,
+        "money_ml": 4
+      },
+      "home": {
+        "team": "Eastern Michigan",
+        "bets_spread": 69,
+        "bets_total": 83,
+        "bets_ml": 98,
+        "money_spread": 72,
+        "money_total": 59,
+        "money_ml": 96
+      },
       "open": "EMU -8.5 o52.5 -325",
-      "consensus": "EMU -8.5 o52.5 -345"
+      "consensus": "EMU -9.5 o52.5 -355"
     },
     {
-      "away": {"team": "New Mexico State", "rot": 307, "bets_spread": 97, "bets_total": 21, "bets_ml": 3, "money_spread": 84, "money_total": 37, "money_ml": 22},
-      "home": {"team": "Florida State", "rot": 308, "bets_spread": 3, "bets_total": 79, "bets_ml": 97, "money_spread": 16, "money_total": 63, "money_ml": 78},
+      "away": {
+        "team": "New Mexico State",
+        "bets_spread": 90,
+        "bets_total": 21,
+        "bets_ml": 3,
+        "money_spread": 76,
+        "money_total": 60,
+        "money_ml": 23
+      },
+      "home": {
+        "team": "Florida State",
+        "bets_spread": 10,
+        "bets_total": 79,
+        "bets_ml": 97,
+        "money_spread": 24,
+        "money_total": 40,
+        "money_ml": 77
+      },
       "open": "FSU -28.5 o53.5 -10000",
-      "consensus": "FSU -31.5 o53.5 -6500"
+      "consensus": "FSU -31.5 o53.5 -8000"
     },
     {
-      "away": {"team": "Hawai'i", "rot": 311, "bets_spread": 35, "bets_total": 42, "bets_ml": 6, "money_spread": 72, "money_total": 44, "money_ml": 44},
-      "home": {"team": "Stanford", "rot": 312, "bets_spread": 65, "bets_total": 58, "bets_ml": 94, "money_spread": 28, "money_total": 56, "money_ml": 56},
+      "away": {
+        "team": "Hawai'i",
+        "bets_spread": 52,
+        "bets_total": 41,
+        "bets_ml": 8,
+        "money_spread": 70,
+        "money_total": 40,
+        "money_ml": 30
+      },
+      "home": {
+        "team": "Stanford",
+        "bets_spread": 48,
+        "bets_total": 59,
+        "bets_ml": 92,
+        "money_spread": 30,
+        "money_total": 60,
+        "money_ml": 70
+      },
       "open": "STAN -3 o50.5 -175",
-      "consensus": "STAN -5.5 o49.5 -225"
+      "consensus": "STAN -4.5 o48.5 -205"
     },
     {
-      "away": {"team": "Memphis", "rot": 315, "bets_spread": 52, "bets_total": 16, "bets_ml": 6, "money_spread": 67, "money_total": 19, "money_ml": 33},
-      "home": {"team": "UNLV", "rot": 316, "bets_spread": 48, "bets_total": 84, "bets_ml": 94, "money_spread": 33, "money_total": 81, "money_ml": 67},
+      "away": {
+        "team": "Memphis",
+        "bets_spread": 53,
+        "bets_total": 14,
+        "bets_ml": 7,
+        "money_spread": 53,
+        "money_total": 21,
+        "money_ml": 16
+      },
+      "home": {
+        "team": "UNLV",
+        "bets_spread": 47,
+        "bets_total": 86,
+        "bets_ml": 93,
+        "money_spread": 47,
+        "money_total": 79,
+        "money_ml": 84
+      },
       "open": "UNLV -3 o60.5 -175",
-      "consensus": "UNLV -6 o57.5 -225"
+      "consensus": "UNLV -4.5 o55.5 -192"
     }
   ]
 }
