@@ -11,18 +11,25 @@ Usage:
     python build_week_projections.py --year 2026 --week 3 --skip-fetch  # reuse existing cfbd_raw/ JSON
 
 For each FBS-vs-FBS game:
-  - model_margin = avg of available point-scale ratings diffs (SP+, FPI,
+  - preseason_diff = avg of available point-scale ratings diffs (SP+, FPI,
     bottom-up model_proj_margin_2026, Phil Steele's Power Poll rescaled to
-    points -- see STEELE_POINT_SCALE below), home minus away, plus a
-    home-field adjustment. Steele's Power Poll was added at the user's
-    request that his opinion carry more weight than Athlon's (which has
-    no numeric weight here or in cfb_2026_power_ratings.csv -- comparison
-    column only). This 4th-source addition is NOT separately backtested
-    (the ~76% SU accuracy figure in cfb-backtest-findings-2026 was
-    measured on the 3-source SP+/FPI/bottom-up version); it's a reasonable
-    extension since Steele's Power Poll is itself a talent composite like
-    SP+/FPI, not an opinion piece, but treat post-integration accuracy as
-    unverified until re-backtested.
+    points -- see STEELE_POINT_SCALE below), home minus away. Steele's
+    Power Poll was added at the user's request that his opinion carry more
+    weight than Athlon's (which has no numeric weight here or in
+    cfb_2026_power_ratings.csv -- comparison column only). This 4th-source
+    addition is NOT separately backtested (the ~76% SU accuracy figure in
+    cfb-backtest-findings-2026 was measured on the 3-source SP+/FPI/
+    bottom-up version); it's a reasonable extension since Steele's Power
+    Poll is itself a talent composite like SP+/FPI, not an opinion piece,
+    but treat post-integration accuracy as unverified until re-backtested.
+  - in_season_diff = home minus away SRS-style in-season rating, from
+    in_season_ratings_2026.csv (build_in_season_ratings.py) if it exists
+    and both teams have played at least one game -- see IN_SEASON_WEIGHT
+    below for how much this counts vs. the preseason blend.
+  - model_margin = (1 - w)*preseason_diff + w*in_season_diff + HFA, where
+    w = IN_SEASON_WEIGHT(week). Falls back to w=0 (pure preseason) for any
+    game missing in-season data (bye, first game of the season, file not
+    built yet).
   - win prob from a normal CDF on that margin with sigma=SIGMA.
   - market_margin, if a line exists yet, shown for reference only -- per
     the backtest (cfb-backtest-findings-2026), model-vs-spread gaps are
@@ -81,6 +88,25 @@ def norm_cdf(x):
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
 
 
+def in_season_weight(week):
+    """How much of the model_margin comes from in-season SRS-style
+    performance vs. the preseason blend, as a function of the week being
+    projected (games completed strictly before `week` feed the in-season
+    rating -- no lookahead). Weeks 1-2 have no prior in-season data at all
+    (0%). From week 3 on, ramp up so the in-season signal reaches roughly
+    the 70-80%-by-week-6-8 target from project memory
+    (cfb-handicap-model-2026) -- chosen by user preference (gradual ramp,
+    not an instant switch) since 1-2 games/team is a small, noisy sample
+    and shouldn't dominate the model yet. This schedule is a design
+    choice, NOT itself backtested against historical seasons -- watch the
+    scorecard (build_scorecard.py) as it's used and revisit if SU/margin
+    accuracy doesn't hold up once it starts carrying real weight.
+    """
+    if week <= 2:
+        return 0.0
+    return min(0.78, 0.15 + 0.15 * (week - 3))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--year", type=int, default=2026)
@@ -130,6 +156,19 @@ def main():
     ].to_dict("index")
     DISAGREEMENT_FLAG_THRESHOLD = pr["source_disagreement"].quantile(0.90)
 
+    w_in_season = in_season_weight(week)
+    in_season_path = "in_season_ratings_2026.csv"
+    in_season_lookup = {}
+    if w_in_season > 0 and os.path.exists(in_season_path):
+        in_season_lookup = pd.read_csv(in_season_path).set_index("team")["in_season_margin_2026"].to_dict()
+        print(f"In-season blend active: week {week} weight = {w_in_season:.0%} "
+              f"(loaded {len(in_season_lookup)} teams from {in_season_path})")
+    elif w_in_season > 0:
+        print(f"NOTE: week {week} calls for a {w_in_season:.0%} in-season weight, but "
+              f"{in_season_path} doesn't exist yet -- falling back to pure preseason for every game. "
+              f"Run build_in_season_ratings.py first.")
+        w_in_season = 0.0
+
     def resolve(cfbd_name):
         key = CFBD_TO_ATHLON.get(cfbd_name, cfbd_name)
         return pr_lookup.get(key)
@@ -168,7 +207,17 @@ def main():
         for col in ["sp_plus", "fpi", "model_proj_margin_2026_scaled", "steele_margin_scaled"]:
             if pd.notna(hr[col]) and pd.notna(ar[col]):
                 diffs.append(hr[col] - ar[col])
-        avg_diff = sum(diffs) / len(diffs) if diffs else float("nan")
+        preseason_diff = sum(diffs) / len(diffs) if diffs else float("nan")
+
+        home_in_season = in_season_lookup.get(home)
+        away_in_season = in_season_lookup.get(away)
+        game_w = w_in_season if (home_in_season is not None and away_in_season is not None) else 0.0
+        if game_w > 0:
+            in_season_diff = home_in_season - away_in_season
+            core_diff = (1 - game_w) * preseason_diff + game_w * in_season_diff
+        else:
+            core_diff = preseason_diff
+
         neutral = g.get("neutralSite", False)
         if neutral:
             hfa = HFA_NEUTRAL
@@ -176,7 +225,7 @@ def main():
             hfa = HFA_ALTITUDE
         else:
             hfa = HFA_BASE
-        model_margin = avg_diff + hfa  # positive = home favored
+        model_margin = core_diff + hfa  # positive = home favored
 
         home_wp = norm_cdf(model_margin / SIGMA)
 
@@ -220,6 +269,8 @@ def main():
             "model_pick": pick, "model_margin": round(pick_margin, 1),
             "home_win_prob": round(home_wp, 3),
             "home_blended_rank": hr["blended_rank"], "away_blended_rank": ar["blended_rank"],
+            "in_season_weight": round(game_w, 2),
+            "home_in_season_margin": home_in_season, "away_in_season_margin": away_in_season,
             "market_home_margin": market_margin, "market_note": market_book,
             "model_vs_market_gap": round(model_margin - market_margin, 1) if market_margin is not None else None,
             "model_total": model_total, "market_total": market_total,
