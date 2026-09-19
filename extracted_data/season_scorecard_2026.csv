@@ -100,5 +100,5 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,2,401864578,2026-09-13,New Mexico State,Hawai'i,Hawai'i,15.4,Hawai'i,10,19,29,True,5.4,7.5,home_covered,True,52.8,50.5,48,4.8,under
 2026,2,401864502,2026-09-13,North Dakota State,Air Force,Air Force,8.0,North Dakota State,-6,38,32,False,14.0,-1.5,away_covered,False,52.3,48.5,70,17.7,over
 2026,3,401858225,2026-09-17,Syracuse,Pittsburgh,Pittsburgh,15.7,Pittsburgh,14,13,27,True,1.7,10.5,home_covered,True,52.3,51.5,40,12.3,under
-2026,3,401858226,2026-09-18,Miami,Wake Forest,Miami,-14.5,Miami,-13,33,20,True,1.5,-20.5,home_covered,False,50.4,57.0,53,2.6,over
-2026,3,401856811,2026-09-19,Houston,Texas Tech,Texas Tech,15.0,Texas Tech,2,26,28,True,13.0,7.5,away_covered,False,53.0,53.0,54,1.0,over
+2026,3,401858226,2026-09-18,Miami,Wake Forest,Miami,-14.5,Miami,-13,33,20,True,1.5,-20.5,home_covered,False,50.4,55.5,53,2.6,over
+2026,3,401856811,2026-09-19,Houston,Texas Tech,Texas Tech,15.0,Texas Tech,2,26,28,True,13.0,7.5,away_covered,False,53.0,52.5,54,1.0,over
