@@ -116,13 +116,18 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,3,401856811,2026-09-19,Houston,Texas Tech,Texas Tech,15.0,Texas Tech,2,26,28,True,13.0,7.5,away_covered,False,53.0,52.5,54,1.0,over
 2026,3,401867804,2026-09-19,Louisiana Tech,Baylor,Baylor,14.8,Baylor,17,19,36,True,2.2,19.5,away_covered,False,54.3,49.5,55,0.7,over
 2026,3,401856792,2026-09-19,Tulane,Kansas State,Kansas State,13.7,Kansas State,11,20,31,True,2.7,20.5,away_covered,False,53.0,49.5,51,2.0,under
+2026,3,401856685,2026-09-19,Florida State,Alabama,Alabama,13.4,Alabama,14,36,50,True,0.6,19.0,away_covered,False,50.6,50.0,86,35.4,over
 2026,3,401858231,2026-09-19,Stanford,Duke,Duke,13.3,Duke,28,7,35,True,14.7,10.0,home_covered,True,53.1,51.5,42,11.1,under
+2026,3,401856691,2026-09-19,Mississippi State,South Carolina,South Carolina,11.0,Mississippi State,-7,41,34,False,18.0,4.0,away_covered,False,52.7,59.0,75,22.3,over
 2026,3,401856695,2026-09-19,NC State,Vanderbilt,Vanderbilt,10.8,Vanderbilt,4,31,35,True,6.8,3.0,home_covered,True,54.4,50.5,66,11.6,over
 2026,3,401869940,2026-09-19,Coastal Carolina,Delaware,Delaware,10.0,Delaware,8,14,22,True,2.0,5.0,home_covered,True,54.4,56.5,36,18.4,under
 2026,3,401856797,2026-09-19,Miami (OH),Cincinnati,Cincinnati,9.7,Cincinnati,4,31,35,True,5.7,15.5,away_covered,False,51.2,49.5,66,14.8,over
 2026,3,401858229,2026-09-19,North Carolina,Clemson,Clemson,8.4,Clemson,8,20,28,True,0.4,3.0,home_covered,True,50.2,44.5,48,2.2,under
 2026,3,401862774,2026-09-19,Temple,Toledo,Toledo,8.0,Toledo,1,48,49,True,7.0,6.0,away_covered,False,52.5,48.5,97,44.5,over
+2026,3,401862771,2026-09-19,Florida International,Florida Atlantic,Florida Atlantic,7.6,Florida Atlantic,6,10,16,True,1.6,6.5,away_covered,False,55.3,62.5,26,29.3,under
+2026,3,401871047,2026-09-19,Marshall,Missouri State,Marshall,-6.4,Marshall,-6,30,24,True,0.4,-4.0,away_covered,True,54.7,53.5,54,0.7,under
 2026,3,401864508,2026-09-19,Wyoming,Central Michigan,Central Michigan,3.2,Central Michigan,14,10,24,True,10.8,-1.5,home_covered,True,49.4,39.0,34,15.4,under
 2026,3,401860889,2026-09-19,North Texas,Texas State,Texas State,2.7,Texas State,14,35,49,True,11.3,3.0,home_covered,True,57.3,62.5,84,26.7,over
+2026,3,401862710,2026-09-19,East Carolina,Old Dominion,Old Dominion,2.2,East Carolina,-3,20,17,False,5.2,2.5,away_covered,False,50.9,49.0,37,13.9,under
 2026,3,401856812,2026-09-19,Arizona State,Kansas,Kansas,2.1,Arizona State,-7,24,17,False,9.1,-5.5,away_covered,False,52.6,50.5,41,11.6,under
 2026,3,401858230,2026-09-19,SMU,Louisville,Louisville,0.3,Louisville,10,31,41,True,9.7,1.5,home_covered,True,52.3,58.5,72,19.7,over
