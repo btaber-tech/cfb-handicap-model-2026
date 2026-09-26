@@ -156,3 +156,8 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,3,401864507,2026-09-20,North Dakota State,Sacramento State,North Dakota State,-13.6,North Dakota State,-21,31,10,True,7.4,-27.5,home_covered,False,52.3,50.5,41,11.3,under
 2026,3,401858458,2026-09-20,Purdue,UCLA,UCLA,10.4,UCLA,14,38,52,True,3.6,14.0,push,,52.5,52.5,90,37.5,over
 2026,3,401860887,2026-09-20,James Madison,San Diego State,San Diego State,2.1,James Madison,-13,26,13,False,15.1,1.5,away_covered,False,51.7,46.5,39,12.7,under
+2026,4,401869941,2026-09-24,Liberty,Coastal Carolina,Liberty,-4.5,Liberty,-17,34,17,True,12.5,-3.0,away_covered,True,54.2,52.0,51,3.2,under
+2026,4,401862778,2026-09-25,Navy,UAB,Navy,-8.4,UAB,4,20,24,False,12.4,-7.0,home_covered,False,54.2,51.5,44,10.2,under
+2026,4,401862779,2026-09-25,Army,Temple,Army,-0.6,Army,-4,21,17,True,3.4,-3.0,away_covered,True,54.0,49.0,38,16.0,under
+2026,4,401858461,2026-09-26,Northwestern,Indiana,Indiana,22.0,Indiana,6,23,29,True,16.0,20.5,away_covered,False,50.9,49.5,52,1.1,over
+2026,4,401858234,2026-09-26,Clemson,California,Clemson,-9.3,Clemson,-14,24,10,True,4.7,1.0,away_covered,True,51.9,50.5,34,17.9,under
