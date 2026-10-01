@@ -60,6 +60,7 @@ import os
 import pandas as pd
 
 from cfbd_fetch import cfbd_get_save, get_current_week
+from team_records import compute_team_records, fmt_ats, fmt_wl
 
 CFBD_TO_ATHLON = {
     "California": "Cal",
@@ -169,6 +170,10 @@ def main():
               f"Run build_in_season_ratings.py first.")
         w_in_season = 0.0
 
+    # Season-to-date W-L / ATS records (games before this week) for the page's
+    # record columns -- context only, not a model input. See team_records.py.
+    team_records = compute_team_records(year, week - 1, fetch=not args.skip_fetch) if week > 1 else {}
+
     def resolve(cfbd_name):
         key = CFBD_TO_ATHLON.get(cfbd_name, cfbd_name)
         return pr_lookup.get(key)
@@ -271,6 +276,8 @@ def main():
             "away": away, "home": home, "neutral": neutral,
             "model_pick": pick, "model_margin": round(pick_margin, 1),
             "home_win_prob": round(home_wp, 3),
+            "away_record": fmt_wl(team_records.get(away)), "home_record": fmt_wl(team_records.get(home)),
+            "away_ats": fmt_ats(team_records.get(away)), "home_ats": fmt_ats(team_records.get(home)),
             "home_blended_rank": hr["blended_rank"], "away_blended_rank": ar["blended_rank"],
             "in_season_weight": round(game_w, 2),
             "home_in_season_margin": home_in_season, "away_in_season_margin": away_in_season,

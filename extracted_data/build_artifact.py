@@ -67,10 +67,10 @@ section.week { margin-bottom: 3rem; }
 .week-heading .range { color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono); }
 .day-block { margin-bottom: 1.6rem; }
 .day-heading { font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px dashed var(--border); }
-.col-legend { display: grid; grid-template-columns: 2fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; padding: 0 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.col-legend { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; padding: 0 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
 .col-legend span:not(:first-child) { text-align: right; }
 .game-list { display: flex; flex-direction: column; }
-.game-row { display: grid; grid-template-columns: 2fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; align-items: center; padding: 0.7rem 0.2rem; border-bottom: 1px solid var(--border); }
+.game-row { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; align-items: center; padding: 0.7rem 0.2rem; border-bottom: 1px solid var(--border); }
 .game-row:last-child { border-bottom: none; }
 .matchup { font-size: 0.95rem; font-weight: 500; }
 .at { color: var(--text-muted); font-weight: 400; font-size: 0.85em; }
@@ -81,6 +81,8 @@ section.week { margin-bottom: 3rem; }
 .pick-name { font-weight: 600; font-size: 0.92rem; }
 .pick-margin { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent); font-variant-numeric: tabular-nums; }
 .game-wp { min-width: 0; }
+.game-rec { font-family: var(--font-mono); font-size: 0.8rem; font-variant-numeric: tabular-nums; line-height: 1.35; }
+.game-rec .rec-label { display: none; }
 .wp-bar-track { height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; margin-bottom: 0.3rem; }
 .wp-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
 .wp-label { font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
@@ -111,6 +113,9 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
 @media (max-width: 640px) {
   .game-row { grid-template-columns: 1fr 1fr; row-gap: 0.4rem; }
   .game-market, .game-total { text-align: left; }
+  .game-rec .rec-label { display: inline; color: var(--text-muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; margin-right: 0.35em; }
+  .game-rec div { display: inline; }
+  .game-rec div + div::before { content: " / "; color: var(--text-muted); }
   .col-legend { display: none; }
   .buy-list { columns: 1; }
 }
@@ -145,6 +150,9 @@ FOOTER = """
     +6.0 for altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah,
     Wyoming). Totals are a calibrated SP+ offense/defense matchup average -- weak signal (R&sup2;&asymp;0.03),
     shown as context only.</p>
+    <p>W-L and ATS columns: each team's season-to-date record before this week, listed in matchup order
+    (hover for the team). W-L includes games vs. FCS opponents; ATS counts games with a line, graded against
+    the median closing spread across books (W-L-push). Context only -- not a model input.</p>
     <p>Data: CollegeFootballData.com (games/lines/SP+/FPI/recruiting/returning production),
     ESPN FPI, Phil Steele's 2026 CFB Preview, this project's bottom-up 2026 power ratings.</p>
 """
@@ -208,6 +216,15 @@ def build_game_row(row):
 
     matchup = f'{name_with_flag(left)} <span class="at">{matchup_sep}</span> {name_with_flag(right)}'
 
+    # Season-to-date records, listed in the same left/right order as the matchup.
+    # Older projection CSVs (pre-record columns) just leave these blank.
+    def rec_cell(kind, label):
+        lv, rv = (row.get(f"home_{kind}"), row.get(f"away_{kind}")) if neutral else (row.get(f"away_{kind}"), row.get(f"home_{kind}"))
+        if pd.isna(lv) or pd.isna(rv):
+            return '<span class="muted">&mdash;</span>'
+        return (f'<span class="rec-label">{label}</span>'
+                f'<div title="{esc(left)}">{esc(lv)}</div><div title="{esc(right)}">{esc(rv)}</div>')
+
     home_rank = row.get("home_blended_rank")
     away_rank = row.get("away_blended_rank")
     left_rank = home_rank if neutral else away_rank
@@ -252,6 +269,8 @@ def build_game_row(row):
             <div class="matchup">{matchup}</div>
             <div class="ranks">{ranks}</div>
           </div>
+          <div class="game-rec">{rec_cell("record", "W-L")}</div>
+          <div class="game-rec">{rec_cell("ats", "ATS")}</div>
           <div class="game-pick">
             <div class="pick-name">{esc(pick)}</div>
             <div class="pick-margin">by {row['model_margin']:.1f}</div>
@@ -352,7 +371,7 @@ def main():
   </div>
 
   <div class="col-legend">
-    <span>Matchup</span><span>Model pick</span><span>Win prob</span><span>Spread (mkt)</span><span>Total (mkt)</span>
+    <span>Matchup</span><span title="Season straight-up record, in matchup order">W-L</span><span title="Season record against the spread, in matchup order">ATS</span><span>Model pick</span><span>Win prob</span><span>Spread (mkt)</span><span>Total (mkt)</span>
   </div>
 
   <section class="week">
