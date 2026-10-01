@@ -209,8 +209,11 @@ def main():
                 diffs.append(hr[col] - ar[col])
         preseason_diff = sum(diffs) / len(diffs) if diffs else float("nan")
 
-        home_in_season = in_season_lookup.get(home)
-        away_in_season = in_season_lookup.get(away)
+        # in_season_ratings_2026.csv is keyed by Athlon team names (same as
+        # pr_lookup), so map CFBD names through CFBD_TO_ATHLON here too --
+        # otherwise Miami/UMass/WKU/etc. silently drop to preseason-only.
+        home_in_season = in_season_lookup.get(CFBD_TO_ATHLON.get(home, home))
+        away_in_season = in_season_lookup.get(CFBD_TO_ATHLON.get(away, away))
         game_w = w_in_season if (home_in_season is not None and away_in_season is not None) else 0.0
         if game_w > 0:
             in_season_diff = home_in_season - away_in_season

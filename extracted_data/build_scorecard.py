@@ -13,8 +13,9 @@ For every week{N}_{year}_projections.csv found on disk, pulls that
 week's actual results from CFBD, joins on game_id, and grades:
   - straight-up (SU): did model_pick match the actual winner?
   - margin error: |signed model margin - actual margin|
-  - ATS (informational only, NOT a claimed edge): did the model's picked
-    side cover the market line that was quoted at projection time?
+  - ATS (informational only, NOT a claimed edge): did the model's side of
+    the number (home if model margin > market margin, else away) cover the
+    market line that was quoted at projection time?
   - totals: model_total / market_total vs actual total, over/under hit.
 
 Games not yet completed are skipped (silently -- normal mid-week state,
@@ -64,6 +65,7 @@ def grade_week(year, week, proj_path):
         margin_error = abs(signed_model_margin - actual_margin)
 
         ats_result = None
+        model_ats_side = None
         model_side_covered = None
         if pd.notna(r.get("market_home_margin")):
             home_covered = actual_margin > r["market_home_margin"]
@@ -72,8 +74,13 @@ def grade_week(year, week, proj_path):
                 ats_result = "push"
             else:
                 ats_result = "home_covered" if home_covered else "away_covered"
-                model_picked_home = (r["model_pick"] == r["home"])
-                model_side_covered = (model_picked_home and home_covered) or (not model_picked_home and away_covered)
+                # Model's ATS side is whichever side of the market number the model's
+                # margin falls on -- NOT the model's straight-up pick (a model that has
+                # the home team winning by 35 against a 41-pt line is on the away side).
+                # Model exactly on the number = no side, left ungraded.
+                if signed_model_margin != r["market_home_margin"]:
+                    model_ats_side = r["home"] if signed_model_margin > r["market_home_margin"] else r["away"]
+                    model_side_covered = (model_ats_side == r["home"]) == home_covered
 
         total_error_model = abs(r["model_total"] - actual_total) if pd.notna(r.get("model_total")) else None
         ou_result_model = None
@@ -93,7 +100,7 @@ def grade_week(year, week, proj_path):
             "away_pts": away_pts, "home_pts": home_pts,
             "correct_pick": correct_pick, "margin_error": round(margin_error, 1),
             "market_home_margin": r.get("market_home_margin"), "ats_result": ats_result,
-            "model_side_covered": model_side_covered,
+            "model_ats_side": model_ats_side, "model_side_covered": model_side_covered,
             "model_total": r.get("model_total"), "market_total": r.get("market_total"),
             "actual_total": actual_total, "total_error_model": round(total_error_model, 1) if total_error_model is not None else None,
             "ou_result_model": ou_result_model,
@@ -113,8 +120,9 @@ def summarize(df, label):
 
     ats = df.dropna(subset=["model_side_covered"])
     if not ats.empty:
-        print(f"    ATS (model's picked side vs. market line, informational only -- no backtested edge): "
-              f"{ats['model_side_covered'].mean():.1%} cover rate over {len(ats)} games with a line")
+        print(f"    ATS (model's side of the market number, informational only -- no backtested edge): "
+              f"{int(ats['model_side_covered'].sum())}-{int((~ats['model_side_covered'].astype(bool)).sum())} "
+              f"({ats['model_side_covered'].mean():.1%}) over {len(ats)} games with a line")
 
     tot = df.dropna(subset=["total_error_model"])
     if not tot.empty:
