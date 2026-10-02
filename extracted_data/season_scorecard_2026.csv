@@ -214,3 +214,5 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,4,401856697,2026-09-27,Tulsa,Arkansas,Arkansas,8.0,Arkansas,28,6,34,True,20.0,7.0,home_covered,Arkansas,True,55.3,50.5,40,15.3,under
 2026,4,401858240,2026-09-27,Georgia Tech,Stanford,Georgia Tech,-6.2,Stanford,7,27,34,False,13.2,-3.5,home_covered,Georgia Tech,False,51.5,48.5,61,9.5,over
 2026,4,401864509,2026-09-27,Air Force,Nevada,Nevada,3.7,Air Force,-3,36,33,False,6.7,-6.0,home_covered,Nevada,True,51.8,50.5,69,17.2,over
+2026,5,401862786,2026-10-02,North Texas,Tulsa,North Texas,-5.2,North Texas,-1,45,44,True,4.2,-1.5,home_covered,North Texas,False,54.4,57.5,89,34.6,over
+2026,5,401871049,2026-10-02,Western Kentucky,New Mexico State,New Mexico State,1.9,New Mexico State,21,13,34,True,19.1,2.5,home_covered,Western Kentucky,False,53.0,57.5,47,6.0,under
