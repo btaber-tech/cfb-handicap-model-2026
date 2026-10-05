@@ -92,6 +92,29 @@ def grade_week(year, week, proj_path):
             else:
                 ou_result_model = "push"
 
+        # ou_result_model above is actual vs the MODEL's own total (a model-error
+        # measure), not a bet result. The model's O/U side vs the market number
+        # is graded separately here so the two can't be confused.
+        model_ou_side = ou_result_market = model_ou_covered = None
+        if pd.notna(r.get("model_total")) and pd.notna(r.get("market_total")):
+            if actual_total == r["market_total"]:
+                ou_result_market = "push"
+            else:
+                ou_result_market = "over" if actual_total > r["market_total"] else "under"
+            if r["model_total"] != r["market_total"]:
+                model_ou_side = "over" if r["model_total"] > r["market_total"] else "under"
+                if ou_result_market != "push":
+                    model_ou_covered = model_ou_side == ou_result_market
+
+        # Candidate rule under observation (found in weeks 1-5 2026, NOT confirmed
+        # out of sample -- 49.7% on 2023-25 replica, see build_home_edge_backtest.py):
+        # model on the home side with a 3+ pt disagreement vs the market spread.
+        edge_vs_market = None
+        rule_home_3plus = None
+        if pd.notna(r.get("market_home_margin")):
+            edge_vs_market = round(signed_model_margin - r["market_home_margin"], 1)
+            rule_home_3plus = edge_vs_market >= 3.0
+
         rows.append({
             "year": year, "week": week, "game_id": r["game_id"], "date": r["date"],
             "away": r["away"], "home": r["home"],
@@ -104,6 +127,9 @@ def grade_week(year, week, proj_path):
             "model_total": r.get("model_total"), "market_total": r.get("market_total"),
             "actual_total": actual_total, "total_error_model": round(total_error_model, 1) if total_error_model is not None else None,
             "ou_result_model": ou_result_model,
+            "model_ou_side": model_ou_side, "ou_result_market": ou_result_market,
+            "model_ou_covered": model_ou_covered,
+            "edge_vs_market": edge_vs_market, "rule_home_3plus": rule_home_3plus,
         })
 
     return pd.DataFrame(rows)
@@ -124,9 +150,20 @@ def summarize(df, label):
               f"{int(ats['model_side_covered'].sum())}-{int((~ats['model_side_covered'].astype(bool)).sum())} "
               f"({ats['model_side_covered'].mean():.1%}) over {len(ats)} games with a line")
 
+        rule = ats[ats["rule_home_3plus"] == True]
+        if not rule.empty:
+            print(f"    Home 3+ edge rule (under observation, not confirmed): "
+                  f"{int(rule['model_side_covered'].sum())}-{int((~rule['model_side_covered'].astype(bool)).sum())} "
+                  f"({rule['model_side_covered'].mean():.1%})")
+
     tot = df.dropna(subset=["total_error_model"])
     if not tot.empty:
         print(f"    Totals: mean model error {tot['total_error_model'].mean():.1f} pts over {len(tot)} games")
+    ou = df.dropna(subset=["model_ou_covered"])
+    if not ou.empty:
+        print(f"    O/U (model's side of the market total): "
+              f"{int(ou['model_ou_covered'].sum())}-{int((~ou['model_ou_covered'].astype(bool)).sum())} "
+              f"({ou['model_ou_covered'].mean():.1%})")
 
 
 def main():

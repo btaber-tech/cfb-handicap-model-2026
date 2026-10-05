@@ -83,6 +83,14 @@ SIGMA = 18.4
 # Linear calibration fit from build_totals_backtest.py (actual_total ~ a + b*proj_total_raw)
 TOTAL_CAL_A = 32.259
 TOTAL_CAL_B = 0.389275
+# In-season totals (2026-10-05, build_totals_inseason_backtest.py): each team's
+# SP+ off/def blended with its opponent-adjusted 2026 points scored/allowed at
+# weight n/(n+TOTAL_SHRINK_K), n = FBS games played. 2023-25 replay: r vs actual
+# 0.19 -> 0.28 in weeks 5+, MAE 13.18 -> 12.93. Better estimate, still well short
+# of the market (r 0.38) and NO over/under edge -- context only, like before.
+TOTAL_SHRINK_K = 4
+TOTAL_CAL_A_INSEASON = 14.120
+TOTAL_CAL_B_INSEASON = 0.7308
 
 
 def norm_cdf(x):
@@ -169,6 +177,27 @@ def main():
               f"{in_season_path} doesn't exist yet -- falling back to pure preseason for every game. "
               f"Run build_in_season_ratings.py first.")
         w_in_season = 0.0
+
+    # In-season off/def for model_total (independent of the margin ramp: uses
+    # its own n/(n+k) shrink, so it applies from the first game played).
+    totals_lookup = {}
+    if os.path.exists(in_season_path):
+        ins = pd.read_csv(in_season_path)
+        if "in_season_off_2026" in ins.columns:
+            totals_lookup = ins.dropna(subset=["in_season_off_2026"]).set_index("team")[
+                ["totals_games", "in_season_off_2026", "in_season_def_2026"]].to_dict("index")
+    totals_in_season = bool(totals_lookup) and week > 1
+    if not totals_in_season and week > 1:
+        print(f"NOTE: no in-season off/def in {in_season_path} -- model_total falls back to preseason SP+ only. "
+              f"Re-run build_in_season_ratings.py.")
+
+    def blend_totals(cfbd_name, rating):
+        t = totals_lookup.get(CFBD_TO_ATHLON.get(cfbd_name, cfbd_name))
+        if t is None:
+            return rating["off_sp_plus"], rating["def_sp_plus"]
+        w = t["totals_games"] / (t["totals_games"] + TOTAL_SHRINK_K)
+        return ((1 - w) * rating["off_sp_plus"] + w * t["in_season_off_2026"],
+                (1 - w) * rating["def_sp_plus"] + w * t["in_season_def_2026"])
 
     # Season-to-date W-L / ATS records (games before this week) for the page's
     # record columns -- context only, not a model input. See team_records.py.
@@ -259,8 +288,14 @@ def main():
         model_total = None
         if pd.notna(hr["off_sp_plus"]) and pd.notna(hr["def_sp_plus"]) and \
            pd.notna(ar["off_sp_plus"]) and pd.notna(ar["def_sp_plus"]):
-            proj_total_raw = (hr["off_sp_plus"] + ar["def_sp_plus"]) / 2 + (ar["off_sp_plus"] + hr["def_sp_plus"]) / 2
-            model_total = round(TOTAL_CAL_A + TOTAL_CAL_B * proj_total_raw, 1)
+            if totals_in_season:
+                h_off, h_def = blend_totals(home, hr)
+                a_off, a_def = blend_totals(away, ar)
+                proj_total_raw = (h_off + a_def) / 2 + (a_off + h_def) / 2
+                model_total = round(TOTAL_CAL_A_INSEASON + TOTAL_CAL_B_INSEASON * proj_total_raw, 1)
+            else:
+                proj_total_raw = (hr["off_sp_plus"] + ar["def_sp_plus"]) / 2 + (ar["off_sp_plus"] + hr["def_sp_plus"]) / 2
+                model_total = round(TOTAL_CAL_A + TOTAL_CAL_B * proj_total_raw, 1)
 
         home_disagreement = hr["source_disagreement"]
         away_disagreement = ar["source_disagreement"]

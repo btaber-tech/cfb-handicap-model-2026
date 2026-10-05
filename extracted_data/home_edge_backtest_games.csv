@@ -1,0 +1,2211 @@
+season,week,home,away,neutral,model_margin,actual_margin,market_close,market_open
+2023,1,Notre Dame,Navy,True,18.579,39,20.5,19.75
+2023,1,New Mexico State,Massachusetts,False,14.9975,-11,8.0,8.25
+2023,1,San Diego State,Ohio,False,3.288,7,3.0,3.25
+2023,1,Vanderbilt,Hawai'i,False,19.237,7,17.75,18.0
+2023,1,USC,San José State,False,24.0175,28,30.5,30.75
+2023,1,Louisiana Tech,Florida International,False,12.831999999999999,5,10.0,9.75
+2023,1,UCF,Kent State,False,21.558,50,35.0,35.5
+2023,1,UConn,NC State,False,-18.439,-10,-14.5,-15.75
+2023,1,Minnesota,Nebraska,False,17.5365,3,7.5,6.5
+2023,1,Utah,Florida,False,16.195500000000003,13,5.5,8.25
+2023,1,Miami,Miami (OH),False,13.532499999999999,35,16.5,17.5
+2023,1,Michigan State,Central Michigan,False,18.708499999999997,24,14.0,14.25
+2023,1,Georgia Tech,Louisville,True,-15.697500000000002,-5,-7.5,-8.0
+2023,1,Hawai'i,Stanford,False,-13.645499999999997,-13,-2.75,-8.25
+2023,1,Michigan,East Carolina,False,29.2725,27,35.5,34.25
+2023,1,TCU,Colorado,False,40.973,-3,20.5,20.5
+2023,1,Liberty,Bowling Green,False,17.339,10,9.0,12.5
+2023,1,Boston College,Northern Illinois,False,8.231000000000003,-3,8.5,9.75
+2023,1,Kentucky,Ball State,False,26.3085,30,26.0,26.25
+2023,1,Iowa,Utah State,False,25.348999999999997,10,23.75,24.75
+2023,1,Tennessee,Virginia,True,32.2425,36,28.0,27.75
+2023,1,SMU,Louisiana Tech,False,21.903499999999998,24,20.5,16.75
+2023,1,Purdue,Fresno State,False,5.378500000000001,-4,4.0,5.5
+2023,1,Oklahoma,Arkansas State,False,28.098999999999997,73,36.0,34.5
+2023,1,Temple,Akron,False,10.922499999999998,3,9.75,10.0
+2023,1,Indiana,Ohio State,False,-31.180500000000002,-20,-30.0,-28.25
+2023,1,Wisconsin,Buffalo,False,19.5785,21,28.0,24.5
+2023,1,Auburn,Massachusetts,False,35.797999999999995,45,35.0,38.25
+2023,1,Washington,Boise State,False,11.737499999999999,37,14.5,14.5
+2023,1,Texas,Rice,False,38.7785,27,35.25,35.25
+2023,1,Western Kentucky,South Florida,False,20.029,17,13.25,12.5
+2023,1,North Texas,California,False,2.6434999999999995,-37,-6.5,-8.25
+2023,1,USC,Nevada,False,38.3645,52,38.0,38.0
+2023,1,Texas A&M,New Mexico,False,34.038,42,38.0,38.5
+2023,1,Baylor,Texas State,False,25.4565,-11,26.75,26.25
+2023,1,Colorado State,Washington State,False,-20.2745,-26,-10.25,-14.25
+2023,1,Houston,UTSA,False,1.9125,3,-1.5,-1.5
+2023,1,UL Monroe,Army,False,-9.7895,4,-8.5,-8.75
+2023,1,Penn State,West Virginia,False,20.589999999999996,23,20.5,20.25
+2023,1,Alabama,Middle Tennessee,False,38.429,49,39.5,39.0
+2023,1,Wyoming,Texas Tech,False,-12.483,2,-13.5,-13.5
+2023,1,North Carolina,South Carolina,True,0.2395000000000007,14,-2.5,2.75
+2023,1,Illinois,Toledo,False,19.302,2,9.0,9.75
+2023,1,Tulane,South Alabama,False,9.1715,20,6.25,7.0
+2023,1,Virginia Tech,Old Dominion,False,6.823,19,16.0,13.75
+2023,1,UCLA,Coastal Carolina,False,17.642,14,15.5,16.0
+2023,1,Rutgers,Northwestern,False,4.946,17,6.5,6.25
+2023,1,San José State,Oregon State,False,-15.414,-25,-15.25,-16.5
+2023,1,Florida State,LSU,True,-0.6664999999999981,21,-2.5,-2.25
+2023,1,Duke,Clemson,False,-9.502000000000002,21,-12.5,-13.0
+2023,2,Kansas,Illinois,False,-6.843499999999999,11,3.5,2.5
+2023,2,Wake Forest,Vanderbilt,False,16.56,16,9.5,10.0
+2023,2,NC State,Notre Dame,False,-1.8775,-21,-7.0,-7.75
+2023,2,Virginia,James Madison,False,-8.014000000000001,-1,-6.0,-6.25
+2023,2,Georgia,Ball State,False,49.500499999999995,42,42.0,41.5
+2023,2,Virginia Tech,Purdue,False,-10.9375,-7,1.0,1.25
+2023,2,Baylor,Utah,False,-5.901000000000002,-7,-7.0,-2.75
+2023,2,Colorado,Nebraska,False,-11.808500000000002,22,3.0,-2.5
+2023,2,Kansas State,Troy,False,16.019499999999997,29,15.0,16.25
+2023,2,Massachusetts,Miami (OH),False,-12.13,-13,-7.0,-6.75
+2023,2,UTSA,Texas State,False,20.3525,7,14.0,12.5
+2023,2,Northwestern,UTEP,False,3.4525,31,1.0,-0.5
+2023,2,Tulane,Ole Miss,False,-0.4230000000000005,-17,-8.5,-5.0
+2023,2,Michigan,UNLV,False,42.044000000000004,28,38.0,36.5
+2023,2,Miami,Texas A&M,False,-6.833,15,-3.0,-5.5
+2023,2,Iowa State,Iowa,False,-1.3644999999999992,-7,-3.5,-3.75
+2023,2,Syracuse,Western Michigan,False,21.5895,41,24.5,22.75
+2023,2,East Carolina,Marshall,False,3.0365,-18,-3.0,-1.5
+2023,2,Arkansas,Kent State,False,22.421,22,38.5,38.0
+2023,2,Washington,Tulsa,False,21.589499999999997,33,34.0,35.0
+2023,2,North Carolina,App State,False,8.842,6,19.5,16.75
+2023,2,Florida Atlantic,Ohio,False,2.4249999999999994,-7,3.5,4.25
+2023,2,Oklahoma,SMU,False,12.101,17,16.5,15.0
+2023,2,Liberty,New Mexico State,False,15.347,16,9.5,11.5
+2023,2,Old Dominion,Louisiana,False,-8.801,7,-6.0,-6.75
+2023,2,Georgia Southern,UAB,False,-3.162500000000001,14,7.0,6.0
+2023,2,Florida International,North Texas,False,-20.1005,7,-10.5,-13.0
+2023,2,Pittsburgh,Cincinnati,False,1.383500000000001,-6,6.5,7.25
+2023,2,Missouri,Middle Tennessee,False,14.9605,4,21.0,20.75
+2023,2,Arkansas State,Memphis,False,-15.108499999999998,-34,-21.0,-21.25
+2023,2,Georgia State,UConn,False,13.484499999999999,21,3.0,4.0
+2023,2,Rice,Houston,False,-16.0195,2,-7.0,-8.75
+2023,2,Alabama,Texas,False,10.458500000000003,-10,7.0,6.75
+2023,2,Texas Tech,Oregon,False,-5.249499999999999,-8,-4.5,-5.5
+2023,2,Boise State,UCF,False,-0.9535000000000005,-2,-3.0,-0.25
+2023,2,San Diego State,UCLA,False,-13.770000000000001,-25,-13.5,-13.5
+2023,2,Rutgers,Temple,False,6.7905,29,7.5,9.25
+2023,2,Maryland,Charlotte,False,29.500499999999995,18,24.5,24.5
+2023,2,Minnesota,Eastern Michigan,False,25.0035,19,19.5,20.0
+2023,2,Washington State,Wisconsin,False,1.3089999999999997,9,-5.5,-5.25
+2023,2,Mississippi State,Arizona,False,19.8215,7,9.0,11.25
+2023,2,Florida State,Southern Miss,False,22.043999999999997,53,31.0,29.5
+2023,2,California,Auburn,False,-4.9475,-4,-5.0,-6.5
+2023,2,Arizona State,Oklahoma State,False,-9.2215,-12,-2.5,-3.25
+2023,2,USC,Stanford,False,24.490499999999997,46,28.5,29.75
+2023,3,Memphis,Navy,False,19.619875,4,12.25,16.0
+2023,3,Maryland,Virginia,False,16.9301875,28,16.25,14.0
+2023,3,UTSA,Army,False,11.157425000000002,-8,7.0,10.0
+2023,3,Air Force,Utah State,False,22.2195,18,8.75,8.5
+2023,3,Boston College,Florida State,False,-28.253837500000003,-2,-25.25,-28.5
+2023,3,Indiana,Louisville,True,-10.422799999999999,-7,-10.0,-9.5
+2023,3,Wisconsin,Georgia Southern,False,14.303912500000001,21,20.5,15.0
+2023,3,Old Dominion,Wake Forest,False,-16.4062,-3,-13.75,-14.0
+2023,3,Missouri,Kansas State,False,-13.473149999999999,3,-3.5,-3.75
+2023,3,Mississippi State,LSU,False,1.727250000000002,-27,-9.5,-9.0
+2023,3,Illinois,Penn State,False,-8.157412499999998,-17,-14.0,-13.75
+2023,3,Ohio,Iowa State,False,-6.897699999999999,3,-2.0,-2.0
+2023,3,Buffalo,Liberty,False,-2.5652749999999984,-28,-2.75,-4.5
+2023,3,Eastern Michigan,Massachusetts,False,21.85725,2,7.5,10.0
+2023,3,Notre Dame,Central Michigan,False,30.673987499999996,24,34.75,33.0
+2023,3,App State,East Carolina,False,4.3515999999999995,15,7.5,9.5
+2023,3,Tulsa,Oklahoma,False,-20.334575,-49,-28.0,-26.0
+2023,3,North Carolina,Minnesota,False,-1.4541124999999995,18,7.0,6.25
+2023,3,Oregon State,San Diego State,False,23.023749999999996,17,24.5,22.0
+2023,3,Duke,Northwestern,False,21.9817875,24,17.0,19.0
+2023,3,Georgia,South Carolina,False,27.884999999999998,10,26.5,25.5
+2023,3,UConn,Florida International,False,11.134825,-7,7.0,10.0
+2023,3,South Florida,Alabama,False,-38.4425875,-14,-34.25,-31.5
+2023,3,Rutgers,Virginia Tech,False,3.6591749999999994,19,6.5,4.5
+2023,3,Iowa,Western Michigan,False,30.0350625,31,28.5,25.0
+2023,3,Texas A&M,UL Monroe,False,22.634749999999997,44,36.5,32.0
+2023,3,Southern Miss,Tulane,False,-17.052762500000004,-18,-7.75,-11.0
+2023,3,Ohio State,Western Kentucky,False,26.724275,53,29.5,27.5
+2023,3,Michigan State,Washington,False,-9.398749999999998,-34,-15.0,-12.0
+2023,3,Charlotte,Georgia State,False,-9.499749999999999,-16,-6.25,-8.5
+2023,3,Troy,James Madison,False,2.5615249999999996,-2,2.5,2.25
+2023,3,Oklahoma State,South Alabama,False,9.24605,-26,7.0,9.0
+2023,3,UAB,Louisiana,False,2.601775,-20,2.0,1.0
+2023,3,Toledo,San José State,False,8.074937499999999,4,9.0,7.5
+2023,3,UNLV,Vanderbilt,False,0.3153749999999995,3,-4.5,-4.0
+2023,3,Florida,Tennessee,False,-12.170799999999998,13,-5.0,-7.5
+2023,3,Louisiana Tech,North Texas,False,-5.907337499999999,-3,4.5,3.0
+2023,3,Cincinnati,Miami (OH),False,27.543337499999996,-7,14.25,16.5
+2023,3,Nebraska,Northern Illinois,False,15.346450000000003,24,11.5,13.0
+2023,3,West Virginia,Pittsburgh,False,-1.364475000000001,11,2.5,-1.75
+2023,3,Arkansas,BYU,False,12.6555,-7,8.25,10.0
+2023,3,Ole Miss,Georgia Tech,False,25.690925,25,17.0,19.0
+2023,3,Kentucky,Akron,False,32.038349999999994,32,25.25,24.5
+2023,3,Michigan,Bowling Green,False,45.5254125,25,40.75,40.0
+2023,3,Purdue,Syracuse,False,1.1892250000000006,-15,-1.0,-0.0
+2023,3,Houston,TCU,False,-6.832449999999998,-23,-7.25,-8.0
+2023,3,Oregon,Hawai'i,False,41.0128875,45,38.25,37.0
+2023,3,New Mexico,New Mexico State,False,-1.0355125000000003,-10,2.75,1.5
+2023,3,Texas,Wyoming,False,32.68805,21,31.0,28.0
+2023,3,Clemson,Florida Atlantic,False,23.07145,34,25.0,24.0
+2023,3,Colorado,Colorado State,False,13.5999375,8,23.0,19.0
+2023,3,Nevada,Kansas,False,-24.389349999999997,-7,-28.5,-28.0
+2023,3,Arizona State,Fresno State,False,-5.576549999999999,-29,-3.75,-2.5
+2023,3,Arizona,UTEP,False,17.39885,21,18.25,17.0
+2023,4,Coastal Carolina,Georgia State,False,3.0964,-13,6.5,6.5
+2023,4,Purdue,Wisconsin,False,-2.41225,-21,-6.0,-6.5
+2023,4,Virginia,NC State,False,-6.701174999999999,-3,-8.0,-9.25
+2023,4,San Diego State,Boise State,False,-3.1452499999999985,-3,-6.5,-6.75
+2023,4,San José State,Air Force,False,-6.055299999999999,-25,-6.0,-3.75
+2023,4,Texas A&M,Auburn,False,4.597875000000001,17,9.0,7.25
+2023,4,Syracuse,Army,False,13.965124999999999,13,13.0,13.25
+2023,4,Clemson,Florida State,False,-0.4852499999999984,-7,-2.0,0.75
+2023,4,Northern Illinois,Tulsa,False,-0.8140000000000014,-8,4.0,3.25
+2023,4,Michigan,Rutgers,False,30.1448,24,24.0,25.0
+2023,4,Troy,Western Kentucky,False,5.950249999999999,3,3.5,3.25
+2023,4,TCU,SMU,False,14.20615,17,7.0,6.25
+2023,4,Vanderbilt,Kentucky,False,-14.466174999999998,-17,-13.5,-13.75
+2023,4,Cincinnati,Oklahoma,False,-12.076324999999999,-14,-14.0,-14.0
+2023,4,Marshall,Virginia Tech,False,18.4167,7,5.5,6.25
+2023,4,Toledo,Western Michigan,False,20.183774999999997,18,21.5,20.75
+2023,4,Ball State,Georgia Southern,False,-6.327299999999999,-37,-6.0,-6.75
+2023,4,Michigan State,Maryland,False,-6.206974999999998,-22,-7.5,-6.75
+2023,4,Temple,Miami,False,-18.870375,-34,-23.5,-24.0
+2023,4,Illinois,Florida Atlantic,False,19.415249999999997,6,16.0,13.5
+2023,4,Oregon,Colorado,False,31.2367,36,21.0,18.75
+2023,4,Utah,UCLA,False,11.943825,7,3.0,6.5
+2023,4,Kansas,BYU,False,1.2052499999999986,11,9.5,8.5
+2023,4,Alabama,Ole Miss,False,11.359200000000001,14,7.0,15.0
+2023,4,Bowling Green,Ohio,False,-6.118600000000001,-31,-13.0,-11.0
+2023,4,Louisville,Boston College,False,19.911475,28,14.0,13.75
+2023,4,UConn,Duke,False,-24.307225000000003,-34,-22.0,-22.0
+2023,4,Nebraska,Louisiana Tech,False,16.39565,14,20.5,19.5
+2023,4,West Virginia,Texas Tech,False,1.9255999999999993,7,-6.0,-5.5
+2023,4,Massachusetts,New Mexico,False,3.7366874999999986,-3,3.5,2.25
+2023,4,Iowa State,Oklahoma State,False,1.751424999999999,7,3.5,3.0
+2023,4,Tennessee,UTSA,False,21.657849999999996,31,24.0,20.25
+2023,4,South Florida,Rice,False,3.6289249999999997,13,-2.5,-2.25
+2023,4,South Alabama,Central Michigan,False,23.854025,-4,16.0,14.75
+2023,4,Florida International,Liberty,False,-16.13525,-32,-10.0,-11.75
+2023,4,Wake Forest,Georgia Tech,False,14.706724999999999,-14,3.5,5.5
+2023,4,LSU,Arkansas,False,14.124574999999998,3,17.5,13.0
+2023,4,Washington State,Oregon State,False,-2.517625000000001,3,-3.0,-2.75
+2023,4,Middle Tennessee,Colorado State,False,16.891624999999998,-8,3.5,2.5
+2023,4,Stanford,Arizona,False,-6.750449999999999,-1,-13.0,-10.75
+2023,4,Texas State,Nevada,False,17.764549999999996,11,17.0,17.0
+2023,4,Florida,Charlotte,False,32.3596,15,28.0,27.5
+2023,4,Arkansas State,Southern Miss,False,-8.973549999999998,7,-7.0,-6.0
+2023,4,Wyoming,App State,False,-3.270225,3,3.0,2.0
+2023,4,South Carolina,Mississippi State,False,3.6506249999999993,7,6.0,5.75
+2023,4,Missouri,Memphis,True,0.5484499999999997,7,6.5,6.0
+2023,4,Baylor,Texas,False,-13.147875,-32,-17.5,-11.25
+2023,4,Indiana,Akron,False,19.009424999999997,2,16.5,16.75
+2023,4,Notre Dame,Ohio State,False,-12.503475,-3,-3.0,-7.25
+2023,4,Georgia,UAB,False,37.994299999999996,28,41.0,40.75
+2023,4,Northwestern,Minnesota,False,-16.06345,3,-11.5,-12.5
+2023,4,Penn State,Iowa,False,16.578049999999998,31,14.0,14.25
+2023,4,Louisiana,Buffalo,False,16.32245,7,10.5,9.0
+2023,4,Kansas State,UCF,False,8.001,13,6.0,6.0
+2023,4,Pittsburgh,North Carolina,False,-2.1858,-17,-7.0,-6.5
+2023,4,Utah State,James Madison,False,-10.7611,-7,-5.0,-6.5
+2023,4,UTEP,UNLV,False,-5.34975,-17,1.0,-2.75
+2023,4,Fresno State,Kent State,False,25.865975,43,27.5,27.5
+2023,4,Arizona State,USC,False,-24.388575,-14,-34.5,-34.0
+2023,4,Washington,California,False,18.91545,27,20.5,21.25
+2023,4,Hawai'i,New Mexico State,False,-1.26205,3,4.0,3.0
+2023,5,Tulsa,Temple,False,11.673325,22,3.0,4.0
+2023,5,Western Kentucky,Middle Tennessee,False,12.545875,21,6.5,6.75
+2023,5,NC State,Louisville,False,-3.509,-3,-3.5,-3.25
+2023,5,Oregon State,Utah,False,-1.9402750000000002,14,3.5,0.75
+2023,5,UTEP,Louisiana Tech,False,-1.3178562500000006,-14,-1.0,1.0
+2023,5,BYU,Cincinnati,False,5.0794999999999995,8,1.0,2.75
+2023,5,Colorado,USC,False,-23.791812500000002,-7,-21.5,-22.0
+2023,5,UConn,Utah State,False,-7.4891374999999965,-1,-4.5,-5.25
+2023,5,Northwestern,Penn State,False,-29.386112500000003,-28,-27.0,-25.5
+2023,5,Tulane,UAB,False,18.767025,12,22.0,20.5
+2023,5,James Madison,South Alabama,False,1.650549999999999,8,3.0,3.0
+2023,5,Kentucky,Florida,False,2.3466750000000003,19,1.5,3.25
+2023,5,Akron,Buffalo,False,-2.032549999999999,-3,2.5,2.0
+2023,5,Minnesota,Louisiana,False,8.772143750000001,11,10.0,11.0
+2023,5,Syracuse,Clemson,False,1.066599999999997,-17,-7.0,-8.25
+2023,5,Arkansas,Texas A&M,True,-0.6071750000000005,-12,-6.5,-5.25
+2023,5,Central Michigan,Eastern Michigan,False,5.0862375,3,7.5,6.75
+2023,5,Boston College,Virginia,False,-1.152487499999999,3,3.5,2.5
+2023,5,Kent State,Miami (OH),False,-4.817325,-20,-14.5,-15.5
+2023,5,California,Arizona State,False,12.548824999999999,3,12.5,11.75
+2023,5,Auburn,Georgia,False,-19.736825000000003,-7,-14.0,-18.25
+2023,5,Georgia Tech,Bowling Green,False,17.6205,-11,22.0,21.0
+2023,5,Texas Tech,Houston,False,7.223825,21,8.5,10.0
+2023,5,Western Michigan,Ball State,False,2.304175,18,1.5,1.0
+2023,5,Toledo,Northern Illinois,False,18.032500000000002,2,13.0,13.25
+2023,5,Massachusetts,Arkansas State,False,-0.9721850000000054,-24,1.5,0.5
+2023,5,Marshall,Old Dominion,False,16.9597375,6,14.0,13.5
+2023,5,UCF,Baylor,False,14.702899999999998,-1,11.5,11.75
+2023,5,Nebraska,Michigan,False,-21.66383125,-38,-17.0,-18.0
+2023,5,Texas,Kansas,False,21.7210125,26,16.5,18.25
+2023,5,Maryland,Indiana,False,20.159099999999995,27,14.0,14.25
+2023,5,Purdue,Illinois,False,-3.1502812499999995,25,1.0,1.25
+2023,5,Navy,South Florida,False,3.2240999999999995,-14,4.0,4.0
+2023,5,Vanderbilt,Missouri,False,-11.771712499999998,-17,-13.5,-12.75
+2023,5,Memphis,Boise State,False,8.72375,3,3.5,2.25
+2023,5,Wyoming,New Mexico,False,26.462625,9,14.0,13.25
+2023,5,UNLV,Hawai'i,False,17.7979625,24,11.0,10.5
+2023,5,Ole Miss,LSU,False,3.610100000000002,6,-3.0,-3.5
+2023,5,Stanford,Oregon,False,-23.284050000000004,-36,-27.0,-27.0
+2023,5,Southern Miss,Texas State,False,-4.497774999999997,-14,-6.5,-7.25
+2023,5,Georgia Southern,Coastal Carolina,False,9.496112499999999,10,6.0,5.75
+2023,5,Oklahoma,Iowa State,False,22.235912499999994,30,20.0,20.5
+2023,5,Rice,East Carolina,False,-5.400125000000001,7,3.5,4.25
+2023,5,Georgia State,Troy,False,1.38225,-21,1.0,2.5
+2023,5,SMU,Charlotte,False,20.3727,18,23.5,23.0
+2023,5,Tennessee,South Carolina,False,14.560350000000001,21,12.5,12.0
+2023,5,Iowa,Michigan State,False,13.01850625,10,12.0,10.75
+2023,5,Duke,Notre Dame,False,-0.7945062499999986,-7,-5.5,-6.5
+2023,5,Air Force,San Diego State,False,18.014075,39,10.5,10.25
+2023,5,Virginia Tech,Pittsburgh,False,-6.454981250000001,17,-2.5,-2.25
+2023,5,TCU,West Virginia,False,10.762699999999999,-3,12.5,10.25
+2023,5,UL Monroe,App State,False,-14.933849999999998,-1,-13.5,-13.5
+2023,5,Mississippi State,Alabama,False,-14.709662500000002,-23,-14.5,-13.25
+2023,5,Arizona,Washington,False,-17.825000000000003,-7,-20.0,-18.25
+2023,5,Fresno State,Nevada,False,35.291975,18,24.5,23.75
+2023,6,New Mexico State,Florida International,False,2.8516750000000006,17,6.5,5.75
+2023,6,Louisiana Tech,Western Kentucky,False,-10.565840000000001,-7,-6.0,-6.0
+2023,6,Oklahoma State,Kansas State,False,-13.911399999999999,8,-11.5,-11.25
+2023,6,Illinois,Nebraska,False,9.251999999999999,-13,3.0,3.0
+2023,6,Army,Boston College,False,10.565525000000001,-3,2.5,3.25
+2023,6,Massachusetts,Toledo,False,-19.638425000000005,-17,-19.0,-19.25
+2023,6,Mississippi State,Western Michigan,False,24.433075000000002,13,21.0,20.75
+2023,6,Texas,Oklahoma,True,-0.8781999999999981,-4,4.0,-6.25
+2023,6,Missouri,LSU,False,-5.100174999999998,-10,-6.0,-7.0
+2023,6,Ohio State,Maryland,False,18.598350000000003,20,17.0,18.25
+2023,6,Wisconsin,Rutgers,False,12.510900000000001,11,13.0,13.5
+2023,6,Buffalo,Central Michigan,False,-1.1385999999999998,24,-2.5,-2.5
+2023,6,Temple,UTSA,False,-18.625325000000004,-15,-14.0,-12.25
+2023,6,NC State,Marshall,False,1.4387750000000006,7,6.5,6.5
+2023,6,UCLA,Washington State,False,6.818000000000001,8,3.5,4.0
+2023,6,Iowa,Purdue,False,7.27548,6,2.5,2.75
+2023,6,Navy,North Texas,False,7.6030999999999995,3,6.5,6.0
+2023,6,Miami (OH),Bowling Green,False,8.545025,27,7.5,11.25
+2023,6,Akron,Northern Illinois,False,0.561025000000003,-41,-4.0,-4.0
+2023,6,Ohio,Kent State,False,25.455125,25,24.5,26.0
+2023,6,Louisiana,Texas State,False,5.033175000000002,4,1.0,1.75
+2023,6,Eastern Michigan,Ball State,False,11.547700000000003,14,2.5,2.75
+2023,6,Texas A&M,Alabama,False,-10.71174,-6,-2.5,-5.75
+2023,6,North Carolina,Syracuse,False,8.534749999999999,33,9.5,7.5
+2023,6,Florida State,Virginia Tech,False,27.706509999999998,22,24.0,24.75
+2023,6,Clemson,Wake Forest,False,17.472424999999998,5,21.0,20.75
+2023,6,Kansas,UCF,False,-5.853950000000001,29,-2.0,3.25
+2023,6,Florida,Vanderbilt,False,21.147644999999997,24,18.5,18.0
+2023,6,UAB,South Florida,False,2.457549999999999,21,-3.0,-3.25
+2023,6,Troy,Arkansas State,False,25.609549999999995,34,15.5,16.5
+2023,6,Rice,UConn,False,13.657329999999998,-7,10.0,10.0
+2023,6,Florida Atlantic,Tulsa,False,7.0390000000000015,3,3.0,3.75
+2023,6,Arizona State,Colorado,False,2.4173449999999996,-3,-3.0,-4.75
+2023,6,Southern Miss,Old Dominion,False,-5.061324999999998,-4,3.0,2.25
+2023,6,UL Monroe,South Alabama,False,-13.927774999999999,-48,-11.0,-12.0
+2023,6,Georgia,Kentucky,False,15.206649999999998,38,14.5,17.75
+2023,6,Minnesota,Michigan,False,-14.820300000000001,-42,-18.5,-17.5
+2023,6,Ole Miss,Arkansas,False,15.773075,7,13.0,10.5
+2023,6,Louisville,Notre Dame,False,-6.444104999999999,13,-6.0,-6.75
+2023,6,Miami,Georgia Tech,False,19.913674999999994,-3,19.0,19.25
+2023,6,Utah State,Colorado State,False,10.967475,20,-3.0,-0.5
+2023,6,Iowa State,TCU,False,-6.575524999999999,13,-6.5,-6.25
+2023,6,Baylor,Texas Tech,False,-2.180125,-25,-2.5,-0.25
+2023,6,Boise State,San José State,False,13.137575,8,8.0,9.0
+2023,6,Wyoming,Fresno State,False,-11.694650000000003,5,-6.0,-4.5
+2023,6,California,Oregon State,False,-10.1964,-12,-7.5,-9.25
+2023,6,USC,Arizona,False,18.889014999999997,2,21.0,22.0
+2023,7,Middle Tennessee,Louisiana Tech,False,1.9116562500000005,8,3.0,2.75
+2023,7,App State,Coastal Carolina,False,11.982406249999999,-3,4.5,6.0
+2023,7,Florida International,UTEP,False,9.213887500000004,-13,3.5,-1.5
+2023,7,Houston,West Virginia,False,-11.761093749999999,2,-3.0,-2.75
+2023,7,East Carolina,SMU,False,-7.56709375,-21,-11.5,-10.0
+2023,7,Memphis,Tulane,False,-1.4744687499999993,-10,-4.5,-3.0
+2023,7,Utah State,Fresno State,False,-13.419775000000003,-5,-5.5,-7.0
+2023,7,Colorado,Stanford,False,15.84303125,-3,13.0,13.25
+2023,7,Cincinnati,Iowa State,False,-1.68454375,-20,5.0,3.75
+2023,7,Alabama,Arkansas,False,21.407812500000002,3,19.5,18.5
+2023,7,James Madison,Georgia Southern,False,2.4704062500000012,28,6.0,3.5
+2023,7,North Texas,Temple,False,8.635375000000002,31,6.5,7.5
+2023,7,Michigan,Indiana,False,36.1848125,45,33.5,34.0
+2023,7,Purdue,Ohio State,False,-22.867968750000006,-34,-17.5,-20.25
+2023,7,Florida State,Syracuse,False,18.143025,38,18.5,17.75
+2023,7,Rutgers,Michigan State,False,9.945887500000001,3,4.5,5.25
+2023,7,Vanderbilt,Georgia,False,-34.535599999999995,-17,-32.5,-31.75
+2023,7,Eastern Michigan,Kent State,False,16.75551875,14,7.5,10.75
+2023,7,Charlotte,Navy,False,2.0338750000000005,-14,-3.0,-4.0
+2023,7,Ball State,Toledo,False,-15.475225000000004,-7,-17.5,-16.25
+2023,7,Utah,California,False,17.787143750000002,20,9.5,13.5
+2023,7,Buffalo,Bowling Green,False,8.0347,-10,3.0,5.5
+2023,7,Army,Troy,False,-8.178193750000002,-19,-6.5,-3.5
+2023,7,Maryland,Illinois,False,18.739662499999998,-3,13.5,14.25
+2023,7,Western Michigan,Miami (OH),False,-6.7864,-13,-7.5,-9.25
+2023,7,Oklahoma State,Kansas,False,-1.1207999999999978,7,-3.0,-3.75
+2023,7,TCU,BYU,False,3.688775,33,5.0,5.0
+2023,7,Penn State,Massachusetts,False,54.13163839285714,63,42.0,42.75
+2023,7,South Carolina,Florida,False,3.6692499999999986,-2,-0.0,1.75
+2023,7,Central Michigan,Akron,False,13.526850000000001,7,10.5,12.75
+2023,7,South Florida,Florida Atlantic,False,3.8843499999999995,-42,2.5,2.0
+2023,7,Tennessee,Texas A&M,False,11.6268125,7,3.0,5.25
+2023,7,Washington,Oregon,False,5.818931249999999,3,3.0,1.75
+2023,7,Virginia Tech,Wake Forest,False,-0.7744687500000014,17,1.5,-1.0
+2023,7,Northern Illinois,Ohio,False,-7.7394,10,-5.5,-7.0
+2023,7,Wisconsin,Iowa,False,5.698000000000001,-9,8.5,9.75
+2023,7,Nevada,UNLV,False,-13.4865625,-18,-7.5,-9.5
+2023,7,New Mexico,San José State,False,-8.653481249999999,-28,-6.5,-8.75
+2023,7,Pittsburgh,Louisville,False,-12.334993749999997,17,-7.0,-8.75
+2023,7,Georgia State,Marshall,False,-0.9234687499999983,17,1.5,1.0
+2023,7,Texas Tech,Kansas State,False,-1.6602874999999995,-17,1.0,1.0
+2023,7,Texas State,UL Monroe,False,22.832174999999996,1,18.5,16.0
+2023,7,LSU,Auburn,False,10.632918749999998,30,11.0,16.25
+2023,7,Air Force,Wyoming,False,23.885425,7,12.5,10.0
+2023,7,Washington State,Arizona,False,8.528181250000001,-38,7.5,8.5
+2023,7,Notre Dame,USC,False,3.8297500000000007,28,3.0,0.5
+2023,7,Kentucky,Missouri,False,6.50535,-17,2.0,2.75
+2023,7,North Carolina,Miami,False,12.819324999999997,10,2.5,2.5
+2023,7,Oregon State,UCLA,False,4.0464875000000005,12,3.5,4.5
+2023,7,Duke,NC State,False,16.47805,21,3.5,3.5
+2023,7,UTSA,UAB,False,5.937275,21,9.0,8.5
+2023,7,Colorado State,Boise State,False,-11.930418750000001,1,-7.5,-7.25
+2023,7,Hawai'i,San Diego State,False,-9.778925,-7,-6.0,-5.5
+2023,8,Liberty,Middle Tennessee,False,18.372970499999997,7,16.0,14.25
+2023,8,South Alabama,Southern Miss,False,29.611758,52,18.5,18.0
+2023,8,UTEP,New Mexico State,False,-1.6596200000000008,-21,-3.0,-2.0
+2023,8,Tulsa,Rice,False,2.1777979999999983,-32,3.0,3.0
+2023,8,Marshall,James Madison,False,-3.8982380000000005,-11,-5.0,-2.5
+2023,8,Temple,SMU,False,-26.579904000000003,-55,-24.0,-19.25
+2023,8,Navy,Air Force,False,-15.704187499999998,-11,-11.0,-10.0
+2023,8,Arkansas,Mississippi State,False,9.583129,-4,7.0,6.75
+2023,8,UAB,Memphis,False,-7.084480000000001,-24,-7.5,-5.5
+2023,8,Ohio,Western Michigan,False,18.017145,3,16.5,16.5
+2023,8,Cincinnati,Baylor,False,4.154751999999999,-3,2.5,2.0
+2023,8,Ohio State,Penn State,False,6.119324000000002,8,4.0,10.0
+2023,8,Indiana,Rutgers,False,-7.928735,-17,-6.0,-4.75
+2023,8,Oklahoma,UCF,False,24.951399000000002,2,17.0,18.75
+2023,8,Georgia Tech,Boston College,False,7.417204,-15,6.0,4.5
+2023,8,Georgia Southern,UL Monroe,False,20.931331999999998,10,16.5,16.25
+2023,8,Bowling Green,Akron,False,11.332179999999997,27,7.0,8.5
+2023,8,East Carolina,Charlotte,False,6.886379999999997,-3,6.0,7.0
+2023,8,West Virginia,Oklahoma State,False,7.950031999999998,-14,3.0,2.75
+2023,8,Nebraska,Northwestern,False,7.062723000000002,8,10.5,12.0
+2023,8,Northern Illinois,Eastern Michigan,False,5.470364,7,12.0,11.25
+2023,8,Kent State,Buffalo,False,-8.255200000000004,-18,-6.5,-8.5
+2023,8,Alabama,Tennessee,False,4.481344285714288,14,8.5,8.75
+2023,8,Iowa,Minnesota,False,11.048549285714287,-2,3.5,4.75
+2023,8,Tulane,North Texas,False,26.209243999999998,7,20.0,19.5
+2023,8,Oregon,Washington State,False,20.266098,14,19.5,16.75
+2023,8,UConn,South Florida,False,-4.560385,-3,1.0,-2.5
+2023,8,Missouri,South Carolina,False,3.7814110000000003,22,7.5,6.75
+2023,8,Illinois,Wisconsin,False,-5.721657142857143,-4,-3.0,-3.5
+2023,8,Ball State,Central Michigan,False,-5.629025,7,-5.0,-4.25
+2023,8,Wake Forest,Pittsburgh,False,0.529634000000001,4,-3.0,1.25
+2023,8,Houston,Texas,False,-22.190643000000005,-7,-23.5,-22.5
+2023,8,Miami (OH),Toledo,False,2.8470200000000014,-4,-2.0,-1.0
+2023,8,New Mexico,Hawai'i,False,0.14008099999999946,21,-1.5,-0.0
+2023,8,Florida Atlantic,UTSA,False,1.270197,-26,-2.5,-2.75
+2023,8,North Carolina,Virginia,False,27.214113,-4,24.0,23.25
+2023,8,BYU,Texas Tech,False,-0.3975925000000009,13,-3.0,-3.75
+2023,8,Old Dominion,App State,False,-1.2190759999999998,7,-6.0,-6.25
+2023,8,Arkansas State,Coastal Carolina,False,-12.2851825,-10,-8.5,-9.5
+2023,8,UNLV,Colorado State,False,16.901578,2,6.5,7.5
+2023,8,San José State,Utah State,False,2.7663049999999996,21,4.0,4.0
+2023,8,Auburn,Ole Miss,False,-9.987752,-7,-6.5,-5.0
+2023,8,Kansas State,TCU,False,10.258818,38,5.5,4.75
+2023,8,Florida State,Duke,False,9.972144000000002,18,14.0,14.5
+2023,8,Michigan State,Michigan,False,-29.471058857142864,-49,-25.5,-18.0
+2023,8,LSU,Army,False,27.70863,62,33.0,30.0
+2023,8,USC,Utah,False,1.0894794285714267,-2,7.0,6.25
+2023,8,Louisiana,Georgia State,False,1.0311619999999992,-3,3.0,2.75
+2023,8,Miami,Clemson,False,-1.236934000000001,8,-6.0,-9.75
+2023,8,San Diego State,Nevada,False,14.421075999999998,-6,11.0,12.75
+2023,8,Stanford,UCLA,False,-22.289132000000002,-35,-17.0,-16.5
+2023,8,Washington,Arizona State,False,35.748665,8,28.0,27.5
+2023,9,Louisiana Tech,New Mexico State,False,5.593697142857143,-3,3.0,3.0
+2023,9,Western Kentucky,Liberty,False,-0.10311599999999954,-13,-4.0,-2.25
+2023,9,Virginia Tech,Syracuse,False,0.5804278571428565,28,2.5,3.0
+2023,9,Georgia Southern,Georgia State,False,0.13135499999999833,17,-0.0,2.5
+2023,9,Charlotte,Florida Atlantic,False,-5.023629999999999,-22,-3.5,-5.5
+2023,9,Kansas State,Houston,False,25.77926,41,17.5,17.0
+2023,9,Penn State,Indiana,False,40.30723499999999,9,31.0,31.0
+2023,9,Wake Forest,Florida State,False,-20.416593571428574,-25,-21.0,-20.0
+2023,9,UCF,West Virginia,False,4.023689999999998,-13,6.5,6.5
+2023,9,Army,Massachusetts,False,17.676467499999994,-7,10.0,9.5
+2023,9,Kansas,Oklahoma,False,-15.892620714285714,5,-7.0,-7.0
+2023,9,SMU,Tulsa,False,29.266645,59,20.5,19.5
+2023,9,Northwestern,Maryland,False,-15.17293,6,-14.0,-13.25
+2023,9,Boston College,UConn,False,16.187740714285713,7,14.5,12.5
+2023,9,Texas A&M,South Carolina,False,10.711510000000004,13,17.0,13.75
+2023,9,Eastern Michigan,Western Michigan,False,6.844510714285715,-24,-3.0,-0.75
+2023,9,NC State,Clemson,False,-7.588975000000001,7,-10.0,-10.25
+2023,9,North Texas,Memphis,False,-13.668920000000002,-3,-6.5,-7.5
+2023,9,Texas,BYU,False,19.73802142857143,29,20.5,18.25
+2023,9,Louisville,Duke,False,-2.512425000000001,23,5.0,4.0
+2023,9,Florida,Georgia,True,-13.347574999999997,-23,-14.0,-18.0
+2023,9,Minnesota,Michigan State,False,12.322635714285715,15,6.5,7.0
+2023,9,Baylor,Iowa State,False,-6.145509999999998,-12,-3.0,0.25
+2023,9,Auburn,Mississippi State,False,3.9917999999999996,14,6.5,6.5
+2023,9,Nebraska,Purdue,False,-0.07053428571428544,17,-1.0,3.0
+2023,9,App State,Southern Miss,False,20.99933,10,16.0,17.25
+2023,9,Miami,Virginia,False,16.406634999999998,3,18.5,18.0
+2023,9,UTSA,East Carolina,False,18.185217857142856,14,17.5,17.25
+2023,9,Utah,Oregon,False,2.109589999999999,-29,-6.5,-1.75
+2023,9,Notre Dame,Pittsburgh,False,21.30777857142857,51,21.0,18.0
+2023,9,Ohio,Miami (OH),False,5.14023857142857,-14,7.5,7.0
+2023,9,Rice,Tulane,False,-12.321644999999998,-2,-10.0,-11.0
+2023,9,California,USC,False,-6.71666125,-1,-10.5,-10.75
+2023,9,South Alabama,Louisiana,False,17.601005,-13,11.5,9.75
+2023,9,UL Monroe,Arkansas State,False,5.709880000000002,-10,1.0,1.75
+2023,9,Boise State,Wyoming,False,4.080525,25,4.5,5.0
+2023,9,Coastal Carolina,Marshall,False,-0.01401899999999845,28,-3.5,-3.5
+2023,9,Colorado State,Air Force,False,-17.641479999999998,-17,-14.5,-11.75
+2023,9,Kentucky,Tennessee,False,-9.737684999999997,-6,-3.5,-3.75
+2023,9,Texas State,Troy,False,-6.713424999999999,-18,-6.5,-5.75
+2023,9,Stanford,Washington,False,-30.96425142857143,-9,-27.5,-26.5
+2023,9,Ole Miss,Vanderbilt,False,28.461895,26,24.0,25.25
+2023,9,Wisconsin,Ohio State,False,-17.672630714285717,-14,-14.5,-9.5
+2023,9,UCLA,Colorado,False,22.5828,12,14.0,16.25
+2023,9,Georgia Tech,North Carolina,False,-16.994677857142857,4,-12.0,-11.75
+2023,9,Oklahoma State,Cincinnati,False,11.03518,32,7.5,7.75
+2023,9,James Madison,Old Dominion,False,14.411760000000001,3,19.5,17.5
+2023,9,Arizona State,Washington State,False,-7.344315,11,-4.5,-6.5
+2023,9,Arizona,Oregon State,False,-3.006650000000001,3,-3.0,-4.5
+2023,9,Fresno State,UNLV,False,15.003740000000002,7,10.5,7.75
+2023,9,Nevada,New Mexico,False,9.24244,10,-0.0,1.25
+2023,9,Hawai'i,San José State,False,-14.332999999999997,-35,-10.0,-8.5
+2023,10,Central Michigan,Northern Illinois,False,-3.284448571428569,6,-4.75,-3.25
+2023,10,Toledo,Buffalo,False,9.400527142857143,18,14.5,14.75
+2023,10,Bowling Green,Ball State,False,10.737730000000003,3,4.5,6.5
+2023,10,Akron,Kent State,False,3.5892671428571457,4,3.5,4.25
+2023,10,Texas Tech,TCU,False,2.872494285714288,7,2.5,3.0
+2023,10,Duke,Wake Forest,False,15.40398,3,6.5,12.0
+2023,10,Troy,South Alabama,False,1.3987128571428549,18,6.5,4.25
+2023,10,Syracuse,Boston College,False,6.9771528571428565,-7,0.5,3.0
+2023,10,Wyoming,Colorado State,False,16.451005714285714,9,6.0,7.25
+2023,10,Texas,Kansas State,False,0.39424803571428413,3,3.75,9.0
+2023,10,Rutgers,Ohio State,False,-22.899644285714288,-19,-19.0,-18.5
+2023,10,Florida,Arkansas,False,4.45922,-3,3.5,5.5
+2023,10,Indiana,Wisconsin,False,-14.41150214285714,6,-9.5,-9.75
+2023,10,Clemson,Notre Dame,False,-10.64633267857143,8,-3.0,5.0
+2023,10,Tennessee,UConn,False,41.193372857142855,56,35.5,34.75
+2023,10,Michigan State,Nebraska,False,-3.5916932142857143,3,-3.0,-3.5
+2023,10,Ole Miss,Texas A&M,False,5.961241071428573,3,3.0,3.75
+2023,10,Virginia,Georgia Tech,False,3.6130057142857135,-28,1.5,2.0
+2023,10,Utah,Arizona State,False,22.535038571428572,52,10.5,12.0
+2023,10,Temple,Navy,False,-14.211549285714286,14,-7.0,-7.75
+2023,10,Air Force,Army,True,23.320445714285714,-20,18.0,18.75
+2023,10,UAB,Florida Atlantic,False,-1.6899042857142867,3,-1.0,-2.25
+2023,10,Memphis,South Florida,False,20.818974285714283,9,13.5,13.5
+2023,10,North Texas,UTSA,False,-9.712655892857143,-8,-7.5,-7.5
+2023,10,Arkansas State,Louisiana,False,-15.578852857142854,20,-7.0,-9.25
+2023,10,Northwestern,Iowa,True,-10.262281071428568,-3,-5.0,-5.75
+2023,10,Pittsburgh,Florida State,False,-23.776247321428574,-17,-21.5,-22.25
+2023,10,Georgia State,James Madison,False,-3.075981428571428,-28,-6.0,-5.5
+2023,10,Oklahoma State,Oklahoma,False,-10.333046964285714,3,-6.0,-8.0
+2023,10,Old Dominion,Coastal Carolina,False,-0.08629714285714352,-4,0.5,16.75
+2023,10,Louisville,Virginia Tech,False,10.519974642857141,31,9.75,10.25
+2023,10,East Carolina,Tulane,False,-15.50511857142857,-3,-17.0,-16.5
+2023,10,Georgia,Missouri,False,17.299764285714286,9,14.5,15.75
+2023,10,Baylor,Houston,False,4.24325,-1,2.5,4.0
+2023,10,Maryland,Penn State,False,-11.130388571428572,-36,-8.5,-11.0
+2023,10,Minnesota,Illinois,False,6.653746250000001,-1,2.0,3.25
+2023,10,Cincinnati,UCF,False,-6.130849999999999,-2,-3.5,-4.5
+2023,10,Nevada,Hawai'i,False,10.092992857142857,-13,3.5,3.75
+2023,10,Tulsa,Charlotte,False,-2.6813542857142854,-7,4.5,3.25
+2023,10,Southern Miss,UL Monroe,False,1.892365714285714,17,3.0,2.5
+2023,10,Vanderbilt,Auburn,False,-12.457566785714285,-16,-12.5,-12.75
+2023,10,Texas State,Georgia Southern,False,-0.6748157142857134,21,0.25,-2.0
+2023,10,Oregon,California,False,21.972341428571426,44,25.5,24.0
+2023,10,New Mexico,UNLV,False,-13.775917142857143,-42,-14.5,-10.75
+2023,10,Liberty,Louisiana Tech,False,19.71141375,26,14.5,17.25
+2023,10,App State,Marshall,False,5.1148428571428575,22,3.0,3.75
+2023,10,New Mexico State,Middle Tennessee,False,0.36638214285714144,6,3.5,3.0
+2023,10,Iowa State,Kansas,False,4.493921428571429,-7,2.5,1.25
+2023,10,West Virginia,BYU,False,8.850945714285716,30,12.5,8.5
+2023,10,San Diego State,Utah State,False,0.37454571428571404,-8,-2.25,-1.75
+2023,10,Mississippi State,Kentucky,False,-2.389771428571429,-21,-5.5,-3.25
+2023,10,USC,Washington,False,-3.8288691666666685,-10,-3.0,6.0
+2023,10,Rice,SMU,False,-16.221680000000003,-5,-12.5,-10.75
+2023,10,Michigan,Purdue,False,33.028035,28,32.5,32.25
+2023,10,Alabama,LSU,False,4.163405892857146,14,3.0,6.75
+2023,10,NC State,Miami,False,-2.4193414285714288,14,-6.0,-3.75
+2023,10,UTEP,Western Kentucky,False,-18.772880000000004,-8,-9.5,-11.0
+2023,10,Washington State,Stanford,False,16.021984285714286,-3,13.5,13.25
+2023,10,Fresno State,Boise State,False,9.266324285714287,7,2.5,3.25
+2023,10,Colorado,Oregon State,False,-12.137452678571428,-7,-13.5,6.0
+2023,10,Arizona,UCLA,False,0.7627671428571445,17,-2.5,-2.0
+2023,11,Northern Illinois,Ball State,False,13.893131250000001,-3,9.5,10.25
+2023,11,Western Michigan,Central Michigan,False,4.4236612499999985,10,3.5,3.5
+2023,11,Buffalo,Ohio,False,-3.0356625000000013,-10,-9.5,-6.75
+2023,11,Miami (OH),Akron,False,21.7678675,19,17.0,17.0
+2023,11,Kent State,Bowling Green,False,-9.044002500000003,-30,-10.5,-8.5
+2023,11,Toledo,Eastern Michigan,False,14.23623767857143,26,19.5,18.25
+2023,11,Louisiana,Southern Miss,False,17.5066125,-3,8.5,12.0
+2023,11,Louisville,Virginia,False,21.32971625,7,20.0,19.5
+2023,11,SMU,North Texas,False,22.994437499999997,24,20.5,15.5
+2023,11,UNLV,Wyoming,False,7.816573750000002,20,2.5,2.75
+2023,11,Penn State,Michigan,False,-1.295693750000002,-9,-4.5,-2.5
+2023,11,South Florida,Temple,False,16.16863,4,7.5,7.75
+2023,11,Nebraska,Maryland,False,-3.18248125,-3,-1.5,-1.0
+2023,11,Illinois,Indiana,False,10.602262083333333,3,4.5,5.5
+2023,11,Kentucky,Alabama,False,-9.73924916666667,-28,-10.5,-3.5
+2023,11,Kansas,Texas Tech,False,3.0745412499999984,-3,3.5,3.5
+2023,11,Boston College,Virginia Tech,False,-1.538861666666668,-26,-2.5,2.5
+2023,11,Clemson,Georgia Tech,False,14.90612625,21,15.5,15.0
+2023,11,South Carolina,Vanderbilt,False,16.759271904761903,41,13.5,14.25
+2023,11,Tulane,Tulsa,False,30.64989125,2,24.5,22.5
+2023,11,Liberty,Old Dominion,False,11.556341071428571,28,13.5,13.0
+2023,11,Wake Forest,NC State,False,-0.87696,-20,-2.0,-2.5
+2023,11,Charlotte,Memphis,False,-14.71972,-6,-10.0,-11.25
+2023,11,James Madison,UConn,False,28.974214166666663,38,25.0,27.0
+2023,11,Colorado,Arizona,False,-9.514686249999999,-3,-8.0,-8.0
+2023,11,UL Monroe,Troy,False,-24.1156475,-31,-21.5,-20.25
+2023,11,Georgia State,App State,False,-0.5527974999999992,-28,2.5,2.0
+2023,11,Kansas State,Baylor,False,27.582269999999998,34,20.5,19.5
+2023,11,Utah State,Nevada,False,15.004197499999998,17,14.5,15.75
+2023,11,Navy,UAB,False,-1.565661607142856,25,-3.5,-4.75
+2023,11,Western Kentucky,New Mexico State,False,13.244828571428572,-9,5.0,5.5
+2023,11,Syracuse,Pittsburgh,True,1.3309875000000007,15,-3.0,-1.25
+2023,11,UCF,Oklahoma State,False,-0.8555350000000002,42,-2.5,-2.5
+2023,11,Coastal Carolina,Texas State,False,4.078495357142857,8,-2.75,1.5
+2023,11,Washington,Utah,False,7.324451666666667,7,9.5,3.5
+2023,11,Purdue,Minnesota,False,-1.2568933333333328,19,-1.5,-0.0
+2023,11,Wisconsin,Northwestern,False,13.843528749999999,-14,12.0,11.75
+2023,11,Florida State,Miami,False,20.801941666666664,7,14.5,15.25
+2023,11,Middle Tennessee,Florida International,False,11.456587857142857,34,10.5,11.25
+2023,11,Missouri,Tennessee,False,-5.930192499999999,29,-2.0,-1.0
+2023,11,Iowa,Rutgers,False,6.576151666666664,22,1.0,2.5
+2023,11,Arkansas,Auburn,False,3.946668749999999,-38,2.5,3.0
+2023,11,California,Washington State,False,3.66780375,3,1.5,0.75
+2023,11,Florida Atlantic,East Carolina,False,9.21564875,-15,7.5,9.75
+2023,11,South Alabama,Arkansas State,False,24.488737499999996,7,14.5,11.5
+2023,11,Oregon State,Stanford,False,24.36108375,45,21.5,20.25
+2023,11,Oklahoma,West Virginia,False,14.485474166666668,39,13.0,12.5
+2023,11,Marshall,Georgia Southern,False,0.28150250000000065,5,-1.5,-1.5
+2023,11,Colorado State,San Diego State,False,2.5581975000000003,3,3.5,4.25
+2023,11,Georgia,Ole Miss,False,11.56231625,35,11.0,19.5
+2023,11,Houston,Cincinnati,False,4.01837625,-10,3.0,2.25
+2023,11,LSU,Florida,False,15.462278750000001,17,16.0,16.0
+2023,11,UTSA,Rice,False,12.390419583333331,20,13.5,12.75
+2023,11,Ohio State,Michigan State,False,35.86654,35,32.0,25.25
+2023,11,Texas A&M,Mississippi State,False,15.289617500000002,41,16.5,18.25
+2023,11,TCU,Texas,False,-11.238889583333334,-3,-12.5,-5.5
+2023,11,North Carolina,Duke,False,4.01607625,2,10.0,9.0
+2023,11,UCLA,Arizona State,False,19.528453749999997,-10,14.0,16.25
+2023,11,Boise State,New Mexico,False,29.961994999999995,28,27.5,25.75
+2023,11,BYU,Iowa State,False,-2.3228816071428575,-32,-7.5,-7.0
+2023,11,Oregon,USC,False,16.22845725,9,16.5,2.5
+2023,11,San José State,Fresno State,False,-6.371347499999999,24,2.5,-1.0
+2023,11,Hawai'i,Air Force,False,-23.749850000000002,14,-20.5,-19.5
+2023,12,Eastern Michigan,Akron,False,10.383819583333329,3,3.5,5.75
+2023,12,Northern Illinois,Western Michigan,False,4.773433333333333,24,4.0,3.25
+2023,12,Bowling Green,Toledo,False,-4.722156666666665,-1,-10.0,-9.75
+2023,12,Miami (OH),Buffalo,False,10.909026666666668,13,7.5,8.75
+2023,12,Ohio,Central Michigan,False,12.328953333333335,14,10.5,9.0
+2023,12,Pittsburgh,Boston College,False,6.685236666666666,8,1.75,1.5
+2023,12,UTSA,South Florida,False,17.962211333333332,28,14.5,15.75
+2023,12,Washington State,Colorado,False,7.947783333333332,42,4.5,5.25
+2023,12,Indiana,Michigan State,False,3.5251800000000006,-3,3.5,4.75
+2023,12,Maryland,Michigan,False,-20.619506666666666,-7,-17.5,-21.0
+2023,12,Memphis,SMU,False,-5.643290000000002,-4,-9.5,-7.5
+2023,12,Northwestern,Purdue,False,-0.5932393333333339,8,2.5,1.25
+2023,12,Ole Miss,UL Monroe,False,36.821486666666665,32,36.0,36.75
+2023,12,Penn State,Rutgers,False,25.668676666666663,21,19.5,19.25
+2023,12,Florida Atlantic,Tulane,False,-7.546863333333333,-16,-9.0,-9.25
+2023,12,Navy,East Carolina,False,1.7011074999999998,10,2.5,3.0
+2023,12,BYU,Oklahoma,False,-20.50063875,-7,-24.5,-24.0
+2023,12,Miami,Louisville,False,-0.8740166666666664,-7,1.0,-1.75
+2023,12,Mississippi State,Southern Miss,False,16.87617333333333,21,18.5,14.0
+2023,12,Army,Coastal Carolina,False,-4.968636250000001,7,-1.5,-5.25
+2023,12,Liberty,Massachusetts,False,30.90598833333333,24,26.5,28.0
+2023,12,James Madison,App State,False,8.834153333333333,-3,10.75,11.75
+2023,12,Wyoming,Hawai'i,False,17.173620999999997,33,13.5,14.25
+2023,12,Middle Tennessee,UTEP,False,15.207804821428574,4,8.0,7.75
+2023,12,Ball State,Kent State,False,10.52958666666667,31,10.5,12.25
+2023,12,Charlotte,Rice,False,-3.244590000000001,-21,-1.0,-1.75
+2023,12,West Virginia,Cincinnati,False,10.429206666666664,21,5.0,6.25
+2023,12,Arizona,Utah,False,-2.2863100000000007,24,2.5,-0.5
+2023,12,Virginia,Duke,False,-13.190766666666667,3,-3.5,-3.75
+2023,12,Colorado State,Nevada,False,10.986579999999996,10,12.5,11.0
+2023,12,UAB,Temple,False,16.86807333333333,10,8.0,7.25
+2023,12,Arkansas State,Texas State,False,-6.911636666666666,46,-3.25,-3.5
+2023,12,Tulsa,North Texas,False,-5.481056666666666,-7,-2.0,-2.75
+2023,12,Notre Dame,Wake Forest,False,26.493380000000002,38,23.5,25.0
+2023,12,Iowa,Illinois,False,8.900491,2,3.0,3.75
+2023,12,USC,UCLA,False,6.518677272727272,-18,5.0,12.0
+2023,12,Virginia Tech,NC State,False,-0.8723923333333339,-7,2.5,3.25
+2023,12,TCU,Baylor,False,12.858336666666666,25,13.0,3.75
+2023,12,Tennessee,Georgia,False,-5.841140000000001,-28,-9.0,-8.0
+2023,12,Clemson,North Carolina,False,2.627856666666667,11,7.5,10.75
+2023,12,Air Force,UNLV,False,7.484798333333332,-4,3.0,4.0
+2023,12,Troy,Louisiana,False,15.600966666666666,7,15.5,14.75
+2023,12,Arizona State,Oregon,False,-25.222773333333336,-36,-22.0,-22.25
+2023,12,Houston,Oklahoma State,False,-5.13303,-13,-6.5,-7.5
+2023,12,Auburn,New Mexico State,False,24.97571333333333,-21,25.0,22.0
+2023,12,Ohio State,Minnesota,False,27.814558666666667,34,27.5,28.25
+2023,12,Texas Tech,UCF,False,1.2020033333333326,1,2.5,3.0
+2023,12,South Alabama,Marshall,False,14.30347666666667,28,10.0,8.25
+2023,12,Georgia Southern,Old Dominion,False,6.508713333333333,-3,5.5,7.0
+2023,12,Stanford,California,False,-9.375173333333333,-12,-6.5,-4.5
+2023,12,Utah State,Boise State,False,-4.286819999999999,-35,-5.0,-4.0
+2023,12,Kansas,Kansas State,False,-13.974023333333333,-4,-7.5,-6.0
+2023,12,Arkansas,Florida International,False,30.66554523809524,24,27.5,31.75
+2023,12,Missouri,Florida,False,10.54016,2,12.5,10.75
+2023,12,South Carolina,Kentucky,False,0.8285283333333333,3,2.5,-1.75
+2023,12,Wisconsin,Nebraska,False,7.153127999999999,7,7.0,5.0
+2023,12,Oregon State,Washington,False,-2.275603333333334,-2,1.0,-0.0
+2023,12,Georgia Tech,Syracuse,False,2.098583333333333,9,6.0,6.0
+2023,12,LSU,Georgia State,False,30.471556666666665,42,32.0,30.75
+2023,12,Iowa State,Texas,False,-8.051794666666668,-10,-7.5,-8.25
+2023,12,Fresno State,New Mexico,False,32.83642333333333,-8,22.5,24.0
+2023,12,San José State,San Diego State,False,14.411510000000003,11,16.5,14.0
+2023,13,Western Michigan,Bowling Green,False,-1.2939430000000027,-24,-2.5,-1.75
+2023,13,Buffalo,Eastern Michigan,False,5.974917333333333,-13,6.5,6.5
+2023,13,Mississippi State,Ole Miss,False,-11.268117,-10,-10.5,-1.5
+2023,13,Central Michigan,Toledo,False,-8.750411999999999,-15,-10.0,-12.5
+2023,13,Temple,Memphis,False,-21.736791,-24,-13.5,-11.0
+2023,13,Akron,Ohio,False,-14.504796999999998,-11,-14.5,-13.75
+2023,13,Oklahoma,TCU,False,14.839359818181823,24,11.5,6.75
+2023,13,Nebraska,Iowa,False,-3.8703754545454525,-3,3.0,-0.5
+2023,13,Boston College,Miami,False,-8.882140000000001,-25,-10.0,-9.0
+2023,13,New Mexico,Utah State,False,-8.06684,-3,-4.5,-8.5
+2023,13,Tulane,UTSA,False,5.005182,13,3.5,2.5
+2023,13,Arkansas,Missouri,False,-8.003601999999997,-34,-9.5,-7.25
+2023,13,Boise State,Air Force,False,6.359739333333334,8,6.5,6.25
+2023,13,Texas,Texas Tech,False,15.73926009090909,50,16.0,13.75
+2023,13,Michigan State,Penn State,True,-26.099669,-42,-21.75,-11.75
+2023,13,Oregon,Oregon State,False,13.773987000000004,24,14.0,7.5
+2023,13,Michigan,Ohio State,False,2.6090810000000015,6,3.0,2.75
+2023,13,Ball State,Miami (OH),False,-8.842185,-2,-4.0,-6.75
+2023,13,Kent State,Northern Illinois,False,-15.606551000000001,-10,-20.5,-18.25
+2023,13,Massachusetts,UConn,False,-0.558732999999997,-13,2.5,-2.5
+2023,13,UCF,Houston,False,14.685281000000002,14,15.5,13.25
+2023,13,Louisville,Kentucky,False,2.403271,-7,7.5,7.0
+2023,13,Purdue,Indiana,False,8.538250363636363,4,6.5,2.5
+2023,13,LSU,Texas A&M,False,8.48193,12,10.5,10.0
+2023,13,Duke,Pittsburgh,False,14.616468000000001,11,4.5,6.25
+2023,13,SMU,Navy,False,21.810353999999997,45,20.25,20.0
+2023,13,Southern Miss,Troy,False,-19.855900000000002,-18,-17.0,-16.75
+2023,13,Rice,Florida Atlantic,False,2.2972390000000003,3,3.5,5.0
+2023,13,East Carolina,Tulsa,False,12.133326,-2,3.0,3.0
+2023,13,Syracuse,Wake Forest,False,4.435708999999999,4,2.0,2.75
+2023,13,North Texas,UAB,False,3.6597929999999996,3,2.5,3.0
+2023,13,Old Dominion,Georgia State,False,3.7274410000000002,1,2.0,2.0
+2023,13,Louisiana,UL Monroe,False,18.815659,31,12.5,12.25
+2023,13,Utah,Colorado,False,24.78471145454545,6,21.5,21.75
+2023,13,Florida International,Western Kentucky,False,-13.930060000000003,-13,-11.5,-10.0
+2023,13,UNLV,San José State,False,3.362620000000001,-6,1.5,3.25
+2023,13,UTEP,Liberty,False,-21.597929583333332,-14,-17.5,-16.5
+2023,13,Tennessee,Vanderbilt,False,30.110235,24,27.0,25.5
+2023,13,Arizona State,Arizona,False,-14.134780000000001,-36,-12.5,-12.5
+2023,13,Rutgers,Maryland,False,-2.808258000000001,-18,-2.0,-1.75
+2023,13,Minnesota,Wisconsin,False,1.0956309090909087,-14,-2.25,-1.75
+2023,13,Virginia,Virginia Tech,False,-3.465047727272729,-38,-1.75,-2.5
+2023,13,Illinois,Northwestern,False,5.367294545454545,-2,5.5,5.25
+2023,13,App State,Georgia Southern,False,10.007737,28,10.5,7.75
+2023,13,Auburn,Alabama,False,-15.147459000000003,-3,-14.5,-13.5
+2023,13,Coastal Carolina,James Madison,False,-6.39081,-42,-4.0,-9.5
+2023,13,Marshall,Arkansas State,False,5.884263999999998,14,1.5,2.5
+2023,13,Oklahoma State,BYU,False,13.906165333333334,6,16.5,17.5
+2023,13,Washington,Washington State,False,20.318050818181817,3,15.5,16.25
+2023,13,Baylor,West Virginia,False,-7.563822999999999,-3,-8.5,-6.5
+2023,13,Stanford,Notre Dame,False,-31.34193700000001,-33,-26.0,-24.5
+2023,13,Texas State,South Alabama,False,-11.985572,8,-5.5,-5.0
+2023,13,Florida,Florida State,False,-10.430273000000001,-9,-6.5,-9.25
+2023,13,Georgia Tech,Georgia,False,-27.810556,-8,-24.5,-23.0
+2023,13,South Carolina,Clemson,False,0.49021033333333275,-9,-7.5,-6.75
+2023,13,South Florida,Charlotte,False,5.573153,34,7.0,5.25
+2023,13,Cincinnati,Kansas,False,-6.509599,-33,-7.5,-6.0
+2023,13,Kansas State,Iowa State,False,16.263541000000004,-7,9.5,11.25
+2023,13,NC State,North Carolina,False,-2.4167269999999994,19,-2.5,-3.25
+2023,13,Nevada,Wyoming,False,-9.875935999999996,-36,-11.0,-11.0
+2023,13,San Diego State,Fresno State,False,-9.674469,15,-5.5,-5.75
+2023,13,UCLA,California,False,10.829581000000001,-26,9.5,10.0
+2023,13,Hawai'i,Colorado State,False,-2.9130041818181804,3,-5.5,-6.0
+2023,14,Liberty,New Mexico State,False,14.228401999999999,14,10.5,10.25
+2023,14,Washington,Oregon,True,-5.0887525000000045,3,-9.5,-9.0
+2023,14,Texas,Oklahoma State,True,17.731835454545458,28,14.5,12.75
+2023,14,Toledo,Miami (OH),True,4.020552727272727,-9,7.0,8.0
+2023,14,UNLV,Boise State,False,-1.0518336363636354,-24,-2.5,-2.5
+2023,14,Alabama,Georgia,True,-1.2838618181818144,3,-5.0,-4.75
+2023,14,Tulane,SMU,False,-3.190588181818184,-12,2.5,3.5
+2023,14,Troy,App State,False,8.559378181818182,26,5.5,6.5
+2023,14,Iowa,Michigan,True,-19.998662500000005,-26,-21.0,-23.5
+2023,14,Florida State,Louisville,True,14.473455454545455,10,-1.5,4.25
+2023,15,Army,Navy,True,2.0100526666666654,6,2.0,1.75
+2024,1,Georgia Tech,Florida State,True,-16.183,3,-10.5,-12.5
+2024,1,Nevada,SMU,False,-29.6015,-5,-27.5,-25.25
+2024,1,Minnesota,North Carolina,False,-6.000500000000001,-2,-1.5,2.25
+2024,1,Jacksonville State,Coastal Carolina,False,2.2584999999999997,-28,3.5,3.5
+2024,1,Michigan State,Florida Atlantic,False,6.051500000000001,6,12.0,11.5
+2024,1,Oklahoma,Temple,False,41.8225,48,43.0,42.75
+2024,1,Wisconsin,Western Michigan,False,25.342999999999996,14,24.0,24.0
+2024,1,Stanford,TCU,False,-16.64,-7,-8.5,-8.5
+2024,1,West Virginia,Penn State,False,-14.943499999999998,-22,-7.5,-10.25
+2024,1,Vanderbilt,Virginia Tech,False,-12.9515,7,-13.5,-13.0
+2024,1,Maryland,UConn,False,28.179499999999997,43,19.0,20.5
+2024,1,Pittsburgh,Kent State,False,24.195999999999998,31,23.5,23.75
+2024,1,Georgia,Clemson,True,17.5925,31,10.5,13.75
+2024,1,Florida,Miami,False,-0.9134999999999995,-24,-2.5,-2.5
+2024,1,Texas,Colorado State,False,36.434999999999995,52,35.0,34.5
+2024,1,Syracuse,Ohio,False,5.2165,16,17.5,17.25
+2024,1,Massachusetts,Eastern Michigan,False,-1.2775000000000003,-14,2.5,-0.0
+2024,1,Ohio State,Akron,False,50.0535,46,49.5,50.5
+2024,1,Nebraska,UTEP,False,18.8375,33,27.5,27.25
+2024,1,Northwestern,Miami (OH),True,0.22450000000000014,7,3.5,3.75
+2024,1,Indiana,Florida International,False,19.046,24,25.5,20.25
+2024,1,Georgia Southern,Boise State,False,-9.0325,-11,-12.5,-11.75
+2024,1,South Carolina,Old Dominion,False,17.886999999999997,4,20.5,20.25
+2024,1,South Alabama,North Texas,False,14.274,-14,6.0,6.5
+2024,1,Alabama,Western Kentucky,False,30.488,63,34.0,31.25
+2024,1,Troy,Nevada,False,31.2035,-2,7.5,15.5
+2024,1,Houston,UNLV,False,-1.8450000000000002,-20,2.25,2.5
+2024,1,Rice,Sam Houston,False,9.777500000000002,-20,9.5,11.0
+2024,1,Texas A&M,Notre Dame,False,-2.058000000000002,-10,2.5,1.75
+2024,1,Michigan,Fresno State,False,32.859,20,21.0,21.0
+2024,1,Hawai'i,UCLA,False,-21.143,-3,-13.5,-13.25
+2024,1,Kentucky,Southern Miss,False,26.0995,31,25.5,26.25
+2024,1,Charlotte,James Madison,False,-24.457500000000003,-23,-7.0,-8.25
+2024,1,Georgia Tech,Georgia State,False,12.2825,23,20.5,20.75
+2024,1,Arizona,New Mexico,False,31.161499999999997,22,29.0,30.5
+2024,1,Arizona State,Wyoming,False,-3.579500000000001,41,6.5,6.25
+2024,1,LSU,USC,True,10.541500000000003,-7,4.0,4.5
+2024,1,Florida State,Boston College,False,28.0585,-15,16.5,21.0
+2024,2,SMU,BYU,False,17.421499999999998,-3,12.5,11.0
+2024,2,Northwestern,Duke,True,-8.091,-6,2.5,2.5
+2024,2,Florida Atlantic,Army,False,1.0689999999999986,-17,1.5,3.0
+2024,2,Michigan,Texas,False,9.164499999999999,-19,-6.5,-6.0
+2024,2,Oklahoma State,Arkansas,False,6.4535,8,10.0,9.0
+2024,2,Syracuse,Georgia Tech,False,0.22350000000000003,3,-3.0,-2.5
+2024,2,Cincinnati,Pittsburgh,False,2.8009999999999997,-1,2.0,2.0
+2024,2,Memphis,Troy,False,-1.7300000000000009,21,18.5,17.0
+2024,2,Tulane,Kansas State,False,-11.669500000000001,-7,-9.0,-10.0
+2024,2,Rutgers,Akron,False,26.737,32,24.5,22.75
+2024,2,Penn State,Bowling Green,False,34.116,7,35.0,32.0
+2024,2,Notre Dame,Northern Illinois,False,30.715,-2,28.0,30.0
+2024,2,Iowa,Iowa State,False,0.6544999999999983,-1,3.0,2.5
+2024,2,Maryland,Michigan State,False,17.598499999999998,-3,8.0,8.5
+2024,2,Navy,Temple,False,10.1805,27,11.5,12.5
+2024,2,Washington,Eastern Michigan,False,33.3665,21,25.0,24.5
+2024,2,Louisville,Jacksonville State,False,15.225,35,29.0,27.0
+2024,2,North Carolina,Charlotte,False,29.915,18,21.5,22.5
+2024,2,Auburn,California,False,9.1695,-7,12.5,12.5
+2024,2,Toledo,Massachusetts,False,22.689999999999998,15,17.5,19.5
+2024,2,Utah,Baylor,False,22.246000000000002,11,14.5,17.0
+2024,2,Kentucky,South Carolina,False,6.638,-25,9.5,9.0
+2024,2,Texas State,UTSA,False,-5.385,39,2.5,2.0
+2024,2,Ole Miss,Middle Tennessee,False,29.568499999999997,49,42.5,40.5
+2024,2,Virginia Tech,Marshall,False,15.207500000000001,17,20.5,17.0
+2024,2,Florida International,Central Michigan,True,-3.371500000000002,36,-3.5,-5.0
+2024,2,Old Dominion,East Carolina,False,3.3440000000000025,-6,1.5,2.0
+2024,2,Ohio,South Alabama,False,-3.361,7,-1.5,-1.0
+2024,2,UCF,Sam Houston,False,23.4105,31,21.5,23.5
+2024,2,Wake Forest,Virginia,False,6.211499999999999,-1,-1.0,2.0
+2024,2,Alabama,South Florida,False,35.139500000000005,26,31.0,31.0
+2024,2,Nevada,Georgia Southern,False,-11.242999999999999,-3,1.0,-3.0
+2024,2,UL Monroe,UAB,False,-4.896000000000003,26,-11.0,-11.5
+2024,2,Illinois,Kansas,False,-7.5725,6,-4.5,-5.5
+2024,2,Arkansas State,Tulsa,False,8.797,4,9.0,6.5
+2024,2,Missouri,Buffalo,False,34.5845,38,34.5,34.5
+2024,2,Air Force,San José State,False,10.3615,-10,3.0,6.0
+2024,2,Nebraska,Colorado,False,6.8955,18,6.5,7.0
+2024,2,Ohio State,Western Michigan,False,43.964,56,37.5,39.0
+2024,2,NC State,Tennessee,True,-6.173999999999999,-41,-10.0,-7.0
+2024,2,Oklahoma,Houston,False,26.6025,4,27.5,28.0
+2024,2,Clemson,App State,False,13.4975,46,16.5,17.0
+2024,2,Oregon,Boise State,False,22.978499999999997,3,18.0,19.5
+2024,2,Washington State,Texas Tech,False,0.7920000000000003,21,-2.5,1.5
+2024,2,New Mexico State,Liberty,False,-6.7005,-6,-22.0,-21.0
+2024,2,San Diego State,Oregon State,False,-20.997500000000002,-21,-5.5,-5.5
+2024,2,Arizona State,Mississippi State,False,-7.185499999999999,7,6.5,4.5
+2024,2,USC,Utah State,False,23.421,48,29.5,27.0
+2024,3,Texas State,Arizona State,False,9.526875,-3,2.5,-1.5
+2024,3,Kansas,UNLV,True,6.746375,-3,9.5,7.5
+2024,3,Kansas State,Arizona,False,8.298300000000001,24,7.0,8.0
+2024,3,Illinois,Central Michigan,False,25.918099999999995,21,21.0,19.5
+2024,3,Wisconsin,Alabama,False,-16.845387500000005,-32,-15.5,-9.5
+2024,3,Florida State,Memphis,False,11.3388875,-8,7.0,5.5
+2024,3,NC State,Louisiana Tech,False,24.1045,10,20.5,21.5
+2024,3,Texas Tech,North Texas,False,10.2277,45,10.5,10.0
+2024,3,Miami (OH),Cincinnati,False,7.160824999999999,-11,-3.0,-2.5
+2024,3,Michigan,Arkansas State,False,37.6307875,10,22.0,23.5
+2024,3,Tulsa,Oklahoma State,False,-16.550925000000003,-35,-17.5,-20.0
+2024,3,South Carolina,LSU,False,-7.947450000000002,-3,-6.5,-7.5
+2024,3,Missouri,Boston College,False,19.74305,6,14.5,16.5
+2024,3,Buffalo,Massachusetts,False,6.041112499999999,31,3.5,4.5
+2024,3,Temple,Coastal Carolina,False,-21.536550000000002,-8,-17.5,-17.5
+2024,3,Oregon State,Oregon,False,-6.426349999999998,-35,-18.0,-20.5
+2024,3,Washington,Washington State,True,9.825325,-5,5.5,7.5
+2024,3,Purdue,Notre Dame,False,-21.505000000000003,-59,-7.5,-10.5
+2024,3,Oklahoma,Tulane,False,16.7887,15,13.5,14.0
+2024,3,Florida,Texas A&M,False,-8.280675,-13,-3.5,-4.0
+2024,3,Miami,Ball State,False,26.599999999999998,62,36.5,36.5
+2024,3,Pittsburgh,West Virginia,False,-5.796150000000001,4,-2.0,-4.5
+2024,3,Minnesota,Nevada,False,20.648174999999995,27,17.0,16.0
+2024,3,Iowa,Troy,False,5.0188375,17,23.5,22.5
+2024,3,East Carolina,App State,False,-2.675525,-2,-1.5,-2.5
+2024,3,Arkansas,UAB,False,22.968925,10,23.5,24.0
+2024,3,Utah State,Utah,False,-18.00945,-17,-20.5,-21.5
+2024,3,Liberty,UTEP,False,26.267299999999995,18,23.5,23.5
+2024,3,Florida Atlantic,Florida International,False,11.886375,18,3.5,6.0
+2024,3,Old Dominion,Virginia Tech,False,-10.15785,-20,-15.5,-14.0
+2024,3,Duke,UConn,False,29.635424999999998,5,17.0,17.0
+2024,3,Wake Forest,Ole Miss,False,-22.67895,-34,-20.5,-23.0
+2024,3,Georgia State,Vanderbilt,False,1.492649999999999,4,-9.0,-10.0
+2024,3,Eastern Michigan,Jacksonville State,False,-2.3153125000000006,3,-2.5,1.5
+2024,3,Southern Miss,South Florida,False,-5.2635000000000005,-25,-11.5,-11.5
+2024,3,Texas,UTSA,False,32.779962499999996,49,35.5,34.5
+2024,3,Middle Tennessee,Western Kentucky,False,-1.3799249999999996,-28,-7.5,-7.5
+2024,3,Sam Houston,Hawai'i,False,3.5651499999999983,18,4.0,4.0
+2024,3,Colorado State,Colorado,False,-1.5080749999999998,-19,-7.5,-7.5
+2024,3,TCU,UCF,False,2.453075,-1,2.5,2.0
+2024,3,UCLA,Indiana,False,12.893950000000002,-29,-3.5,-2.5
+2024,3,Kentucky,Georgia,False,-20.189937500000003,-1,-22.0,-23.5
+2024,3,Mississippi State,Toledo,False,0.4871749999999997,-24,10.5,11.5
+2024,3,Baylor,Air Force,False,-1.7468749999999997,28,17.0,15.5
+2024,3,Auburn,New Mexico,False,22.849849999999996,26,25.5,28.0
+2024,3,Tennessee,Kent State,False,49.42049999999999,71,49.5,48.0
+2024,3,Virginia,Maryland,False,-13.170425,-14,2.5,-2.5
+2024,3,Houston,Rice,False,9.8086875,26,4.5,5.0
+2024,3,Wyoming,BYU,False,-4.12415,-20,-9.5,-10.0
+2024,3,California,San Diego State,False,17.9138,21,18.5,18.0
+2024,3,Fresno State,New Mexico State,False,7.919775,48,20.0,19.5
+2024,4,App State,South Alabama,False,1.4329999999999998,-34,7.5,8.0
+2024,4,Syracuse,Stanford,False,11.8745,-2,9.5,9.5
+2024,4,Nebraska,Illinois,False,5.67665,-7,9.0,8.75
+2024,4,Washington State,San José State,False,8.425475,2,13.0,14.25
+2024,4,Indiana,Charlotte,False,21.556999999999995,38,28.5,28.0
+2024,4,Cincinnati,Houston,False,3.5999999999999996,34,4.0,5.5
+2024,4,North Carolina,James Madison,False,0.6074249999999997,-20,11.0,10.5
+2024,4,Mississippi State,Florida,False,-4.426924999999999,-17,-6.5,-4.5
+2024,4,West Virginia,Kansas,False,1.5272250000000005,4,1.5,2.5
+2024,4,Clemson,NC State,False,18.128324999999997,24,17.5,15.5
+2024,4,Army,Rice,False,16.524549999999998,23,7.5,6.25
+2024,4,Louisiana,Tulane,False,-2.5094999999999996,-8,-1.5,-3.5
+2024,4,Ohio State,Marshall,False,38.334624999999996,35,39.0,40.0
+2024,4,Kentucky,Ohio,False,14.040475,35,21.5,18.25
+2024,4,Central Michigan,Ball State,False,4.421250000000001,3,6.5,6.5
+2024,4,Coastal Carolina,Virginia,False,11.202774999999999,-19,-3.5,-3.0
+2024,4,Iowa State,Arkansas State,False,15.431700000000001,45,20.5,21.0
+2024,4,Temple,Utah State,False,-5.737974999999999,16,-6.5,-6.25
+2024,4,Jacksonville State,Southern Miss,False,12.45265,37,6.0,6.5
+2024,4,Auburn,Arkansas,False,7.289599999999998,-10,2.5,3.5
+2024,4,Michigan,USC,False,7.697774999999998,3,-4.0,-5.5
+2024,4,Virginia Tech,Rutgers,False,2.2436499999999997,-3,3.25,4.0
+2024,4,LSU,UCLA,False,20.066499999999998,17,21.5,22.75
+2024,4,Northern Illinois,Buffalo,False,16.522225,-3,13.0,14.75
+2024,4,Louisville,Georgia Tech,False,14.1256,12,8.5,10.0
+2024,4,Penn State,Kent State,False,54.774775,56,49.0,49.0
+2024,4,Notre Dame,Miami (OH),False,27.644075,25,27.5,26.75
+2024,4,Texas Tech,Arizona State,False,12.66415,8,4.5,3.25
+2024,4,Navy,Memphis,False,-15.613124999999998,12,-8.5,-10.5
+2024,4,Oklahoma State,Utah,False,4.1465250000000005,-3,-1.0,3.0
+2024,4,Middle Tennessee,Duke,False,-18.897375,-28,-14.5,-14.0
+2024,4,Missouri,Vanderbilt,False,25.341724999999997,3,18.0,21.0
+2024,4,SMU,TCU,False,1.7616749999999985,24,-1.5,-2.5
+2024,4,Colorado State,UTEP,False,7.231274999999998,10,8.5,10.0
+2024,4,Liberty,East Carolina,False,15.575249999999999,11,7.5,7.25
+2024,4,South Florida,Miami,False,-19.837175,-35,-16.5,-17.5
+2024,4,Washington,Northwestern,False,14.532325000000002,19,12.0,10.25
+2024,4,Florida State,California,False,8.350974999999998,5,3.0,2.25
+2024,4,Louisiana Tech,Tulsa,False,8.595524999999999,-3,2.5,2.25
+2024,4,UConn,Florida Atlantic,False,-1.7600249999999984,34,1.0,2.5
+2024,4,North Texas,Wyoming,False,8.041924999999999,27,7.0,9.25
+2024,4,Western Kentucky,Toledo,False,-6.637324999999999,5,-2.5,-0.0
+2024,4,Sam Houston,New Mexico State,False,2.387074999999999,20,15.0,14.0
+2024,4,Texas A&M,Bowling Green,False,16.75955,6,21.0,23.0
+2024,4,South Carolina,Akron,False,31.735524999999996,43,25.0,27.0
+2024,4,Oklahoma,Tennessee,False,-4.911599999999996,-10,-6.0,3.0
+2024,4,Minnesota,Iowa,False,-4.118524999999998,-17,-3.0,-2.5
+2024,4,Ole Miss,Georgia Southern,False,32.88442499999999,39,35.0,36.0
+2024,4,Texas,UL Monroe,False,44.417899999999996,48,43.5,45.0
+2024,4,Colorado,Baylor,False,3.312375,7,2.5,1.25
+2024,4,Boston College,Michigan State,False,8.88515,4,4.5,6.25
+2024,4,Oregon State,Purdue,False,27.577399999999997,17,1.5,5.75
+2024,4,New Mexico,Fresno State,False,-15.7378,-17,-12.0,-15.25
+2024,4,BYU,Kansas State,False,-8.895775000000002,29,-7.5,-7.25
+2024,5,Temple,Army,False,-18.324450000000002,-28,-11.0,-13.0
+2024,5,Miami,Virginia Tech,False,22.0077,4,17.5,17.0
+2024,5,Rutgers,Washington,False,-3.038512500000001,3,1.25,2.75
+2024,5,UConn,Buffalo,False,3.3751250000000006,44,6.0,4.0
+2024,5,Boston College,Western Kentucky,False,10.612525,1,7.5,12.5
+2024,5,Indiana,Maryland,False,0.09099999999999886,14,7.5,6.5
+2024,5,Tulane,South Florida,False,14.380125000000001,35,4.0,6.5
+2024,5,Michigan,Minnesota,False,23.351293749999996,3,10.5,10.0
+2024,5,NC State,Northern Illinois,False,3.2435000000000014,7,7.0,7.5
+2024,5,Kansas State,Oklahoma State,False,6.753450000000003,22,6.0,5.5
+2024,5,Purdue,Nebraska,False,-11.372399999999999,-18,-10.0,-10.0
+2024,5,Ole Miss,Kentucky,False,17.043243749999995,-3,15.0,17.0
+2024,5,UAB,Navy,False,-11.472349999999999,-23,-4.5,-2.5
+2024,5,Baylor,BYU,False,-7.346474999999998,-6,3.0,3.0
+2024,5,James Madison,Ball State,False,38.7278875,56,22.0,20.0
+2024,5,Sam Houston,Texas State,True,-7.709418749999998,1,-11.0,-8.0
+2024,5,UNLV,Fresno State,False,1.118412500000001,45,2.5,3.5
+2024,5,UCF,Colorado,False,15.290700000000001,-27,12.5,14.0
+2024,5,Kansas,TCU,True,2.8221249999999998,-11,1.5,1.5
+2024,5,Notre Dame,Louisville,False,10.667581250000003,7,6.5,6.5
+2024,5,Kent State,Eastern Michigan,False,-19.84755,-19,-14.0,-14.0
+2024,5,Texas A&M,Arkansas,True,10.191925000000001,4,6.5,4.5
+2024,5,Wake Forest,Louisiana,False,-1.9452999999999991,-3,3.0,3.0
+2024,5,Marshall,Western Michigan,False,10.376999999999999,7,3.5,5.5
+2024,5,Central Michigan,San Diego State,False,-7.248062500000001,1,2.5,1.75
+2024,5,Ohio,Akron,False,19.647374999999997,20,8.0,12.5
+2024,5,Auburn,Oklahoma,False,-8.732443750000002,-6,2.0,-2.5
+2024,5,Georgia State,Georgia Southern,False,2.1596374999999997,-17,3.5,1.0
+2024,5,USC,Wisconsin,False,22.198824999999996,17,13.5,14.5
+2024,5,Miami (OH),Massachusetts,False,21.651275,3,15.5,17.5
+2024,5,East Carolina,UTSA,False,8.916337499999996,10,2.0,4.0
+2024,5,Duke,North Carolina,False,7.017925,1,-1.5,3.0
+2024,5,Texas,Mississippi State,False,41.475587499999996,22,37.0,38.0
+2024,5,Bowling Green,Old Dominion,False,16.976899999999997,-3,11.0,9.5
+2024,5,Florida International,Louisiana Tech,True,-2.5189000000000004,7,-2.0,-2.5
+2024,5,Clemson,Stanford,False,25.7222625,26,24.0,22.0
+2024,5,North Texas,Tulsa,False,13.714099999999998,32,7.0,7.0
+2024,5,Troy,UL Monroe,False,13.833125000000003,-4,6.0,8.5
+2024,5,Houston,Iowa State,False,-17.0533875,-20,-16.5,-12.5
+2024,5,Rice,Charlotte,False,4.78115,-1,4.0,6.5
+2024,5,Alabama,Georgia,False,5.618575000000002,7,-2.0,-2.0
+2024,5,Memphis,Middle Tennessee,False,28.022375,17,27.0,24.5
+2024,5,Penn State,Illinois,False,21.744349999999997,14,19.5,18.0
+2024,5,Michigan State,Ohio State,False,-26.690650000000005,-31,-23.5,-25.0
+2024,5,LSU,South Alabama,False,16.812275,32,21.0,21.0
+2024,5,Wyoming,Air Force,False,-2.3329375,12,-4.0,-2.5
+2024,5,SMU,Florida State,False,2.9715624999999997,26,6.0,5.5
+2024,5,New Mexico State,New Mexico,False,4.145075000000002,-10,-9.5,-7.0
+2024,5,Texas Tech,Cincinnati,False,5.792175,3,3.0,3.5
+2024,5,Boise State,Washington State,False,4.314324999999998,21,6.5,7.0
+2024,5,Utah,Arizona,False,7.473799999999999,-13,7.5,11.0
+2024,5,UCLA,Oregon,False,-25.501925,-21,-23.5,-24.5
+2024,6,Troy,Texas State,False,-5.568474999999999,-21,-14.5,-14.5
+2024,6,UTEP,Sam Houston,False,-8.48322,-20,-10.0,-10.5
+2024,6,TCU,Houston,False,15.300335,-11,16.5,17.0
+2024,6,UNLV,Syracuse,False,18.8201,-3,5.5,4.5
+2024,6,Oregon,Michigan State,False,33.623325,21,22.5,24.0
+2024,6,Texas A&M,Missouri,False,5.4033750000000005,31,2.5,1.5
+2024,6,Penn State,UCLA,False,25.315375,16,29.5,28.0
+2024,6,Air Force,Navy,False,-5.2280999999999995,-27,-10.0,-8.5
+2024,6,Wisconsin,Purdue,False,16.636,46,12.0,12.0
+2024,6,Northern Illinois,Massachusetts,False,20.97055,14,14.0,17.0
+2024,6,NC State,Wake Forest,False,8.721224999999999,-4,4.0,5.5
+2024,6,North Carolina,Pittsburgh,False,5.656625,-10,-2.5,-2.5
+2024,6,Louisville,SMU,False,5.5762,-7,6.5,7.0
+2024,6,Virginia,Boston College,False,-2.1074749999999995,10,2.0,3.0
+2024,6,Tulsa,Army,False,-19.8697,-42,-13.5,-10.5
+2024,6,UAB,Tulane,False,-27.71765,-51,-19.5,-14.5
+2024,6,Ball State,Western Michigan,False,-9.980900000000002,-3,-10.0,-7.5
+2024,6,Akron,Bowling Green,False,-20.91335,-7,-16.5,-14.5
+2024,6,Toledo,Miami (OH),False,13.164625000000001,10,4.5,7.0
+2024,6,Marshall,App State,False,8.255199999999997,15,3.0,1.5
+2024,6,Georgia,Auburn,False,25.691075,18,21.0,23.5
+2024,6,South Carolina,Ole Miss,False,-7.723924999999998,-24,-10.0,-9.5
+2024,6,Northwestern,Indiana,True,-6.5163249999999975,-17,-12.5,-13.5
+2024,6,Ohio State,Iowa,False,18.987475000000003,28,17.0,20.5
+2024,6,UConn,Temple,False,21.741659999999996,9,17.5,14.0
+2024,6,Stanford,Virginia Tech,False,-6.4032,-24,-9.5,-6.5
+2024,6,Charlotte,East Carolina,False,-10.824699999999998,31,-9.5,-8.0
+2024,6,Oklahoma State,West Virginia,False,6.886775,-24,2.5,4.5
+2024,6,Nebraska,Rutgers,False,-0.506225000000001,7,6.25,7.0
+2024,6,Vanderbilt,Alabama,False,-29.495325,5,-23.0,-24.0
+2024,6,Oregon State,Colorado State,False,27.753,8,10.5,14.0
+2024,6,Boise State,Utah State,False,35.345299999999995,32,28.0,26.0
+2024,6,Southern Miss,Louisiana,False,-18.18945,-10,-17.5,-14.5
+2024,6,UL Monroe,James Madison,False,-24.232700000000005,2,-16.5,-15.5
+2024,6,Florida State,Clemson,False,-11.246360000000001,-16,-16.5,-15.0
+2024,6,Arkansas State,South Alabama,False,-5.616825,2,-2.5,-3.5
+2024,6,Coastal Carolina,Old Dominion,False,8.897225,8,4.0,5.0
+2024,6,San José State,Nevada,False,20.559475,4,7.0,7.0
+2024,6,Minnesota,USC,False,-15.5666,7,-8.5,-9.5
+2024,6,Washington,Michigan,False,-2.5314399999999986,10,1.5,2.5
+2024,6,Arkansas,Tennessee,False,-22.4231,5,-14.0,-13.5
+2024,6,Iowa State,Baylor,False,18.788475,22,13.0,13.0
+2024,6,Florida,UCF,False,4.956999999999999,11,-1.0,1.0
+2024,6,San Diego State,Hawai'i,False,4.72185,3,1.5,3.0
+2024,6,Georgia Tech,Duke,False,1.6390249999999986,10,10.0,8.0
+2024,6,Arizona State,Kansas,False,2.7591499999999995,4,2.5,2.5
+2024,6,California,Miami,False,-9.06205,-1,-10.0,-12.5
+2024,6,Arizona,Texas Tech,False,9.544575,-6,6.0,5.0
+2024,7,Liberty,Florida International,False,17.913749999999997,7,15.5,19.5
+2024,7,Jacksonville State,New Mexico State,False,14.209375,41,21.0,20.5
+2024,7,James Madison,Coastal Carolina,False,19.7875625,32,7.0,9.5
+2024,7,Western Kentucky,UTEP,False,20.0385,27,19.0,19.5
+2024,7,Louisiana Tech,Middle Tennessee,False,8.49446875,27,5.0,4.0
+2024,7,Maryland,Northwestern,False,9.560406249999998,-27,11.0,10.0
+2024,7,Utah State,UNLV,False,-30.845937499999998,-16,-18.5,-19.0
+2024,7,Arizona State,Utah,False,3.181931250000001,8,-5.5,-5.0
+2024,7,North Carolina,Georgia Tech,False,-5.315925,-7,-3.5,-6.0
+2024,7,Iowa,Washington,False,0.49862499999999876,24,2.5,3.5
+2024,7,Alabama,South Carolina,False,19.86005,2,21.0,21.5
+2024,7,Army,UAB,False,42.81381249999999,34,27.0,24.0
+2024,7,Buffalo,Toledo,False,-18.0853125,15,-10.5,-9.5
+2024,7,Massachusetts,Missouri,False,-19.981900000000003,-42,-27.0,-27.5
+2024,7,Rutgers,Wisconsin,False,3.7585312499999985,-35,1.25,2.5
+2024,7,Kent State,Ball State,False,-3.6900312499999974,-2,-3.0,-6.5
+2024,7,Wake Forest,Clemson,False,-24.651287500000002,-35,-21.0,-20.5
+2024,7,Eastern Michigan,Miami (OH),False,5.10156875,-24,-3.0,-3.5
+2024,7,Wyoming,San Diego State,False,-0.21559375000000092,-3,1.5,-1.0
+2024,7,Bowling Green,Northern Illinois,False,3.956843749999999,-10,3.0,3.0
+2024,7,Notre Dame,Stanford,False,32.974675000000005,42,22.5,23.0
+2024,7,Oklahoma,Texas,True,-18.55275,-31,-17.0,-8.5
+2024,7,Colorado State,San José State,False,-8.07175,7,2.5,-2.0
+2024,7,Georgia State,Old Dominion,False,-4.070450000000001,-7,3.0,1.5
+2024,7,USC,Penn State,False,3.019525000000001,-3,-3.5,-5.0
+2024,7,UCF,Cincinnati,False,-3.3461874999999996,-6,2.5,3.5
+2024,7,Illinois,Purdue,False,29.24846875,1,22.5,19.0
+2024,7,Western Michigan,Akron,False,12.442781250000001,10,9.5,9.5
+2024,7,Virginia,Louisville,False,-10.030125,-4,-7.0,-7.5
+2024,7,South Florida,Memphis,True,-16.206531249999998,-18,-10.0,-6.0
+2024,7,Pittsburgh,California,False,-1.7864687499999996,2,3.5,3.5
+2024,7,Central Michigan,Ohio,False,-12.708718750000003,-2,-3.0,-3.0
+2024,7,BYU,Arizona,False,13.010531249999998,22,2.5,3.5
+2024,7,Georgia,Mississippi State,False,36.91484375,10,34.0,34.0
+2024,7,UL Monroe,Southern Miss,False,23.59003125,17,4.5,6.0
+2024,7,Fresno State,Washington State,False,-0.8700625000000026,-8,-3.5,-3.5
+2024,7,Tennessee,Florida,False,25.11315625,6,14.0,15.0
+2024,7,Florida Atlantic,North Texas,False,-17.367375000000003,-4,-5.5,-6.5
+2024,7,Rice,UTSA,False,-0.6285000000000012,2,-3.5,-4.0
+2024,7,Texas State,Arkansas State,False,15.644062500000002,32,13.5,14.0
+2024,7,New Mexico,Air Force,False,14.306687499999999,15,7.0,4.5
+2024,7,Oregon,Ohio State,False,0.07693749999999655,1,-3.5,-4.0
+2024,7,Louisiana,App State,False,16.645093749999997,10,10.0,10.5
+2024,7,LSU,Ole Miss,False,-3.5459624999999932,3,-4.0,-2.5
+2024,7,Nevada,Oregon State,False,-10.0298,5,-3.0,-4.5
+2024,7,Kentucky,Vanderbilt,False,9.69661875,-7,12.5,13.5
+2024,7,NC State,Syracuse,False,-4.09975,-7,-1.0,-4.5
+2024,7,West Virginia,Iowa State,False,-4.239718749999998,-12,-3.0,-3.0
+2024,7,Georgia Southern,Marshall,False,-0.27371875,1,1.0,-2.5
+2024,7,UCLA,Minnesota,False,-4.872249999999999,-4,-3.5,-5.0
+2024,7,Colorado,Kansas State,False,-2.1997500000000034,-3,-3.5,-6.0
+2024,7,Hawai'i,Boise State,False,-25.783687500000003,-21,-21.0,-21.0
+2024,8,South Alabama,Troy,False,16.640258000000003,16,10.0,11.5
+2024,8,New Mexico State,Louisiana Tech,False,-11.891295,3,-12.5,-10.5
+2024,8,Sam Houston,Western Kentucky,False,2.653708,-17,1.5,2.5
+2024,8,UTEP,Florida International,False,-8.179284,9,-7.0,-5.0
+2024,8,Marshall,Georgia State,False,14.905448000000002,15,9.5,9.0
+2024,8,Virginia Tech,Boston College,False,4.526215999999999,21,8.5,7.0
+2024,8,Duke,Florida State,False,8.837184,7,2.5,3.0
+2024,8,Purdue,Oregon,False,-38.49559400000001,-35,-29.5,-28.0
+2024,8,BYU,Oklahoma State,False,19.347846,3,8.5,8.0
+2024,8,Nevada,Fresno State,False,-4.312279999999998,-3,-3.0,-3.0
+2024,8,Coastal Carolina,Louisiana,False,-2.6488485,-10,-6.5,-3.5
+2024,8,Clemson,Virginia,False,25.090585999999995,17,20.0,21.5
+2024,8,Rutgers,UCLA,False,6.607518000000001,-3,4.25,6.25
+2024,8,Indiana,Nebraska,False,10.448308,49,6.5,6.0
+2024,8,UConn,Wake Forest,False,10.441028,-3,-2.5,2.0
+2024,8,Northwestern,Wisconsin,True,-6.159014000000003,-20,-9.5,-7.0
+2024,8,Army,East Carolina,False,23.600614,17,17.5,17.0
+2024,8,Cincinnati,Arizona State,False,3.8859139999999996,10,5.0,3.0
+2024,8,Missouri,Auburn,False,6.402405999999999,4,3.5,9.5
+2024,8,Louisville,Miami,False,-7.141333999999999,-7,-4.5,-3.5
+2024,8,Oklahoma,South Carolina,False,1.9265499999999998,-26,-1.0,3.0
+2024,8,Eastern Michigan,Central Michigan,False,15.106604000000003,4,3.5,1.5
+2024,8,Temple,Tulsa,False,5.733673000000001,10,3.0,2.5
+2024,8,Illinois,Michigan,False,-3.7264689999999994,14,-6.0,-1.5
+2024,8,Navy,Charlotte,False,24.317347499999997,34,16.5,17.0
+2024,8,Tennessee,Alabama,False,4.152603,7,-3.5,-2.5
+2024,8,California,NC State,False,18.064496000000002,-1,9.5,10.0
+2024,8,Tulane,Rice,False,36.117073999999995,14,21.5,23.0
+2024,8,Washington State,Hawai'i,False,24.856339000000002,32,18.5,19.5
+2024,8,Buffalo,Western Michigan,False,4.72505,-7,-1.5,1.5
+2024,8,Northern Illinois,Toledo,False,2.3828000000000005,-7,3.0,2.5
+2024,8,South Florida,UAB,False,22.075246000000003,10,14.0,14.0
+2024,8,Old Dominion,Texas State,False,-13.174249999999999,10,-10.5,-10.0
+2024,8,Bowling Green,Kent State,False,30.829206,21,24.0,21.0
+2024,8,UTSA,Florida Atlantic,False,4.428202500000003,14,4.0,4.5
+2024,8,Miami (OH),Ohio,False,6.333497999999999,10,3.5,4.0
+2024,8,Georgia Tech,Notre Dame,True,-11.59957,-18,-14.0,-8.5
+2024,8,Kansas,Houston,True,4.31351,28,4.5,6.5
+2024,8,Georgia Southern,James Madison,False,-20.162524,14,-9.5,-10.0
+2024,8,Texas Tech,Baylor,False,10.003504,-24,4.5,6.5
+2024,8,Utah State,New Mexico,False,-10.767837999999998,-5,-1.0,-2.5
+2024,8,Arizona,Colorado,False,1.477912,-27,2.5,4.0
+2024,8,Maryland,USC,False,-18.266171000000003,1,-6.5,-7.0
+2024,8,San José State,Wyoming,False,20.452091,10,13.0,11.0
+2024,8,Mississippi State,Texas A&M,False,-16.507336000000002,-10,-21.0,-15.0
+2024,8,Vanderbilt,Ball State,False,36.506310000000006,10,27.5,24.5
+2024,8,Arkansas,LSU,False,-6.748355999999999,-24,-3.0,-3.0
+2024,8,Southern Miss,Arkansas State,False,-11.993928,-16,-7.0,-6.5
+2024,8,Memphis,North Texas,False,10.287175999999999,8,10.5,10.5
+2024,8,Iowa State,UCF,False,21.564982,3,13.0,12.5
+2024,8,Michigan State,Iowa,False,-12.286043999999999,12,-6.5,-6.0
+2024,8,West Virginia,Kansas State,False,-2.628430000000002,-27,-2.5,-3.0
+2024,8,Texas,Georgia,False,16.015219,-15,4.0,3.5
+2024,8,Florida,Kentucky,False,1.1514649999999995,28,-2.5,2.0
+2024,8,Stanford,SMU,False,-20.81649,-30,-16.5,-14.5
+2024,8,Air Force,Colorado State,False,-2.0950439999999997,-8,-6.0,-7.5
+2024,8,Oregon State,UNLV,False,-8.679278,-8,-6.5,-6.0
+2024,8,Utah,TCU,False,6.91446,-6,3.0,7.0
+2024,9,Florida International,Sam Houston,True,-5.965575714285715,-3,-5.0,-7.0
+2024,9,Louisiana Tech,UTEP,False,14.965570000000001,4,6.5,7.5
+2024,9,Jacksonville State,Middle Tennessee,False,23.18742,22,20.5,21.5
+2024,9,Old Dominion,Georgia Southern,False,0.5419992857142857,28,-1.0,2.0
+2024,9,Pittsburgh,Syracuse,False,4.613262000000001,28,5.0,5.0
+2024,9,Boston College,Louisville,False,-6.1671,-4,-7.0,-7.0
+2024,9,UNLV,Boise State,False,1.7456930000000024,-5,-4.0,-2.5
+2024,9,USC,Rutgers,False,19.861285,22,13.75,14.25
+2024,9,Indiana,Washington,False,11.152125000000002,14,5.5,7.0
+2024,9,Ole Miss,Oklahoma,False,19.92093785714285,12,19.5,20.5
+2024,9,North Texas,Tulane,False,-9.265815000000002,-8,-7.5,-8.0
+2024,9,Ohio,Buffalo,False,8.54337,31,4.0,6.5
+2024,9,Memphis,Charlotte,False,25.725674999999995,5,17.0,19.0
+2024,9,Virginia Tech,Georgia Tech,False,0.45993714285714304,15,11.0,9.0
+2024,9,Ohio State,Nebraska,False,32.565310000000004,4,25.0,25.5
+2024,9,Virginia,North Carolina,False,4.412700000000001,-27,3.5,5.0
+2024,9,Navy,Notre Dame,True,-11.251270000000002,-37,-14.0,-12.5
+2024,9,Mississippi State,Arkansas,False,-5.95655,-33,-7.5,-7.5
+2024,9,App State,Georgia State,False,4.077886000000003,7,7.5,8.0
+2024,9,Miami (OH),Central Michigan,False,19.157372857142853,39,10.5,12.0
+2024,9,East Carolina,Temple,False,12.287605714285712,22,8.5,7.0
+2024,9,UConn,Rice,False,16.671654999999998,7,6.5,6.0
+2024,9,UCF,BYU,False,-11.840089999999998,-13,2.5,-1.0
+2024,9,Baylor,Oklahoma State,False,3.1518900000000007,10,7.0,4.0
+2024,9,Stanford,Wake Forest,False,0.5307299999999997,-3,-3.0,-2.5
+2024,9,Iowa,Northwestern,False,12.368240000000002,26,16.5,14.0
+2024,9,TCU,Texas Tech,False,5.801584999999999,1,5.0,6.0
+2024,9,Tulsa,UTSA,False,-8.957422,1,-9.5,-8.0
+2024,9,Toledo,Bowling Green,False,7.602359999999999,-15,2.0,3.0
+2024,9,James Madison,Southern Miss,False,38.969474999999996,17,24.0,24.0
+2024,9,Akron,Eastern Michigan,False,-10.122915,4,-2.5,-3.0
+2024,9,Ball State,Northern Illinois,False,-20.202920000000006,2,-13.5,-12.0
+2024,9,Western Michigan,Kent State,False,21.385574999999996,31,19.0,17.0
+2024,9,Minnesota,Maryland,False,9.738050000000001,25,6.0,4.5
+2024,9,Oregon,Illinois,False,20.094175,29,22.5,21.5
+2024,9,Alabama,Missouri,False,16.82767142857143,34,16.0,13.5
+2024,9,California,Oregon State,False,10.534165000000002,37,13.0,10.0
+2024,9,Vanderbilt,Texas,False,-24.64720428571429,-3,-17.0,-17.5
+2024,9,Colorado State,New Mexico,False,5.00316,11,3.5,6.0
+2024,9,South Alabama,UL Monroe,False,7.742806,29,7.0,8.5
+2024,9,Miami,Florida State,False,23.51319214285714,22,22.5,21.0
+2024,9,Wyoming,Utah State,False,9.39332,-2,-2.0,2.5
+2024,9,Arkansas State,Troy,False,7.792795,3,8.5,7.5
+2024,9,Arizona,West Virginia,False,-1.6911350000000014,-5,5.5,3.0
+2024,9,Houston,Utah,False,-3.666547142857142,3,-4.5,-3.5
+2024,9,Michigan,Michigan State,False,11.049274285714285,7,3.5,5.0
+2024,9,Wisconsin,Penn State,False,-3.6745849999999973,-15,-6.5,-6.5
+2024,9,Texas A&M,LSU,False,-1.2471600000000014,15,2.0,2.5
+2024,9,Kentucky,Auburn,False,2.3801192857142857,-14,2.0,2.5
+2024,9,Duke,SMU,False,-4.679434999999998,-1,-11.5,-11.5
+2024,9,Fresno State,San José State,False,3.260011999999999,23,6.5,6.5
+2024,9,Kansas State,Kansas,False,15.789085000000004,2,10.0,9.5
+2024,9,Colorado,Cincinnati,False,9.96565,11,6.0,4.0
+2024,9,San Diego State,Washington State,False,-15.570105,-3,-17.0,-14.5
+2024,9,Hawai'i,Nevada,False,-7.117318000000001,21,2.5,-2.5
+2024,10,Florida International,New Mexico State,True,10.318529285714288,21,7.0,7.5
+2024,10,Texas State,Louisiana,False,6.689601,-6,4.0,3.0
+2024,10,Sam Houston,Louisiana Tech,False,6.3367,6,10.5,10.5
+2024,10,Liberty,Jacksonville State,False,2.67475,-10,2.5,1.0
+2024,10,Charlotte,Tulane,False,-22.42826285714286,-31,-14.5,-16.0
+2024,10,UConn,Georgia State,False,13.443162142857142,7,7.0,7.0
+2024,10,Florida Atlantic,South Florida,False,-3.1297550000000007,-23,-1.5,-2.0
+2024,10,Boise State,San Diego State,False,25.05955,32,24.5,23.5
+2024,10,NC State,Stanford,False,8.751259999999998,31,9.5,10.0
+2024,10,Arkansas,Ole Miss,False,-11.768771428571425,-32,-8.0,-6.5
+2024,10,Akron,Buffalo,False,-3.1273957142857145,-11,-1.0,-1.0
+2024,10,UTSA,Memphis,False,-13.042960714285712,8,-7.0,-8.0
+2024,10,Miami,Duke,False,17.83140428571428,22,21.0,20.0
+2024,10,Illinois,Minnesota,False,1.316041428571429,-8,-2.5,-2.0
+2024,10,Purdue,Northwestern,False,-11.178500000000001,-6,3.0,-1.5
+2024,10,Penn State,Ohio State,False,-2.2751071428571454,-7,-3.0,-4.0
+2024,10,Eastern Michigan,Toledo,False,-5.698740000000001,-1,-10.0,-7.5
+2024,10,Syracuse,Virginia Tech,False,-4.989386250000001,7,-3.5,-4.0
+2024,10,Army,Air Force,False,32.300920000000005,17,18.0,23.5
+2024,10,Auburn,Vanderbilt,False,4.992989999999999,-10,7.5,6.0
+2024,10,UAB,Tulsa,False,-3.5395228571428565,38,2.5,3.0
+2024,10,App State,Old Dominion,False,-6.215964999999999,8,-2.5,-2.0
+2024,10,Florida State,North Carolina,False,1.0494933928571415,-24,-2.5,-2.5
+2024,10,Michigan State,Indiana,False,-11.19689142857143,-37,-7.5,-7.0
+2024,10,Marshall,UL Monroe,False,5.824965,5,10.5,10.5
+2024,10,UCF,Arizona,False,1.0751371428571435,44,6.5,6.0
+2024,10,Nebraska,UCLA,False,5.53858,-7,7.5,7.5
+2024,10,Houston,Kansas State,False,-15.184365000000001,5,-12.5,-13.0
+2024,10,UTEP,Middle Tennessee,False,5.510186428571428,-7,2.0,3.0
+2024,10,Michigan,Oregon,False,-14.447658214285712,-21,-14.5,-14.5
+2024,10,Georgia,Florida,True,17.170095000000003,14,14.5,16.5
+2024,10,Iowa State,Texas Tech,False,15.596147857142856,-1,13.5,14.0
+2024,10,Oklahoma State,Arizona State,False,0.2336599999999991,-21,-5.0,1.0
+2024,10,New Mexico,Wyoming,False,14.93313714285714,-4,7.5,7.0
+2024,10,Rice,Navy,False,-19.07635285714286,14,-12.5,-13.0
+2024,10,Troy,Coastal Carolina,False,-2.0100957142857134,14,-4.0,-4.5
+2024,10,Mississippi State,Massachusetts,False,17.25347071428571,25,19.5,18.0
+2024,10,Fresno State,Hawai'i,False,18.82307571428571,-1,12.5,13.0
+2024,10,Iowa,Wisconsin,False,2.8409542857142838,32,2.5,3.5
+2024,10,South Alabama,Georgia Southern,False,12.779058571428571,-4,5.5,6.0
+2024,10,South Carolina,Texas A&M,False,0.7916800000000022,24,-3.0,-3.5
+2024,10,Clemson,Louisville,False,14.86714857142857,-12,11.0,10.5
+2024,10,Washington,USC,False,-8.993853214285714,5,-2.0,-2.5
+2024,10,Tennessee,Kentucky,False,23.650703749999998,10,17.5,16.0
+2024,10,Baylor,TCU,False,2.9053214285714297,3,2.5,3.0
+2024,10,SMU,Pittsburgh,False,10.705389285714284,23,7.0,7.5
+2024,10,Nevada,Colorado State,False,1.8448255357142866,-17,-2.0,-1.0
+2024,11,Central Michigan,Bowling Green,False,-16.69393714285715,-10,-15.5,-12.5
+2024,11,Ball State,Miami (OH),False,-18.749365892857146,-6,-13.0,-12.0
+2024,11,Kent State,Ohio,False,-23.837310000000002,-41,-20.5,-18.5
+2024,11,Western Michigan,Northern Illinois,False,-4.491467142857143,-14,-2.0,-1.5
+2024,11,East Carolina,Florida Atlantic,False,11.486508571428574,35,7.5,7.5
+2024,11,Coastal Carolina,App State,False,8.040908571428567,14,-2.5,1.5
+2024,11,Wake Forest,California,False,-16.876754285714284,-10,-7.0,-7.0
+2024,11,UCLA,Iowa,False,-10.749770000000002,3,-6.5,-6.0
+2024,11,Memphis,Rice,False,21.72422,7,7.0,10.5
+2024,11,San Diego State,New Mexico,False,0.7338914285714284,-5,1.5,3.0
+2024,11,Rutgers,Minnesota,False,-6.014711071428573,7,-6.5,-6.25
+2024,11,Georgia Tech,Miami,False,-13.27757375,5,-9.5,-11.0
+2024,11,Boston College,Syracuse,False,3.916435714285714,6,3.0,1.5
+2024,11,Cincinnati,West Virginia,False,0.9614271428571421,-7,5.5,4.0
+2024,11,UL Monroe,Texas State,False,-6.90267857142857,-21,-9.5,-7.0
+2024,11,South Florida,Navy,False,-5.917088571428572,-21,-4.5,-3.5
+2024,11,Ohio State,Purdue,False,43.195289821428574,45,37.5,38.5
+2024,11,Texas,Florida,False,21.064129285714287,32,23.0,21.5
+2024,11,Middle Tennessee,Liberty,False,-13.92784057142857,-20,-12.5,-10.5
+2024,11,UAB,UConn,False,-14.768095357142853,-8,-7.5,-6.0
+2024,11,Southern Miss,Marshall,False,-14.578225714285713,-34,-13.5,-13.5
+2024,11,Indiana,Michigan,False,12.941464166666666,5,14.5,14.0
+2024,11,James Madison,Georgia State,False,27.21995,31,14.5,16.5
+2024,11,Ole Miss,Georgia,False,3.3775774999999992,18,-2.0,-2.5
+2024,11,NC State,Duke,False,-5.82841125,-10,3.0,3.0
+2024,11,Virginia Tech,Clemson,False,-9.75101916666667,-10,-5.5,-6.5
+2024,11,Oregon State,San José State,False,2.5448999999999984,-11,3.0,3.5
+2024,11,Kansas,Iowa State,True,-7.243595714285715,9,-2.5,-3.0
+2024,11,North Texas,Army,False,-8.274711428571429,-11,-6.5,-5.0
+2024,11,Texas Tech,Colorado,False,-2.0600808928571444,-14,-4.5,-3.0
+2024,11,Tulane,Temple,False,35.0143025,46,25.5,26.5
+2024,11,Vanderbilt,South Carolina,False,-7.069381249999999,-21,-6.0,-3.5
+2024,11,Louisiana Tech,Jacksonville State,False,-8.526944285714285,-7,-10.0,-10.0
+2024,11,Louisiana,Arkansas State,False,10.871870714285716,36,14.0,14.0
+2024,11,New Mexico State,Western Kentucky,False,-19.78972642857143,-13,-18.0,-18.0
+2024,11,Arizona State,UCF,False,5.625134999999998,4,2.5,4.0
+2024,11,TCU,Oklahoma State,False,8.0365975,25,10.5,11.5
+2024,11,Tennessee,Mississippi State,False,31.179075714285712,19,26.5,23.5
+2024,11,Oregon,Maryland,False,33.917023750000006,21,24.0,25.0
+2024,11,LSU,Alabama,False,-4.011534821428571,-29,-2.5,-2.5
+2024,11,Notre Dame,Florida State,False,26.98002625,49,25.5,26.0
+2024,11,Missouri,Oklahoma,False,2.3786880357142843,7,-3.5,2.5
+2024,11,Boise State,Nevada,False,27.540980952380952,7,23.5,24.5
+2024,11,Penn State,Washington,False,15.213848749999999,29,13.5,13.5
+2024,11,Pittsburgh,Virginia,False,10.113171428571428,-5,7.5,7.0
+2024,11,Hawai'i,UNLV,False,-20.344530000000002,-2,-12.5,-13.5
+2024,11,Air Force,Fresno State,False,-12.269031607142857,8,-9.5,-10.5
+2024,11,Utah,BYU,False,-7.602862857142856,-1,-3.0,-4.5
+2024,11,Washington State,Utah State,False,27.063347142857143,21,20.5,20.5
+2024,12,Toledo,Central Michigan,False,20.937816250000004,27,15.0,15.0
+2024,12,Bowling Green,Western Michigan,False,12.893098749999998,18,9.5,9.0
+2024,12,Buffalo,Ball State,False,9.451751249999997,3,3.5,6.0
+2024,12,Northern Illinois,Akron,False,22.13871125,13,14.0,16.0
+2024,12,Miami (OH),Kent State,False,34.757620833333334,27,30.5,30.5
+2024,12,Ohio,Eastern Michigan,False,10.353653750000001,25,10.5,8.5
+2024,12,Tulsa,East Carolina,False,-14.478943749999994,-7,-16.5,-14.0
+2024,12,UTSA,North Texas,False,-3.2721585714285735,21,1.5,-2.0
+2024,12,Colorado State,Wyoming,False,13.953013749999998,14,8.5,10.0
+2024,12,Washington,UCLA,False,8.81314,12,5.0,3.5
+2024,12,Arizona,Houston,False,1.1202004166666657,24,1.0,2.0
+2024,12,Pittsburgh,Clemson,False,-12.470332916666669,-4,-12.0,-10.0
+2024,12,Massachusetts,Liberty,False,-16.77553357142857,-1,-16.5,-14.0
+2024,12,Arkansas,Texas,False,-19.755425833333334,-10,-13.0,-16.5
+2024,12,Northwestern,Ohio State,True,-25.824611666666666,-24,-28.5,-30.5
+2024,12,Colorado,Utah,False,15.154842500000003,25,13.5,10.0
+2024,12,Navy,Tulane,False,-6.520211666666663,-35,-7.5,-6.5
+2024,12,Western Kentucky,Louisiana Tech,False,14.309949642857143,-5,11.5,13.0
+2024,12,Auburn,UL Monroe,False,17.1461625,34,24.5,24.0
+2024,12,Marshall,Coastal Carolina,False,5.019338749999999,12,7.5,8.5
+2024,12,Jacksonville State,Florida International,False,14.057216249999998,3,12.5,14.0
+2024,12,Temple,Florida Atlantic,False,0.554507499999997,3,2.0,1.5
+2024,12,Illinois,Michigan State,False,9.93303125,22,2.0,3.5
+2024,12,California,Syracuse,False,14.819891250000001,-8,10.5,7.0
+2024,12,Utah State,Hawai'i,False,-2.287455,45,-2.5,-2.5
+2024,12,Air Force,Oregon State,False,-5.73319375,28,-2.5,-4.5
+2024,12,Charlotte,South Florida,False,-3.068587499999999,-35,1.5,-3.0
+2024,12,Stanford,Louisville,False,-19.92135,3,-21.0,-20.0
+2024,12,Florida,LSU,False,-3.560545,11,-3.0,-5.0
+2024,12,SMU,Boston College,False,16.842255,10,19.0,15.5
+2024,12,Purdue,Penn State,False,-33.07016291666667,-39,-30.0,-28.0
+2024,12,Notre Dame,Virginia,False,31.289972916666663,21,21.5,23.0
+2024,12,West Virginia,Baylor,False,4.380860000000001,-14,-2.0,-1.5
+2024,12,USC,Nebraska,False,19.584726250000003,8,6.5,9.0
+2024,12,Old Dominion,James Madison,False,-11.8384275,-3,-1.5,-4.0
+2024,12,Georgia Southern,Troy,False,6.576003749999999,-8,7.0,8.0
+2024,12,South Carolina,Missouri,False,10.67357625,4,10.5,13.0
+2024,12,Georgia State,Arkansas State,False,-2.559039999999999,-7,2.5,1.5
+2024,12,Maryland,Rutgers,False,1.300843749999998,-14,4.5,3.75
+2024,12,Kansas State,Arizona State,False,9.462232916666666,-10,7.5,8.0
+2024,12,Texas State,Southern Miss,False,29.9858975,55,27.5,26.5
+2024,12,Louisiana,South Alabama,False,5.954991607142857,-2,6.5,9.0
+2024,12,San José State,Boise State,False,-7.319633035714286,-21,-14.5,-13.5
+2024,12,Wisconsin,Oregon,False,-17.588738749999997,-3,-13.5,-14.5
+2024,12,Georgia,Tennessee,False,2.8934262499999965,14,8.5,9.5
+2024,12,Texas A&M,New Mexico State,False,39.219727500000005,35,38.5,40.5
+2024,12,North Carolina,Wake Forest,False,17.592505,7,10.5,11.0
+2024,12,Memphis,UAB,False,27.743581250000002,35,16.5,15.0
+2024,12,Iowa State,Cincinnati,False,12.09587875,17,7.0,9.0
+2024,12,New Mexico,Washington State,False,-9.10055625,3,-10.5,-13.5
+2024,12,BYU,Kansas,False,14.860766250000001,-4,2.5,3.5
+2024,12,UNLV,San Diego State,False,23.39714125,21,21.5,20.5
+2024,13,Kent State,Akron,False,-7.6221466666666675,-21,-10.5,-9.5
+2024,13,Central Michigan,Western Michigan,False,-5.160306666666671,2,-6.0,-6.5
+2024,13,Miami (OH),Northern Illinois,False,5.239677666666665,11,1.5,3.0
+2024,13,Toledo,Ohio,False,2.75131,-17,1.5,2.5
+2024,13,Eastern Michigan,Buffalo,False,5.679046666666666,-17,1.0,2.5
+2024,13,Georgia Tech,NC State,False,12.3998,1,7.5,9.0
+2024,13,UTSA,Temple,False,17.2366345,24,16.5,16.5
+2024,13,Michigan State,Purdue,False,14.004493333333334,7,14.0,13.0
+2024,13,San José State,UNLV,False,-7.072709166666666,-11,-7.5,-7.5
+2024,13,Florida,Ole Miss,False,-13.184196666666663,7,-13.0,-9.5
+2024,13,Rutgers,Illinois,False,-0.39287666666666565,-7,2.25,1.75
+2024,13,Maryland,Iowa,False,-12.110996666666667,-16,-4.0,-6.5
+2024,13,Ohio State,Indiana,False,10.510237000000005,23,10.5,11.5
+2024,13,Syracuse,UConn,False,7.0293399999999995,7,10.0,11.0
+2024,13,Boston College,North Carolina,False,-1.821166666666668,20,-2.0,-2.5
+2024,13,Miami,Wake Forest,False,30.48716,28,23.5,24.0
+2024,13,Jacksonville State,Sam Houston,False,8.00235,10,5.5,6.0
+2024,13,Virginia,SMU,False,-12.290256666666668,-26,-10.5,-9.5
+2024,13,Georgia,Massachusetts,False,44.08369,38,42.5,43.5
+2024,13,Liberty,Western Kentucky,False,2.4972228571428565,17,1.0,-1.0
+2024,13,Tennessee,UTEP,False,44.41644708333333,56,41.5,41.5
+2024,13,Ball State,Bowling Green,False,-15.440083333333336,-25,-12.5,-11.0
+2024,13,UAB,Rice,False,-5.525319999999997,26,-7.0,-6.5
+2024,13,Middle Tennessee,New Mexico State,False,4.841927916666671,-15,3.5,4.0
+2024,13,App State,James Madison,False,-17.932190416666668,14,-7.0,-7.0
+2024,13,Arkansas State,UL Monroe,False,5.431989999999999,7,3.0,3.0
+2024,13,TCU,Arizona,False,9.750733333333333,21,10.5,11.0
+2024,13,Florida Atlantic,Charlotte,False,1.699696666666667,-12,-3.0,-2.0
+2024,13,Southern Miss,South Alabama,False,-25.191230000000004,-21,-24.0,-21.5
+2024,13,South Florida,Tulsa,False,18.556023333333332,33,17.0,16.0
+2024,13,Utah State,San Diego State,False,2.4521433333333325,21,5.0,4.0
+2024,13,North Texas,East Carolina,False,4.854623333333334,-12,2.5,3.0
+2024,13,Michigan,Northwestern,False,11.298430666666667,44,10.5,12.5
+2024,13,California,Stanford,False,21.773893333333334,3,15.0,14.0
+2024,13,Texas,Kentucky,False,26.483265,17,18.5,20.5
+2024,13,Kansas,Colorado,True,-3.18084666666667,16,-1.5,-2.5
+2024,13,Coastal Carolina,Georgia Southern,False,2.9248899999999995,-20,2.0,2.0
+2024,13,West Virginia,UCF,False,3.8545399999999996,10,-3.0,-3.0
+2024,13,Arizona State,BYU,False,-2.2823066666666674,5,3.5,3.5
+2024,13,Nebraska,Wisconsin,False,-4.650993333333334,19,1.5,2.5
+2024,13,Minnesota,Penn State,False,-12.223595999999999,-1,-11.0,-11.0
+2024,13,Oklahoma State,Texas Tech,False,-1.1730066666666672,-8,-5.0,-3.5
+2024,13,Louisville,Pittsburgh,False,9.05039,28,7.5,8.0
+2024,13,Arkansas,Louisiana Tech,False,19.105806666666666,21,23.5,23.0
+2024,13,Mississippi State,Missouri,False,-9.846873333333333,-19,-9.5,-7.5
+2024,13,Louisiana,Troy,False,13.89464125,21,7.5,11.5
+2024,13,Wyoming,Boise State,False,-20.522209999999998,-4,-22.0,-22.5
+2024,13,Notre Dame,Army,True,17.325271500000003,35,14.5,15.5
+2024,13,Oregon State,Washington State,False,-7.471223333333336,3,-11.0,-12.5
+2024,13,Houston,Baylor,False,-5.0300716666666645,-10,-7.0,-7.5
+2024,13,Texas State,Georgia State,False,23.36709333333333,-8,23.0,20.0
+2024,13,Utah,Iowa State,False,-7.3381000000000025,-3,-6.5,-6.5
+2024,13,Oklahoma,Alabama,False,-16.07682,21,-14.0,-14.0
+2024,13,Auburn,Texas A&M,False,-6.8318233333333325,2,-2.5,-2.0
+2024,13,Old Dominion,Marshall,False,1.0062990000000007,-7,3.0,2.0
+2024,13,LSU,Vanderbilt,False,12.54184,7,9.5,9.0
+2024,13,Duke,Virginia Tech,False,5.199827666666666,3,-2.5,-2.5
+2024,13,Kansas State,Cincinnati,False,10.499163333333334,26,7.5,8.5
+2024,13,UCLA,USC,False,-12.217946000000003,-6,-4.5,-5.0
+2024,13,Fresno State,Colorado State,False,8.94086,6,3.5,3.0
+2024,13,Nevada,Air Force,False,3.6954890000000007,-3,2.5,4.0
+2024,14,Akron,Toledo,False,-13.599226000000003,7,-9.5,-8.0
+2024,14,Buffalo,Kent State,False,23.095042,36,23.5,21.0
+2024,14,Tulane,Memphis,False,11.620693999999999,-10,12.5,14.0
+2024,14,East Carolina,Navy,False,-1.3490486666666688,-14,2.75,-1.0
+2024,14,Boise State,Oregon State,False,17.798773999999998,16,17.5,19.5
+2024,14,Wisconsin,Minnesota,False,1.2355089999999977,-17,-1.5,2.0
+2024,14,Bowling Green,Miami (OH),False,3.2048415454545465,-16,3.0,3.0
+2024,14,Ohio,Ball State,False,24.192102,21,17.5,14.5
+2024,14,Colorado,Oklahoma State,False,17.902327000000003,52,15.0,16.5
+2024,14,Ole Miss,Mississippi State,False,31.615420999999998,12,26.0,27.0
+2024,14,Colorado State,Utah State,False,11.022811999999998,5,5.5,6.0
+2024,14,South Alabama,Texas State,False,1.2808859999999995,-7,-2.5,-1.0
+2024,14,Sam Houston,Liberty,False,-3.5458294999999995,2,-2.5,-2.5
+2024,14,San José State,Stanford,False,9.436641,3,2.5,2.5
+2024,14,Iowa,Nebraska,False,13.842277000000001,3,3.0,5.5
+2024,14,Georgia,Georgia Tech,False,18.959729999999997,2,17.5,19.5
+2024,14,UCF,Utah,False,6.300083000000002,-14,10.0,9.0
+2024,14,Texas Tech,West Virginia,False,1.4497209999999994,37,2.5,3.5
+2024,14,Wake Forest,Duke,False,-11.985472999999999,-6,-3.5,-3.0
+2024,14,Ohio State,Michigan,False,18.282309090909095,-3,20.0,20.5
+2024,14,Vanderbilt,Tennessee,False,-15.209843999999995,-13,-9.5,-10.5
+2024,14,Clemson,South Carolina,False,3.316690000000003,-3,2.5,2.5
+2024,14,Massachusetts,UConn,False,-9.978694666666668,-5,-9.5,-10.0
+2024,14,Temple,North Texas,False,-12.269274454545457,-7,-11.0,-11.0
+2024,14,Army,UTSA,False,16.012336666666666,5,6.5,7.5
+2024,14,Northwestern,Illinois,True,-6.140687000000001,-10,-9.0,-7.5
+2024,14,Baylor,Kansas,False,2.281367999999999,28,-1.5,1.5
+2024,14,Kentucky,Louisville,False,-2.019982000000001,-27,-4.0,-3.5
+2024,14,UL Monroe,Louisiana,False,-13.317153333333335,-14,-8.5,-10.0
+2024,14,Western Michigan,Eastern Michigan,False,3.1549610000000006,8,6.5,6.5
+2024,14,Troy,Southern Miss,False,20.708907,32,17.5,17.0
+2024,14,Georgia State,Coastal Carolina,False,-2.975748999999999,-21,0.5,-1.5
+2024,14,Florida International,Middle Tennessee,True,10.947466666666664,11,9.5,9.0
+2024,14,Rice,South Florida,False,-7.018640999999999,7,-5.5,-4.5
+2024,14,Boston College,Pittsburgh,False,4.571432,11,3.5,4.0
+2024,14,Arkansas State,Old Dominion,False,-1.3986437272727277,-8,-5.5,-4.0
+2024,14,USC,Notre Dame,False,-5.3115081818181835,-14,-7.0,-7.0
+2024,14,Michigan State,Rutgers,False,-1.829603000000001,-27,1.5,1.25
+2024,14,UCLA,Fresno State,False,5.699197,7,7.5,9.5
+2024,14,Arizona,Arizona State,False,-5.312959545454547,-42,-7.5,-8.5
+2024,14,SMU,California,False,9.921297,32,12.5,13.5
+2024,14,Syracuse,Miami,False,-18.012172000000007,4,-12.0,-10.5
+2024,14,Missouri,Arkansas,False,6.120909999999999,7,3.0,3.5
+2024,14,Tulsa,Florida Atlantic,False,-0.5038790000000017,-47,1.0,-1.5
+2024,14,Northern Illinois,Central Michigan,False,19.414504,8,13.5,12.5
+2024,14,Charlotte,UAB,False,5.349308000000001,2,1.0,3.0
+2024,14,Penn State,Maryland,False,27.13677009090909,37,26.0,24.5
+2024,14,Alabama,Auburn,False,21.472562000000003,14,11.0,14.0
+2024,14,North Carolina,NC State,False,8.377424000000001,-5,2.0,3.5
+2024,14,New Mexico State,UTEP,False,5.272550000000001,-7,3.5,2.5
+2024,14,Western Kentucky,Jacksonville State,False,2.6214370000000007,2,-0.5,1.5
+2024,14,Georgia Southern,App State,False,7.790775000000002,9,2.5,2.5
+2024,14,Cincinnati,TCU,False,-3.429814000000001,-7,-2.5,-3.0
+2024,14,Washington State,Wyoming,False,22.792723999999996,-1,18.5,17.5
+2024,14,Florida State,Florida,False,-11.006492000000003,-20,-17.0,-14.5
+2024,14,LSU,Oklahoma,False,4.475347,20,6.0,5.5
+2024,14,Indiana,Purdue,False,34.19608500000001,66,28.5,28.0
+2024,14,Oregon,Washington,False,22.398832,28,17.5,18.5
+2024,14,Iowa State,Kansas State,False,4.691956999999999,8,2.0,2.5
+2024,14,Texas A&M,Texas,False,-9.874619454545455,-10,-4.5,-5.5
+2024,14,UNLV,Nevada,False,21.360873727272725,24,17.5,18.0
+2024,14,Virginia Tech,Virginia,False,11.150046999999999,20,4.5,7.5
+2024,14,James Madison,Marshall,False,12.50369,-2,3.5,3.5
+2024,14,BYU,Houston,False,19.937122545454546,12,12.0,12.0
+2024,14,San Diego State,Air Force,False,0.4660280000000028,-11,-6.0,-3.5
+2024,14,Hawai'i,New Mexico,False,-4.653019333333335,8,-6.5,-2.5
+2024,15,Jacksonville State,Western Kentucky,False,3.2447058181818176,40,4.5,3.5
+2024,15,Boise State,UNLV,False,7.05713090909091,14,4.0,3.75
+2024,15,Army,Tulane,False,-1.5658479090909077,21,-5.0,-4.0
+2024,15,Arizona State,Iowa State,True,-1.528763863636365,26,-1.5,2.5
+2024,15,Miami (OH),Ohio,True,1.319707954545454,-35,2.5,2.5
+2024,15,Texas,Georgia,True,8.070405227272726,-3,3.0,2.5
+2024,15,Louisiana,Marshall,False,7.7743259090909085,-28,5.0,4.5
+2024,15,SMU,Clemson,True,1.689255454545453,-3,2.5,2.5
+2024,15,Oregon,Penn State,True,6.925144772727273,8,3.5,3.5
+2024,16,Army,Navy,True,9.821074000000001,-18,6.5,5.5
+2025,1,Kansas State,Iowa State,True,4.173999999999999,-3,3.0,3.0
+2025,1,Kansas,Fresno State,False,13.1255,24,14.0,14.0
+2025,1,Western Kentucky,Sam Houston,False,4.899000000000001,17,9.5,9.5
+2025,1,Hawai'i,Stanford,False,-1.6709999999999998,3,1.5,1.5
+2025,1,South Florida,Boise State,False,-10.5325,27,-5.5,-8.5
+2025,1,Rutgers,Ohio,False,7.390000000000001,3,15.5,11.5
+2025,1,NC State,East Carolina,False,8.526,7,13.5,12.5
+2025,1,UCF,Jacksonville State,False,7.898,7,20.5,16.5
+2025,1,Akron,Wyoming,False,-1.5690000000000013,-10,-5.0,-8.5
+2025,1,Minnesota,Buffalo,False,19.938,13,16.5,17.0
+2025,1,Cincinnati,Nebraska,True,-2.3655,-3,-6.0,-6.5
+2025,1,Wisconsin,Miami (OH),False,7.8165,17,18.0,17.5
+2025,1,Wake Forest,Kennesaw State,False,20.9135,1,18.5,17.5
+2025,1,Charlotte,App State,True,-5.167000000000002,-23,-8.5,-8.5
+2025,1,Michigan State,Western Michigan,False,9.2565,17,21.5,18.5
+2025,1,Baylor,Auburn,False,2.0730000000000017,-14,-1.0,-1.5
+2025,1,Colorado,Georgia Tech,False,11.7445,-7,-3.5,-4.0
+2025,1,Sam Houston,UNLV,True,-12.776,-17,-9.0,-13.5
+2025,1,San José State,Central Michigan,False,12.887500000000001,-2,14.5,11.5
+2025,1,Maryland,Florida Atlantic,False,13.1765,32,13.5,16.5
+2025,1,Southern Miss,Mississippi State,False,-18.802,-17,-14.5,-12.5
+2025,1,Ohio State,Texas,False,5.807999999999998,7,2.0,3.0
+2025,1,Tulane,Northwestern,False,17.635,20,6.5,6.5
+2025,1,Tennessee,Syracuse,True,18.448,19,13.5,14.0
+2025,1,Purdue,Ball State,False,6.782500000000001,31,16.5,16.5
+2025,1,Kentucky,Toledo,False,11.9125,8,10.0,10.0
+2025,1,Indiana,Old Dominion,False,26.485999999999997,13,23.5,23.5
+2025,1,Massachusetts,Temple,False,2.7969999999999984,-32,-2.5,-3.0
+2025,1,Penn State,Nevada,False,37.026999999999994,35,43.5,45.5
+2025,1,Georgia,Marshall,False,23.1535,38,38.5,39.5
+2025,1,Florida State,Alabama,False,-25.122,14,-13.5,-13.5
+2025,1,Virginia,Coastal Carolina,False,6.189500000000001,41,13.5,12.5
+2025,1,Texas A&M,UTSA,False,20.238999999999997,18,23.5,21.5
+2025,1,Utah State,UTEP,False,13.366999999999999,12,4.5,3.5
+2025,1,Clemson,LSU,False,2.226500000000001,-7,5.5,3.5
+2025,1,Michigan,New Mexico,False,25.299999999999997,17,34.5,36.0
+2025,1,Ole Miss,Georgia State,False,41.227999999999994,56,33.5,38.5
+2025,1,Texas State,Eastern Michigan,False,20.113999999999997,25,14.0,14.0
+2025,1,Louisiana,Rice,False,15.214,-2,9.5,14.5
+2025,1,Fresno State,Georgia Southern,False,1.5285000000000002,28,2.0,2.0
+2025,1,Oregon State,California,False,-8.038499999999999,-19,-2.5,2.5
+2025,1,Arizona,Hawai'i,False,11.128,34,15.5,13.5
+2025,1,Washington,Colorado State,False,13.634500000000001,17,22.5,19.5
+2025,1,UCLA,Utah,False,-2.7239999999999998,-33,-6.5,-6.5
+2025,1,South Carolina,Virginia Tech,True,8.240499999999999,13,7.5,8.5
+2025,1,Miami,Notre Dame,False,-2.233499999999998,3,-2.5,-2.5
+2025,1,North Carolina,TCU,False,-2.7105,-34,-3.5,-3.0
+2025,2,Louisville,James Madison,False,12.765500000000001,14,15.25,14.75
+2025,2,Maryland,Northern Illinois,False,4.5605,11,16.75,16.0
+2025,2,Indiana,Kennesaw State,False,45.708,47,35.5,35.5
+2025,2,SMU,Baylor,False,11.1045,-3,2.75,4.25
+2025,2,Pittsburgh,Central Michigan,False,22.6495,28,21.5,21.5
+2025,2,Texas Tech,Kent State,False,40.255,48,48.0,48.75
+2025,2,Iowa State,Iowa,False,-0.347,3,3.0,2.5
+2025,2,Jacksonville State,Liberty,False,5.3149999999999995,10,-6.25,-5.75
+2025,2,Syracuse,UConn,False,8.557500000000001,7,7.25,8.25
+2025,2,Duke,Illinois,False,0.1389999999999998,-26,-2.5,-2.5
+2025,2,NC State,Virginia,False,8.2595,4,2.75,2.75
+2025,2,Penn State,Florida International,False,37.259499999999996,34,41.75,41.75
+2025,2,Texas,San José State,False,33.32,31,36.75,35.75
+2025,2,Texas A&M,Utah State,False,29.134999999999998,22,34.5,30.0
+2025,2,Kentucky,Ole Miss,False,-16.2505,-7,-7.75,-9.0
+2025,2,Oregon,Oklahoma State,False,27.856499999999997,66,28.5,27.75
+2025,2,Clemson,Troy,False,23.8585,11,30.25,31.75
+2025,2,Rutgers,Miami (OH),False,9.0545,28,15.5,13.75
+2025,2,Western Michigan,North Texas,False,-1.782500000000001,-3,-12.25,-10.25
+2025,2,Navy,UAB,False,16.5045,14,21.5,21.25
+2025,2,UTSA,Texas State,False,-2.6140000000000003,-7,4.5,4.75
+2025,2,Oregon State,Fresno State,False,-0.48950000000000005,-9,1.25,2.25
+2025,2,Missouri,Kansas,False,9.171,11,6.5,6.5
+2025,2,Cincinnati,Bowling Green,False,7.0395,14,22.0,19.25
+2025,2,Ohio,West Virginia,False,1.5909999999999997,7,-3.5,-2.75
+2025,2,Wisconsin,Middle Tennessee,False,28.6895,32,28.5,28.0
+2025,2,Florida,South Florida,False,18.636499999999998,-2,18.5,17.25
+2025,2,Arkansas,Arkansas State,True,22.2755,42,24.0,22.5
+2025,2,Kansas State,Army,False,8.264000000000001,-3,16.75,16.0
+2025,2,South Alabama,Tulane,False,-3.688000000000001,-2,-13.5,-10.25
+2025,2,Toledo,Western Kentucky,False,3.9225,24,8.0,6.0
+2025,2,Georgia State,Memphis,False,-17.0385,-22,-15.0,-13.75
+2025,2,Charlotte,North Carolina,False,-15.312000000000003,-17,-15.75,-14.75
+2025,2,Rice,Houston,False,-1.2680000000000011,-26,-13.5,-13.0
+2025,2,Michigan State,Boston College,False,-4.334,2,3.5,3.25
+2025,2,USC,Georgia Southern,False,17.511,39,28.75,27.75
+2025,2,LSU,Louisiana Tech,False,28.753999999999998,16,36.5,35.25
+2025,2,Virginia Tech,Vanderbilt,False,6.645000000000001,-24,2.0,1.25
+2025,2,Nebraska,Akron,False,25.625,68,33.75,33.75
+2025,2,Auburn,Ball State,False,31.38,39,42.75,43.0
+2025,2,Mississippi State,Arizona State,False,-9.6505,4,-5.75,-6.75
+2025,2,Oklahoma,Michigan,False,3.130499999999999,11,3.5,3.0
+2025,2,Alabama,UL Monroe,False,41.383,73,34.25,37.0
+2025,2,UNLV,UCLA,False,9.805,7,-2.5,-2.25
+2025,2,New Mexico State,Tulsa,False,4.864500000000001,7,-3.25,-3.0
+2025,2,BYU,Stanford,False,25.052999999999997,24,20.5,18.0
+2025,2,Washington State,San Diego State,False,18.883,23,2.25,2.25
+2025,2,Hawai'i,Sam Houston,False,-1.4899999999999989,17,7.25,8.75
+2025,3,Wake Forest,NC State,False,-7.1976125,-10,-7.5,-7.25
+2025,3,Houston,Colorado,False,-6.796025000000002,16,4.0,4.0
+2025,3,Arizona,Kansas State,False,-7.977849999999998,6,-1.5,-0.75
+2025,3,UCLA,New Mexico,False,12.744175,-25,15.5,14.75
+2025,3,Temple,Oklahoma,False,-22.792875,-39,-23.5,-25.0
+2025,3,Northwestern,Oregon,False,-33.355275000000006,-20,-25.5,-27.75
+2025,3,Michigan,Central Michigan,False,26.2670125,60,27.5,27.5
+2025,3,Alabama,Wisconsin,False,21.976074999999998,24,18.5,21.25
+2025,3,Troy,Memphis,False,-8.70445,-21,-4.5,-6.5
+2025,3,Kent State,Buffalo,False,-24.22495,-3,-24.0,-22.75
+2025,3,Georgia Tech,Clemson,False,-2.0149500000000002,3,-3.0,-8.5
+2025,3,Auburn,South Alabama,False,12.472775,16,26.5,25.75
+2025,3,Missouri,Louisiana,False,16.530949999999997,42,27.5,24.5
+2025,3,Texas Tech,Oregon State,False,17.56165,31,24.0,24.25
+2025,3,West Virginia,Pittsburgh,False,-1.2119249999999995,7,-7.0,-2.5
+2025,3,Tennessee,Georgia,False,-1.0466750000000018,-3,-3.5,-7.0
+2025,3,North Texas,Washington State,False,-4.911925,49,6.5,5.5
+2025,3,Purdue,USC,False,-24.293225000000003,-16,-20.5,-21.25
+2025,3,Arkansas State,Iowa State,False,-21.953250000000004,-8,-21.0,-21.25
+2025,3,Texas,UTEP,False,48.58855,17,39.5,39.0
+2025,3,Miami,South Florida,False,21.67735,37,17.5,15.75
+2025,3,Bowling Green,Liberty,False,3.4521749999999995,10,-6.0,-7.0
+2025,3,Nevada,Middle Tennessee,False,13.791125000000001,-1,9.5,9.0
+2025,3,Florida International,Florida Atlantic,False,6.66545,10,2.0,3.0
+2025,3,Southern Miss,App State,False,-15.71665,16,-3.0,0.75
+2025,3,Virginia Tech,Old Dominion,False,11.819262499999999,-19,5.5,7.25
+2025,3,Ohio State,Ohio,False,29.716874999999995,28,28.5,29.5
+2025,3,Illinois,Western Michigan,False,25.472924999999996,38,27.5,28.25
+2025,3,Georgia Southern,Jacksonville State,False,-2.1857625000000005,7,3.0,3.5
+2025,3,Ole Miss,Arkansas,False,15.0144375,6,3.5,8.5
+2025,3,LSU,Florida,False,7.5879125,10,5.0,5.5
+2025,3,Iowa,Massachusetts,False,40.702999999999996,40,35.5,33.5
+2025,3,Notre Dame,Texas A&M,False,11.772025,-1,6.5,7.0
+2025,3,Louisiana Tech,New Mexico State,False,13.233775,35,10.0,11.25
+2025,3,Coastal Carolina,East Carolina,False,-5.573474999999998,-38,-7.0,-6.25
+2025,3,Kentucky,Eastern Michigan,False,22.52725,25,26.5,25.5
+2025,3,South Carolina,Vanderbilt,False,9.202675000000001,-24,3.0,5.5
+2025,3,Tulsa,Navy,False,-20.48115,-19,-13.5,-14.5
+2025,3,Tulane,Duke,False,10.347125,7,1.5,2.5
+2025,3,Wyoming,Utah,False,-16.070249999999998,-25,-24.5,-22.5
+2025,3,UAB,Akron,False,11.964125000000001,3,12.5,11.5
+2025,3,Utah State,Air Force,False,2.879499999999998,19,-4.0,-3.5
+2025,3,Arizona State,Texas State,False,6.930024999999999,19,18.5,14.5
+2025,3,California,Minnesota,False,-0.12157500000000043,13,-3.0,-2.5
+2025,3,Stanford,Boston College,False,-6.185249999999998,10,-14.0,-10.5
+2025,4,Charlotte,Rice,False,-3.321450000000001,-11,-1.5,-5.5
+2025,4,Oklahoma State,Tulsa,False,12.004799999999998,-7,10.0,13.5
+2025,4,Rutgers,Iowa,False,-3.3603,-10,-2.5,-2.5
+2025,4,Army,North Texas,False,11.203524999999999,-7,-2.5,1.5
+2025,4,Clemson,Syracuse,False,9.348625,-13,17.5,17.0
+2025,4,Wisconsin,Maryland,False,6.41555,-17,10.5,7.0
+2025,4,Utah,Texas Tech,False,9.91405,-24,3.5,4.0
+2025,4,TCU,SMU,False,8.9727,11,6.5,6.5
+2025,4,Memphis,Arkansas,False,-3.11215,1,-7.0,-6.5
+2025,4,Louisville,Bowling Green,False,20.928449999999998,23,26.5,27.5
+2025,4,Miami (OH),UNLV,False,-10.2037,-3,-1.5,-3.5
+2025,4,Tennessee,UAB,False,36.12219999999999,32,39.0,38.0
+2025,4,Oregon,Oregon State,False,41.432925,34,34.0,34.5
+2025,4,Oklahoma,Auburn,False,3.6732249999999995,7,6.5,6.0
+2025,4,Eastern Michigan,Louisiana,False,-7.257375,3,-2.5,-3.0
+2025,4,UConn,Ball State,False,26.130875,6,21.0,20.5
+2025,4,UCF,North Carolina,False,7.311325,25,7.0,6.5
+2025,4,Liberty,James Madison,False,-6.936375,-18,-7.5,-10.5
+2025,4,Buffalo,Troy,False,0.569199999999999,-4,5.5,6.5
+2025,4,Florida State,Kent State,False,41.49247499999999,56,45.0,43.5
+2025,4,Nebraska,Michigan,False,3.6238750000000004,-3,-1.5,-3.0
+2025,4,Notre Dame,Purdue,False,34.869375,26,24.5,27.0
+2025,4,Western Michigan,Toledo,False,-9.9736,1,-13.0,-13.0
+2025,4,Ole Miss,Tulane,False,18.301599999999997,35,12.5,12.5
+2025,4,Duke,NC State,False,1.4064749999999997,12,3.0,2.5
+2025,4,Mississippi State,Northern Illinois,False,8.533125,28,24.0,22.0
+2025,4,Georgia Tech,Temple,False,27.901275,21,24.5,24.0
+2025,4,Kennesaw State,Arkansas State,False,-5.391425,7,-4.5,-7.0
+2025,4,Kansas,West Virginia,False,8.958475,31,12.5,12.5
+2025,4,South Alabama,Coastal Carolina,False,21.313174999999998,-18,14.5,14.5
+2025,4,Missouri,South Carolina,False,9.503575,9,10.0,11.5
+2025,4,Middle Tennessee,Marshall,False,-15.885050000000001,-14,-2.5,-3.5
+2025,4,Air Force,Boise State,False,-8.688899999999997,-12,-11.0,-8.5
+2025,4,Western Kentucky,Nevada,False,10.375049999999998,15,7.5,11.5
+2025,4,East Carolina,BYU,False,-6.638150000000001,-21,-6.5,-7.5
+2025,4,Washington State,Washington,False,-8.10365,-35,-21.0,-20.5
+2025,4,Vanderbilt,Georgia State,False,35.775099999999995,49,27.5,26.5
+2025,4,Louisiana Tech,Southern Miss,False,16.159349999999996,10,3.0,2.5
+2025,4,Baylor,Arizona State,False,1.4092500000000014,-3,3.0,2.5
+2025,4,Miami,Florida,False,15.9472,19,8.5,3.5
+2025,4,Indiana,Illinois,False,6.593049999999998,53,7.0,4.5
+2025,4,Virginia,Stanford,False,10.990899999999998,28,16.5,16.0
+2025,4,Texas,Sam Houston,False,34.858599999999996,55,39.5,41.5
+2025,4,UTEP,UL Monroe,False,10.361699999999999,-6,5.5,4.5
+2025,4,Colorado State,UTSA,False,0.34190000000000076,-1,-5.0,-4.0
+2025,4,Colorado,Wyoming,False,22.181525,17,12.5,13.5
+2025,4,San Diego State,California,False,-21.0008,34,-14.0,-13.5
+2025,4,USC,Michigan State,False,19.51035,14,18.5,15.5
+2025,4,Hawai'i,Fresno State,False,-7.404349999999999,-2,-2.5,-3.5
+2025,5,East Carolina,Army,False,-0.45886250000000217,22,3.5,3.0
+2025,5,Virginia,Florida State,False,-1.9735124999999987,8,-7.0,-7.5
+2025,5,Arizona State,TCU,False,-6.515499999999999,3,3.0,2.5
+2025,5,Oregon State,Houston,False,-14.308418749999996,-3,-11.5,-12.5
+2025,5,Arkansas,Notre Dame,False,-2.4983500000000007,-43,-5.5,-6.5
+2025,5,Minnesota,Rutgers,False,1.0116375,3,3.5,4.5
+2025,5,Pittsburgh,Louisville,False,-8.854825,-7,-3.0,-3.5
+2025,5,North Texas,South Alabama,False,11.976074999999998,14,13.0,12.5
+2025,5,Kansas State,UCF,False,1.1567375000000006,14,6.0,5.5
+2025,5,Ohio,Bowling Green,False,8.323649999999999,15,7.5,10.5
+2025,5,Illinois,USC,False,-2.5673750000000006,2,-6.5,-1.5
+2025,5,Syracuse,Duke,False,9.485149999999999,-35,-4.0,-5.5
+2025,5,Wake Forest,Georgia Tech,False,-16.140925,-1,-13.0,-15.5
+2025,5,Kansas,Cincinnati,False,11.482475,-3,5.5,6.0
+2025,5,Vanderbilt,Utah State,False,29.995974999999994,20,23.5,22.5
+2025,5,Central Michigan,Eastern Michigan,False,-3.452075000000001,11,3.0,5.5
+2025,5,James Madison,Georgia Southern,False,19.042387499999997,25,15.0,16.0
+2025,5,UL Monroe,Arkansas State,False,-3.010924999999999,12,1.5,3.0
+2025,5,Oklahoma State,Baylor,False,-21.7556625,-18,-21.0,-20.5
+2025,5,Northwestern,UCLA,False,6.926724999999998,3,6.0,6.5
+2025,5,Navy,Rice,False,13.271125,8,14.0,14.5
+2025,5,Washington,Ohio State,False,-12.0927875,-18,-9.5,-11.5
+2025,5,Toledo,Akron,False,25.67665,42,21.5,21.0
+2025,5,Buffalo,UConn,False,-3.1779125,-3,-3.0,-2.5
+2025,5,West Virginia,Utah,False,-6.527149999999999,-34,-13.5,-10.5
+2025,5,Boston College,California,False,-0.008674999999999322,-4,6.0,6.0
+2025,5,Northern Illinois,San Diego State,False,-3.409524999999998,-3,-1.5,-2.5
+2025,5,Iowa,Indiana,False,-6.143649999999999,-5,-9.5,-3.0
+2025,5,Texas A&M,Auburn,False,6.646325,6,6.5,6.5
+2025,5,Ole Miss,LSU,False,13.305962500000001,5,2.5,-2.0
+2025,5,Tulsa,Tulane,False,-20.9570625,-17,-14.5,-13.5
+2025,5,Air Force,Hawai'i,False,3.4551562500000004,-9,7.0,4.5
+2025,5,New Mexico,New Mexico State,False,29.357424999999996,18,16.5,13.5
+2025,5,Mississippi State,Tennessee,False,-14.014550000000002,-7,-7.5,-9.0
+2025,5,Kennesaw State,Middle Tennessee,False,3.897949999999999,8,7.0,6.5
+2025,5,Old Dominion,Liberty,False,16.604562499999997,14,14.5,15.5
+2025,5,NC State,Virginia Tech,False,5.480449999999998,-2,10.0,10.5
+2025,5,Florida Atlantic,Memphis,False,-23.8748125,-29,-14.0,-13.5
+2025,5,Iowa State,Arizona,False,6.8905375000000015,25,4.0,7.0
+2025,5,Southern Miss,Jacksonville State,False,-14.382924999999998,17,4.5,3.5
+2025,5,Stanford,San José State,False,3.3610500000000005,1,3.0,1.5
+2025,5,Colorado State,Washington State,False,9.342125,-17,4.5,4.5
+2025,5,Missouri,Massachusetts,False,50.1980375,36,44.5,42.5
+2025,5,Penn State,Oregon,False,-4.275637499999997,-6,4.0,5.5
+2025,5,Boise State,App State,False,14.32815,33,16.5,17.5
+2025,5,Georgia,Alabama,False,6.938550000000003,-3,2.5,4.0
+2025,5,South Carolina,Kentucky,False,6.142725,22,5.5,6.5
+2025,5,Louisiana,Marshall,False,-1.793912499999999,3,-2.5,2.5
+2025,5,UTEP,Louisiana Tech,False,-6.878375,-19,-3.5,-3.5
+2025,5,Colorado,BYU,False,-6.4845375,-3,-6.5,-6.5
+2025,6,New Mexico State,Sam Houston,False,-6.9738500000000005,27,-2.0,-2.0
+2025,6,South Florida,Charlotte,False,29.509800000000006,28,28.0,27.5
+2025,6,San José State,New Mexico,False,-3.201799999999998,7,2.0,2.5
+2025,6,San Diego State,Colorado State,False,11.542599999999998,21,4.5,5.5
+2025,6,BYU,West Virginia,False,27.368000000000002,14,19.5,19.5
+2025,6,UAB,Army,False,-7.635,-18,-6.5,-7.5
+2025,6,Cincinnati,Iowa State,False,-3.5498000000000016,8,1.5,1.5
+2025,6,North Carolina,Clemson,False,-9.111650000000001,-28,-15.5,-13.5
+2025,6,Purdue,Illinois,False,-11.051474999999998,-16,-7.0,-10.0
+2025,6,Baylor,Kansas State,False,4.9658999999999995,1,4.5,5.5
+2025,6,Michigan,Wisconsin,False,13.711925,14,17.5,16.5
+2025,6,Pittsburgh,Boston College,False,10.0181,41,6.5,4.5
+2025,6,Georgia,Kentucky,False,23.763875000000002,21,19.5,20.75
+2025,6,Ball State,Ohio,False,-23.187225,6,-14.0,-16.5
+2025,6,Navy,Air Force,False,18.699899999999996,3,13.5,11.5
+2025,6,Temple,UTSA,False,-9.1584,6,-6.5,-6.5
+2025,6,Virginia Tech,Wake Forest,False,10.544175000000001,-7,4.5,5.5
+2025,6,Massachusetts,Western Michigan,False,-10.7803,-18,-12.5,-11.5
+2025,6,Arizona,Oklahoma State,False,23.628699999999995,28,21.5,18.5
+2025,6,Northern Illinois,Miami (OH),False,-4.1079000000000025,-11,-4.5,-3.5
+2025,6,Notre Dame,Boise State,False,22.105774999999998,21,21.5,16.5
+2025,6,Louisville,Virginia,False,11.972000000000001,-3,6.5,6.5
+2025,6,Buffalo,Eastern Michigan,False,6.759575,1,9.5,9.5
+2025,6,App State,Oregon State,False,2.471839999999998,4,2.0,1.5
+2025,6,UConn,Florida International,False,8.31685,41,7.0,8.5
+2025,6,SMU,Syracuse,False,8.425375,13,17.5,16.5
+2025,6,Florida,Texas,False,-14.099749999999998,8,-4.5,-6.5
+2025,6,Alabama,Vanderbilt,False,7.096150000000003,16,13.5,13.5
+2025,6,Northwestern,UL Monroe,False,16.2778,35,12.5,10.5
+2025,6,Maryland,Washington,False,-1.4795000000000003,-4,-5.5,-5.5
+2025,6,Akron,Central Michigan,False,-7.676674999999998,6,-7.0,-7.0
+2025,6,UCLA,Penn State,False,-27.486124999999998,5,-24.5,-25.5
+2025,6,Georgia State,James Madison,False,-30.784,-7,-19.5,-19.5
+2025,6,Oklahoma,Kent State,False,52.578599999999994,44,46.5,45.5
+2025,6,Arkansas State,Texas State,False,-17.548125000000002,1,-14.0,-12.5
+2025,6,Nebraska,Michigan State,False,17.244899999999998,11,12.5,10.5
+2025,6,Old Dominion,Coastal Carolina,False,26.1442,40,18.5,17.5
+2025,6,Wyoming,UNLV,False,-12.194200000000002,-14,-4.5,-5.5
+2025,6,Troy,South Alabama,False,3.743525,7,-2.5,3.0
+2025,6,Rice,Florida Atlantic,False,14.471725000000003,-6,4.5,5.5
+2025,6,Houston,Texas Tech,False,-7.360800000000001,-24,-13.0,-12.0
+2025,6,UCF,Kansas,False,0.6178750000000002,-7,-4.0,-3.5
+2025,6,Ohio State,Minnesota,False,25.704899999999995,39,23.5,24.0
+2025,6,Florida State,Miami,False,-13.629400000000002,-6,-3.5,-6.5
+2025,6,Texas A&M,Mississippi State,False,13.308425,22,17.5,14.0
+2025,6,TCU,Colorado,False,21.566774999999996,14,13.5,14.5
+2025,6,Memphis,Tulsa,False,29.358749999999997,38,21.0,21.0
+2025,6,Fresno State,Nevada,False,17.91055,3,12.5,13.5
+2025,6,California,Duke,False,-2.853925,-24,-3.5,-3.0
+2025,7,UTEP,Liberty,False,-4.528374999999997,-11,-1.5,-2.5
+2025,7,Kennesaw State,Louisiana Tech,False,-9.509343750000001,28,-4.5,-5.5
+2025,7,Tulane,East Carolina,False,-0.6799312500000001,7,7.0,7.0
+2025,7,Georgia Southern,Southern Miss,False,-0.03028125000000026,-3,-3.0,-1.5
+2025,7,Sam Houston,Jacksonville State,True,-11.142231249999998,-2,-7.0,-9.0
+2025,7,North Texas,South Florida,False,6.689,-27,2.5,1.5
+2025,7,Colorado State,Fresno State,False,-7.839612499999999,28,-5.5,-6.75
+2025,7,Washington,Rutgers,False,7.03771875,19,9.5,10.0
+2025,7,Cincinnati,UCF,False,4.22321875,9,10.5,10.5
+2025,7,James Madison,Louisiana,False,20.257187499999997,10,18.5,17.5
+2025,7,Oklahoma State,Houston,False,-20.649156250000004,-22,-14.5,-14.0
+2025,7,Michigan State,UCLA,False,9.858924999999997,-25,7.0,7.5
+2025,7,Army,Charlotte,False,25.04465625,17,17.5,20.5
+2025,7,Florida State,Pittsburgh,False,1.8209375000000003,-3,10.5,9.5
+2025,7,SMU,Stanford,False,19.9559,24,19.5,18.0
+2025,7,Bowling Green,Toledo,False,-6.473968750000001,5,-10.5,-8.5
+2025,7,Akron,Miami (OH),False,-20.405718750000002,-13,-11.5,-9.5
+2025,7,Illinois,Ohio State,False,-19.4107875,-18,-15.0,-13.5
+2025,7,Missouri,Alabama,False,0.12711249999999996,-3,-3.0,-5.5
+2025,7,Ole Miss,Washington State,False,39.13279375,3,33.0,32.5
+2025,7,Eastern Michigan,Northern Illinois,False,4.922537499999999,6,-1.5,1.0
+2025,7,Kent State,Massachusetts,False,-2.2748437500000027,36,1.5,2.5
+2025,7,Oregon State,Wake Forest,False,-4.92359375,-25,-1.5,-2.5
+2025,7,UNLV,Air Force,False,23.9774375,3,7.0,7.0
+2025,7,Maryland,Nebraska,False,-3.0191875000000006,-3,-7.0,-5.5
+2025,7,Oregon,Indiana,False,9.18846875,-10,7.0,14.0
+2025,7,Kansas State,TCU,False,-10.677024999999999,13,-3.0,-1.5
+2025,7,Colorado,Iowa State,False,-5.004050000000001,7,-3.0,-4.5
+2025,7,Notre Dame,NC State,False,26.09035,29,23.5,22.5
+2025,7,Georgia Tech,Virginia Tech,False,15.82658125,15,14.0,14.5
+2025,7,Marshall,Old Dominion,False,-13.801499999999999,24,-14.5,-14.0
+2025,7,Western Michigan,Ball State,False,8.739993750000002,42,9.5,9.5
+2025,7,Texas,Oklahoma,True,7.5777875,17,2.5,9.5
+2025,7,Georgia State,App State,False,-6.518218749999999,-21,-3.0,-3.5
+2025,7,Penn State,Northwestern,False,18.01784375,-1,20.5,21.5
+2025,7,Temple,Navy,False,-4.6619062499999995,-1,-10.0,-8.5
+2025,7,Tennessee,Arkansas,False,10.973125000000001,3,10.0,13.5
+2025,7,Florida Atlantic,UAB,False,-2.8244687500000007,20,4.5,4.5
+2025,7,Coastal Carolina,UL Monroe,False,3.618375000000002,15,-3.0,-2.5
+2025,7,Wyoming,San José State,False,3.2405937500000004,7,-1.5,-1.5
+2025,7,Wisconsin,Iowa,False,-10.1496875,-37,-5.0,-3.5
+2025,7,Texas A&M,Florida,False,9.375775,17,7.0,8.5
+2025,7,Minnesota,Purdue,False,9.347624999999999,7,7.5,10.0
+2025,7,UTSA,Rice,False,7.7002437499999985,48,9.5,12.5
+2025,7,Boston College,Clemson,False,-15.011718749999998,-31,-14.0,-13.5
+2025,7,Texas Tech,Kansas,False,10.341975,25,13.5,14.5
+2025,7,Auburn,Georgia,False,-9.163312500000002,-10,-4.5,-7.0
+2025,7,USC,Michigan,False,2.6632250000000006,18,3.0,1.5
+2025,7,LSU,South Carolina,False,9.61925,10,8.5,10.0
+2025,7,Arizona,BYU,False,-3.5220624999999983,-6,-2.5,-2.5
+2025,7,Texas State,Troy,False,7.309468750000001,-7,7.5,10.5
+2025,7,Boise State,New Mexico,False,9.0849375,16,14.5,16.5
+2025,7,Utah,Arizona State,False,10.244031249999999,32,9.5,4.5
+2025,7,Nevada,San Diego State,False,-12.590781249999997,-34,-6.5,-6.5
+2025,7,Hawai'i,Utah State,False,1.0778062499999999,18,-1.5,1.5
+2025,8,Liberty,New Mexico State,False,11.14176,3,10.5,10.5
+2025,8,South Alabama,Arkansas State,False,9.415291999999999,-1,8.5,7.5
+2025,8,Western Kentucky,Florida International,False,13.73049,-19,10.0,8.5
+2025,8,Sam Houston,UTEP,True,0.6110800000000001,-18,-3.5,2.5
+2025,8,East Carolina,Tulsa,False,26.922131999999998,14,16.5,16.5
+2025,8,Miami,Louisville,False,13.820654999999999,-3,10.5,13.0
+2025,8,Minnesota,Nebraska,False,-9.18079,18,-7.0,-5.5
+2025,8,Utah State,San José State,False,2.064768000000001,5,3.0,4.0
+2025,8,California,North Carolina,False,10.509148000000001,3,7.5,12.5
+2025,8,Houston,Arizona,False,1.1549379999999991,3,-2.0,2.0
+2025,8,Miami (OH),Eastern Michigan,False,10.692491000000002,14,12.5,11.5
+2025,8,Tulane,Army,False,6.999803999999999,7,10.0,10.5
+2025,8,Boston College,UConn,False,-9.568951000000002,-15,-2.5,2.0
+2025,8,TCU,Baylor,False,10.815496,6,3.5,3.0
+2025,8,Bowling Green,Central Michigan,False,16.5567,-21,3.0,6.0
+2025,8,Vanderbilt,LSU,False,6.848598000000001,7,1.5,1.5
+2025,8,Michigan,Washington,False,0.8213949999999994,17,4.0,10.5
+2025,8,Duke,Georgia Tech,False,4.6637699999999995,-9,3.5,2.5
+2025,8,South Carolina,Oklahoma,False,-1.2934979999999991,-19,-4.5,-4.5
+2025,8,UCF,West Virginia,False,13.571348000000002,32,6.5,7.5
+2025,8,Toledo,Kent State,False,32.829656,35,25.5,24.5
+2025,8,Massachusetts,Buffalo,False,-20.481236,-7,-16.5,-17.5
+2025,8,UL Monroe,Troy,False,-17.979280000000006,-23,-4.5,-5.5
+2025,8,Northwestern,Purdue,False,10.703708,19,3.5,3.5
+2025,8,Arkansas,Texas A&M,False,-3.2835390000000015,-3,-7.5,-8.0
+2025,8,Georgia,Ole Miss,False,6.588891999999998,8,7.5,10.5
+2025,8,Ohio,Northern Illinois,False,18.057883999999998,27,10.5,12.0
+2025,8,North Texas,UTSA,False,7.057274000000001,38,4.0,5.5
+2025,8,Air Force,Wyoming,False,5.548506,3,4.0,5.5
+2025,8,Ball State,Akron,False,5.7555739999999975,14,-2.0,1.5
+2025,8,Indiana,Michigan State,False,33.727894,25,26.5,26.5
+2025,8,Clemson,SMU,False,4.981122499999998,-11,3.5,10.0
+2025,8,James Madison,Old Dominion,False,2.7765459999999997,36,3.0,2.5
+2025,8,Wisconsin,Ohio State,False,-29.83992200000001,-34,-24.5,-27.0
+2025,8,Boise State,UNLV,False,2.2291459999999987,25,13.0,10.5
+2025,8,Marshall,Texas State,False,5.3894845,3,-3.0,-4.0
+2025,8,Charlotte,Temple,False,-7.886682000000002,-35,-9.5,-11.5
+2025,8,App State,Coastal Carolina,False,12.771158,-8,10.5,11.5
+2025,8,UAB,Memphis,False,-23.72167,7,-23.5,-21.5
+2025,8,Arizona State,Texas Tech,False,-11.412124000000004,4,-8.0,-10.5
+2025,8,Florida,Mississippi State,False,5.804195999999999,2,9.5,9.5
+2025,8,Louisiana,Southern Miss,False,3.0290839999999997,-12,-4.5,-4.0
+2025,8,Virginia,Washington State,False,19.540882,2,16.5,18.0
+2025,8,Rutgers,Oregon,False,-19.395,-46,-17.5,-15.5
+2025,8,Iowa,Penn State,False,10.127896000000002,1,3.0,1.5
+2025,8,Kentucky,Texas,False,-12.776537999999997,-3,-12.5,-12.5
+2025,8,Colorado State,Hawai'i,False,2.8580439999999996,-12,2.5,-1.5
+2025,8,UCLA,Maryland,False,-6.196548999999997,3,4.0,2.5
+2025,8,Georgia Southern,Georgia State,False,10.077257999999999,17,6.5,6.5
+2025,8,Syracuse,Pittsburgh,False,-4.109489999999997,-17,-9.5,-11.5
+2025,8,South Florida,Florida Atlantic,False,27.628378,35,20.5,22.5
+2025,8,Notre Dame,USC,False,13.048704,10,10.5,10.0
+2025,8,Alabama,Tennessee,False,9.366396,17,8.5,11.5
+2025,8,Auburn,Missouri,False,-3.853894,-6,-1.5,1.5
+2025,8,BYU,Utah,False,1.2120499999999996,3,-4.0,-3.5
+2025,8,Oklahoma State,Cincinnati,False,-27.442552,-32,-23.5,-20.5
+2025,8,New Mexico,Nevada,False,23.368516,2,14.0,10.5
+2025,8,Stanford,Florida State,False,-12.819851,7,-17.5,-17.5
+2025,9,Florida International,Kennesaw State,False,4.2299555,-19,-3.0,-1.5
+2025,9,Louisiana Tech,Western Kentucky,False,3.7133850000000015,-1,5.0,3.0
+2025,9,Georgia State,South Alabama,False,-9.630975000000001,-7,-6.0,-6.5
+2025,9,Charlotte,North Texas,False,-29.886680000000005,-34,-25.5,-27.0
+2025,9,Virginia Tech,California,False,-1.050339999999999,8,6.0,2.5
+2025,9,Nevada,Boise State,False,-22.293095000000005,-21,-21.0,-21.5
+2025,9,Kent State,Bowling Green,False,-16.587275000000005,3,-7.5,-8.5
+2025,9,Georgia Tech,Syracuse,False,12.92169,25,17.5,18.0
+2025,9,Indiana,UCLA,False,30.8019,50,27.5,24.5
+2025,9,Memphis,South Florida,False,-0.37970000000000104,3,-3.5,-3.5
+2025,9,Oklahoma,Ole Miss,False,-1.7617192857142894,-8,5.5,3.5
+2025,9,Wake Forest,SMU,False,-10.770544,1,-5.5,-3.5
+2025,9,Eastern Michigan,Ohio,False,-11.318874285714285,-7,-12.0,-10.5
+2025,9,North Carolina,Virginia,False,-13.445623,-1,-11.5,-9.5
+2025,9,Purdue,Rutgers,False,-4.372275,-3,2.5,-2.5
+2025,9,Old Dominion,App State,False,15.592475000000002,3,13.5,13.5
+2025,9,Kansas,Kansas State,False,1.5951700000000002,-25,3.5,-3.5
+2025,9,Nebraska,Northwestern,False,8.649604999999998,7,7.0,8.5
+2025,9,Arkansas,Auburn,False,1.6404599999999998,-9,2.5,1.5
+2025,9,Buffalo,Akron,False,17.825457857142855,-8,10.0,10.5
+2025,9,Rice,UConn,False,-16.823070000000005,3,-10.0,-9.5
+2025,9,New Mexico,Utah State,False,10.772009999999998,19,3.0,1.5
+2025,9,Iowa,Minnesota,False,18.936975,38,7.5,7.5
+2025,9,Fresno State,San Diego State,False,-7.540786999999998,-23,-3.0,-2.5
+2025,9,Navy,Florida Atlantic,False,15.004164000000001,10,14.5,14.5
+2025,9,Washington,Illinois,False,5.5051700000000015,17,3.5,4.5
+2025,9,Pittsburgh,NC State,False,13.317784999999999,19,5.0,7.5
+2025,9,Central Michigan,Massachusetts,False,22.01598,25,16.5,16.5
+2025,9,Miami (OH),Western Michigan,False,7.6569,9,2.5,2.5
+2025,9,Vanderbilt,Missouri,False,3.7325399999999997,7,3.0,2.5
+2025,9,Iowa State,BYU,False,0.5902950000000011,-14,2.5,2.0
+2025,9,Southern Miss,UL Monroe,False,20.21288,28,14.0,10.5
+2025,9,South Carolina,Alabama,False,-14.349514285714287,-7,-11.5,-13.0
+2025,9,Northern Illinois,Ball State,False,7.860825000000002,14,6.5,5.0
+2025,9,Tulsa,Temple,False,-8.550339999999998,-1,-4.5,-6.0
+2025,9,Washington State,Toledo,False,-4.641590000000001,21,-1.5,1.5
+2025,9,Cincinnati,Baylor,False,4.537915000000001,21,3.5,5.5
+2025,9,Texas Tech,Oklahoma State,False,44.111700000000006,42,37.5,38.5
+2025,9,Mississippi State,Texas,False,-10.812489285714284,-7,-8.5,-6.5
+2025,9,West Virginia,TCU,False,-22.087545000000006,-6,-16.5,-14.5
+2025,9,Troy,Louisiana,False,15.249830000000001,12,7.0,8.5
+2025,9,Miami,Stanford,False,29.309310285714286,35,28.5,30.0
+2025,9,Arkansas State,Georgia Southern,False,3.6513099999999996,10,-1.0,2.5
+2025,9,Oregon,Wisconsin,False,36.34518428571429,14,31.5,34.0
+2025,9,LSU,Texas A&M,False,1.0513492857142843,-24,-1.5,5.5
+2025,9,Louisville,Boston College,False,27.612966,14,25.5,24.5
+2025,9,Wyoming,Colorado State,False,8.640985,28,5.5,4.5
+2025,9,Michigan State,Michigan,False,-13.279526428571428,-11,-13.5,-8.5
+2025,9,Kentucky,Tennessee,False,-5.754665000000001,-22,-7.5,-9.0
+2025,9,Arizona State,Houston,False,4.869714999999999,-8,7.5,8.5
+2025,9,Utah,Colorado,False,22.932409999999997,46,14.0,14.5
+2025,10,Kennesaw State,UTEP,False,7.730454999999997,13,12.5,9.5
+2025,10,Texas State,James Madison,False,-8.751575,-32,-7.5,-6.5
+2025,10,Middle Tennessee,Jacksonville State,False,-9.681797000000001,-3,-4.5,-6.5
+2025,10,UTSA,Tulane,False,-6.738161428571427,22,-6.0,-4.0
+2025,10,Coastal Carolina,Marshall,False,-13.521053,17,-7.0,-4.0
+2025,10,Rice,Memphis,False,-17.27620142857143,-24,-14.0,-14.0
+2025,10,Syracuse,North Carolina,False,8.453252142857142,-17,1.5,1.75
+2025,10,Louisiana Tech,Sam Houston,False,13.462715714285713,41,16.5,17.0
+2025,10,Clemson,Duke,False,5.3869878571428575,-1,4.0,3.5
+2025,10,SMU,Miami,False,-6.351590000000002,6,-8.5,-10.5
+2025,10,UConn,UAB,False,16.752775,19,10.5,11.5
+2025,10,Baylor,UCF,False,1.3978171428571402,27,3.0,4.5
+2025,10,Air Force,Army,False,-5.663114999999998,-3,-1.5,-1.5
+2025,10,Bowling Green,Buffalo,False,4.431967142857142,-25,2.5,2.0
+2025,10,Houston,West Virginia,False,15.548002857142858,-10,13.0,15.5
+2025,10,North Texas,Navy,False,16.768306428571428,14,6.5,5.5
+2025,10,Ohio State,Penn State,False,22.022064999999994,24,17.5,4.0
+2025,10,Illinois,Rutgers,False,9.125085714285714,22,13.0,13.0
+2025,10,Texas,Vanderbilt,False,2.147181607142857,3,3.5,3.0
+2025,10,Iowa State,Arizona State,False,7.312240000000001,-5,7.5,3.5
+2025,10,Temple,East Carolina,False,-8.703184285714286,-31,-5.5,-4.5
+2025,10,Virginia Tech,Louisville,False,-14.03035,-12,-10.5,-10.5
+2025,10,UNLV,New Mexico,False,9.211373571428572,-5,3.5,5.5
+2025,10,UL Monroe,Old Dominion,False,-24.22979857142857,-25,-16.5,-14.5
+2025,10,Maryland,Indiana,False,-19.49562785714286,-45,-21.0,-21.0
+2025,10,Florida,Georgia,True,-16.9664,-4,-7.0,-7.5
+2025,10,Boston College,Notre Dame,False,-30.77337571428572,-15,-31.0,-28.5
+2025,10,South Alabama,Louisiana,False,6.420457142857144,-9,3.5,4.5
+2025,10,Stanford,Pittsburgh,False,-16.3417725,-15,-13.5,-14.0
+2025,10,Western Kentucky,New Mexico State,False,8.214264,19,7.5,9.5
+2025,10,Minnesota,Michigan State,False,7.266668571428571,3,4.5,5.5
+2025,10,Boise State,Fresno State,False,19.942102857142856,-23,17.5,17.5
+2025,10,Kansas State,Texas Tech,False,-5.209312857142857,-23,-7.5,4.5
+2025,10,California,Virginia,False,-6.233727142857145,-10,-6.5,-4.0
+2025,10,Western Michigan,Central Michigan,False,6.202382857142858,3,5.5,6.0
+2025,10,Kansas,Oklahoma State,False,31.422615714285723,17,24.5,24.5
+2025,10,Arkansas,Mississippi State,False,5.3854557142857145,-3,5.5,3.5
+2025,10,Ole Miss,South Carolina,False,16.208535357142857,16,13.0,13.5
+2025,10,Colorado,Arizona,False,-2.3706828571428584,-35,-3.5,-4.5
+2025,10,Michigan,Purdue,False,20.692154464285714,5,21.0,21.0
+2025,10,San Diego State,Wyoming,False,16.793499999999998,17,10.0,10.5
+2025,10,Tennessee,Oklahoma,False,4.2601585714285735,-6,3.0,3.5
+2025,10,NC State,Georgia Tech,False,-9.52203,12,-4.5,-6.5
+2025,10,Oregon State,Washington State,False,-8.853254285714284,3,-3.5,-3.5
+2025,10,Nebraska,USC,False,-4.506914999999999,-4,-4.5,-6.0
+2025,10,Florida State,Wake Forest,False,6.72223,35,12.5,7.5
+2025,10,Auburn,Kentucky,False,10.159297678571429,-7,11.5,10.0
+2025,10,Troy,Arkansas State,False,14.884372857142859,-13,7.5,7.5
+2025,10,Utah,Cincinnati,False,14.099788571428569,31,11.0,7.0
+2025,10,San José State,Hawai'i,False,-1.484587857142858,7,2.5,2.5
+2025,11,Akron,Massachusetts,False,12.239454999999998,34,12.5,10.0
+2025,11,Ohio,Miami (OH),False,8.226822857142857,4,2.5,3.5
+2025,11,Ball State,Kent State,False,8.590097142857141,4,3.0,3.0
+2025,11,Toledo,Northern Illinois,False,17.261894285714284,39,15.5,14.5
+2025,11,South Florida,UTSA,False,14.2586,32,14.0,13.0
+2025,11,App State,Georgia Southern,False,7.261972857142858,-2,4.5,5.5
+2025,11,UCF,Houston,False,4.420445892857144,-3,1.5,-2.5
+2025,11,USC,Northwestern,False,14.793625714285714,21,14.5,15.5
+2025,11,Memphis,Tulane,False,8.16754,-6,3.0,6.5
+2025,11,Army,Temple,False,13.9003225,1,7.0,6.5
+2025,11,Penn State,Indiana,False,-13.98730071428571,-3,-14.0,-11.5
+2025,11,West Virginia,Colorado,False,4.32704375,7,6.5,5.5
+2025,11,Mississippi State,Georgia,False,-14.460211071428565,-20,-9.5,-8.5
+2025,11,Boston College,SMU,False,-17.07850910714286,-32,-10.5,-12.5
+2025,11,Texas Tech,BYU,False,10.625530357142855,22,13.5,10.5
+2025,11,Marshall,James Madison,False,-12.225915714285714,-12,-13.5,-12.5
+2025,11,Arkansas State,Southern Miss,False,-1.3991666071428583,-6,-6.5,-5.5
+2025,11,Purdue,Ohio State,False,-34.78202892857143,-24,-29.5,-28.5
+2025,11,Eastern Michigan,Bowling Green,False,5.062445000000002,6,3.0,1.5
+2025,11,Rice,UAB,False,0.8912853571428583,7,1.0,3.5
+2025,11,Rutgers,Maryland,False,0.7240942857142856,15,1.5,1.5
+2025,11,Middle Tennessee,Florida International,False,0.5888120000000021,-26,1.5,-1.5
+2025,11,UTEP,Jacksonville State,False,-5.232877142857143,-3,-1.5,-1.5
+2025,11,Florida Atlantic,Tulsa,False,5.157102857142857,19,4.5,5.5
+2025,11,East Carolina,Charlotte,False,34.521504285714286,26,28.0,28.5
+2025,11,Missouri,Texas A&M,False,0.8532671428571419,-21,-7.0,-6.0
+2025,11,Iowa,Oregon,False,-4.081587142857142,-2,-4.5,-6.0
+2025,11,Miami,Syracuse,False,25.2953,28,28.5,28.0
+2025,11,UConn,Duke,False,-4.299349999999999,3,-7.5,-8.5
+2025,11,Arizona,Kansas,False,7.2422442857142855,4,5.5,5.5
+2025,11,TCU,Iowa State,False,11.15069892857143,-3,7.5,6.5
+2025,11,New Mexico State,Kennesaw State,False,-4.05222,-3,-11.5,-7.0
+2025,11,Coastal Carolina,Georgia State,False,11.581331428571428,13,7.0,7.5
+2025,11,Vanderbilt,Auburn,False,11.26508416666667,7,6.0,7.5
+2025,11,Wisconsin,Washington,False,-10.163376785714286,3,-10.5,-11.5
+2025,11,North Carolina,Stanford,False,7.5422909523809505,5,8.5,8.5
+2025,11,Louisiana,Texas State,False,-2.0367858928571425,3,-3.5,-2.5
+2025,11,San José State,Air Force,False,3.935605714285714,-10,6.0,3.5
+2025,11,Louisville,California,False,19.773988214285716,-3,18.5,18.5
+2025,11,Clemson,Florida State,False,5.899509464285713,14,1.5,16.5
+2025,11,Virginia,Wake Forest,False,14.741420892857144,-7,7.0,6.5
+2025,11,Utah State,Nevada,False,9.067478571428573,37,10.0,11.0
+2025,11,Notre Dame,Navy,False,32.746273214285715,39,30.5,24.5
+2025,11,Kentucky,Florida,False,1.657796071428572,31,-4.5,-4.5
+2025,11,Alabama,LSU,False,14.958077857142857,11,10.0,5.5
+2025,11,UCLA,Nebraska,False,-9.817825,-7,2.0,2.5
+2025,11,Colorado State,UNLV,False,-8.825924285714287,-32,-5.5,-6.0
+2025,11,Oregon State,Sam Houston,False,13.271578750000003,-4,21.0,18.5
+2025,11,Hawai'i,San Diego State,False,-8.275890178571428,32,-6.5,-4.5
+2025,12,Akron,Kent State,False,8.401231250000004,-7,7.5,4.5
+2025,12,Western Michigan,Ohio,False,-7.64764875,4,1.5,-1.5
+2025,12,Central Michigan,Buffalo,False,0.5499137500000004,19,2.5,2.5
+2025,12,Massachusetts,Northern Illinois,False,-13.894252499999999,-42,-9.5,-11.0
+2025,12,Miami (OH),Toledo,False,-3.033535000000001,-21,-5.5,-3.0
+2025,12,Old Dominion,Troy,False,7.012844999999999,33,9.5,10.5
+2025,12,Louisville,Clemson,False,5.861674583333334,-1,1.5,-5.5
+2025,12,Oregon,Minnesota,False,30.19791375,29,26.5,22.5
+2025,12,Cincinnati,Arizona,False,2.527449999999999,-6,6.0,5.75
+2025,12,Pittsburgh,Notre Dame,False,-10.701121666666664,-22,-12.5,-10.5
+2025,12,UConn,Air Force,False,13.829141250000001,10,7.5,8.0
+2025,12,Oklahoma State,Kansas State,False,-27.153102500000003,-8,-19.5,-20.0
+2025,12,Northwestern,Michigan,True,-5.871939166666666,-2,-10.0,-10.0
+2025,12,Navy,South Florida,False,-14.735577500000003,3,-8.5,-10.0
+2025,12,Ball State,Eastern Michigan,False,-7.820524583333333,-15,-2.5,-3.0
+2025,12,Charlotte,UTSA,False,-18.949863750000002,-21,-17.0,-18.0
+2025,12,Indiana,Wisconsin,False,32.30343,24,28.0,30.5
+2025,12,Texas A&M,South Carolina,False,15.202845416666669,1,16.5,18.5
+2025,12,LSU,Arkansas,False,7.909929999999999,1,4.0,6.5
+2025,12,Arizona State,West Virginia,False,11.579344166666667,2,10.0,10.5
+2025,12,Tulsa,Oregon State,False,-3.1941912500000016,17,1.5,0.25
+2025,12,UAB,North Texas,False,-18.61936125,-29,-17.5,-18.0
+2025,12,Georgia State,Marshall,False,-14.285726607142857,-12,-9.5,-6.5
+2025,12,New Mexico,Colorado State,False,19.863491250000003,3,15.5,14.5
+2025,12,Illinois,Maryland,False,10.6092325,18,16.5,14.0
+2025,12,James Madison,App State,False,25.4430175,48,21.0,19.5
+2025,12,Texas Tech,UCF,False,21.14077625,39,24.5,23.5
+2025,12,Duke,Virginia,False,4.901713333333333,-17,5.5,6.5
+2025,12,Boston College,Georgia Tech,False,-15.115839166666666,-2,-16.5,-16.5
+2025,12,USC,Iowa,False,-3.6366500000000017,5,6.5,6.5
+2025,12,Michigan State,Penn State,False,-12.403806249999999,-18,-7.0,-7.5
+2025,12,Alabama,Oklahoma,False,9.81063291666667,-2,6.5,12.5
+2025,12,Western Kentucky,Middle Tennessee,False,14.542505,16,13.5,13.5
+2025,12,Nevada,San José State,False,-6.405996250000001,45,-9.5,-8.5
+2025,12,UL Monroe,South Alabama,False,-14.7831275,-12,-4.0,-3.5
+2025,12,Southern Miss,Texas State,False,1.5268562500000002,-27,3.0,6.5
+2025,12,Miami,NC State,False,22.472386250000003,34,16.5,14.5
+2025,12,East Carolina,Memphis,False,1.380268749999999,4,3.0,2.5
+2025,12,Tulane,Florida Atlantic,False,20.903546249999998,11,16.5,16.5
+2025,12,Tennessee,New Mexico State,False,36.85595178571429,33,41.5,38.5
+2025,12,Wake Forest,North Carolina,False,3.9262875000000013,16,3.5,6.0
+2025,12,Florida International,Liberty,False,1.1270649999999987,7,-2.5,-3.0
+2025,12,Georgia Southern,Coastal Carolina,False,1.352036249999998,5,3.0,2.5
+2025,12,UNLV,Utah State,False,13.95146625,3,4.5,5.0
+2025,12,Baylor,Utah,False,-9.231651249999997,-27,-9.5,-9.0
+2025,12,Washington,Purdue,False,18.323187083333334,36,14.5,16.5
+2025,12,Ole Miss,Florida,False,19.59779875,10,10.5,13.5
+2025,12,Ohio State,UCLA,False,38.39605666666666,38,33.0,31.5
+2025,12,Florida State,Virginia Tech,False,12.23696875,20,14.0,11.5
+2025,12,Georgia,Texas,False,9.46018916666667,25,3.5,2.5
+2025,12,Missouri,Mississippi State,False,11.021994166666667,22,7.5,6.0
+2025,12,Jacksonville State,Kennesaw State,False,4.690171607142857,9,-3.5,-2.5
+2025,12,Washington State,Louisiana Tech,False,5.418602321428571,25,10.0,6.5
+2025,12,BYU,TCU,False,2.366471249999999,31,3.0,5.5
+2025,12,San Diego State,Boise State,False,-1.0400774999999993,10,2.0,2.5
+2025,12,Fresno State,Wyoming,False,7.802655,21,3.0,4.5
+2025,13,Ohio,Massachusetts,False,37.92433333333334,28,33.5,31.5
+2025,13,Northern Illinois,Western Michigan,False,-1.9053100000000023,-16,-7.0,-6.0
+2025,13,Bowling Green,Akron,False,10.934499666666667,-3,2.5,4.5
+2025,13,Kent State,Central Michigan,False,-11.286346666666665,-12,-7.5,-7.5
+2025,13,Buffalo,Miami (OH),False,-2.9102166666666673,-17,-2.5,2.5
+2025,13,Arkansas State,Louisiana,False,-0.22837333333333287,-4,2.5,3.5
+2025,13,NC State,Florida State,False,-5.167906666666669,10,-6.5,-4.5
+2025,13,UNLV,Hawai'i,False,9.168033333333332,28,2.5,3.0
+2025,13,Ohio State,Rutgers,False,33.8703,33,28.5,32.5
+2025,13,Army,Tulsa,False,18.142774583333335,-1,10.0,10.5
+2025,13,Oklahoma,Missouri,False,6.124939999999999,11,4.5,9.5
+2025,13,Virginia Tech,Miami,False,-22.815040000000007,-17,-17.5,-16.5
+2025,13,Iowa State,Kansas,False,6.295203333333333,24,3.5,4.0
+2025,13,Northwestern,Minnesota,True,3.7634233333333347,3,4.0,4.0
+2025,13,SMU,Louisville,False,5.197782916666668,32,4.0,3.0
+2025,13,Georgia,Charlotte,False,54.95552333333334,32,42.5,44.5
+2025,13,James Madison,Washington State,False,20.508196666666667,4,15.5,13.5
+2025,13,Arizona,Baylor,False,6.339836666666667,24,6.5,6.5
+2025,13,Georgia Southern,Old Dominion,False,-12.47534,-35,-10.0,-10.0
+2025,13,Toledo,Ball State,False,29.27352,29,29.5,26.5
+2025,13,Wyoming,Nevada,False,10.105086666666665,-6,6.5,6.5
+2025,13,App State,Marshall,False,-6.6708187500000005,2,-4.0,-3.5
+2025,13,Louisiana Tech,Liberty,False,6.661492500000001,6,-1.5,-0.0
+2025,13,UAB,South Florida,False,-21.897353333333335,-30,-21.5,-21.5
+2025,13,Middle Tennessee,Sam Houston,False,3.0334761904761898,14,6.5,6.5
+2025,13,UTEP,New Mexico State,False,4.724471249999998,-3,4.0,3.0
+2025,13,Florida Atlantic,UConn,False,-12.175033333333333,-3,-6.0,-7.5
+2025,13,Notre Dame,Syracuse,False,31.27796,63,36.5,35.0
+2025,13,Texas,Arkansas,False,11.087511,15,8.5,10.5
+2025,13,South Alabama,Southern Miss,False,2.7059499999999983,7,-2.5,-3.0
+2025,13,Vanderbilt,Kentucky,False,11.81906,28,7.0,10.0
+2025,13,Iowa,Michigan State,False,25.26911666666667,3,17.5,16.5
+2025,13,UTSA,East Carolina,False,-5.333,34,-2.0,-3.5
+2025,13,Florida International,Jacksonville State,False,1.1892544642857126,6,2.5,1.0
+2025,13,Oregon,USC,False,16.397053333333336,15,11.0,12.0
+2025,13,North Carolina,Duke,False,-7.0363666666666695,-7,-7.0,-1.5
+2025,13,Temple,Tulane,False,-9.167713999999998,-24,-7.5,-8.5
+2025,13,UCF,Oklahoma State,False,22.397556666666667,3,13.5,14.0
+2025,13,Utah,Kansas State,False,19.141783333333333,4,17.5,16.5
+2025,13,Maryland,Michigan,False,-6.2451366666666654,-25,-14.0,-11.5
+2025,13,Troy,Georgia State,False,17.17896,12,9.5,10.5
+2025,13,Houston,TCU,False,-5.1061066666666655,-3,-1.5,2.5
+2025,13,South Carolina,Coastal Carolina,False,22.01521333333333,44,24.0,23.5
+2025,13,Texas State,UL Monroe,False,25.121086666666663,17,20.5,18.5
+2025,13,Penn State,Nebraska,False,8.23828,27,7.0,9.5
+2025,13,Boise State,Colorado State,False,20.46400333333333,28,17.5,16.5
+2025,13,Air Force,New Mexico,False,0.6666533333333335,-17,-3.5,-2.0
+2025,13,Georgia Tech,Pittsburgh,False,2.1219633333333325,-14,2.5,2.5
+2025,13,Rice,North Texas,False,-20.34623666666667,-32,-18.5,-17.5
+2025,13,Stanford,California,False,-4.149930333333332,21,-4.5,-3.0
+2025,13,Florida,Tennessee,False,-6.10543,-20,-3.5,-3.5
+2025,13,Wisconsin,Illinois,False,-6.114965666666668,17,-8.5,-9.5
+2025,13,LSU,Western Kentucky,False,24.298265238095237,3,24.5,22.5
+2025,13,Cincinnati,BYU,False,-2.9355966666666675,-12,-2.5,-2.0
+2025,13,Colorado,Arizona State,False,-4.959106666666665,-25,-7.0,-7.5
+2025,13,UCLA,Washington,False,-13.295022333333334,-34,-10.5,-10.5
+2025,13,San Diego State,San José State,False,18.52988333333333,22,10.0,12.0
+2025,13,Fresno State,Utah State,False,5.810936666666667,-11,1.5,2.5
+2025,14,Massachusetts,Bowling Green,False,-16.520627,-31,-14.0,-15.5
+2025,14,Eastern Michigan,Western Michigan,False,-0.5565179999999996,-10,-10.0,-6.5
+2025,14,Memphis,Navy,False,14.522426000000001,-11,3.5,5.5
+2025,14,Buffalo,Ohio,False,-9.663545,-5,-7.0,-6.0
+2025,14,Kansas,Utah,False,-14.125302,-10,-10.0,-13.5
+2025,14,Mississippi State,Ole Miss,False,-13.592437000000002,-19,-7.5,-9.5
+2025,14,Northern Illinois,Kent State,False,13.627064999999996,-4,5.0,4.5
+2025,14,Nebraska,Iowa,False,-8.005166000000003,-24,-5.5,-4.0
+2025,14,Colorado State,Air Force,False,1.567969999999998,-21,-2.5,-2.75
+2025,14,Georgia Tech,Georgia,True,-15.722973000000003,-7,-16.5,-13.0
+2025,14,New Mexico,San Diego State,False,1.7196939999999996,6,-1.5,-1.5
+2025,14,North Texas,Temple,False,23.482985,27,20.5,19.5
+2025,14,Utah State,Boise State,False,-6.091714999999999,-1,-1.5,-3.75
+2025,14,Texas,Texas A&M,False,-0.06805645454545717,10,-2.5,-2.5
+2025,14,Purdue,Indiana,False,-32.088438000000004,-53,-28.5,-28.5
+2025,14,Arizona State,Arizona,False,0.22288399999999875,-16,-2.0,-1.5
+2025,14,Louisville,Kentucky,False,6.371286999999999,41,-1.5,4.5
+2025,14,Oklahoma State,Iowa State,False,-23.708572000000004,-7,-14.0,-14.5
+2025,14,Kansas State,Colorado,False,18.514196000000002,10,16.5,17.0
+2025,14,Baylor,Houston,False,2.701222,-7,2.5,2.5
+2025,14,Pittsburgh,Miami,False,-8.161412000000002,-31,-6.5,-7.0
+2025,14,Miami (OH),Ball State,False,21.725554000000002,21,16.5,17.5
+2025,14,Florida Atlantic,East Carolina,False,-11.823879999999999,-39,-7.0,-6.5
+2025,14,Central Michigan,Toledo,False,-12.033509,-18,-11.5,-9.5
+2025,14,West Virginia,Texas Tech,False,-22.149223000000003,-49,-24.5,-20.5
+2025,14,Michigan,Ohio State,False,-18.498091454545456,-18,-9.5,-5.5
+2025,14,South Carolina,Clemson,False,3.5464640000000007,-14,2.5,-2.5
+2025,14,BYU,UCF,False,18.705348,20,17.5,18.5
+2025,14,Sam Houston,Florida International,True,-9.928851749999998,-40,-10.5,-10.5
+2025,14,Marshall,Georgia Southern,False,14.065704000000002,-5,10.5,6.5
+2025,14,Old Dominion,Georgia State,False,27.848653999999996,17,28.5,26.5
+2025,14,Jacksonville State,Western Kentucky,False,0.036940416666666476,3,-1.5,-2.5
+2025,14,App State,Arkansas State,False,2.829113,-1,-1.5,1.5
+2025,14,New Mexico State,Middle Tennessee,False,4.07811875,-7,3.5,4.5
+2025,14,Louisiana,UL Monroe,False,18.953069999999997,3,11.0,13.5
+2025,14,Texas State,South Alabama,False,8.881034999999999,23,9.5,9.0
+2025,14,Tulsa,UAB,False,4.40803,-7,9.5,7.5
+2025,14,Syracuse,Boston College,False,4.884156,-22,-3.0,-3.0
+2025,14,Minnesota,Wisconsin,False,1.607986727272727,10,-2.5,2.5
+2025,14,Rutgers,Penn State,False,-11.785029999999997,-4,-14.0,-10.5
+2025,14,UTSA,Army,False,5.686265,-3,8.5,6.5
+2025,14,Washington,Oregon,False,-11.630189,-12,-6.5,-7.5
+2025,14,Arkansas,Missouri,False,-2.0851100000000007,-14,-4.5,-2.5
+2025,14,Duke,Wake Forest,False,9.682358333333335,17,2.5,3.5
+2025,14,TCU,Cincinnati,False,7.699923,22,3.0,4.5
+2025,14,Oklahoma,LSU,False,10.065679,4,11.5,10.0
+2025,14,Liberty,Kennesaw State,False,2.170157916666667,-6,-2.5,-2.0
+2025,14,Southern Miss,Troy,False,0.46703100000000175,-10,7.0,6.5
+2025,14,Tennessee,Vanderbilt,False,0.7190020000000001,-21,2.5,3.5
+2025,14,Coastal Carolina,James Madison,False,-22.431288000000002,-49,-24.0,-21.5
+2025,14,Florida,Florida State,False,2.1689709999999987,19,-1.5,2.5
+2025,14,Washington State,Oregon State,False,16.069750999999997,24,14.0,12.5
+2025,14,Virginia,Virginia Tech,False,14.014907,20,8.5,10.5
+2025,14,Michigan State,Maryland,True,2.478587,10,4.0,4.5
+2025,14,South Florida,Rice,False,29.257246999999996,49,28.5,26.0
+2025,14,NC State,North Carolina,False,7.403809000000001,23,7.0,7.5
+2025,14,Auburn,Alabama,False,-9.248147000000001,-7,-7.0,-5.5
+2025,14,USC,UCLA,False,23.969226636363633,19,21.5,20.5
+2025,14,Illinois,Northwestern,False,7.198930999999998,7,7.0,7.0
+2025,14,Tulane,Charlotte,False,30.312044727272724,27,31.0,29.5
+2025,14,California,SMU,False,-16.69805366666667,3,-13.5,-10.5
+2025,14,Nevada,UNLV,False,-13.786755000000001,-25,-7.5,-9.5
+2025,14,San José State,Fresno State,False,-7.273942000000002,-27,-3.5,-2.5
+2025,14,Stanford,Notre Dame,False,-30.398702727272727,-29,-32.5,-32.5
+2025,14,Hawai'i,Wyoming,False,9.234695,20,8.5,10.5
+2025,15,James Madison,Troy,False,24.32111818181818,17,24.5,21.5
+2025,15,Jacksonville State,Kennesaw State,False,3.3619109999999988,-4,-3.0,1.25
+2025,15,Boise State,UNLV,False,1.7966572727272725,17,6.0,3.0
+2025,15,Tulane,North Texas,False,-2.9683770454545457,13,-1.5,-2.75
+2025,15,Texas Tech,BYU,True,12.961074545454549,27,12.5,12.0
+2025,15,Western Michigan,Miami (OH),True,-0.7025227272727272,10,2.5,2.5
+2025,15,Alabama,Georgia,True,-0.16933272727273474,-21,-1.5,-2.0
+2025,15,Virginia,Duke,True,4.201630909090908,-7,3.5,2.5
+2025,15,Ohio State,Indiana,True,4.028686363636362,-3,3.5,6.0
+2025,16,Navy,Army,True,0.7941660000000001,1,6.0,4.0

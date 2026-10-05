@@ -84,6 +84,13 @@ def main():
     def resolve(cfbd_name):
         return CFBD_TO_ATHLON.get(cfbd_name, cfbd_name)
 
+    # Preseason SP+ off/def split, for the opponent-adjusted in-season
+    # offense/defense used by model_total (see build_totals_inseason_backtest.py).
+    sp_split = pd.read_csv("sp_plus_2026_preseason.csv").set_index("team")[["off_sp_plus", "def_sp_plus"]].dropna()
+    off_pre, def_pre = sp_split["off_sp_plus"].to_dict(), sp_split["def_sp_plus"].to_dict()
+    avg_off, avg_def = sp_split["off_sp_plus"].mean(), sp_split["def_sp_plus"].mean()
+    off_samples, def_samples = {}, {}  # team -> opponent-adjusted pts scored / allowed
+
     samples = {}  # team -> list of implied ratings
     for week in range(1, through_week + 1):
         games_path = f"cfbd_raw/games_{year}_wk{week}.json"
@@ -111,8 +118,21 @@ def main():
             samples.setdefault(home, []).append((home_margin - hfa) + away_pre)
             samples.setdefault(away, []).append((away_margin + hfa) + home_pre)
 
+            if home in off_pre and away in off_pre:
+                hp, ap = g["homePoints"], g["awayPoints"]
+                off_samples.setdefault(home, []).append(hp - (def_pre[away] - avg_def))
+                def_samples.setdefault(home, []).append(ap - (off_pre[away] - avg_off))
+                off_samples.setdefault(away, []).append(ap - (def_pre[home] - avg_def))
+                def_samples.setdefault(away, []).append(hp - (off_pre[home] - avg_off))
+
+    def avg(vals):
+        return round(sum(vals) / len(vals), 2) if vals else None
+
     rows = [
-        {"team": team, "games_played": len(vals), "in_season_margin_2026": round(sum(vals) / len(vals), 2)}
+        {"team": team, "games_played": len(vals), "in_season_margin_2026": avg(vals),
+         "totals_games": len(off_samples.get(team, [])),
+         "in_season_off_2026": avg(off_samples.get(team, [])),
+         "in_season_def_2026": avg(def_samples.get(team, []))}
         for team, vals in samples.items()
     ]
     out = pd.DataFrame(rows).sort_values("in_season_margin_2026", ascending=False)

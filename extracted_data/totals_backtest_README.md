@@ -58,3 +58,18 @@ exists for them yet, same limitation noted for `model_proj_margin_2026` in
 `power_ratings_README.md`.
 
 Data: `totals_backtest_games.csv`. Script: `build_totals_backtest.py`.
+
+## Update 2026-10-05: in-season scoring added to `model_total`
+
+`build_totals_inseason_backtest.py` replays 2023-2025 with each team's SP+
+off/def blended with its opponent-adjusted current-season points scored/
+allowed (games before that week only), weight `n/(n+4)`, calibration fit
+leave-one-season-out. Weeks 5+: r vs actual 0.188 -> 0.281, MAE 13.18 ->
+12.93 (market close: r 0.379, MAE 12.42). O/U hit rate vs market did **not**
+improve (52.3% -> 52.2%). The old preseason-only version's ~53% was mostly
+"bet toward the league-average total" (same side 80-92% of the time),
+which went 49.8% in 2026 wks 1-5. Live since week 6: `build_in_season_ratings.py`
+writes `in_season_off_2026`/`in_season_def_2026`, `build_week_projections.py`
+uses them (`TOTAL_SHRINK_K`, `TOTAL_CAL_*_INSEASON`). Still context only.
+2026 week 5 spot check (ratings through wk 4): MAE 14.06 -> 13.79, r 0.105
+-> 0.262; O/U 25-31 -> 23-33.
