@@ -72,6 +72,10 @@ def get_current_week(year, api_key=None, today=None):
     reg = sorted((w for w in calendar if w.get("seasonType") == "regular"), key=lambda w: w["week"])
     for w in reg:
         last = datetime.date.fromisoformat(w["lastGameStart"][:10])
-        if today <= last:
+        # Strict <: the final kickoff is often late Saturday US time = Sunday
+        # UTC, so on that date the week is effectively over. With <=, a run on
+        # that Sunday re-detected the finished week and overwrote its graded
+        # projections (happened 2026-10-05, week 5).
+        if today < last:
             return w["week"]
     return None

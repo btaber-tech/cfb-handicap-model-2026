@@ -334,7 +334,7 @@ def main():
     print(f"\n{len(df)} FBS-vs-FBS games projected, saved to {proj_out}")
     print(f"{len(fbs_vs_other)} FBS-vs-non-FBS games (excluded from projection, expected FBS wins)")
 
-    pd.DataFrame(fbs_vs_other).sort_values("date").to_csv(other_out, index=False)
+    pd.DataFrame(fbs_vs_other, columns=["date", "fbs_team", "opponent", "home_away"]).sort_values("date").to_csv(other_out, index=False)
 
     if not df.empty:
         with_market = df.dropna(subset=["model_vs_market_gap"]).copy()
