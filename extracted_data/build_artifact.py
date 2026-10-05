@@ -148,8 +148,11 @@ FOOTER = """
     (comparison-only, not blended in). HFA/sigma recalibrated against 2,210 FBS games
     (2023-2025): +2.9 at a true home site, +1.8 at a "neutral" site (most still favor one side),
     +6.0 for altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah,
-    Wyoming). Totals are a calibrated SP+ offense/defense matchup average -- weak signal (R&sup2;&asymp;0.03),
-    shown as context only.</p>
+    Wyoming). From week 3 the margin also blends in each team's opponent-adjusted 2026 results (ramping weight).
+    Totals are a calibrated offense/defense matchup average: preseason SP+ off/def blended with each team's
+    opponent-adjusted 2026 points scored/allowed (more games played = more weight). More accurate than
+    preseason-only in a 2023-25 replay, but still well behind the market's total and no over/under edge --
+    context only.</p>
     <p>W-L and ATS columns: each team's season-to-date record before this week, listed in matchup order
     (hover for the team). W-L includes games vs. FCS opponents; ATS counts games with a line, graded against
     the median closing spread across books (W-L-push). Context only -- not a model input.</p>
