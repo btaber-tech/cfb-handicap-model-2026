@@ -270,3 +270,4 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,5,401860921,2026-10-04,Fresno State,Washington State,Fresno State,-2.4,Fresno State,-20,26,6,True,17.6,1.5,away_covered,Fresno State,True,49.5,45.5,32,17.5,under,over,under,False,-3.9,False
 2026,5,401856817,2026-10-04,Baylor,Arizona State,Baylor,-0.9,Baylor,-36,55,19,True,35.1,4.0,away_covered,Baylor,True,53.6,49.5,74,20.4,over,over,over,True,-4.9,False
 2026,5,401860900,2026-10-04,Texas State,San Diego State,San Diego State,0.8,San Diego State,2,29,31,True,1.2,-5.5,home_covered,San Diego State,True,55.2,59.5,60,4.8,over,under,over,False,6.3,True
+2026,6,401871090,2026-10-07,Southern Miss,Troy,Troy,11.7,Troy,21,34,55,True,9.3,9.5,home_covered,Troy,True,51.9,49.5,89,37.1,over,over,over,True,2.2,False
