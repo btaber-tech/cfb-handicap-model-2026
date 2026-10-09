@@ -273,3 +273,7 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,6,401871090,2026-10-07,Southern Miss,Troy,Troy,11.7,Troy,21,34,55,True,9.3,9.5,home_covered,Troy,True,51.9,51.5,89,37.1,over,over,over,True,2.2,False
 2026,6,401871066,2026-10-07,New Mexico State,Florida International,Florida International,4.6,Florida International,19,3,22,True,14.4,7.0,home_covered,New Mexico State,False,49.4,47.0,25,24.4,under,over,under,False,-2.4,False
 2026,6,401871051,2026-10-07,Jacksonville State,Kennesaw State,Jacksonville State,-1.9,Jacksonville State,-1,27,26,True,0.9,-3.0,home_covered,Kennesaw State,True,50.0,49.0,53,3.0,over,over,over,True,1.1,False
+2026,6,401870766,2026-10-08,Sam Houston,Liberty,Liberty,19.6,Liberty,32,3,35,True,12.4,13.5,home_covered,Liberty,True,51.9,52.5,38,13.9,under,under,under,True,6.1,True
+2026,6,401862794,2026-10-08,South Florida,UTSA,UTSA,6.2,UTSA,7,24,31,True,0.8,7.0,push,,,51.5,50.0,55,3.5,over,over,over,True,-0.8,False
+2026,6,401871052,2026-10-08,Missouri State,Western Kentucky,Missouri State,-2.4,Western Kentucky,21,13,34,False,23.4,1.5,home_covered,Missouri State,False,54.1,56.5,47,7.1,under,under,under,True,-3.9,False
+2026,6,401869933,2026-10-08,South Alabama,Arkansas State,Arkansas State,1.9,South Alabama,-7,56,49,False,8.9,3.0,away_covered,South Alabama,True,56.2,60.5,105,48.8,over,under,over,False,-1.1,False
