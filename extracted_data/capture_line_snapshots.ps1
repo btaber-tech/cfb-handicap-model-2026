@@ -50,10 +50,10 @@ try {
     Set-Location $scriptDir
     Log "Starting run"
 
-    $captureOutput = python capture_line_snapshots.py --year 2026 2>&1 | Out-String
+    $captureOutput = py -3.14 capture_line_snapshots.py --year 2026 2>&1 | Out-String
     Log "capture_line_snapshots.py output: $captureOutput"
 
-    $scorecardOutput = python build_scorecard.py --year 2026 2>&1 | Out-String
+    $scorecardOutput = py -3.14 build_scorecard.py --year 2026 2>&1 | Out-String
     Log "build_scorecard.py output: $scorecardOutput"
 
     Set-Location $repoRoot
