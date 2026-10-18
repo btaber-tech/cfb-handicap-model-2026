@@ -378,4 +378,12 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,7,401862805,2026-10-17,Tulsa,Rice,Tulsa,-1.7,Tulsa,-21,38,17,True,19.3,-4.0,away_covered,Rice,False,50.4,46.5,55,4.6,over,over,over,True,2.3,False
 2026,7,401856721,2026-10-17,Missouri,Ole Miss,Ole Miss,1.3,Ole Miss,28,3,31,True,26.7,5.5,home_covered,Missouri,False,54.9,59.0,34,20.9,under,under,under,True,-4.2,False
 2026,7,401858493,2026-10-17,Washington,Purdue,Washington,-0.6,Washington,-12,38,26,True,11.4,3.5,away_covered,Washington,True,53.3,50.5,64,10.7,over,over,over,True,-4.1,False
+2026,7,401864521,2026-10-18,New Mexico,Hawai'i,New Mexico,-22.7,New Mexico,-11,21,10,True,11.7,-14.5,home_covered,New Mexico,False,50.8,45.0,31,19.8,under,over,under,False,-8.2,False
+2026,7,401866445,2026-10-18,Ohio,Sacramento State,Ohio,-20.5,Ohio,-41,48,7,True,20.5,-15.5,away_covered,Ohio,True,50.1,48.5,55,4.9,over,over,over,True,-5.0,False
+2026,7,401864523,2026-10-18,San José State,UTEP,San José State,-17.9,San José State,-13,24,11,True,4.9,-7.0,away_covered,San José State,True,51.6,45.5,35,16.6,under,over,under,False,-10.9,False
 2026,7,401871091,2026-10-18,Louisiana Tech,UL Monroe,Louisiana Tech,-17.8,Louisiana Tech,-24,24,0,True,6.2,-15.5,away_covered,Louisiana Tech,True,54.8,55.5,24,30.8,under,under,under,True,-2.3,False
+2026,7,401856833,2026-10-18,Utah,Colorado,Utah,-17.6,Utah,-3,27,24,True,14.6,-14.5,home_covered,Utah,False,48.6,49.5,51,2.4,over,under,over,False,-3.1,False
+2026,7,401860904,2026-10-18,Fresno State,San Diego State,Fresno State,-15.9,San Diego State,3,23,26,False,18.9,-7.5,home_covered,Fresno State,False,49.8,45.5,49,0.8,under,over,over,True,-8.4,False
+2026,7,401858269,2026-10-18,Wake Forest,California,Wake Forest,-14.5,Wake Forest,-34,41,7,True,19.5,-10.5,away_covered,Wake Forest,True,53.2,53.5,48,5.2,under,under,under,True,-4.0,False
+2026,7,401862804,2026-10-18,Navy,UTSA,UTSA,10.8,UTSA,4,34,38,True,6.8,6.5,away_covered,UTSA,False,52.8,55.5,72,19.2,over,under,over,False,4.3,True
+2026,7,401858492,2026-10-18,Nebraska,Oregon,Nebraska,-3.1,Oregon,3,14,17,False,6.1,7.0,away_covered,Nebraska,True,54.8,51.5,31,23.8,under,over,under,False,-10.1,False
