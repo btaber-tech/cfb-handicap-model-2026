@@ -56,9 +56,18 @@ try {
     $scorecardOutput = py -3.14 build_scorecard.py --year 2026 2>&1 | Out-String
     Log "build_scorecard.py output: $scorecardOutput"
 
+    # First-TD props: builds picks once the week's projections exist
+    # (games already kicked off stay locked), then grades finished games.
+    $firstTdOutput = py -3.14 build_first_td_picks.py --year 2026 2>&1 | Out-String
+    Log "build_first_td_picks.py output: $firstTdOutput"
+
+    $firstTdGradeOutput = py -3.14 grade_first_td_picks.py --year 2026 2>&1 | Out-String
+    Log "grade_first_td_picks.py output: $firstTdGradeOutput"
+
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
     Commit-AndPush @("extracted_data/season_scorecard_2026.csv") "Scorecard update"
+    Commit-AndPush @("extracted_data/first_td_picks_week*_2026.csv", "extracted_data/first_td_scorecard_2026.csv") "First-TD picks update"
 
     Log "Run complete"
 }
