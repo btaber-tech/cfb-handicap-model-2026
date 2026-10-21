@@ -387,3 +387,6 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,7,401858269,2026-10-18,Wake Forest,California,Wake Forest,-14.5,Wake Forest,-34,41,7,True,19.5,-10.5,away_covered,Wake Forest,True,53.2,53.5,48,5.2,under,under,under,True,-4.0,False
 2026,7,401862804,2026-10-18,Navy,UTSA,UTSA,10.8,UTSA,4,34,38,True,6.8,6.5,away_covered,UTSA,False,52.8,55.5,72,19.2,over,under,over,False,4.3,True
 2026,7,401858492,2026-10-18,Nebraska,Oregon,Nebraska,-3.1,Oregon,3,14,17,False,6.1,7.0,away_covered,Nebraska,True,54.8,51.5,31,23.8,under,over,under,False,-10.1,False
+2026,8,401871055,2026-10-20,Middle Tennessee,Florida International,Florida International,13.7,Middle Tennessee,-3,26,23,False,16.7,10.0,away_covered,Florida International,False,48.4,45.5,49,0.6,over,over,over,True,3.7,True
+2026,8,401871092,2026-10-20,South Alabama,Marshall,South Alabama,-6.3,Marshall,7,13,20,False,13.3,-2.5,home_covered,South Alabama,False,60.7,64.5,33,27.7,under,under,under,True,-3.8,False
+2026,8,401871069,2026-10-20,Missouri State,Delaware,Delaware,2.5,Delaware,23,38,61,True,20.5,3.0,home_covered,Missouri State,False,51.2,52.0,99,47.8,over,under,over,False,-0.5,False
