@@ -1,0 +1,291 @@
+<title>Q1 Edge Board · Week __WEEK__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: scoreboard header + summary tiles, controls, ranked matchup cards (projected Q1 score, margin vs market, offense-vs-defense stat rows), then the "what predicts Q1" chart and backtest */
+:root{
+  --bg:#eef1ec; --surface:#fbfcfa; --ink:#18221b; --muted:#5e6b62; --line:#d5ddd6;
+  --turf:#1f6b3a; --turf-soft:#dcebdf; --chalk:#ffffff; --gold:#b7791f; --track:#e3e9e4;
+  --s1:#2a7a48; --s2:#4a62c4;
+  --good:#1d7a3e; --good-soft:#d6efdd; --warn:#9a5b00; --warn-soft:#f6e6cc; --bad:#b0392b; --bad-soft:#f6dedb;
+  --display:"Oswald","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1511; --surface:#17201a; --ink:#e6ede7; --muted:#93a297; --line:#2a362e;
+  --turf:#4fb874; --turf-soft:#1c3324; --chalk:#0f1511; --gold:#e0a84a; --track:#223028;
+  --s1:#2f8f55; --s2:#7a8fe0;
+  --good:#5fd08a; --good-soft:#173a24; --warn:#e8b25c; --warn-soft:#3a2c14; --bad:#f08a7c; --bad-soft:#3d1f1b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1511; --surface:#17201a; --ink:#e6ede7; --muted:#93a297; --line:#2a362e;
+  --turf:#4fb874; --turf-soft:#1c3324; --chalk:#0f1511; --gold:#e0a84a; --track:#223028;
+  --s1:#2f8f55; --s2:#7a8fe0;
+  --good:#5fd08a; --good-soft:#173a24; --warn:#e8b25c; --warn-soft:#3a2c14; --bad:#f08a7c; --bad-soft:#3d1f1b; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:1100px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:24px}
+header{display:grid;gap:18px;border-bottom:3px solid var(--turf);padding-bottom:18px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--turf)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);line-height:1;margin:6px 0 0;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:24px;text-transform:uppercase;letter-spacing:.02em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:8px 0 0;max-width:68ch}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.tile b{display:block;font-family:var(--display);font-size:28px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile span{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tile small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.group button{font:600 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+.group button[aria-pressed="true"]{background:var(--turf);border-color:var(--turf);color:var(--chalk)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+input[type=search]{font:15px var(--body);padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);width:220px;max-width:100%}
+.list{display:grid;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:12px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.rank{font-family:var(--display);font-size:18px;font-weight:700;color:var(--turf)}
+.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
+.score{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;font-family:var(--display);text-transform:uppercase;min-width:0}
+.score .t{font-size:clamp(20px,3.4vw,28px);font-weight:600;line-height:1.1}
+.score .n{font-size:clamp(28px,4.6vw,40px);font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.score .edge .n{color:var(--turf)}
+.score .dash{color:var(--muted);font-size:24px}
+.margin{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.mbox{text-align:right}
+.mbox b{display:block;font-family:var(--display);font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.mbox span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mbox small{display:block;font:500 12px var(--mono);color:var(--muted);margin-top:3px}
+.mbox.lead{background:var(--turf-soft);border-radius:6px;padding:8px 12px}
+.mbox.lead b{color:var(--turf);font-size:30px}
+.pill{font:700 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:999px;white-space:nowrap}
+.pill.agree{background:var(--good-soft);color:var(--good)}
+.pill.split{background:var(--warn-soft);color:var(--warn)}
+.pill.none{background:var(--track);color:var(--muted)}
+.rows{display:grid;gap:6px;overflow-x:auto}
+.row{display:grid;grid-template-columns:minmax(150px,1.3fr) repeat(3,minmax(120px,1fr));gap:4px 14px;align-items:center;font-size:14px;min-width:560px}
+.row.head{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.row .who{font-weight:600;min-width:0}
+.row .who small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.cell{display:grid;gap:3px;font-variant-numeric:tabular-nums}
+.cell .v{display:flex;justify-content:space-between;gap:6px;font-family:var(--mono);font-size:13px}
+.cell .v i{font-style:normal;color:var(--muted)}
+.bar{height:6px;border-radius:3px;background:var(--track);position:relative;overflow:hidden}
+.bar em{position:absolute;inset:0 auto 0 0;border-radius:3px;background:var(--turf)}
+.bar.hot em{background:var(--gold)}
+.empty{color:var(--muted);padding:24px;text-align:center;border:1px dashed var(--line);border-radius:8px}
+section.method{display:grid;gap:16px;border-top:3px solid var(--turf);padding-top:18px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0;display:grid;gap:10px;align-content:start}
+.panel h3{font-family:var(--display);font-weight:600;font-size:17px;text-transform:uppercase;letter-spacing:.03em;margin:0}
+.panel p{margin:0;color:var(--muted);max-width:68ch}
+.legend{display:flex;gap:14px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto}
+.chart text{fill:var(--muted);font:12px var(--body)}
+.chart text.lab{fill:var(--ink);font-weight:600}
+.chart line{stroke:var(--line)}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font:600 12px var(--mono);padding:5px 8px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-120%)}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:5px 8px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.formula{font-family:var(--mono);font-size:13px;background:var(--turf-soft);color:var(--ink);padding:10px 12px;border-radius:6px;overflow-x:auto;white-space:nowrap}
+.foot{color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--turf)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">College Football __YEAR__ · Week __WEEK__ · 1st Quarter</div>
+      <h1>Q1 Edge Board</h1>
+      <p class="sub">Which teams are most likely to be up big after the 1st quarter. Each team's projected Q1 points come from its offense against the opponent's defense (season scoring and Q1 scoring, with red-zone TD rates shown for context). The headline number is the chance the stronger side leads by 7+, 10+ or 14+ after one quarter, with the fair odds that chance implies.</p>
+    </div>
+    <div class="tiles" id="tiles"></div>
+  </header>
+
+  <div class="controls">
+    <div class="group" role="group" aria-label="Sort">
+      <label>Sort</label>
+      <button id="sort-edge" aria-pressed="true">Most lopsided</button>
+      <button id="sort-kick" aria-pressed="false">Kickoff</button>
+    </div>
+    <div class="group" role="group" aria-label="Lead size">
+      <label>Lead by</label>
+      <button id="l-7" aria-pressed="false">7+</button>
+      <button id="l-10" aria-pressed="false">10+</button>
+      <button id="l-14" aria-pressed="true">14+</button>
+    </div>
+    <div class="group" role="group" aria-label="Filter">
+      <label>Market</label>
+      <button id="f-all" aria-pressed="true">All</button>
+      <button id="f-agree" aria-pressed="false">Agrees</button>
+      <button id="f-split" aria-pressed="false">Disagrees</button>
+    </div>
+    <input type="search" id="q" placeholder="Find a team" aria-label="Find a team">
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <section class="method">
+    <h2>What predicts the Q1 margin</h2>
+    <div class="cols">
+      <div class="panel">
+        <h3>Correlation with the actual Q1 margin</h3>
+        <div class="legend"><span><i style="background:var(--s1)"></i>2025 (600 games)</span><span><i style="background:var(--s2)"></i>2026 wks 4–8 (227)</span></div>
+        <div class="chart" id="chart"></div>
+        <table id="corr-table" aria-label="Correlation values"></table>
+        <p>Each stat is a matchup: team offense vs. opponent defense, minus the same for the other side. Season scoring beats Q1-only scoring because it is built on four times as many points. Red-zone TD rate is weak and adds nothing once scoring is in.</p>
+      </div>
+      <div class="panel">
+        <h3>How the model is weighted</h3>
+        <div class="formula" id="formula"></div>
+        <p>Weights are fitted to 827 games (2025 and 2026, each week using only earlier games). The red-zone weight fitted slightly negative, which is noise, so it is set to zero and red-zone rates are shown on the cards as context only.</p>
+        <table id="bt-table" aria-label="Backtest results"></table>
+        <p>Lead chances come from a logistic curve on the projected margin, fitted per lead size and checked on a held-out season. Projected margin picks out 14+ leads about 77% of the time (50% is a coin flip). A team's own past 14+ blowouts this season were a weaker guide (69%), so they are not used.</p>
+        <p>The market spread is still the better single predictor. When this board and the spread disagree on the side, the spread has been right, so treat a "Disagrees" game as a warning rather than an edge.</p>
+      </div>
+    </div>
+    <p class="foot">Data: CollegeFootballData.com games, quarter scores, lines and play-by-play through week __PREVWEEK__. Market Q1 margin = 0.25 × full-game spread. Built __BUILT__.</p>
+  </section>
+</div>
+
+<script>
+(() => {
+const DATA = __DATA__;
+const BT = __BACKTEST__;
+const games = DATA.games;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = (v, d=1) => v == null ? "–" : Number(v).toFixed(d);
+const pct = v => v == null ? "–" : Math.round(v * 100) + "%";
+const odds = p => p == null || p <= 0 || p >= 1 ? "–" : p >= 0.5 ? "−" + Math.round(100 * p / (1 - p)) : "+" + Math.round(100 * (1 - p) / p);
+let lead = 14;
+const signed = v => v == null ? "–" : (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(1);
+
+games.forEach(g => {
+  g.edgeHome = g.home_q1_margin >= 0;
+  g.edge = Math.abs(g.home_q1_margin);
+  g.mkt = g.market_home_q1_margin == null ? null : g.market_home_q1_margin * (g.edgeHome ? 1 : -1);
+  g.agree = g.mkt == null ? null : g.mkt > 0;
+  g.kick = new Date(g.start_utc + ":00Z");
+});
+const byEdge = [...games].sort((a, b) => b.edge - a.edge);
+byEdge.forEach((g, i) => g.rank = i + 1);
+
+// Summary tiles
+const leader = byEdge[0];
+const withMkt = games.filter(g => g.agree != null);
+const tiles = () => $("tiles").innerHTML = [
+  ["Matchups", games.length, "FBS vs FBS still to play"],
+  [`Best ${lead}+ lead shot`, leader ? pct(leader["p_lead_" + lead]) : "–", leader ? `${esc(leader.edgeHome ? leader.home : leader.away)} · fair ${odds(leader["p_lead_" + lead])}` : ""],
+  [`Any team leads ${lead}+`, BT.base[lead], "base rate per team, past seasons"],
+  ["Market agrees", `${withMkt.filter(g => g.agree).length}/${withMkt.length}`, "same side as the spread"],
+].map(([l, v, s]) => `<div class="tile"><span>${l}</span><b>${v}</b><small>${s}</small></div>`).join("");
+
+// Bars scale to the slate's range so a long bar means "high for this week"
+const max = k => Math.max(...games.flatMap(g => [g["home_" + k], g["away_" + k]]).filter(v => v != null));
+const MAX = {pts_for: max("pts_for"), pts_against: max("pts_against"), q1_for: max("q1_for"), q1_against: max("q1_against")};
+
+function cell(offV, defV, offMax, defMax, isPct, hotOff, hotDef) {
+  const f = isPct ? pct : fmt;
+  const w = (v, m) => v == null ? 0 : Math.max(4, 100 * v / m);
+  return `<div class="cell">
+    <div class="v"><span>${f(offV)}</span><i>vs</i><span>${f(defV)}</span></div>
+    <div class="bar${hotOff ? " hot" : ""}"><em style="width:${w(offV, offMax)}%"></em></div>
+    <div class="bar${hotDef ? " hot" : ""}"><em style="width:${w(defV, defMax)}%"></em></div>
+  </div>`;
+}
+function side(g, o) {
+  const d = o === "home" ? "away" : "home";
+  const hot = (v, k) => v != null && v >= 0.8 * MAX[k];
+  return `<div class="row">
+    <div class="who">${esc(g[o])} offense<small>vs ${esc(g[d])} defense</small></div>
+    ${cell(g[o + "_pts_for"], g[d + "_pts_against"], MAX.pts_for, MAX.pts_against, false, hot(g[o + "_pts_for"], "pts_for"), hot(g[d + "_pts_against"], "pts_against"))}
+    ${cell(g[o + "_q1_for"], g[d + "_q1_against"], MAX.q1_for, MAX.q1_against, false, hot(g[o + "_q1_for"], "q1_for"), hot(g[d + "_q1_against"], "q1_against"))}
+    ${cell(g[o + "_rz_td"], g[d + "_rz_td_allowed"], 1, 1, true, false, false)}
+  </div>`;
+}
+function card(g) {
+  const [t1, s1, t2, s2] = g.edgeHome ? [g.home, g.home_q1_proj, g.away, g.away_q1_proj] : [g.away, g.away_q1_proj, g.home, g.home_q1_proj];
+  const pill = g.agree == null ? `<span class="pill none">No line</span>`
+    : g.agree ? `<span class="pill agree">✓ Market agrees</span>` : `<span class="pill split">! Market disagrees</span>`;
+  const when = g.kick.toLocaleString(undefined, {weekday: "short", hour: "numeric", minute: "2-digit", timeZoneName: "short"});
+  const [first, second] = g.edgeHome ? ["home", "away"] : ["away", "home"];
+  return `<article class="card">
+    <div class="meta"><span class="rank">#${g.rank}</span><span>${esc(when)}</span><span>${esc(g.away)} @ ${esc(g.home)}${g.neutral ? " (neutral)" : ""}</span></div>
+    <div class="top">
+      <div class="score" aria-label="Projected first quarter score">
+        <span class="edge"><span class="t">${esc(t1)}</span> <span class="n">${Math.round(s1)}</span></span>
+        <span class="dash">–</span>
+        <span><span class="n">${Math.round(s2)}</span> <span class="t">${esc(t2)}</span></span>
+      </div>
+      <div class="margin">
+        <div class="mbox lead"><span>${esc(t1)} leads ${lead}+</span><b>${pct(g["p_lead_" + lead])}</b><small>fair ${odds(g["p_lead_" + lead])}</small></div>
+        <div class="mbox"><span>Expected margin</span><b>${signed(g.edge)}</b></div>
+        <div class="mbox"><span>Market Q1</span><b>${signed(g.mkt)}</b></div>
+        ${pill}
+      </div>
+    </div>
+    <div class="rows">
+      <div class="row head"><div>Matchup</div><div>Pts/game · allowed</div><div>Q1 pts/game · allowed</div><div>Red-zone TD% · allowed</div></div>
+      ${side(g, first)}
+      ${side(g, second)}
+    </div>
+  </article>`;
+}
+
+let sortBy = "edge", filter = "all";
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  let rows = sortBy === "edge" ? byEdge : [...games].sort((a, b) => a.kick - b.kick || b.edge - a.edge);
+  rows = rows.filter(g => (filter === "all" || (filter === "agree" ? g.agree === true : g.agree === false))
+    && (!q || (g.home + " " + g.away).toLowerCase().includes(q)));
+  $("list").innerHTML = rows.length ? rows.map(card).join("") : `<div class="empty">No matchups match. Clear the search or pick "All".</div>`;
+}
+function press(ids, on) { ids.forEach(id => $(id).setAttribute("aria-pressed", String(id === on))); }
+$("sort-edge").onclick = () => { sortBy = "edge"; press(["sort-edge", "sort-kick"], "sort-edge"); render(); };
+$("sort-kick").onclick = () => { sortBy = "kick"; press(["sort-edge", "sort-kick"], "sort-kick"); render(); };
+[["f-all", "all"], ["f-agree", "agree"], ["f-split", "split"]].forEach(([id, f]) =>
+  $(id).onclick = () => { filter = f; press(["f-all", "f-agree", "f-split"], id); render(); });
+[7, 10, 14].forEach(t => $("l-" + t).onclick = () => { lead = t; press(["l-7", "l-10", "l-14"], "l-" + t); tiles(); render(); });
+$("q").oninput = render;
+tiles();
+render();
+
+// Correlation chart: grouped horizontal bars, one axis from 0
+(function chart() {
+  const rows = BT.corr, W = 520, rowH = 44, L = 150, R = 20, T = 8, H = T + rows.length * rowH + 26;
+  const xmax = 0.5, x = v => L + (W - L - R) * v / xmax;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Correlation of each stat with the actual Q1 margin, 2025 and 2026">`;
+  [0, 0.1, 0.2, 0.3, 0.4, 0.5].forEach(t => s += `<line x1="${x(t)}" x2="${x(t)}" y1="${T}" y2="${H - 22}"/><text x="${x(t)}" y="${H - 6}" text-anchor="middle">${t.toFixed(1)}</text>`);
+  rows.forEach((r, i) => {
+    const y = T + i * rowH + 8;
+    s += `<text class="lab" x="${L - 10}" y="${y + 15}" text-anchor="end">${esc(r.label)}</text>`;
+    [["s1", r.y2025, "2025"], ["s2", r.y2026, "2026"]].forEach(([c, v, yr], j) => {
+      const yy = y + j * 14, w = Math.max(2, x(v) - L);
+      s += `<rect x="${L}" y="${yy}" width="${w}" height="12" rx="3" fill="var(--${c})" data-tip="${esc(r.label)} · ${yr}: r = ${v.toFixed(3)}"/>`;
+      s += `<rect x="${L}" y="${yy - 1}" width="${W - L - R}" height="14" fill="transparent" data-tip="${esc(r.label)} · ${yr}: r = ${v.toFixed(3)}"/>`;
+    });
+  });
+  $("chart").innerHTML = s + `</svg><div class="tip" hidden></div>`;
+  const tip = $("chart").querySelector(".tip");
+  $("chart").querySelectorAll("[data-tip]").forEach(el => {
+    el.addEventListener("mousemove", e => {
+      const b = $("chart").getBoundingClientRect();
+      tip.hidden = false; tip.textContent = el.dataset.tip;
+      tip.style.left = (e.clientX - b.left) + "px"; tip.style.top = (e.clientY - b.top) + "px";
+    });
+    el.addEventListener("mouseleave", () => tip.hidden = true);
+  });
+  $("corr-table").innerHTML = `<tr><th>Stat</th><th>2025</th><th>2026</th></tr>` +
+    rows.map(r => `<tr><td>${esc(r.label)}</td><td>${r.y2025.toFixed(2)}</td><td>${r.y2026.toFixed(2)}</td></tr>`).join("");
+})();
+
+const w = DATA.weights;
+$("formula").textContent = `Q1 pts = ${w.intercept.toFixed(2)} + ${w.pts_match.toFixed(3)} × season-scoring matchup + ${w.q1_match.toFixed(3)} × Q1-scoring matchup + ${w.home.toFixed(2)} if home`;
+$("bt-table").innerHTML = `<tr><th>Out-of-sample test</th><th>r with Q1 margin</th></tr>` +
+  BT.models.map(m => `<tr><td>${esc(m.label)}</td><td>${esc(m.r)}</td></tr>`).join("");
+})();
+</script>

@@ -64,10 +64,19 @@ try {
     $firstTdGradeOutput = py -3.14 grade_first_td_picks.py --year 2026 2>&1 | Out-String
     Log "grade_first_td_picks.py output: $firstTdGradeOutput"
 
+    # Q1 Edge Board: offense-vs-defense 1st-quarter matchups for the
+    # upcoming week (games not yet completed), then the HTML page.
+    $q1Output = py -3.14 build_q1_matchups.py --year 2026 2>&1 | Out-String
+    Log "build_q1_matchups.py output: $q1Output"
+
+    $q1PageOutput = py -3.14 make_q1_page.py --year 2026 2>&1 | Out-String
+    Log "make_q1_page.py output: $q1PageOutput"
+
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
     Commit-AndPush @("extracted_data/season_scorecard_2026.csv") "Scorecard update"
     Commit-AndPush @("extracted_data/first_td_picks_week*_2026.csv", "extracted_data/first_td_scorecard_2026.csv") "First-TD picks update"
+    Commit-AndPush @("extracted_data/q1_matchups_week*_2026.csv", "extracted_data/q1_matchups_week*_2026.html") "Q1 Edge Board update"
 
     Log "Run complete"
 }
