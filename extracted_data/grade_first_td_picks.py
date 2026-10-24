@@ -35,16 +35,44 @@ def name_key(first_initial, last):
 
 def player_key(full_name):
     parts = [p for p in full_name.replace(".", ". ").split() if p.strip(".").lower() not in SUFFIXES]
-    return name_key(parts[0], parts[-1])
+    return name_key(parts[0], parts[-1]) if parts else None
+
+
+# CFBD play text comes in several formats, depending on the feed:
+#   "#5 K.Lacy rush middle ...", "#3 C.Pierre Jr. rush ...", "G. Davidson run for 75 yd",
+#   "Jaylen Raynor 8 Yd Run (...)", "... pass complete short right to #81 W.Rodriguez",
+#   "J. Potts pass to J. West for 7 yds", "Allen Middleton 18 Yd pass from Jake Curry".
+_L = r"(?:[^\W\d_]|['\-])"  # a letter (accented ones included), apostrophe or hyphen
+_NAME = rf"([A-Z]{_L}*\.?(?:,?\s?[A-Z]{_L}*\.?){{0,3}})(?!\w)"
+_PREFIX = re.compile(r"^\s*(?:\(\d+:\d+\)\s*)?(?:No Huddle-?\s*)?(?:Shotgun\s*)?")
+_RUSH = [re.compile(r"(?:#\d+\s+)?" + _NAME + r"\s+(?:rush|run)\b"),
+         re.compile(_NAME + r"\s+\d+\s+Yd\s+Run\b")]
+_TARGET = [re.compile(r"\bpass(?: complete| incomplete)?\b[^#]*?\bto\s+(?:#\d+\s+)?" + _NAME),
+           re.compile(_NAME + r"\s+\d+\s+Yd\s+pass from\b")]
+
+
+def ball_carrier(text, kind):
+    """(display name, name key) of the rusher (kind='rush') or target (kind='target'), or (None, None)."""
+    text = _PREFIX.sub("", text)
+    for pat in (_RUSH if kind == "rush" else _TARGET):
+        m = pat.search(text)
+        if m and player_key(m.group(1)):
+            return m.group(1), player_key(m.group(1))
+    return None, None
 
 
 def scorer_from_text(text):
     before = text.split("TOUCHDOWN")[0]
     hits = re.findall(r"#\d+\s+([A-Za-z'\-]+)\.\s?([A-Za-z'\-]+)", before)
-    if not hits:
-        return None, None
-    first, last = hits[-1]
-    return f"{first}.{last}", name_key(first, last)
+    if hits:
+        first, last = hits[-1]
+        return f"{first}.{last}", name_key(first, last)
+    # Summary-style text with no jersey numbers: the target on a pass, else the rusher.
+    for kind in ("target", "rush"):
+        name, key = ball_carrier(text, kind)
+        if key:
+            return name, key
+    return None, None
 
 
 def first_tds(year, week):

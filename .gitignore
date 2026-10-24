@@ -17,3 +17,6 @@ extracted_data/capture_line_snapshots.log
 # Python
 __pycache__/
 *.pyc
+
+# CFBD play-by-play cache (284MB, re-fetchable from the API)
+extracted_data/cfbd_raw/plays_*.json

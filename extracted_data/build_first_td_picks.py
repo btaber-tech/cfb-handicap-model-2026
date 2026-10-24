@@ -4,21 +4,40 @@ model projections (week{N}_{year}_projections.csv from
 build_week_projections.py).
 
 Per game, for each side:
-  p_team_first = 0.5 + (team win prob - 0.5) * FIRST_TD_FLATTEN
-      -- the first TD is far noisier than the final result, so the model's
-         win probability is pulled toward a coin flip.
-  share        = player's rushing + receiving TDs / team's rushing +
-                 receiving TDs, season to date (CFBD /stats/player/season).
+  p_team_first = pts^FIRST_TEAM_POWER / (home pts^FIRST_TEAM_POWER + away pts^FIRST_TEAM_POWER)
+      where pts = team implied points
+      -- implied points from the market spread + total when a line exists
+         (projections' market_home_margin / market_total), else the
+         model's own margin + total.
+  share        = player's blended TD score / team's blended TD score, where
+                 each player's score = XTD_WEIGHT * expected TDs + (1 -
+                 XTD_WEIGHT) * actual TDs, season to date. Expected TDs come
+                 from play-by-play usage: every carry and target is worth the
+                 league-wide TD rate for its play type and distance to goal,
+                 so red-zone and goal-line work counts for far more than
+                 midfield touches. A team's last RECENT_GAMES games count
+                 RECENT_WEIGHT times as much as earlier ones, and a player
+                 with no carries or targets in the team's last INACTIVE_GAMES
+                 games gets no share (stand-in for injuries/role changes,
+                 which CFBD doesn't report).
   p_first_td   = p_team_first * share * OFFENSE_SHARE
-      -- OFFENSE_SHARE leaves ~8% for defensive/special-teams/other TDs.
+      -- OFFENSE_SHARE leaves ~14% for defensive/special-teams/other TDs.
 Top TOP_N players per team are listed; the single highest p_first_td in
 each game is flagged pick=True.
 
-NOT backtested -- FIRST_TD_FLATTEN and OFFENSE_SHARE are priors, not fitted.
-Started 2026-10-17 (week 7) as a one-off; grade_first_td_picks.py tracks
-the live record so the method can be judged on a real sample before stakes
-go up. Known blind spots: injuries/inactives, goal-line roles, and QB
-passing TDs (only a QB's rushing TDs count toward his share).
+Backtested walk-forward on 2025 (backtest_first_td.py, 1,281 games): top
+pick hit 14.1% vs. 14.7% expected, against 11.0% hit / 16.6% expected for
+the original method. OFFENSE_SHARE (0.857 of 2025 first TDs were offensive)
+and FIRST_TEAM_POWER (best of 0.5-2.0) are fitted; the share settings sit
+within noise of the best fit (first_td_backtest_2025.csv) and were kept. Started 2026-10-17 (week 7) as a one-off;
+grade_first_td_picks.py tracks the live record. Week 7 used the original
+method (win prob flattened toward 50/50, raw season TD share); week 8 games
+that kicked off before 2026-10-21 also kept it, since locked rows are never
+rebuilt. Known blind spot: QB passing TDs (only a QB's own carries count
+toward his share, which is right for a scorer prop).
+
+Completed weeks' play-by-play is cached in cfbd_raw/plays_{year}_wk{N}.json
+so the 6-hourly re-runs don't re-download it.
 
 Re-runs are safe and intended (the scheduled task calls this every 6
 hours): rows for games that have already kicked off are kept exactly as
@@ -32,49 +51,163 @@ Usage:
 import argparse
 import collections
 import datetime
+import json
 import os
 
 import pandas as pd
 
 from cfbd_fetch import cfbd_get, get_current_week
+from grade_first_td_picks import ball_carrier, player_key
 
-FIRST_TD_FLATTEN = 0.55
-OFFENSE_SHARE = 0.92
+OFFENSE_SHARE = 0.86
+FIRST_TEAM_POWER = 1.5
+XTD_WEIGHT = 0.6
+RECENT_GAMES = 3
+RECENT_WEIGHT = 2.0
+INACTIVE_GAMES = 2
 TOP_N = 3
+MIN_IMPLIED_PTS = 3.0
+# Yards-to-goal buckets for the league TD-rate table (upper bounds, inclusive).
+YTG_BUCKETS = (2, 5, 10, 20, 40, 100)
 
 
-def season_td_counts(year):
-    td = collections.defaultdict(float)  # (team, player) -> rush+rec TDs
-    for cat in ("rushing", "receiving"):
+def week_plays(year, week, cache):
+    path = os.path.join("cfbd_raw", f"plays_{year}_wk{week}.json")
+    if cache and os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    plays = cfbd_get("/plays", params={"year": year, "week": week, "seasonType": "regular"})
+    plays += cfbd_get("/plays", params={"year": year, "week": week, "seasonType": "regular", "classification": "fcs"})
+    # The FCS call also returns FBS-vs-FCS games, so those plays arrive twice.
+    plays = list({p["id"]: p for p in plays}.values())
+    if cache:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(plays, f)
+    return plays
+
+
+def opportunity_rows(plays, week):
+    """One row per carry or target: team, player key, kind, yards to goal, TD, game."""
+    rows = []
+    for p in plays:
+        text, ptype = p.get("playText") or "", p.get("playType")
+        if ptype in ("Rush", "Rushing Touchdown"):
+            kind = "rush"
+        elif ptype in ("Pass Reception", "Pass Incompletion", "Passing Touchdown"):
+            kind = "target"
+        else:
+            continue
+        _, key = ball_carrier(text, kind)
+        if not key or not p.get("yardsToGoal"):
+            continue
+        rows.append({"team": p["offense"], "key": key, "kind": kind,
+                     "ytg": p["yardsToGoal"], "td": ptype.endswith("Touchdown"),
+                     "game_id": p["gameId"], "week": week})
+    return rows
+
+
+def opportunities(year, week):
+    """Every carry and target in weeks before `week`."""
+    rows = []
+    for w in range(0, week):
+        # Last week can still be filling in (late Saturday games, stat corrections), so only older weeks are cached.
+        rows += opportunity_rows(week_plays(year, w, cache=w < week - 1), w)
+    df = pd.DataFrame(rows)
+    df["bucket"] = pd.cut(df["ytg"], [0, *YTG_BUCKETS], labels=False)
+    return df
+
+
+def score_table(opp, xtd_weight=XTD_WEIGHT, recent_weight=RECENT_WEIGHT,
+                recent_games=RECENT_GAMES, inactive_games=INACTIVE_GAMES):
+    """Per (team, key): blended TD score, raw TDs, carries+targets inside the 10. Keyword args are for the backtest."""
+    rate = opp.groupby(["kind", "bucket"])["td"].mean()
+    opp = opp.assign(xtd=[rate[(k, b)] for k, b in zip(opp["kind"], opp["bucket"])])
+
+    # Recency: rank each team's games newest-first.
+    order = opp[["team", "game_id", "week"]].drop_duplicates().sort_values("week", ascending=False)
+    order["recent_rank"] = order.groupby("team").cumcount()
+    opp = opp.merge(order[["team", "game_id", "recent_rank"]], on=["team", "game_id"])
+    opp["w"] = (opp["recent_rank"] < recent_games).map({True: recent_weight, False: 1.0})
+    opp["wx"], opp["wtd"] = opp["w"] * opp["xtd"], opp["w"] * opp["td"]
+
+    agg = opp.groupby(["team", "key"]).agg(xtd=("wx", "sum"), wtd=("wtd", "sum"), tds=("td", "sum"),
+                                           rz=("ytg", lambda s: int((s <= 10).sum())),
+                                           last_seen=("recent_rank", "min")).reset_index()
+    if inactive_games:
+        agg = agg[agg["last_seen"] < inactive_games]
+    agg["score"] = xtd_weight * agg["xtd"] + (1 - xtd_weight) * agg["wtd"]
+    return agg
+
+
+def player_scores(year, week):
+    """(team, full name) -> {score, tds, rz} from recency-weighted usage + TDs."""
+    agg = score_table(opportunities(year, week))
+
+    # Play-by-play only gives "F.Lastname"; map back to the full names CFBD's season stats use.
+    full = collections.defaultdict(dict)  # (team, key) -> full name -> touches
+    for cat, stat in (("rushing", "CAR"), ("receiving", "REC")):
         for s in cfbd_get("/stats/player/season", params={"year": year, "category": cat}):
-            if s["statType"] == "TD":
-                td[(s["team"], s["player"])] += float(s["stat"])
-    return td
+            if s["statType"] == stat:
+                names = full[(s["team"], player_key(s["player"]))]
+                names[s["player"]] = names.get(s["player"], 0) + float(s["stat"])
+    out = {}
+    for r in agg.itertuples():
+        names = full.get((r.team, r.key))
+        if names:
+            out[(r.team, max(names, key=names.get))] = {"score": r.score, "tds": int(r.tds), "rz": r.rz}
+    return out
 
 
-def build_rows(proj, starts, td, built_at):
-    team_tot = collections.defaultdict(float)
-    for (t, _), v in td.items():
-        team_tot[t] += v
+def positions(year):
+    """(team, name key) -> roster position; skill positions win when two players share a key."""
+    skill = {"QB", "RB", "WR", "TE", "FB"}
+    out = {}
+    for r in cfbd_get("/roster", params={"year": year}):
+        key = player_key(f"{r.get('firstName') or ''} {r.get('lastName') or ''}")
+        pos = r.get("position")
+        if key and pos and ((r["team"], key) not in out or pos in skill):
+            out[(r["team"], key)] = pos
+    return out
+
+
+def implied_points(r):
+    """(home, away) implied points: market spread/total when posted, else the model's."""
+    if pd.notna(r.get("market_home_margin")) and pd.notna(r.get("market_total")):
+        margin, total = r["market_home_margin"], r["market_total"]
+    else:
+        # model_margin is from model_pick's side, not the home side.
+        margin = r["model_margin"] if r["model_pick"] == r["home"] else -r["model_margin"]
+        total = r["model_total"]
+    return max((total + margin) / 2, MIN_IMPLIED_PTS), max((total - margin) / 2, MIN_IMPLIED_PTS)
+
+
+def build_rows(proj, starts, scores, built_at):
+    by_team = collections.defaultdict(list)
+    for (t, p), v in scores.items():
+        by_team[t].append((p, v))
+    team_tot = {t: sum(v["score"] for _, v in ps) for t, ps in by_team.items()}
+    team_tds = {t: sum(v["tds"] for _, v in ps) for t, ps in by_team.items()}
 
     rows = []
     for _, r in proj.iterrows():
-        ph = 0.5 + (r["home_win_prob"] - 0.5) * FIRST_TD_FLATTEN
+        hp, ap = implied_points(r)
+        ph = hp ** FIRST_TEAM_POWER / (hp ** FIRST_TEAM_POWER + ap ** FIRST_TEAM_POWER)
         game_rows = []
         for team, pt in ((r["home"], ph), (r["away"], 1 - ph)):
             tot = team_tot.get(team, 0)
             if tot == 0:
                 continue
-            players = sorted(((p, v) for (t, p), v in td.items() if t == team), key=lambda x: -x[1])[:TOP_N]
+            players = sorted(by_team[team], key=lambda x: -x[1]["score"])[:TOP_N]
             for p, v in players:
-                prob = pt * OFFENSE_SHARE * v / tot
+                share = v["score"] / tot
+                prob = pt * OFFENSE_SHARE * share
                 game_rows.append({
                     "game_id": r["game_id"], "start_utc": starts.get(r["game_id"], ""),
                     "game": f"{r['away']} @ {r['home']}", "team": team, "player": p,
-                    "tds": int(v), "team_tds": int(tot), "share": round(v / tot, 3),
+                    "tds": v["tds"], "team_tds": team_tds[team], "share": round(share, 3),
                     "p_team_first": round(pt, 3), "p_first_td": round(prob, 4),
                     "fair_odds": f"+{round(100 * (1 - prob) / prob)}", "pick": False,
-                    "built_at": built_at,
+                    "built_at": built_at, "rz_opps": v["rz"],
                 })
         if game_rows:
             max(game_rows, key=lambda x: x["p_first_td"])["pick"] = True
@@ -115,8 +248,14 @@ def main():
     proj = proj[~proj["game_id"].isin(locked["game_id"] if len(locked) else [])]
     proj = proj[proj["game_id"].map(lambda g: starts.get(g, "") > now)]
 
-    new = pd.DataFrame(build_rows(proj, starts, season_td_counts(year), now))
-    df = pd.concat([locked, new], ignore_index=True).sort_values(["start_utc", "game", "p_first_td"], ascending=[True, True, False])
+    new = pd.DataFrame(build_rows(proj, starts, player_scores(year, week), now))
+    df = pd.concat([locked, new], ignore_index=True)
+    # Locked rows read back from CSV lose the "+" (pandas parses "+302" as 302).
+    df["fair_odds"] = "+" + df["fair_odds"].astype(str).str.lstrip("+")
+    # Display-only, so filled in for locked rows too (doesn't touch their picks).
+    pos = positions(year)
+    df["pos"] = [pos.get((t, player_key(p)), "") for t, p in zip(df["team"], df["player"])]
+    df = df.sort_values(["start_utc", "game", "p_first_td"], ascending=[True, True, False])
     df.to_csv(out_path, index=False)
 
     picks = df[df["pick"]]
