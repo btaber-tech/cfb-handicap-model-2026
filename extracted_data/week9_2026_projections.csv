@@ -1,0 +1,57 @@
+game_id,date,away,home,neutral,model_pick,model_margin,home_win_prob,away_record,home_record,away_ats,home_ats,home_blended_rank,away_blended_rank,in_season_weight,home_in_season_margin,away_in_season_margin,market_home_margin,market_note,model_vs_market_gap,model_total,market_total,total_gap,disagreement_team,disagreement_value
+401871071,2026-10-27,Delaware,Western Kentucky,False,Delaware,1.7,0.463,3-4,3-4,4-3,4-3,82,104,0.78,-19.5,-12.07,-1.5,"2 book(s), median +1.5",-0.2,54.5,57.5,-3.0,Western Kentucky,0.59
+401871072,2026-10-28,Sam Houston,Missouri State,False,Missouri State,6.8,0.643,1-6,2-5,3-4,3-4,122,136,0.78,-15.84,-18.74,4.5,"2 book(s), median -4.5",2.3,50.5,51.0,-0.5,,
+401871058,2026-10-28,Kennesaw State,Middle Tennessee,False,Middle Tennessee,5.3,0.613,1-6,4-3,4-3,5-2,132,106,0.78,-15.02,-20.59,2.5,"2 book(s), median -2.5",2.8,48.3,51.5,-3.2,,
+401869963,2026-10-29,Troy,James Madison,False,James Madison,22.0,0.884,3-4,7-1,2-5,6-2,56,100,0.78,7.47,-14.26,21.0,"2 book(s), median -21.0",1.0,50.8,50.0,0.8,,
+401862812,2026-10-29,Florida Atlantic,North Texas,False,North Texas,18.0,0.835,5-2,5-2,4-3,5-2,89,99,0.78,6.4,-12.31,13.5,"2 book(s), median -13.5",4.5,62.1,77.5,-15.4,North Texas,0.65
+401871057,2026-10-29,Jacksonville State,New Mexico State,False,New Mexico State,2.0,0.543,5-2,3-4,3-3-1,4-3,125,96,0.78,-11.18,-12.73,-3.5,"2 book(s), median +3.5",5.5,50.6,49.5,1.1,,
+401862813,2026-10-30,Tulane,Charlotte,False,Tulane,16.5,0.185,3-4,1-6,3-4,3-4,137,73,0.78,-26.11,-7.23,-10.5,"2 book(s), median +10.5",-6.0,48.7,46.5,2.2,,
+401856844,2026-10-30,Baylor,UCF,False,Baylor,3.6,0.422,4-3,4-3,5-2,5-2,54,42,0.78,3.09,10.74,1.5,"2 book(s), median -1.5",-5.1,50.6,47.5,3.1,,
+401864531,2026-10-31,UTEP,North Dakota State,False,North Dakota State,35.9,0.975,1-6,6-2,1-6,3-4-1,98,129,0.78,5.56,-33.42,25.5,"2 book(s), median -25.5",10.4,49.3,44.0,5.3,,
+401859185,2026-10-31,Notre Dame,Navy,True,Notre Dame,32.3,0.04,6-1,2-5,4-3,2-5,70,3,0.78,-8.95,27.12,-30.5,"2 book(s), median +30.5",-1.8,54.6,56.0,-1.4,,
+401858508,2026-10-31,Nevada,UCLA,False,UCLA,27.4,0.932,3-4,7-0,4-2-1,7-0,62,119,0.78,22.97,-4.44,22.5,"2 book(s), median -22.5",4.9,51.4,44.5,6.9,UCLA,0.88
+401858283,2026-10-31,Stanford,Louisville,False,Louisville,26.7,0.926,4-4,4-3,3-5,4-3,31,87,0.78,12.91,-13.44,22.5,"2 book(s), median -22.5",4.2,55.2,61.5,-6.3,,
+401858501,2026-10-31,Minnesota,Indiana,False,Indiana,23.4,0.898,5-2,7-1,5-2,1-7,4,43,0.78,23.73,2.9,20.5,"2 book(s), median -20.5",2.9,47.5,42.5,5.0,,
+401856843,2026-10-31,Arizona State,BYU,False,BYU,18.9,0.848,4-3,6-1,3-4,6-1,15,55,0.78,12.09,-0.59,16.0,"2 book(s), median -16.0",2.9,51.9,49.0,2.9,,
+401866452,2026-10-31,Bowling Green,Western Michigan,False,Western Michigan,18.7,0.845,2-6,5-3,3-5,3-5,71,120,0.78,-2.04,-18.62,13.5,"2 book(s), median -13.5",5.2,49.5,44.5,5.0,,
+401858282,2026-10-31,Miami,North Carolina,False,Miami,18.7,0.155,7-0,4-3,5-2,4-3,59,8,0.78,8.62,30.83,-14.5,"2 book(s), median +14.5",-4.2,51.9,53.0,-1.1,,
+401871059,2026-10-31,Florida International,Liberty,False,Liberty,17.3,0.827,3-4,6-1,3-3-1,5-2,95,115,0.78,8.59,-8.34,14.0,"2 book(s), median -14.0",3.3,48.4,45.5,2.9,,
+401856737,2026-10-31,Mississippi State,Texas,False,Texas,17.3,0.826,4-3,5-2,4-3,2-5,7,47,0.78,23.54,10.45,21.0,"2 book(s), median -21.0",-3.7,53.8,51.0,2.8,,
+401858507,2026-10-31,Michigan,Rutgers,False,Michigan,17.0,0.178,4-3,2-5,3-4,3-4,58,14,0.78,-11.17,10.29,-14.0,"2 book(s), median +14.0",-3.0,52.2,46.5,5.7,,
+401864529,2026-10-31,New Mexico,San José State,False,New Mexico,16.4,0.187,6-1,4-4,6-1,4-4,128,68,0.78,-8.12,11.66,-15.0,"2 book(s), median +15.0",-1.4,48.9,42.0,6.9,,
+401856734,2026-10-31,Florida,Georgia,True,Georgia,15.3,0.797,5-2,6-1,4-3,5-2,5,26,0.78,30.2,16.36,11.5,"2 book(s), median -11.5",3.8,56.3,56.0,0.3,,
+401858284,2026-10-31,Virginia,Wake Forest,False,Wake Forest,15.2,0.795,4-4,6-1,3-4-1,5-2,48,36,0.78,20.15,3.31,12.5,"2 book(s), median -12.5",2.7,50.0,49.5,0.5,,
+401860910,2026-10-31,Colorado State,Utah State,False,Utah State,14.8,0.789,3-4,2-5,3-3-1,4-3,93,112,0.78,-1.73,-15.28,6.5,"2 book(s), median -6.5",8.3,54.2,63.5,-9.3,,
+401858281,2026-10-31,Georgia Tech,Pittsburgh,False,Pittsburgh,14.5,0.785,2-5,5-3,1-6,4-4,33,40,0.78,5.33,-8.74,7.5,"2 book(s), median -7.5",7.0,53.8,54.5,-0.7,,
+401858509,2026-10-31,Ohio State,USC,False,Ohio State,13.7,0.229,6-1,6-2,5-2,2-6,10,1,0.78,11.45,29.8,-6.5,"2 book(s), median +6.5",-7.2,54.6,51.5,3.1,,
+401858506,2026-10-31,Purdue,Penn State,False,Penn State,13.1,0.762,3-4,3-4,3-4,3-4,21,84,0.78,11.72,3.42,7.5,"2 book(s), median -7.5",5.6,54.1,54.5,-0.4,,
+401866451,2026-10-31,Kent State,Sacramento State,False,Kent State,11.7,0.262,3-5,1-7,4-4,2-6,130,131,0.78,-40.09,-21.11,-10.0,"2 book(s), median +10.0",-1.7,51.6,46.5,5.1,,
+401856735,2026-10-31,Auburn,Ole Miss,False,Ole Miss,11.5,0.734,4-3,5-2,2-5,3-4,13,30,0.78,19.17,10.3,13.0,"2 book(s), median -13.0",-1.5,53.1,57.5,-4.4,,
+401869944,2026-10-31,Coastal Carolina,Georgia State,False,Georgia State,11.2,0.728,2-5,4-3,3-4,5-2,133,124,0.78,-1.14,-13.24,6.5,"2 book(s), median -6.5",4.7,54.9,58.0,-3.1,,
+401862816,2026-10-31,UAB,South Florida,False,South Florida,11.0,0.725,4-3,5-2,3-3-1,3-4,65,127,0.78,-2.91,-8.43,8.0,"2 book(s), median -8.0",3.0,48.4,42.5,5.9,,
+401858280,2026-10-31,Clemson,Florida State,False,Florida State,10.8,0.722,4-3,3-4,2-5,3-3-1,28,24,0.78,8.63,-1.88,5.5,"2 book(s), median -5.5",5.3,52.6,49.5,3.1,,
+401858503,2026-10-31,Illinois,Maryland,False,Illinois,10.1,0.292,4-3,2-5,3-4,3-4,50,35,0.78,-10.67,4.69,-2.5,"2 book(s), median +2.5",-7.6,54.0,54.5,-0.5,,
+401858278,2026-10-31,SMU,Syracuse,False,SMU,9.4,0.305,6-1,3-4,2-3-2,4-3,85,22,0.78,-0.53,10.42,-10.0,"2 book(s), median +10.0",0.6,54.0,58.5,-4.5,Syracuse,0.6
+401858277,2026-10-31,California,NC State,False,NC State,9.3,0.694,3-5,3-4,2-6,2-5,44,66,0.78,-4.59,-11.55,7.0,"2 book(s), median -7.0",2.3,55.6,57.0,-1.4,,
+401856848,2026-10-31,Utah,Cincinnati,False,Utah,8.8,0.317,7-0,5-2,6-1,4-3,60,19,0.78,5.34,16.47,-6.5,"2 book(s), median +6.5",-2.3,53.3,57.0,-3.7,,
+401858279,2026-10-31,Boston College,Duke,False,Duke,8.1,0.669,4-3,5-2,5-2,5-2,46,94,0.78,9.6,5.72,7.0,"2 book(s), median -7.0",1.1,50.8,48.0,2.8,,
+401856733,2026-10-31,Missouri,Arkansas,False,Missouri,7.7,0.338,5-2,3-4,3-4,3-4,52,23,0.78,4.16,14.9,-10.0,"2 book(s), median +10.0",2.3,50.5,49.5,1.0,,
+401862815,2026-10-31,Temple,East Carolina,False,East Carolina,5.7,0.622,2-5,3-4,4-2-1,3-4,69,103,0.78,-10.63,-11.97,6.0,"2 book(s), median -6.0",-0.3,53.3,50.0,3.3,,
+401869846,2026-10-31,App State,Georgia Southern,False,Georgia Southern,5.7,0.622,5-2,3-4,5-2,6-1,110,109,0.78,-2.34,-6.02,5.5,"2 book(s), median -5.5",0.2,52.7,56.5,-3.8,,
+401861966,2026-10-31,UConn,Air Force,False,Air Force,5.6,0.619,4-3,5-2,5-2,4-3,90,107,0.78,-5.91,-3.85,2.5,"2 book(s), median -2.5",3.1,54.5,53.5,1.0,UConn,0.62
+401856846,2026-10-31,Kansas State,Colorado,False,Kansas State,4.9,0.396,4-3,2-5,3-4,2-5,74,39,0.78,-8.53,3.18,-2.5,"2 book(s), median +2.5",-2.4,51.0,47.5,3.5,Colorado,0.68
+401856847,2026-10-31,Oklahoma State,Iowa State,False,Oklahoma State,4.0,0.413,5-2,3-4,6-1,2-4-1,78,80,0.78,4.39,13.67,-9.0,"2 book(s), median +9.0",5.0,54.1,57.5,-3.4,Oklahoma State,1.14
+401858502,2026-10-31,Wisconsin,Iowa,False,Iowa,3.9,0.583,5-2,5-2,4-3,4-3,20,53,0.78,14.62,16.59,3.5,"2 book(s), median -3.5",0.4,45.4,37.0,8.4,Wisconsin,0.81
+401856736,2026-10-31,South Carolina,Oklahoma,False,Oklahoma,3.9,0.584,4-3,4-3,3-4,3-4,12,25,0.78,10.65,11.07,4.5,"2 book(s), median -4.5",-0.6,50.6,44.5,6.1,,
+401871095,2026-10-31,Southern Miss,UL Monroe,False,Southern Miss,3.8,0.419,2-5,1-6,3-4,2-5,134,117,0.78,-25.85,-19.65,-3.5,"2 book(s), median +3.5",-0.3,53.5,56.0,-2.5,Southern Miss,0.92
+401856845,2026-10-31,Kansas,TCU,False,TCU,3.3,0.571,3-4,3-4,2-5,3-4,37,51,0.78,3.3,4.06,5.5,"2 book(s), median -5.5",-2.2,48.4,47.0,1.4,,
+401871097,2026-10-31,Louisiana Tech,South Alabama,False,Louisiana Tech,2.9,0.437,5-2,4-3,6-1,4-3,111,91,0.78,-7.07,-1.32,-5.5,"2 book(s), median +5.5",2.6,56.2,58.0,-1.8,,
+401858505,2026-10-31,Northwestern,Oregon,False,Northwestern,2.7,0.443,6-1,4-3,5-2,2-5,2,41,0.78,6.78,19.85,3.5,"2 book(s), median -3.5",-6.2,49.9,48.0,1.9,,
+401871096,2026-10-31,Marshall,Old Dominion,False,Old Dominion,1.1,0.523,4-3,2-6,2-5,1-7,77,88,0.78,-21.42,-18.17,-2.5,"2 book(s), median +2.5",3.6,49.3,45.5,3.8,,
+401856842,2026-10-31,Arizona,Texas Tech,False,Texas Tech,0.7,0.514,6-1,6-1,3-4,3-4,6,29,0.78,11.05,17.47,3.5,"2 book(s), median -3.5",-2.8,54.8,54.5,0.3,,
+401860909,2026-10-31,Washington State,San Diego State,False,San Diego State,0.0,0.501,1-7,3-5,5-3,2-6,49,83,0.78,-17.76,-12.14,2.5,"2 book(s), median -2.5",-2.5,51.7,48.5,3.2,,
+401864530,2026-11-01,Northern Illinois,UNLV,False,UNLV,25.4,0.916,0-7,4-3,1-6,4-3,64,126,0.78,-3.84,-27.88,23.5,"2 book(s), median -23.5",1.9,51.4,54.0,-2.6,,
+401860908,2026-11-01,Texas State,Boise State,False,Boise State,18.2,0.839,4-3,6-1,3-4,4-3,38,67,0.78,17.39,-0.5,11.0,"2 book(s), median -11.0",7.2,58.4,64.0,-5.6,,
+401858504,2026-11-01,Washington,Nebraska,False,Nebraska,16.2,0.811,4-3,5-2,2-5,6-0-1,34,18,0.78,23.01,3.77,7.5,"2 book(s), median -7.5",8.7,52.2,50.0,2.2,,
+401862814,2026-11-01,Army,Memphis,False,Memphis,6.4,0.636,5-2,6-2,3-3-1,4-4,75,86,0.78,4.88,1.16,6.0,"2 book(s), median -6.0",0.4,54.1,60.0,-5.9,,
+401860924,2026-11-01,Oregon State,Fresno State,False,Oregon State,6.0,0.372,5-2,4-3,6-1,5-2,63,108,0.78,3.3,18.0,-5.5,"2 book(s), median +5.5",-0.5,53.2,58.5,-5.3,,
