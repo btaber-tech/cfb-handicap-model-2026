@@ -1,0 +1,167 @@
+<title>First TD Card · Week 8</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: scoreboard header with record, controls, then a 2-column grid of game cards (pick up top, then a price table for every listed player) */
+:root{
+  --bg:#eef1ec; --surface:#fbfcfa; --ink:#18221b; --muted:#5e6b62; --line:#d5ddd6;
+  --turf:#1f6b3a; --turf-soft:#dcebdf; --chalk:#ffffff; --gold:#b7791f; --bar:#c3d4c7;
+  --good:#1d7a3e; --good-soft:#d6efdd; --bad:#b0392b; --bad-soft:#f6dedb;
+  --display:"Oswald","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1511; --surface:#17201a; --ink:#e6ede7; --muted:#93a297; --line:#2a362e;
+  --turf:#4fb874; --turf-soft:#1c3324; --chalk:#0f1511; --gold:#e0a84a; --bar:#2f4637;
+  --good:#5fd08a; --good-soft:#173a24; --bad:#f08a7c; --bad-soft:#3d1f1b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1511; --surface:#17201a; --ink:#e6ede7; --muted:#93a297; --line:#2a362e;
+  --turf:#4fb874; --turf-soft:#1c3324; --chalk:#0f1511; --gold:#e0a84a; --bar:#2f4637;
+  --good:#5fd08a; --good-soft:#173a24; --bad:#f08a7c; --bad-soft:#3d1f1b; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+header{display:flex;flex-wrap:wrap;gap:18px 32px;align-items:end;justify-content:space-between;border-bottom:3px solid var(--turf);padding-bottom:16px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--turf)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);line-height:1;margin:6px 0 0;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+.sub{color:var(--muted);margin-top:8px;max-width:66ch}
+.stats{display:flex;gap:10px;flex-wrap:wrap}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 14px;min-width:96px}
+.stat b{display:block;font-family:var(--display);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.tabs,.sort{display:flex;flex-wrap:wrap;gap:6px}
+.tabs button,.sort button,.clear{font:600 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+.tabs button[aria-pressed="true"],.sort button[aria-pressed="true"]{background:var(--turf);border-color:var(--turf);color:var(--chalk)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.right{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input[type=search]{font:15px var(--body);padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);width:200px;max-width:100%}
+.day{display:grid;gap:12px}
+.day h2{font-family:var(--display);font-weight:600;text-transform:uppercase;font-size:20px;letter-spacing:.04em;margin:8px 0 0;display:flex;gap:10px;align-items:baseline}
+.day h2 small{font:500 12px var(--mono);color:var(--muted);letter-spacing:.06em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.card.done{opacity:.6}
+.top{display:flex;justify-content:space-between;gap:8px;padding:10px 14px;border-bottom:1px dashed var(--line);font-size:13px}
+.match{font-weight:700;min-width:0}
+.match .at{color:var(--muted);font-weight:400}
+.time{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.pick{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:12px 14px;background:var(--turf-soft)}
+.pick .lbl{font:700 10px var(--mono);letter-spacing:.14em;color:var(--turf);text-transform:uppercase}
+.pick .nm{font-family:var(--display);font-size:24px;font-weight:600;line-height:1.1;grid-column:1}
+.pick .tm{font-size:13px;color:var(--muted);grid-column:1}
+.pick .odds{grid-column:2;grid-row:1/4;align-self:center;text-align:right}
+.pick .odds b{display:block;font:700 26px var(--mono);color:var(--turf)}
+.pick .odds span{font:500 12px var(--mono);color:var(--muted)}
+.tfl{display:flex;justify-content:space-between;gap:8px;font:500 11px var(--mono);color:var(--muted);padding:8px 14px 0}
+.tf{display:flex;height:6px;margin:4px 14px 0;border-radius:3px;overflow:hidden;background:var(--bar)}
+.tf i{background:var(--turf)}
+.tbl{overflow-x:auto;padding:6px 8px 10px}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+th{font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:right;padding:6px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+td{padding:5px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.is-pick td{background:var(--turf-soft)}
+td.who{max-width:0;width:100%;overflow:hidden;text-overflow:ellipsis}
+td.who small{display:block;color:var(--muted);font-size:11px;overflow:hidden;text-overflow:ellipsis}
+td.who .tag{font:700 9px var(--mono);letter-spacing:.1em;color:var(--turf);margin-left:4px}
+.mono{font-family:var(--mono);font-size:12px}
+.pos{font:700 10px var(--mono);letter-spacing:.06em;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:1px 5px}
+.badge{font:700 10px var(--mono);letter-spacing:.1em;color:var(--gold);text-transform:uppercase}
+.empty{color:var(--muted);padding:24px 0}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px;max-width:84ch}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <div class="eyebrow">College Football · 2026 · Week 8</div>
+    <h1>First Touchdown Card</h1>
+    <p class="sub">One pick per game: the player most likely to score the first TD. Each team's chance to score first comes from its implied points on the betting line. Each player's share comes from carries and targets, weighted toward the red zone and the team's last 3 games, blended with actual TDs scored. Backtested on 2025: picks hit 14.1% against 14.7% expected (the original method hit 11.0%).</p>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="sGames">–</b><span>Games</span></div>
+    <div class="stat"><b id="sAvg">–</b><span>Avg pick prob</span></div>
+    <div class="stat"><b id="sRec">–</b><span>Season record</span></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="tabs" id="tabs" role="group" aria-label="Day"></div>
+  <div class="right">
+    <div class="sort" role="group" aria-label="Sort">
+      <button id="sortTime" aria-pressed="true">By kickoff</button>
+      <button id="sortProb" aria-pressed="false">Most likely first</button>
+    </div>
+    <input type="search" id="q" placeholder="Find team or player" aria-label="Find team or player">
+  </div>
+</div>
+
+<main id="out"></main>
+
+<footer id="foot"></footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const pct = x => (x*100).toFixed(1)+'%';
+const dec = p => (1/p).toFixed(2);
+const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+const dayKey = d => d.toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric'});
+const tm = d => d.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'});
+const now = Date.now();
+DATA.games.forEach(g=>{g.d=new Date(g.t);g.day=dayKey(g.d);g.pick=g.p.find(p=>p.k)||g.p[0];});
+const days=[...new Set(DATA.games.map(g=>g.day))];
+let state={day:'All',sort:'time',q:''};
+try{const s=localStorage.getItem('ftd-sort');if(s==='time'||s==='prob')state.sort=s;}catch(e){}
+const save=()=>{try{localStorage.setItem('ftd-sort',state.sort)}catch(e){}};
+
+document.getElementById('sGames').textContent=DATA.games.length;
+document.getElementById('sAvg').textContent=pct(DATA.games.reduce((a,g)=>a+g.pick.pf,0)/DATA.games.length);
+document.getElementById('sRec').textContent=DATA.rec.w+'–'+(DATA.rec.n-DATA.rec.w);
+document.getElementById('foot').textContent=`Kickoff times shown in your time zone (${tz}). Picks built ${DATA.built.replace('T',' ')} UTC. Season record covers graded weeks only (week 7: ${DATA.rec.w} of ${DATA.rec.n}). Games already kicked off are dimmed and keep the pick made before kickoff (games before Oct 21 used the original method). Model is the chance of scoring the first TD; Fair is the same as decimal odds (1 ÷ model). TDs and Inside 10 are season to date. Team TD is the player's share of the team's blended TD score, the same share used in the model. Inside 10 counts carries plus targets (passes thrown to the player, caught or not) snapped inside the opponent's 10-yard line.`;
+
+const tabs=document.getElementById('tabs');
+['All',...days].forEach(d=>{const b=document.createElement('button');b.textContent=d==='All'?'All days':d.split(',')[0];b.dataset.day=d;b.onclick=()=>{state.day=d;render()};tabs.appendChild(b);});
+document.getElementById('sortTime').onclick=()=>{state.sort='time';render()};
+document.getElementById('sortProb').onclick=()=>{state.sort='prob';render()};
+document.getElementById('q').oninput=e=>{state.q=e.target.value.trim().toLowerCase();render()};
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function row(g,p){
+  return `<tr class="${p.k?'is-pick':''}">
+    <td class="who">${esc(p.n)}${p.k?'<span class="tag">PICK</span>':''}<small>${esc(p.tm)}</small></td>
+    <td>${p.pos?`<span class="pos">${esc(p.pos)}</span>`:'–'}</td>
+    <td class="mono">${p.td}</td>
+    <td class="mono">${Math.round(p.sh*100)}%</td>
+    <td class="mono">${p.rz!=null?p.rz:'–'}</td>
+    <td class="mono">${pct(p.pf)}</td>
+    <td class="mono"><b>${dec(p.pf)}</b></td></tr>`;
+}
+function card(g){
+  const pk=g.pick, done=g.d.getTime()<now;
+  const players=[pk,...g.p.filter(p=>p!==pk)];
+  return `<article class="card${done?' done':''}">
+  <div class="top"><div class="match">${esc(g.away)} <span class="at">@</span> ${esc(g.home)}</div><div class="time">${done?'Kicked off':tm(g.d)}</div></div>
+  <div class="pick"><div class="lbl">Pick</div><div class="nm">${esc(pk.n)}</div>
+    <div class="tm">${pk.pos?esc(pk.pos)+' · ':''}${esc(pk.tm)} · ${Math.round(pk.sh*100)}% of team TD share${g.old?' · <span class="badge">old method</span>':''}</div>
+    <div class="odds"><b>${dec(pk.pf)}</b><span>${pct(pk.pf)} model</span></div></div>
+  <div class="tfl"><span>${esc(g.away)} ${Math.round(g.pa*100)}%</span><span>scores first</span><span>${Math.round((1-g.pa)*100)}% ${esc(g.home)}</span></div>
+  <div class="tf" aria-hidden="true"><i style="width:${g.pa*100}%"></i></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Player</th><th>Pos</th><th>TDs</th><th title="Share of the team's TD score">Team TD</th><th title="Carries + targets inside the opponent's 10">Inside 10</th><th>Model</th><th>Fair</th></tr></thead>
+    <tbody>${players.map(p=>row(g,p)).join('')}</tbody></table></div>
+  </article>`;
+}
+function section(title,gs){return `<section class="day"><h2>${title} <small>${gs.length} game${gs.length>1?'s':''}</small></h2><div class="grid">${gs.map(card).join('')}</div></section>`;}
+function render(){
+  save();
+  [...tabs.children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.day===state.day));
+  for(const [id,s] of [['sortTime','time'],['sortProb','prob']]) document.getElementById(id).setAttribute('aria-pressed',state.sort===s);
+  let gs=DATA.games.filter(g=>(state.day==='All'||g.day===state.day)&&(!state.q||(g.away+' '+g.home+' '+g.p.map(p=>p.n).join(' ')).toLowerCase().includes(state.q)));
+  const out=document.getElementById('out');
+  if(!gs.length){out.innerHTML='<p class="empty">No games match. Clear the search or pick another day.</p>';return;}
+  if(state.sort==='prob'){out.innerHTML=section('Ranked by pick probability',[...gs].sort((a,b)=>b.pick.pf-a.pick.pf));return;}
+  out.innerHTML=days.map(d=>{const dg=gs.filter(g=>g.day===d);return dg.length?section(d,dg):''}).join('');
+}
+render();
+</script>
