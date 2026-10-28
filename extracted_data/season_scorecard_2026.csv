@@ -443,3 +443,5 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,8,401864527,2026-10-25,North Dakota State,New Mexico,New Mexico,14.4,New Mexico,5,16,21,True,9.4,4.5,home_covered,New Mexico,True,48.4,42.5,37,11.4,under,over,under,False,9.9,True
 2026,8,401856837,2026-10-25,Houston,Utah,Utah,12.6,Utah,8,13,21,True,4.6,6.5,home_covered,Utah,True,52.9,57.0,34,18.9,under,under,under,True,6.1,True
 2026,8,401862811,2026-10-25,UTSA,Tulane,UTSA,-1.7,UTSA,-23,42,19,True,21.3,-2.0,away_covered,Tulane,False,50.8,51.5,61,10.2,over,under,over,False,0.3,False
+2026,9,401871071,2026-10-27,Delaware,Western Kentucky,Delaware,-1.7,Delaware,-14,35,21,True,12.3,-1.5,away_covered,Delaware,True,54.5,57.5,56,1.5,over,under,under,True,-0.2,False
+2026,9,401871072,2026-10-28,Sam Houston,Missouri State,Missouri State,6.8,Missouri State,21,3,24,True,14.2,4.5,home_covered,Missouri State,True,50.5,51.0,27,23.5,under,under,under,True,2.3,False
