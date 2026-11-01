@@ -498,3 +498,4 @@ year,week,game_id,date,away,home,model_pick,model_margin_signed,actual_winner,ac
 2026,9,401860908,2026-11-01,Texas State,Boise State,Boise State,18.2,Boise State,1,45,46,True,17.2,11.0,away_covered,Boise State,False,58.4,64.0,91,32.6,over,under,over,False,7.2,True
 2026,9,401858504,2026-11-01,Washington,Nebraska,Nebraska,16.2,Washington,-7,17,10,False,23.2,7.5,away_covered,Nebraska,False,52.2,50.0,27,25.2,under,over,under,False,8.7,True
 2026,9,401862814,2026-11-01,Army,Memphis,Memphis,6.4,Memphis,27,22,49,True,20.6,6.0,home_covered,Memphis,True,54.1,60.0,71,16.9,over,under,over,False,0.4,False
+2026,9,401860924,2026-11-01,Oregon State,Fresno State,Oregon State,-6.0,Fresno State,16,22,38,False,22.0,-5.5,home_covered,Oregon State,False,53.2,58.5,60,6.8,over,under,over,False,-0.5,False
