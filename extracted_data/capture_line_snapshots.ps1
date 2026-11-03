@@ -53,6 +53,15 @@ try {
     $captureOutput = py -3.14 capture_line_snapshots.py --year 2026 2>&1 | Out-String
     Log "capture_line_snapshots.py output: $captureOutput"
 
+    # Build the upcoming week's projections once the SP+ tab is posted (no-op
+    # if the week file already exists). Own try/catch so it can't block the run.
+    try {
+        $ensureOutput = py -3.14 ensure_week_projections.py --year 2026 2>&1 | Out-String
+        Log "ensure_week_projections.py output: $ensureOutput"
+    } catch {
+        Log "ensure_week_projections.py FAILED (continuing): $($_.Exception.Message)"
+    }
+
     # Public betting splits (Action Network ticket/money %) for RLM tracking.
     # Must run before the scorecard, which reads it via market_signals.py.
     # Own try/catch: an Action Network outage must not stop the rest of the run.
@@ -85,6 +94,7 @@ try {
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
     Commit-AndPush @("extracted_data/public_betting_2026.csv") "Public betting snapshot"
+    Commit-AndPush @("extracted_data/week*_2026_projections.csv", "extracted_data/week*_2026_fbs_vs_other.csv", "extracted_data/spplus_picks_2026.csv", "extracted_data/in_season_ratings_2026.csv") "Week projections (local build)"
     Commit-AndPush @("extracted_data/season_scorecard_2026.csv") "Scorecard update"
     Commit-AndPush @("extracted_data/first_td_picks_week*_2026.csv", "extracted_data/first_td_scorecard_2026.csv") "First-TD picks update"
     Commit-AndPush @("extracted_data/q1_matchups_week*_2026.csv", "extracted_data/q1_matchups_week*_2026.html") "Q1 Edge Board update"
