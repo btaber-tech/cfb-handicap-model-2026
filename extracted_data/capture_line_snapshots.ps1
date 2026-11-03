@@ -46,50 +46,45 @@ function Commit-AndPush([string[]]$paths, [string]$summary) {
     }
 }
 
+# Runs one Python step in isolation: stderr can't throw (EAP Continue), the
+# full output (including any traceback) is logged, and a failure never stops
+# later steps. Before 2026-11-03 the whole run was one try block, so a single
+# CFBD hiccup skipped grading/first-TD/Q1/commits and the log kept only the
+# word "Traceback".
+function Run-Step([string]$script) {
+    $prevEap = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try {
+        $out = & py -3.14 $script --year 2026 2>&1 | ForEach-Object { "$_" } | Out-String
+        $code = $LASTEXITCODE
+        if ($code -ne 0) {
+            Log "STEP FAILED $script (exit $code): $out"
+        } else {
+            Log "$script output: $out"
+        }
+    } catch {
+        Log "STEP FAILED $script (exception): $($_.Exception.Message)"
+    } finally {
+        $ErrorActionPreference = $prevEap
+    }
+}
+
 try {
     Set-Location $scriptDir
     Log "Starting run"
 
-    $captureOutput = py -3.14 capture_line_snapshots.py --year 2026 2>&1 | Out-String
-    Log "capture_line_snapshots.py output: $captureOutput"
-
-    # Build the upcoming week's projections once the SP+ tab is posted (no-op
-    # if the week file already exists). Own try/catch so it can't block the run.
-    try {
-        $ensureOutput = py -3.14 ensure_week_projections.py --year 2026 2>&1 | Out-String
-        Log "ensure_week_projections.py output: $ensureOutput"
-    } catch {
-        Log "ensure_week_projections.py FAILED (continuing): $($_.Exception.Message)"
-    }
-
-    # Public betting splits (Action Network ticket/money %) for RLM tracking.
-    # Must run before the scorecard, which reads it via market_signals.py.
-    # Own try/catch: an Action Network outage must not stop the rest of the run.
-    try {
-        $pbOutput = py -3.14 capture_public_betting.py --year 2026 2>&1 | Out-String
-        Log "capture_public_betting.py output: $pbOutput"
-    } catch {
-        Log "capture_public_betting.py FAILED (continuing): $($_.Exception.Message)"
-    }
-
-    $scorecardOutput = py -3.14 build_scorecard.py --year 2026 2>&1 | Out-String
-    Log "build_scorecard.py output: $scorecardOutput"
-
-    # First-TD props: builds picks once the week's projections exist
-    # (games already kicked off stay locked), then grades finished games.
-    $firstTdOutput = py -3.14 build_first_td_picks.py --year 2026 2>&1 | Out-String
-    Log "build_first_td_picks.py output: $firstTdOutput"
-
-    $firstTdGradeOutput = py -3.14 grade_first_td_picks.py --year 2026 2>&1 | Out-String
-    Log "grade_first_td_picks.py output: $firstTdGradeOutput"
-
-    # Q1 Edge Board: offense-vs-defense 1st-quarter matchups for the
-    # upcoming week (games not yet completed), then the HTML page.
-    $q1Output = py -3.14 build_q1_matchups.py --year 2026 2>&1 | Out-String
-    Log "build_q1_matchups.py output: $q1Output"
-
-    $q1PageOutput = py -3.14 make_q1_page.py --year 2026 2>&1 | Out-String
-    Log "make_q1_page.py output: $q1PageOutput"
+    Run-Step "capture_line_snapshots.py"
+    # Build the upcoming week's projections once the SP+ tab is posted (no-op if it exists).
+    Run-Step "ensure_week_projections.py"
+    # Public betting splits (Action Network) for RLM -- before the scorecard, which reads them.
+    Run-Step "capture_public_betting.py"
+    Run-Step "build_scorecard.py"
+    # First-TD props: build picks once projections exist, then grade finished games.
+    Run-Step "build_first_td_picks.py"
+    Run-Step "grade_first_td_picks.py"
+    # Q1 Edge Board for the upcoming week, then the HTML page.
+    Run-Step "build_q1_matchups.py"
+    Run-Step "make_q1_page.py"
 
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
