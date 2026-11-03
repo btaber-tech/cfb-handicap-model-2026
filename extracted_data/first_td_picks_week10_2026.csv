@@ -1,373 +1,373 @@
 game_id,start_utc,game,team,player,tds,team_tds,share,p_team_first,p_first_td,fair_odds,pick,built_at,rz_opps,pos
-401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Duncan Brune,3,18,0.221,0.698,0.1325,+654,True,2026-11-03T08:01,8,RB
-401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Riley Neer,4,18,0.21,0.698,0.1262,+692,False,2026-11-03T08:01,7,WR
-401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Jordan Gant,6,15,0.42,0.302,0.1091,+817,False,2026-11-03T08:01,12,RB
-401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Nick Poulos,2,18,0.121,0.698,0.0727,+1276,False,2026-11-03T08:01,4,QB
-401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Marcel Williams,4,15,0.23,0.302,0.0598,+1571,False,2026-11-03T08:01,2,WR
-401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Elijah Alexander,2,15,0.086,0.302,0.0223,+4380,False,2026-11-03T08:01,2,TE
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),Rodney Nelson,3,17,0.23,0.6,0.1187,+743,True,2026-11-03T08:01,8,RB
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),D'Shawntae Jones,2,17,0.215,0.6,0.1108,+803,False,2026-11-03T08:01,8,RB
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Messiah Burch,5,19,0.278,0.4,0.0954,+948,False,2026-11-03T08:01,12,RB
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Chance Morrow,5,19,0.19,0.4,0.0653,+1431,False,2026-11-03T08:01,10,WR
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),Damarion Witten,3,17,0.117,0.6,0.0606,+1550,False,2026-11-03T08:01,3,WR
-401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Clint Walker,3,19,0.134,0.4,0.0459,+2077,False,2026-11-03T08:01,3,TE
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,TJ Horton,9,23,0.347,0.455,0.1355,+638,True,2026-11-03T08:01,11,RB
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Elijah Faulkner,3,20,0.241,0.545,0.1129,+785,False,2026-11-03T08:01,7,RB
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Curtis Kimmons IV,5,20,0.217,0.545,0.1018,+883,False,2026-11-03T08:01,7,RB
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Max Dowling,3,20,0.113,0.545,0.0528,+1794,False,2026-11-03T08:01,1,TE
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,Keldric Luster,2,23,0.108,0.455,0.0421,+2273,False,2026-11-03T08:01,2,QB
-401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,Jamarion McDougle,2,23,0.107,0.455,0.0417,+2300,False,2026-11-03T08:01,1,WR
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,CJ Miller,8,34,0.217,0.831,0.1551,+545,True,2026-11-03T08:01,8,RB
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,Connor Walendzak,9,34,0.189,0.831,0.1352,+639,False,2026-11-03T08:01,10,RB
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,Adjatay Dabbs,7,34,0.188,0.831,0.1342,+645,False,2026-11-03T08:01,8,WR
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Isaiah Ene,3,13,0.237,0.169,0.0346,+2794,False,2026-11-03T08:01,5,RB
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Matthew Coleman,4,13,0.229,0.169,0.0333,+2900,False,2026-11-03T08:01,3,WR
-401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Daniel Swinney,1,13,0.094,0.169,0.0136,+7243,False,2026-11-03T08:01,3,RB
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Harold Mack,4,16,0.211,0.517,0.0936,+968,True,2026-11-03T08:01,4,WR
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Nicholas Woodford,3,16,0.187,0.483,0.0779,+1184,False,2026-11-03T08:01,2,RB
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Angel H Flores,4,16,0.183,0.483,0.076,+1216,False,2026-11-03T08:01,3,QB
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Joshua Long,2,16,0.146,0.517,0.0651,+1437,False,2026-11-03T08:01,4,TE
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Joey Mattord,2,16,0.141,0.517,0.0627,+1496,False,2026-11-03T08:01,4,RB
-401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Langston Lewis,2,16,0.137,0.483,0.0571,+1651,False,2026-11-03T08:01,2,WR
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,A'Marion Peterson,11,31,0.335,0.572,0.1648,+507,True,2026-11-03T08:01,13,RB
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Easton Messer,10,25,0.324,0.428,0.1191,+740,False,2026-11-03T08:01,4,WR
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,Will Henderson III,5,31,0.153,0.572,0.0751,+1231,False,2026-11-03T08:01,3,RB
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Kelby Valsin,4,25,0.156,0.428,0.0573,+1645,False,2026-11-03T08:01,4,WR
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,Brandon High,3,31,0.113,0.572,0.0558,+1693,False,2026-11-03T08:01,6,RB
-401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Leonard Farrow,2,25,0.123,0.428,0.0451,+2118,False,2026-11-03T08:01,8,RB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Steven Robinson,10,24,0.469,0.319,0.1286,+678,True,2026-11-03T08:01,17,RB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,George Pettaway,8,38,0.195,0.681,0.1141,+777,False,2026-11-03T08:01,15,RB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,Seth Cromwell,3,38,0.13,0.681,0.0763,+1210,False,2026-11-03T08:01,11,RB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,JC Evans,2,38,0.113,0.681,0.066,+1415,False,2026-11-03T08:01,8,QB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Jamarice Wilder,6,24,0.2,0.319,0.0548,+1723,False,2026-11-03T08:01,6,RB
-401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Mario Sanders II,5,24,0.128,0.319,0.035,+2753,False,2026-11-03T08:01,1,WR
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Kendrick Raphael,10,27,0.367,0.581,0.1833,+445,True,2026-11-03T08:01,17,RB
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Jeffrey Overton Jr.,6,28,0.208,0.419,0.075,+1233,False,2026-11-03T08:01,13,RB
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Marcellous Hawkins,5,28,0.197,0.419,0.071,+1308,False,2026-11-03T08:01,11,RB
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Luke Reynolds,5,28,0.182,0.419,0.0658,+1420,False,2026-11-03T08:01,7,TE
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Randy Pittman,3,27,0.11,0.581,0.055,+1719,False,2026-11-03T08:01,5,TE
-401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Yamir Knight,3,27,0.095,0.581,0.0473,+2016,False,2026-11-03T08:01,1,WR
-401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,D.J. Crowther,8,21,0.356,0.472,0.1442,+593,True,2026-11-03T08:01,14,RB
-401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,TJ Engleman,6,16,0.27,0.528,0.1225,+716,False,2026-11-03T08:01,6,RB
-401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,Ashton Gray,2,16,0.242,0.528,0.11,+809,False,2026-11-03T08:01,8,RB
-401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,Luke Kromenhoek,4,21,0.19,0.472,0.0769,+1201,False,2026-11-03T08:01,8,QB
-401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,Jason Collins Jr.,2,21,0.109,0.472,0.044,+2171,False,2026-11-03T08:01,5,RB
-401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,Landon Sides,1,16,0.09,0.528,0.0411,+2332,False,2026-11-03T08:01,0,WR
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Collin Dixon,10,22,0.312,0.433,0.116,+762,True,2026-11-03T08:01,3,WR
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Kwazi Gilmer,7,29,0.202,0.567,0.0983,+917,False,2026-11-03T08:01,4,WR
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Jamal Rule,6,29,0.161,0.567,0.0786,+1173,False,2026-11-03T08:01,5,RB
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Mekhi Nelson,5,29,0.154,0.567,0.0749,+1235,False,2026-11-03T08:01,5,RB
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Aidan Laughery,3,22,0.184,0.433,0.0686,+1358,False,2026-11-03T08:01,3,RB
-401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Katin Houser,2,22,0.11,0.433,0.0408,+2350,False,2026-11-03T08:01,3,QB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Scottre Humphrey,11,24,0.482,0.68,0.2819,+255,True,2026-11-03T08:01,24,RB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Dominic Kelley,6,19,0.342,0.32,0.0939,+965,False,2026-11-03T08:01,11,RB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Toa Faavae,2,24,0.137,0.68,0.0802,+1146,False,2026-11-03T08:01,6,QB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Kiefer Sibley,3,24,0.125,0.68,0.0733,+1264,False,2026-11-03T08:01,3,RB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Herschel Turner,5,19,0.18,0.32,0.0495,+1922,False,2026-11-03T08:01,2,RB
-401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Marshaun Brown,2,19,0.109,0.32,0.03,+3231,False,2026-11-03T08:01,1,WR
-401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Kedrick Reescano,6,27,0.263,0.636,0.1437,+596,True,2026-11-03T08:01,13,RB
-401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Isaiah Mizell,5,27,0.144,0.636,0.0788,+1168,False,2026-11-03T08:01,0,WR
-401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Ka'Morreun Pimpton,4,18,0.169,0.364,0.053,+1785,False,2026-11-03T08:01,6,TE
-401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Quincy Craig,2,27,0.091,0.636,0.0497,+1913,False,2026-11-03T08:01,2,RB
-401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Jaden Craig,2,18,0.157,0.364,0.049,+1939,False,2026-11-03T08:01,6,QB
-401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Jon Denman,2,18,0.126,0.364,0.0394,+2435,False,2026-11-03T08:01,4,RB
-401856849,2026-11-07T17:00,BYU @ Utah,Utah,Wayshawn Parker,13,35,0.311,0.576,0.1539,+550,True,2026-11-03T08:01,16,RB
-401856849,2026-11-07T17:00,BYU @ Utah,BYU,Bear Bachmeier,7,27,0.293,0.424,0.1067,+838,False,2026-11-03T08:01,18,QB
-401856849,2026-11-07T17:00,BYU @ Utah,Utah,Braden Pegan,7,35,0.15,0.576,0.0744,+1245,False,2026-11-03T08:01,4,WR
-401856849,2026-11-07T17:00,BYU @ Utah,Utah,Devon Dampier,5,35,0.121,0.576,0.0598,+1572,False,2026-11-03T08:01,6,QB
-401856849,2026-11-07T17:00,BYU @ Utah,BYU,Kyler Kasper,5,27,0.155,0.424,0.0565,+1669,False,2026-11-03T08:01,5,WR
-401856849,2026-11-07T17:00,BYU @ Utah,BYU,Sione I Moa,2,27,0.14,0.424,0.0509,+1867,False,2026-11-03T08:01,6,RB
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Gideon Davidson,5,14,0.283,0.537,0.1308,+665,True,2026-11-03T08:01,15,RB
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Ahmad Miller,5,22,0.3,0.463,0.1193,+738,False,2026-11-03T08:01,18,RB
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Tait Reynolds,2,14,0.148,0.537,0.0683,+1363,False,2026-11-03T08:01,8,QB
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Umari Hatcher,5,22,0.165,0.463,0.0656,+1423,False,2026-11-03T08:01,5,WR
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Chris Johnson Jr.,2,14,0.126,0.537,0.0581,+1622,False,2026-11-03T08:01,4,RB
-401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Tylik Hill,2,22,0.122,0.463,0.0484,+1964,False,2026-11-03T08:01,10,RB
-401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Ashton Daniels,12,28,0.307,0.601,0.1586,+530,True,2026-11-03T08:01,13,QB
-401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Ousmane Kromah,5,28,0.227,0.601,0.1175,+751,False,2026-11-03T08:01,15,RB
-401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Bo MacCormack III,2,17,0.25,0.399,0.0856,+1068,False,2026-11-03T08:01,9,RB
-401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Mason McKenzie,5,17,0.227,0.399,0.0777,+1187,False,2026-11-03T08:01,10,QB
-401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Duce Robinson,4,28,0.14,0.601,0.0723,+1282,False,2026-11-03T08:01,3,WR
-401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Evan Dickens,4,17,0.176,0.399,0.0603,+1559,False,2026-11-03T08:01,7,RB
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Aiden Flora,8,21,0.335,0.354,0.1019,+881,True,2026-11-03T08:01,3,RB
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Dawson Pendergrass,2,23,0.165,0.646,0.0917,+991,False,2026-11-03T08:01,14,RB
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Caden Knighten,3,23,0.129,0.646,0.0714,+1300,False,2026-11-03T08:01,5,RB
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Gavin Freeman,2,23,0.11,0.646,0.0614,+1529,False,2026-11-03T08:01,3,WR
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Jaylen Raynor,4,21,0.191,0.354,0.0581,+1621,False,2026-11-03T08:01,7,QB
-401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Easton Miller,2,21,0.1,0.354,0.0304,+3185,False,2026-11-03T08:01,2,RB
-401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Demon June,9,25,0.281,0.595,0.144,+594,True,2026-11-03T08:01,14,RB
-401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Jelani Thurman,6,25,0.209,0.595,0.1067,+837,False,2026-11-03T08:01,8,TE
-401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Jordan Shipp,3,25,0.147,0.595,0.0753,+1228,False,2026-11-03T08:01,3,WR
-401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Trey Cornist,6,31,0.211,0.405,0.0734,+1262,False,2026-11-03T08:01,9,RB
-401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Kalieb Osborne,7,31,0.184,0.405,0.0641,+1460,False,2026-11-03T08:01,7,QB
-401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Cyncir Bowers,7,31,0.178,0.405,0.062,+1514,False,2026-11-03T08:01,5,RB
-401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Jamal Roberts,10,25,0.439,0.448,0.1693,+491,True,2026-11-03T08:01,14,RB
-401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Raleek Brown,6,23,0.242,0.552,0.1148,+771,False,2026-11-03T08:01,11,RB
-401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Cam Coleman,7,23,0.199,0.552,0.0944,+959,False,2026-11-03T08:01,6,WR
-401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Arch Manning,2,23,0.14,0.552,0.0663,+1407,False,2026-11-03T08:01,3,QB
-401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Donovan Olugbode,6,25,0.163,0.448,0.0629,+1489,False,2026-11-03T08:01,2,WR
-401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Cayden Lee,4,25,0.163,0.448,0.0628,+1494,False,2026-11-03T08:01,2,WR
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Johnnie Daniels,6,15,0.392,0.478,0.1609,+521,True,2026-11-03T08:01,7,RB
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Damari Alston,6,25,0.216,0.522,0.097,+931,False,2026-11-03T08:01,13,RB
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Javon Ross,3,25,0.147,0.522,0.0659,+1417,False,2026-11-03T08:01,4,WR
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Oran Singleton Jr.,4,25,0.144,0.522,0.0646,+1447,False,2026-11-03T08:01,4,WR
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Destyn Hill,2,15,0.134,0.478,0.0551,+1715,False,2026-11-03T08:01,0,WR
-401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Jaylin Lucas,2,15,0.098,0.478,0.0404,+2377,False,2026-11-03T08:01,0,RB
-401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Wayne Knight,14,31,0.353,0.604,0.1831,+446,True,2026-11-03T08:01,18,RB
-401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Darius Taylor,4,13,0.329,0.396,0.1121,+792,False,2026-11-03T08:01,11,RB
-401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Anthony Woods,6,31,0.184,0.604,0.0954,+948,False,2026-11-03T08:01,7,RB
-401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Jaivian Thomas,4,31,0.143,0.604,0.0742,+1248,False,2026-11-03T08:01,8,RB
-401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Javon Tracy,1,13,0.153,0.396,0.0522,+1814,False,2026-11-03T08:01,6,WR
-401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Jalen Smith,3,13,0.117,0.396,0.0398,+2410,False,2026-11-03T08:01,1,WR
-401858286,2026-11-07T17:30,Duke @ NC State,Duke,Nate Sheppard,18,28,0.571,0.565,0.2775,+260,True,2026-11-03T08:01,31,RB
-401858286,2026-11-07T17:30,Duke @ NC State,NC State,Will Wilson,8,28,0.269,0.435,0.1004,+896,False,2026-11-03T08:01,12,QB
-401858286,2026-11-07T17:30,Duke @ NC State,Duke,Jeremiah Hasley,1,28,0.109,0.565,0.0529,+1791,False,2026-11-03T08:01,7,TE
-401858286,2026-11-07T17:30,Duke @ NC State,NC State,Keenan Jackson,5,28,0.124,0.435,0.0464,+2055,False,2026-11-03T08:01,1,WR
-401858286,2026-11-07T17:30,Duke @ NC State,NC State,Davion Gause,2,28,0.114,0.435,0.0425,+2252,False,2026-11-03T08:01,1,RB
-401858286,2026-11-07T17:30,Duke @ NC State,Duke,CJ Campbell,0,28,0.056,0.565,0.0272,+3577,False,2026-11-03T08:01,3,RB
-401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Fame Ijeboi,10,24,0.42,0.584,0.2112,+373,True,2026-11-03T08:01,28,RB
-401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,Iverson Howard,4,19,0.205,0.416,0.0734,+1263,False,2026-11-03T08:01,10,RB
-401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,DeJuan Williams,4,19,0.189,0.416,0.0676,+1379,False,2026-11-03T08:01,7,RB
-401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,Chris Durr Jr.,5,19,0.177,0.416,0.0632,+1481,False,2026-11-03T08:01,3,WR
-401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Antonio Harris,2,24,0.101,0.584,0.0508,+1868,False,2026-11-03T08:01,4,RB
-401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Xavier Townsend,3,24,0.095,0.584,0.0479,+1986,False,2026-11-03T08:01,2,WR
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Byrum Brown,8,22,0.298,0.648,0.1661,+502,True,2026-11-03T08:01,9,QB
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Chas Nimrod,4,22,0.166,0.648,0.0924,+983,False,2026-11-03T08:01,3,WR
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Keshaun Singleton,2,22,0.114,0.648,0.0636,+1473,False,2026-11-03T08:01,2,WR
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,KJ Jackson,4,17,0.195,0.352,0.0593,+1588,False,2026-11-03T08:01,5,QB
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,Cam Settles,2,17,0.165,0.352,0.0499,+1905,False,2026-11-03T08:01,5,RB
-401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,Braylen Russell,2,17,0.125,0.352,0.0379,+2537,False,2026-11-03T08:01,5,RB
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Caleb Hawkins,5,33,0.282,0.548,0.133,+652,True,2026-11-03T08:01,27,RB
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Wyatt Young,7,33,0.206,0.548,0.0972,+929,False,2026-11-03T08:01,9,WR
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Justin Bowick,10,33,0.194,0.548,0.0913,+995,False,2026-11-03T08:01,4,WR
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Joe Jackson,4,23,0.211,0.452,0.0821,+1117,False,2026-11-03T08:01,12,RB
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Jaron Tibbs,4,23,0.198,0.452,0.0771,+1197,False,2026-11-03T08:01,10,WR
-401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Rodney Fields Jr.,5,23,0.183,0.452,0.0709,+1310,False,2026-11-03T08:01,9,RB
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Jaden Allen-Hendrix,4,21,0.304,0.618,0.1616,+519,True,2026-11-03T08:01,8,RB
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,Maurki James,4,10,0.283,0.382,0.0928,+977,False,2026-11-03T08:01,6,RB
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Clayton Coppock,5,21,0.156,0.618,0.0829,+1107,False,2026-11-03T08:01,0,WR
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Karmello English,2,21,0.107,0.618,0.0571,+1653,False,2026-11-03T08:01,2,WR
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,TJ Johnson,3,10,0.164,0.382,0.054,+1753,False,2026-11-03T08:01,1,WR
-401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,Leon Haughton Jr.,3,10,0.164,0.382,0.0538,+1759,False,2026-11-03T08:01,2,TE
-401869927,2026-11-07T19:30,Georgia State @ App State,App State,Jaquari Lewis,8,21,0.292,0.567,0.1425,+602,True,2026-11-03T08:01,9,RB
-401869927,2026-11-07T19:30,Georgia State @ App State,App State,Sam Pickett III,5,21,0.157,0.567,0.0766,+1205,False,2026-11-03T08:01,2,WR
-401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Lanear McCrary Jr.,4,26,0.203,0.433,0.0755,+1224,False,2026-11-03T08:01,11,RB
-401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Rodshaun Dorsey,6,26,0.164,0.433,0.061,+1540,False,2026-11-03T08:01,3,WR
-401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Qwantavius Wiggins,4,26,0.131,0.433,0.0487,+1953,False,2026-11-03T08:01,2,RB
-401869927,2026-11-07T19:30,Georgia State @ App State,App State,Treyaun Webb,2,21,0.085,0.567,0.0417,+2301,False,2026-11-03T08:01,5,RB
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Rickie Collins,5,14,0.292,0.466,0.1172,+753,True,2026-11-03T08:01,8,QB
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Jo'Nathan Silver,4,23,0.239,0.534,0.1096,+812,False,2026-11-03T08:01,10,RB
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Kaderris Roberts,6,23,0.207,0.534,0.0949,+954,False,2026-11-03T08:01,4,RB
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Dylan Gary,4,14,0.234,0.466,0.0939,+965,False,2026-11-03T08:01,2,WR
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Sean Wilson,4,23,0.15,0.534,0.069,+1350,False,2026-11-03T08:01,2,WR
-401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Davis Bryson,1,14,0.127,0.466,0.0511,+1858,False,2026-11-03T08:01,3,WR
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Lanorris Sellers,6,34,0.224,0.601,0.1158,+763,True,2026-11-03T08:01,7,QB
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Jamarion Morrow,4,22,0.214,0.399,0.0736,+1259,False,2026-11-03T08:01,11,RB
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Matthew Fuller,6,34,0.123,0.601,0.0637,+1471,False,2026-11-03T08:01,8,RB
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Mazeo Bennett,4,34,0.111,0.601,0.0575,+1639,False,2026-11-03T08:01,0,WR
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Carsyn Baker,3,22,0.133,0.399,0.0456,+2094,False,2026-11-03T08:01,11,RB
-401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Isaiah Horton,3,22,0.118,0.399,0.0404,+2377,False,2026-11-03T08:01,6,WR
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Timothy Carter,5,24,0.234,0.697,0.1401,+614,True,2026-11-03T08:01,12,RB
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Trey Owens,4,24,0.177,0.697,0.1063,+840,False,2026-11-03T08:01,9,QB
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Kenyon Clay,4,24,0.128,0.697,0.077,+1198,False,2026-11-03T08:01,7,RB
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Nic Trujillo,3,20,0.126,0.303,0.0329,+2943,False,2026-11-03T08:01,2,WR
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Aidan Armenta,2,20,0.118,0.303,0.0307,+3162,False,2026-11-03T08:01,4,QB
-401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Bryce Anderson,2,20,0.092,0.303,0.0239,+4089,False,2026-11-03T08:01,2,TE
-401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Dilin Jones,6,39,0.235,0.578,0.1168,+756,True,2026-11-03T08:01,21,RB
-401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Sam Leavitt,8,39,0.159,0.578,0.0791,+1164,False,2026-11-03T08:01,13,QB
-401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Jackson Harris,7,39,0.152,0.578,0.0757,+1221,False,2026-11-03T08:01,2,WR
-401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,Daniel Hill,5,28,0.195,0.422,0.0709,+1311,False,2026-11-03T08:01,7,RB
-401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,Trae'shawn Brown,5,28,0.157,0.422,0.0569,+1657,False,2026-11-03T08:01,7,RB
-401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,EJ Crowell,4,28,0.139,0.422,0.0505,+1881,False,2026-11-03T08:01,5,RB
-401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,Roderick Robinson II,3,15,0.275,0.655,0.1547,+547,True,2026-11-03T08:01,11,RB
-401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,Braylon McReynolds,5,15,0.22,0.655,0.124,+706,False,2026-11-03T08:01,6,RB
-401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Khamani Alexander,5,15,0.319,0.345,0.0948,+955,False,2026-11-03T08:01,10,RB
-401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,C.J. Smith,1,15,0.097,0.655,0.0547,+1730,False,2026-11-03T08:01,0,WR
-401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Derrick Eley,3,15,0.18,0.345,0.0533,+1775,False,2026-11-03T08:01,1,WR
-401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Jaden Barnes,1,15,0.144,0.345,0.0427,+2243,False,2026-11-03T08:01,3,WR
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Makhi Hughes,4,29,0.25,0.63,0.1357,+637,True,2026-11-03T08:01,21,RB
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Patrick Overmyer,6,29,0.237,0.63,0.1286,+678,False,2026-11-03T08:01,12,TE
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Conner Weigman,6,29,0.177,0.63,0.0962,+940,False,2026-11-03T08:01,16,QB
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,Cole Tabb,13,33,0.302,0.37,0.0959,+943,False,2026-11-03T08:01,6,RB
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,JC French,7,33,0.243,0.37,0.0774,+1193,False,2026-11-03T08:01,11,QB
-401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,JaVonnie Gibson,4,33,0.119,0.37,0.0379,+2540,False,2026-11-03T08:01,5,WR
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Weston Bryan,5,18,0.181,0.641,0.0995,+905,True,2026-11-03T08:01,10,QB
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Taeo Todd,2,18,0.107,0.641,0.0591,+1592,False,2026-11-03T08:01,2,RB
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Alex Taylor,2,18,0.1,0.641,0.0552,+1712,False,2026-11-03T08:01,0,WR
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,TJ Lester,5,20,0.17,0.359,0.0526,+1800,False,2026-11-03T08:01,9,RB
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,Judah Price,3,20,0.157,0.359,0.0483,+1968,False,2026-11-03T08:01,5,RB
-401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,Joshon Barbie,3,20,0.113,0.359,0.0348,+2775,False,2026-11-03T08:01,7,RB
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Bo Jackson,4,28,0.327,0.612,0.172,+481,True,2026-11-03T08:01,21,RB
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Jeremiah Smith,13,28,0.296,0.612,0.1557,+542,False,2026-11-03T08:01,7,WR
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Jordon Davison,7,25,0.252,0.388,0.084,+1090,False,2026-11-03T08:01,16,RB
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Dakorien Moore,6,25,0.172,0.388,0.0573,+1644,False,2026-11-03T08:01,3,WR
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Dierre Hill Jr.,3,25,0.133,0.388,0.0444,+2155,False,2026-11-03T08:01,8,RB
-401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Nate Roberts,2,28,0.052,0.612,0.0275,+3536,False,2026-11-03T08:01,1,TE
-401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Carson Hansen,5,22,0.252,0.458,0.0992,+908,True,2026-11-03T08:01,12,RB
-401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Dezmen Roebuck,3,22,0.17,0.542,0.079,+1165,False,2026-11-03T08:01,6,WR
-401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Brian Bonner Jr.,1,22,0.138,0.542,0.0642,+1458,False,2026-11-03T08:01,8,RB
-401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Andrew Rappleyea,3,22,0.137,0.458,0.0538,+1758,False,2026-11-03T08:01,3,TE
-401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Cam Wallace,3,22,0.135,0.458,0.053,+1785,False,2026-11-03T08:01,8,RB
-401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Chris Lawson,3,22,0.113,0.542,0.0525,+1806,False,2026-11-03T08:01,3,WR
-401862820,2026-11-07T20:30,Temple @ Navy,Navy,Jackson Gutierrez,13,27,0.524,0.602,0.2714,+268,True,2026-11-03T08:01,21,QB
-401862820,2026-11-07T20:30,Temple @ Navy,Temple,Keveun Mason,3,19,0.26,0.398,0.089,+1023,False,2026-11-03T08:01,13,RB
-401862820,2026-11-07T20:30,Temple @ Navy,Navy,Michael Barrow,2,27,0.171,0.602,0.0888,+1026,False,2026-11-03T08:01,8,WR
-401862820,2026-11-07T20:30,Temple @ Navy,Temple,Ajani Sheppard,5,19,0.182,0.398,0.0622,+1508,False,2026-11-03T08:01,6,QB
-401862820,2026-11-07T20:30,Temple @ Navy,Navy,Braxton Woodson,5,27,0.12,0.602,0.062,+1514,False,2026-11-03T08:01,5,QB
-401862820,2026-11-07T20:30,Temple @ Navy,Temple,Samuel Brown V,4,19,0.12,0.398,0.0411,+2334,False,2026-11-03T08:01,3,RB
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Ajay Allen,6,19,0.27,0.486,0.113,+785,True,2026-11-03T08:01,8,RB
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Antonio Martin,2,15,0.241,0.514,0.1065,+839,False,2026-11-03T08:01,7,RB
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Brock Glenn,5,19,0.208,0.486,0.0869,+1051,False,2026-11-03T08:01,6,QB
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Roman Gagliano,3,15,0.173,0.514,0.0763,+1211,False,2026-11-03T08:01,3,QB
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Neo Clifton,3,15,0.159,0.514,0.0705,+1319,False,2026-11-03T08:01,2,WR
-401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Jonathan Stafford Jr.,1,19,0.098,0.486,0.0408,+2353,False,2026-11-03T08:01,2,WR
-401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Dylan Edwards,5,18,0.276,0.539,0.1276,+684,True,2026-11-03T08:01,11,RB
-401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Landen Chambers,5,23,0.251,0.461,0.0997,+903,False,2026-11-03T08:01,19,RB
-401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Nik McMillan,5,18,0.17,0.539,0.0789,+1167,False,2026-11-03T08:01,1,WR
-401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Keyone Jenkins,4,23,0.148,0.461,0.0586,+1607,False,2026-11-03T08:01,9,QB
-401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Isaiah Marshall,2,18,0.121,0.539,0.0561,+1682,False,2026-11-03T08:01,4,QB
-401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Duke Watson,3,23,0.109,0.461,0.0432,+2212,False,2026-11-03T08:01,7,RB
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Gavin Griffin,4,16,0.32,0.429,0.1181,+746,True,2026-11-03T08:01,8,RB
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Jaheim Merriweather,5,16,0.229,0.429,0.0846,+1083,False,2026-11-03T08:01,7,RB
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Andrew Burnette,2,27,0.171,0.571,0.084,+1090,False,2026-11-03T08:01,9,RB
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Eli Finley,5,27,0.146,0.571,0.0718,+1293,False,2026-11-03T08:01,6,TE
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Jalen Mickens,6,27,0.135,0.571,0.0665,+1404,False,2026-11-03T08:01,3,WR
-401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Jordan Lovett,2,16,0.124,0.429,0.0458,+2084,False,2026-11-03T08:01,1,RB
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,Maguire Anderson,3,9,0.223,0.567,0.109,+818,True,2026-11-03T08:01,3,WR
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Connor Lair,4,21,0.288,0.433,0.1072,+833,False,2026-11-03T08:01,12,RB
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Isaiah Myers,8,21,0.258,0.433,0.0959,+943,False,2026-11-03T08:01,3,WR
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,Devonte Lyons,1,9,0.153,0.567,0.0745,+1243,False,2026-11-03T08:01,7,RB
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,JoJo Stone,1,9,0.12,0.567,0.0588,+1601,False,2026-11-03T08:01,1,WR
-401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Jmariyae Robinson,1,21,0.118,0.433,0.0439,+2179,False,2026-11-03T08:01,2,WR
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Carson Clark,3,8,0.343,0.642,0.1896,+427,True,2026-11-03T08:01,6,WR
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Jabari Bates,1,8,0.27,0.642,0.1492,+570,False,2026-11-03T08:01,10,RB
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,Telly Johnson Jr.,5,14,0.306,0.358,0.0942,+961,False,2026-11-03T08:01,10,RB
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,DeAree Rogers,4,14,0.22,0.358,0.0678,+1376,False,2026-11-03T08:01,2,WR
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Jerry Mcclure,1,8,0.117,0.642,0.0646,+1448,False,2026-11-03T08:01,3,WR
-401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,Elijah Porter,2,14,0.171,0.358,0.0527,+1798,False,2026-11-03T08:01,6,RB
-401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Jahiem White,15,37,0.387,0.687,0.2285,+338,True,2026-11-03T08:01,20,RB
-401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Justin Stevenson,7,37,0.19,0.687,0.1121,+792,False,2026-11-03T08:01,3,WR
-401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Kyle Koch,6,37,0.164,0.687,0.0969,+932,False,2026-11-03T08:01,5,WR
-401862821,2026-11-07T21:00,Rice @ North Texas,Rice,Jacurri Brown,6,17,0.277,0.313,0.0747,+1239,False,2026-11-03T08:01,5,QB
-401862821,2026-11-07T21:00,Rice @ North Texas,Rice,Gael Ochoa,5,17,0.21,0.313,0.0566,+1668,False,2026-11-03T08:01,2,QB
-401862821,2026-11-07T21:00,Rice @ North Texas,Rice,DAndre Hardeman Jr.,2,17,0.18,0.313,0.0484,+1966,False,2026-11-03T08:01,5,RB
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Colton Joseph,4,13,0.293,0.762,0.1918,+421,True,2026-11-03T08:01,7,QB
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Abu Sama III,1,13,0.143,0.762,0.0939,+965,False,2026-11-03T08:01,3,RB
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Bryan Jackson,1,13,0.114,0.762,0.0744,+1244,False,2026-11-03T08:01,4,RB
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,Antwan Raymond,7,23,0.301,0.238,0.0615,+1525,False,2026-11-03T08:01,14,RB
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,KJ Duff,8,23,0.284,0.238,0.058,+1623,False,2026-11-03T08:01,7,WR
-401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,Clay Thevenin,6,23,0.271,0.238,0.0554,+1706,False,2026-11-03T08:01,9,RB
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Anthony Evans III,4,21,0.212,0.546,0.0995,+906,True,2026-11-03T08:01,6,WR
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Sedrick Alexander,6,18,0.246,0.454,0.0959,+943,False,2026-11-03T08:01,7,RB
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Fluff Bothwell,3,21,0.16,0.546,0.075,+1233,False,2026-11-03T08:01,6,RB
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Junior Sherrill,4,18,0.17,0.454,0.0662,+1410,False,2026-11-03T08:01,2,WR
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Sanfrisco Magee,5,21,0.14,0.546,0.0656,+1425,False,2026-11-03T08:01,2,WR
-401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Makhilyn Young,2,18,0.119,0.454,0.0466,+2047,False,2026-11-03T08:01,4,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,Steven Blanco,5,19,0.252,0.61,0.132,+658,True,2026-11-03T08:01,9,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,JJ Garner,5,19,0.181,0.61,0.0951,+951,False,2026-11-03T08:01,1,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,Anthony Reagan Jr.,4,19,0.171,0.61,0.0895,+1017,False,2026-11-03T08:01,2,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,Keenan Phillips,6,30,0.245,0.39,0.0821,+1119,False,2026-11-03T08:01,10,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,PJ Martin,7,30,0.235,0.39,0.0787,+1170,False,2026-11-03T08:01,14,RB
-401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,Anthony Eager,6,30,0.147,0.39,0.0495,+1921,False,2026-11-03T08:01,2,WR
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Dylan Riley,10,32,0.272,0.686,0.1604,+523,True,2026-11-03T08:01,10,RB
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Durell Robinson,9,31,0.375,0.314,0.101,+890,False,2026-11-03T08:01,21,RB
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Sire Gaines,4,32,0.153,0.686,0.0905,+1005,False,2026-11-03T08:01,8,RB
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Rasean Jones,5,32,0.153,0.686,0.0902,+1009,False,2026-11-03T08:01,3,WR
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Reginald Vick Jr,5,31,0.118,0.314,0.0317,+3054,False,2026-11-03T08:01,6,WR
-401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Nader Chirchi,4,31,0.088,0.314,0.0236,+4133,False,2026-11-03T08:01,3,TE
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,DeSean Bishop,10,21,0.483,0.596,0.2477,+304,True,2026-11-03T08:01,18,RB
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,CJ Baxter Jr.,8,28,0.225,0.404,0.0783,+1178,False,2026-11-03T08:01,12,RB
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,Willie Rodriguez,4,28,0.195,0.404,0.0677,+1376,False,2026-11-03T08:01,6,TE
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,Mike Matthews,3,21,0.131,0.596,0.0673,+1386,False,2026-11-03T08:01,4,WR
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,Dasaahn Brame,2,21,0.123,0.596,0.0631,+1484,False,2026-11-03T08:01,2,TE
-401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,Jason Patterson,3,28,0.108,0.404,0.0374,+2574,False,2026-11-03T08:01,6,RB
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Caden Creel,5,24,0.258,0.743,0.1648,+507,True,2026-11-03T08:01,11,QB
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Jalen Likely,4,24,0.159,0.743,0.1014,+886,False,2026-11-03T08:01,5,RB
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Jamill Williams,5,24,0.148,0.743,0.0944,+959,False,2026-11-03T08:01,4,WR
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Grady O'Neill,2,15,0.142,0.257,0.0314,+3080,False,2026-11-03T08:01,3,WR
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Chris Reed,1,15,0.135,0.257,0.0299,+3247,False,2026-11-03T08:01,5,WR
-401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Alton McCaskill,1,15,0.128,0.257,0.0283,+3431,False,2026-11-03T08:01,4,RB
-401862823,2026-11-08T00:30,Air Force @ Army,Army,Cale Hellums,17,33,0.557,0.549,0.2628,+281,True,2026-11-03T08:01,26,QB
-401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Kemper Hodges,6,21,0.298,0.451,0.1156,+765,False,2026-11-03T08:01,17,QB
-401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Evan Medders,6,21,0.214,0.451,0.0831,+1103,False,2026-11-03T08:01,7,QB
-401862823,2026-11-08T00:30,Air Force @ Army,Army,Godspower Nwawuihe,4,33,0.135,0.549,0.0637,+1470,False,2026-11-03T08:01,7,RB
-401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Owen Allen,3,21,0.16,0.451,0.062,+1512,False,2026-11-03T08:01,5,RB
-401862823,2026-11-08T00:30,Air Force @ Army,Army,Samari Howard,3,33,0.095,0.549,0.0451,+2119,False,2026-11-03T08:01,4,WR
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Cardae Mack,7,18,0.363,0.545,0.1703,+487,True,2026-11-03T08:01,11,RB
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Reed Harris,4,18,0.213,0.545,0.0998,+902,False,2026-11-03T08:01,5,WR
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Jaquail Smith,3,18,0.183,0.455,0.0715,+1298,False,2026-11-03T08:01,2,RB
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Omarion Miller,3,18,0.143,0.545,0.0673,+1386,False,2026-11-03T08:01,3,WR
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Isaac Wilson,1,18,0.161,0.455,0.0631,+1485,False,2026-11-03T08:01,5,QB
-401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Joseph Williams,5,18,0.16,0.455,0.0626,+1499,False,2026-11-03T08:01,1,WR
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,Nate Frazier,6,25,0.212,0.546,0.0997,+903,True,2026-11-03T08:01,6,RB
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,Dwight Phillips Jr.,3,25,0.117,0.546,0.0551,+1716,False,2026-11-03T08:01,0,RB
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,London Humphreys,3,25,0.117,0.546,0.0551,+1716,False,2026-11-03T08:01,2,WR
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Trinidad Chambliss,7,32,0.138,0.454,0.054,+1751,False,2026-11-03T08:01,6,QB
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Kewan Lacy,5,32,0.138,0.454,0.0537,+1764,False,2026-11-03T08:01,11,RB
-401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Horatio Fields,4,32,0.111,0.454,0.0432,+2217,False,2026-11-03T08:01,2,WR
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Aidan Chiles,10,31,0.297,0.541,0.1384,+622,True,2026-11-03T08:01,12,QB
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Caleb Komolafe,5,31,0.19,0.541,0.0884,+1031,False,2026-11-03T08:01,10,RB
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Griffin Wilde,5,31,0.143,0.541,0.0668,+1398,False,2026-11-03T08:01,3,WR
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,DJ Vonnahme,3,24,0.168,0.459,0.0663,+1408,False,2026-11-03T08:01,3,TE
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,Kamari Moulton,4,24,0.152,0.459,0.0599,+1568,False,2026-11-03T08:01,4,RB
-401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,Reece Vander Zee,4,24,0.124,0.459,0.049,+1940,False,2026-11-03T08:01,1,WR
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Lincoln Kienholz,11,39,0.289,0.673,0.1674,+497,True,2026-11-03T08:01,13,QB
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Isaac Brown,9,39,0.24,0.673,0.1386,+621,False,2026-11-03T08:01,5,RB
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Justice Haynes,6,20,0.27,0.327,0.076,+1216,False,2026-11-03T08:01,13,RB
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Keyjuan Brown,5,39,0.13,0.673,0.0754,+1226,False,2026-11-03T08:01,6,RB
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Trelain Maddox,5,20,0.189,0.327,0.0533,+1777,False,2026-11-03T08:01,8,RB
-401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Dalen Penson,2,20,0.102,0.327,0.0288,+3369,False,2026-11-03T08:01,1,WR
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Nolan James Jr.,11,36,0.253,0.571,0.1244,+704,True,2026-11-03T08:01,12,RB
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Malachi Toney,12,41,0.271,0.429,0.1,+900,False,2026-11-03T08:01,10,WR
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Mark Fletcher Jr.,10,41,0.267,0.429,0.0985,+916,False,2026-11-03T08:01,16,RB
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Jonaz Walton,4,36,0.154,0.571,0.0755,+1224,False,2026-11-03T08:01,11,RB
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Javian Mallory,7,41,0.176,0.429,0.0648,+1443,False,2026-11-03T08:01,10,RB
-401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Aneyas Williams,5,36,0.131,0.571,0.0642,+1459,False,2026-11-03T08:01,9,RB
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,Jordan Marshall,5,19,0.263,0.742,0.1679,+496,True,2026-11-03T08:01,11,RB
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,JJ Buchanan,5,19,0.17,0.742,0.1081,+825,False,2026-11-03T08:01,3,WR
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,Savion Hiter,2,19,0.154,0.742,0.0981,+919,False,2026-11-03T08:01,8,RB
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Jaziun Patterson,5,12,0.364,0.258,0.081,+1135,False,2026-11-03T08:01,8,RB
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Chrishon Mccray,1,12,0.116,0.258,0.0258,+3779,False,2026-11-03T08:01,1,WR
-401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Fredrick Moore,2,12,0.095,0.258,0.0211,+4639,False,2026-11-03T08:01,0,WR
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Jadan Baugh,13,23,0.455,0.598,0.2341,+327,True,2026-11-03T08:01,20,RB
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Lloyd Avant,2,14,0.199,0.402,0.0686,+1357,False,2026-11-03T08:01,7,RB
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Rocky Beers,4,14,0.186,0.402,0.0642,+1458,False,2026-11-03T08:01,0,TE
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Dallas Wilson,4,23,0.123,0.598,0.0633,+1481,False,2026-11-03T08:01,4,WR
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Isaiah Sategna,3,14,0.183,0.402,0.0632,+1482,False,2026-11-03T08:01,1,WR
-401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Lakota Dippre,2,23,0.091,0.598,0.0466,+2046,False,2026-11-03T08:01,3,TE
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Kam Davis,8,33,0.221,0.76,0.1445,+592,True,2026-11-03T08:01,9,RB
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Ethan Vasko,6,33,0.184,0.76,0.1202,+732,False,2026-11-03T08:01,8,QB
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Jaylon Coleman,4,33,0.097,0.76,0.0633,+1480,False,2026-11-03T08:01,1,RB
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,James Jones,5,18,0.286,0.24,0.0591,+1593,False,2026-11-03T08:01,9,RB
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,Terrell Washington Jr.,3,18,0.201,0.24,0.0417,+2300,False,2026-11-03T08:01,8,RB
-401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,AJ Williams III,3,18,0.182,0.24,0.0375,+2563,False,2026-11-03T08:01,5,WR
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Javen Jacobs,4,15,0.321,0.456,0.1258,+695,True,2026-11-03T08:01,12,RB
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Bryson Donelson,6,26,0.216,0.544,0.101,+890,False,2026-11-03T08:01,11,RB
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Jayden Mandal,4,26,0.174,0.544,0.0816,+1125,False,2026-11-03T08:01,8,QB
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Josiah Freeman,4,26,0.172,0.544,0.0805,+1143,False,2026-11-03T08:01,6,WR
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Eli Wood,5,15,0.204,0.456,0.0799,+1152,False,2026-11-03T08:01,4,WR
-401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Javon Robinson,2,15,0.087,0.456,0.0341,+2835,False,2026-11-03T08:01,1,WR
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Devon Rice,6,18,0.228,0.645,0.1264,+691,True,2026-11-03T08:01,11,RB
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Cam Barfield,1,18,0.128,0.645,0.071,+1309,False,2026-11-03T08:01,7,RB
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Raymond Moore III,3,10,0.217,0.355,0.0663,+1409,False,2026-11-03T08:01,3,QB
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Carver Cheeks,2,10,0.211,0.355,0.0644,+1453,False,2026-11-03T08:01,3,TE
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Frank Abreu,3,18,0.081,0.645,0.045,+2123,False,2026-11-03T08:01,1,TE
-401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Jaden Smith,1,10,0.129,0.355,0.0394,+2436,False,2026-11-03T08:01,0,WR
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,J'Koby Williams,6,25,0.212,0.684,0.125,+700,True,2026-11-03T08:01,3,RB
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Michael Hawkins Jr.,16,36,0.359,0.316,0.0976,+924,False,2026-11-03T08:01,19,QB
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Cam Cook,9,36,0.332,0.316,0.0902,+1009,False,2026-11-03T08:01,22,RB
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,Cameron Dickey,4,25,0.145,0.684,0.0852,+1074,False,2026-11-03T08:01,9,RB
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,Terrance Carter,3,25,0.123,0.684,0.0722,+1285,False,2026-11-03T08:01,2,TE
-401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Amari Latimer,3,36,0.132,0.316,0.0358,+2693,False,2026-11-03T08:01,7,RB
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,Jesse Legree,12,36,0.217,0.567,0.1061,+843,True,2026-11-03T08:01,2,WR
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Torrance Burgess Jr.,5,34,0.207,0.433,0.0769,+1200,False,2026-11-03T08:01,9,RB
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Brad Jackson,6,34,0.196,0.433,0.0728,+1274,False,2026-11-03T08:01,10,QB
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,Cornell Hatcher Jr.,4,36,0.142,0.567,0.0693,+1344,False,2026-11-03T08:01,6,RB
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,AJ Newberry,4,36,0.129,0.567,0.0628,+1491,False,2026-11-03T08:01,6,RB
-401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Davian Jackson,8,34,0.168,0.433,0.0627,+1495,False,2026-11-03T08:01,12,RB
-401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Jai'Den Thomas,5,21,0.292,0.592,0.1486,+573,True,2026-11-03T08:01,8,RB
-401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Jackson Arnold,6,21,0.275,0.592,0.14,+614,False,2026-11-03T08:01,14,QB
-401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Tyler Hughes,6,17,0.295,0.408,0.1035,+866,False,2026-11-03T08:01,7,QB
-401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Markell Holman,4,17,0.203,0.408,0.0713,+1303,False,2026-11-03T08:01,7,RB
-401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Kayden McGee,4,21,0.126,0.592,0.0639,+1464,False,2026-11-03T08:01,1,WR
-401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Samuel Harris,2,17,0.164,0.408,0.0574,+1643,False,2026-11-03T08:01,7,RB
+401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Duncan Brune,3,18,0.221,0.698,0.1325,+654,True,2026-11-03T14:01,8,RB
+401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Riley Neer,4,18,0.21,0.698,0.1262,+692,False,2026-11-03T14:01,7,WR
+401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Jordan Gant,6,15,0.42,0.302,0.1091,+817,False,2026-11-03T14:01,12,RB
+401866453,2026-11-04T00:00,Ohio @ Akron,Ohio,Nick Poulos,2,18,0.121,0.698,0.0727,+1276,False,2026-11-03T14:01,4,QB
+401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Marcel Williams,4,15,0.23,0.302,0.0598,+1571,False,2026-11-03T14:01,2,WR
+401866453,2026-11-04T00:00,Ohio @ Akron,Akron,Elijah Alexander,2,15,0.086,0.302,0.0223,+4380,False,2026-11-03T14:01,2,TE
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),Rodney Nelson,3,17,0.23,0.6,0.1187,+743,True,2026-11-03T14:01,8,RB
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),D'Shawntae Jones,2,17,0.215,0.6,0.1108,+803,False,2026-11-03T14:01,8,RB
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Messiah Burch,5,19,0.278,0.4,0.0954,+948,False,2026-11-03T14:01,12,RB
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Chance Morrow,5,19,0.19,0.4,0.0653,+1431,False,2026-11-03T14:01,10,WR
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Miami (OH),Damarion Witten,3,17,0.117,0.6,0.0606,+1550,False,2026-11-03T14:01,3,WR
+401866454,2026-11-04T01:00,Buffalo @ Miami (OH),Buffalo,Clint Walker,3,19,0.134,0.4,0.0459,+2077,False,2026-11-03T14:01,3,TE
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,TJ Horton,9,23,0.347,0.455,0.1355,+638,True,2026-11-03T14:01,11,RB
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Elijah Faulkner,3,20,0.241,0.545,0.1129,+785,False,2026-11-03T14:01,7,RB
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Curtis Kimmons IV,5,20,0.217,0.545,0.1018,+883,False,2026-11-03T14:01,7,RB
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Massachusetts,Max Dowling,3,20,0.113,0.545,0.0528,+1794,False,2026-11-03T14:01,1,TE
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,Keldric Luster,2,23,0.108,0.455,0.0421,+2273,False,2026-11-03T14:01,2,QB
+401866455,2026-11-05T00:00,Ball State @ Massachusetts,Ball State,Jamarion McDougle,2,23,0.107,0.455,0.0417,+2300,False,2026-11-03T14:01,1,WR
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,CJ Miller,8,34,0.217,0.831,0.1551,+545,True,2026-11-03T14:01,8,RB
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,Connor Walendzak,9,34,0.189,0.831,0.1352,+639,False,2026-11-03T14:01,10,RB
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Toledo,Adjatay Dabbs,7,34,0.188,0.831,0.1342,+645,False,2026-11-03T14:01,8,WR
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Isaiah Ene,3,13,0.237,0.169,0.0346,+2794,False,2026-11-03T14:01,5,RB
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Matthew Coleman,4,13,0.229,0.169,0.0333,+2900,False,2026-11-03T14:01,3,WR
+401866457,2026-11-05T00:00,Toledo @ Sacramento State,Sacramento State,Daniel Swinney,1,13,0.094,0.169,0.0136,+7243,False,2026-11-03T14:01,3,RB
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Harold Mack,4,16,0.211,0.517,0.0936,+968,True,2026-11-03T14:01,4,WR
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Nicholas Woodford,3,16,0.187,0.483,0.0779,+1184,False,2026-11-03T14:01,2,RB
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Angel H Flores,4,16,0.183,0.483,0.076,+1216,False,2026-11-03T14:01,3,QB
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Joshua Long,2,16,0.146,0.517,0.0651,+1437,False,2026-11-03T14:01,4,TE
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Eastern Michigan,Joey Mattord,2,16,0.141,0.517,0.0627,+1496,False,2026-11-03T14:01,4,RB
+401866456,2026-11-05T00:30,Central Michigan @ Eastern Michigan,Central Michigan,Langston Lewis,2,16,0.137,0.483,0.0571,+1651,False,2026-11-03T14:01,2,WR
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,A'Marion Peterson,11,31,0.335,0.572,0.1648,+507,True,2026-11-03T14:01,13,RB
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Easton Messer,10,25,0.324,0.428,0.1191,+740,False,2026-11-03T14:01,4,WR
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,Will Henderson III,5,31,0.153,0.572,0.0751,+1231,False,2026-11-03T14:01,3,RB
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Kelby Valsin,4,25,0.156,0.428,0.0573,+1645,False,2026-11-03T14:01,4,WR
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,UTSA,Brandon High,3,31,0.113,0.572,0.0558,+1693,False,2026-11-03T14:01,6,RB
+401862817,2026-11-06T00:30,UTSA @ Florida Atlantic,Florida Atlantic,Leonard Farrow,2,25,0.123,0.428,0.0451,+2118,False,2026-11-03T14:01,8,RB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Steven Robinson,10,24,0.469,0.319,0.1286,+678,True,2026-11-03T14:01,17,RB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,George Pettaway,8,38,0.195,0.681,0.1141,+777,False,2026-11-03T14:01,15,RB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,Seth Cromwell,3,38,0.13,0.681,0.0763,+1210,False,2026-11-03T14:01,11,RB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,James Madison,JC Evans,2,38,0.113,0.681,0.066,+1415,False,2026-11-03T14:01,8,QB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Jamarice Wilder,6,24,0.2,0.319,0.0548,+1723,False,2026-11-03T14:01,6,RB
+401869964,2026-11-06T01:00,James Madison @ Southern Miss,Southern Miss,Mario Sanders II,5,24,0.128,0.319,0.035,+2753,False,2026-11-03T14:01,1,WR
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Kendrick Raphael,10,27,0.367,0.581,0.1833,+445,True,2026-11-03T14:01,17,RB
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Jeffrey Overton Jr.,6,28,0.208,0.419,0.075,+1233,False,2026-11-03T14:01,13,RB
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Marcellous Hawkins,5,28,0.197,0.419,0.071,+1308,False,2026-11-03T14:01,11,RB
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,Virginia Tech,Luke Reynolds,5,28,0.182,0.419,0.0658,+1420,False,2026-11-03T14:01,7,TE
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Randy Pittman,3,27,0.11,0.581,0.055,+1719,False,2026-11-03T14:01,5,TE
+401858288,2026-11-07T00:00,Virginia Tech @ SMU,SMU,Yamir Knight,3,27,0.095,0.581,0.0473,+2016,False,2026-11-03T14:01,1,WR
+401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,D.J. Crowther,8,21,0.356,0.472,0.1442,+593,True,2026-11-03T14:01,14,RB
+401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,TJ Engleman,6,16,0.27,0.528,0.1225,+716,False,2026-11-03T14:01,6,RB
+401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,Ashton Gray,2,16,0.242,0.528,0.11,+809,False,2026-11-03T14:01,8,RB
+401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,Luke Kromenhoek,4,21,0.19,0.472,0.0769,+1201,False,2026-11-03T14:01,8,QB
+401862818,2026-11-07T00:30,South Florida @ East Carolina,South Florida,Jason Collins Jr.,2,21,0.109,0.472,0.044,+2171,False,2026-11-03T14:01,5,RB
+401862818,2026-11-07T00:30,South Florida @ East Carolina,East Carolina,Landon Sides,1,16,0.09,0.528,0.0411,+2332,False,2026-11-03T14:01,0,WR
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Collin Dixon,10,22,0.312,0.433,0.116,+762,True,2026-11-03T14:01,3,WR
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Kwazi Gilmer,7,29,0.202,0.567,0.0983,+917,False,2026-11-03T14:01,4,WR
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Jamal Rule,6,29,0.161,0.567,0.0786,+1173,False,2026-11-03T14:01,5,RB
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Nebraska,Mekhi Nelson,5,29,0.154,0.567,0.0749,+1235,False,2026-11-03T14:01,5,RB
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Aidan Laughery,3,22,0.184,0.433,0.0686,+1358,False,2026-11-03T14:01,3,RB
+401858510,2026-11-07T01:00,Nebraska @ Illinois,Illinois,Katin Houser,2,22,0.11,0.433,0.0408,+2350,False,2026-11-03T14:01,3,QB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Scottre Humphrey,11,24,0.482,0.68,0.2819,+255,True,2026-11-03T14:01,24,RB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Dominic Kelley,6,19,0.342,0.32,0.0939,+965,False,2026-11-03T14:01,11,RB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Toa Faavae,2,24,0.137,0.68,0.0802,+1146,False,2026-11-03T14:01,6,QB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,New Mexico,Kiefer Sibley,3,24,0.125,0.68,0.0733,+1264,False,2026-11-03T14:01,3,RB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Herschel Turner,5,19,0.18,0.32,0.0495,+1922,False,2026-11-03T14:01,2,RB
+401864533,2026-11-07T02:00,New Mexico @ Nevada,Nevada,Marshaun Brown,2,19,0.109,0.32,0.03,+3231,False,2026-11-03T14:01,1,WR
+401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Kedrick Reescano,6,27,0.263,0.636,0.1437,+596,True,2026-11-03T14:01,13,RB
+401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Isaiah Mizell,5,27,0.144,0.636,0.0788,+1168,False,2026-11-03T14:01,0,WR
+401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Ka'Morreun Pimpton,4,18,0.169,0.364,0.053,+1785,False,2026-11-03T14:01,6,TE
+401856855,2026-11-07T03:15,TCU @ Arizona,Arizona,Quincy Craig,2,27,0.091,0.636,0.0497,+1913,False,2026-11-03T14:01,2,RB
+401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Jaden Craig,2,18,0.157,0.364,0.049,+1939,False,2026-11-03T14:01,6,QB
+401856855,2026-11-07T03:15,TCU @ Arizona,TCU,Jon Denman,2,18,0.126,0.364,0.0394,+2435,False,2026-11-03T14:01,4,RB
+401856849,2026-11-07T17:00,BYU @ Utah,Utah,Wayshawn Parker,13,35,0.311,0.576,0.1539,+550,True,2026-11-03T14:01,16,RB
+401856849,2026-11-07T17:00,BYU @ Utah,BYU,Bear Bachmeier,7,27,0.293,0.424,0.1067,+838,False,2026-11-03T14:01,18,QB
+401856849,2026-11-07T17:00,BYU @ Utah,Utah,Braden Pegan,7,35,0.15,0.576,0.0744,+1245,False,2026-11-03T14:01,4,WR
+401856849,2026-11-07T17:00,BYU @ Utah,Utah,Devon Dampier,5,35,0.121,0.576,0.0598,+1572,False,2026-11-03T14:01,6,QB
+401856849,2026-11-07T17:00,BYU @ Utah,BYU,Kyler Kasper,5,27,0.155,0.424,0.0565,+1669,False,2026-11-03T14:01,5,WR
+401856849,2026-11-07T17:00,BYU @ Utah,BYU,Sione I Moa,2,27,0.14,0.424,0.0509,+1867,False,2026-11-03T14:01,6,RB
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Gideon Davidson,5,14,0.283,0.537,0.1308,+665,True,2026-11-03T14:01,15,RB
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Ahmad Miller,5,22,0.3,0.463,0.1193,+738,False,2026-11-03T14:01,18,RB
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Tait Reynolds,2,14,0.148,0.537,0.0683,+1363,False,2026-11-03T14:01,8,QB
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Umari Hatcher,5,22,0.165,0.463,0.0656,+1423,False,2026-11-03T14:01,5,WR
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Clemson,Chris Johnson Jr.,2,14,0.126,0.537,0.0581,+1622,False,2026-11-03T14:01,4,RB
+401858285,2026-11-07T17:00,Clemson @ Syracuse,Syracuse,Tylik Hill,2,22,0.122,0.463,0.0484,+1964,False,2026-11-03T14:01,10,RB
+401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Ashton Daniels,12,28,0.307,0.601,0.1586,+530,True,2026-11-03T14:01,13,QB
+401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Ousmane Kromah,5,28,0.227,0.601,0.1175,+751,False,2026-11-03T14:01,15,RB
+401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Bo MacCormack III,2,17,0.25,0.399,0.0856,+1068,False,2026-11-03T14:01,9,RB
+401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Mason McKenzie,5,17,0.227,0.399,0.0777,+1187,False,2026-11-03T14:01,10,QB
+401858289,2026-11-07T17:00,Florida State @ Boston College,Florida State,Duce Robinson,4,28,0.14,0.601,0.0723,+1282,False,2026-11-03T14:01,3,WR
+401858289,2026-11-07T17:00,Florida State @ Boston College,Boston College,Evan Dickens,4,17,0.176,0.399,0.0603,+1559,False,2026-11-03T14:01,7,RB
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Aiden Flora,8,21,0.335,0.354,0.1019,+881,True,2026-11-03T14:01,3,RB
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Dawson Pendergrass,2,23,0.165,0.646,0.0917,+991,False,2026-11-03T14:01,14,RB
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Caden Knighten,3,23,0.129,0.646,0.0714,+1300,False,2026-11-03T14:01,5,RB
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Baylor,Gavin Freeman,2,23,0.11,0.646,0.0614,+1529,False,2026-11-03T14:01,3,WR
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Jaylen Raynor,4,21,0.191,0.354,0.0581,+1621,False,2026-11-03T14:01,7,QB
+401856853,2026-11-07T17:00,Iowa State @ Baylor,Iowa State,Easton Miller,2,21,0.1,0.354,0.0304,+3185,False,2026-11-03T14:01,2,RB
+401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Demon June,9,25,0.281,0.595,0.144,+594,True,2026-11-03T14:01,14,RB
+401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Jelani Thurman,6,25,0.209,0.595,0.1067,+837,False,2026-11-03T14:01,8,TE
+401858292,2026-11-07T17:00,North Carolina @ UConn,North Carolina,Jordan Shipp,3,25,0.147,0.595,0.0753,+1228,False,2026-11-03T14:01,3,WR
+401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Trey Cornist,6,31,0.211,0.405,0.0734,+1262,False,2026-11-03T14:01,9,RB
+401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Kalieb Osborne,7,31,0.184,0.405,0.0641,+1460,False,2026-11-03T14:01,7,QB
+401858292,2026-11-07T17:00,North Carolina @ UConn,UConn,Cyncir Bowers,7,31,0.178,0.405,0.062,+1514,False,2026-11-03T14:01,5,RB
+401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Jamal Roberts,10,25,0.439,0.448,0.1693,+491,True,2026-11-03T14:01,14,RB
+401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Raleek Brown,6,23,0.242,0.552,0.1148,+771,False,2026-11-03T14:01,11,RB
+401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Cam Coleman,7,23,0.199,0.552,0.0944,+959,False,2026-11-03T14:01,6,WR
+401856743,2026-11-07T17:00,Texas @ Missouri,Texas,Arch Manning,2,23,0.14,0.552,0.0663,+1407,False,2026-11-03T14:01,3,QB
+401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Donovan Olugbode,6,25,0.163,0.448,0.0629,+1489,False,2026-11-03T14:01,2,WR
+401856743,2026-11-07T17:00,Texas @ Missouri,Missouri,Cayden Lee,4,25,0.163,0.448,0.0628,+1494,False,2026-11-03T14:01,2,WR
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Johnnie Daniels,6,15,0.392,0.478,0.1609,+521,True,2026-11-03T14:01,7,RB
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Damari Alston,6,25,0.216,0.522,0.097,+931,False,2026-11-03T14:01,13,RB
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Javon Ross,3,25,0.147,0.522,0.0659,+1417,False,2026-11-03T14:01,4,WR
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulsa,Oran Singleton Jr.,4,25,0.144,0.522,0.0646,+1447,False,2026-11-03T14:01,4,WR
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Destyn Hill,2,15,0.134,0.478,0.0551,+1715,False,2026-11-03T14:01,0,WR
+401862822,2026-11-07T17:00,Tulsa @ Tulane,Tulane,Jaylin Lucas,2,15,0.098,0.478,0.0404,+2377,False,2026-11-03T14:01,0,RB
+401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Wayne Knight,14,31,0.353,0.604,0.1831,+446,True,2026-11-03T14:01,18,RB
+401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Darius Taylor,4,13,0.329,0.396,0.1121,+792,False,2026-11-03T14:01,11,RB
+401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Anthony Woods,6,31,0.184,0.604,0.0954,+948,False,2026-11-03T14:01,7,RB
+401858512,2026-11-07T17:00,UCLA @ Minnesota,UCLA,Jaivian Thomas,4,31,0.143,0.604,0.0742,+1248,False,2026-11-03T14:01,8,RB
+401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Javon Tracy,1,13,0.153,0.396,0.0522,+1814,False,2026-11-03T14:01,6,WR
+401858512,2026-11-07T17:00,UCLA @ Minnesota,Minnesota,Jalen Smith,3,13,0.117,0.396,0.0398,+2410,False,2026-11-03T14:01,1,WR
+401858286,2026-11-07T17:30,Duke @ NC State,Duke,Nate Sheppard,18,28,0.571,0.565,0.2775,+260,True,2026-11-03T14:01,31,RB
+401858286,2026-11-07T17:30,Duke @ NC State,NC State,Will Wilson,8,28,0.269,0.435,0.1004,+896,False,2026-11-03T14:01,12,QB
+401858286,2026-11-07T17:30,Duke @ NC State,Duke,Jeremiah Hasley,1,28,0.109,0.565,0.0529,+1791,False,2026-11-03T14:01,7,TE
+401858286,2026-11-07T17:30,Duke @ NC State,NC State,Keenan Jackson,5,28,0.124,0.435,0.0464,+2055,False,2026-11-03T14:01,1,WR
+401858286,2026-11-07T17:30,Duke @ NC State,NC State,Davion Gause,2,28,0.114,0.435,0.0425,+2252,False,2026-11-03T14:01,1,RB
+401858286,2026-11-07T17:30,Duke @ NC State,Duke,CJ Campbell,0,28,0.056,0.565,0.0272,+3577,False,2026-11-03T14:01,3,RB
+401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Fame Ijeboi,10,24,0.42,0.584,0.2112,+373,True,2026-11-03T14:01,28,RB
+401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,Iverson Howard,4,19,0.205,0.416,0.0734,+1263,False,2026-11-03T14:01,10,RB
+401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,DeJuan Williams,4,19,0.189,0.416,0.0676,+1379,False,2026-11-03T14:01,7,RB
+401858515,2026-11-07T17:30,Maryland @ Purdue,Maryland,Chris Durr Jr.,5,19,0.177,0.416,0.0632,+1481,False,2026-11-03T14:01,3,WR
+401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Antonio Harris,2,24,0.101,0.584,0.0508,+1868,False,2026-11-03T14:01,4,RB
+401858515,2026-11-07T17:30,Maryland @ Purdue,Purdue,Xavier Townsend,3,24,0.095,0.584,0.0479,+1986,False,2026-11-03T14:01,2,WR
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Byrum Brown,8,22,0.298,0.648,0.1661,+502,True,2026-11-03T14:01,9,QB
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Chas Nimrod,4,22,0.166,0.648,0.0924,+983,False,2026-11-03T14:01,3,WR
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Auburn,Keshaun Singleton,2,22,0.114,0.648,0.0636,+1473,False,2026-11-03T14:01,2,WR
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,KJ Jackson,4,17,0.195,0.352,0.0593,+1588,False,2026-11-03T14:01,5,QB
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,Cam Settles,2,17,0.165,0.352,0.0499,+1905,False,2026-11-03T14:01,5,RB
+401856738,2026-11-07T17:45,Arkansas @ Auburn,Arkansas,Braylen Russell,2,17,0.125,0.352,0.0379,+2537,False,2026-11-03T14:01,5,RB
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Caleb Hawkins,5,33,0.282,0.548,0.133,+652,True,2026-11-03T14:01,27,RB
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Wyatt Young,7,33,0.206,0.548,0.0972,+929,False,2026-11-03T14:01,9,WR
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Oklahoma State,Justin Bowick,10,33,0.194,0.548,0.0913,+995,False,2026-11-03T14:01,4,WR
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Joe Jackson,4,23,0.211,0.452,0.0821,+1117,False,2026-11-03T14:01,12,RB
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Jaron Tibbs,4,23,0.198,0.452,0.0771,+1197,False,2026-11-03T14:01,10,WR
+401856854,2026-11-07T18:00,Oklahoma State @ Kansas State,Kansas State,Rodney Fields Jr.,5,23,0.183,0.452,0.0709,+1310,False,2026-11-03T14:01,9,RB
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Jaden Allen-Hendrix,4,21,0.304,0.618,0.1616,+519,True,2026-11-03T14:01,8,RB
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,Maurki James,4,10,0.283,0.382,0.0928,+977,False,2026-11-03T14:01,6,RB
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Clayton Coppock,5,21,0.156,0.618,0.0829,+1107,False,2026-11-03T14:01,0,WR
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Coastal Carolina,Karmello English,2,21,0.107,0.618,0.0571,+1653,False,2026-11-03T14:01,2,WR
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,TJ Johnson,3,10,0.164,0.382,0.054,+1753,False,2026-11-03T14:01,1,WR
+401869945,2026-11-07T18:00,Old Dominion @ Coastal Carolina,Old Dominion,Leon Haughton Jr.,3,10,0.164,0.382,0.0538,+1759,False,2026-11-03T14:01,2,TE
+401869927,2026-11-07T19:30,Georgia State @ App State,App State,Jaquari Lewis,8,21,0.292,0.567,0.1425,+602,True,2026-11-03T14:01,9,RB
+401869927,2026-11-07T19:30,Georgia State @ App State,App State,Sam Pickett III,5,21,0.157,0.567,0.0766,+1205,False,2026-11-03T14:01,2,WR
+401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Lanear McCrary Jr.,4,26,0.203,0.433,0.0755,+1224,False,2026-11-03T14:01,11,RB
+401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Rodshaun Dorsey,6,26,0.164,0.433,0.061,+1540,False,2026-11-03T14:01,3,WR
+401869927,2026-11-07T19:30,Georgia State @ App State,Georgia State,Qwantavius Wiggins,4,26,0.131,0.433,0.0487,+1953,False,2026-11-03T14:01,2,RB
+401869927,2026-11-07T19:30,Georgia State @ App State,App State,Treyaun Webb,2,21,0.085,0.567,0.0417,+2301,False,2026-11-03T14:01,5,RB
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Rickie Collins,5,14,0.292,0.466,0.1172,+753,True,2026-11-03T14:01,8,QB
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Jo'Nathan Silver,4,23,0.239,0.534,0.1096,+812,False,2026-11-03T14:01,10,RB
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Kaderris Roberts,6,23,0.207,0.534,0.0949,+954,False,2026-11-03T14:01,4,RB
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Dylan Gary,4,14,0.234,0.466,0.0939,+965,False,2026-11-03T14:01,2,WR
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Delaware,Sean Wilson,4,23,0.15,0.534,0.069,+1350,False,2026-11-03T14:01,2,WR
+401871073,2026-11-07T20:00,Delaware @ Kennesaw State,Kennesaw State,Davis Bryson,1,14,0.127,0.466,0.0511,+1858,False,2026-11-03T14:01,3,WR
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Lanorris Sellers,6,34,0.224,0.601,0.1158,+763,True,2026-11-03T14:01,7,QB
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Jamarion Morrow,4,22,0.214,0.399,0.0736,+1259,False,2026-11-03T14:01,11,RB
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Matthew Fuller,6,34,0.123,0.601,0.0637,+1471,False,2026-11-03T14:01,8,RB
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,South Carolina,Mazeo Bennett,4,34,0.111,0.601,0.0575,+1639,False,2026-11-03T14:01,0,WR
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Carsyn Baker,3,22,0.133,0.399,0.0456,+2094,False,2026-11-03T14:01,11,RB
+401856744,2026-11-07T20:00,Texas A&M @ South Carolina,Texas A&M,Isaiah Horton,3,22,0.118,0.399,0.0404,+2377,False,2026-11-03T14:01,6,WR
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Timothy Carter,5,24,0.234,0.697,0.1401,+614,True,2026-11-03T14:01,12,RB
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Trey Owens,4,24,0.177,0.697,0.1063,+840,False,2026-11-03T14:01,9,QB
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,Arkansas State,Kenyon Clay,4,24,0.128,0.697,0.077,+1198,False,2026-11-03T14:01,7,RB
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Nic Trujillo,3,20,0.126,0.303,0.0329,+2943,False,2026-11-03T14:01,2,WR
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Aidan Armenta,2,20,0.118,0.303,0.0307,+3162,False,2026-11-03T14:01,4,QB
+401869936,2026-11-07T20:00,UL Monroe @ Arkansas State,UL Monroe,Bryce Anderson,2,20,0.092,0.303,0.0239,+4089,False,2026-11-03T14:01,2,TE
+401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Dilin Jones,6,39,0.235,0.578,0.1168,+756,True,2026-11-03T14:01,21,RB
+401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Sam Leavitt,8,39,0.159,0.578,0.0791,+1164,False,2026-11-03T14:01,13,QB
+401856740,2026-11-07T20:30,Alabama @ LSU,LSU,Jackson Harris,7,39,0.152,0.578,0.0757,+1221,False,2026-11-03T14:01,2,WR
+401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,Daniel Hill,5,28,0.195,0.422,0.0709,+1311,False,2026-11-03T14:01,7,RB
+401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,Trae'shawn Brown,5,28,0.157,0.422,0.0569,+1657,False,2026-11-03T14:01,7,RB
+401856740,2026-11-07T20:30,Alabama @ LSU,Alabama,EJ Crowell,4,28,0.139,0.422,0.0505,+1881,False,2026-11-03T14:01,5,RB
+401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,Roderick Robinson II,3,15,0.275,0.655,0.1547,+547,True,2026-11-03T14:01,11,RB
+401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,Braylon McReynolds,5,15,0.22,0.655,0.124,+706,False,2026-11-03T14:01,6,RB
+401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Khamani Alexander,5,15,0.319,0.345,0.0948,+955,False,2026-11-03T14:01,10,RB
+401862819,2026-11-07T20:30,Charlotte @ UAB,UAB,C.J. Smith,1,15,0.097,0.655,0.0547,+1730,False,2026-11-03T14:01,0,WR
+401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Derrick Eley,3,15,0.18,0.345,0.0533,+1775,False,2026-11-03T14:01,1,WR
+401862819,2026-11-07T20:30,Charlotte @ UAB,Charlotte,Jaden Barnes,1,15,0.144,0.345,0.0427,+2243,False,2026-11-03T14:01,3,WR
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Makhi Hughes,4,29,0.25,0.63,0.1357,+637,True,2026-11-03T14:01,21,RB
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Patrick Overmyer,6,29,0.237,0.63,0.1286,+678,False,2026-11-03T14:01,12,TE
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Houston,Conner Weigman,6,29,0.177,0.63,0.0962,+940,False,2026-11-03T14:01,16,QB
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,Cole Tabb,13,33,0.302,0.37,0.0959,+943,False,2026-11-03T14:01,6,RB
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,JC French,7,33,0.243,0.37,0.0774,+1193,False,2026-11-03T14:01,11,QB
+401856851,2026-11-07T20:30,Cincinnati @ Houston,Cincinnati,JaVonnie Gibson,4,33,0.119,0.37,0.0379,+2540,False,2026-11-03T14:01,5,WR
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Weston Bryan,5,18,0.181,0.641,0.0995,+905,True,2026-11-03T14:01,10,QB
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Taeo Todd,2,18,0.107,0.641,0.0591,+1592,False,2026-11-03T14:01,2,RB
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Georgia Southern,Alex Taylor,2,18,0.1,0.641,0.0552,+1712,False,2026-11-03T14:01,0,WR
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,TJ Lester,5,20,0.17,0.359,0.0526,+1800,False,2026-11-03T14:01,9,RB
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,Judah Price,3,20,0.157,0.359,0.0483,+1968,False,2026-11-03T14:01,5,RB
+401869951,2026-11-07T20:30,Marshall @ Georgia Southern,Marshall,Joshon Barbie,3,20,0.113,0.359,0.0348,+2775,False,2026-11-03T14:01,7,RB
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Bo Jackson,4,28,0.327,0.612,0.172,+481,True,2026-11-03T14:01,21,RB
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Jeremiah Smith,13,28,0.296,0.612,0.1557,+542,False,2026-11-03T14:01,7,WR
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Jordon Davison,7,25,0.252,0.388,0.084,+1090,False,2026-11-03T14:01,16,RB
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Dakorien Moore,6,25,0.172,0.388,0.0573,+1644,False,2026-11-03T14:01,3,WR
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Oregon,Dierre Hill Jr.,3,25,0.133,0.388,0.0444,+2155,False,2026-11-03T14:01,8,RB
+401858514,2026-11-07T20:30,Oregon @ Ohio State,Ohio State,Nate Roberts,2,28,0.052,0.612,0.0275,+3536,False,2026-11-03T14:01,1,TE
+401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Carson Hansen,5,22,0.252,0.458,0.0992,+908,True,2026-11-03T14:01,12,RB
+401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Dezmen Roebuck,3,22,0.17,0.542,0.079,+1165,False,2026-11-03T14:01,6,WR
+401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Brian Bonner Jr.,1,22,0.138,0.542,0.0642,+1458,False,2026-11-03T14:01,8,RB
+401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Andrew Rappleyea,3,22,0.137,0.458,0.0538,+1758,False,2026-11-03T14:01,3,TE
+401858516,2026-11-07T20:30,Penn State @ Washington,Penn State,Cam Wallace,3,22,0.135,0.458,0.053,+1785,False,2026-11-03T14:01,8,RB
+401858516,2026-11-07T20:30,Penn State @ Washington,Washington,Chris Lawson,3,22,0.113,0.542,0.0525,+1806,False,2026-11-03T14:01,3,WR
+401862820,2026-11-07T20:30,Temple @ Navy,Navy,Jackson Gutierrez,13,27,0.524,0.602,0.2714,+268,True,2026-11-03T14:01,21,QB
+401862820,2026-11-07T20:30,Temple @ Navy,Temple,Keveun Mason,3,19,0.26,0.398,0.089,+1023,False,2026-11-03T14:01,13,RB
+401862820,2026-11-07T20:30,Temple @ Navy,Navy,Michael Barrow,2,27,0.171,0.602,0.0888,+1026,False,2026-11-03T14:01,8,WR
+401862820,2026-11-07T20:30,Temple @ Navy,Temple,Ajani Sheppard,5,19,0.182,0.398,0.0622,+1508,False,2026-11-03T14:01,6,QB
+401862820,2026-11-07T20:30,Temple @ Navy,Navy,Braxton Woodson,5,27,0.12,0.602,0.062,+1514,False,2026-11-03T14:01,5,QB
+401862820,2026-11-07T20:30,Temple @ Navy,Temple,Samuel Brown V,4,19,0.12,0.398,0.0411,+2334,False,2026-11-03T14:01,3,RB
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Ajay Allen,6,19,0.27,0.486,0.113,+785,True,2026-11-03T14:01,8,RB
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Antonio Martin,2,15,0.241,0.514,0.1065,+839,False,2026-11-03T14:01,7,RB
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Brock Glenn,5,19,0.208,0.486,0.0869,+1051,False,2026-11-03T14:01,6,QB
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Roman Gagliano,3,15,0.173,0.514,0.0763,+1211,False,2026-11-03T14:01,3,QB
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Middle Tennessee,Neo Clifton,3,15,0.159,0.514,0.0705,+1319,False,2026-11-03T14:01,2,WR
+401871076,2026-11-07T20:30,Western Kentucky @ Middle Tennessee,Western Kentucky,Jonathan Stafford Jr.,1,19,0.098,0.486,0.0408,+2353,False,2026-11-03T14:01,2,WR
+401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Dylan Edwards,5,18,0.276,0.539,0.1276,+684,True,2026-11-03T14:01,11,RB
+401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Landen Chambers,5,23,0.251,0.461,0.0997,+903,False,2026-11-03T14:01,19,RB
+401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Nik McMillan,5,18,0.17,0.539,0.0789,+1167,False,2026-11-03T14:01,1,WR
+401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Keyone Jenkins,4,23,0.148,0.461,0.0586,+1607,False,2026-11-03T14:01,9,QB
+401856850,2026-11-07T20:45,UCF @ Kansas,Kansas,Isaiah Marshall,2,18,0.121,0.539,0.0561,+1682,False,2026-11-03T14:01,4,QB
+401856850,2026-11-07T20:45,UCF @ Kansas,UCF,Duke Watson,3,23,0.109,0.461,0.0432,+2212,False,2026-11-03T14:01,7,RB
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Gavin Griffin,4,16,0.32,0.429,0.1181,+746,True,2026-11-03T14:01,8,RB
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Jaheim Merriweather,5,16,0.229,0.429,0.0846,+1083,False,2026-11-03T14:01,7,RB
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Andrew Burnette,2,27,0.171,0.571,0.084,+1090,False,2026-11-03T14:01,9,RB
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Eli Finley,5,27,0.146,0.571,0.0718,+1293,False,2026-11-03T14:01,6,TE
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Louisiana Tech,Jalen Mickens,6,27,0.135,0.571,0.0665,+1404,False,2026-11-03T14:01,3,WR
+401871098,2026-11-07T21:00,Louisiana Tech @ Troy,Troy,Jordan Lovett,2,16,0.124,0.429,0.0458,+2084,False,2026-11-03T14:01,1,RB
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,Maguire Anderson,3,9,0.223,0.567,0.109,+818,True,2026-11-03T14:01,3,WR
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Connor Lair,4,21,0.288,0.433,0.1072,+833,False,2026-11-03T14:01,12,RB
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Isaiah Myers,8,21,0.258,0.433,0.0959,+943,False,2026-11-03T14:01,3,WR
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,Devonte Lyons,1,9,0.153,0.567,0.0745,+1243,False,2026-11-03T14:01,7,RB
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Florida International,JoJo Stone,1,9,0.12,0.567,0.0588,+1601,False,2026-11-03T14:01,1,WR
+401871074,2026-11-07T21:00,Missouri State @ Florida International,Missouri State,Jmariyae Robinson,1,21,0.118,0.433,0.0439,+2179,False,2026-11-03T14:01,2,WR
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Carson Clark,3,8,0.343,0.642,0.1896,+427,True,2026-11-03T14:01,6,WR
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Jabari Bates,1,8,0.27,0.642,0.1492,+570,False,2026-11-03T14:01,10,RB
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,Telly Johnson Jr.,5,14,0.306,0.358,0.0942,+961,False,2026-11-03T14:01,10,RB
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,DeAree Rogers,4,14,0.22,0.358,0.0678,+1376,False,2026-11-03T14:01,2,WR
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,San José State,Jerry Mcclure,1,8,0.117,0.642,0.0646,+1448,False,2026-11-03T14:01,3,WR
+401864534,2026-11-07T21:00,Northern Illinois @ San José State,Northern Illinois,Elijah Porter,2,14,0.171,0.358,0.0527,+1798,False,2026-11-03T14:01,6,RB
+401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Jahiem White,15,37,0.387,0.687,0.2285,+338,True,2026-11-03T14:01,20,RB
+401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Justin Stevenson,7,37,0.19,0.687,0.1121,+792,False,2026-11-03T14:01,3,WR
+401862821,2026-11-07T21:00,Rice @ North Texas,North Texas,Kyle Koch,6,37,0.164,0.687,0.0969,+932,False,2026-11-03T14:01,5,WR
+401862821,2026-11-07T21:00,Rice @ North Texas,Rice,Jacurri Brown,6,17,0.277,0.313,0.0747,+1239,False,2026-11-03T14:01,5,QB
+401862821,2026-11-07T21:00,Rice @ North Texas,Rice,Gael Ochoa,5,17,0.21,0.313,0.0566,+1668,False,2026-11-03T14:01,2,QB
+401862821,2026-11-07T21:00,Rice @ North Texas,Rice,DAndre Hardeman Jr.,2,17,0.18,0.313,0.0484,+1966,False,2026-11-03T14:01,5,RB
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Colton Joseph,4,13,0.293,0.762,0.1918,+421,True,2026-11-03T14:01,7,QB
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Abu Sama III,1,13,0.143,0.762,0.0939,+965,False,2026-11-03T14:01,3,RB
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Wisconsin,Bryan Jackson,1,13,0.114,0.762,0.0744,+1244,False,2026-11-03T14:01,4,RB
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,Antwan Raymond,7,23,0.301,0.238,0.0615,+1525,False,2026-11-03T14:01,14,RB
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,KJ Duff,8,23,0.284,0.238,0.058,+1623,False,2026-11-03T14:01,7,WR
+401858517,2026-11-07T21:15,Rutgers @ Wisconsin,Rutgers,Clay Thevenin,6,23,0.271,0.238,0.0554,+1706,False,2026-11-03T14:01,9,RB
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Anthony Evans III,4,21,0.212,0.546,0.0995,+906,True,2026-11-03T14:01,6,WR
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Sedrick Alexander,6,18,0.246,0.454,0.0959,+943,False,2026-11-03T14:01,7,RB
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Fluff Bothwell,3,21,0.16,0.546,0.075,+1233,False,2026-11-03T14:01,6,RB
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Junior Sherrill,4,18,0.17,0.454,0.0662,+1410,False,2026-11-03T14:01,2,WR
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Mississippi State,Sanfrisco Magee,5,21,0.14,0.546,0.0656,+1425,False,2026-11-03T14:01,2,WR
+401856742,2026-11-07T21:15,Vanderbilt @ Mississippi State,Vanderbilt,Makhilyn Young,2,18,0.119,0.454,0.0466,+2047,False,2026-11-03T14:01,4,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,Steven Blanco,5,19,0.252,0.61,0.132,+658,True,2026-11-03T14:01,9,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,JJ Garner,5,19,0.181,0.61,0.0951,+951,False,2026-11-03T14:01,1,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,Louisiana,Anthony Reagan Jr.,4,19,0.171,0.61,0.0895,+1017,False,2026-11-03T14:01,2,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,Keenan Phillips,6,30,0.245,0.39,0.0821,+1119,False,2026-11-03T14:01,10,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,PJ Martin,7,30,0.235,0.39,0.0787,+1170,False,2026-11-03T14:01,14,RB
+401869968,2026-11-07T22:00,South Alabama @ Louisiana,South Alabama,Anthony Eager,6,30,0.147,0.39,0.0495,+1921,False,2026-11-03T14:01,2,WR
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Dylan Riley,10,32,0.272,0.686,0.1604,+523,True,2026-11-03T14:01,10,RB
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Durell Robinson,9,31,0.375,0.314,0.101,+890,False,2026-11-03T14:01,21,RB
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Sire Gaines,4,32,0.153,0.686,0.0905,+1005,False,2026-11-03T14:01,8,RB
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Boise State,Rasean Jones,5,32,0.153,0.686,0.0902,+1009,False,2026-11-03T14:01,3,WR
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Reginald Vick Jr,5,31,0.118,0.314,0.0317,+3054,False,2026-11-03T14:01,6,WR
+401860911,2026-11-07T23:00,Boise State @ Colorado State,Colorado State,Nader Chirchi,4,31,0.088,0.314,0.0236,+4133,False,2026-11-03T14:01,3,TE
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,DeSean Bishop,10,21,0.483,0.596,0.2477,+304,True,2026-11-03T14:01,18,RB
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,CJ Baxter Jr.,8,28,0.225,0.404,0.0783,+1178,False,2026-11-03T14:01,12,RB
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,Willie Rodriguez,4,28,0.195,0.404,0.0677,+1376,False,2026-11-03T14:01,6,TE
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,Mike Matthews,3,21,0.131,0.596,0.0673,+1386,False,2026-11-03T14:01,4,WR
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Tennessee,Dasaahn Brame,2,21,0.123,0.596,0.0631,+1484,False,2026-11-03T14:01,2,TE
+401856745,2026-11-07T23:15,Kentucky @ Tennessee,Kentucky,Jason Patterson,3,28,0.108,0.404,0.0374,+2574,False,2026-11-03T14:01,6,RB
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Caden Creel,5,24,0.258,0.743,0.1648,+507,True,2026-11-03T14:01,11,QB
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Jalen Likely,4,24,0.159,0.743,0.1014,+886,False,2026-11-03T14:01,5,RB
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Jacksonville State,Jamill Williams,5,24,0.148,0.743,0.0944,+959,False,2026-11-03T14:01,4,WR
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Grady O'Neill,2,15,0.142,0.257,0.0314,+3080,False,2026-11-03T14:01,3,WR
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Chris Reed,1,15,0.135,0.257,0.0299,+3247,False,2026-11-03T14:01,5,WR
+401871075,2026-11-08T00:00,Sam Houston @ Jacksonville State,Sam Houston,Alton McCaskill,1,15,0.128,0.257,0.0283,+3431,False,2026-11-03T14:01,4,RB
+401862823,2026-11-08T00:30,Air Force @ Army,Army,Cale Hellums,17,33,0.557,0.549,0.2628,+281,True,2026-11-03T14:01,26,QB
+401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Kemper Hodges,6,21,0.298,0.451,0.1156,+765,False,2026-11-03T14:01,17,QB
+401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Evan Medders,6,21,0.214,0.451,0.0831,+1103,False,2026-11-03T14:01,7,QB
+401862823,2026-11-08T00:30,Air Force @ Army,Army,Godspower Nwawuihe,4,33,0.135,0.549,0.0637,+1470,False,2026-11-03T14:01,7,RB
+401862823,2026-11-08T00:30,Air Force @ Army,Air Force,Owen Allen,3,21,0.16,0.451,0.062,+1512,False,2026-11-03T14:01,5,RB
+401862823,2026-11-08T00:30,Air Force @ Army,Army,Samari Howard,3,33,0.095,0.549,0.0451,+2119,False,2026-11-03T14:01,4,WR
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Cardae Mack,7,18,0.363,0.545,0.1703,+487,True,2026-11-03T14:01,11,RB
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Reed Harris,4,18,0.213,0.545,0.0998,+902,False,2026-11-03T14:01,5,WR
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Jaquail Smith,3,18,0.183,0.455,0.0715,+1298,False,2026-11-03T14:01,2,RB
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Arizona State,Omarion Miller,3,18,0.143,0.545,0.0673,+1386,False,2026-11-03T14:01,3,WR
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Isaac Wilson,1,18,0.161,0.455,0.0631,+1485,False,2026-11-03T14:01,5,QB
+401856852,2026-11-08T00:30,Colorado @ Arizona State,Colorado,Joseph Williams,5,18,0.16,0.455,0.0626,+1499,False,2026-11-03T14:01,1,WR
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,Nate Frazier,6,25,0.212,0.546,0.0997,+903,True,2026-11-03T14:01,6,RB
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,Dwight Phillips Jr.,3,25,0.117,0.546,0.0551,+1716,False,2026-11-03T14:01,0,RB
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Georgia,London Humphreys,3,25,0.117,0.546,0.0551,+1716,False,2026-11-03T14:01,2,WR
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Trinidad Chambliss,7,32,0.138,0.454,0.054,+1751,False,2026-11-03T14:01,6,QB
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Kewan Lacy,5,32,0.138,0.454,0.0537,+1764,False,2026-11-03T14:01,11,RB
+401856741,2026-11-08T00:30,Georgia @ Ole Miss,Ole Miss,Horatio Fields,4,32,0.111,0.454,0.0432,+2217,False,2026-11-03T14:01,2,WR
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Aidan Chiles,10,31,0.297,0.541,0.1384,+622,True,2026-11-03T14:01,12,QB
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Caleb Komolafe,5,31,0.19,0.541,0.0884,+1031,False,2026-11-03T14:01,10,RB
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Northwestern,Griffin Wilde,5,31,0.143,0.541,0.0668,+1398,False,2026-11-03T14:01,3,WR
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,DJ Vonnahme,3,24,0.168,0.459,0.0663,+1408,False,2026-11-03T14:01,3,TE
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,Kamari Moulton,4,24,0.152,0.459,0.0599,+1568,False,2026-11-03T14:01,4,RB
+401858513,2026-11-08T00:30,Iowa @ Northwestern,Iowa,Reece Vander Zee,4,24,0.124,0.459,0.049,+1940,False,2026-11-03T14:01,1,WR
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Lincoln Kienholz,11,39,0.289,0.673,0.1674,+497,True,2026-11-03T14:01,13,QB
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Isaac Brown,9,39,0.24,0.673,0.1386,+621,False,2026-11-03T14:01,5,RB
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Justice Haynes,6,20,0.27,0.327,0.076,+1216,False,2026-11-03T14:01,13,RB
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Louisville,Keyjuan Brown,5,39,0.13,0.673,0.0754,+1226,False,2026-11-03T14:01,6,RB
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Trelain Maddox,5,20,0.189,0.327,0.0533,+1777,False,2026-11-03T14:01,8,RB
+401858287,2026-11-08T00:30,Louisville @ Georgia Tech,Georgia Tech,Dalen Penson,2,20,0.102,0.327,0.0288,+3369,False,2026-11-03T14:01,1,WR
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Nolan James Jr.,11,36,0.253,0.571,0.1244,+704,True,2026-11-03T14:01,12,RB
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Malachi Toney,12,41,0.271,0.429,0.1,+900,False,2026-11-03T14:01,10,WR
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Mark Fletcher Jr.,10,41,0.267,0.429,0.0985,+916,False,2026-11-03T14:01,16,RB
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Jonaz Walton,4,36,0.154,0.571,0.0755,+1224,False,2026-11-03T14:01,11,RB
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Miami,Javian Mallory,7,41,0.176,0.429,0.0648,+1443,False,2026-11-03T14:01,10,RB
+401858291,2026-11-08T00:30,Miami @ Notre Dame,Notre Dame,Aneyas Williams,5,36,0.131,0.571,0.0642,+1459,False,2026-11-03T14:01,9,RB
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,Jordan Marshall,5,19,0.263,0.742,0.1679,+496,True,2026-11-03T14:01,11,RB
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,JJ Buchanan,5,19,0.17,0.742,0.1081,+825,False,2026-11-03T14:01,3,WR
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan,Savion Hiter,2,19,0.154,0.742,0.0981,+919,False,2026-11-03T14:01,8,RB
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Jaziun Patterson,5,12,0.364,0.258,0.081,+1135,False,2026-11-03T14:01,8,RB
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Chrishon Mccray,1,12,0.116,0.258,0.0258,+3779,False,2026-11-03T14:01,1,WR
+401858511,2026-11-08T00:30,Michigan State @ Michigan,Michigan State,Fredrick Moore,2,12,0.095,0.258,0.0211,+4639,False,2026-11-03T14:01,0,WR
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Jadan Baugh,13,23,0.455,0.598,0.2341,+327,True,2026-11-03T14:01,20,RB
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Lloyd Avant,2,14,0.199,0.402,0.0686,+1357,False,2026-11-03T14:01,7,RB
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Rocky Beers,4,14,0.186,0.402,0.0642,+1458,False,2026-11-03T14:01,0,TE
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Dallas Wilson,4,23,0.123,0.598,0.0633,+1481,False,2026-11-03T14:01,4,WR
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Oklahoma,Isaiah Sategna,3,14,0.183,0.402,0.0632,+1482,False,2026-11-03T14:01,1,WR
+401856739,2026-11-08T00:45,Oklahoma @ Florida,Florida,Lakota Dippre,2,23,0.091,0.598,0.0466,+2046,False,2026-11-03T14:01,3,TE
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Kam Davis,8,33,0.221,0.76,0.1445,+592,True,2026-11-03T14:01,9,RB
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Ethan Vasko,6,33,0.184,0.76,0.1202,+732,False,2026-11-03T14:01,8,QB
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,Liberty,Jaylon Coleman,4,33,0.097,0.76,0.0633,+1480,False,2026-11-03T14:01,1,RB
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,James Jones,5,18,0.286,0.24,0.0591,+1593,False,2026-11-03T14:01,9,RB
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,Terrell Washington Jr.,3,18,0.201,0.24,0.0417,+2300,False,2026-11-03T14:01,8,RB
+401870795,2026-11-08T01:00,Liberty @ New Mexico State,New Mexico State,AJ Williams III,3,18,0.182,0.24,0.0375,+2563,False,2026-11-03T14:01,5,WR
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Javen Jacobs,4,15,0.321,0.456,0.1258,+695,True,2026-11-03T14:01,12,RB
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Bryson Donelson,6,26,0.216,0.544,0.101,+890,False,2026-11-03T14:01,11,RB
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Jayden Mandal,4,26,0.174,0.544,0.0816,+1125,False,2026-11-03T14:01,8,QB
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Fresno State,Josiah Freeman,4,26,0.172,0.544,0.0805,+1143,False,2026-11-03T14:01,6,WR
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Eli Wood,5,15,0.204,0.456,0.0799,+1152,False,2026-11-03T14:01,4,WR
+401860913,2026-11-08T02:30,Fresno State @ Utah State,Utah State,Javon Robinson,2,15,0.087,0.456,0.0341,+2835,False,2026-11-03T14:01,1,WR
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Devon Rice,6,18,0.228,0.645,0.1264,+691,True,2026-11-03T14:01,11,RB
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Cam Barfield,1,18,0.128,0.645,0.071,+1309,False,2026-11-03T14:01,7,RB
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Raymond Moore III,3,10,0.217,0.355,0.0663,+1409,False,2026-11-03T14:01,3,QB
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Carver Cheeks,2,10,0.211,0.355,0.0644,+1453,False,2026-11-03T14:01,3,TE
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,Hawai'i,Frank Abreu,3,18,0.081,0.645,0.045,+2123,False,2026-11-03T14:01,1,TE
+401864532,2026-11-08T02:30,Hawai'i @ UTEP,UTEP,Jaden Smith,1,10,0.129,0.355,0.0394,+2436,False,2026-11-03T14:01,0,WR
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,J'Koby Williams,6,25,0.212,0.684,0.125,+700,True,2026-11-03T14:01,3,RB
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Michael Hawkins Jr.,16,36,0.359,0.316,0.0976,+924,False,2026-11-03T14:01,19,QB
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Cam Cook,9,36,0.332,0.316,0.0902,+1009,False,2026-11-03T14:01,22,RB
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,Cameron Dickey,4,25,0.145,0.684,0.0852,+1074,False,2026-11-03T14:01,9,RB
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,Texas Tech,Terrance Carter,3,25,0.123,0.684,0.0722,+1285,False,2026-11-03T14:01,2,TE
+401856856,2026-11-08T02:30,West Virginia @ Texas Tech,West Virginia,Amari Latimer,3,36,0.132,0.316,0.0358,+2693,False,2026-11-03T14:01,7,RB
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,Jesse Legree,12,36,0.217,0.567,0.1061,+843,True,2026-11-03T14:01,2,WR
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Torrance Burgess Jr.,5,34,0.207,0.433,0.0769,+1200,False,2026-11-03T14:01,9,RB
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Brad Jackson,6,34,0.196,0.433,0.0728,+1274,False,2026-11-03T14:01,10,QB
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,Cornell Hatcher Jr.,4,36,0.142,0.567,0.0693,+1344,False,2026-11-03T14:01,6,RB
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Oregon State,AJ Newberry,4,36,0.129,0.567,0.0628,+1491,False,2026-11-03T14:01,6,RB
+401860912,2026-11-08T03:30,Texas State @ Oregon State,Texas State,Davian Jackson,8,34,0.168,0.433,0.0627,+1495,False,2026-11-03T14:01,12,RB
+401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Jai'Den Thomas,5,21,0.292,0.592,0.1486,+573,True,2026-11-03T14:01,8,RB
+401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Jackson Arnold,6,21,0.275,0.592,0.14,+614,False,2026-11-03T14:01,14,QB
+401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Tyler Hughes,6,17,0.295,0.408,0.1035,+866,False,2026-11-03T14:01,7,QB
+401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Markell Holman,4,17,0.203,0.408,0.0713,+1303,False,2026-11-03T14:01,7,RB
+401864535,2026-11-08T03:30,Wyoming @ UNLV,UNLV,Kayden McGee,4,21,0.126,0.592,0.0639,+1464,False,2026-11-03T14:01,1,WR
+401864535,2026-11-08T03:30,Wyoming @ UNLV,Wyoming,Samuel Harris,2,17,0.164,0.408,0.0574,+1643,False,2026-11-03T14:01,7,RB
