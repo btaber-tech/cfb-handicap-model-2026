@@ -50,7 +50,7 @@ CSS = """
 }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0 0 4rem; line-height: 1.45; }
-.wrap { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 1.5rem; }
 header.masthead { border-bottom: 1px solid var(--border); padding: 2.75rem 0 1.75rem; margin-bottom: 2rem; }
 .eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.6rem; }
 h1 { font-family: var(--font-display); font-size: 2.15rem; font-weight: 700; margin: 0 0 0.5rem; text-wrap: balance; letter-spacing: -0.01em; }
@@ -67,10 +67,10 @@ section.week { margin-bottom: 3rem; }
 .week-heading .range { color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono); }
 .day-block { margin-bottom: 1.6rem; }
 .day-heading { font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px dashed var(--border); }
-.col-legend { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; padding: 0 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.col-legend { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1fr 1.15fr 0.95fr 0.8fr; gap: 0.75rem; padding: 0 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
 .col-legend span:not(:first-child) { text-align: right; }
 .game-list { display: flex; flex-direction: column; }
-.game-row { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1.05fr 0.95fr 0.9fr; gap: 0.75rem; align-items: center; padding: 0.7rem 0.2rem; border-bottom: 1px solid var(--border); }
+.game-row { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1fr 1.15fr 0.95fr 0.8fr; gap: 0.75rem; align-items: center; padding: 0.7rem 0.2rem; border-bottom: 1px solid var(--border); }
 .game-row:last-child { border-bottom: none; }
 .matchup { font-size: 0.95rem; font-weight: 500; }
 .at { color: var(--text-muted); font-weight: 400; font-size: 0.85em; }
@@ -89,8 +89,19 @@ section.week { margin-bottom: 3rem; }
 .game-market { font-family: var(--font-mono); font-size: 0.82rem; text-align: right; }
 .market-num { color: var(--gold); font-weight: 600; }
 .gap-note { display: block; font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-top: 0.15rem; }
-.gap-note.big-gap { color: var(--gold); font-weight: 700; }
-.game-row.big-gap { background: var(--gold-soft); border-radius: 6px; }
+.game-row.tier-strong { background: var(--accent-soft); border-radius: 6px; }
+.game-row.tier-skip .game-ats .ats-side { color: var(--text-muted); text-decoration: line-through; text-decoration-color: var(--border); }
+.game-ats { min-width: 0; }
+.ats-side { font-weight: 600; font-size: 0.88rem; }
+.ats-line { font-family: var(--font-mono); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.tier-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.08rem 0.4rem; border-radius: 3px; margin-top: 0.2rem; cursor: help; border: 1px solid var(--border); color: var(--text-muted); }
+.tier-badge.strong { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.tier-badge.skip { border-style: dashed; }
+.strong-list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0 0 2rem; }
+.strong-list h2 { font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 0.6rem; }
+.strong-list ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 1.5rem; font-size: 0.88rem; }
+.strong-list li { margin-bottom: 0.35rem; break-inside: avoid; }
+.strong-list .why { color: var(--text-muted); font-size: 0.78rem; }
 .muted { color: var(--text-muted); }
 .game-total { font-family: var(--font-mono); font-size: 0.82rem; text-align: right; }
 .total-num { font-weight: 600; }
@@ -118,37 +129,36 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
   .game-rec div + div::before { content: " / "; color: var(--text-muted); }
   .col-legend { display: none; }
   .buy-list { columns: 1; }
+  .strong-list ul { columns: 1; }
 }
 """
 
 CALLOUT = """
-    <strong>Reading this:</strong> "Win prob" and margin come from blending SP+, ESPN FPI, this
-    project's bottom-up 2026 model, and Phil Steele's Power Poll, plus a home-field adjustment.
-    The home team is marked <span class="home-tag" style="margin-left:0">HOME</span> (neutral-site
-    games have no marker, since neither side is truly home). The backtest found these inputs
-    predict <strong>straight-up wins and margins well</strong> but have <strong>no demonstrated edge against the
-    closing spread</strong> (r&lt;0.08 on cover rate across 4 separate tests). <strong>Totals are shown too, but
-    trust them less</strong> &mdash; a separate backtest found game totals are far noisier than margins for
-    everyone, including Vegas (model R&sup2;=0.03, market itself only R&sup2;=0.12), with no edge there
-    either. Market numbers are shown for reference/line-shopping only &mdash; the model-vs-market gap is
-    shown on every game as a <strong>% of the market's own line</strong> (a 12pt gap matters less on a
-    40pt favorite than a 6pt gap does on a 1.5pt line) and <strong>highlighted gold at 25%+</strong>, or
-    3+ raw points for near-even lines where a percentage stops being meaningful. Either way it's a
-    "look closer" flag, not a bet signal by itself (no backtested edge tracks with gap size). A
-    <span class="flag">&#9888;</span> next to a team means SP+/FPI/the
-    bottom-up model/Steele unusually disagree on that team (top 10% of all 138 teams) &mdash; hover for the
-    number, and treat that game's projection as softer than usual.
+    <strong>Reading this:</strong> margin and win prob are <strong>70% SP+'s weekly game projection</strong>
+    (Bill Connelly's public picks sheet) and <strong>30% our preseason blend</strong> (SP+, FPI, our bottom-up
+    model, Steele) plus home field. The home team is marked
+    <span class="home-tag" style="margin-left:0">HOME</span>. The <strong>ATS pick</strong> column is the
+    model's side of the market spread, tiered:
+    <span class="tier-badge strong" style="margin-top:0">STRONG</span> = SP+ and our preseason blend
+    <em>each</em> land on that side of the line, or the side is the home favourite;
+    <span class="tier-badge skip" style="margin-top:0">SKIP</span> = the side is an away favourite, or runs
+    into a letdown spot (P4 team off an upset win as an underdog, vs a P4 opponent) or is a losing-record
+    home favourite; <span class="tier-badge" style="margin-top:0">NO SIGNAL</span> = neither. Backtest
+    (2025 + 2026 weeks 1-9): STRONG 58%, NO SIGNAL ~50%, SKIP ~47% &mdash; promising, but two seasons is a
+    small sample and the line still beats any model on raw accuracy, so treat tiers as a ranking, not a
+    guarantee. <strong>Gap size is not a strength signal</strong> (bigger gaps did not cover more often), so
+    it's shown as a plain number only. <strong>Totals are context only</strong> &mdash; no O/U signal from our
+    model or SP+ in either season. A <span class="flag">&#9888;</span> next to a team means our preseason
+    sources unusually disagree on that team.
 """
 
 FOOTER = """
-    <p>Model: <code>margin = avg(SP+, FPI, bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage</code>,
-    win probability from a normal CDF (&sigma;=18.4). Steele's Power Poll (his own blend of 9 talent-rating
-    systems) is rescaled from an ordinal 1-138 rank to a point scale comparable to SP+/FPI before averaging in
-    -- included at equal weight to the other three sources, deliberately weighted above Athlon's national rank
-    (comparison-only, not blended in). HFA/sigma recalibrated against 2,210 FBS games
-    (2023-2025): +2.9 at a true home site, +1.8 at a "neutral" site (most still favor one side),
-    +6.0 for altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah,
-    Wyoming). From week 3 the margin also blends in each team's opponent-adjusted 2026 results (ramping weight).
+    <p>Model (from Nov 3, 2026): <code>margin = 0.7 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
+    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage)</code>, win probability from a normal
+    CDF (&sigma;=18.4). The SP+ weight replaced our score-based in-season rating, which ran below 50% ATS this season;
+    0.6-0.8 SP+ weight was best for both accuracy and ATS in 2025 and 2026. Games with no SP+ row fall back to the
+    old preseason + in-season formula. HFA: +2.9 at a true home site, +1.8 at a "neutral" site, +6.0 for
+    altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah, Wyoming).
     Totals are a calibrated offense/defense matchup average: preseason SP+ off/def blended with each team's
     opponent-adjusted 2026 points scored/allowed (more games played = more weight). More accurate than
     preseason-only in a 2023-25 replay, but still well behind the market's total and no over/under edge --
@@ -156,7 +166,8 @@ FOOTER = """
     <p>W-L and ATS columns: each team's season-to-date record before this week, listed in matchup order
     (hover for the team). W-L includes games vs. FCS opponents; ATS counts games with a line, graded against
     the median closing spread across books (W-L-push). Context only -- not a model input.</p>
-    <p>Data: CollegeFootballData.com (games/lines/SP+/FPI/recruiting/returning production),
+    <p>Data: SP+ weekly picks sheet (Bill Connelly, public Google Sheet),
+    CollegeFootballData.com (games/lines/SP+/FPI/recruiting/returning production),
     ESPN FPI, Phil Steele's 2026 CFB Preview, this project's bottom-up 2026 power ratings.</p>
 """
 
@@ -165,21 +176,9 @@ def norm_cdf(x):
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
 
 
-# Games where the model-vs-market gap clears this get a bolded gap + a highlighted
-# row -- purely a "look closer" flag (per the backtest, gap size isn't itself a
-# demonstrated bet signal), not a change in confidence.
-#
-# Measured as % of the market's own line rather than raw points once that line
-# is big enough for a percentage to mean anything: a 12pt gap on a 40pt market
-# favorite barely changes who wins or by roughly how much, while a 6pt gap on a
-# 1.5pt line flips a coin-flip into a clear side -- percentage-of-the-line
-# tracks that better than a flat point threshold. Below GAP_PCT_MIN_MARKET the
-# market number is too close to zero for a percentage to be meaningful (a 2pt
-# gap on a 0.5pt "line" would read as 400%), so those near-pick'em games fall
-# back to a flat point threshold instead.
-GAP_PCT_THRESHOLD = 25.0
-GAP_PCT_MIN_MARKET = 3.0
-GAP_ABS_THRESHOLD = 3.0
+# 2026-11-03: the old gold "big gap" highlight (25%+ of the line / 3+ pts) is gone --
+# bigger model-vs-market gaps did not cover more often in 2025 or 2026. Row emphasis
+# now comes from the ATS tier (ats_tier column, see ats_tiers_README.md).
 
 
 def esc(s):
@@ -241,24 +240,26 @@ def build_game_row(row):
     pick_wp = wp if pick_is_home else 1 - wp
     bar_pct = pick_wp * 100
 
-    market_html = f'{esc(pick)} <span class="muted">no line yet</span>'
-    row_is_big_gap = False
+    market_html = '<span class="muted">no line yet</span>'
     if pd.notna(row.get("market_home_margin")):
         mkt_margin = row["market_home_margin"]
         mkt_team = home if mkt_margin > 0 else away
         market_html = f'{esc(mkt_team)} <span class="market-num">{-abs(mkt_margin):.1f}</span>'
         gap = row.get("model_vs_market_gap")
         if pd.notna(gap):
-            abs_gap, abs_mkt = abs(gap), abs(mkt_margin)
-            if abs_mkt >= GAP_PCT_MIN_MARKET:
-                pct_gap = abs_gap / abs_mkt * 100
-                row_is_big_gap = pct_gap >= GAP_PCT_THRESHOLD
-                gap_text = f"gap {pct_gap:.0f}%"
-            else:
-                row_is_big_gap = abs_gap >= GAP_ABS_THRESHOLD
-                gap_text = f"gap {abs_gap:.1f} pts"
-            gap_class = "gap-note big-gap" if row_is_big_gap else "gap-note"
-            market_html += f'<span class="{gap_class}">{gap_text}</span>'
+            market_html += f'<span class="gap-note">model {abs(gap):.1f} pts off</span>'
+
+    ats_html, tier_class = '<span class="muted">&mdash;</span>', ""
+    tier = row.get("ats_tier")
+    if pd.notna(row.get("ats_side")) and pd.notna(tier):
+        side = row["ats_side"]
+        side_line = -row["market_home_margin"] if side == home else row["market_home_margin"]
+        reason = row.get("ats_tier_reason")
+        tip = esc(reason) if pd.notna(reason) and reason else "no supporting signal"
+        badge_cls = {"STRONG": "tier-badge strong", "SKIP": "tier-badge skip"}.get(tier, "tier-badge")
+        tier_class = {"STRONG": " tier-strong", "SKIP": " tier-skip"}.get(tier, "")
+        ats_html = (f'<div class="ats-side">{esc(side)} <span class="ats-line">{side_line:+.1f}</span></div>'
+                    f'<span class="{badge_cls}" title="{tip}">{esc(tier)}</span>')
 
     total_html = '<span class="muted">&mdash;</span>'
     if pd.notna(row.get("model_total")):
@@ -266,7 +267,7 @@ def build_game_row(row):
         if pd.notna(row.get("market_total")):
             total_html += f'<span class="total-mkt">mkt {row["market_total"]:.1f}</span>'
 
-    row_class = "game-row big-gap" if row_is_big_gap else "game-row"
+    row_class = "game-row" + tier_class
     return f"""        <div class="{row_class}">
           <div class="game-main">
             <div class="matchup">{matchup}</div>
@@ -282,6 +283,7 @@ def build_game_row(row):
             <div class="wp-bar-track"><div class="wp-bar-fill" style="width:{bar_pct:.1f}%"></div></div>
             <div class="wp-label">{bar_pct:.0f}% win prob</div>
           </div>
+          <div class="game-ats">{ats_html}</div>
           <div class="game-market">{market_html}</div>
           <div class="game-total">{total_html}</div>
         </div>"""
@@ -341,8 +343,19 @@ def main():
 
     dates = sorted(df["date"].unique())
     date_range = f"{day_heading(dates[0])} &ndash; {day_heading(dates[-1])}" if dates else ""
-    n_home_fav = int((df["model_pick"] == df["home"]).sum())
-    n_road_fav = int((df["model_pick"] == df["away"]).sum())
+    if "ats_tier" not in df.columns:  # projection CSVs built before the SP+ blend
+        df["ats_tier"] = None; df["ats_side"] = None; df["ats_tier_reason"] = None
+    n_strong = int((df["ats_tier"] == "STRONG").sum())
+    n_skip = int((df["ats_tier"] == "SKIP").sum())
+    strong = df[df["ats_tier"] == "STRONG"].sort_values("date")
+    strong_items = "\n".join(
+        f'<li><strong>{esc(r["ats_side"])}</strong> '
+        f'<span class="ats-line">{(-r["market_home_margin"] if r["ats_side"] == r["home"] else r["market_home_margin"]):+.1f}</span> '
+        f'<span class="muted">vs {esc(r["away"] if r["ats_side"] == r["home"] else r["home"])}, {day_heading(r["date"])}</span>'
+        f'<br><span class="why">{esc(r["ats_tier_reason"])}</span></li>'
+        for _, r in strong.iterrows())
+    strong_html = (f'<section class="strong-list"><h2>STRONG ATS picks ({n_strong})</h2><ul>{strong_items}</ul></section>'
+                   if n_strong else "")
 
     day_blocks = "\n\n".join(build_day_block(d, grp) for d, grp in df.groupby("date"))
     buy_games_html = build_buy_games(other_df, title)
@@ -360,12 +373,12 @@ def main():
   <header class="masthead">
     <p class="eyebrow">2026 CFB Handicap Model &middot; Generated {generated}</p>
     <h1>{esc(title)}</h1>
-    <p class="subhead">Model projections for every FBS-vs-FBS game this week ({date_range}).
-    Picks are straight-up / projected-margin only (see caveat below).</p>
+    <p class="subhead">Model projections for every FBS-vs-FBS game this week ({date_range}):
+    straight-up pick and margin, plus the model's ATS side with a STRONG / NO SIGNAL / SKIP tier.</p>
     <div class="stat-row">
       <div class="stat"><span class="n">{len(df)}</span><span class="l">FBS games</span></div>
-      <div class="stat"><span class="n">{n_home_fav}</span><span class="l">Home favored</span></div>
-      <div class="stat"><span class="n">{n_road_fav}</span><span class="l">Road favored</span></div>
+      <div class="stat"><span class="n">{n_strong}</span><span class="l">STRONG ATS</span></div>
+      <div class="stat"><span class="n">{n_skip}</span><span class="l">SKIP</span></div>
       <div class="stat"><span class="n">{len(other_df)}</span><span class="l">Buy games</span></div>
     </div>
   </header>
@@ -373,8 +386,10 @@ def main():
   <div class="callout">{CALLOUT}
   </div>
 
+  {strong_html}
+
   <div class="col-legend">
-    <span>Matchup</span><span title="Season straight-up record, in matchup order">W-L</span><span title="Season record against the spread, in matchup order">ATS</span><span>Model pick</span><span>Win prob</span><span>Spread (mkt)</span><span>Total (mkt)</span>
+    <span>Matchup</span><span title="Season straight-up record, in matchup order">W-L</span><span title="Season record against the spread, in matchup order">ATS</span><span>Model pick</span><span>Win prob</span><span title="Model's side of the market spread, with tier">ATS pick</span><span>Spread (mkt)</span><span>Total (mkt)</span>
   </div>
 
   <section class="week">

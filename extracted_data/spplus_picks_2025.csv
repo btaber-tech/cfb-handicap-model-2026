@@ -1,0 +1,758 @@
+sheet_week,week,date,away,home,neutral_listed,sp_proj_winner,sp_proj_margin,sp_spread,sp_ats_pick,sp_spread_diff,sp_ou_line,sp_ou_pick,sp_ou_diff
+1,1,28-Aug,Boise State,South Florida,False,Boise State,9.7,Boise State -6.5,Boise State,3.2,63.5,under,-0.5
+1,1,28-Aug,Ohio,Rutgers,False,Rutgers,13.3,Rutgers -14.5,Ohio,1.2,46.5,over,7.5
+1,1,28-Aug,East Carolina,NC State,False,NC State,15.4,NC State -12,NC State,3.4,60.5,under,-1.4
+1,1,28-Aug,Jacksonville State,UCF,False,UCF,16.3,UCF -18,Jacksonville State,1.7,52.5,over,2.2
+1,1,28-Aug,Wyoming,Akron,False,Wyoming,4.9,Wyoming -7,Akron,2.1,50.5,over,2.9
+1,1,28-Aug,Buffalo,Minnesota,False,Minnesota,17.4,Minnesota -18,Buffalo,0.6,44.5,over,1.3
+1,1,28-Aug,Cincinnati,Nebraska,True,Nebraska,8.0,Nebraska -6.5,Nebraska,1.5,53.5,under,-6.4
+1,1,28-Aug,Miami (OH),Wisconsin,False,Wisconsin,18.8,Wisconsin -17.5,Wisconsin,1.3,39.5,over,2.1
+1,1,29-Aug,App State,Charlotte,True,App State,10.8,Appalachian State -6.5,App State,4.3,51.5,over,5.8
+1,1,29-Aug,Kennesaw State,Wake Forest,False,Wake Forest,17.9,Wake Forest -17,Wake Forest,0.9,51.5,under,-1.5
+1,1,29-Aug,Western Michigan,Michigan State,False,Michigan State,19.1,Michigan State -19.5,Western Michigan,0.4,49.5,over,0.3
+1,1,29-Aug,Auburn,Baylor,False,Auburn,1.0,Auburn -2.5,Baylor,1.5,57.5,under,-3.1
+1,1,29-Aug,Georgia Tech,Colorado,False,Colorado,0.4,Georgia Tech -4,Colorado,4.4,54.5,over,4.1
+1,1,29-Aug,UNLV,Sam Houston,True,UNLV,12.7,UNLV -13,Sam Houston,0.3,58.5,under,-2.1
+1,1,29-Aug,Central Michigan,San José State,False,San José State,12.2,San Jose State -12.5,Central Michigan,0.3,50.5,over,3.0
+1,1,30-Aug,Ball State,Purdue,False,Purdue,13.9,Purdue -17.5,Ball State,3.6,50.5,over,3.7
+1,1,30-Aug,Florida Atlantic,Maryland,False,Maryland,16.7,Maryland -14.5,Maryland,2.2,60.5,under,-7.5
+1,1,30-Aug,Mississippi State,Southern Miss,False,Mississippi State,16.1,Mississippi State -12,Mississippi State,4.1,61.5,under,-4.1
+1,1,30-Aug,Northwestern,Tulane,False,Tulane,15.0,Tulane -6,Tulane,9.0,46.5,over,3.0
+1,1,30-Aug,Syracuse,Tennessee,True,Tennessee,16.5,Tennessee -13.5,Tennessee,3.0,50.5,over,1.6
+1,1,30-Aug,Texas,Ohio State,False,Ohio State,6.3,Ohio State -1.5,Ohio State,4.8,47.5,under,-0.3
+1,1,30-Aug,Toledo,Kentucky,False,Kentucky,10.6,Kentucky -7.5,Kentucky,3.1,48.5,over,1.6
+1,1,30-Aug,Old Dominion,Indiana,False,Indiana,25.9,Indiana -22.5,Indiana,3.4,54.5,under,-0.6
+1,1,30-Aug,Alabama,Florida State,False,Alabama,14.3,Alabama -13.5,Alabama,0.8,50.5,over,0.1
+1,1,30-Aug,Marshall,Georgia,False,Georgia,37.0,Georgia -39.5,Marshall,2.5,55.5,under,0.0
+1,1,30-Aug,Nevada,Penn State,False,Penn State,43.8,Penn State -44,Nevada,0.2,57.5,under,-2.4
+1,1,30-Aug,Temple,Massachusetts,False,Temple,4.6,Temple -2.5,Temple,2.1,49.5,over,10.8
+1,1,30-Aug,Coastal Carolina,Virginia,False,Virginia,8.1,Virginia -12,Coastal Carolina,3.9,57.5,over,0.7
+1,1,30-Aug,UTSA,Texas A&M,False,Texas A&M,20.6,Texas A&M -22.5,UTSA,1.9,56.5,over,3.6
+1,1,30-Aug,LSU,Clemson,False,Clemson,2.1,Clemson -4,LSU,1.9,57.5,over,0.4
+1,1,30-Aug,Missouri State,USC,False,USC,34.3,USC -35,Missouri State,0.7,59.5,over,6.2
+1,1,30-Aug,New Mexico,Michigan,False,Michigan,42.5,Michigan -37,Michigan,5.5,49.5,over,4.1
+1,1,30-Aug,UTEP,Utah State,False,Utah State,3.9,Utah State -6,UTEP,2.1,60.5,under,-1.5
+1,1,30-Aug,Georgia State,Ole Miss,False,Ole Miss,37.9,Ole Miss -38,Georgia State,0.1,60.5,under,-4.2
+1,1,30-Aug,Eastern Michigan,Texas State,False,Texas State,11.0,Texas State -14,Eastern Michigan,3.0,58.5,under,-0.7
+1,1,30-Aug,Rice,Louisiana,False,Louisiana,15.4,UL-Lafayette -13,Louisiana,2.4,49.5,over,3.8
+1,1,30-Aug,Georgia Southern,Fresno State,False,Georgia Southern,2.9,Fresno State -1.5,Georgia Southern,4.4,52.5,over,1.5
+1,1,30-Aug,California,Oregon State,False,California,1.3,Oregon State -3,California,4.3,50.5,over,4.2
+1,1,30-Aug,Hawai'i,Arizona,False,Arizona,10.5,Arizona -14.5,Hawai'i,4.0,55.5,under,-2.9
+1,1,30-Aug,Colorado State,Washington,False,Washington,19.8,Washington -20,Colorado State,0.2,52.5,over,1.5
+1,1,30-Aug,Utah,UCLA,False,Utah,4.7,Utah -6,UCLA,1.3,50.5,under,-2.6
+1,1,31-Aug,South Carolina,Virginia Tech,True,South Carolina,9.1,South Carolina -8,South Carolina,1.1,49.5,over,2.3
+1,1,31-Aug,Notre Dame,Miami,False,Notre Dame,1.0,Notre Dame -2.5,Miami,1.5,50.5,over,9.0
+1,1,1-Sep,TCU,North Carolina,False,TCU,5.0,TCU -3,TCU,2.0,58.5,over,0.7
+2,2,5-Sep,James Madison,Louisville,False,Louisville,11.4,Louisville -14.5,James Madison,3.1,57.5,over,0.2
+2,2,5-Sep,Northern Illinois,Maryland,False,Maryland,16.0,Maryland -18.5,Northern Illinois,2.5,47.5,under,-1.9
+2,2,6-Sep,Baylor,SMU,False,SMU,9.9,SMU -3,SMU,6.9,65.5,under,-3.8
+2,2,6-Sep,Central Michigan,Pittsburgh,False,Pittsburgh,23.0,Pittsburgh -21.5,Pittsburgh,1.5,51.5,over,1.0
+2,2,6-Sep,UConn,Syracuse,False,Syracuse,1.8,Syracuse -6.5,UConn,4.7,58.5,over,0.3
+2,2,6-Sep,Florida International,Penn State,False,Penn State,36.2,Penn State -41.5,Florida International,5.3,54.5,under,-0.6
+2,2,6-Sep,Illinois,Duke,False,Illinois,2.9,Illinois -2.5,Illinois,0.4,50.5,under,-0.4
+2,2,6-Sep,Iowa,Iowa State,False,Iowa State,6.5,Iowa State -3.5,Iowa State,3.0,41.5,over,5.7
+2,2,6-Sep,Kennesaw State,Indiana,False,Indiana,27.8,Indiana -36.5,Kennesaw State,8.7,51.5,under,-5.6
+2,2,6-Sep,Kent State,Texas Tech,False,Texas Tech,38.6,Texas Tech -48.5,Kent State,9.9,58.5,over,2.1
+2,2,6-Sep,Liberty,Jacksonville State,False,Liberty,6.3,Liberty -6.5,Jacksonville State,0.2,52.5,over,1.0
+2,2,6-Sep,San José State,Texas,False,Texas,29.0,Texas -36.5,San José State,7.5,52.5,under,-4.3
+2,2,6-Sep,Virginia,NC State,False,NC State,2.0,NC State -2.5,Virginia,0.5,53.5,over,0.4
+2,2,6-Sep,Utah State,Texas A&M,False,Texas A&M,30.1,Texas A&M -29.5,Texas A&M,0.6,54.5,over,3.6
+2,2,6-Sep,Bowling Green,Cincinnati,False,Cincinnati,16.4,Cincinnati -21.5,Bowling Green,5.1,46.5,over,7.2
+2,2,6-Sep,Delaware,Colorado,False,Colorado,17.9,Colorado -23.5,Delaware,5.6,50.5,over,5.0
+2,2,6-Sep,Fresno State,Oregon State,False,Fresno State,1.6,Oregon State -3.5,Fresno State,5.1,47.5,over,7.4
+2,2,6-Sep,Kansas,Missouri,False,Missouri,5.7,Missouri -6.5,Kansas,0.8,51.5,over,2.7
+2,2,6-Sep,Miami (OH),Rutgers,False,Rutgers,12.7,Rutgers -14.5,Miami (OH),1.8,46.5,under,-1.3
+2,2,6-Sep,North Texas,Western Michigan,False,North Texas,10.0,North Texas -9.5,North Texas,0.5,60.5,over,0.5
+2,2,6-Sep,Oklahoma State,Oregon,False,Oregon,21.8,Oregon -28.5,Oklahoma State,6.7,58.5,under,-1.3
+2,2,6-Sep,Ole Miss,Kentucky,False,Ole Miss,16.1,Ole Miss -10.5,Ole Miss,5.6,52.5,under,-4.4
+2,2,6-Sep,Texas State,UTSA,False,UTSA,3.8,UTSA -4.5,Texas State,0.7,66.5,under,-0.8
+2,2,6-Sep,Troy,Clemson,False,Clemson,19.5,Clemson -33.5,Troy,14.0,52.5,over,1.3
+2,2,6-Sep,UAB,Navy,False,Navy,18.3,Navy -21.5,UAB,3.2,60.5,over,0.5
+2,2,6-Sep,Middle Tennessee,Wisconsin,False,Wisconsin,32.0,Wisconsin -28.5,Wisconsin,3.5,45.5,over,1.7
+2,2,6-Sep,West Virginia,Ohio,False,West Virginia,6.9,West Virginia -2.5,West Virginia,4.4,58.5,under,-1.0
+2,2,6-Sep,South Florida,Florida,False,Florida,20.3,Florida -17.5,Florida,2.8,54.5,over,3.2
+2,2,6-Sep,Arkansas State,Arkansas,False,Arkansas,21.2,Arkansas -23.5,Arkansas State,2.3,63.5,under,-3.8
+2,2,6-Sep,Missouri State,Marshall,False,Marshall,11.6,Marshall -10.5,Marshall,1.1,57.5,over,7.6
+2,2,6-Sep,Army,Kansas State,False,Kansas State,12.3,Kansas State -17.5,Army,5.2,46.5,over,6.4
+2,2,6-Sep,Houston,Rice,False,Houston,13.9,Houston -12.5,Houston,1.4,39.5,over,7.4
+2,2,6-Sep,Memphis,Georgia State,False,Memphis,25.1,Memphis -13.5,Memphis,11.6,55.5,over,8.6
+2,2,6-Sep,North Carolina,Charlotte,False,North Carolina,18.6,North Carolina -13.5,North Carolina,5.1,47.5,over,11.0
+2,2,6-Sep,Tulane,South Alabama,False,Tulane,10.7,Tulane -10.5,Tulane,0.2,51.5,over,5.7
+2,2,6-Sep,Western Kentucky,Toledo,False,Western Kentucky,2.3,Toledo -6.5,Western Kentucky,8.8,58.5,under,-6.2
+2,2,6-Sep,Akron,Nebraska,False,Nebraska,29.3,Nebraska -34.5,Akron,5.2,47.5,under,-1.2
+2,2,6-Sep,Arizona State,Mississippi State,False,Arizona State,9.7,Arizona State -6.5,Arizona State,3.2,59.5,under,-5.1
+2,2,6-Sep,Ball State,Auburn,False,Auburn,43.6,Auburn -42.5,Auburn,1.1,54.5,under,-2.3
+2,2,6-Sep,Boston College,Michigan State,False,Boston College,1.5,Michigan State -3.5,Boston College,5.0,45.5,over,2.1
+2,2,6-Sep,Georgia Southern,USC,False,USC,29.8,USC -28.5,USC,1.3,62.5,under,-1.6
+2,2,6-Sep,Louisiana Tech,LSU,False,LSU,31.4,LSU -37.5,Louisiana Tech,6.1,51.5,under,-0.1
+2,2,6-Sep,Michigan,Oklahoma,False,Oklahoma,5.7,Oklahoma -5.5,Oklahoma,0.2,45.5,over,0.8
+2,2,6-Sep,Vanderbilt,Virginia Tech,False,Vanderbilt,3.8,Virginia Tech -1.5,Vanderbilt,5.3,47.5,over,4.6
+2,2,6-Sep,UL Monroe,Alabama,False,Alabama,31.6,Alabama -36.5,UL Monroe,4.9,50.5,over,0.5
+2,2,6-Sep,UCLA,UNLV,False,UNLV,2.6,UCLA -2.5,UNLV,5.1,54.5,over,1.5
+2,2,6-Sep,Tulsa,New Mexico State,False,New Mexico State,1.5,Tulsa -4.5,New Mexico State,6.0,52.5,over,5.6
+2,2,6-Sep,San Diego State,Washington State,False,Washington State,4.9,San Diego State -1.5,Washington State,6.4,45.5,over,9.1
+2,2,6-Sep,Stanford,BYU,False,BYU,24.6,BYU -18.5,BYU,6.1,46.5,over,6.0
+2,2,6-Sep,Sam Houston,Hawai'i,False,Hawai'i,4.5,Hawaii -7.5,Sam Houston,3.0,49.5,over,0.6
+3,3,11-Sep,NC State,Wake Forest,False,NC State,0.7,NC State -7.5,Wake Forest,6.8,54.5,over,0.5
+3,3,12-Sep,Colorado,Houston,False,Houston,3.3,Houston -4.5,Colorado,1.2,43.5,over,7.5
+3,3,12-Sep,Kansas State,Arizona,False,Arizona,2.9,Kansas State -1.5,Arizona,4.4,54.5,over,0.3
+3,3,12-Sep,New Mexico,UCLA,False,UCLA,15.3,UCLA -14.5,UCLA,0.8,52.5,over,5.6
+3,3,13-Sep,Buffalo,Kent State,False,Buffalo,20.1,Buffalo -23.5,Kent State,3.4,48.5,over,5.3
+3,3,13-Sep,Central Michigan,Michigan,False,Michigan,31.7,Michigan -27.5,Michigan,4.2,42.5,over,3.3
+3,3,13-Sep,Clemson,Georgia Tech,False,Georgia Tech,0.6,Clemson -9.5,Georgia Tech,10.1,58.5,under,-2.6
+3,3,13-Sep,Memphis,Troy,False,Memphis,11.8,Memphis -6.5,Memphis,5.3,50.5,over,8.1
+3,3,13-Sep,Oklahoma,Temple,False,Oklahoma,24.1,Oklahoma -24.5,Temple,0.4,51.5,over,2.1
+3,3,13-Sep,Oregon,Northwestern,False,Oregon,27.1,Oregon -27.5,Northwestern,0.4,51.5,under,-4.4
+3,3,13-Sep,Wisconsin,Alabama,False,Alabama,17.1,Alabama -22.5,Wisconsin,5.4,46.5,over,2.3
+3,3,13-Sep,South Alabama,Auburn,False,Auburn,20.3,Auburn -25.5,South Alabama,5.2,53.5,over,0.3
+3,3,13-Sep,UConn,Delaware,False,UConn,13.7,Connecticut -9.5,UConn,4.2,51.5,over,2.8
+3,3,13-Sep,Georgia,Tennessee,False,Tennessee,1.3,Georgia -7,Tennessee,8.3,50.5,under,-1.1
+3,3,13-Sep,Oregon State,Texas Tech,False,Texas Tech,27.0,Texas Tech -24.5,Texas Tech,2.5,60.5,over,0.8
+3,3,13-Sep,Pittsburgh,West Virginia,False,Pittsburgh,4.5,Pittsburgh -2,Pittsburgh,2.5,57.5,under,-1.7
+3,3,13-Sep,SMU,Missouri State,False,SMU,29.3,SMU -27.5,SMU,1.8,61.5,over,4.4
+3,3,13-Sep,USC,Purdue,False,USC,19.7,USC -21.5,Purdue,1.8,59.5,under,-2.4
+3,3,13-Sep,Washington State,North Texas,False,North Texas,2.7,North Texas -5.5,Washington State,2.8,58.5,over,6.6
+3,3,13-Sep,Iowa State,Arkansas State,False,Iowa State,22.1,Iowa State -21.5,Iowa State,0.6,55.5,over,0.2
+3,3,13-Sep,Louisiana,Missouri,False,Missouri,25.3,Missouri -24.5,Missouri,0.8,50.5,over,1.8
+3,3,13-Sep,UTEP,Texas,False,Texas,34.8,Texas -36.5,UTEP,1.7,50.5,under,-2.5
+3,3,13-Sep,South Florida,Miami,False,Miami,14.0,Miami-FL -15.5,South Florida,1.5,54.5,over,8.2
+3,3,13-Sep,Liberty,Bowling Green,False,Liberty,3.9,Liberty -6.5,Bowling Green,2.6,51.5,over,5.2
+3,3,13-Sep,Middle Tennessee,Nevada,False,Nevada,10.4,Nevada -8.5,Nevada,1.9,45.5,over,8.2
+3,3,13-Sep,Florida Atlantic,Florida International,False,Florida Atlantic,2.7,Florida International -2.5,Florida Atlantic,5.2,57.5,under,-3.7
+3,3,13-Sep,App State,Southern Miss,False,App State,8.8,Appalachian State -1.5,App State,7.3,53.5,over,2.6
+3,3,13-Sep,Arkansas,Ole Miss,False,Ole Miss,10.4,Ole Miss -9.5,Ole Miss,0.9,62.5,under,-8.5
+3,3,13-Sep,Jacksonville State,Georgia Southern,False,Jacksonville State,2.7,Georgia Southern -3.5,Jacksonville State,6.2,56.5,over,0.6
+3,3,13-Sep,Ohio,Ohio State,False,Ohio State,31.3,Ohio State -25.5,Ohio State,5.8,53.5,under,-2.4
+3,3,13-Sep,Old Dominion,Virginia Tech,False,Virginia Tech,7.0,Virginia Tech -7.5,Old Dominion,0.5,51.5,over,2.9
+3,3,13-Sep,Western Michigan,Illinois,False,Illinois,32.3,Illinois -28.5,Illinois,3.8,51.5,over,2.1
+3,3,13-Sep,East Carolina,Coastal Carolina,False,East Carolina,8.0,East Carolina -6.5,East Carolina,1.5,54.5,over,3.8
+3,3,13-Sep,Eastern Michigan,Kentucky,False,Kentucky,29.5,Kentucky -25.5,Kentucky,4.0,45.5,over,6.3
+3,3,13-Sep,Florida,LSU,False,LSU,2.8,LSU -6.5,Florida,3.7,50.5,over,1.9
+3,3,13-Sep,Massachusetts,Iowa,False,Iowa,38.0,Iowa -33.5,Iowa,4.5,44.5,over,6.8
+3,3,13-Sep,New Mexico State,Louisiana Tech,False,Louisiana Tech,5.2,Louisiana Tech -12.5,New Mexico State,7.3,46.5,over,3.3
+3,3,13-Sep,Texas A&M,Notre Dame,False,Notre Dame,2.8,Notre Dame -6.5,Texas A&M,3.7,49.5,over,4.0
+3,3,13-Sep,Vanderbilt,South Carolina,False,South Carolina,9.5,South Carolina -5.5,South Carolina,4.0,47.5,over,3.6
+3,3,13-Sep,Duke,Tulane,False,Tulane,7.4,Tulane -2.5,Tulane,4.9,52.5,over,2.9
+3,3,13-Sep,Navy,Tulsa,False,Navy,13.7,Navy -14.5,Tulsa,0.8,53.5,over,3.3
+3,3,13-Sep,Utah,Wyoming,False,Utah,20.4,Utah -22.5,Wyoming,2.1,47.5,over,0.5
+3,3,13-Sep,Akron,UAB,False,UAB,11.3,UAB -11.5,Akron,0.2,53.5,over,5.4
+3,3,13-Sep,Air Force,Utah State,False,Air Force,4.8,Air Force -3.5,Air Force,1.3,51.5,over,4.0
+3,3,13-Sep,Boston College,Stanford,False,Boston College,13.6,Boston College -10.5,Boston College,3.1,43.5,over,10.9
+3,3,13-Sep,Minnesota,California,False,Minnesota,3.6,Minnesota -2.5,Minnesota,1.1,43.5,over,1.6
+3,3,13-Sep,Texas State,Arizona State,False,Arizona State,11.1,Arizona State -14.5,Texas State,3.4,59.5,under,-0.5
+4,4,18-Sep,Rice,Charlotte,False,Rice,3.6,Rice -4.5,Charlotte,0.9,42.5,over,8.3
+4,4,19-Sep,Tulsa,Oklahoma State,False,Oklahoma State,9.8,Oklahoma State -13.5,Tulsa,3.7,56.5,over,1.8
+4,4,19-Sep,Iowa,Rutgers,False,Rutgers,0.2,Iowa -1.5,Rutgers,1.7,45.5,over,4.2
+4,4,20-Sep,Arkansas,Memphis,False,Memphis,0.5,Arkansas -6.5,Memphis,7.0,61.5,under,-0.7
+4,4,20-Sep,Bowling Green,Louisville,False,Louisville,25.9,Louisville -27.5,Bowling Green,1.6,51.5,over,5.5
+4,4,20-Sep,Maryland,Wisconsin,False,Wisconsin,0.4,Wisconsin -7.5,Maryland,7.1,43.5,over,2.6
+4,4,20-Sep,North Texas,Army,False,Army,2.2,Army -2.5,North Texas,0.3,52.5,over,5.5
+4,4,20-Sep,SMU,TCU,False,TCU,7.4,TCU -6.5,TCU,0.9,63.5,under,-3.0
+4,4,20-Sep,Syracuse,Clemson,False,Clemson,9.2,Clemson -17.5,Syracuse,8.3,56.5,under,-0.1
+4,4,20-Sep,Texas Tech,Utah,False,Utah,1.9,Utah -3.5,Texas Tech,1.6,56.5,under,-1.9
+4,4,20-Sep,UNLV,Miami (OH),False,UNLV,8.4,UNLV -3.5,UNLV,4.9,49.5,under,-0.2
+4,4,20-Sep,UAB,Tennessee,False,Tennessee,37.0,Tennessee -38.5,UAB,1.5,68.5,under,-9.2
+4,4,20-Sep,Oregon State,Oregon,False,Oregon,40.1,Oregon -34.5,Oregon,5.6,57.5,under,-0.4
+4,4,20-Sep,Auburn,Oklahoma,False,Oklahoma,7.4,Oklahoma -6.5,Oklahoma,0.9,49.5,under,-0.4
+4,4,20-Sep,Ball State,UConn,False,UConn,25.4,Connecticut -20.5,UConn,4.9,52.5,over,4.9
+4,4,20-Sep,James Madison,Liberty,False,James Madison,6.5,James Madison -11.5,Liberty,5.0,49.5,over,4.2
+4,4,20-Sep,Kent State,Florida State,False,Florida State,35.5,Florida State -42.5,Kent State,7.0,55.5,under,-2.4
+4,4,20-Sep,Michigan,Nebraska,False,Nebraska,1.1,Michigan -1.5,Nebraska,2.6,44.5,over,0.2
+4,4,20-Sep,North Carolina,UCF,False,UCF,7.0,UCF -6.5,UCF,0.5,50.5,over,3.6
+4,4,20-Sep,Purdue,Notre Dame,False,Notre Dame,20.4,Notre Dame -26.5,Purdue,6.1,52.5,under,-0.3
+4,4,20-Sep,Toledo,Western Michigan,False,Toledo,18.2,Toledo -13.5,Toledo,4.7,51.5,over,2.0
+4,4,20-Sep,Troy,Buffalo,False,Buffalo,4.6,Buffalo -6.5,Troy,1.9,42.5,over,8.1
+4,4,20-Sep,Tulane,Ole Miss,False,Ole Miss,17.5,Ole Miss -12.5,Ole Miss,5.0,61.5,under,-4.6
+4,4,20-Sep,Louisiana,Eastern Michigan,False,Louisiana,10.8,UL-Lafayette -2.5,Louisiana,8.3,52.5,over,3.8
+4,4,20-Sep,NC State,Duke,False,NC State,1.2,Duke -2.5,NC State,3.7,58.5,under,-3.2
+4,4,20-Sep,Northern Illinois,Mississippi State,False,Mississippi State,21.6,Mississippi State -22.5,Northern Illinois,0.9,49.5,under,-1.0
+4,4,20-Sep,Temple,Georgia Tech,False,Georgia Tech,21.6,Georgia Tech -23.5,Temple,1.9,51.5,over,6.4
+4,4,20-Sep,Arkansas State,Kennesaw State,False,Arkansas State,3.8,Arkansas State -7.5,Kennesaw State,3.7,54.5,under,-2.5
+4,4,20-Sep,Delaware,Florida International,False,Florida International,4.3,Florida International -4.5,Delaware,0.2,53.5,over,1.7
+4,4,20-Sep,West Virginia,Kansas,False,Kansas,7.1,Kansas -12.5,West Virginia,5.4,55.5,over,2.1
+4,4,20-Sep,Boise State,Air Force,False,Boise State,10.6,Boise State -9.5,Boise State,1.1,51.5,over,3.5
+4,4,20-Sep,Coastal Carolina,South Alabama,False,South Alabama,14.5,South Alabama -14.5,South Alabama,0.0,51.5,over,5.5
+4,4,20-Sep,Marshall,Middle Tennessee,False,Marshall,11.2,Marshall -3.5,Marshall,7.7,46.5,over,6.4
+4,4,20-Sep,Nevada,Western Kentucky,False,Western Kentucky,14.3,Western Kentucky -10.5,Western Kentucky,3.8,54.5,under,-1.5
+4,4,20-Sep,South Carolina,Missouri,False,Missouri,13.7,Missouri -12.5,Missouri,1.2,46.5,over,3.3
+4,4,20-Sep,Arizona State,Baylor,False,Baylor,3.8,Baylor -2.5,Baylor,1.3,59.5,under,-0.8
+4,4,20-Sep,BYU,East Carolina,False,BYU,9.5,BYU -6.5,BYU,3.0,48.5,over,3.6
+4,4,20-Sep,Florida,Miami,False,Miami,10.6,Miami-FL -7.5,Miami,3.1,52.5,over,4.6
+4,4,20-Sep,Georgia State,Vanderbilt,False,Vanderbilt,33.8,Vanderbilt -26.5,Vanderbilt,7.3,53.5,over,4.4
+4,4,20-Sep,Illinois,Indiana,False,Indiana,3.9,Indiana -4.5,Illinois,0.6,52.5,under,-0.2
+4,4,20-Sep,Southern Miss,Louisiana Tech,False,Louisiana Tech,7.8,Louisiana Tech -2.5,Louisiana Tech,5.3,51.5,over,0.4
+4,4,20-Sep,Stanford,Virginia,False,Virginia,11.2,Virginia -16.5,Stanford,5.3,48.5,over,4.9
+4,4,20-Sep,Washington,Washington State,False,Washington,18.6,Washington -20.5,Washington State,1.9,53.5,over,3.0
+4,4,20-Sep,Sam Houston,Texas,False,Texas,40.0,Texas -41.5,Sam Houston,1.5,51.5,under,-4.9
+4,4,20-Sep,UL Monroe,UTEP,False,UTEP,8.7,UTEP -3.5,UTEP,5.2,46.5,over,4.7
+4,4,20-Sep,UTSA,Colorado State,False,UTSA,11.0,UTSA -4.5,UTSA,6.5,58.5,over,4.0
+4,4,20-Sep,Wyoming,Colorado,False,Colorado,11.0,Colorado -13.5,Wyoming,2.5,44.5,over,7.5
+4,4,20-Sep,California,San Diego State,False,California,13.2,California -12.5,California,0.7,48.5,under,-0.7
+4,4,20-Sep,Michigan State,USC,False,USC,17.7,USC -14.5,USC,3.2,56.5,under,-1.1
+4,4,20-Sep,Fresno State,Hawai'i,False,Fresno State,7.4,Fresno State -3.5,Fresno State,3.9,47.5,over,2.1
+5,5,25-Sep,Army,East Carolina,False,East Carolina,2.6,East Carolina -3.5,Army,0.9,52.5,over,0.3
+5,5,26-Sep,Florida State,Virginia,False,Florida State,2.9,Florida State -6.5,Virginia,3.6,58.5,under,-4.6
+5,5,26-Sep,TCU,Arizona State,False,TCU,1.3,Arizona State -2.5,TCU,3.8,55.5,over,0.8
+5,5,26-Sep,Houston,Oregon State,False,Houston,16.4,Houston -12.5,Houston,3.9,48.5,over,3.7
+5,5,27-Sep,Bowling Green,Ohio,False,Ohio,9.2,Ohio -10.5,Bowling Green,1.3,51.5,over,3.6
+5,5,27-Sep,Cincinnati,Kansas,False,Kansas,9.8,Kansas -6.5,Kansas,3.3,55.5,under,-0.4
+5,5,27-Sep,Duke,Syracuse,False,Syracuse,4.0,Duke -4.5,Syracuse,8.5,60.5,under,-0.8
+5,5,27-Sep,Georgia Tech,Wake Forest,False,Georgia Tech,14.1,Georgia Tech -14.5,Wake Forest,0.4,53.5,over,2.6
+5,5,27-Sep,Louisville,Pittsburgh,False,Louisville,3.6,Louisville -3.5,Louisville,0.1,55.5,over,1.8
+5,5,27-Sep,Notre Dame,Arkansas,False,Arkansas,2.2,Notre Dame -6.5,Arkansas,8.7,64.5,under,-4.4
+5,5,27-Sep,Rutgers,Minnesota,False,Minnesota,2.8,Minnesota -5.5,Rutgers,2.7,51.5,under,-0.9
+5,5,27-Sep,South Alabama,North Texas,False,North Texas,19.2,North Texas -12.5,North Texas,6.7,64.5,under,-2.1
+5,5,27-Sep,UCF,Kansas State,False,Kansas State,1.3,Kansas State -5.5,UCF,4.2,49.5,over,1.9
+5,5,27-Sep,USC,Illinois,False,USC,7.6,USC -6.5,USC,1.1,59.5,over,0.4
+5,5,27-Sep,Utah State,Vanderbilt,False,Vanderbilt,24.2,Vanderbilt -21.5,Vanderbilt,2.7,59.5,over,0.8
+5,5,27-Sep,Eastern Michigan,Central Michigan,False,Central Michigan,4.8,Central Michigan -5.5,Eastern Michigan,0.7,53.5,over,2.8
+5,5,27-Sep,Georgia Southern,James Madison,False,James Madison,19.1,James Madison -16.5,James Madison,2.6,55.5,over,2.5
+5,5,27-Sep,Arkansas State,UL Monroe,False,Arkansas State,3.4,UL-Monroe -3.5,Arkansas State,6.9,56.5,under,-0.7
+5,5,27-Sep,Akron,Toledo,False,Toledo,25.7,Toledo -20.5,Toledo,5.2,48.5,over,0.5
+5,5,27-Sep,Auburn,Texas A&M,False,Texas A&M,5.0,Texas A&M -6.5,Auburn,1.5,52.5,over,0.6
+5,5,27-Sep,Baylor,Oklahoma State,False,Baylor,8.7,Baylor -19.5,Oklahoma State,10.8,59.5,over,0.4
+5,5,27-Sep,California,Boston College,False,Boston College,1.8,Boston College -6.5,California,4.7,50.5,over,1.2
+5,5,27-Sep,UConn,Buffalo,False,UConn,4.8,Connecticut -2.5,UConn,2.3,51.5,over,2.1
+5,5,27-Sep,Indiana,Iowa,False,Indiana,9.2,Indiana -7.5,Indiana,1.7,48.5,over,1.8
+5,5,27-Sep,LSU,Ole Miss,False,Ole Miss,5.7,Ole Miss -2.5,Ole Miss,3.2,55.5,under,-3.0
+5,5,27-Sep,Ohio State,Washington,False,Ohio State,10.2,Ohio State -9.5,Ohio State,0.7,52.5,under,-0.6
+5,5,27-Sep,Rice,Navy,False,Navy,17.9,Navy -14.5,Navy,3.4,45.5,over,6.3
+5,5,27-Sep,San Diego State,Northern Illinois,False,San Diego State,4.5,San Diego State -3.5,San Diego State,1.0,43.5,under,-0.2
+5,5,27-Sep,UCLA,Northwestern,False,Northwestern,2.0,Northwestern -6.5,UCLA,4.5,45.5,over,0.8
+5,5,27-Sep,Utah,West Virginia,False,Utah,15.3,Utah -9.5,Utah,5.8,49.5,under,-0.5
+5,5,27-Sep,New Mexico State,New Mexico,False,New Mexico,6.2,New Mexico -13.5,New Mexico State,7.3,54.5,over,5.1
+5,5,27-Sep,Tulane,Tulsa,False,Tulane,6.4,Tulane -13.5,Tulsa,7.1,53.5,over,2.0
+5,5,27-Sep,Hawai'i,Air Force,False,Air Force,5.8,Air Force -4.5,Air Force,1.3,53.5,under,-5.7
+5,5,27-Sep,Tennessee,Mississippi State,False,Tennessee,7.7,Tennessee -7.5,Tennessee,0.2,62.5,under,-6.8
+5,5,27-Sep,Liberty,Old Dominion,False,Old Dominion,5.7,Old Dominion -16.5,Liberty,10.8,52.5,over,2.5
+5,5,27-Sep,Middle Tennessee,Kennesaw State,False,Kennesaw State,14.4,Kennesaw State -6.5,Kennesaw State,7.9,51.5,under,-4.6
+5,5,27-Sep,Arizona,Iowa State,False,Iowa State,8.3,Iowa State -6.5,Iowa State,1.8,50.5,over,0.1
+5,5,27-Sep,Jacksonville State,Southern Miss,False,Jacksonville State,1.8,Southern Miss -4.5,Jacksonville State,6.3,57.5,under,-1.4
+5,5,27-Sep,Memphis,Florida Atlantic,False,Memphis,20.8,Memphis -13.5,Memphis,7.3,61.5,under,-2.3
+5,5,27-Sep,Virginia Tech,NC State,False,NC State,9.7,NC State -10.5,Virginia Tech,0.8,58.5,under,-0.5
+5,5,27-Sep,Western Kentucky,Missouri State,False,Western Kentucky,10.1,Western Kentucky -5.5,Western Kentucky,4.6,60.5,under,-2.7
+5,5,27-Sep,Alabama,Georgia,False,Alabama,0.7,Georgia -2.5,Alabama,3.2,53.5,over,0.1
+5,5,27-Sep,App State,Boise State,False,Boise State,18.0,Boise State -16.5,Boise State,1.5,60.5,under,-1.8
+5,5,27-Sep,Massachusetts,Missouri,False,Missouri,52.5,Missouri -43.5,Missouri,9.0,55.5,over,2.5
+5,5,27-Sep,Oregon,Penn State,False,Oregon,0.4,Penn State -3.5,Oregon,3.9,53.5,over,0.5
+5,5,27-Sep,San José State,Stanford,False,Stanford,3.1,Stanford -2.5,Stanford,0.6,49.5,over,4.3
+5,5,27-Sep,Washington State,Colorado State,False,Colorado State,3.0,Colorado State -4.5,Washington State,1.5,50.5,over,7.0
+5,5,27-Sep,Kentucky,South Carolina,False,South Carolina,0.2,South Carolina -6.5,Kentucky,6.3,47.5,under,-0.2
+5,5,27-Sep,Marshall,Louisiana,False,Marshall,1.1,UL-Lafayette -2.5,Marshall,3.6,47.5,over,8.8
+5,5,27-Sep,Louisiana Tech,UTEP,False,Louisiana Tech,7.5,Louisiana Tech -4.5,Louisiana Tech,3.0,48.5,over,0.7
+5,5,27-Sep,BYU,Colorado,False,BYU,8.6,BYU -6.5,BYU,2.1,47.5,over,4.9
+6,6,2-Oct,Sam Houston,New Mexico State,False,New Mexico State,7.4,Sam Houston -1.5,New Mexico State,8.9,52.5,under,-0.9
+6,6,3-Oct,Charlotte,South Florida,False,South Florida,23.3,USF -26.5,Charlotte,3.2,55.5,under,-0.4
+6,6,3-Oct,Western Kentucky,Delaware,False,Western Kentucky,2.5,Delaware -1.5,Western Kentucky,4.0,61.5,under,-6.3
+6,6,3-Oct,New Mexico,San José State,False,New Mexico,1.0,San Jose State -2.5,New Mexico,3.5,57.5,over,1.1
+6,6,3-Oct,Colorado State,San Diego State,False,San Diego State,14.8,San Diego State -5.5,San Diego State,9.3,38.5,over,6.1
+6,6,3-Oct,West Virginia,BYU,False,BYU,22.4,BYU -18.5,BYU,3.9,47.5,over,1.3
+6,6,4-Oct,Air Force,Navy,False,Navy,18.7,Navy -10.5,Navy,8.2,48.5,over,12.6
+6,6,4-Oct,Army,UAB,False,Army,5.7,Army -7.5,UAB,1.8,58.5,over,1.5
+6,6,4-Oct,Boston College,Pittsburgh,False,Pittsburgh,12.9,Pittsburgh -6.5,Pittsburgh,6.4,56.5,under,-0.8
+6,6,4-Oct,Clemson,North Carolina,False,Clemson,7.7,Clemson -13.5,North Carolina,5.8,45.5,over,5.4
+6,6,4-Oct,Illinois,Purdue,False,Illinois,16.7,Illinois -10.5,Illinois,6.2,55.5,over,1.8
+6,6,4-Oct,Iowa State,Cincinnati,False,Iowa State,3.2,Cincinnati -1.5,Iowa State,4.7,51.5,over,1.3
+6,6,4-Oct,Kansas State,Baylor,False,Baylor,3.4,Baylor -7.5,Kansas State,4.1,61.5,under,-4.2
+6,6,4-Oct,Kentucky,Georgia,False,Georgia,17.4,Georgia -20.5,Kentucky,3.1,48.5,over,3.8
+6,6,4-Oct,Ohio,Ball State,False,Ohio,14.1,Ohio -16.5,Ball State,2.4,51.5,over,6.3
+6,6,4-Oct,Wisconsin,Michigan,False,Michigan,18.8,Michigan -16.5,Michigan,2.3,41.5,over,3.8
+6,6,4-Oct,UTSA,Temple,False,UTSA,6.4,UTSA -6.5,Temple,0.1,58.5,over,2.5
+6,6,4-Oct,Wake Forest,Virginia Tech,False,Virginia Tech,0.3,Virginia Tech -6.5,Wake Forest,6.2,50.5,over,0.8
+6,6,4-Oct,Western Michigan,Massachusetts,False,Western Michigan,15.8,Western Michigan -11.5,Western Michigan,4.3,45.5,over,8.8
+6,6,4-Oct,Oklahoma State,Arizona,False,Arizona,20.0,Arizona -19.5,Arizona,0.5,56.5,under,-3.5
+6,6,4-Oct,Boise State,Notre Dame,False,Notre Dame,13.5,Notre Dame -17.5,Boise State,4.0,64.5,under,-2.8
+6,6,4-Oct,Central Michigan,Akron,False,Central Michigan,3.9,Central Michigan -7.5,Akron,3.6,44.5,over,3.7
+6,6,4-Oct,Eastern Michigan,Buffalo,False,Buffalo,16.3,Buffalo -10.5,Buffalo,5.8,48.5,over,4.4
+6,6,4-Oct,Florida International,UConn,False,UConn,15.2,Connecticut -7.5,UConn,7.7,54.5,over,1.2
+6,6,4-Oct,James Madison,Georgia State,False,James Madison,27.1,James Madison -19.5,James Madison,7.6,53.5,over,1.9
+6,6,4-Oct,Miami (OH),Northern Illinois,False,Miami (OH),2.0,Miami-OH -3.5,Northern Illinois,1.5,38.5,over,2.0
+6,6,4-Oct,Oregon State,App State,False,App State,0.6,Oregon State -1.5,App State,2.1,54.5,over,1.4
+6,6,4-Oct,Penn State,UCLA,False,Penn State,32.5,Penn State -25.5,Penn State,7.0,49.5,over,2.6
+6,6,4-Oct,Syracuse,SMU,False,SMU,9.3,SMU -13.5,Syracuse,4.2,57.5,over,3.3
+6,6,4-Oct,Texas,Florida,False,Texas,9.9,Texas -7.5,Texas,2.4,43.5,under,-0.5
+6,6,4-Oct,UL Monroe,Northwestern,False,Northwestern,11.0,Northwestern -10.5,Northwestern,0.5,40.5,over,4.5
+6,6,4-Oct,Vanderbilt,Alabama,False,Alabama,2.5,Alabama -11.5,Vanderbilt,9.0,56.5,under,-0.3
+6,6,4-Oct,Virginia,Louisville,False,Louisville,9.2,Louisville -6.5,Louisville,2.7,62.5,under,-4.0
+6,6,4-Oct,Washington,Maryland,False,Maryland,1.6,Washington -5.5,Maryland,7.1,52.5,under,-2.6
+6,6,4-Oct,Kent State,Oklahoma,False,Oklahoma,48.0,Oklahoma -45.5,Oklahoma,2.5,53.5,under,-1.8
+6,6,4-Oct,Michigan State,Nebraska,False,Nebraska,13.7,Nebraska -10.5,Nebraska,3.2,53.5,under,-1.2
+6,6,4-Oct,Texas State,Arkansas State,False,Texas State,13.1,Texas State -12.5,Texas State,0.6,64.5,under,-3.0
+6,6,4-Oct,Coastal Carolina,Old Dominion,False,Old Dominion,20.0,Old Dominion -17.5,Old Dominion,2.5,54.5,under,-0.5
+6,6,4-Oct,Florida Atlantic,Rice,False,Rice,4.7,Rice -5.5,Florida Atlantic,0.8,52.5,under,-1.7
+6,6,4-Oct,South Alabama,Troy,False,Troy,7.5,Troy -2.5,Troy,5.0,46.5,over,6.2
+6,6,4-Oct,Texas Tech,Houston,False,Texas Tech,13.9,Texas Tech -12.5,Texas Tech,1.4,50.5,over,1.2
+6,6,4-Oct,UNLV,Wyoming,False,UNLV,4.9,UNLV -5.5,Wyoming,0.6,52.5,over,4.1
+6,6,4-Oct,Colorado,TCU,False,TCU,12.4,TCU -15.5,Colorado,3.1,59.5,under,-1.4
+6,6,4-Oct,Kansas,UCF,False,Kansas,1.2,Kansas -3.5,UCF,2.3,55.5,over,0.3
+6,6,4-Oct,Miami,Florida State,False,Miami,2.1,Miami-FL -5.5,Florida State,3.4,54.5,over,2.4
+6,6,4-Oct,Minnesota,Ohio State,False,Ohio State,20.7,Ohio State -24.5,Minnesota,3.8,44.5,over,1.0
+6,6,4-Oct,Mississippi State,Texas A&M,False,Texas A&M,4.9,Texas A&M -14.5,Mississippi State,9.6,58.5,under,-3.0
+6,6,4-Oct,Tulsa,Memphis,False,Memphis,25.7,Memphis -21.5,Memphis,4.2,55.5,under,-0.2
+6,6,4-Oct,Duke,California,False,Duke,6.1,Duke -3.5,Duke,2.6,56.5,under,-3.1
+6,6,4-Oct,Nevada,Fresno State,False,Fresno State,18.9,Fresno State -13.5,Fresno State,5.4,44.5,over,6.3
+7,7,8-Oct,Missouri State,Middle Tennessee,False,Missouri State,9.5,Missouri State -2.5,Missouri State,7.0,52.5,over,2.8
+7,7,8-Oct,Liberty,UTEP,False,Liberty,1.3,Liberty -1.5,UTEP,0.2,47.5,over,1.3
+7,7,9-Oct,Louisiana Tech,Kennesaw State,False,Louisiana Tech,9.7,Louisiana Tech -7.5,Louisiana Tech,2.2,45.5,under,-3.2
+7,7,9-Oct,East Carolina,Tulane,False,Tulane,1.0,Tulane -6.5,East Carolina,5.5,54.5,under,-0.7
+7,7,9-Oct,Jacksonville State,Sam Houston,True,Jacksonville State,17.4,Jacksonville State -8.5,Jacksonville State,8.9,55.5,under,-0.9
+7,7,9-Oct,Southern Miss,Georgia Southern,False,Southern Miss,6.1,Southern Miss -2.5,Southern Miss,3.6,60.5,under,-1.8
+7,7,10-Oct,South Florida,North Texas,False,North Texas,6.6,North Texas -2.5,North Texas,4.1,66.5,under,-5.6
+7,7,10-Oct,Fresno State,Colorado State,False,Fresno State,12.2,Fresno State -6.5,Fresno State,5.7,46.5,over,4.4
+7,7,10-Oct,Rutgers,Washington,False,Washington,12.0,Washington -10.5,Washington,1.5,59.5,over,0.1
+7,7,11-Oct,Alabama,Missouri,False,Missouri,1.6,Alabama -3.5,Missouri,5.1,53.5,over,0.1
+7,7,11-Oct,Charlotte,Army,False,Army,21.9,Army -16.5,Army,5.4,47.5,over,5.0
+7,7,11-Oct,Houston,Oklahoma State,False,Houston,18.1,Houston -13.5,Houston,4.6,48.5,over,0.7
+7,7,11-Oct,Miami (OH),Akron,False,Miami (OH),9.0,Miami-OH -9.5,Akron,0.5,46.5,under,-0.4
+7,7,11-Oct,Ohio State,Illinois,False,Ohio State,13.8,Ohio State -14.5,Illinois,0.7,50.5,over,3.7
+7,7,11-Oct,Pittsburgh,Florida State,False,Florida State,3.8,Florida State -9.5,Pittsburgh,5.7,58.5,under,-3.8
+7,7,11-Oct,Stanford,SMU,False,SMU,19.4,SMU -17.5,SMU,1.9,55.5,over,1.0
+7,7,11-Oct,Toledo,Bowling Green,False,Toledo,21.7,Toledo -9.5,Toledo,12.2,49.5,over,0.3
+7,7,11-Oct,UCF,Cincinnati,False,Cincinnati,9.2,Cincinnati -10.5,UCF,1.3,56.5,under,-2.7
+7,7,11-Oct,UCLA,Michigan State,False,Michigan State,12.0,Michigan State -7.5,Michigan State,4.5,55.5,over,2.4
+7,7,11-Oct,Louisiana,James Madison,False,James Madison,17.7,James Madison -17.5,James Madison,0.2,46.5,over,5.4
+7,7,11-Oct,Washington State,Ole Miss,False,Ole Miss,34.3,Ole Miss -32.5,Ole Miss,1.8,59.5,under,-3.6
+7,7,11-Oct,Northern Illinois,Eastern Michigan,False,Northern Illinois,4.6,Northern Illinois -1.5,Northern Illinois,3.1,49.5,under,-2.8
+7,7,11-Oct,Massachusetts,Kent State,False,Kent State,5.2,Kent State -2.5,Kent State,2.7,49.5,over,5.0
+7,7,11-Oct,Air Force,UNLV,False,UNLV,6.7,UNLV -7.5,Air Force,0.8,68.5,under,-3.2
+7,7,11-Oct,App State,Georgia State,False,App State,3.5,Appalachian State -3.5,App State,0.0,56.5,under,-0.5
+7,7,11-Oct,Ball State,Western Michigan,False,Western Michigan,10.8,Western Michigan -9.5,Western Michigan,1.3,43.5,over,7.7
+7,7,11-Oct,Indiana,Oregon,False,Oregon,6.2,Oregon -7.5,Indiana,1.3,54.5,under,-1.3
+7,7,11-Oct,Iowa State,Colorado,False,Iowa State,5.3,Iowa State -4.5,Iowa State,0.8,53.5,over,0.7
+7,7,11-Oct,NC State,Notre Dame,False,Notre Dame,19.5,Notre Dame -22.5,NC State,3.0,62.5,under,-2.3
+7,7,11-Oct,Nebraska,Maryland,False,Nebraska,3.0,Nebraska -6.5,Maryland,3.5,48.5,under,-1.6
+7,7,11-Oct,Northwestern,Penn State,False,Penn State,21.2,Penn State -21.5,Northwestern,0.3,48.5,over,0.7
+7,7,11-Oct,Oklahoma,Texas,True,Oklahoma,7.6,Texas -2.5,Oklahoma,10.1,42.5,over,1.9
+7,7,11-Oct,Old Dominion,Marshall,False,Old Dominion,15.0,Old Dominion -14.5,Old Dominion,0.5,55.5,over,3.4
+7,7,11-Oct,TCU,Kansas State,False,TCU,8.2,TCU -1.5,TCU,6.7,57.5,under,-1.4
+7,7,11-Oct,Virginia Tech,Georgia Tech,False,Georgia Tech,16.8,Georgia Tech -14.5,Georgia Tech,2.3,55.5,under,0.0
+7,7,11-Oct,Wake Forest,Oregon State,False,Wake Forest,9.3,Wake Forest -2.5,Wake Forest,6.8,52.5,under,-0.8
+7,7,11-Oct,Navy,Temple,False,Navy,13.2,Navy -8.5,Navy,4.7,53.5,over,4.5
+7,7,11-Oct,Arkansas,Tennessee,False,Tennessee,13.5,Tennessee -12.5,Tennessee,1.0,69.5,under,-7.0
+7,7,11-Oct,UAB,Florida Atlantic,False,Florida Atlantic,7.5,Florida Atlantic -4.5,Florida Atlantic,3.0,69.5,under,-8.3
+7,7,11-Oct,Florida,Texas A&M,False,Texas A&M,10.0,Texas A&M -8.5,Texas A&M,1.5,47.5,over,2.5
+7,7,11-Oct,Iowa,Wisconsin,False,Iowa,6.0,Iowa -3.5,Iowa,2.5,37.5,over,7.1
+7,7,11-Oct,San José State,Wyoming,False,Wyoming,2.1,San Jose State -2.5,Wyoming,4.6,49.5,over,3.0
+7,7,11-Oct,UL Monroe,Coastal Carolina,False,UL Monroe,1.5,UL-Monroe -2.5,Coastal Carolina,1.0,43.5,over,7.6
+7,7,11-Oct,Clemson,Boston College,False,Clemson,12.6,Clemson -14.5,Boston College,1.9,55.5,under,-2.0
+7,7,11-Oct,Georgia,Auburn,False,Georgia,4.6,Georgia -3.5,Georgia,1.1,46.5,over,4.8
+7,7,11-Oct,Kansas,Texas Tech,False,Texas Tech,15.4,Texas Tech -14.5,Texas Tech,0.9,60.5,under,-1.5
+7,7,11-Oct,Michigan,USC,False,USC,3.0,USC -1.5,USC,1.5,57.5,under,-0.4
+7,7,11-Oct,Purdue,Minnesota,False,Minnesota,10.1,Minnesota -9.5,Minnesota,0.6,52.5,under,-0.4
+7,7,11-Oct,Rice,UTSA,False,UTSA,10.1,UTSA -12.5,Rice,2.4,49.5,over,3.6
+7,7,11-Oct,South Carolina,LSU,False,LSU,12.1,LSU -9.5,LSU,2.6,44.5,over,0.5
+7,7,11-Oct,BYU,Arizona,False,BYU,3.5,BYU -2.5,BYU,1.0,47.5,over,2.2
+7,7,11-Oct,Troy,Texas State,False,Texas State,7.4,Texas State -10.5,Troy,3.1,54.5,over,2.2
+7,7,11-Oct,New Mexico,Boise State,False,Boise State,13.3,Boise State -16.5,New Mexico,3.2,60.5,over,0.0
+7,7,11-Oct,Arizona State,Utah,False,Utah,10.8,Utah -4.5,Utah,6.3,48.5,over,1.2
+7,7,11-Oct,San Diego State,Nevada,False,San Diego State,16.4,San Diego State -6.5,San Diego State,9.9,42.5,over,2.2
+7,7,11-Oct,Utah State,Hawai'i,False,Utah State,1.0,Hawaii -1.5,Utah State,2.5,58.5,under,-1.5
+8,8,14-Oct,New Mexico State,Liberty,False,Liberty,7.9,Liberty -10.5,New Mexico State,2.6,45.5,over,2.8
+8,8,14-Oct,Arkansas State,South Alabama,False,South Alabama,3.0,South Alabama -6.5,Arkansas State,3.5,60.5,under,-1.1
+8,8,14-Oct,Florida International,Western Kentucky,False,Western Kentucky,19.9,Western Kentucky -7.5,Western Kentucky,12.4,57.5,under,-3.9
+8,8,15-Oct,Delaware,Jacksonville State,False,Delaware,1.3,Delaware -1.5,Jacksonville State,0.2,57.5,under,-1.0
+8,8,15-Oct,UTEP,Sam Houston,True,UTEP,7.4,UTEP -2.5,UTEP,4.9,47.5,over,2.0
+8,8,16-Oct,Tulsa,East Carolina,False,East Carolina,15.9,East Carolina -16.5,Tulsa,0.6,54.5,under,-3.9
+8,8,17-Oct,Louisville,Miami,False,Miami,7.9,Miami-FL -13.5,Louisville,5.6,52.5,over,3.3
+8,8,17-Oct,Nebraska,Minnesota,False,Nebraska,10.2,Nebraska -6.5,Nebraska,3.7,46.5,over,1.6
+8,8,17-Oct,San José State,Utah State,False,Utah State,5.7,Utah State -4.5,Utah State,1.2,64.5,under,-0.9
+8,8,17-Oct,North Carolina,California,False,California,8.7,California -10.5,North Carolina,1.8,46.5,over,4.0
+8,8,18-Oct,Arizona,Houston,False,Houston,0.8,Houston -1.5,Arizona,0.7,46.5,over,2.4
+8,8,18-Oct,Army,Tulane,False,Tulane,8.5,Tulane -10.5,Army,2.0,46.5,over,6.6
+8,8,18-Oct,Baylor,TCU,False,TCU,7.8,TCU -3.5,TCU,4.3,66.5,under,-4.7
+8,8,18-Oct,Central Michigan,Bowling Green,False,Bowling Green,6.2,Bowling Green -6.5,Central Michigan,0.3,43.5,over,6.1
+8,8,18-Oct,UConn,Boston College,False,UConn,8.8,Boston College -1.5,UConn,10.3,57.5,under,-1.1
+8,8,18-Oct,Eastern Michigan,Miami (OH),False,Miami (OH),12.7,Miami-OH -13.5,Eastern Michigan,0.8,48.5,under,-0.9
+8,8,18-Oct,Georgia Tech,Duke,False,Georgia Tech,0.3,Duke -2.5,Georgia Tech,2.8,60.5,under,-1.3
+8,8,18-Oct,LSU,Vanderbilt,False,Vanderbilt,0.4,Vanderbilt -2.5,LSU,2.1,48.5,over,3.3
+8,8,18-Oct,Washington,Michigan,False,Michigan,2.4,Michigan -5.5,Washington,3.1,50.5,over,1.4
+8,8,18-Oct,Oklahoma,South Carolina,False,Oklahoma,8.8,Oklahoma -5.5,Oklahoma,3.3,43.5,over,1.1
+8,8,18-Oct,West Virginia,UCF,False,UCF,10.4,UCF -7.5,UCF,2.9,47.5,over,2.5
+8,8,18-Oct,Kent State,Toledo,False,Toledo,29.5,Toledo -24.5,Toledo,5.0,52.5,under,-2.0
+8,8,18-Oct,Buffalo,Massachusetts,False,Buffalo,20.9,Buffalo -17.5,Buffalo,3.4,44.5,over,4.5
+8,8,18-Oct,Purdue,Northwestern,False,Northwestern,6.3,Northwestern -3.5,Northwestern,2.8,48.5,over,1.4
+8,8,18-Oct,Troy,UL Monroe,False,Troy,7.4,Troy -5.5,Troy,1.9,46.5,over,4.3
+8,8,18-Oct,Akron,Ball State,False,Akron,2.5,Ball State -1.5,Akron,4.0,43.5,over,5.6
+8,8,18-Oct,Coastal Carolina,App State,False,App State,7.9,Appalachian State -11.5,Coastal Carolina,3.6,48.5,over,5.1
+8,8,18-Oct,Michigan State,Indiana,False,Indiana,26.4,Indiana -27.5,Michigan State,1.1,54.5,under,-0.4
+8,8,18-Oct,Northern Illinois,Ohio,False,Ohio,8.2,Ohio -11.5,Northern Illinois,3.3,43.5,under,-0.7
+8,8,18-Oct,Ohio State,Wisconsin,False,Ohio State,25.4,Ohio State -26.5,Wisconsin,1.1,41.5,over,5.4
+8,8,18-Oct,Old Dominion,James Madison,False,James Madison,5.4,James Madison -2.5,James Madison,2.9,48.5,over,3.4
+8,8,18-Oct,Ole Miss,Georgia,False,Georgia,1.8,Georgia -6.5,Ole Miss,4.7,54.5,under,-1.4
+8,8,18-Oct,SMU,Clemson,False,Clemson,4.4,Clemson -9.5,SMU,5.1,54.5,over,0.5
+8,8,18-Oct,Temple,Charlotte,False,Temple,11.7,Temple -11.5,Temple,0.2,47.5,over,8.5
+8,8,18-Oct,Texas A&M,Arkansas,False,Texas A&M,9.0,Texas A&M -7.5,Texas A&M,1.5,62.5,under,-2.7
+8,8,18-Oct,Texas State,Marshall,False,Marshall,2.9,Texas State -3.5,Marshall,6.4,64.5,over,0.8
+8,8,18-Oct,UNLV,Boise State,False,Boise State,7.0,Boise State -10.5,UNLV,3.5,61.5,over,1.5
+8,8,18-Oct,UTSA,North Texas,False,North Texas,4.3,North Texas -5.5,UTSA,1.2,67.5,under,-2.7
+8,8,18-Oct,Wyoming,Air Force,False,Air Force,4.8,Air Force -5.5,Wyoming,0.7,58.5,over,0.6
+8,8,18-Oct,Memphis,UAB,False,Memphis,27.0,Memphis -21.5,Memphis,5.5,64.5,under,-0.5
+8,8,18-Oct,Texas Tech,Arizona State,False,Texas Tech,15.5,Texas Tech -10.5,Texas Tech,5.0,49.5,over,5.4
+8,8,18-Oct,Mississippi State,Florida,False,Florida,2.6,Florida -9.5,Mississippi State,6.9,52.5,under,-1.2
+8,8,18-Oct,Southern Miss,Louisiana,False,Southern Miss,0.8,Southern Miss -4.5,Louisiana,3.7,53.5,over,3.7
+8,8,18-Oct,Oregon,Rutgers,False,Oregon,16.5,Oregon -14.5,Oregon,2.0,58.5,over,0.5
+8,8,18-Oct,Washington State,Virginia,False,Virginia,13.8,Virginia -16.5,Washington State,2.7,57.5,over,0.7
+8,8,18-Oct,Georgia State,Georgia Southern,False,Georgia Southern,10.3,Georgia Southern -6.5,Georgia Southern,3.8,57.5,over,2.8
+8,8,18-Oct,Hawai'i,Colorado State,False,Hawai'i,0.9,Colorado State -1.5,Hawai'i,2.4,54.5,under,-1.8
+8,8,18-Oct,Maryland,UCLA,False,Maryland,9.5,UCLA -3.5,Maryland,13.0,52.5,over,0.3
+8,8,18-Oct,Penn State,Iowa,False,Iowa,0.4,Iowa -3.5,Penn State,3.1,38.5,over,11.0
+8,8,18-Oct,Texas,Kentucky,False,Texas,14.8,Texas -12.5,Texas,2.3,43.5,over,2.2
+8,8,18-Oct,Florida Atlantic,South Florida,False,South Florida,17.4,USF -22.5,Florida Atlantic,5.1,74.5,under,-15.2
+8,8,18-Oct,Pittsburgh,Syracuse,False,Pittsburgh,9.4,Pittsburgh -11.5,Syracuse,2.1,56.5,over,0.8
+8,8,18-Oct,Tennessee,Alabama,False,Alabama,2.2,Alabama -7.5,Tennessee,5.3,60.5,under,-4.3
+8,8,18-Oct,USC,Notre Dame,False,Notre Dame,3.1,Notre Dame -7.5,USC,4.4,61.5,over,0.9
+8,8,18-Oct,Missouri,Auburn,False,Missouri,5.5,Auburn -2.5,Missouri,8.0,44.5,over,4.4
+8,8,18-Oct,Cincinnati,Oklahoma State,False,Cincinnati,21.6,Cincinnati -20.5,Cincinnati,1.1,57.5,under,-3.4
+8,8,18-Oct,Utah,BYU,False,Utah,0.5,Utah -3.5,BYU,3.0,47.5,over,0.9
+8,8,18-Oct,Nevada,New Mexico,False,New Mexico,12.2,New Mexico -10.5,New Mexico,1.7,48.5,over,7.7
+8,8,18-Oct,Florida State,Stanford,False,Florida State,19.3,Florida State -17.5,Florida State,1.8,54.5,over,0.4
+9,9,21-Oct,Kennesaw State,Florida International,False,Kennesaw State,6.1,Kennesaw State -2.5,Kennesaw State,3.6,48.5,under,-1.8
+9,9,21-Oct,Western Kentucky,Louisiana Tech,False,Louisiana Tech,3.3,Louisiana Tech -4.5,Western Kentucky,1.2,49.5,under,-2.4
+9,9,22-Oct,Middle Tennessee,Delaware,False,Delaware,15.1,Delaware -10.5,Delaware,4.6,55.5,under,-3.2
+9,9,22-Oct,Missouri State,New Mexico State,False,New Mexico State,2.8,Missouri State -1.5,New Mexico State,4.3,52.5,over,1.9
+9,9,23-Oct,South Alabama,Georgia State,False,South Alabama,5.8,South Alabama -6.5,Georgia State,0.7,56.5,over,1.1
+9,9,24-Oct,North Texas,Charlotte,False,North Texas,28.8,North Texas -27.5,North Texas,1.3,61.5,under,-0.2
+9,9,24-Oct,California,Virginia Tech,False,California,0.9,Virginia Tech -3.5,California,4.4,49.5,over,1.2
+9,9,24-Oct,Boise State,Nevada,False,Boise State,21.6,Boise State -22.5,Nevada,0.9,51.5,over,2.7
+9,9,25-Oct,App State,Old Dominion,False,Old Dominion,11.8,Old Dominion -13.5,App State,1.7,62.5,under,-2.9
+9,9,25-Oct,Bowling Green,Kent State,False,Bowling Green,7.3,Bowling Green -8.5,Kent State,1.2,50.5,over,0.9
+9,9,25-Oct,Kansas State,Kansas,False,Kansas,5.0,Kansas -3.5,Kansas,1.5,55.5,over,2.5
+9,9,25-Oct,Northwestern,Nebraska,False,Nebraska,12.0,Nebraska -7.5,Nebraska,4.5,43.5,over,2.5
+9,9,25-Oct,Ohio,Eastern Michigan,False,Ohio,10.2,Ohio -10.5,Eastern Michigan,0.3,58.5,under,-3.0
+9,9,25-Oct,Ole Miss,Oklahoma,False,Oklahoma,5.0,Oklahoma -3.5,Oklahoma,1.5,51.5,under,-0.7
+9,9,25-Oct,Rutgers,Purdue,False,Rutgers,1.6,Rutgers -2.5,Purdue,0.9,59.5,under,-1.2
+9,9,25-Oct,SMU,Wake Forest,False,SMU,4.1,SMU -3.5,SMU,0.6,53.5,under,-0.7
+9,9,25-Oct,Syracuse,Georgia Tech,False,Georgia Tech,17.8,Georgia Tech -17.5,Georgia Tech,0.3,55.5,over,1.2
+9,9,25-Oct,UCLA,Indiana,False,Indiana,27.9,Indiana -23.5,Indiana,4.4,54.5,under,-1.5
+9,9,25-Oct,South Florida,Memphis,False,Memphis,5.4,USF -3.5,Memphis,8.9,65.5,under,-5.1
+9,9,25-Oct,Virginia,North Carolina,False,Virginia,12.6,Virginia -8.5,Virginia,4.1,52.5,over,0.6
+9,9,25-Oct,Auburn,Arkansas,False,Auburn,0.3,Auburn -1.5,Arkansas,1.2,57.5,under,-1.0
+9,9,25-Oct,Akron,Buffalo,False,Buffalo,14.8,Buffalo -10.5,Buffalo,4.3,48.5,under,-2.6
+9,9,25-Oct,UConn,Rice,False,UConn,15.4,Connecticut -10.5,UConn,4.9,48.5,over,3.5
+9,9,25-Oct,Utah State,New Mexico,False,New Mexico,1.5,New Mexico -2.5,Utah State,1.0,62.5,over,1.8
+9,9,25-Oct,Alabama,South Carolina,False,Alabama,10.5,Alabama -13.5,South Carolina,3.0,47.5,over,0.9
+9,9,25-Oct,Ball State,Northern Illinois,False,Northern Illinois,5.1,Northern Illinois -5.5,Ball State,0.4,41.5,over,3.0
+9,9,25-Oct,BYU,Iowa State,False,BYU,3.2,Iowa State -2.5,BYU,5.7,49.5,over,0.3
+9,9,25-Oct,Florida Atlantic,Navy,False,Navy,19.3,Navy -14.5,Navy,4.8,62.5,under,-2.4
+9,9,25-Oct,Illinois,Washington,False,Washington,3.7,Washington -4.5,Illinois,0.8,56.5,over,0.2
+9,9,25-Oct,Massachusetts,Central Michigan,False,Central Michigan,20.3,Central Michigan -15.5,Central Michigan,4.8,47.5,over,1.6
+9,9,25-Oct,Minnesota,Iowa,False,Iowa,10.2,Iowa -7.5,Iowa,2.7,38.5,over,5.9
+9,9,25-Oct,Missouri,Vanderbilt,False,Vanderbilt,0.2,Vanderbilt -3.5,Missouri,3.3,52.5,over,3.9
+9,9,25-Oct,NC State,Pittsburgh,False,Pittsburgh,12.0,Pittsburgh -7.5,Pittsburgh,4.5,58.5,under,-3.7
+9,9,25-Oct,San Diego State,Fresno State,False,San Diego State,6.1,San Diego State -3.5,San Diego State,2.6,48.5,over,0.9
+9,9,25-Oct,Temple,Tulsa,False,Temple,8.8,Temple -6.5,Temple,2.3,53.5,over,1.7
+9,9,25-Oct,Toledo,Washington State,False,Toledo,7.9,Washington State -1.5,Toledo,9.4,50.5,over,0.7
+9,9,25-Oct,UL Monroe,Southern Miss,False,Southern Miss,14.6,Southern Miss -11.5,Southern Miss,3.1,50.5,over,1.9
+9,9,25-Oct,Western Michigan,Miami (OH),False,Miami (OH),2.5,Miami-OH -2.5,Western Michigan,0.0,41.5,over,4.3
+9,9,25-Oct,Baylor,Cincinnati,False,Cincinnati,10.9,Cincinnati -5.5,Cincinnati,5.4,67.5,under,-5.3
+9,9,25-Oct,Oklahoma State,Texas Tech,False,Texas Tech,39.3,Texas Tech -39.5,Oklahoma State,0.2,56.5,under,-1.6
+9,9,25-Oct,Texas,Mississippi State,False,Texas,7.2,Texas -6.5,Texas,0.7,46.5,over,0.1
+9,9,25-Oct,TCU,West Virginia,False,TCU,16.1,TCU -15.5,TCU,0.6,57.5,under,-1.1
+9,9,25-Oct,Georgia Southern,Arkansas State,False,Arkansas State,0.2,Arkansas State -1.5,Georgia Southern,1.3,62.5,under,-1.7
+9,9,25-Oct,Stanford,Miami,False,Miami,29.4,Miami-FL -29.5,Stanford,0.1,48.5,over,4.9
+9,9,25-Oct,Louisiana,Troy,False,Troy,11.2,Troy -9.5,Troy,1.7,50.5,over,3.5
+9,9,25-Oct,Wisconsin,Oregon,False,Oregon,31.6,Oregon -33.5,Wisconsin,1.9,47.5,over,1.5
+9,9,25-Oct,Boston College,Louisville,False,Louisville,26.1,Louisville -23.5,Louisville,2.6,55.5,under,-0.6
+9,9,25-Oct,Colorado State,Wyoming,False,Wyoming,4.6,Wyoming -6.5,Colorado State,1.9,46.5,over,5.0
+9,9,25-Oct,Michigan,Michigan State,False,Michigan,15.8,Michigan -14.5,Michigan,1.3,49.5,over,2.9
+9,9,25-Oct,Texas A&M,LSU,False,Texas A&M,0.8,Texas A&M -2.5,LSU,1.7,48.5,over,3.1
+9,9,25-Oct,Tennessee,Kentucky,False,Tennessee,10.4,Tennessee -9.5,Tennessee,0.9,53.5,over,1.0
+9,9,25-Oct,Houston,Arizona State,False,Arizona State,0.9,Arizona State -8.5,Houston,7.6,47.5,over,2.5
+9,9,25-Oct,Colorado,Utah,False,Utah,17.0,Utah -14.5,Utah,2.5,51.5,over,0.5
+10,10,28-Oct,James Madison,Texas State,False,James Madison,9.6,James Madison -6.5,James Madison,3.1,58.5,over,1.0
+10,10,28-Oct,UTEP,Kennesaw State,False,Kennesaw State,13.3,Kennesaw State -9.5,Kennesaw State,3.8,50.5,under,-4.8
+10,10,29-Oct,Jacksonville State,Middle Tennessee,False,Jacksonville State,9.6,Jacksonville State -6.5,Jacksonville State,3.1,54.5,under,-0.8
+10,10,29-Oct,Florida International,Missouri State,False,Missouri State,6.4,Missouri State -3.5,Missouri State,2.9,51.5,over,2.8
+10,10,30-Oct,Marshall,Coastal Carolina,False,Marshall,6.9,Marshall -4.5,Marshall,2.4,54.5,over,4.8
+10,10,30-Oct,Tulane,UTSA,False,Tulane,2.0,Tulane -5.5,UTSA,3.5,55.5,over,3.8
+10,10,31-Oct,Memphis,Rice,False,Memphis,20.3,Memphis -14.5,Memphis,5.8,50.5,over,5.5
+10,10,31-Oct,North Carolina,Syracuse,False,Syracuse,5.3,Syracuse -1.5,Syracuse,3.8,46.5,over,3.8
+10,10,31-Oct,Sam Houston,Louisiana Tech,False,Louisiana Tech,25.3,Louisiana Tech -16.5,Louisiana Tech,8.8,49.5,under,-1.2
+10,10,1-Nov,Arizona State,Iowa State,False,Iowa State,8.1,Iowa State -3.5,Iowa State,4.6,50.5,over,0.8
+10,10,1-Nov,Army,Air Force,False,Air Force,0.2,Army -1.5,Air Force,1.7,49.5,over,10.1
+10,10,1-Nov,Buffalo,Bowling Green,False,Buffalo,4.4,Bowling Green -2.5,Buffalo,6.9,43.5,over,2.6
+10,10,1-Nov,Duke,Clemson,False,Clemson,2.0,Clemson -3.5,Duke,1.5,54.5,over,0.4
+10,10,1-Nov,Miami,SMU,False,Miami,8.1,Miami-FL -10.5,SMU,2.4,50.5,over,4.1
+10,10,1-Nov,Navy,North Texas,False,North Texas,5.5,North Texas -5.5,North Texas,0.0,63.5,over,2.9
+10,10,1-Nov,Penn State,Ohio State,False,Ohio State,13.2,Ohio State -20.5,Penn State,7.3,43.5,over,7.1
+10,10,1-Nov,Rutgers,Illinois,False,Illinois,11.6,Illinois -13.5,Rutgers,1.9,62.5,under,-0.4
+10,10,1-Nov,UAB,UConn,False,UConn,17.7,Connecticut -11.5,UConn,6.2,64.5,under,-1.7
+10,10,1-Nov,UCF,Baylor,False,UCF,1.5,Baylor -4.5,UCF,6.0,60.5,under,-3.2
+10,10,1-Nov,Vanderbilt,Texas,False,Texas,2.8,Texas -3.5,Vanderbilt,0.7,45.5,over,4.6
+10,10,1-Nov,West Virginia,Houston,False,Houston,18.1,Houston -15.5,Houston,2.6,49.5,under,-0.2
+10,10,1-Nov,East Carolina,Temple,False,East Carolina,1.6,East Carolina -4.5,Temple,2.9,57.5,under,-0.6
+10,10,1-Nov,Louisville,Virginia Tech,False,Louisville,15.3,Louisville -10.5,Louisville,4.8,53.5,over,0.8
+10,10,1-Nov,New Mexico,UNLV,False,UNLV,6.0,UNLV -5.5,UNLV,0.5,62.5,over,1.8
+10,10,1-Nov,Delaware,Liberty,False,Liberty,3.0,Liberty -3.5,Delaware,0.5,51.5,over,0.5
+10,10,1-Nov,Florida,Georgia,True,Georgia,10.2,Georgia -7.5,Georgia,2.7,50.5,over,1.3
+10,10,1-Nov,Fresno State,Boise State,False,Boise State,16.3,Boise State -17.5,Fresno State,1.2,51.5,over,2.3
+10,10,1-Nov,Indiana,Maryland,False,Indiana,16.1,Indiana -21.5,Maryland,5.4,51.5,under,-2.8
+10,10,1-Nov,Michigan State,Minnesota,False,Minnesota,9.4,Minnesota -5.5,Minnesota,3.9,44.5,over,6.3
+10,10,1-Nov,New Mexico State,Western Kentucky,False,Western Kentucky,12.4,Western Kentucky -9.5,Western Kentucky,2.9,53.5,under,-2.9
+10,10,1-Nov,Notre Dame,Boston College,False,Notre Dame,29.3,Notre Dame -29.5,Boston College,0.2,58.5,under,-0.3
+10,10,1-Nov,Old Dominion,UL Monroe,False,Old Dominion,16.7,Old Dominion -14.5,Old Dominion,2.2,53.5,over,1.4
+10,10,1-Nov,Pittsburgh,Stanford,False,Pittsburgh,22.1,Pittsburgh -13.5,Pittsburgh,8.6,52.5,over,0.7
+10,10,1-Nov,Texas Tech,Kansas State,False,Texas Tech,12.1,Texas Tech -6.5,Texas Tech,5.6,53.5,over,1.0
+10,10,1-Nov,Louisiana,South Alabama,False,South Alabama,2.0,South Alabama -5.5,Louisiana,3.5,54.5,over,2.2
+10,10,1-Nov,Virginia,California,False,Virginia,7.9,Virginia -3.5,Virginia,4.4,54.5,under,-2.1
+10,10,1-Nov,Central Michigan,Western Michigan,False,Western Michigan,4.8,Western Michigan -6.5,Central Michigan,1.7,41.5,over,5.1
+10,10,1-Nov,Mississippi State,Arkansas,False,Arkansas,2.3,Arkansas -3.5,Mississippi State,1.2,67.5,under,-4.3
+10,10,1-Nov,Oklahoma State,Kansas,False,Kansas,24.7,Kansas -24.5,Kansas,0.2,55.5,over,1.4
+10,10,1-Nov,Arizona,Colorado,False,Arizona,6.1,Arizona -5.5,Arizona,0.6,53.5,over,1.4
+10,10,1-Nov,Arkansas State,Troy,False,Troy,12.3,Troy -7.5,Troy,4.8,54.5,over,1.4
+10,10,1-Nov,Purdue,Michigan,False,Michigan,21.7,Michigan -21.5,Michigan,0.2,50.5,over,0.2
+10,10,1-Nov,South Carolina,Ole Miss,False,Ole Miss,16.4,Ole Miss -14.5,Ole Miss,1.9,53.5,under,-2.4
+10,10,1-Nov,Wyoming,San Diego State,False,San Diego State,15.2,San Diego State -10.5,San Diego State,4.7,41.5,over,4.0
+10,10,1-Nov,Georgia Tech,NC State,False,Georgia Tech,9.8,Georgia Tech -6.5,Georgia Tech,3.3,57.5,over,1.3
+10,10,1-Nov,Kentucky,Auburn,False,Auburn,13.4,Auburn -10.5,Auburn,2.9,46.5,over,2.2
+10,10,1-Nov,Oklahoma,Tennessee,False,Oklahoma,1.1,Tennessee -3.5,Oklahoma,4.6,56.5,under,-1.9
+10,10,1-Nov,USC,Nebraska,False,USC,1.7,USC -6.5,Nebraska,4.8,58.5,under,-0.5
+10,10,1-Nov,Wake Forest,Florida State,False,Florida State,8.2,Florida State -8.5,Wake Forest,0.3,52.5,under,-3.7
+10,10,1-Nov,Washington State,Oregon State,False,Washington State,6.2,Washington State -4.5,Washington State,1.7,49.5,over,4.4
+10,10,1-Nov,Cincinnati,Utah,False,Utah,9.1,Utah -7.5,Utah,1.6,57.5,under,-4.5
+10,10,1-Nov,Hawai'i,San José State,False,Hawai'i,1.7,San Jose State -2.5,Hawai'i,4.2,55.5,under,-1.5
+11,11,4-Nov,Massachusetts,Akron,False,Akron,16.0,Akron -10.5,Akron,5.5,48.5,over,0.0
+11,11,4-Nov,Miami (OH),Ohio,False,Miami (OH),0.2,Ohio -3.5,Miami (OH),3.7,49.5,under,-0.1
+11,11,5-Nov,Kent State,Ball State,False,Ball State,3.8,Ball State -2.5,Ball State,1.3,45.5,over,6.1
+11,11,5-Nov,Northern Illinois,Toledo,False,Toledo,19.9,Toledo -14.5,Toledo,5.4,41.5,under,-1.4
+11,11,6-Nov,Georgia Southern,App State,False,App State,4.2,Appalachian State -5.5,Georgia Southern,1.3,62.5,under,-1.5
+11,11,6-Nov,UTSA,South Florida,False,South Florida,10.3,USF -13.5,UTSA,3.2,68.5,under,-6.5
+11,11,7-Nov,Houston,UCF,False,UCF,0.6,UCF -1.5,Houston,0.9,47.5,over,1.1
+11,11,7-Nov,Northwestern,USC,False,USC,17.5,USC -14.5,USC,3.0,51.5,over,1.0
+11,11,7-Nov,Tulane,Memphis,False,Memphis,13.3,Memphis -6.5,Memphis,6.8,55.5,over,4.8
+11,11,8-Nov,BYU,Texas Tech,False,Texas Tech,9.7,Texas Tech -10.5,BYU,0.8,53.5,under,-0.3
+11,11,8-Nov,Colorado,West Virginia,False,Colorado,0.9,West Virginia -6.5,Colorado,7.4,56.5,under,-2.0
+11,11,8-Nov,Georgia,Mississippi State,False,Georgia,7.1,Georgia -7.5,Mississippi State,0.4,57.5,under,-1.3
+11,11,8-Nov,Indiana,Penn State,False,Indiana,12.0,Indiana -13.5,Penn State,1.5,48.5,over,4.5
+11,11,8-Nov,James Madison,Marshall,False,James Madison,13.4,James Madison -13.5,Marshall,0.1,56.5,over,0.7
+11,11,8-Nov,SMU,Boston College,False,SMU,16.2,SMU -12.5,SMU,3.7,54.5,under,0.0
+11,11,8-Nov,Southern Miss,Arkansas State,False,Southern Miss,6.5,Southern Miss -5.5,Southern Miss,1.0,57.5,under,-2.8
+11,11,8-Nov,Temple,Army,False,Army,3.5,Army -6.5,Temple,3.0,47.5,over,7.3
+11,11,8-Nov,Bowling Green,Eastern Michigan,False,Eastern Michigan,0.6,Eastern Michigan -2.5,Bowling Green,1.9,51.5,over,0.5
+11,11,8-Nov,Missouri State,Liberty,False,Liberty,7.3,Liberty -7.5,Missouri State,0.2,50.5,over,1.6
+11,11,8-Nov,Ohio State,Purdue,False,Ohio State,29.3,Ohio State -28.5,Ohio State,0.8,48.5,over,2.7
+11,11,8-Nov,UAB,Rice,False,Rice,3.9,Rice -2.5,Rice,1.4,53.5,over,3.9
+11,11,8-Nov,Maryland,Rutgers,False,Maryland,3.6,Rutgers -1.5,Maryland,5.1,59.5,under,-4.9
+11,11,8-Nov,Charlotte,East Carolina,False,East Carolina,31.6,East Carolina -29.5,East Carolina,2.1,55.5,under,-1.2
+11,11,8-Nov,Florida International,Middle Tennessee,False,Florida International,0.8,Florida International -1.5,Middle Tennessee,0.7,51.5,over,0.5
+11,11,8-Nov,Jacksonville State,UTEP,False,Jacksonville State,3.0,Jacksonville State -1.5,Jacksonville State,1.5,49.5,over,1.2
+11,11,8-Nov,Louisiana Tech,Delaware,False,Louisiana Tech,10.7,Louisiana Tech -5.5,Louisiana Tech,5.2,57.5,under,-5.1
+11,11,8-Nov,Tulsa,Florida Atlantic,False,Florida Atlantic,3.9,Florida Atlantic -4.5,Tulsa,0.6,65.5,under,-8.4
+11,11,8-Nov,Duke,UConn,False,Duke,0.8,Duke -8.5,UConn,7.7,66.5,under,-5.6
+11,11,8-Nov,Iowa State,TCU,False,TCU,4.0,TCU -6.5,Iowa State,2.5,57.5,under,-3.0
+11,11,8-Nov,Kansas,Arizona,False,Arizona,8.2,Arizona -5.5,Arizona,2.7,56.5,over,1.6
+11,11,8-Nov,Oregon,Iowa,False,Oregon,7.5,Oregon -6.5,Oregon,1.0,43.5,over,4.5
+11,11,8-Nov,Syracuse,Miami,False,Miami,27.6,Miami-FL -27.5,Miami,0.1,46.5,over,7.1
+11,11,8-Nov,Texas A&M,Missouri,False,Texas A&M,1.2,Texas A&M -6.5,Missouri,5.3,49.5,over,5.4
+11,11,8-Nov,Auburn,Vanderbilt,False,Vanderbilt,8.7,Vanderbilt -7.5,Vanderbilt,1.2,45.5,over,5.7
+11,11,8-Nov,Georgia State,Coastal Carolina,False,Coastal Carolina,14.0,Coastal Carolina -7.5,Coastal Carolina,6.5,56.5,over,1.2
+11,11,8-Nov,Kennesaw State,New Mexico State,False,Kennesaw State,10.0,Kennesaw State -7.5,Kennesaw State,2.5,53.5,under,-6.1
+11,11,8-Nov,Stanford,North Carolina,False,North Carolina,9.5,North Carolina -8.5,North Carolina,1.0,42.5,over,4.5
+11,11,8-Nov,Washington,Wisconsin,False,Washington,18.4,Washington -11.5,Washington,6.9,44.5,over,5.5
+11,11,8-Nov,Texas State,Louisiana,False,Texas State,1.1,Texas State -2.5,Louisiana,1.4,64.5,under,-1.9
+11,11,8-Nov,Air Force,San José State,False,Air Force,0.6,San Jose State -3.5,Air Force,4.1,66.5,under,-2.3
+11,11,8-Nov,California,Louisville,False,Louisville,20.1,Louisville -18.5,Louisville,1.6,50.5,over,1.2
+11,11,8-Nov,Florida State,Clemson,False,Florida State,2.9,Clemson -2.5,Florida State,5.4,56.5,under,-2.3
+11,11,8-Nov,Wake Forest,Virginia,False,Virginia,9.9,Virginia -6.5,Virginia,3.4,48.5,over,0.5
+11,11,8-Nov,Florida,Kentucky,False,Florida,4.5,Florida -3.5,Florida,1.0,45.5,over,1.7
+11,11,8-Nov,LSU,Alabama,False,Alabama,8.7,Alabama -10.5,LSU,1.8,50.5,under,0.0
+11,11,8-Nov,Navy,Notre Dame,False,Notre Dame,17.7,Notre Dame -24.5,Navy,6.8,56.5,over,4.2
+11,11,8-Nov,Nevada,Utah State,False,Utah State,12.2,Utah State -11.5,Utah State,0.7,53.5,over,0.9
+11,11,8-Nov,Nebraska,UCLA,False,Nebraska,13.1,UCLA -2.5,Nebraska,15.6,43.5,over,9.0
+11,11,8-Nov,UNLV,Colorado State,False,UNLV,7.6,UNLV -5.5,UNLV,2.1,61.5,under,-0.6
+11,11,8-Nov,Sam Houston,Oregon State,False,Oregon State,20.7,Oregon State -18.5,Oregon State,2.2,52.5,over,0.8
+11,11,8-Nov,San Diego State,Hawai'i,False,San Diego State,10.9,San Diego State -5.5,San Diego State,5.4,50.5,under,-3.2
+12,12,11-Nov,Kent State,Akron,False,Akron,10.2,Akron -5.5,Akron,4.7,47.5,over,0.0
+12,12,11-Nov,Ohio,Western Michigan,False,Western Michigan,2.0,Ohio -1.5,Western Michigan,3.5,47.5,over,2.0
+12,12,12-Nov,Buffalo,Central Michigan,False,Buffalo,2.2,Central Michigan -2.5,Buffalo,4.7,43.5,over,0.7
+12,12,12-Nov,Northern Illinois,Massachusetts,False,Northern Illinois,12.3,Northern Illinois -10.5,Northern Illinois,1.8,42.5,over,1.2
+12,12,12-Nov,Toledo,Miami (OH),False,Toledo,6.8,Toledo -3.5,Toledo,3.3,44.5,over,1.1
+12,12,13-Nov,Troy,Old Dominion,False,Old Dominion,8.2,Old Dominion -10.5,Troy,2.3,53.5,over,1.5
+12,12,14-Nov,Clemson,Louisville,False,Louisville,5.9,Louisville -3.5,Louisville,2.4,51.5,over,0.8
+12,12,14-Nov,Minnesota,Oregon,False,Oregon,25.5,Oregon -24.5,Oregon,1.0,46.5,over,0.7
+12,12,15-Nov,Air Force,UConn,False,UConn,9.9,Connecticut -8.5,UConn,1.4,63.5,under,-1.0
+12,12,15-Nov,Arizona,Cincinnati,False,Cincinnati,2.1,Cincinnati -6.5,Arizona,4.4,56.5,under,-0.5
+12,12,15-Nov,Eastern Michigan,Ball State,False,Eastern Michigan,0.5,Eastern Michigan -2.5,Ball State,2.0,49.5,over,2.8
+12,12,15-Nov,Kansas State,Oklahoma State,False,Kansas State,22.9,Kansas State -19.5,Kansas State,3.4,55.5,under,-1.1
+12,12,15-Nov,Michigan,Northwestern,False,Michigan,11.4,Michigan -10.5,Michigan,0.9,40.5,over,5.3
+12,12,15-Nov,Notre Dame,Pittsburgh,False,Notre Dame,7.2,Notre Dame -10.5,Pittsburgh,3.3,55.5,over,0.5
+12,12,15-Nov,South Carolina,Texas A&M,False,Texas A&M,21.5,Texas A&M -17.5,Texas A&M,4.0,48.5,over,2.8
+12,12,15-Nov,South Florida,Navy,False,South Florida,6.6,USF -10.5,Navy,3.9,64.5,under,-2.3
+12,12,15-Nov,UTSA,Charlotte,False,UTSA,19.5,UTSA -17.5,UTSA,2.0,60.5,under,-0.2
+12,12,15-Nov,Wisconsin,Indiana,False,Indiana,34.6,Indiana -30.5,Indiana,4.1,44.5,over,2.6
+12,12,15-Nov,Arkansas,LSU,False,LSU,4.6,LSU -5.5,Arkansas,0.9,55.5,over,2.6
+12,12,15-Nov,Oregon State,Tulsa,False,Oregon State,0.3,Oregon State -1.5,Tulsa,1.2,49.5,over,2.0
+12,12,15-Nov,West Virginia,Arizona State,False,Arizona State,12.9,Arizona State -10.5,Arizona State,2.4,47.5,over,3.1
+12,12,15-Nov,Marshall,Georgia State,False,Marshall,14.3,Marshall -6.5,Marshall,7.8,62.5,over,0.1
+12,12,15-Nov,North Texas,UAB,False,North Texas,22.3,North Texas -17.5,North Texas,4.8,70.5,under,-4.7
+12,12,15-Nov,Colorado State,New Mexico,False,New Mexico,13.7,New Mexico -14.5,Colorado State,0.8,53.5,over,2.9
+12,12,15-Nov,UTEP,Missouri State,False,Missouri State,5.8,Missouri State -4.5,Missouri State,1.3,50.5,under,-0.3
+12,12,15-Nov,App State,James Madison,False,James Madison,22.7,James Madison -19.5,James Madison,3.2,53.5,over,0.6
+12,12,15-Nov,Georgia Tech,Boston College,False,Georgia Tech,18.6,Georgia Tech -16.5,Georgia Tech,2.1,58.5,over,0.1
+12,12,15-Nov,Iowa,USC,False,USC,4.5,USC -6.5,Iowa,2.0,49.5,over,4.0
+12,12,15-Nov,Maryland,Illinois,False,Illinois,12.5,Illinois -14.5,Maryland,2.0,54.5,under,-0.1
+12,12,15-Nov,Middle Tennessee,Western Kentucky,False,Western Kentucky,21.9,Western Kentucky -13.5,Western Kentucky,8.4,56.5,under,-4.1
+12,12,15-Nov,NC State,Miami,False,Miami,17.2,Miami-FL -14.5,Miami,2.7,55.5,over,1.5
+12,12,15-Nov,Oklahoma,Alabama,False,Alabama,1.3,Alabama -7.5,Oklahoma,6.2,45.5,over,2.9
+12,12,15-Nov,Penn State,Michigan State,False,Penn State,14.6,Penn State -6.5,Penn State,8.1,48.5,over,6.7
+12,12,15-Nov,San José State,Nevada,False,San José State,8.6,San Jose State -8.5,San José State,0.1,52.5,under,-0.6
+12,12,15-Nov,South Alabama,UL Monroe,False,South Alabama,4.3,South Alabama -3.5,South Alabama,0.8,51.5,over,2.4
+12,12,15-Nov,Texas State,Southern Miss,False,Southern Miss,7.8,Southern Miss -6.5,Southern Miss,1.3,64.5,under,-1.6
+12,12,15-Nov,UCF,Texas Tech,False,Texas Tech,23.9,Texas Tech -23.5,Texas Tech,0.4,48.5,over,1.1
+12,12,15-Nov,Virginia,Duke,False,Duke,1.6,Duke -6.5,Virginia,4.9,59.5,under,-1.9
+12,12,15-Nov,Florida Atlantic,Tulane,False,Tulane,13.4,Tulane -16.5,Florida Atlantic,3.1,62.5,under,-2.0
+12,12,15-Nov,Memphis,East Carolina,False,Memphis,0.9,East Carolina -2.5,Memphis,3.4,60.5,under,-1.5
+12,12,15-Nov,New Mexico State,Tennessee,False,Tennessee,32.8,Tennessee -38.5,New Mexico State,5.7,61.5,under,-4.4
+12,12,15-Nov,North Carolina,Wake Forest,False,Wake Forest,9.3,Wake Forest -6.5,Wake Forest,2.8,39.5,over,2.8
+12,12,15-Nov,Liberty,Florida International,False,Liberty,3.7,Liberty -2.5,Liberty,1.2,53.5,under,-0.6
+12,12,15-Nov,Coastal Carolina,Georgia Southern,False,Georgia Southern,0.6,Georgia Southern -2.5,Coastal Carolina,1.9,57.5,over,2.7
+12,12,15-Nov,Delaware,Sam Houston,True,Delaware,14.4,Delaware -8.5,Delaware,5.9,56.5,under,-0.7
+12,12,15-Nov,Florida,Ole Miss,False,Ole Miss,17.3,Ole Miss -13.5,Ole Miss,3.8,52.5,under,-0.7
+12,12,15-Nov,Purdue,Washington,False,Washington,20.7,Washington -15.5,Washington,5.2,53.5,under,-0.7
+12,12,15-Nov,Utah,Baylor,False,Utah,13.5,Utah -8.5,Utah,5.0,60.5,under,-3.3
+12,12,15-Nov,Utah State,UNLV,False,UNLV,6.8,UNLV -4.5,UNLV,2.3,69.5,under,-3.3
+12,12,15-Nov,Texas,Georgia,False,Georgia,4.4,Georgia -6.5,Texas,2.1,47.5,over,2.5
+12,12,15-Nov,UCLA,Ohio State,False,Ohio State,35.4,Ohio State -31.5,Ohio State,3.9,48.5,over,3.5
+12,12,15-Nov,Virginia Tech,Florida State,False,Florida State,18.0,Florida State -12.5,Florida State,5.5,54.5,under,-1.2
+12,12,15-Nov,Mississippi State,Missouri,False,Missouri,11.4,Missouri -6.5,Missouri,4.9,51.5,over,3.3
+12,12,15-Nov,Kennesaw State,Jacksonville State,False,Kennesaw State,2.3,Kennesaw State -2.5,Jacksonville State,0.2,51.5,under,-0.6
+12,12,15-Nov,Louisiana Tech,Washington State,False,Washington State,0.4,Washington State -6.5,Louisiana Tech,6.1,47.5,under,-0.2
+12,12,15-Nov,TCU,BYU,False,BYU,7.7,BYU -5.5,BYU,2.2,51.5,over,1.5
+12,12,15-Nov,Boise State,San Diego State,False,San Diego State,1.6,San Diego State -2.5,Boise State,0.9,41.5,over,6.9
+12,12,15-Nov,Wyoming,Fresno State,False,Fresno State,5.5,Fresno State -4.5,Fresno State,1.0,39.5,over,7.3
+13,13,18-Nov,Akron,Bowling Green,False,Bowling Green,0.4,Bowling Green -4.5,Akron,4.1,47.5,under,-0.8
+13,13,18-Nov,Massachusetts,Ohio,False,Ohio,30.8,Ohio -30.5,Ohio,0.3,51.5,under,-1.4
+13,13,18-Nov,Western Michigan,Northern Illinois,False,Western Michigan,6.1,Western Michigan -6.5,Northern Illinois,0.4,38.5,over,1.0
+13,13,19-Nov,Central Michigan,Kent State,False,Central Michigan,10.7,Central Michigan -8.5,Central Michigan,2.2,47.5,over,0.8
+13,13,19-Nov,Miami (OH),Buffalo,False,Buffalo,1.6,Buffalo -2.5,Miami (OH),0.9,39.5,over,2.9
+13,13,20-Nov,Louisiana,Arkansas State,False,Arkansas State,1.6,Arkansas State -2.5,Louisiana,0.9,53.5,over,2.7
+13,13,21-Nov,Florida State,NC State,False,Florida State,8.5,Florida State -4.5,Florida State,4.0,61.5,under,-5.9
+13,13,21-Nov,Hawai'i,UNLV,False,UNLV,4.8,UNLV -2.5,UNLV,2.3,64.5,under,-4.7
+13,13,22-Nov,Delaware,Wake Forest,False,Wake Forest,15.9,Wake Forest -18.5,Delaware,2.6,53.5,under,-2.6
+13,13,22-Nov,Kansas,Iowa State,False,Iowa State,4.7,Iowa State -3.5,Iowa State,1.2,54.5,under,-0.1
+13,13,22-Nov,Louisville,SMU,False,SMU,2.6,SMU -3.5,Louisville,0.9,53.5,under,-0.5
+13,13,22-Nov,Miami,Virginia Tech,False,Miami,23.3,Miami-FL -16.5,Miami,6.8,49.5,over,3.6
+13,13,22-Nov,Minnesota,Northwestern,False,Northwestern,1.7,Northwestern -5.5,Minnesota,3.8,41.5,over,3.0
+13,13,22-Nov,Missouri,Oklahoma,False,Oklahoma,5.4,Oklahoma -9.5,Missouri,4.1,42.5,over,6.7
+13,13,22-Nov,Rutgers,Ohio State,False,Ohio State,31.5,Ohio State -33.5,Rutgers,2.0,56.5,under,-1.7
+13,13,22-Nov,Tulsa,Army,False,Army,12.7,Army -10.5,Army,2.2,46.5,over,3.8
+13,13,22-Nov,Charlotte,Georgia,False,Georgia,48.4,Georgia -44.5,Georgia,3.9,55.5,under,-0.9
+13,13,22-Nov,Baylor,Arizona,False,Arizona,9.1,Arizona -6.5,Arizona,2.6,62.5,under,-2.1
+13,13,22-Nov,Old Dominion,Georgia Southern,False,Old Dominion,9.7,Old Dominion -9.5,Old Dominion,0.2,63.5,under,-2.1
+13,13,22-Nov,Washington State,James Madison,False,James Madison,14.5,James Madison -13.5,James Madison,1.0,43.0,over,7.1
+13,13,22-Nov,Ball State,Toledo,False,Toledo,29.3,Toledo -26.5,Toledo,2.8,47.5,under,-1.9
+13,13,22-Nov,Missouri State,Kennesaw State,False,Kennesaw State,6.9,Kennesaw State -6.5,Kennesaw State,0.4,58.5,under,-7.9
+13,13,22-Nov,Nevada,Wyoming,False,Wyoming,7.7,Wyoming -6.5,Wyoming,1.2,41.5,over,2.8
+13,13,22-Nov,Marshall,App State,False,Marshall,4.2,Marshall -4.5,App State,0.3,54.5,over,6.1
+13,13,22-Nov,UConn,Florida Atlantic,False,UConn,13.3,Connecticut -7.5,UConn,5.8,66.5,under,-6.4
+13,13,22-Nov,Liberty,Louisiana Tech,False,Louisiana Tech,7.1,Louisiana Tech -1.5,Louisiana Tech,5.6,45.5,over,2.8
+13,13,22-Nov,New Mexico State,UTEP,False,UTEP,2.5,UTEP -3.5,New Mexico State,1.0,45.5,over,4.6
+13,13,22-Nov,Sam Houston,Middle Tennessee,False,Middle Tennessee,6.1,Middle Tennessee -6.5,Sam Houston,0.4,53.5,over,0.4
+13,13,22-Nov,South Florida,UAB,False,South Florida,21.2,USF -21.5,UAB,0.3,69.5,under,-5.4
+13,13,22-Nov,Arkansas,Texas,False,Texas,9.8,Texas -10.5,Arkansas,0.7,56.5,over,0.0
+13,13,22-Nov,Duke,North Carolina,False,Duke,6.6,Duke -6.5,Duke,0.1,51.5,over,0.2
+13,13,22-Nov,East Carolina,UTSA,False,East Carolina,5.5,East Carolina -3.5,East Carolina,2.0,61.5,under,-2.5
+13,13,22-Nov,Jacksonville State,Florida International,False,Jacksonville State,3.9,Florida International -1.5,Jacksonville State,5.4,55.5,over,2.5
+13,13,22-Nov,Kentucky,Vanderbilt,False,Vanderbilt,11.3,Vanderbilt -10.5,Vanderbilt,0.8,52.5,over,2.3
+13,13,22-Nov,Michigan State,Iowa,False,Iowa,22.8,Iowa -16.5,Iowa,6.3,42.5,over,7.2
+13,13,22-Nov,Southern Miss,South Alabama,False,Southern Miss,4.0,Southern Miss -2.5,Southern Miss,1.5,55.5,over,1.5
+13,13,22-Nov,Syracuse,Notre Dame,False,Notre Dame,33.3,Notre Dame -35.5,Syracuse,2.2,51.5,over,2.9
+13,13,22-Nov,USC,Oregon,False,Oregon,10.6,Oregon -9.5,Oregon,1.1,60.5,under,-4.6
+13,13,22-Nov,Tulane,Temple,False,Tulane,5.6,Tulane -8.5,Temple,2.9,54.5,over,4.9
+13,13,22-Nov,Georgia State,Troy,False,Troy,19.3,Troy -11.5,Troy,7.8,51.5,over,5.4
+13,13,22-Nov,Kansas State,Utah,False,Utah,17.0,Utah -17.5,Kansas State,0.5,52.5,over,0.4
+13,13,22-Nov,Michigan,Maryland,False,Michigan,9.4,Michigan -13.5,Maryland,4.1,45.5,over,1.0
+13,13,22-Nov,Oklahoma State,UCF,False,UCF,18.8,UCF -13.5,UCF,5.3,47.5,over,2.1
+13,13,22-Nov,TCU,Houston,False,Houston,2.8,Houston -2.5,Houston,0.3,54.5,under,-0.3
+13,13,22-Nov,Coastal Carolina,South Carolina,False,South Carolina,15.7,South Carolina -23.5,Coastal Carolina,7.8,53.5,under,-0.4
+13,13,22-Nov,UL Monroe,Texas State,False,Texas State,18.9,Texas State -18.5,Texas State,0.4,55.5,over,4.6
+13,13,22-Nov,Colorado State,Boise State,False,Boise State,19.1,Boise State -16.5,Boise State,2.6,45.5,over,5.7
+13,13,22-Nov,Nebraska,Penn State,False,Penn State,7.0,Penn State -9.5,Nebraska,2.5,44.5,over,7.6
+13,13,22-Nov,New Mexico,Air Force,False,Air Force,0.7,New Mexico -2.5,Air Force,3.2,58.5,over,0.8
+13,13,22-Nov,Pittsburgh,Georgia Tech,False,Georgia Tech,2.0,Georgia Tech -2.5,Pittsburgh,0.5,61.5,under,-3.6
+13,13,22-Nov,California,Stanford,False,California,7.1,California -2.5,California,4.6,50.5,under,-1.1
+13,13,22-Nov,Illinois,Wisconsin,False,Illinois,16.6,Illinois -9.5,Illinois,7.1,42.5,over,7.3
+13,13,22-Nov,North Texas,Rice,False,North Texas,21.7,North Texas -17.5,North Texas,4.2,55.5,over,2.9
+13,13,22-Nov,Tennessee,Florida,False,Tennessee,9.4,Tennessee -3.5,Tennessee,5.9,57.5,under,-1.8
+13,13,22-Nov,Western Kentucky,LSU,False,LSU,13.3,LSU -22.5,Western Kentucky,9.2,51.5,under,-1.5
+13,13,22-Nov,Arizona State,Colorado,False,Arizona State,6.3,Arizona State -8.5,Colorado,2.2,48.5,over,3.0
+13,13,22-Nov,BYU,Cincinnati,False,BYU,4.2,BYU -2.5,BYU,1.7,53.5,over,0.8
+13,13,22-Nov,San José State,San Diego State,False,San Diego State,17.2,San Diego State -11.5,San Diego State,5.7,49.5,over,0.3
+13,13,22-Nov,Utah State,Fresno State,False,Fresno State,5.6,Fresno State -2.5,Fresno State,3.1,51.5,over,3.0
+13,13,22-Nov,Washington,UCLA,False,Washington,17.9,Washington -11.5,Washington,6.4,52.5,over,0.0
+14,14,25-Nov,Bowling Green,Massachusetts,False,Bowling Green,16.7,Bowling Green -15.5,Bowling Green,1.2,45.5,over,2.0
+14,14,25-Nov,Western Michigan,Eastern Michigan,False,Western Michigan,8.6,Western Michigan -6.5,Western Michigan,2.1,45.5,over,3.3
+14,14,27-Nov,Navy,Memphis,False,Memphis,11.5,Memphis -5.5,Memphis,6.0,58.5,over,6.5
+14,14,28-Nov,Iowa,Nebraska,False,Iowa,4.1,Iowa -5.5,Nebraska,1.4,38.5,over,8.7
+14,14,28-Nov,Kent State,Northern Illinois,False,Northern Illinois,6.2,Northern Illinois -4.5,Northern Illinois,1.7,44.5,under,-0.2
+14,14,28-Nov,Ohio,Buffalo,False,Ohio,2.9,Ohio -6.5,Buffalo,3.6,47.5,under,-0.3
+14,14,28-Nov,Ole Miss,Mississippi State,False,Ole Miss,14.3,Ole Miss -7.5,Ole Miss,6.8,63.5,under,-4.4
+14,14,28-Nov,Utah,Kansas,False,Utah,15.1,Utah -13.5,Utah,1.6,59.5,under,-1.1
+14,14,28-Nov,Air Force,Colorado State,False,Air Force,6.2,Air Force -3.5,Air Force,2.7,48.5,over,5.9
+14,14,28-Nov,Georgia,Georgia Tech,False,Georgia,12.9,Georgia -13.5,Georgia Tech,0.6,59.5,under,-1.3
+14,14,28-Nov,San Diego State,New Mexico,False,San Diego State,4.7,San Diego State -1.5,San Diego State,3.2,41.5,over,6.2
+14,14,28-Nov,Temple,North Texas,False,North Texas,24.0,North Texas -19.5,North Texas,4.5,64.5,over,0.5
+14,14,28-Nov,Boise State,Utah State,False,Boise State,3.5,Boise State -3.5,Boise State,0.0,56.5,over,1.2
+14,14,28-Nov,Indiana,Purdue,False,Indiana,33.9,Indiana -28.5,Indiana,5.4,53.5,under,-1.4
+14,14,28-Nov,Texas A&M,Texas,False,Texas A&M,5.3,Texas A&M -2.5,Texas A&M,2.8,51.5,over,3.4
+14,14,28-Nov,Arizona,Arizona State,False,Arizona,4.0,Arizona -1.5,Arizona,2.5,49.5,over,3.1
+14,14,29-Nov,Ball State,Miami (OH),False,Miami (OH),20.3,Miami-OH -17.5,Miami (OH),2.8,41.5,over,4.4
+14,14,29-Nov,Clemson,South Carolina,False,Clemson,0.5,South Carolina -2.5,Clemson,3.0,46.5,over,1.5
+14,14,29-Nov,Colorado,Kansas State,False,Kansas State,15.4,Kansas State -17.5,Colorado,2.1,51.5,over,4.7
+14,14,29-Nov,East Carolina,Florida Atlantic,False,East Carolina,11.1,East Carolina -6.5,East Carolina,4.6,66.5,under,-4.3
+14,14,29-Nov,Houston,Baylor,False,Houston,3.4,Baylor -2.5,Houston,5.9,60.5,under,-1.2
+14,14,29-Nov,Iowa State,Oklahoma State,False,Iowa State,23.4,Iowa State -14.5,Iowa State,8.9,49.5,over,0.1
+14,14,29-Nov,Kentucky,Louisville,False,Louisville,7.1,Louisville -3.5,Louisville,3.6,47.5,over,3.7
+14,14,29-Nov,Miami,Pittsburgh,False,Miami,6.0,Miami-FL -6.5,Pittsburgh,0.5,51.5,over,3.4
+14,14,29-Nov,Ohio State,Michigan,False,Ohio State,14.6,Ohio State -11.5,Ohio State,3.1,44.5,over,3.5
+14,14,29-Nov,Texas Tech,West Virginia,False,Texas Tech,31.5,Texas Tech -20.5,Texas Tech,11.0,52.5,over,1.0
+14,14,29-Nov,Toledo,Central Michigan,False,Toledo,10.3,Toledo -10.5,Central Michigan,0.2,44.5,over,1.2
+14,14,29-Nov,Florida International,Sam Houston,True,Florida International,15.7,Florida International -10.5,Florida International,5.2,51.5,over,5.1
+14,14,29-Nov,UCF,BYU,False,BYU,19.1,BYU -18.5,BYU,0.6,47.5,over,1.9
+14,14,29-Nov,UTEP,Delaware,False,Delaware,5.0,Delaware -6.5,UTEP,1.5,54.5,over,1.9
+14,14,29-Nov,Georgia Southern,Marshall,False,Marshall,10.2,Marshall -7.5,Marshall,2.7,60.5,over,5.7
+14,14,29-Nov,Georgia State,Old Dominion,False,Old Dominion,32.2,Old Dominion -26.5,Old Dominion,5.7,58.5,over,0.5
+14,14,29-Nov,Louisiana Tech,Missouri State,False,Louisiana Tech,3.8,Missouri State -3.5,Louisiana Tech,7.3,51.5,over,0.5
+14,14,29-Nov,Western Kentucky,Jacksonville State,False,Western Kentucky,3.7,Western Kentucky -2.5,Western Kentucky,1.2,55.5,over,0.7
+14,14,29-Nov,Arkansas State,App State,False,App State,1.8,Appalachian State -2.5,Arkansas State,0.7,55.5,over,0.4
+14,14,29-Nov,Boston College,Syracuse,False,Syracuse,1.4,Boston College -3.5,Syracuse,4.9,53.5,over,2.3
+14,14,29-Nov,Middle Tennessee,New Mexico State,False,New Mexico State,6.4,New Mexico State -3.5,New Mexico State,2.9,54.5,under,-0.5
+14,14,29-Nov,South Alabama,Texas State,False,Texas State,11.4,Texas State -9.5,Texas State,1.9,63.5,over,1.9
+14,14,29-Nov,UAB,Tulsa,False,Tulsa,8.6,Tulsa -7.5,Tulsa,1.1,60.5,under,-0.2
+14,14,29-Nov,UL Monroe,Louisiana,False,Louisiana,15.6,UL-Lafayette -13.5,Louisiana,2.1,48.5,over,6.7
+14,14,29-Nov,Army,UTSA,False,UTSA,7.3,UTSA -6.5,UTSA,0.8,51.5,over,4.4
+14,14,29-Nov,Cincinnati,TCU,False,TCU,0.9,TCU -3.5,Cincinnati,2.6,58.5,under,-2.5
+14,14,29-Nov,Kennesaw State,Liberty,False,Kennesaw State,4.0,Kennesaw State -2.5,Kennesaw State,1.5,54.5,under,-1.8
+14,14,29-Nov,LSU,Oklahoma,False,Oklahoma,11.7,Oklahoma -10.5,Oklahoma,1.2,38.5,over,4.4
+14,14,29-Nov,Missouri,Arkansas,False,Missouri,6.2,Missouri -2.5,Missouri,3.7,58.5,over,1.4
+14,14,29-Nov,Oregon,Washington,False,Oregon,6.7,Oregon -6.5,Oregon,0.2,53.5,under,-1.7
+14,14,29-Nov,Penn State,Rutgers,False,Penn State,14.4,Penn State -11.5,Penn State,2.9,55.5,over,2.0
+14,14,29-Nov,Troy,Southern Miss,False,Southern Miss,2.5,Southern Miss -6.5,Troy,4.0,50.5,over,6.3
+14,14,29-Nov,Vanderbilt,Tennessee,False,Tennessee,0.7,Tennessee -2.5,Vanderbilt,1.8,64.5,under,-1.6
+14,14,29-Nov,Wake Forest,Duke,False,Duke,0.4,Duke -2.5,Wake Forest,2.1,54.5,under,-0.7
+14,14,29-Nov,Wisconsin,Minnesota,False,Minnesota,7.0,Minnesota -2.5,Minnesota,4.5,38.5,over,6.4
+14,14,29-Nov,James Madison,Coastal Carolina,False,James Madison,21.6,James Madison -21.5,James Madison,0.1,53.5,over,3.2
+14,14,29-Nov,Florida State,Florida,False,Florida State,7.1,Florida -2.5,Florida State,9.6,51.5,under,-2.8
+14,14,29-Nov,UCLA,USC,False,USC,27.3,USC -20.5,USC,6.8,59.5,under,-1.5
+14,14,29-Nov,Oregon State,Washington State,False,Washington State,16.6,Washington State -13.5,Washington State,3.1,42.5,over,3.9
+14,14,29-Nov,Maryland,Michigan State,False,Maryland,3.3,Michigan State -3.5,Maryland,6.8,47.5,over,3.8
+14,14,29-Nov,Rice,South Florida,False,South Florida,27.3,USF -27.5,Rice,0.2,59.5,under,-1.3
+14,14,29-Nov,Virginia Tech,Virginia,False,Virginia,22.2,Virginia -11.5,Virginia,10.7,52.5,over,0.7
+14,14,29-Nov,Alabama,Auburn,False,Alabama,6.0,Alabama -5.5,Alabama,0.5,48.5,over,0.1
+14,14,29-Nov,Charlotte,Tulane,False,Tulane,33.8,Tulane -29.5,Tulane,4.3,52.5,over,5.8
+14,14,29-Nov,North Carolina,NC State,False,NC State,9.4,NC State -7.5,NC State,1.9,48.5,over,2.3
+14,14,29-Nov,Northwestern,Illinois,False,Illinois,11.3,Illinois -6.5,Illinois,4.8,47.5,over,4.3
+14,14,29-Nov,SMU,California,False,SMU,16.5,SMU -10.5,SMU,6.0,51.5,over,0.4
+14,14,29-Nov,UNLV,Nevada,False,UNLV,15.8,UNLV -9.5,UNLV,6.3,52.5,over,1.9
+14,14,29-Nov,Fresno State,San José State,False,Fresno State,7.7,Fresno State -2.5,Fresno State,5.2,46.5,over,4.4
+14,14,29-Nov,Notre Dame,Stanford,False,Notre Dame,31.7,Notre Dame -32.5,Stanford,0.8,51.5,over,0.0
+14,14,29-Nov,Wyoming,Hawai'i,False,Hawai'i,10.6,Hawaii -10.5,Hawai'i,0.1,44.5,over,2.6
+15,15,5-Dec,Kennesaw State,Jacksonville State,False,Kennesaw State,1.4,Jacksonville State -1.5,Kennesaw State,2.9,58.5,over,2.1
+15,15,5-Dec,Troy,James Madison,False,James Madison,20.2,James Madison -21.5,Troy,1.3,47.5,over,6.9
+15,15,5-Dec,North Texas,Tulane,False,North Texas,8.2,North Texas -2.5,North Texas,5.7,67.5,under,-2.1
+15,15,5-Dec,UNLV,Boise State,False,UNLV,0.4,Boise State -3.5,UNLV,3.9,57.5,over,2.9
+15,15,6-Dec,BYU,Texas Tech,True,Texas Tech,11.7,Texas Tech -12.5,BYU,0.8,50.5,over,3.5
+15,15,6-Dec,Western Michigan,Miami (OH),True,Miami (OH),1.2,Western Michigan -2.5,Miami (OH),3.7,43.5,over,2.7
+15,15,6-Dec,Georgia,Alabama,True,Georgia,2.8,Georgia -1.5,Georgia,1.3,47.5,over,3.1
+15,15,6-Dec,Duke,Virginia,True,Virginia,7.3,Virginia -2.5,Virginia,4.8,58.5,under,-0.6
+15,15,6-Dec,Indiana,Ohio State,True,Ohio State,0.9,Ohio State -5.5,Indiana,4.6,48.5,over,1.8

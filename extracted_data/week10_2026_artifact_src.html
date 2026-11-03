@@ -1,0 +1,1479 @@
+<title>2026 CFB Model &mdash; Week 10</title>
+<meta name="description" content="Model projections for 2026 college football Week 10.">
+<style>
+
+:root {
+  --bg: #f5f4ef;
+  --surface: #ffffff;
+  --surface-2: #edece4;
+  --border: #dcd8ca;
+  --text: #1a1e19;
+  --text-muted: #656a5e;
+  --accent: #2f6b4f;
+  --accent-soft: #e3ede7;
+  --gold: #9c7a23;
+  --gold-soft: #f2ead2;
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12140f; --surface: #191c15; --surface-2: #20241b; --border: #33382c;
+    --text: #edeee6; --text-muted: #9aa090; --accent: #5da682; --accent-soft: #1f2f26;
+    --gold: #d1ab52; --gold-soft: #2b2617;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12140f; --surface: #191c15; --surface-2: #20241b; --border: #33382c;
+  --text: #edeee6; --text-muted: #9aa090; --accent: #5da682; --accent-soft: #1f2f26;
+  --gold: #d1ab52; --gold-soft: #2b2617;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0 0 4rem; line-height: 1.45; }
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 1.5rem; }
+header.masthead { border-bottom: 1px solid var(--border); padding: 2.75rem 0 1.75rem; margin-bottom: 2rem; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.6rem; }
+h1 { font-family: var(--font-display); font-size: 2.15rem; font-weight: 700; margin: 0 0 0.5rem; text-wrap: balance; letter-spacing: -0.01em; }
+.subhead { color: var(--text-muted); font-size: 0.98rem; max-width: 60ch; margin: 0; }
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.75rem 0 0; }
+.stat { background: var(--surface); padding: 0.9rem 1.1rem; }
+.stat .n { font-family: var(--font-mono); font-size: 1.5rem; font-weight: 600; font-variant-numeric: tabular-nums; display: block; }
+.stat .l { color: var(--text-muted); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.callout { background: var(--accent-soft); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 0.9rem 1.1rem; font-size: 0.88rem; color: var(--text); margin: 1.5rem 0 2.5rem; }
+.callout strong { color: var(--accent); }
+section.week { margin-bottom: 3rem; }
+.week-heading { display: flex; align-items: baseline; gap: 0.6rem; margin-bottom: 1.1rem; }
+.week-heading h2 { font-family: var(--font-display); font-size: 1.4rem; margin: 0; }
+.week-heading .range { color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono); }
+.day-block { margin-bottom: 1.6rem; }
+.day-heading { font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px dashed var(--border); }
+.col-legend { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1fr 1.15fr 0.95fr 0.8fr; gap: 0.75rem; padding: 0 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.col-legend span:not(:first-child) { text-align: right; }
+.game-list { display: flex; flex-direction: column; }
+.game-row { display: grid; grid-template-columns: 2fr 0.55fr 0.55fr 0.85fr 1fr 1.15fr 0.95fr 0.8fr; gap: 0.75rem; align-items: center; padding: 0.7rem 0.2rem; border-bottom: 1px solid var(--border); }
+.game-row:last-child { border-bottom: none; }
+.matchup { font-size: 0.95rem; font-weight: 500; }
+.at { color: var(--text-muted); font-weight: 400; font-size: 0.85em; }
+.flag { color: var(--gold); font-size: 0.7em; cursor: help; margin-left: 0.1em; }
+.home-tag { color: var(--accent); font-size: 0.68em; font-weight: 700; font-family: var(--font-mono); vertical-align: 0.15em; margin-left: 0.25em; }
+.ranks { font-size: 0.76rem; color: var(--text-muted); margin-top: 0.15rem; }
+.rank { font-family: var(--font-mono); }
+.pick-name { font-weight: 600; font-size: 0.92rem; }
+.pick-margin { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent); font-variant-numeric: tabular-nums; }
+.game-wp { min-width: 0; }
+.game-rec { font-family: var(--font-mono); font-size: 0.8rem; font-variant-numeric: tabular-nums; line-height: 1.35; }
+.game-rec .rec-label { display: none; }
+.wp-bar-track { height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; margin-bottom: 0.3rem; }
+.wp-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+.wp-label { font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.game-market { font-family: var(--font-mono); font-size: 0.82rem; text-align: right; }
+.market-num { color: var(--gold); font-weight: 600; }
+.gap-note { display: block; font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-top: 0.15rem; }
+.game-row.tier-strong { background: var(--accent-soft); border-radius: 6px; }
+.game-row.tier-skip .game-ats .ats-side { color: var(--text-muted); text-decoration: line-through; text-decoration-color: var(--border); }
+.game-ats { min-width: 0; }
+.ats-side { font-weight: 600; font-size: 0.88rem; }
+.ats-line { font-family: var(--font-mono); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.tier-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.08rem 0.4rem; border-radius: 3px; margin-top: 0.2rem; cursor: help; border: 1px solid var(--border); color: var(--text-muted); }
+.tier-badge.strong { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.tier-badge.skip { border-style: dashed; }
+.strong-list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0 0 2rem; }
+.strong-list h2 { font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 0.6rem; }
+.strong-list ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 1.5rem; font-size: 0.88rem; }
+.strong-list li { margin-bottom: 0.35rem; break-inside: avoid; }
+.strong-list .why { color: var(--text-muted); font-size: 0.78rem; }
+.muted { color: var(--text-muted); }
+.game-total { font-family: var(--font-mono); font-size: 0.82rem; text-align: right; }
+.total-num { font-weight: 600; }
+.total-mkt { display: block; font-size: 0.68rem; color: var(--text-muted); font-weight: 400; }
+details.buy-games { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.1rem; }
+details.buy-games summary { cursor: pointer; font-weight: 600; font-size: 0.95rem; list-style: none; }
+details.buy-games summary::-webkit-details-marker { display: none; }
+details.buy-games summary::before { content: "\25b8 "; color: var(--accent); }
+details.buy-games[open] summary::before { content: "\25be "; }
+.buy-day { margin-top: 1rem; }
+.buy-day h4 { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-muted); margin: 0 0 0.4rem; }
+.buy-list { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 1.5rem; font-size: 0.85rem; }
+.buy-list li { margin-bottom: 0.3rem; break-inside: avoid; }
+.buy-team { font-weight: 600; }
+.buy-opp { color: var(--text-muted); }
+.buy-tag { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); border: 1px solid var(--border); border-radius: 3px; padding: 0 0.3rem; margin-left: 0.3rem; }
+footer.notes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.82rem; }
+footer.notes p { margin: 0 0 0.7rem; }
+footer.notes code { font-family: var(--font-mono); background: var(--surface-2); padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; }
+@media (max-width: 640px) {
+  .game-row { grid-template-columns: 1fr 1fr; row-gap: 0.4rem; }
+  .game-market, .game-total { text-align: left; }
+  .game-rec .rec-label { display: inline; color: var(--text-muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; margin-right: 0.35em; }
+  .game-rec div { display: inline; }
+  .game-rec div + div::before { content: " / "; color: var(--text-muted); }
+  .col-legend { display: none; }
+  .buy-list { columns: 1; }
+  .strong-list ul { columns: 1; }
+}
+
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">2026 CFB Handicap Model &middot; Generated November 3, 2026</p>
+    <h1>Week 10</h1>
+    <p class="subhead">Model projections for every FBS-vs-FBS game this week (Wed Nov 4 &ndash; Sun Nov 8):
+    straight-up pick and margin, plus the model's ATS side with a STRONG / NO SIGNAL / SKIP tier.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">62</span><span class="l">FBS games</span></div>
+      <div class="stat"><span class="n">31</span><span class="l">STRONG ATS</span></div>
+      <div class="stat"><span class="n">16</span><span class="l">SKIP</span></div>
+      <div class="stat"><span class="n">1</span><span class="l">Buy games</span></div>
+    </div>
+  </header>
+
+  <div class="callout">
+    <strong>Reading this:</strong> margin and win prob are <strong>70% SP+'s weekly game projection</strong>
+    (Bill Connelly's public picks sheet) and <strong>30% our preseason blend</strong> (SP+, FPI, our bottom-up
+    model, Steele) plus home field. The home team is marked
+    <span class="home-tag" style="margin-left:0">HOME</span>. The <strong>ATS pick</strong> column is the
+    model's side of the market spread, tiered:
+    <span class="tier-badge strong" style="margin-top:0">STRONG</span> = SP+ and our preseason blend
+    <em>each</em> land on that side of the line, or the side is the home favourite;
+    <span class="tier-badge skip" style="margin-top:0">SKIP</span> = the side is an away favourite, or runs
+    into a letdown spot (P4 team off an upset win as an underdog, vs a P4 opponent) or is a losing-record
+    home favourite; <span class="tier-badge" style="margin-top:0">NO SIGNAL</span> = neither. Backtest
+    (2025 + 2026 weeks 1-9): STRONG 58%, NO SIGNAL ~50%, SKIP ~47% &mdash; promising, but two seasons is a
+    small sample and the line still beats any model on raw accuracy, so treat tiers as a ranking, not a
+    guarantee. <strong>Gap size is not a strength signal</strong> (bigger gaps did not cover more often), so
+    it's shown as a plain number only. <strong>Totals are context only</strong> &mdash; no O/U signal from our
+    model or SP+ in either season. A <span class="flag">&#9888;</span> next to a team means our preseason
+    sources unusually disagree on that team.
+
+  </div>
+
+  <section class="strong-list"><h2>STRONG ATS picks (31)</h2><ul><li><strong>Miami (OH)</strong> <span class="ats-line">-6.0</span> <span class="muted">vs Buffalo, Wed Nov 4</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Sacramento State</strong> <span class="ats-line">+25.5</span> <span class="muted">vs Toledo, Thu Nov 5</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Massachusetts</strong> <span class="ats-line">-3.0</span> <span class="muted">vs Ball State, Thu Nov 5</span><br><span class="why">home favourite</span></li>
+<li><strong>Eastern Michigan</strong> <span class="ats-line">-1.0</span> <span class="muted">vs Central Michigan, Thu Nov 5</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Florida Atlantic</strong> <span class="ats-line">+7.0</span> <span class="muted">vs UTSA, Fri Nov 6</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Arkansas State</strong> <span class="ats-line">-14.5</span> <span class="muted">vs UL Monroe, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>UAB</strong> <span class="ats-line">-10.0</span> <span class="muted">vs Charlotte, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>Baylor</strong> <span class="ats-line">-10.0</span> <span class="muted">vs Iowa State, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>Louisiana</strong> <span class="ats-line">-8.5</span> <span class="muted">vs South Alabama, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>Tennessee</strong> <span class="ats-line">-6.5</span> <span class="muted">vs Kentucky, Sat Nov 7</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Rutgers</strong> <span class="ats-line">+17.0</span> <span class="muted">vs Wisconsin, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Ohio State</strong> <span class="ats-line">-7.0</span> <span class="muted">vs Oregon, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>Arkansas</strong> <span class="ats-line">+10.5</span> <span class="muted">vs Auburn, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>App State</strong> <span class="ats-line">-5.0</span> <span class="muted">vs Georgia State, Sat Nov 7</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>SMU</strong> <span class="ats-line">-6.0</span> <span class="muted">vs Virginia Tech, Sat Nov 7</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Utah</strong> <span class="ats-line">-5.0</span> <span class="muted">vs BYU, Sat Nov 7</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Marshall</strong> <span class="ats-line">+10.5</span> <span class="muted">vs Georgia Southern, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Western Kentucky</strong> <span class="ats-line">+1.0</span> <span class="muted">vs Middle Tennessee, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Mississippi State</strong> <span class="ats-line">-3.0</span> <span class="muted">vs Vanderbilt, Sat Nov 7</span><br><span class="why">home favourite</span></li>
+<li><strong>Kansas State</strong> <span class="ats-line">+4.0</span> <span class="muted">vs Oklahoma State, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Texas A&amp;M</strong> <span class="ats-line">+7.0</span> <span class="muted">vs South Carolina, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Maryland</strong> <span class="ats-line">+6.5</span> <span class="muted">vs Purdue, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Kennesaw State</strong> <span class="ats-line">+2.5</span> <span class="muted">vs Delaware, Sat Nov 7</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Texas Tech</strong> <span class="ats-line">-16.5</span> <span class="muted">vs West Virginia, Sun Nov 8</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Jacksonville State</strong> <span class="ats-line">-16.5</span> <span class="muted">vs Sam Houston, Sun Nov 8</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Michigan</strong> <span class="ats-line">-13.5</span> <span class="muted">vs Michigan State, Sun Nov 8</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>UNLV</strong> <span class="ats-line">-6.0</span> <span class="muted">vs Wyoming, Sun Nov 8</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Arizona State</strong> <span class="ats-line">-3.0</span> <span class="muted">vs Colorado, Sun Nov 8</span><br><span class="why">SP+ and preseason agree; home favourite</span></li>
+<li><strong>Texas State</strong> <span class="ats-line">+6.5</span> <span class="muted">vs Oregon State, Sun Nov 8</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Oklahoma</strong> <span class="ats-line">+6.0</span> <span class="muted">vs Florida, Sun Nov 8</span><br><span class="why">SP+ and preseason agree</span></li>
+<li><strong>Iowa</strong> <span class="ats-line">+2.5</span> <span class="muted">vs Northwestern, Sun Nov 8</span><br><span class="why">SP+ and preseason agree</span></li></ul></section>
+
+  <div class="col-legend">
+    <span>Matchup</span><span title="Season straight-up record, in matchup order">W-L</span><span title="Season record against the spread, in matchup order">ATS</span><span>Model pick</span><span>Win prob</span><span title="Model's side of the market spread, with tier">ATS pick</span><span>Spread (mkt)</span><span>Total (mkt)</span>
+  </div>
+
+  <section class="week">
+    <div class="week-heading"><h2>Week 10</h2><span class="range">Wed Nov 4 &ndash; Sun Nov 8</span></div>
+
+        <div class="day-block">
+          <h3 class="day-heading">Wed Nov 4</h3>
+          <div class="game-list">
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Ohio<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Ohio (0.58 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Akron<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#102</span> vs <span class="rank">#121</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Ohio">6-2</div><div title="Akron">1-7</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Ohio">4-4</div><div title="Akron">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Ohio</div>
+            <div class="pick-margin">by 15.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:80.2%"></div></div>
+            <div class="wp-label">80% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Ohio <span class="ats-line">-14.0</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Ohio <span class="market-num">-14.0</span><span class="gap-note">model 1.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.1</span><span class="total-mkt">mkt 51.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Buffalo <span class="at">@</span> Miami (OH)<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#118</span> vs <span class="rank">#92</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Buffalo">5-3</div><div title="Miami (OH)">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Buffalo">4-4</div><div title="Miami (OH)">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Miami (OH)</div>
+            <div class="pick-margin">by 10.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:71.2%"></div></div>
+            <div class="wp-label">71% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Miami (OH) <span class="ats-line">-6.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Miami (OH) <span class="market-num">-6.0</span><span class="gap-note">model 4.3 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.2</span><span class="total-mkt">mkt 44.5</span></div>
+        </div></div>
+        </div>
+
+        <div class="day-block">
+          <h3 class="day-heading">Thu Nov 5</h3>
+          <div class="game-list">
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Toledo<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Toledo (0.87 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Sacramento State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#79</span> vs <span class="rank">#130</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Toledo">6-2</div><div title="Sacramento State">2-7</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Toledo">4-3-1</div><div title="Sacramento State">3-6</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Toledo</div>
+            <div class="pick-margin">by 19.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:85.7%"></div></div>
+            <div class="wp-label">86% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Sacramento State <span class="ats-line">+25.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Toledo <span class="market-num">-25.5</span><span class="gap-note">model 5.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.8</span><span class="total-mkt">mkt 52.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Ball State <span class="at">@</span> Massachusetts<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Massachusetts (0.80 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#135</span> vs <span class="rank">#138</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Ball State">3-5</div><div title="Massachusetts">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Ball State">5-3</div><div title="Massachusetts">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Massachusetts</div>
+            <div class="pick-margin">by 6.4</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:63.5%"></div></div>
+            <div class="wp-label">64% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Massachusetts <span class="ats-line">-3.0</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Massachusetts <span class="market-num">-3.0</span><span class="gap-note">model 3.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.5</span><span class="total-mkt">mkt 49.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Eastern Michigan <span class="at">vs</span> Central Michigan</div>
+            <div class="ranks"><span class="rank">#116</span> vs <span class="rank">#114</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Eastern Michigan">4-5</div><div title="Central Michigan">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Eastern Michigan">4-5</div><div title="Central Michigan">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Eastern Michigan</div>
+            <div class="pick-margin">by 2.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:54.5%"></div></div>
+            <div class="wp-label">55% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Eastern Michigan <span class="ats-line">-1.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Eastern Michigan <span class="market-num">-1.0</span><span class="gap-note">model 1.1 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.2</span><span class="total-mkt">mkt 44.5</span></div>
+        </div></div>
+        </div>
+
+        <div class="day-block">
+          <h3 class="day-heading">Fri Nov 6</h3>
+          <div class="game-list">
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">James Madison <span class="at">@</span> Southern Miss<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Southern Miss (0.92 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#56</span> vs <span class="rank">#117</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="James Madison">7-2</div><div title="Southern Miss">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="James Madison">6-3</div><div title="Southern Miss">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">James Madison</div>
+            <div class="pick-margin">by 19.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:84.9%"></div></div>
+            <div class="wp-label">85% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">James Madison <span class="ats-line">-14.5</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">James Madison <span class="market-num">-14.5</span><span class="gap-note">model 4.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.7</span><span class="total-mkt">mkt 58.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">UTSA <span class="at">@</span> Florida Atlantic<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#61</span> vs <span class="rank">#99</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="UTSA">7-1</div><div title="Florida Atlantic">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="UTSA">5-2-1</div><div title="Florida Atlantic">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">UTSA</div>
+            <div class="pick-margin">by 5.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:60.6%"></div></div>
+            <div class="wp-label">61% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Florida Atlantic <span class="ats-line">+7.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">UTSA <span class="market-num">-7.0</span><span class="gap-note">model 2.0 pts off</span></div>
+          <div class="game-total"><span class="total-num">60.5</span><span class="total-mkt">mkt 72.5</span></div>
+        </div></div>
+        </div>
+
+        <div class="day-block">
+          <h3 class="day-heading">Sat Nov 7</h3>
+          <div class="game-list">
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">UL Monroe <span class="at">@</span> Arkansas State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#134</span> vs <span class="rank">#105</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="UL Monroe">1-7</div><div title="Arkansas State">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="UL Monroe">2-6</div><div title="Arkansas State">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Arkansas State</div>
+            <div class="pick-margin">by 18.4</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:84.1%"></div></div>
+            <div class="wp-label">84% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Arkansas State <span class="ats-line">-14.5</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Arkansas State <span class="market-num">-14.5</span><span class="gap-note">model 3.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.0</span><span class="total-mkt">mkt 53.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Boise State <span class="at">@</span> Colorado State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#38</span> vs <span class="rank">#112</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Boise State">7-1</div><div title="Colorado State">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Boise State">4-4</div><div title="Colorado State">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Boise State</div>
+            <div class="pick-margin">by 17.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:82.4%"></div></div>
+            <div class="wp-label">82% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Colorado State <span class="ats-line">+17.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Boise State <span class="market-num">-17.5</span><span class="gap-note">model 0.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">58.4</span><span class="total-mkt">mkt 68.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Rice <span class="at">@</span> North Texas<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on North Texas (0.65 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#123</span> vs <span class="rank">#89</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Rice">1-7</div><div title="North Texas">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Rice">4-4</div><div title="North Texas">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">North Texas</div>
+            <div class="pick-margin">by 16.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:81.2%"></div></div>
+            <div class="wp-label">81% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Rice <span class="ats-line">+16.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">North Texas <span class="market-num">-16.5</span><span class="gap-note">model 0.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">57.2</span><span class="total-mkt">mkt 64.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Charlotte <span class="at">@</span> UAB<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#137</span> vs <span class="rank">#127</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Charlotte">1-7</div><div title="UAB">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Charlotte">4-4</div><div title="UAB">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">UAB</div>
+            <div class="pick-margin">by 14.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:79.1%"></div></div>
+            <div class="wp-label">79% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">UAB <span class="ats-line">-10.0</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">UAB <span class="market-num">-10.0</span><span class="gap-note">model 4.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.3</span><span class="total-mkt">mkt 47.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Iowa State <span class="at">@</span> Baylor<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#78</span> vs <span class="rank">#42</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Iowa State">4-4</div><div title="Baylor">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Iowa State">3-4-1</div><div title="Baylor">6-2</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Baylor</div>
+            <div class="pick-margin">by 13.5</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:76.9%"></div></div>
+            <div class="wp-label">77% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Baylor <span class="ats-line">-10.0</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Baylor <span class="market-num">-10.0</span><span class="gap-note">model 3.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.8</span><span class="total-mkt">mkt 50.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Northern Illinois <span class="at">@</span> San José State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#126</span> vs <span class="rank">#128</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Northern Illinois">0-8</div><div title="San José State">4-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Northern Illinois">2-6</div><div title="San José State">5-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">San José State</div>
+            <div class="pick-margin">by 12.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:75.9%"></div></div>
+            <div class="wp-label">76% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">San José State <span class="ats-line">-10.0</span></div><span class="tier-badge skip" title="losing-record home favourite">SKIP</span></div>
+          <div class="game-market">San José State <span class="market-num">-10.0</span><span class="gap-note">model 2.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">49.6</span><span class="total-mkt">mkt 52.0</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">South Alabama <span class="at">@</span> Louisiana<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#111</span> vs <span class="rank">#97</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="South Alabama">4-4</div><div title="Louisiana">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="South Alabama">4-4</div><div title="Louisiana">5-2-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Louisiana</div>
+            <div class="pick-margin">by 12.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:75.4%"></div></div>
+            <div class="wp-label">75% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Louisiana <span class="ats-line">-8.5</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Louisiana <span class="market-num">-8.5</span><span class="gap-note">model 4.1 pts off</span></div>
+          <div class="game-total"><span class="total-num">56.9</span><span class="total-mkt">mkt 57.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">New Mexico <span class="at">@</span> Nevada<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#68</span> vs <span class="rank">#119</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="New Mexico">7-1</div><div title="Nevada">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="New Mexico">6-2</div><div title="Nevada">4-3-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">New Mexico</div>
+            <div class="pick-margin">by 12.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:74.4%"></div></div>
+            <div class="wp-label">74% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">New Mexico <span class="ats-line">-9.5</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">New Mexico <span class="market-num">-9.5</span><span class="gap-note">model 2.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.7</span><span class="total-mkt">mkt 38.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Kentucky <span class="at">@</span> Tennessee<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#57</span> vs <span class="rank">#16</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Kentucky">7-1</div><div title="Tennessee">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Kentucky">7-1</div><div title="Tennessee">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Tennessee</div>
+            <div class="pick-margin">by 12.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:74.4%"></div></div>
+            <div class="wp-label">74% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Tennessee <span class="ats-line">-6.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Tennessee <span class="market-num">-6.5</span><span class="gap-note">model 5.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.1</span><span class="total-mkt">mkt 50.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Rutgers <span class="at">@</span> Wisconsin<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Wisconsin (0.81 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#58</span> vs <span class="rank">#53</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Rutgers">2-6</div><div title="Wisconsin">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Rutgers">4-4</div><div title="Wisconsin">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Wisconsin</div>
+            <div class="pick-margin">by 11.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:73.6%"></div></div>
+            <div class="wp-label">74% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Rutgers <span class="ats-line">+17.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Wisconsin <span class="market-num">-17.0</span><span class="gap-note">model 5.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.5</span><span class="total-mkt">mkt 46.0</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Cincinnati <span class="at">@</span> Houston<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#60</span> vs <span class="rank">#32</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Cincinnati">5-3</div><div title="Houston">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Cincinnati">4-4</div><div title="Houston">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Houston</div>
+            <div class="pick-margin">by 10.8</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:72.1%"></div></div>
+            <div class="wp-label">72% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Cincinnati <span class="ats-line">+11.0</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Houston <span class="market-num">-11.0</span><span class="gap-note">model 0.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">55.4</span><span class="total-mkt">mkt 62.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Oregon <span class="at">@</span> Ohio State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#2</span> vs <span class="rank">#1</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Oregon">5-3</div><div title="Ohio State">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Oregon">3-5</div><div title="Ohio State">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Ohio State</div>
+            <div class="pick-margin">by 9.8</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:70.2%"></div></div>
+            <div class="wp-label">70% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Ohio State <span class="ats-line">-7.0</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Ohio State <span class="market-num">-7.0</span><span class="gap-note">model 2.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.6</span><span class="total-mkt">mkt 46.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Florida State <span class="at">@</span> Boston College<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#28</span> vs <span class="rank">#94</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Florida State">3-5</div><div title="Boston College">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Florida State">3-4-1</div><div title="Boston College">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Florida State</div>
+            <div class="pick-margin">by 9.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:69.2%"></div></div>
+            <div class="wp-label">69% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Florida State <span class="ats-line">-7.0</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Florida State <span class="market-num">-7.0</span><span class="gap-note">model 2.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.9</span><span class="total-mkt">mkt 51.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Arkansas <span class="at">@</span> Auburn<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#52</span> vs <span class="rank">#30</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Arkansas">3-5</div><div title="Auburn">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Arkansas">3-5</div><div title="Auburn">2-6</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Auburn</div>
+            <div class="pick-margin">by 8.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:68.7%"></div></div>
+            <div class="wp-label">69% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Arkansas <span class="ats-line">+10.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Auburn <span class="market-num">-10.5</span><span class="gap-note">model 1.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.4</span><span class="total-mkt">mkt 52.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Georgia State <span class="at">@</span> App State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#133</span> vs <span class="rank">#109</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Georgia State">4-4</div><div title="App State">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Georgia State">5-3</div><div title="App State">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">App State</div>
+            <div class="pick-margin">by 8.7</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:68.1%"></div></div>
+            <div class="wp-label">68% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">App State <span class="ats-line">-5.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">App State <span class="market-num">-5.0</span><span class="gap-note">model 3.7 pts off</span></div>
+          <div class="game-total"><span class="total-num">54.4</span><span class="total-mkt">mkt 55.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Virginia Tech<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Virginia Tech (0.74 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> SMU<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#45</span> vs <span class="rank">#22</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Virginia Tech">6-2</div><div title="SMU">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Virginia Tech">5-3</div><div title="SMU">2-4-2</div></div>
+          <div class="game-pick">
+            <div class="pick-name">SMU</div>
+            <div class="pick-margin">by 8.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:67.4%"></div></div>
+            <div class="wp-label">67% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">SMU <span class="ats-line">-6.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">SMU <span class="market-num">-6.0</span><span class="gap-note">model 2.3 pts off</span></div>
+          <div class="game-total"><span class="total-num">54.0</span><span class="total-mkt">mkt 55.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Temple <span class="at">@</span> Navy<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#103</span> vs <span class="rank">#70</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Temple">2-6</div><div title="Navy">2-6</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Temple">4-3-1</div><div title="Navy">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Navy</div>
+            <div class="pick-margin">by 8.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:66.9%"></div></div>
+            <div class="wp-label">67% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Navy <span class="ats-line">-7.5</span></div><span class="tier-badge skip" title="losing-record home favourite">SKIP</span></div>
+          <div class="game-market">Navy <span class="market-num">-7.5</span><span class="gap-note">model 0.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.0</span><span class="total-mkt">mkt 54.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">TCU <span class="at">@</span> Arizona<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#37</span> vs <span class="rank">#29</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="TCU">4-4</div><div title="Arizona">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="TCU">3-4-1</div><div title="Arizona">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Arizona</div>
+            <div class="pick-margin">by 8.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:66.8%"></div></div>
+            <div class="wp-label">67% win prob</div>
+          </div>
+          <div class="game-ats"><span class="muted">&mdash;</span></div>
+          <div class="game-market">Arizona <span class="market-num">-8.0</span><span class="gap-note">model 0.0 pts off</span></div>
+          <div class="game-total"><span class="total-num">49.1</span><span class="total-mkt">mkt 43.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Clemson <span class="at">@</span> Syracuse<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Syracuse (0.60 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#24</span> vs <span class="rank">#85</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Clemson">5-3</div><div title="Syracuse">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Clemson">3-5</div><div title="Syracuse">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Clemson</div>
+            <div class="pick-margin">by 6.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:64.7%"></div></div>
+            <div class="wp-label">65% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Clemson <span class="ats-line">-2.5</span></div><span class="tier-badge skip" title="away favourite; letdown after upset win">SKIP</span></div>
+          <div class="game-market">Clemson <span class="market-num">-2.5</span><span class="gap-note">model 4.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.2</span><span class="total-mkt">mkt 50.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Missouri State <span class="at">@</span> Florida International<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#122</span> vs <span class="rank">#115</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Missouri State">3-5</div><div title="Florida International">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Missouri State">4-4</div><div title="Florida International">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Florida International</div>
+            <div class="pick-margin">by 6.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:62.7%"></div></div>
+            <div class="wp-label">63% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Florida International <span class="ats-line">-4.5</span></div><span class="tier-badge skip" title="losing-record home favourite">SKIP</span></div>
+          <div class="game-market">Florida International <span class="market-num">-4.5</span><span class="gap-note">model 1.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">49.3</span><span class="total-mkt">mkt 50.0</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">UCLA<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on UCLA (0.88 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Minnesota<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#62</span> vs <span class="rank">#43</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="UCLA">8-0</div><div title="Minnesota">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="UCLA">8-0</div><div title="Minnesota">6-2</div></div>
+          <div class="game-pick">
+            <div class="pick-name">UCLA</div>
+            <div class="pick-margin">by 5.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:62.1%"></div></div>
+            <div class="wp-label">62% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">UCLA <span class="ats-line">-5.5</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">UCLA <span class="market-num">-5.5</span><span class="gap-note">model 0.1 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.9</span><span class="total-mkt">mkt 39.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">BYU <span class="at">@</span> Utah<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#15</span> vs <span class="rank">#19</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="BYU">7-1</div><div title="Utah">8-0</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="BYU">6-2</div><div title="Utah">7-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Utah</div>
+            <div class="pick-margin">by 5.5</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:61.7%"></div></div>
+            <div class="wp-label">62% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Utah <span class="ats-line">-5.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Utah <span class="market-num">-5.0</span><span class="gap-note">model 0.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.3</span><span class="total-mkt">mkt 49.0</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Marshall <span class="at">@</span> Georgia Southern<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#88</span> vs <span class="rank">#110</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Marshall">5-3</div><div title="Georgia Southern">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Marshall">3-5</div><div title="Georgia Southern">7-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Georgia Southern</div>
+            <div class="pick-margin">by 5.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:61.0%"></div></div>
+            <div class="wp-label">61% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Marshall <span class="ats-line">+10.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Georgia Southern <span class="market-num">-10.5</span><span class="gap-note">model 5.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.2</span><span class="total-mkt">mkt 55.0</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Texas <span class="at">@</span> Missouri<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#7</span> vs <span class="rank">#23</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Texas">6-2</div><div title="Missouri">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Texas">3-5</div><div title="Missouri">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Texas</div>
+            <div class="pick-margin">by 4.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:60.6%"></div></div>
+            <div class="wp-label">61% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Texas <span class="ats-line">-3.0</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Texas <span class="market-num">-3.0</span><span class="gap-note">model 1.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.0</span><span class="total-mkt">mkt 43.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Alabama <span class="at">@</span> LSU<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on LSU (0.62 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#11</span> vs <span class="rank">#17</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Alabama">6-2</div><div title="LSU">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Alabama">4-4</div><div title="LSU">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">LSU</div>
+            <div class="pick-margin">by 4.7</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:60.0%"></div></div>
+            <div class="wp-label">60% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Alabama <span class="ats-line">+5.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">LSU <span class="market-num">-5.5</span><span class="gap-note">model 0.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.4</span><span class="total-mkt">mkt 52.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Western Kentucky<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Western Kentucky (0.59 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Middle Tennessee<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#82</span> vs <span class="rank">#132</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Western Kentucky">3-5</div><div title="Middle Tennessee">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Western Kentucky">4-4</div><div title="Middle Tennessee">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Western Kentucky</div>
+            <div class="pick-margin">by 4.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:59.1%"></div></div>
+            <div class="wp-label">59% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Western Kentucky <span class="ats-line">+1.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Middle Tennessee <span class="market-num">-1.0</span><span class="gap-note">model 5.3 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.3</span><span class="total-mkt">mkt 53.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Louisiana Tech <span class="at">@</span> Troy<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#91</span> vs <span class="rank">#100</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Louisiana Tech">6-2</div><div title="Troy">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Louisiana Tech">7-1</div><div title="Troy">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Louisiana Tech</div>
+            <div class="pick-margin">by 4.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:59.3%"></div></div>
+            <div class="wp-label">59% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Troy <span class="ats-line">+4.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Louisiana Tech <span class="market-num">-4.5</span><span class="gap-note">model 0.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">49.7</span><span class="total-mkt">mkt 47.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">North Carolina <span class="at">@</span> UConn<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on UConn (0.62 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup><span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#59</span> vs <span class="rank">#107</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="North Carolina">4-4</div><div title="UConn">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="North Carolina">5-3</div><div title="UConn">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">North Carolina</div>
+            <div class="pick-margin">by 3.8</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:58.2%"></div></div>
+            <div class="wp-label">58% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">UConn <span class="ats-line">+7.0</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">North Carolina <span class="market-num">-7.0</span><span class="gap-note">model 3.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.7</span><span class="total-mkt">mkt 55.0</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Nebraska <span class="at">@</span> Illinois<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#34</span> vs <span class="rank">#35</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Nebraska">5-3</div><div title="Illinois">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Nebraska">6-1-1</div><div title="Illinois">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Nebraska</div>
+            <div class="pick-margin">by 3.7</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:58.0%"></div></div>
+            <div class="wp-label">58% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Illinois <span class="ats-line">+4.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Nebraska <span class="market-num">-4.5</span><span class="gap-note">model 0.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">52.1</span><span class="total-mkt">mkt 50.0</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">UCF <span class="at">@</span> Kansas<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#54</span> vs <span class="rank">#51</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="UCF">4-4</div><div title="Kansas">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="UCF">5-3</div><div title="Kansas">2-5-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Kansas</div>
+            <div class="pick-margin">by 3.5</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:57.5%"></div></div>
+            <div class="wp-label">57% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Kansas <span class="ats-line">-2.5</span></div><span class="tier-badge skip" title="losing-record home favourite">SKIP</span></div>
+          <div class="game-market">Kansas <span class="market-num">-2.5</span><span class="gap-note">model 1.0 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.6</span><span class="total-mkt">mkt 48.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Old Dominion <span class="at">@</span> Coastal Carolina<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#77</span> vs <span class="rank">#124</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Old Dominion">2-7</div><div title="Coastal Carolina">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Old Dominion">1-8</div><div title="Coastal Carolina">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Coastal Carolina</div>
+            <div class="pick-margin">by 3.4</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:57.4%"></div></div>
+            <div class="wp-label">57% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Old Dominion <span class="ats-line">+7.0</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Coastal Carolina <span class="market-num">-7.0</span><span class="gap-note">model 3.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.0</span><span class="total-mkt">mkt 44.0</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Vanderbilt <span class="at">@</span> Mississippi State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#27</span> vs <span class="rank">#47</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Vanderbilt">3-5</div><div title="Mississippi State">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Vanderbilt">3-5</div><div title="Mississippi State">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Mississippi State</div>
+            <div class="pick-margin">by 3.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:57.2%"></div></div>
+            <div class="wp-label">57% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Mississippi State <span class="ats-line">-3.0</span></div><span class="tier-badge strong" title="home favourite">STRONG</span></div>
+          <div class="game-market">Mississippi State <span class="market-num">-3.0</span><span class="gap-note">model 0.3 pts off</span></div>
+          <div class="game-total"><span class="total-num">55.5</span><span class="total-mkt">mkt 48.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Duke <span class="at">@</span> NC State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#46</span> vs <span class="rank">#44</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Duke">6-2</div><div title="NC State">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Duke">6-2</div><div title="NC State">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Duke</div>
+            <div class="pick-margin">by 3.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:56.5%"></div></div>
+            <div class="wp-label">56% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">NC State <span class="ats-line">+4.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Duke <span class="market-num">-4.5</span><span class="gap-note">model 1.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.3</span><span class="total-mkt">mkt 51.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Penn State <span class="at">@</span> Washington<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#21</span> vs <span class="rank">#18</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Penn State">4-4</div><div title="Washington">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Penn State">4-4</div><div title="Washington">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Washington</div>
+            <div class="pick-margin">by 2.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:56.3%"></div></div>
+            <div class="wp-label">56% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Washington <span class="ats-line">-2.5</span></div><span class="tier-badge skip" title="letdown after upset win">SKIP</span></div>
+          <div class="game-market">Washington <span class="market-num">-2.5</span><span class="gap-note">model 0.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">49.8</span><span class="total-mkt">mkt 44.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">South Florida <span class="at">@</span> East Carolina<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#65</span> vs <span class="rank">#69</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="South Florida">6-2</div><div title="East Carolina">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="South Florida">4-4</div><div title="East Carolina">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">South Florida</div>
+            <div class="pick-margin">by 2.3</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:55.0%"></div></div>
+            <div class="wp-label">55% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">South Florida <span class="ats-line">+1.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">East Carolina <span class="market-num">-1.5</span><span class="gap-note">model 3.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">47.2</span><span class="total-mkt">mkt 39.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Oklahoma State<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Oklahoma State (1.14 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Kansas State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#80</span> vs <span class="rank">#39</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Oklahoma State">5-3</div><div title="Kansas State">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Oklahoma State">6-2</div><div title="Kansas State">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Kansas State</div>
+            <div class="pick-margin">by 2.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:54.8%"></div></div>
+            <div class="wp-label">55% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Kansas State <span class="ats-line">+4.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Oklahoma State <span class="market-num">-4.0</span><span class="gap-note">model 6.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">56.9</span><span class="total-mkt">mkt 62.0</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Texas A&amp;M <span class="at">@</span> South Carolina<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#9</span> vs <span class="rank">#25</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Texas A&amp;M">4-4</div><div title="South Carolina">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Texas A&amp;M">4-4</div><div title="South Carolina">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">South Carolina</div>
+            <div class="pick-margin">by 2.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:54.8%"></div></div>
+            <div class="wp-label">55% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Texas A&amp;M <span class="ats-line">+7.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">South Carolina <span class="market-num">-7.0</span><span class="gap-note">model 4.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">54.4</span><span class="total-mkt">mkt 51.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Maryland <span class="at">@</span> Purdue<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#50</span> vs <span class="rank">#84</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Maryland">2-6</div><div title="Purdue">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Maryland">3-4-1</div><div title="Purdue">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Purdue</div>
+            <div class="pick-margin">by 1.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:53.5%"></div></div>
+            <div class="wp-label">54% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Maryland <span class="ats-line">+6.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Purdue <span class="market-num">-6.5</span><span class="gap-note">model 4.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">55.2</span><span class="total-mkt">mkt 57.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Delaware <span class="at">@</span> Kennesaw State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#104</span> vs <span class="rank">#106</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Delaware">4-4</div><div title="Kennesaw State">2-6</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Delaware">5-3</div><div title="Kennesaw State">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Kennesaw State</div>
+            <div class="pick-margin">by 1.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:53.4%"></div></div>
+            <div class="wp-label">53% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Kennesaw State <span class="ats-line">+2.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Delaware <span class="market-num">-2.5</span><span class="gap-note">model 4.1 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.8</span><span class="total-mkt">mkt 55.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Tulsa <span class="at">@</span> Tulane<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#101</span> vs <span class="rank">#73</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Tulsa">4-4</div><div title="Tulane">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Tulsa">4-4</div><div title="Tulane">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Tulane</div>
+            <div class="pick-margin">by 1.0</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:52.1%"></div></div>
+            <div class="wp-label">52% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Tulane <span class="ats-line">+1.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Tulsa <span class="market-num">-1.5</span><span class="gap-note">model 2.5 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.3</span><span class="total-mkt">mkt 50.0</span></div>
+        </div></div>
+        </div>
+
+        <div class="day-block">
+          <h3 class="day-heading">Sun Nov 8</h3>
+          <div class="game-list">
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">West Virginia <span class="at">@</span> Texas Tech<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#76</span> vs <span class="rank">#6</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="West Virginia">5-3</div><div title="Texas Tech">7-1</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="West Virginia">4-3-1</div><div title="Texas Tech">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Texas Tech</div>
+            <div class="pick-margin">by 23.8</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:90.2%"></div></div>
+            <div class="wp-label">90% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Texas Tech <span class="ats-line">-16.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Texas Tech <span class="market-num">-16.5</span><span class="gap-note">model 7.3 pts off</span></div>
+          <div class="game-total"><span class="total-num">57.8</span><span class="total-mkt">mkt 65.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Sam Houston <span class="at">@</span> Jacksonville State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#136</span> vs <span class="rank">#96</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Sam Houston">1-7</div><div title="Jacksonville State">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Sam Houston">3-5</div><div title="Jacksonville State">4-3-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Jacksonville State</div>
+            <div class="pick-margin">by 21.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:87.5%"></div></div>
+            <div class="wp-label">88% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Jacksonville State <span class="ats-line">-16.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Jacksonville State <span class="market-num">-16.5</span><span class="gap-note">model 4.7 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.7</span><span class="total-mkt">mkt 48.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Liberty <span class="at">@</span> New Mexico State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#95</span> vs <span class="rank">#125</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Liberty">7-1</div><div title="New Mexico State">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Liberty">6-2</div><div title="New Mexico State">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Liberty</div>
+            <div class="pick-margin">by 19.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:85.2%"></div></div>
+            <div class="wp-label">85% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Liberty <span class="ats-line">-17.0</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Liberty <span class="market-num">-17.0</span><span class="gap-note">model 2.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.6</span><span class="total-mkt">mkt 46.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Michigan State <span class="at">@</span> Michigan<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#72</span> vs <span class="rank">#14</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Michigan State">2-6</div><div title="Michigan">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Michigan State">4-3-1</div><div title="Michigan">3-5</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Michigan</div>
+            <div class="pick-margin">by 18.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:83.7%"></div></div>
+            <div class="wp-label">84% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Michigan <span class="ats-line">-13.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Michigan <span class="market-num">-13.5</span><span class="gap-note">model 4.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.1</span><span class="total-mkt">mkt 40.0</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Hawai&#x27;i <span class="at">@</span> UTEP<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#81</span> vs <span class="rank">#129</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Hawai&#x27;i">2-6</div><div title="UTEP">1-7</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Hawai&#x27;i">4-4</div><div title="UTEP">1-7</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Hawai&#x27;i</div>
+            <div class="pick-margin">by 13.4</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:76.7%"></div></div>
+            <div class="wp-label">77% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Hawai&#x27;i <span class="ats-line">-9.5</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Hawai&#x27;i <span class="market-num">-9.5</span><span class="gap-note">model 3.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.0</span><span class="total-mkt">mkt 48.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Louisville <span class="at">@</span> Georgia Tech<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#31</span> vs <span class="rank">#40</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Louisville">5-3</div><div title="Georgia Tech">2-6</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Louisville">5-3</div><div title="Georgia Tech">1-7</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Louisville</div>
+            <div class="pick-margin">by 11.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:74.1%"></div></div>
+            <div class="wp-label">74% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Georgia Tech <span class="ats-line">+14.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Louisville <span class="market-num">-14.5</span><span class="gap-note">model 2.6 pts off</span></div>
+          <div class="game-total"><span class="total-num">55.9</span><span class="total-mkt">mkt 61.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Wyoming <span class="at">@</span> UNLV<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#113</span> vs <span class="rank">#64</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Wyoming">5-3</div><div title="UNLV">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Wyoming">4-4</div><div title="UNLV">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">UNLV</div>
+            <div class="pick-margin">by 10.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:71.1%"></div></div>
+            <div class="wp-label">71% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">UNLV <span class="ats-line">-6.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">UNLV <span class="market-num">-6.0</span><span class="gap-note">model 4.2 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.4</span><span class="total-mkt">mkt 48.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Colorado<sup class="flag" title="SP+/FPI/bottom-up model disagree unusually widely on Colorado (0.68 spread of z-scores) &mdash; worth a manual/qualitative look">&#9888;</sup> <span class="at">@</span> Arizona State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#74</span> vs <span class="rank">#55</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Colorado">3-5</div><div title="Arizona State">4-4</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Colorado">2-5-1</div><div title="Arizona State">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Arizona State</div>
+            <div class="pick-margin">by 7.7</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:66.2%"></div></div>
+            <div class="wp-label">66% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Arizona State <span class="ats-line">-3.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree; home favourite">STRONG</span></div>
+          <div class="game-market">Arizona State <span class="market-num">-3.0</span><span class="gap-note">model 4.7 pts off</span></div>
+          <div class="game-total"><span class="total-num">50.5</span><span class="total-mkt">mkt 49.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Fresno State <span class="at">@</span> Utah State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#63</span> vs <span class="rank">#93</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Fresno State">5-3</div><div title="Utah State">3-5</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Fresno State">6-2</div><div title="Utah State">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Fresno State</div>
+            <div class="pick-margin">by 7.5</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:65.9%"></div></div>
+            <div class="wp-label">66% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Fresno State <span class="ats-line">-2.5</span></div><span class="tier-badge skip" title="away favourite; letdown after upset win">SKIP</span></div>
+          <div class="game-market">Fresno State <span class="market-num">-2.5</span><span class="gap-note">model 5.0 pts off</span></div>
+          <div class="game-total"><span class="total-num">47.6</span><span class="total-mkt">mkt 42.5</span></div>
+        </div>
+
+        <div class="game-row tier-skip">
+          <div class="game-main">
+            <div class="matchup">Georgia <span class="at">@</span> Ole Miss<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#5</span> vs <span class="rank">#13</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Georgia">7-1</div><div title="Ole Miss">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Georgia">6-2</div><div title="Ole Miss">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Georgia</div>
+            <div class="pick-margin">by 6.9</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:64.6%"></div></div>
+            <div class="wp-label">65% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Georgia <span class="ats-line">-3.5</span></div><span class="tier-badge skip" title="away favourite">SKIP</span></div>
+          <div class="game-market">Georgia <span class="market-num">-3.5</span><span class="gap-note">model 3.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">55.8</span><span class="total-mkt">mkt 56.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Miami <span class="at">@</span> Notre Dame<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#8</span> vs <span class="rank">#3</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Miami">8-0</div><div title="Notre Dame">7-1</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Miami">5-3</div><div title="Notre Dame">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Notre Dame</div>
+            <div class="pick-margin">by 5.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:60.8%"></div></div>
+            <div class="wp-label">61% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Miami <span class="ats-line">+5.5</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Notre Dame <span class="market-num">-5.5</span><span class="gap-note">model 0.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">56.5</span><span class="total-mkt">mkt 57.5</span></div>
+        </div>
+
+        <div class="game-row">
+          <div class="game-main">
+            <div class="matchup">Air Force <span class="at">@</span> Army<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#90</span> vs <span class="rank">#86</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Air Force">6-2</div><div title="Army">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Air Force">5-3</div><div title="Army">3-4-1</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Army</div>
+            <div class="pick-margin">by 2.1</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:54.5%"></div></div>
+            <div class="wp-label">55% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Air Force <span class="ats-line">+3.0</span></div><span class="tier-badge" title="no supporting signal">NO SIGNAL</span></div>
+          <div class="game-market">Army <span class="market-num">-3.0</span><span class="gap-note">model 0.9 pts off</span></div>
+          <div class="game-total"><span class="total-num">53.4</span><span class="total-mkt">mkt 46.0</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Texas State <span class="at">@</span> Oregon State<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#67</span> vs <span class="rank">#108</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Texas State">4-4</div><div title="Oregon State">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Texas State">4-4</div><div title="Oregon State">6-2</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Oregon State</div>
+            <div class="pick-margin">by 1.7</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:53.7%"></div></div>
+            <div class="wp-label">54% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Texas State <span class="ats-line">+6.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Oregon State <span class="market-num">-6.5</span><span class="gap-note">model 4.8 pts off</span></div>
+          <div class="game-total"><span class="total-num">61.4</span><span class="total-mkt">mkt 72.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Oklahoma <span class="at">@</span> Florida<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#12</span> vs <span class="rank">#26</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Oklahoma">4-4</div><div title="Florida">5-3</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Oklahoma">3-5</div><div title="Florida">4-4</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Florida</div>
+            <div class="pick-margin">by 1.6</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:53.4%"></div></div>
+            <div class="wp-label">53% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Oklahoma <span class="ats-line">+6.0</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Florida <span class="market-num">-6.0</span><span class="gap-note">model 4.4 pts off</span></div>
+          <div class="game-total"><span class="total-num">51.7</span><span class="total-mkt">mkt 45.5</span></div>
+        </div>
+
+        <div class="game-row tier-strong">
+          <div class="game-main">
+            <div class="matchup">Iowa <span class="at">@</span> Northwestern<span class="home-tag" title="Home team">HOME</span></div>
+            <div class="ranks"><span class="rank">#20</span> vs <span class="rank">#41</span></div>
+          </div>
+          <div class="game-rec"><span class="rec-label">W-L</span><div title="Iowa">6-2</div><div title="Northwestern">6-2</div></div>
+          <div class="game-rec"><span class="rec-label">ATS</span><div title="Iowa">5-3</div><div title="Northwestern">5-3</div></div>
+          <div class="game-pick">
+            <div class="pick-name">Iowa</div>
+            <div class="pick-margin">by 1.2</div>
+          </div>
+          <div class="game-wp">
+            <div class="wp-bar-track"><div class="wp-bar-fill" style="width:52.6%"></div></div>
+            <div class="wp-label">53% win prob</div>
+          </div>
+          <div class="game-ats"><div class="ats-side">Iowa <span class="ats-line">+2.5</span></div><span class="tier-badge strong" title="SP+ and preseason agree">STRONG</span></div>
+          <div class="game-market">Northwestern <span class="market-num">-2.5</span><span class="gap-note">model 3.7 pts off</span></div>
+          <div class="game-total"><span class="total-num">48.8</span><span class="total-mkt">mkt 45.5</span></div>
+        </div></div>
+        </div>
+  </section>
+
+  <section class="week">
+    <details class="buy-games">
+      <summary>1 Week 10 games vs. FCS/non-FBS opponents (no rating to project against)</summary>
+      <div class="buy-day"><h4>Sat Nov 7</h4><ul class="buy-list"><li><span class="buy-team">Wake Forest</span> vs <span class="buy-opp">Merrimack</span> <span class="buy-tag">home</span></li></ul></div>
+    </details>
+  </section>
+
+  <footer class="notes">
+
+    <p>Model (from Nov 3, 2026): <code>margin = 0.7 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
+    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage)</code>, win probability from a normal
+    CDF (&sigma;=18.4). The SP+ weight replaced our score-based in-season rating, which ran below 50% ATS this season;
+    0.6-0.8 SP+ weight was best for both accuracy and ATS in 2025 and 2026. Games with no SP+ row fall back to the
+    old preseason + in-season formula. HFA: +2.9 at a true home site, +1.8 at a "neutral" site, +6.0 for
+    altitude-market home teams (Air Force, BYU, Colorado, Colorado State, New Mexico, Utah, Wyoming).
+    Totals are a calibrated offense/defense matchup average: preseason SP+ off/def blended with each team's
+    opponent-adjusted 2026 points scored/allowed (more games played = more weight). More accurate than
+    preseason-only in a 2023-25 replay, but still well behind the market's total and no over/under edge --
+    context only.</p>
+    <p>W-L and ATS columns: each team's season-to-date record before this week, listed in matchup order
+    (hover for the team). W-L includes games vs. FCS opponents; ATS counts games with a line, graded against
+    the median closing spread across books (W-L-push). Context only -- not a model input.</p>
+    <p>Data: SP+ weekly picks sheet (Bill Connelly, public Google Sheet),
+    CollegeFootballData.com (games/lines/SP+/FPI/recruiting/returning production),
+    ESPN FPI, Phil Steele's 2026 CFB Preview, this project's bottom-up 2026 power ratings.</p>
+
+  </footer>
+</div>

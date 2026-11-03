@@ -130,6 +130,9 @@ def grade_week(year, week, proj_path):
             "model_ou_side": model_ou_side, "ou_result_market": ou_result_market,
             "model_ou_covered": model_ou_covered,
             "edge_vs_market": edge_vs_market, "rule_home_3plus": rule_home_3plus,
+            # 2026-11-03+: projection-time tier/source (blank for weeks built before the SP+ blend)
+            "ats_tier": r.get("ats_tier"), "ats_tier_reason": r.get("ats_tier_reason"),
+            "model_source": r.get("model_source"), "sp_ats_pick": r.get("sp_ats_pick"),
         })
 
     return pd.DataFrame(rows)
@@ -149,6 +152,13 @@ def summarize(df, label):
         print(f"    ATS (model's side of the market number, informational only -- no backtested edge): "
               f"{int(ats['model_side_covered'].sum())}-{int((~ats['model_side_covered'].astype(bool)).sum())} "
               f"({ats['model_side_covered'].mean():.1%}) over {len(ats)} games with a line")
+
+        if "ats_tier" in ats.columns:
+            for tier in ("STRONG", "NO SIGNAL", "SKIP"):
+                t = ats[ats["ats_tier"] == tier]
+                if not t.empty:
+                    print(f"    ATS tier {tier}: {int(t['model_side_covered'].sum())}-"
+                          f"{int((~t['model_side_covered'].astype(bool)).sum())} ({t['model_side_covered'].mean():.1%})")
 
         rule = ats[ats["rule_home_3plus"] == True]
         if not rule.empty:

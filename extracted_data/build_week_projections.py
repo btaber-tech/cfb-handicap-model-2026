@@ -26,10 +26,18 @@ For each FBS-vs-FBS game:
     in_season_ratings_2026.csv (build_in_season_ratings.py) if it exists
     and both teams have played at least one game -- see IN_SEASON_WEIGHT
     below for how much this counts vs. the preseason blend.
-  - model_margin = (1 - w)*preseason_diff + w*in_season_diff + HFA, where
-    w = IN_SEASON_WEIGHT(week). Falls back to w=0 (pure preseason) for any
-    game missing in-season data (bye, first game of the season, file not
-    built yet).
+  - model_margin (2026-11-03 onward) = SPPLUS_WEIGHT * SP+ weekly projected
+    margin (Connelly's public picks sheet, fetch_spplus_picks.py) +
+    (1 - SPPLUS_WEIGHT) * (preseason_diff + HFA). The SP+ projection already
+    includes home field. The one-pass SRS in-season rating is NO LONGER in
+    the margin when SP+ has the game: on 2026 wk3-9 it ran 48.4% ATS with a
+    negative edge/result correlation, while 0.6-0.8 SP+ weight was best for
+    MAE and ATS in both 2025 and 2026 (see ats_tiers_README.md).
+  - Fallback when SP+ has no row for a game (sheet not posted yet, name
+    mismatch): the old formula, (1 - w)*preseason_diff + w*in_season_diff +
+    HFA with w = IN_SEASON_WEIGHT(week). model_source records which was used.
+  - ats_tier (STRONG / NO SIGNAL / SKIP) on the model's side of the market
+    spread -- definitions and backtest in ats_tiers_README.md.
   - win prob from a normal CDF on that margin with sigma=SIGMA.
   - market_margin, if a line exists yet, shown for reference only -- per
     the backtest (cfb-backtest-findings-2026), model-vs-spread gaps are
@@ -60,6 +68,7 @@ import os
 import pandas as pd
 
 from cfbd_fetch import cfbd_get_save, get_current_week
+from situational_flags import conflict_reasons, team_situations
 from team_records import compute_team_records, fmt_ats, fmt_wl
 
 CFBD_TO_ATHLON = {
@@ -91,6 +100,43 @@ TOTAL_CAL_B = 0.389275
 TOTAL_SHRINK_K = 4
 TOTAL_CAL_A_INSEASON = 14.120
 TOTAL_CAL_B_INSEASON = 0.7308
+# Weight on SP+'s weekly projected margin (rest = preseason blend + HFA). Chosen
+# 2026-11-03 from 2025 (replica) + 2026 (live) tests: 0.6-0.8 best in both seasons.
+SPPLUS_WEIGHT = 0.7
+
+
+def load_spplus(year):
+    """{(frozenset{home, away}, cfbd_week): (sp_home_margin, sp_ats_pick)} from spplus_picks_{year}.csv."""
+    path = f"spplus_picks_{year}.csv"
+    if not os.path.exists(path):
+        return {}
+    sp = pd.read_csv(path)
+    out = {}
+    for r in sp.itertuples(index=False):
+        if pd.isna(r.sp_proj_margin):
+            continue
+        m = r.sp_proj_margin if r.sp_proj_winner == r.home else -r.sp_proj_margin
+        out[(frozenset([r.home, r.away]), int(r.week))] = (float(m), r.home, r.sp_ats_pick)
+    return out
+
+
+def ats_tier(edge, sp_edge, pre_edge, side_is_home, neutral, side_is_fav, reasons):
+    """STRONG / NO SIGNAL / SKIP for the model's ATS side (see ats_tiers_README.md).
+    SKIP: an away favourite, or a situational conflict. STRONG: SP+ and the preseason
+    blend each independently on this side of the line, or the side is the home favourite."""
+    if not side_is_home and not neutral and side_is_fav:
+        reasons = ["away favourite"] + reasons
+    if reasons:
+        return "SKIP", "; ".join(reasons)
+    support = []
+    if sp_edge is not None and pre_edge is not None and \
+            (sp_edge > 0) == (edge > 0) and (pre_edge > 0) == (edge > 0) and sp_edge != 0 and pre_edge != 0:
+        support.append("SP+ and preseason agree")
+    if side_is_home and not neutral and side_is_fav:
+        support.append("home favourite")
+    if support:
+        return "STRONG", "; ".join(support)
+    return "NO SIGNAL", ""
 
 
 def norm_cdf(x):
@@ -121,6 +167,8 @@ def main():
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--week", type=int, default=None, help="If omitted, auto-detect the upcoming week via CFBD's calendar")
     ap.add_argument("--skip-fetch", action="store_true", help="Reuse existing cfbd_raw/ JSON instead of re-pulling from CFBD")
+    ap.add_argument("--out-dir", default=".", help="Where to write the CSVs (use a scratch dir to re-run past weeks "
+                                                    "without overwriting the graded projection files)")
     args = ap.parse_args()
 
     year = args.year
@@ -202,6 +250,16 @@ def main():
     # Season-to-date W-L / ATS records (games before this week) for the page's
     # record columns -- context only, not a model input. See team_records.py.
     team_records = compute_team_records(year, week - 1, fetch=not args.skip_fetch) if week > 1 else {}
+    # Situational skip angles, from the *_final.json files compute_team_records just saved.
+    situations = team_situations(year, week - 1) if week > 1 else {}
+
+    spplus = load_spplus(year)
+    n_sp_week = sum(1 for (_, wk) in spplus if wk == week)
+    if n_sp_week:
+        print(f"SP+ weekly projections: {n_sp_week} games for week {week} (weight {SPPLUS_WEIGHT:.0%})")
+    else:
+        print(f"NOTE: no SP+ rows for week {week} in spplus_picks_{year}.csv -- run fetch_spplus_picks.py first. "
+              f"Falling back to the preseason + in-season SRS formula for every game.")
 
     def resolve(cfbd_name):
         key = CFBD_TO_ATHLON.get(cfbd_name, cfbd_name)
@@ -262,7 +320,22 @@ def main():
             hfa = HFA_ALTITUDE
         else:
             hfa = HFA_BASE
-        model_margin = core_diff + hfa  # positive = home favored
+        pre_margin = preseason_diff + hfa
+        sp_row = spplus.get((frozenset([home, away]), week))
+        sp_home_margin = None
+        if sp_row is not None:
+            sp_home_margin = sp_row[0] if sp_row[1] == home else -sp_row[0]  # sheet's listed home may differ at neutral sites
+            if pd.notna(pre_margin):
+                model_margin = SPPLUS_WEIGHT * sp_home_margin + (1 - SPPLUS_WEIGHT) * pre_margin
+                model_source = "SP+ blend"
+            else:
+                model_margin = sp_home_margin
+                model_source = "SP+ only (no preseason rating)"
+            game_w = 0.0
+        else:
+            model_margin = core_diff + hfa  # fallback: preseason + in-season SRS
+            model_source = "fallback (no SP+ row)"
+        # positive model_margin = home favored
 
         home_wp = norm_cdf(model_margin / SIGMA)
 
@@ -284,6 +357,24 @@ def main():
 
         pick = home if model_margin > 0 else away
         pick_margin = abs(model_margin)
+
+        # ATS side + tier (vs the market number at projection time)
+        ats_side, tier, tier_reason, sp_ats_pick = None, None, None, (sp_row[2] if sp_row else None)
+        if market_margin is not None and round(model_margin, 1) != market_margin:
+            edge = model_margin - market_margin
+            side_is_home = edge > 0
+            ats_side = home if side_is_home else away
+            opp = away if side_is_home else home
+            side_is_fav = market_margin > 0 if side_is_home else market_margin < 0
+            reasons = conflict_reasons(ats_side, opp, side_is_home, neutral, side_is_fav, situations,
+                                       g.get("homeConference") if side_is_home else g.get("awayConference"),
+                                       g.get("awayConference") if side_is_home else g.get("homeConference"))
+            if sp_home_margin is None:
+                tier, tier_reason = "NO SIGNAL", "no SP+ projection (fallback formula)"
+            else:
+                tier, tier_reason = ats_tier(edge, sp_home_margin - market_margin,
+                                             (pre_margin - market_margin) if pd.notna(pre_margin) else None,
+                                             side_is_home, neutral, side_is_fav, reasons)
 
         model_total = None
         if pd.notna(hr["off_sp_plus"]) and pd.notna(hr["def_sp_plus"]) and \
@@ -321,13 +412,18 @@ def main():
             "model_total": model_total, "market_total": market_total,
             "total_gap": round(model_total - market_total, 1) if (model_total is not None and market_total is not None) else None,
             "disagreement_team": flagged_team, "disagreement_value": round(flagged_value, 2) if flagged_value else None,
+            "model_source": model_source,
+            "sp_home_margin": round(sp_home_margin, 1) if sp_home_margin is not None else None,
+            "pre_home_margin": round(pre_margin, 1) if pd.notna(pre_margin) else None,
+            "sp_ats_pick": sp_ats_pick,
+            "ats_side": ats_side, "ats_tier": tier, "ats_tier_reason": tier_reason,
         })
 
     if unmatched:
         print("UNMATCHED TEAM NAMES (no power rating found):", sorted(unmatched))
 
-    proj_out = f"week{week}_{year}_projections.csv"
-    other_out = f"week{week}_{year}_fbs_vs_other.csv"
+    proj_out = os.path.join(args.out_dir, f"week{week}_{year}_projections.csv")
+    other_out = os.path.join(args.out_dir, f"week{week}_{year}_fbs_vs_other.csv")
 
     df = pd.DataFrame(rows).sort_values(["date", "model_margin"], ascending=[True, False])
     df.to_csv(proj_out, index=False)
@@ -344,6 +440,11 @@ def main():
             print(with_market.sort_values("abs_gap", ascending=False).head(15)[
                 ["date", "away", "home", "model_pick", "model_margin", "market_home_margin", "model_vs_market_gap"]
             ].to_string(index=False))
+
+        if "ats_tier" in df.columns:
+            print("\n=== ATS tiers ===")
+            print(df["ats_tier"].value_counts(dropna=False).to_string())
+            print(df["model_source"].value_counts().to_string())
 
     print(f"\nyear={year} week={week}")  # machine-readable tail line for the automation routine
 
