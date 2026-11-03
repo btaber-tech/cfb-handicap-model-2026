@@ -20,6 +20,8 @@ from datetime import datetime
 
 import pandas as pd
 
+from market_signals import signals_for_week
+
 CSS = """
 :root {
   --bg: #f5f4ef;
@@ -97,6 +99,10 @@ section.week { margin-bottom: 3rem; }
 .tier-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.08rem 0.4rem; border-radius: 3px; margin-top: 0.2rem; cursor: help; border: 1px solid var(--border); color: var(--text-muted); }
 .tier-badge.strong { background: var(--accent); border-color: var(--accent); color: var(--surface); }
 .tier-badge.skip { border-style: dashed; }
+.mkt-move { display: block; font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); margin-top: 0.15rem; }
+.mkt-move .up { color: var(--accent); font-weight: 600; }
+.mkt-move .down { color: var(--gold); font-weight: 600; }
+.rlm-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.6rem; font-weight: 700; letter-spacing: 0.05em; padding: 0.02rem 0.35rem; border-radius: 3px; margin-top: 0.2rem; border: 1px solid var(--gold); color: var(--gold); cursor: help; }
 .strong-list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0 0 2rem; }
 .strong-list h2 { font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 0.6rem; }
 .strong-list ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 1.5rem; font-size: 0.88rem; }
@@ -150,6 +156,13 @@ CALLOUT = """
     it's shown as a plain number only. <strong>Totals are context only</strong> &mdash; no O/U signal from our
     model or SP+ in either season. A <span class="flag">&#9888;</span> next to a team means our preseason
     sources unusually disagree on that team.
+    <br><br><strong>Market watch</strong> (under the spread): the ATS pick's line at open and now, with
+    <span style="color:var(--accent)">&#9650;</span> if it has moved toward the pick and
+    <span style="color:var(--gold)">&#9660;</span> if against; the public ticket % and money % (Action Network);
+    and an <span class="rlm-badge" style="margin-top:0;cursor:default">RLM</span> badge when 55%+ of tickets are on
+    one side but the line moved the other way. <strong>Tracked, not tiered</strong>: in backtests, line movement
+    toward the model helped in 2026 but hurt in 2025, and RLM has no history yet. The scorecard is
+    building a forward record of both.
 """
 
 FOOTER = """
@@ -248,6 +261,7 @@ def build_game_row(row):
         gap = row.get("model_vs_market_gap")
         if pd.notna(gap):
             market_html += f'<span class="gap-note">model {abs(gap):.1f} pts off</span>'
+    market_html += market_watch_html(row)
 
     ats_html, tier_class = '<span class="muted">&mdash;</span>', ""
     tier = row.get("ats_tier")
@@ -287,6 +301,37 @@ def build_game_row(row):
           <div class="game-market">{market_html}</div>
           <div class="game-total">{total_html}</div>
         </div>"""
+
+
+def market_watch_html(row):
+    """Line move (open -> latest) relative to the ATS pick, public splits, RLM. Info only."""
+    home, away = row["home"], row["away"]
+    side = row.get("ats_side") if isinstance(row.get("ats_side"), str) else None
+    out = ""
+    o, c = row.get("open_home_spread"), row.get("close_home_spread")
+    if pd.notna(o) and pd.notna(c) and side:
+        so, sc = (o, c) if side == home else (-o, -c)
+        mv = row.get("line_move_model")
+        arrow = ""
+        if pd.notna(mv) and mv >= 0.5:
+            arrow = f' <span class="up" title="Line moved toward the ATS pick since open">&#9650;{mv:.1f}</span>'
+        elif pd.notna(mv) and mv <= -0.5:
+            arrow = f' <span class="down" title="Line moved against the ATS pick since open">&#9660;{-mv:.1f}</span>'
+        out += f'<span class="mkt-move">{esc(side)}: open {so:+.1f} &rarr; now {sc:+.1f}{arrow}</span>'
+    tix, money = row.get("home_tickets_pct"), row.get("home_money_pct")
+    if pd.notna(tix):
+        t_team, t_pct = (home, tix) if tix >= 50 else (away, 100 - tix)
+        m_txt = ""
+        if pd.notna(money):
+            m_team, m_pct = (home, money) if money >= 50 else (away, 100 - money)
+            m_txt = f" &middot; {m_pct:.0f}% $ {esc(m_team)}"
+        out += f'<span class="mkt-move">{t_pct:.0f}% tix {esc(t_team)}{m_txt}</span>'
+    rlm = row.get("rlm_side")
+    if isinstance(rlm, str) and rlm:
+        tip = ("Reverse line movement: most tickets are on the other side but the line moved toward "
+               f"{esc(rlm)}. Tracked only, not part of the tier.")
+        out += f'<span class="rlm-badge" title="{tip}">RLM &rarr; {esc(rlm)}</span>'
+    return out
 
 
 def build_day_block(date_str, rows):
@@ -340,6 +385,11 @@ def main():
         other_df = pd.read_csv(other_csv)
     except FileNotFoundError:
         other_df = pd.DataFrame(columns=["date", "fbs_team", "opponent", "home_away"])
+
+    try:  # market watch columns (open/now line, public %, RLM) -- info only, never blocks the page
+        df = pd.concat([df, signals_for_week(df, year, week)], axis=1)
+    except Exception as e:
+        print(f"market signals skipped: {e}")
 
     dates = sorted(df["date"].unique())
     date_range = f"{day_heading(dates[0])} &ndash; {day_heading(dates[-1])}" if dates else ""

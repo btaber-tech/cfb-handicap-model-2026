@@ -35,6 +35,7 @@ import re
 import pandas as pd
 
 from cfbd_fetch import cfbd_get
+from market_signals import signals_for_week
 
 
 def grade_week(year, week, proj_path):
@@ -135,7 +136,55 @@ def grade_week(year, week, proj_path):
             "model_source": r.get("model_source"), "sp_ats_pick": r.get("sp_ats_pick"),
         })
 
-    return pd.DataFrame(rows)
+    out = pd.DataFrame(rows)
+    if out.empty:
+        return out
+    # Market signals (tracked, not tiered -- see market_signals.py): open/close line,
+    # line move vs the model's side, CLV, public ticket/money %, reverse line movement.
+    try:
+        sig = signals_for_week(proj, year, week)
+        sig["game_id"] = proj["game_id"].values
+        out = out.merge(sig, on="game_id", how="left")
+        # graded at the line we posted the pick on; also record result at the close
+        def cov_close(r):
+            c, side = r.get("close_home_spread"), r.get("model_ats_side")
+            if pd.isna(c) or not isinstance(side, str):
+                return None
+            m = r["actual_margin"] + c
+            if m == 0:
+                return None
+            return (m > 0) == (side == r["home"])
+        out["model_side_covered_close"] = out.apply(cov_close, axis=1)
+    except Exception as e:  # never let a market-data hiccup block grading
+        print(f"  week {week}: market signals skipped ({e})")
+    return out
+
+
+def _wl(series):
+    s = series.dropna().astype(bool)
+    return f"{int(s.sum())}-{int((~s).sum())} ({s.mean():.1%})" if len(s) else "n/a"
+
+
+def summarize_market(df):
+    if "clv_pts" not in df.columns:
+        return
+    clv = pd.to_numeric(df["clv_pts"], errors="coerce").dropna()
+    if not clv.empty:
+        print(f"    CLV (pick line -> close, + = beat the close): avg {clv.mean():+.2f} pts | "
+              f"beat {(clv > 0).mean():.0%}, matched {(clv == 0).mean():.0%}, worse {(clv < 0).mean():.0%} (n={len(clv)})")
+    mv = pd.to_numeric(df["line_move_model"], errors="coerce")
+    g = df.assign(_mv=mv)
+    parts = []
+    for label, mask in (("toward model", g["_mv"] >= 0.5), ("no move", g["_mv"].abs() < 0.5),
+                        ("against model", g["_mv"] <= -0.5)):
+        parts.append(f"{label} {_wl(g.loc[mask, 'model_side_covered'])}")
+    print(f"    ATS by open->close move (tracked, not tiered): " + " | ".join(parts))
+    rlm = df[df["rlm_with_model"].notna()] if "rlm_with_model" in df.columns else df.iloc[0:0]
+    if not rlm.empty:
+        w = rlm[rlm["rlm_with_model"] == True]
+        a = rlm[rlm["rlm_with_model"] == False]
+        print(f"    RLM (tickets >=55% one way, line moved the other): with model {_wl(w['model_side_covered'])} | "
+              f"against model {_wl(a['model_side_covered'])}")
 
 
 def summarize(df, label):
@@ -165,6 +214,8 @@ def summarize(df, label):
             print(f"    Home 3+ edge rule (under observation, not confirmed): "
                   f"{int(rule['model_side_covered'].sum())}-{int((~rule['model_side_covered'].astype(bool)).sum())} "
                   f"({rule['model_side_covered'].mean():.1%})")
+
+    summarize_market(df)
 
     tot = df.dropna(subset=["total_error_model"])
     if not tot.empty:

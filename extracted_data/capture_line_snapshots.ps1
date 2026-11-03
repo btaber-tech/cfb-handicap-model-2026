@@ -53,6 +53,16 @@ try {
     $captureOutput = py -3.14 capture_line_snapshots.py --year 2026 2>&1 | Out-String
     Log "capture_line_snapshots.py output: $captureOutput"
 
+    # Public betting splits (Action Network ticket/money %) for RLM tracking.
+    # Must run before the scorecard, which reads it via market_signals.py.
+    # Own try/catch: an Action Network outage must not stop the rest of the run.
+    try {
+        $pbOutput = py -3.14 capture_public_betting.py --year 2026 2>&1 | Out-String
+        Log "capture_public_betting.py output: $pbOutput"
+    } catch {
+        Log "capture_public_betting.py FAILED (continuing): $($_.Exception.Message)"
+    }
+
     $scorecardOutput = py -3.14 build_scorecard.py --year 2026 2>&1 | Out-String
     Log "build_scorecard.py output: $scorecardOutput"
 
@@ -74,6 +84,7 @@ try {
 
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
+    Commit-AndPush @("extracted_data/public_betting_2026.csv") "Public betting snapshot"
     Commit-AndPush @("extracted_data/season_scorecard_2026.csv") "Scorecard update"
     Commit-AndPush @("extracted_data/first_td_picks_week*_2026.csv", "extracted_data/first_td_scorecard_2026.csv") "First-TD picks update"
     Commit-AndPush @("extracted_data/q1_matchups_week*_2026.csv", "extracted_data/q1_matchups_week*_2026.html") "Q1 Edge Board update"
