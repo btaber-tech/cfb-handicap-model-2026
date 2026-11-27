@@ -139,10 +139,29 @@ footer.notes code { font-family: var(--font-mono); background: var(--surface-2);
 }
 """
 
-CALLOUT = """
-    <strong>Reading this:</strong> margin and win prob are <strong>70% SP+'s weekly game projection</strong>
+OLD_BLEND_SWAPS = [
+    ("""margin and win prob are <strong>60% SP+'s weekly game projection</strong>
+    (Bill Connelly's public picks sheet), <strong>30% our preseason blend</strong> (SP+, FPI, our bottom-up
+    model, Steele) plus home field, and <strong>10% the market's opening spread</strong>.""",
+     """margin and win prob are <strong>70% SP+'s weekly game projection</strong>
     (Bill Connelly's public picks sheet) and <strong>30% our preseason blend</strong> (SP+, FPI, our bottom-up
-    model, Steele) plus home field. The home team is marked
+    model, Steele) plus home field."""),
+    ("""    <p>Model (from Nov 27, 2026): <code>margin = 0.6 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
+    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage) + 0.1 &times; median opening spread</code>
+    (Nov 3-26: 0.7 SP+ / 0.3 preseason, no opening-line term), win probability""",
+     """    <p>Model (from Nov 3, 2026): <code>margin = 0.7 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
+    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage)</code>, win probability"""),
+]
+
+try:
+    from build_consensus import CONSENSUS_CSS
+except Exception:
+    CONSENSUS_CSS = ""
+
+CALLOUT = """
+    <strong>Reading this:</strong> margin and win prob are <strong>60% SP+'s weekly game projection</strong>
+    (Bill Connelly's public picks sheet), <strong>30% our preseason blend</strong> (SP+, FPI, our bottom-up
+    model, Steele) plus home field, and <strong>10% the market's opening spread</strong>. The home team is marked
     <span class="home-tag" style="margin-left:0">HOME</span>. The <strong>ATS pick</strong> column is the
     model's side of the market spread, tiered:
     <span class="tier-badge strong" style="margin-top:0">STRONG</span> = SP+ and our preseason blend
@@ -166,8 +185,9 @@ CALLOUT = """
 """
 
 FOOTER = """
-    <p>Model (from Nov 3, 2026): <code>margin = 0.7 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
-    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage)</code>, win probability from a normal
+    <p>Model (from Nov 27, 2026): <code>margin = 0.6 &times; SP+ weekly projection + 0.3 &times; (avg(SP+, FPI,
+    bottom-up 2026 model, Steele Power Poll) + tiered home-field advantage) + 0.1 &times; median opening spread</code>
+    (Nov 3-26: 0.7 SP+ / 0.3 preseason, no opening-line term), win probability from a normal
     CDF (&sigma;=18.4). The SP+ weight replaced our score-based in-season rating, which ran below 50% ATS this season;
     0.6-0.8 SP+ weight was best for both accuracy and ATS in 2025 and 2026. Games with no SP+ row fall back to the
     old preseason + in-season formula. HFA: +2.9 at a true home site, +1.8 at a "neutral" site, +6.0 for
@@ -406,6 +426,12 @@ def main():
         for _, r in strong.iterrows())
     strong_html = (f'<section class="strong-list"><h2>STRONG ATS picks ({n_strong})</h2><ul>{strong_items}</ul></section>'
                    if n_strong else "")
+    try:  # SGPN / SP+ / model / sharp-side consensus board -- info only, never blocks the page
+        from build_consensus import consensus_section_html
+        consensus_html = consensus_section_html(year, week, esc)
+    except Exception as e:
+        print(f"consensus section skipped: {e}")
+        consensus_html = ""
 
     day_blocks = "\n\n".join(build_day_block(d, grp) for d, grp in df.groupby("date"))
     buy_games_html = build_buy_games(other_df, title)
@@ -416,7 +442,7 @@ def main():
     html_out = f"""<title>2026 CFB Model &mdash; {esc(title)}</title>
 <meta name="description" content="Model projections for 2026 college football {esc(title)}.">
 <style>
-{CSS}
+{CSS}{CONSENSUS_CSS}
 </style>
 
 <div class="wrap">
@@ -438,6 +464,8 @@ def main():
 
   {strong_html}
 
+  {consensus_html}
+
   <div class="col-legend">
     <span>Matchup</span><span title="Season straight-up record, in matchup order">W-L</span><span title="Season record against the spread, in matchup order">ATS</span><span>Model pick</span><span>Win prob</span><span title="Model's side of the market spread, with tier">ATS pick</span><span>Spread (mkt)</span><span>Total (mkt)</span>
   </div>
@@ -454,6 +482,11 @@ def main():
   </footer>
 </div>
 """
+
+    # Weeks built before the 2026-11-27 open-line blend describe the formula that actually made their picks.
+    if "model_source" in df.columns and not df["model_source"].astype(str).str.contains("open-line").any():
+        for new, old in OLD_BLEND_SWAPS:
+            html_out = html_out.replace(new, old)
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_out)

@@ -85,6 +85,9 @@ try {
     # Q1 Edge Board for the upcoming week, then the HTML page.
     Run-Step "build_q1_matchups.py"
     Run-Step "make_q1_page.py"
+    # SGPN expert picks (Tallysight widget) + the SGPN / SP+ / model / sharp-side consensus table.
+    Run-Step "fetch_sgpn_picks.py"
+    Run-Step "build_consensus.py"
 
     Set-Location $repoRoot
     Commit-AndPush @("extracted_data/line_snapshots_2026.csv") "Line snapshot"
@@ -93,6 +96,7 @@ try {
     Commit-AndPush @("extracted_data/season_scorecard_2026.csv") "Scorecard update"
     Commit-AndPush @("extracted_data/first_td_picks_week*_2026.csv", "extracted_data/first_td_scorecard_2026.csv") "First-TD picks update"
     Commit-AndPush @("extracted_data/q1_matchups_week*_2026.csv", "extracted_data/q1_matchups_week*_2026.html") "Q1 Edge Board update"
+    Commit-AndPush @("extracted_data/sgpn_picks_2026.csv", "extracted_data/consensus_2026.csv", "extracted_data/model_replay_2026/*.csv") "SGPN picks + consensus update"
 
     Log "Run complete"
 }

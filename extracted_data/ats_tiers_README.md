@@ -1,7 +1,11 @@
 # SP+ blend and ATS tiers (live from 2026-11-03, week 10)
 
 ## Margin formula
-`model_margin = 0.7 * SP+ weekly projected margin + 0.3 * (preseason blend + HFA)`
+`model_margin = 0.6 * SP+ weekly projected margin + 0.3 * (preseason blend + HFA) + 0.1 * median opening spread` (from 2026-11-27)
+
+**2026-11-27 change (user request, less SP+ / more market):** 0.1 of the weight moved from SP+ to the opening spread. If there's no open line, SP+ gets 0.7 again. Only the open line can move ATS picks, because blending in the current line never changes which side the model is on. 2026 wk1-12 replay: 13 ATS sides flipped all season. Overall 358-308 (53.8%) -> 359-316 (53.2%); STRONG 191-150 -> 191-151. MAE 12.00 -> 11.95. The change is neutral (within noise): no edge gained, none lost. The 0.7-only formula below is kept for history.
+
+Previous (2026-11-03 to 11-26): `model_margin = 0.7 * SP+ weekly projected margin + 0.3 * (preseason blend + HFA)`
 
 - **SP+ weekly projection:** from Bill Connelly's public SP+ picks sheet, pulled by `fetch_spplus_picks.py` into `spplus_picks_{year}.csv`.
   - The sheet's Week 0 and Week 1 both map to CFBD week 1.

@@ -26,9 +26,9 @@ For each FBS-vs-FBS game:
     in_season_ratings_2026.csv (build_in_season_ratings.py) if it exists
     and both teams have played at least one game -- see IN_SEASON_WEIGHT
     below for how much this counts vs. the preseason blend.
-  - model_margin (2026-11-03 onward) = SPPLUS_WEIGHT * SP+ weekly projected
+  - model_margin (2026-11-27 onward) = SPPLUS_WEIGHT (0.6) * SP+ weekly projected
     margin (Connelly's public picks sheet, fetch_spplus_picks.py) +
-    (1 - SPPLUS_WEIGHT) * (preseason_diff + HFA). The SP+ projection already
+    0.3 * (preseason_diff + HFA) + OPEN_LINE_WEIGHT (0.1) * median opening spread. The SP+ projection already
     includes home field. The one-pass SRS in-season rating is NO LONGER in
     the margin when SP+ has the game: on 2026 wk3-9 it ran 48.4% ATS with a
     negative edge/result correlation, while 0.6-0.8 SP+ weight was best for
@@ -102,7 +102,14 @@ TOTAL_CAL_A_INSEASON = 14.120
 TOTAL_CAL_B_INSEASON = 0.7308
 # Weight on SP+'s weekly projected margin (rest = preseason blend + HFA). Chosen
 # 2026-11-03 from 2025 (replica) + 2026 (live) tests: 0.6-0.8 best in both seasons.
-SPPLUS_WEIGHT = 0.7
+# 2026-11-27 (user request: less SP+, more market): 0.1 moved from SP+ to the
+# median OPENING spread. 2026 wk1-12 replay (n~676): ATS at projection line
+# 53.6% -> 53.2%, at close 53.1% -> 53.7%, MAE 12.00 -> 11.95 -- within noise,
+# not a demonstrated edge. Blending the CURRENT line would change no ATS side
+# (m' > L iff m > L), so the open is the only market input that can move picks.
+# Without an open line, falls back to SPPLUS_WEIGHT + OPEN_LINE_WEIGHT on SP+.
+SPPLUS_WEIGHT = 0.6
+OPEN_LINE_WEIGHT = 0.1
 
 
 def load_spplus(year):
@@ -325,9 +332,17 @@ def main():
         sp_home_margin = None
         if sp_row is not None:
             sp_home_margin = sp_row[0] if sp_row[1] == home else -sp_row[0]  # sheet's listed home may differ at neutral sites
-            if pd.notna(pre_margin):
-                model_margin = SPPLUS_WEIGHT * sp_home_margin + (1 - SPPLUS_WEIGHT) * pre_margin
-                model_source = "SP+ blend"
+            opens = sorted(l["spreadOpen"] for l in lines_by_id.get(g["id"], [])
+                           if l.get("spreadOpen") is not None)
+            open_margin = -opens[len(opens) // 2] if opens else None
+            pre_w = 1 - SPPLUS_WEIGHT - OPEN_LINE_WEIGHT
+            if pd.notna(pre_margin) and open_margin is not None:
+                model_margin = (SPPLUS_WEIGHT * sp_home_margin + pre_w * pre_margin
+                                + OPEN_LINE_WEIGHT * open_margin)
+                model_source = "SP+ / preseason / open-line blend"
+            elif pd.notna(pre_margin):
+                model_margin = (SPPLUS_WEIGHT + OPEN_LINE_WEIGHT) * sp_home_margin + pre_w * pre_margin
+                model_source = "SP+ blend (no open line)"
             else:
                 model_margin = sp_home_margin
                 model_source = "SP+ only (no preseason rating)"
